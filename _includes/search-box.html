@@ -1,0 +1,17 @@
+{% assign lang = page.lang | default: "ko" %}
+<div class="search-box">
+  <input
+    type="text"
+    class="search-input"
+    oninput="onSearchInput(this)"
+    placeholder="{{ site.data.i18n[lang].search-placeholder }}"
+  />
+  <button
+    disabled
+    data-tooltip="{{ site.data.i18n[lang].search-clear }}"
+    aria-label="clear search"
+    onclick="onSearchClear()"
+  >
+    {% include icon.html icon="fa-solid fa-magnifying-glass" %}
+  </button>
+</div>

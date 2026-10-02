@@ -1,0 +1,83 @@
+# site properties and page defaults
+title: SEARCH Lab
+subtitle: Space Exploration ARCHitecture Laboratory, UST
+description: SEARCH Lab designs mission architectures for the Moon, Mars, and beyond.
+header: images/header-bar.jpg
+footer: images/footer-bar.jpg
+show-subtitle: false
+proofer: false
+
+# site social media and other links
+links:
+  email: jpark@ust.ac.kr
+  orcid: 0000-0001-6227-0442
+  github: ust-search-lab
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files (korean by default)
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: ko
+  # english pages under /en
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
+
+# configure jekyll spaceship
+jekyll-spaceship:
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js

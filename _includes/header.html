@@ -1,0 +1,97 @@
+{% assign lang = page.lang | default: "ko" %}
+{% assign i18n = site.data.i18n[lang] %}
+
+{% assign image = page.header | default: site.header %}
+{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
+
+{% assign svg = "images/logo.svg" | file_exists %}
+{% assign png = "images/logo.png" | file_exists %}
+{% assign jpg = "images/logo.jpg" | file_exists %}
+{% assign logo = svg | default: png | default: jpg | default: nil %}
+
+{% assign big = false %}
+{% if page.url == "/" or page.url == "/en/" %}
+  {% assign big = true %}
+{% endif %}
+
+<header
+  class="background"
+  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  {% if dark == true or dark == false %}
+    data-dark="{{ dark }}"
+  {% endif %}
+  {% if big %}
+    data-big
+  {% endif %}
+>
+  {% comment %} home page banner image already shows the lab name {% endcomment %}
+  {% unless big %}
+  <a href="{{ i18n.home | relative_url }}" class="home">
+    {% if logo %}
+      <span class="logo">
+        {% if svg %}
+          {{ svg | file_read }}
+        {% else %}
+          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+        {% endif %}
+      </span>
+    {% endif %}
+    {% if site.logo-text != false %}
+      <span class="title-text" data-tooltip="{{ i18n.home-tooltip }}">
+        {% if site.title and site.show-title != false %}
+          <span class="title">{{ site.title }}</span>
+        {% endif %}
+        {% assign subtitle = i18n.subtitle | default: site.subtitle %}
+        {% if subtitle and site.show-subtitle != false %}
+          <span class="subtitle">{{ subtitle }}</span>
+        {% endif %}
+      </span>
+    {% endif %}
+  </a>
+  {% endunless %}
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    {% comment %} only show nav pages in the current page's language {% endcomment %}
+    {% assign navpages = site.pages
+      | where_exp: "p", "p.nav"
+      | where: "lang", lang
+      | sort: "nav.order"
+    %}
+    {% for p in navpages %}
+      <a
+        href="{{ p.dir | relative_url | uri_escape }}"
+        data-tooltip="{{ p.nav.tooltip | xml_escape }}"
+      >
+        {{ p.title }}
+      </a>
+    {% endfor %}
+
+    {% comment %}
+      language switch: page/member with same "ref" in the other language,
+      otherwise the other language's home page
+    {% endcomment %}
+    {% assign altlang = i18n.switch-lang %}
+    {% assign alturl = site.data.i18n[altlang].home %}
+    {% if page.ref %}
+      {% assign alt = site.pages
+        | concat: site.members
+        | where: "ref", page.ref
+        | where: "lang", altlang
+        | first
+      %}
+      {% if alt %}
+        {% assign alturl = alt.url %}
+      {% endif %}
+    {% endif %}
+    <a
+      href="{{ alturl | relative_url | uri_escape }}"
+      hreflang="{{ altlang }}"
+      lang="{{ altlang }}"
+      data-tooltip="{{ i18n.switch-tooltip }}"
+    >
+      {% include icon.html icon="fa-solid fa-language" %}{{ i18n.switch-text }}
+    </a>
+  </nav>
+</header>

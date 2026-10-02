@@ -1,0 +1,6 @@
+<!-- placeholder portrait for members without a photo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#e5e7eb" />
+  <circle cx="200" cy="155" r="70" fill="#9ca3af" />
+  <path d="M60 400 C60 290 120 245 200 245 C280 245 340 290 340 400 Z" fill="#9ca3af" />
+</svg>

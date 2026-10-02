@@ -1,0 +1,62 @@
+---
+---
+
+// footer background image opacity (template default for backgrounds is 0.25)
+$image-opacity: 1;
+// home: dark shade behind links/copyright, which sit at the bottom of the image
+$big-shade: rgba(0, 0, 0, 0.6);
+$big-shade-height: 220px;
+// home: below this width, content would cover the image's text, so it goes below the image
+$compact-big: 1000px;
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  line-height: var(--spacing);
+  box-shadow: var(--shadow);
+}
+
+footer.background:before {
+  opacity: $image-opacity;
+}
+
+// home page: footer shows the whole image, content at its bottom
+footer[data-big] {
+  justify-content: flex-end;
+  aspect-ratio: 1983 / 793; // pixel size of images/footer.jpg
+
+  @media (max-width: $compact-big) {
+    gap: 10px;
+    // 40% of width = image height (793 / 1983)
+    padding: calc(40% + 20px) 20px 20px;
+    aspect-ratio: auto;
+  }
+}
+
+footer[data-big].background:before {
+  background-image:
+    linear-gradient(to top, $big-shade, transparent $big-shade-height),
+    var(--image);
+
+  @media (max-width: $compact-big) {
+    background-image: var(--image);
+    background-size: 100% auto;
+    background-position: 50% 0;
+  }
+}
+
+footer a {
+  color: var(--text) !important;
+}
+
+footer a:hover {
+  color: var(--primary) !important;
+}
+
+footer .icon {
+  font-size: var(--xl);
+}
