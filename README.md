@@ -6,7 +6,7 @@
 
 Official website of SEARCH Lab (Space Exploration ARCHitecture Laboratory) at UST.
 
-Visit **[ust-search-lab.github.io](https://ust-search-lab.github.io/)**
+Visit **[ust-search-lab.github.io](https://ust-search-lab.github.io)**
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs) v1.4.0_
 
