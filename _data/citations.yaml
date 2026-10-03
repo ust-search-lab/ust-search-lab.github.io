@@ -15,6 +15,7 @@
   publisher: Journal of Astronomy and Space Sciences
   date: '2021-09-01'
   link: https://doi.org/hcmd28
+  category: journal
   orcid: 0000-0001-6227-0442
   plugin: orcid.py
   file: orcid.yaml
