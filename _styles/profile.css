@@ -1,0 +1,203 @@
+.profile-card {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  align-items: start;
+  gap: 40px;
+  width: 100%;
+  margin: 28px 0 40px;
+  color: var(--text);
+  text-align: left;
+}
+.profile-card.profile-card--without-photo {
+  grid-template-columns: minmax(0, 1fr);
+}
+.profile-card .profile-photo-wrapper {
+  min-width: 0;
+}
+.profile-card .profile-photo {
+  display: block;
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  aspect-ratio: 1;
+  margin: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+.profile-card .profile-information {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.profile-card .profile-name {
+  margin: 0 0 18px;
+  font-size: 1.8rem;
+  font-weight: var(--bold);
+  line-height: 1.25;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+.profile-card .profile-appointments {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.profile-card .profile-appointments li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  text-align: left;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+.profile-card .profile-appointments li + li {
+  margin-top: 8px;
+}
+.profile-card .profile-affiliation {
+  margin: 0;
+  line-height: 1.6;
+  text-align: left;
+}
+.profile-card .profile-summary {
+  margin: 18px 0 0;
+  line-height: 1.8;
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.profile-card .profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+.profile-card .profile-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 46px;
+  padding: 11px 18px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--radius-small);
+  background: var(--background);
+  color: var(--text);
+  font: inherit;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  transition: border-color var(--transition), background var(--transition);
+}
+.profile-card .profile-link:hover {
+  border-color: var(--primary);
+  background: var(--background-alt);
+  color: var(--text);
+}
+.profile-card .profile-link:focus-visible {
+  border-color: var(--primary);
+  outline: 3px solid var(--primary);
+  outline-offset: 4px;
+}
+.profile-card .profile-link.profile-link--primary {
+  border-color: transparent;
+  background: var(--button-background);
+  color: var(--button-text);
+  font-weight: var(--bold);
+}
+.profile-card .profile-link.profile-link--primary:hover {
+  background: var(--button-hover);
+}
+.profile-card[data-profile-mode=full] .profile-name {
+  font-size: 2.2rem;
+}
+
+main[data-page=jae-ik-park] p,
+main[data-page=jae-ik-park] li {
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+main[data-page=jae-ik-park] h2 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+/* education / career timeline on the PI profile */
+.profile-timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.profile-timeline li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 24px 30px;
+  line-height: 1.6;
+  text-align: left;
+}
+.profile-timeline li::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  background: var(--background);
+}
+.profile-timeline li::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  bottom: 2px;
+  left: 5px;
+  width: 2px;
+  background: var(--light-gray);
+}
+.profile-timeline li:last-child {
+  padding-bottom: 0;
+}
+.profile-timeline li:last-child::after {
+  display: none;
+}
+.profile-timeline .timeline-period {
+  display: block;
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: var(--bold);
+  font-variant-numeric: tabular-nums;
+}
+.profile-timeline .timeline-title {
+  display: block;
+  font-weight: var(--semi-bold);
+}
+.profile-timeline .timeline-detail {
+  display: block;
+  color: var(--dark-gray);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+  .profile-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    margin-top: 20px;
+  }
+  .profile-card .profile-photo-wrapper,
+  .profile-card .profile-information {
+    width: 100%;
+  }
+  .profile-card .profile-name {
+    font-size: 1.7rem;
+  }
+  .profile-card[data-profile-mode=full] .profile-name {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=profile.css.map */

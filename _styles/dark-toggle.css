@@ -1,20 +1,28 @@
 .dark-toggle {
   position: relative;
-  width: 40px;
-  height: 25px;
+  width: 48px;
+  height: 44px;
   margin: 0;
   border-radius: 999px;
-  background: var(--primary);
+  background: transparent;
   appearance: none;
   transition: background var(--transition);
+}
+
+.dark-toggle:before {
+  content: "";
+  position: absolute;
+  inset: 9px 0;
+  border-radius: inherit;
+  background: var(--primary);
 }
 
 .dark-toggle:after {
   content: "\f185";
   position: absolute;
-  left: 12px;
+  left: 14px;
   top: 50%;
-  color: var(--text);
+  color: var(--button-text);
   font-size: 15px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -24,7 +32,7 @@
 
 .dark-toggle:checked:after {
   content: "\f186";
-  left: calc(100% - 12px);
+  left: calc(100% - 14px);
 }
 
 /*# sourceMappingURL=dark-toggle.css.map */

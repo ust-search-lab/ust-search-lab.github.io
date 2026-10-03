@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Lunar and planetary mission geometry</title>
+  <desc id="desc">Earth, an orbiter, and a surface explorer form a mission. Blue dashed lines show unobstructed communication paths. A teal field of view meets the visible surface of the Moon or a planet. Mission elements and line-of-sight visibility constrain the observation plan. The orbit is a conceptual projected ellipse, and distances are not to scale.</desc>
+  <defs>
+    <marker id="step-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L8 5L1 9" fill="none" stroke="#3478CE" stroke-width="1.8" stroke-linejoin="round"/></marker>
+  </defs>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect width="960" height="420" rx="20" fill="#F7F9FC"/>
+    <text x="32" y="43" font-size="26" font-weight="700" fill="#183153">Lunar and planetary mission geometry</text>
+    <path d="M32 62H928" stroke="#E4EDF7" stroke-width="2"/>
+    <!-- Orbiter: ellipse parameter 225 degrees, centered at (714, 228). -->
+    <ellipse cx="714" cy="228" rx="176" ry="108" fill="none" stroke="#B8C9DB" stroke-width="2" stroke-dasharray="6 7"/>
+    <text x="823" y="305" font-size="20" fill="#64748B">Orbit</text>
+    <circle cx="114" cy="236" r="40" fill="#D7E9FC" stroke="#3478CE" stroke-width="2"/>
+    <path d="M88 215Q106 203 117 216L111 232L95 232Z M120 240L140 234L143 252L125 264Z" fill="#74BEBC"/>
+    <text x="114" y="297" text-anchor="middle" font-size="20" font-weight="700" fill="#183153">Earth</text>
+    <circle cx="714" cy="228" r="68" fill="#E8C8AF" stroke="#A76112" stroke-width="2"/>
+    <circle cx="737" cy="247" r="13" fill="#D6AE90"/>
+    <circle cx="720" cy="197" r="8" fill="#D6AE90"/>
+    <circle cx="747" cy="214" r="7" fill="#D6AE90"/>
+    <text x="714" y="322" text-anchor="middle" font-size="20" font-weight="700" fill="#183153">Moon / planet</text>
+    <!-- Both footprint edges end on the visible hemisphere, at 195 and 185 degrees. -->
+    <path d="M589.5492 151.6325L648.3170 210.4003A68 68 0 0 0 646.2588 222.0734Z" fill="#008D96" fill-opacity="0.12"/>
+    <path d="M589.5492 151.6325L648.3170 210.4003 M589.5492 151.6325L646.2588 222.0734" fill="none" stroke="#008D96" stroke-width="2"/>
+    <path d="M648.3170 210.4003A68 68 0 0 0 646.2588 222.0734" fill="none" stroke="#008D96" stroke-width="5" stroke-linecap="round"/>
+    <!-- Earth station is on the visible surface; the relay ends at the explorer. -->
+    <path d="M153.3850 229.0127L589.5492 151.6325L658.8457 172.8457" fill="none" stroke="#3478CE" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round"/>
+    <circle cx="153.3850" cy="229.0127" r="4" fill="#183153"/>
+    <text x="346" y="168" text-anchor="middle" font-size="20" font-weight="600" fill="#3478CE">Earth–orbiter link</text>
+    <g transform="translate(589.5492 151.6325)">
+      <path d="M-13-9H-43V9H-13 M13-9H43V9H13" fill="#B7DCEF" stroke="#3478CE" stroke-width="2"/>
+      <path d="M-28-9V9 M28-9V9" stroke="#3478CE" stroke-width="2"/>
+      <rect x="-13" y="-13" width="26" height="26" rx="3" fill="#F7F9FC" stroke="#183153" stroke-width="2"/>
+      <circle r="4" fill="#008D96"/>
+    </g>
+    <text x="568" y="110" text-anchor="middle" font-size="20" font-weight="700" fill="#183153">Orbiter</text>
+    <!-- Explorer feet lie on the surface tangent at 225 degrees. -->
+    <g transform="translate(665.9167 179.9167) rotate(-45)">
+      <path d="M-10-17H10L13-7H-13Z" fill="#F7F9FC" stroke="#183153" stroke-width="2"/>
+      <path d="M-8-7L-15 0H-20 M8-7L15 0H20 M0-17V-25" fill="none" stroke="#183153" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="-25" r="3" fill="#A76112"/>
+    </g>
+    <path d="M661 161L703 133" fill="none" stroke="#A76112" stroke-width="1.8"/>
+    <rect x="708" y="108" width="179" height="26" rx="4" fill="#F7F9FC"/>
+    <text x="715" y="130" font-size="20" font-weight="700" fill="#A76112">Surface explorer</text>
+    <path d="M647.0331 216.1919L622 261H442" fill="none" stroke="#008D96" stroke-width="1.8" stroke-linejoin="round"/>
+    <rect x="436" y="264" width="217" height="28" rx="4" fill="#F7F9FC"/>
+    <text x="442" y="285" font-size="20" font-weight="600" fill="#008D96">Observation footprint</text>
+    <path d="M230 247H277" stroke="#3478CE" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="289" y="254" font-size="20" fill="#3478CE">Communication</text>
+    <path d="M230 282H277" stroke="#008D96" stroke-width="3"/>
+    <text x="289" y="289" font-size="20" fill="#008D96">Observation</text>
+    <rect x="32" y="348" width="896" height="39" rx="10" fill="#E4EDF7"/>
+    <text x="169" y="374" text-anchor="middle" font-size="20" font-weight="600" fill="#183153">Mission elements</text>
+    <path d="M283 368H322" stroke="#3478CE" stroke-width="2" marker-end="url(#step-arrow)"/>
+    <text x="470" y="374" text-anchor="middle" font-size="20" font-weight="600" fill="#183153">Line-of-sight visibility</text>
+    <path d="M617 368H656" stroke="#3478CE" stroke-width="2" marker-end="url(#step-arrow)"/>
+    <text x="791" y="374" text-anchor="middle" font-size="20" font-weight="600" fill="#183153">Observation plan</text>
+    <text x="32" y="408" font-size="18" fill="#64748B">Concept geometry · Visible links only · Not to scale</text>
+  </g>
+</svg>

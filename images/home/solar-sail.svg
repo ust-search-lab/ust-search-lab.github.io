@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="home-sail-title home-sail-desc">
+  <title id="home-sail-title">Solar sail deployment and photon propulsion</title>
+  <desc id="home-sail-desc">A fully deployed square solar sail is seen in perspective with all four corners and four supporting booms visible. Parallel incident sunlight approaches from the left. Solar radiation pressure is produced by photon momentum, not solar wind. No thrust vector or trajectory is implied. This is a conceptual illustration, not a scale diagram.</desc>
+  <defs>
+    <marker id="home-sail-photon" viewBox="0 0 12 12" refX="10" refY="6" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#62d7e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="640" height="360" fill="#071b32"/>
+  <g fill="none" stroke="#62d7e6" stroke-width="2.5" stroke-linecap="round" marker-end="url(#home-sail-photon)">
+    <path d="M64 126H237"/><path d="M44 180H171"/><path d="M64 234H208"/>
+  </g>
+  <!-- A projected flat square, with its center at the intersection of the diagonals. -->
+  <path d="M345 46L544 168L375 314L176 192Z" fill="#e7f2fc" fill-opacity=".07" stroke="#e7f2fc" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M360 180L345 46L544 168Z" fill="#e7f2fc" fill-opacity=".23"/>
+  <path d="M360 180L544 168L375 314Z" fill="#6d9dfa" fill-opacity=".2"/>
+  <path d="M360 180L375 314L176 192Z" fill="#62d7e6" fill-opacity=".15"/>
+  <path d="M360 180L176 192L345 46Z" fill="#e7f2fc" fill-opacity=".12"/>
+  <path d="M345 46L375 314M176 192L544 168" fill="none" stroke="#62d7e6" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#e7f2fc">
+    <circle cx="345" cy="46" r="4"/><circle cx="544" cy="168" r="4"/><circle cx="375" cy="314" r="4"/><circle cx="176" cy="192" r="4"/>
+  </g>
+  <path d="M359 166L374 180L361 194L346 180Z" fill="#071b32" stroke="#e7f2fc" stroke-width="2.5"/>
+</svg>

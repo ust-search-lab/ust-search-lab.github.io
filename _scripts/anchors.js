@@ -13,7 +13,12 @@
       const link = document.createElement("a");
       link.classList.add("icon", "fa-solid", "fa-link", "anchor");
       link.href = "#" + heading.id;
-      link.setAttribute("aria-label", "link to this section");
+      link.setAttribute(
+        "aria-label",
+        document.documentElement.lang.startsWith("ko")
+          ? "이 항목으로 바로가기"
+          : "Link to this section"
+      );
       heading.append(link);
 
       // if first heading in the section, move id to parent section
@@ -30,10 +35,15 @@
     const target = document.getElementById(id);
 
     if (!target) return;
-    const offset = document.querySelector("header").clientHeight || 0;
+    const header = document.querySelector("header");
+    // The large home banner scrolls away; only the compact sticky header
+    // needs clearance above a section reached through an anchor link.
+    const offset = header && !header.hasAttribute("data-big") ? header.clientHeight : 0;
     window.scrollTo({
       top: target.getBoundingClientRect().top + window.scrollY - offset,
-      behavior: "smooth",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "auto"
+        : "smooth",
     });
   };
 

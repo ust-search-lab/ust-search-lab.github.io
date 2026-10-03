@@ -1,10 +1,10 @@
 section {
-  padding: 40px max(40px, (100% - 1000px) / 2);
+  padding: var(--section-space) max(var(--page-gutter), (100% - var(--page-width)) / 2);
   transition: background var(--transition), color var(--transition);
 }
 
 section[data-size=wide] {
-  padding: 40px;
+  padding: var(--section-space) var(--page-gutter);
 }
 
 section[data-size=full] {
@@ -22,6 +22,14 @@ section[data-size=full] img {
 
 main > section:last-of-type {
   flex-grow: 1;
+}
+
+main > section > :first-child:not(.page-title) {
+  margin-top: 0;
+}
+
+main > section > :last-child {
+  margin-bottom: 0;
 }
 
 main > section:nth-of-type(odd) {

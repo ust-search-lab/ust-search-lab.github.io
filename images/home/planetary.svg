@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="home-planetary-title home-planetary-desc">
+  <title id="home-planetary-title">Planetary exploration and orbital missions</title>
+  <desc id="home-planetary-desc">A spacecraft travels around a cratered moon on a tilted orbital path. The spacecraft is placed on the path, which remains clear of the moon. This is a conceptual illustration, not a trajectory or scale diagram.</desc>
+  <rect width="640" height="360" fill="#071b32"/>
+  <g fill="#e7f2fc" opacity=".45">
+    <circle cx="103" cy="87" r="2"/><circle cx="543" cy="91" r="2"/><circle cx="532" cy="290" r="2"/>
+  </g>
+  <ellipse cx="320" cy="188" rx="222" ry="107" transform="rotate(-16 320 188)" fill="none" stroke="#6d9dfa" stroke-width="2.5" opacity=".7"/>
+  <circle cx="320" cy="188" r="86" fill="#df9c79" fill-opacity=".14" stroke="#df9c79" stroke-width="2.5"/>
+  <path d="M338 104C290 122 274 211 315 274A86 86 0 0 1 338 104Z" fill="#df9c79" fill-opacity=".22"/>
+  <g fill="#071b32" fill-opacity=".35" stroke="#df9c79" stroke-opacity=".4" stroke-width="2">
+    <ellipse cx="288" cy="157" rx="17" ry="15"/>
+    <circle cx="338" cy="214" r="23"/>
+    <circle cx="354" cy="152" r="9"/>
+    <ellipse cx="287" cy="223" rx="9" ry="12"/>
+  </g>
+  <!-- The spacecraft center is the leftmost point of the rotated ellipse. -->
+  <g transform="translate(106.600 249.191) rotate(-16)">
+    <path d="M-17 0H-42M17 0H42" stroke="#e7f2fc" stroke-width="3"/>
+    <g fill="#6d9dfa" fill-opacity=".2" stroke="#6d9dfa" stroke-width="2.5">
+      <path d="M-62-16H-24V16H-62Z M24-16H62V16H24Z"/>
+      <path d="M-43-16V16M43-16V16"/>
+    </g>
+    <rect x="-15" y="-18" width="30" height="36" rx="4" fill="#071b32" stroke="#e7f2fc" stroke-width="2.5"/>
+    <path d="M-10-18Q0-34 10-18Z" fill="#62d7e6" fill-opacity=".28" stroke="#62d7e6" stroke-width="2"/>
+    <path d="M0-24V-33" stroke="#62d7e6" stroke-width="2"/>
+  </g>
+</svg>

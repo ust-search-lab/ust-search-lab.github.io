@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="home-cubesat-title home-cubesat-desc">
+  <title id="home-cubesat-title">CubeSat mission design and in-orbit demonstration</title>
+  <desc id="home-cubesat-desc">A small rectangular satellite with a compact instrument aperture and two deployed solar panel wings is shown above a curved orbital path. No particular CubeSat unit size is specified. This is a conceptual illustration, not a scale diagram or an actual orbit.</desc>
+  <rect width="640" height="360" fill="#071b32"/>
+  <g fill="#e7f2fc" opacity=".4">
+    <circle cx="98" cy="72" r="2"/><circle cx="512" cy="70" r="2"/>
+  </g>
+  <ellipse cx="330" cy="190" rx="241" ry="105" transform="rotate(-14 330 190)" fill="none" stroke="#6d9dfa" stroke-width="2.5" opacity=".5"/>
+  <path d="M261 191L289 202M404 210L428 218" fill="none" stroke="#e7f2fc" stroke-width="4"/>
+  <g fill="#071b32" stroke="#6d9dfa" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M127 116L261 167V224L127 173Z"/>
+    <path d="M428 179L562 230V287L428 236Z"/>
+  </g>
+  <g fill="#6d9dfa" fill-opacity=".18">
+    <path d="M127 116L261 167V224L127 173Z"/>
+    <path d="M428 179L562 230V287L428 236Z"/>
+  </g>
+  <g fill="none" stroke="#6d9dfa" stroke-width="1.6" opacity=".85">
+    <path d="M172 133V190M216 150V207M127 144.5L261 195.5"/>
+    <path d="M473 196V253M517 213V270M428 207.5L562 258.5"/>
+  </g>
+  <g stroke="#e7f2fc" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M287 126L335 104L406 133L358 155Z" fill="#e7f2fc" fill-opacity=".2"/>
+    <path d="M287 126L358 155V268L287 239Z" fill="#071b32"/>
+    <path d="M287 126L358 155V268L287 239Z" fill="#e7f2fc" fill-opacity=".09"/>
+    <path d="M358 155L406 133V246L358 268Z" fill="#071b32"/>
+    <path d="M358 155L406 133V246L358 268Z" fill="#62d7e6" fill-opacity=".12"/>
+  </g>
+  <path d="M301 151L344 168V220L301 203Z" fill="#6d9dfa" fill-opacity=".18" stroke="#6d9dfa" stroke-width="2"/>
+  <ellipse cx="380" cy="184" rx="11" ry="15" transform="rotate(18 380 184)" fill="#071b32" stroke="#62d7e6" stroke-width="2.5"/>
+  <path d="M299 232L346 251" stroke="#e7f2fc" stroke-opacity=".55" stroke-width="2"/>
+</svg>

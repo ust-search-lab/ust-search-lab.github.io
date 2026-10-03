@@ -58,8 +58,8 @@ header a {
 .nav-toggle {
   display: none;
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   margin: 0;
   color: var(--text);
   appearance: none;
@@ -82,39 +82,54 @@ header a {
   content: "\f00d";
 }
 
-nav {
+.site-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px;
   font-family: var(--heading);
+  font-size: 0.9rem;
   text-transform: uppercase;
 }
 
-nav > a {
-  padding: 5px;
+.site-nav > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 8px 10px;
+  border-radius: var(--radius-small);
 }
 
-nav > a:hover {
+.site-nav > a:hover {
   color: var(--primary);
+}
+
+.site-nav > a[aria-current] {
+  color: var(--primary);
+  box-shadow: inset 0 -2px 0 var(--primary);
+}
+
+.site-nav > .language-switch {
+  text-transform: none;
 }
 
 header.background:before {
   opacity: 1;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   header:not([data-big]) {
     justify-content: flex-end;
   }
   header:not([data-big]) .nav-toggle {
     display: flex;
   }
-  header:not([data-big]) .nav-toggle:not(:checked) + nav {
+  header:not([data-big]) .nav-toggle:not(:checked) + .site-nav {
     display: none;
   }
-  header:not([data-big]) nav {
+  header:not([data-big]) .site-nav {
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
@@ -127,7 +142,7 @@ header[data-big] {
   aspect-ratio: 1983/793;
   top: unset;
 }
-header[data-big] nav {
+header[data-big] .site-nav {
   justify-content: flex-end;
 }
 @media (max-width: 1000px) {
@@ -137,15 +152,15 @@ header[data-big] nav {
   header[data-big] .nav-toggle {
     display: flex;
   }
-  header[data-big] .nav-toggle:not(:checked) + nav {
+  header[data-big] .nav-toggle:not(:checked) + .site-nav {
     display: none;
   }
-  header[data-big] nav {
+  header[data-big] .site-nav {
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
   }
-  header[data-big] nav {
+  header[data-big] .site-nav {
     position: absolute;
     top: 60px;
     right: 10px;

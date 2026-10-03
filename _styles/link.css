@@ -2,6 +2,12 @@ a {
   color: var(--primary);
   transition: color var(--transition);
   overflow-wrap: break-word;
+  text-underline-offset: 3px;
+}
+
+:where(a, button, input, summary, video):focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 4px;
 }
 
 a:hover {

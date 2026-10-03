@@ -1,6 +1,8 @@
 p {
   margin: 20px 0;
-  text-align: justify;
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
   line-height: var(--spacing);
 }
 

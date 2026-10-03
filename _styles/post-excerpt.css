@@ -5,10 +5,11 @@
 .post-excerpt {
   display: flex;
   margin: 20px 0;
+  border: 1px solid var(--light-gray);
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 .post-excerpt-image {
