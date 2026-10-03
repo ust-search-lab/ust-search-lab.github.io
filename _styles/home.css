@@ -91,6 +91,59 @@ main[data-page=home] .home-section-heading {
 main[data-page=home] .home-section-heading > p {
   font-size: 0.95rem;
 }
+main[data-page=home] .home-news {
+  margin-top: 40px;
+  padding: 24px 28px;
+  border: 1px solid var(--light-gray);
+  border-left: 3px solid var(--primary);
+  border-radius: 0 var(--rounded) var(--rounded) 0;
+  background: var(--background-alt);
+}
+main[data-page=home] .home-news-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px 24px;
+  margin-bottom: 12px;
+}
+main[data-page=home] .home-news-heading h2 {
+  font-size: 1.15rem;
+}
+main[data-page=home] .home-news-heading .home-text-link {
+  font-size: 0.9rem;
+}
+main[data-page=home] .home-news-item {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 24px;
+  padding: 18px 0;
+  border-top: 1px solid var(--light-gray);
+}
+main[data-page=home] .home-news-item:last-child {
+  padding-bottom: 0;
+}
+main[data-page=home] .home-news-item time {
+  padding-top: 3px;
+  color: var(--dark-gray);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+main[data-page=home] .home-news-copy h3 {
+  font-size: 1.1rem;
+}
+main[data-page=home] .home-news-copy h3 a {
+  color: var(--ink);
+}
+main[data-page=home] .home-news-copy h3 a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+main[data-page=home] .home-news-copy p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
 main[data-page=home] .home-method-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -305,6 +358,17 @@ main[data-page=home] .home-join .home-text-link {
   main[data-page=home] .home-intro, main[data-page=home] .home-section-heading {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+  main[data-page=home] .home-news {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  main[data-page=home] .home-news-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+  main[data-page=home] .home-news-item time {
+    padding-top: 0;
   }
   main[data-page=home] .home-section-heading {
     margin-bottom: 24px;
