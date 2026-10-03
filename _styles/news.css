@@ -15,10 +15,6 @@
   white-space: nowrap;
 }
 
-.news-new-badge[hidden] {
-  display: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .news-new-badge {
     animation: news-new-pulse 1.6s ease-in-out 3;
