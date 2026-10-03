@@ -29,12 +29,12 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
   Below the introduction, each home page displays the three latest posts in
   its language, including publication dates, titles, and excerpts linking to
   the full announcements. Adding a post to `_posts/` updates this list automatically.
-  Home announcements and the News list show a **NEW** badge for 30 days after
-  publication (`news_new_days` in `_config.yaml`). `_includes/news-new-badge.html`
-  supplies the initial state, and `_scripts/news.js` expires cached badges using
-  the visitor's clock. The badge pulses three times, then stays still; reduced
-  motion preferences disable the animation. NEW indicates recent publication,
-  not whether a visitor has read the post.
+  Home announcements and the News list show a **NEW** badge only on the latest
+  published post in the current language. `_includes/news-new-badge.html` uses
+  the publication-date order and matches the selected post by URL. The badge
+  moves to the next new post when the site is rebuilt, with no time-based expiry.
+  It pulses three times, then stays still; reduced motion preferences disable
+  the animation. NEW identifies the latest post, not a visitor's read status.
   The home page proceeds from research areas to Research Radar and the student invitation;
   KARI ground-test videos appear on the Research pages.
 - Publications combine citations generated from `_data/orcid.yaml` and

@@ -21,7 +21,7 @@
       <article class="home-news-item">
         <time datetime="{{ news_post.date | date_to_xmlschema }}">{{ news_post.date | date: home_ui.post-date-format }}</time>
         <div class="home-news-copy">
-          <h3><a href="{{ news_post.url | relative_url }}">{{ news_post.title | escape }}</a>{% include news-new-badge.html date=news_post.date %}</h3>
+          <h3><a href="{{ news_post.url | relative_url }}">{{ news_post.title | escape }}</a>{% include news-new-badge.html url=news_post.url %}</h3>
           {% if news_excerpt != "" %}<p>{{ news_excerpt | truncate: 240 }}</p>{% endif %}
         </div>
       </article>

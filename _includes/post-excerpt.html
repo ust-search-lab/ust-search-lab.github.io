@@ -31,7 +31,7 @@
 
     <div class="post-excerpt-text">
       {% assign post_heading = include.heading | default: 'h3' %}
-      <{{ post_heading }} class="post-excerpt-title"><a href="{{ url }}">{{ title | escape }}</a>{% include news-new-badge.html date=post.date %}</{{ post_heading }}>
+      <{{ post_heading }} class="post-excerpt-title"><a href="{{ url }}">{{ title | escape }}</a>{% include news-new-badge.html url=post.url %}</{{ post_heading }}>
 
       {%
         include post-info.html

@@ -1,7 +1,7 @@
 ko:
-  identity: SEARCH LAB · UST
-  headline: 달·행성과 심우주를 향한
-  headline_accent: 우주탐사 임무설계
+  identity: UST · 우주탐사 아키텍처 연구실
+  headline: SEARCH Lab에 오신 것을
+  headline_accent: 환영합니다.
   research_path: research/
   news_title: 공지사항
   news_all: 공지사항 전체 보기
@@ -10,7 +10,7 @@ ko:
   applications_eyebrow: RESEARCH AREAS
   applications_title: 다섯 분야로 이어지는 탐사 연구
   topic_link: 연구내용 보기
-  join_eyebrow: JOIN SEARCH LAB
+  join_eyebrow: JOIN SEARCH Lab
   join_title: 다음 탐사 임무를 함께 설계합니다
   join_description: 우주탐사 연구에 함께할 석·박사과정 학생을 모집합니다.
   students_link: 학생 연구자 안내
@@ -18,9 +18,9 @@ ko:
   contact_link: 연락처
   contact_path: contact/
 en:
-  identity: SEARCH LAB · UST
-  headline: Designing missions to the
-  headline_accent: Moon, Mars, and beyond
+  identity: UST · SPACE EXPLORATION ARCHITECTURE LABORATORY
+  headline: Welcome to
+  headline_accent: SEARCH Lab
   research_path: en/research/
   news_title: Latest news
   news_all: View all news
@@ -29,7 +29,7 @@ en:
   applications_eyebrow: RESEARCH AREAS
   applications_title: Five areas of exploration research
   topic_link: Explore this area
-  join_eyebrow: JOIN SEARCH LAB
+  join_eyebrow: JOIN SEARCH Lab
   join_title: Help design the next exploration mission
   join_description: We welcome prospective master's and doctoral students interested in space exploration research.
   students_link: For students

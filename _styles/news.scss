@@ -18,10 +18,6 @@
   white-space: nowrap;
 }
 
-.news-new-badge[hidden] {
-  display: none;
-}
-
 // A brief pulse draws attention, then leaves a readable, still badge.
 @media (prefers-reduced-motion: no-preference) {
   .news-new-badge {
