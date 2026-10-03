@@ -9,7 +9,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-newspaper" %}News
 {: .page-title }
 
-News and updates from SEARCH Lab.
+Announcements and news from SEARCH Lab.
 {: .page-intro }
 
 {% include section.html %}

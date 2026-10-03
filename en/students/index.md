@@ -23,31 +23,26 @@ SEARCH Lab helps students develop the ability to define and solve space mission 
 Early study builds on each student's academic background and research interests. The main areas are listed below; specific topics and their sequence are adapted to the student's research.
 
 - **Orbital mechanics and astrodynamics**: the two-body problem, orbital elements, orbital transfers and perturbations, satellite orbit analysis, and spacecraft trajectory design
-- **Mission design and spacecraft systems**: space exploration architecture, satellite and exploration spacecraft systems, mission requirements analysis, and concepts of operations
+- **Mission design and spacecraft systems**: mission architecture, satellite and exploration spacecraft systems, mission requirements analysis, and concepts of operations
 - **Numerical analysis and programming**: numerical integration, optimization and optimal control, and implementation of analytical models and simulation code
 
-Students use tools such as Python, MATLAB, STK, and GMAT as appropriate to the problem. Exercises in orbit propagation, orbital transfers, communications visibility, and trajectory optimization help students learn to assess model assumptions and check whether their results are valid.
+Students use Python, MATLAB, STK, and GMAT as appropriate to the problem. Exercises in orbit propagation, orbital transfers, communications visibility, and orbit and trajectory optimization help students learn to assess model assumptions and check whether their results are valid.
 
 ## Choosing and Developing a Research Topic
 
-Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. Specific research questions can be developed in the following areas.
+Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. They can use mission architecture, orbit analysis, numerical optimization, and optimal control to develop specific questions in the following areas.
 
-- Space exploration architecture and lunar and planetary mission design
-- Deep-space trajectory design, optimization, and optimal control
-- Satellite orbit and constellation mission analysis
-- Space communications relay mission analysis and deep-space optical communications
-- Planetary entry, descent, and landing technology
-- Atmospheric re-entry and thermal protection systems
-- CubeSat-class satellite development and in-orbit demonstration mission design
-- Solar sail-based deep-space mission design
+{% for topic in site.data.research-topics.applications -%}
+- [{{ topic.en.title }}]({{ '/en/research/' | relative_url }}#{{ topic.id }})
+{% endfor %}
 
-For example, a project in deep-space optical communications might involve calculating a link budget and estimating data return based on communications visibility along a trajectory and weather conditions at optical ground stations. See the [Research page]({{ '/en/research/' | relative_url }}) for descriptions of each area.
+For example, a project might compare coverage and revisit intervals for different satellite counts and constellation configurations, or evaluate contact opportunities and data return for deep-space optical communications. Follow each link for details of the research area.
 
 Once a topic is selected, students refine their objectives and performance metrics through literature review and preliminary analysis. They then build analytical and simulation models, examine how design variables affect performance, and document the validity and limitations of their results.
 
 ## Research Projects and In-Space Demonstration
 
-Students may participate in national R&D programs at the Korea Aerospace Research Institute (KARI), depending on project availability and development schedules. Responsibilities reflect project requirements and the student's research topic, and may include mission design, system analysis, performance verification, development of concepts of operations, simulation model development, and technical documentation.
+Students may participate in national R&D programs at the Korea Aerospace Research Institute (KARI), depending on project availability and development schedules. Responsibilities reflect project requirements and the student's research topic, and may include mission design, systems analysis, performance verification, development of concepts of operations, simulation model development, and technical documentation.
 
 Students involved in CubeSat-class satellite development or in-space demonstration missions may gain experience in hardware development, ground testing, operational scenario development, and performance verification in space, depending on the development stage. These activities help students understand how design and analysis lead to fabrication, testing, and operations.
 

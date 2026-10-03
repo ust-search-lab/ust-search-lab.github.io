@@ -44,6 +44,12 @@
       {% if publication_entry.date %}<span>{{ publication_entry.date | escape }}</span>{% endif %}
       {% if publication_entry.id and publication_entry.doi == nil %}<span>{{ publication_entry.id | escape }}</span>{% endif %}
     {% endif %}
+    {% if publication_entry.status == "accepted" %}
+      <span class="publication-scope">{% if include.lang == "en" %}Accepted · awaiting publication{% else %}게재 승인 · 출판 대기{% endif %}</span>
+      {% if publication_entry.accepted_date %}
+        <span>{% if include.lang == "en" %}Accepted on {% else %}승인일 {% endif %}<time datetime="{{ publication_entry.accepted_date | escape }}">{{ publication_entry.accepted_date | date: '%Y.%m.%d' }}</time></span>
+      {% endif %}
+    {% endif %}
   </div>
   {% if publication_entry.doi %}
     <div class="publication-entry-identifiers"><a href="https://doi.org/{{ publication_entry.doi | escape }}">DOI: {{ publication_entry.doi | escape }}</a></div>

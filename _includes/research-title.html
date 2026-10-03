@@ -1,0 +1,4 @@
+{%- assign title_lang = page.lang | default: 'ko' -%}
+{%- assign title_group = include.group | default: 'applications' -%}
+{%- assign title_topic = site.data.research-topics[title_group] | where: 'id', include.id | first -%}
+{{- title_topic[title_lang].title -}}

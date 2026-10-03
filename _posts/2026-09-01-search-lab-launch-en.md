@@ -11,13 +11,13 @@ excerpt: Following Dr. Jae-ik Park's appointment as Associate Professor in Aeros
 
 **Dr. Jae-ik Park was appointed Associate Professor in Aerospace System Engineering at the University of Science and Technology (UST), effective September 1, 2026.** To mark this new beginning, we are pleased to announce the launch of **SEARCH Lab (Space Exploration ARCHitecture Laboratory)** and its website.
 
-SEARCH Lab draws on orbital mechanics and astrodynamics to study exploration missions to the Moon, planets, and deep space. We develop mission concepts and trajectories, assess mission feasibility through optimization and systems analysis, and aim to connect research with in-space demonstration.
+SEARCH Lab draws on orbital mechanics and astrodynamics to study missions from Earth orbit to the Moon, planets, and deep space. We develop mission concepts, orbits, and trajectories, assess mission feasibility through optimization and systems analysis, and aim to connect research with in-space demonstration.
 
 The website introduces [the lab]({{ '/en/about/' | relative_url }}), our [research areas]({{ '/en/research/' | relative_url }}), [research outputs]({{ '/en/publications/' | relative_url }}), and information for prospective students. We will share the lab's activities and news here.
 
-## Join us in space exploration research
+## Join us in space mission research
 
-We welcome students interested in pursuing master's or doctoral research in space mission design. Visit [For Students]({{ '/en/students/' | relative_url }}) to learn about foundational study, the research process, and degree-level goals.
+We welcome students interested in pursuing master's or doctoral research in space mission design and technology demonstration. Visit [For Students]({{ '/en/students/' | relative_url }}) to learn about foundational study, the research process, and degree-level goals.
 
 If you are interested in graduate study and research at SEARCH Lab, please [contact us]({{ '/en/contact/' | relative_url }}) with a brief introduction to your research interests and plans for graduate study.
 

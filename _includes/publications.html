@@ -1,5 +1,5 @@
 {% assign publications_lang = page.lang | default: "ko" %}
-{% assign curated_publications = site.data.legacy-publications | concat: site.data.discovered-publications | concat: site.data.ip-publications %}
+{% assign curated_publications = site.data.legacy-publications | concat: site.data.discovered-publications | concat: site.data.ip-publications | concat: site.data.accepted-publications %}
 {% assign publication_records = site.data.citations | publication_records: curated_publications %}
 {% assign publication_categories = "journal,conference,patent,software,intellectual-property" | split: "," %}
 {% assign publication_anchors = "journals,conferences,patents,software,trademarks-designs" | split: "," %}
@@ -22,12 +22,30 @@
 
   {% for publication_category in publication_categories %}
     {% assign publication_category_records = publication_records | where: "category", publication_category %}
+    {% assign publication_category_total = publication_category_records.size %}
     {% assign publication_category_anchor = publication_anchors[forloop.index0] %}
     <div class="publication-category">
       <h2 id="{{ publication_category_anchor }}">
         {{ publication_labels[forloop.index0] }}
         <span class="publication-count">{{ publication_category_records.size }}</span>
       </h2>
+      {% if publication_category == "journal" %}
+        {% assign publication_accepted = publication_category_records | where: "status", "accepted" | sort: "accepted_date" | reverse %}
+        {% if publication_accepted.size > 0 %}
+          <div class="publication-subgroup">
+            <h3 id="journals-accepted" class="publication-status-heading">
+              {% if publications_lang == "en" %}Accepted · awaiting publication{% else %}게재 승인 · 출판 대기{% endif %}
+              <span class="publication-count">{{ publication_accepted.size }}</span>
+            </h3>
+            <div class="publication-list">
+              {% for publication_record in publication_accepted %}
+                {% include publication-entry.html record=publication_record lang=publications_lang %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+        {% assign publication_category_records = publication_category_records | where_exp: "record", "record.status != 'accepted'" %}
+      {% endif %}
       {% if publication_category == "patent" %}
         <p class="publication-note">
           {% if publications_lang == "en" %}
@@ -66,6 +84,12 @@
         {% endif %}
         {% if publication_status_records.size > 0 %}
           <div class="publication-subgroup">
+            {% if publication_category == "journal" and publication_accepted.size > 0 %}
+              <h3 id="journals-published" class="publication-status-heading">
+                {% if publications_lang == "en" %}Published articles &amp; features{% else %}게재 논문·기고{% endif %}
+                <span class="publication-count">{{ publication_status_records.size }}</span>
+              </h3>
+            {% endif %}
             {% unless publication_status == "all" %}
               <h3 id="{{ publication_category_anchor }}-{{ publication_status }}" class="publication-status-heading">
                 {% if publications_lang == "en" %}
@@ -89,7 +113,7 @@
             {% assign publication_years = publication_status_records | group_by: "year" | sort: "name" | reverse %}
             {% for publication_year in publication_years %}
               <div class="publication-year-group">
-                {% if publication_category == "patent" %}
+                {% if publication_category == "patent" or publication_category == "journal" and publication_accepted.size > 0 %}
                   {% assign publication_year_heading = "h4" %}
                 {% else %}
                   {% assign publication_year_heading = "h3" %}
@@ -113,7 +137,7 @@
           </div>
         {% endif %}
       {% endfor %}
-      {% if publication_category_records.size == 0 %}
+      {% if publication_category_total == 0 %}
         <p class="publication-note">{% if publications_lang == "en" %}No entries yet.{% else %}등록된 실적이 없습니다.{% endif %}</p>
       {% endif %}
     </div>

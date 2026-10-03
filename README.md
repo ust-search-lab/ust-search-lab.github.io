@@ -20,12 +20,17 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 - Both home pages use `_includes/home.html`, with bilingual copy in
   `_data/home.yaml` and styles scoped to `main[data-page="home"]` in
   `_styles/home.scss`. `_data/research-topics.yaml` provides the four core
-  methods and five application areas; the home cards and Research headings
-  share these titles. Keep each topic ID aligned with its Research anchor.
+  methods and six application areas, starting with Earth-Orbit Mission Design.
+  The home cards, Research headings, and student research-area links share
+  these titles and ordering. `_includes/research-title.html` resolves headings
+  by topic ID rather than array position. Keep each topic ID aligned with its
+  Research anchor; constellation design is a subsection of `earth-orbit`.
   `_data/home-images.yaml` supplies the cards' mission photographs and illustrations,
   bilingual captions and alternative text, and links to the official image
   sources. Captions identify illustrations explicitly; provenance records the
-  verified source and credit. The former concept SVGs are no longer used by the home page.
+  verified source and credit. The constellation card uses an original SVG of
+  multiple orbital planes and satellite positions, with an annotated version
+  on the Research pages. The earlier concept SVGs for other topics remain unused.
   Below the introduction, each home page displays the three latest posts in
   its language, including publication dates, titles, and excerpts linking to
   the full announcements. Adding a post to `_posts/` updates this list automatically.
@@ -48,6 +53,11 @@ Content cards use 24px padding/gaps on desktop and 20px padding/16px gaps at
 700px and below. Use `--card-title-size` for card headings and `--meta-size`
 for dates and authors instead of defining slightly different sizes per page.
 
+Use `SEARCH Lab` in running text. General introductions and recruitment copy
+cover space mission design and technology demonstration from Earth orbit to
+deep space. Keep the six application areas in the same order across both
+languages, with constellation design under Earth-Orbit Mission Design.
+
 Primary actions use `.action-button`; arrow links use `.text-link`.
 Page-specific styles retain layout rules and intentional emphasis, such as the
 Contact recruitment heading and centered inquiry card. News and Research Radar
@@ -69,8 +79,10 @@ owner-provided `지식재산권현황_20260420.xlsx`: five patents, 14 software 
 seven trademark source records, and one design. The repeated KPLO class-38
 entry is displayed once, and the 2011 ambiguity-resolution patent is excluded
 at the owner's request, giving 25 additional displayed entries from these
-27 records. The combined list displays 157 outputs:
-19 articles/features, 99 conference contributions, 12 patent entries,
+27 records. Four owner-reported accepted manuscripts are stored separately in
+`_data/accepted-publications.yaml`. The combined list displays 161 outputs:
+23 articles/features (19 published and four accepted, awaiting publication),
+99 conference contributions, 12 patent entries,
 20 software entries, and seven trademark/design entries (six trademarks and one design).
 The subsequent document review updates 16 existing entries using 13 copyright
 registration certificates and three patent application notices. It confirms
@@ -105,6 +117,13 @@ is filed under its official title, `인공위성`, and its actual filing year, 2
   must never populate `application_number` or `registration_number`.
 - Professional magazine contributions use `category: journal` and
   `subtype: magazine`; both language pages label them as magazine features.
+- Accepted manuscripts use `category: journal`, `status: accepted`, and
+  `accepted_date`. They appear above published articles, ordered by acceptance
+  date, and do not receive a publication `date`, `year`, DOI, volume, or pages
+  before those details are available. Titles, authors, and acceptance dates
+  follow the owner's supplied information; `journal_source` verifies the venue
+  name only. Once publication is confirmed, update the same record with the
+  publication metadata and change `status` to `published`; do not add a duplicate.
 - `_plugins/publications.rb` merges automatic citations by DOI or matching title
   and year, preserving curated details. The stored `_data/citations.yaml` remains
   generated data; do not edit it directly. ORCID refreshes preserve work categories

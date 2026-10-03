@@ -14,9 +14,9 @@ nav:
 
 <div class="contact-recruitment">
   <div class="contact-intro">
-    <p class="contact-eyebrow">JOIN SEARCH LAB</p>
-    <h2>Help design the next space exploration mission.</h2>
-    <p>Interested in master's or doctoral study and space mission design research at SEARCH Lab? Email us with your research interests and plans for graduate study.</p>
+    <p class="contact-eyebrow">JOIN SEARCH Lab</p>
+    <h2>Join us in space mission design and technology demonstration.</h2>
+    <p>If you are interested in master's or doctoral study at SEARCH Lab, email us with your research interests and plans for graduate study.</p>
     <p class="contact-welcome"><strong>Military officers pursuing master's or doctoral study through military-sponsored education programs are also welcome.</strong></p>
   </div>
   <div class="contact-email-card">

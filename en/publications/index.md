@@ -9,7 +9,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-book-open" %}Publications
 {: .page-title }
 
-Explore SEARCH Lab’s research outputs, organized into journal articles and features, conference presentations, patents, software, and trademarks and designs.
+Explore research outputs by the principal investigator and SEARCH Lab, organized into journal articles and features, conference presentations, patents, software, and trademarks and designs.
 {: .page-intro }
 
 {% include section.html %}

@@ -5,7 +5,7 @@ ko:
   locale: ko_KR
   home: /
   subtitle: 우주탐사 아키텍처 연구실, UST
-  description: SEARCH Lab은 달·화성과 심우주 탐사를 위한 임무 아키텍처를 설계하고 검증합니다.
+  description: SEARCH Lab은 지구궤도부터 달·행성과 심우주까지, 우주임무 설계와 기술실증을 연구합니다.
   home-tooltip: 홈
   nav-toggle: 메뉴 열기·닫기
   nav-label: 주 메뉴
@@ -38,7 +38,7 @@ en:
   locale: en_US
   home: /en/
   subtitle: Space Exploration ARCHitecture Laboratory, UST
-  description: SEARCH Lab designs mission architectures for the Moon, Mars, and beyond.
+  description: SEARCH Lab studies space mission design and technology demonstration, from Earth orbit to the Moon, planets, and deep space.
   home-tooltip: Home
   nav-toggle: Show or hide navigation
   nav-label: Main navigation

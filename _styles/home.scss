@@ -39,12 +39,11 @@ main[data-page="home"] {
   .home-method-arrow { position: absolute; right: 0; bottom: 0; color: var(--primary); font-size: 1.15rem; }
   .home-method:hover h3 { color: var(--primary); }
 
-  // Six tracks keep the final pair centered at the same width as the first three cards.
-  .home-topic-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); column-gap: var(--card-gap); }
+  // Six research areas form two rows of three cards on desktop.
+  .home-topic-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--card-gap); }
   // Share image, credit, heading, and link rows so bilingual text stays aligned.
-  .home-topic { display: grid; grid-template-rows: subgrid; grid-column: span 2; grid-row: span 4; min-width: 0; margin-bottom: var(--card-gap); overflow: hidden; border: 1px solid var(--light-gray); border-radius: var(--rounded); background: var(--background); transition: border-color var(--transition), box-shadow var(--transition); }
-  .home-topic:nth-child(4) { grid-column: 2 / span 2; }
-  .home-topic:nth-last-child(-n + 2) { margin-bottom: 0; }
+  .home-topic { display: grid; grid-template-rows: subgrid; grid-row: span 4; min-width: 0; margin-bottom: var(--card-gap); overflow: hidden; border: 1px solid var(--light-gray); border-radius: var(--rounded); background: var(--background); transition: border-color var(--transition), box-shadow var(--transition); }
+  .home-topic:nth-last-child(-n + 3) { margin-bottom: 0; }
   .home-topic:hover, .home-topic:focus-within { border-color: var(--primary); box-shadow: var(--shadow); }
   .home-topic-image { display: grid; grid-template-rows: subgrid; grid-row: span 2; min-width: 0; margin: 0; }
   .home-topic-visual { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #071b32; }
@@ -67,9 +66,8 @@ main[data-page="home"] {
 
   @media (max-width: 1000px) {
     .home-method-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .home-topic-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-    .home-topic:nth-child(4) { grid-column: span 2; margin-bottom: var(--card-gap); }
-    .home-topic:last-child { grid-column: 2 / span 2; }
+    .home-topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .home-topic:nth-last-child(3) { margin-bottom: var(--card-gap); }
     .home-join { grid-template-columns: 1fr; }
     .home-join .home-actions { flex-direction: row; align-items: center; gap: 24px; }
   }
@@ -79,7 +77,7 @@ main[data-page="home"] {
     .home-news-item time { padding-top: 0; }
     .home-section-heading { margin-bottom: 24px; }
     .home-topic-grid { grid-template-columns: 1fr; gap: var(--card-gap); }
-    .home-topic, .home-topic:nth-child(4), .home-topic:last-child { display: flex; flex-direction: column; grid-column: auto; grid-row: auto; margin-bottom: 0; }
+    .home-topic, .home-topic:nth-last-child(3) { display: flex; flex-direction: column; grid-row: auto; margin-bottom: 0; }
     .home-topic-image { display: block; }
     .home-topic-copy { display: flex; flex-direction: column; }
     .home-topic-link { align-self: stretch; }

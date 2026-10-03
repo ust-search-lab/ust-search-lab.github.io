@@ -1,7 +1,7 @@
 ---
 name: 박재익
 # shown next to the photo on People/profile pages; `name` stays plain for titles and search
-display_name: 박재익 박사
+display_name: 박재익 교수
 layout: principal-investigator
 ref: jae-ik-park
 lang: ko
@@ -14,8 +14,8 @@ appointments:
   - UST 항공우주시스템공학 전공 부교수
   - 한국항공우주연구원 책임연구원 · 우주탐사팀 팀장
 summary: >-
-  궤도역학과 우주비행역학을 바탕으로 달·행성 탐사 임무와 탐사선의 비행경로를 연구합니다.
-  한국항공우주연구원 달탐사사업단에서 다누리(KPLO) 임무설계 책임엔지니어로 일한 경험을 바탕으로, 임무 목표를 궤도·추진·통신·운용 조건과 연결해 실현 가능한 탐사 시나리오를 설계하고 최적화와 수치시뮬레이션으로 성능을 분석합니다.
+  궤도역학과 우주비행역학을 바탕으로 위성·탐사선의 궤도해석과 우주임무 설계를 연구합니다.
+  한국항공우주연구원 달탐사사업단에서 다누리(KPLO) 임무설계 책임엔지니어로 일한 경험을 바탕으로, 임무 목표를 궤도·추진·통신·운용 조건과 연결해 실현 가능한 임무 시나리오를 설계하고 최적화와 수치시뮬레이션으로 성능을 분석합니다.
 # name used to search publications (citations are in English)
 aliases:
   - Jae-ik Park

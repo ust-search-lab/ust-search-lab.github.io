@@ -18,11 +18,11 @@ planetary:
   # Preserve the source bytes and display the complete photograph without cropping.
   checked_on: '2026-10-03'
   ko:
-    caption: 다누리가 개기일식 때 촬영한 지구 · 2024.4.9. 한국시간
+    caption: 다누리가 개기일식 때 촬영한 지구
     alt: 다누리가 촬영한 흑백 사진으로, 달 표면 너머 지구의 북미 대륙 부근에 개기일식의 그림자가 보이는 모습
     credit: 한국항공우주연구원(KARI)
   en:
-    caption: Earth during the total solar eclipse, photographed by Danuri · April 8, 2024 (UTC)
+    caption: Earth during the total solar eclipse, photographed by Danuri
     alt: Black-and-white photograph from Danuri showing Earth beyond the lunar surface, with the eclipse shadow near North America
 
 entry-systems:
@@ -113,3 +113,25 @@ cubesat:
   en:
     caption: MarCO CubeSats in deep space · artist's concept
     alt: Artist's concept of two MarCO CubeSats flying through deep space with their solar panels and antennas deployed
+
+earth-orbit:
+  image: /images/home/earth-constellation.svg
+  width: 1280
+  height: 720
+  position: 50% 50%
+  credit: SEARCH Lab
+  source: /images/research/earth-constellation.svg
+  image_type: Original schematic of satellites distributed across three Earth-orbiting planes
+  provenance: >-
+    Original SVG using an orthographic projection of three circular orbital
+    planes with four satellites per plane and phase offsets between planes.
+    Rear arcs are dashed and Earth occludes spacecraft behind it. This is
+    an illustrative arrangement, not a specific mission. Satellite sizes
+    and orbital altitudes are not to scale.
+  checked_on: '2026-10-03'
+  ko:
+    caption: 군집위성의 궤도면과 위성 배치 · 개념도
+    alt: 지구를 둘러싼 세 궤도면을 파랑·청록·황금색으로 구분하고 각 궤도에 여러 위성을 배치한 군집위성 개념도
+  en:
+    caption: Orbital planes and satellite phasing · schematic
+    alt: A schematic of Earth surrounded by three orbital planes in blue, teal, and gold, with several satellites distributed along each orbit

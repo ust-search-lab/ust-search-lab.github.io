@@ -9,11 +9,12 @@ nav:
 # {% include icon.html icon="fa-solid fa-rocket" %}Research
 {: .page-title }
 
-SEARCH Lab draws on orbital mechanics and astrodynamics to design lunar, planetary, and deep-space exploration missions and study trajectory optimization and optimal control.
+SEARCH Lab draws on orbital mechanics and astrodynamics to design missions from Earth orbit to the Moon, planets, and deep space. We study mission feasibility and technology demonstration through orbit and trajectory optimization, optimal control, and systems analysis.
 {: .page-intro }
 
 <nav class="research-nav" aria-label="Research areas">
   <a href="#methods">Core methods</a>
+  <a href="#earth-orbit">Earth-orbit missions</a>
   <a href="#planetary">Lunar &amp; planetary missions</a>
   <a href="#entry-systems">Entry, landing &amp; thermal protection</a>
   <a href="#solar-sail">Solar sails</a>
@@ -29,15 +30,15 @@ SEARCH Lab draws on orbital mechanics and astrodynamics to design lunar, planeta
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[0].en.title }} {#architecture}
+### {% include research-title.html group="methods" id="architecture" %} {#architecture}
 
-We translate exploration goals into mission and system requirements and concepts of operations, then analyze the interactions between trajectories, spacecraft, communications, and landing constraints. Conceptual design and trade studies help us assess mission scenarios linked to national space development programs.
+We translate mission objectives into system requirements and concepts of operations, then analyze the interactions between orbits, trajectories, spacecraft, and communications. Conceptual design and trade studies help us assess the feasibility of Earth-orbit and exploration mission scenarios.
 
 </div>
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[1].en.title }} {#dynamical-systems}
+### {% include research-title.html group="methods" id="dynamical-systems" %} {#dynamical-systems}
 
 We aim to compute phase-space structures, such as periodic orbits around the Lagrange points and their invariant manifolds, in multi-body models like the circular restricted three-body problem. These structures will help us systematically explore the design space of low-energy transfers and non-Keplerian orbits and provide initial guesses for high-fidelity orbit analysis.
 
@@ -45,17 +46,17 @@ We aim to compute phase-space structures, such as periodic orbits around the Lag
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[2].en.title }} {#astrodynamics}
+### {% include research-title.html group="methods" id="astrodynamics" %} {#astrodynamics}
 
-We propagate orbits with high-fidelity models of gravity and orbital perturbations to analyze spacecraft motion. We assess the feasibility and performance of lunar and planetary transfers, orbit insertion, and maneuver strategies under realistic mission conditions.
+We propagate satellite and exploration spacecraft orbits using high-fidelity models of gravity and orbital perturbations. We assess the feasibility and performance of constellation deployment and orbit maintenance, lunar and planetary transfers, orbit insertion, and other maneuvers under mission-specific conditions.
 
 </div>
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[3].en.title }} {#optimization}
+### {% include research-title.html group="methods" id="optimization" %} {#optimization}
 
-We use numerical optimization, optimal control, and sensitivity analysis to examine trade-offs among launch dates, flight time, propellant use, communications, landing accuracy, and mission risk. We study trajectories and control strategies for low-thrust and continuous-thrust transfers, landing guidance, and deceleration.
+We use numerical optimization, optimal control, and sensitivity analysis to examine trade-offs among mission performance, launch dates, flight time, propellant use, and operational constraints. We define design variables and objectives for problems such as constellation configuration, low-thrust and continuous-thrust transfers, landing guidance, and deceleration, and study suitable orbits, trajectories, and control strategies.
 
 </div>
 
@@ -67,9 +68,25 @@ We use numerical optimization, optimal control, and sensitivity analysis to exam
 
 ## Research Applications {#applications}
 
-We apply these shared methods across five areas, addressing the mission environments and technology requirements specific to each.
+We apply these shared methods across six areas, addressing the mission environments and technology requirements specific to each.
 
-### {% include icon.html icon="fa-solid fa-moon" %}{{ site.data.research-topics.applications[0].en.title }} {#planetary}
+### {% include icon.html icon="fa-solid fa-globe" %}{% include research-title.html id="earth-orbit" %} {#earth-orbit}
+
+We design Earth-orbit missions for observation, communications, and technology demonstration. We assess orbits and operations scenarios against mission requirements and analyze coverage, revisit intervals, and ground station visibility.
+
+- Orbital altitude, inclination, and concepts of operations for observation, communications, and technology demonstration satellites
+- Regional coverage, revisit intervals, and ground station contact opportunities
+- Long-term orbit propagation and maintenance strategies accounting for Earth's nonspherical gravity and atmospheric drag
+
+#### Satellite Constellation Design {#earth-constellation}
+
+For missions involving multiple satellites, we design satellite count, orbital plane configuration, and satellite phasing together. We optimize the constellation by analyzing trade-offs among observation and communications performance, propellant use, and operational effort, and assess long-term performance under orbital perturbations and orbit maintenance maneuvers.
+
+{% include research-figure.html topic="earth-constellation" caption="Illustrative constellation with satellites distributed across three orbital planes. Colors distinguish the planes; satellite sizes and orbital altitudes are not to scale." alt="A schematic of satellites distributed across three circular orbits around Earth, with altitude, inclination, orbital planes, and satellite phasing identified as design variables." %}
+
+{% include section.html %}
+
+### {% include icon.html icon="fa-solid fa-moon" %}{% include research-title.html id="planetary" %} {#planetary}
 
 We design lunar and planetary exploration missions, including lunar landers and Mars orbiters and landers. We assess orbits and landing sites against exploration objectives, then examine how the relative positions of spacecraft, observation targets, and Earth affect observations, communications, and operations.
 
@@ -82,7 +99,7 @@ We design lunar and planetary exploration missions, including lunar landers and 
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-parachute-box" %}{{ site.data.research-topics.applications[1].en.title }} {#entry-systems}
+### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
 
 #### Planetary Entry, Descent, and Landing {#edl}
 
@@ -108,7 +125,7 @@ We analyze aerodynamic heating and deceleration loads as spacecraft and sample r
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-sun" %}{{ site.data.research-topics.applications[2].en.title }} {#solar-sail}
+### {% include icon.html icon="fa-solid fa-sun" %}{% include research-title.html id="solar-sail" %} {#solar-sail}
 
 Solar sails generate thrust from solar radiation pressure as sunlight transfers momentum to the sail. We study how changing a sail's orientation alters its trajectory, and use this principle to design long-duration flights and future deep-space missions with reduced propellant needs.
 
@@ -143,7 +160,7 @@ Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/articl
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-satellite-dish" %}{{ site.data.research-topics.applications[3].en.title }} {#optical-communications}
+### {% include icon.html icon="fa-solid fa-satellite-dish" %}{% include research-title.html id="optical-communications" %} {#optical-communications}
 
 Deep-space optical communications uses lasers to exchange data between spacecraft and Earth. Our interests focus on how trajectories, spacecraft attitude, distance from Earth, and ground station weather and atmospheric conditions affect link performance. We aim to evaluate contact opportunities and data return, and to develop system requirements, operations plans, and technology demonstration scenarios within mass, power, and thermal limits.
 
@@ -156,13 +173,13 @@ Deep-space optical communications uses lasers to exchange data between spacecraf
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-satellite" %}{{ site.data.research-topics.applications[4].en.title }} {#cubesat}
+### {% include icon.html icon="fa-solid fa-satellite" %}{% include research-title.html id="cubesat" %} {#cubesat}
 
 We study how CubeSats can demonstrate mission concepts and technologies in space. Our interests span mission design, system requirements, ground testing, and in-orbit operations. Students may take part in these activities depending on the research project and its development schedule.
 
 - CubeSat-class mission concepts and system requirements definition
 - Ground testing and qualification methods for the space environment
 - Satellite concepts of operations and in-orbit technology verification scenarios
-- In-orbit demonstration mission planning linked to national R&D programs
+- In-space demonstration mission planning linked to national R&D programs
 
 {% include research-figure.html topic="cubesat" caption="CubeSat development translates a mission concept into system requirements, progresses through design, fabrication, and ground testing, and verifies technologies during in-orbit operations." alt="A conceptual CubeSat development and verification sequence from mission concept through system design, fabrication, ground testing, and in-orbit operations and demonstration." %}

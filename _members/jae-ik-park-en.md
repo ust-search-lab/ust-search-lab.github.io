@@ -2,7 +2,7 @@
 # Current team name is also listed in the PI's public ORCID record.
 name: Jae-ik Park
 # shown next to the photo on People/profile pages; `name` stays plain for titles and search
-display_name: Jae-ik Park, Ph.D.
+display_name: Professor Jae-ik Park
 layout: principal-investigator
 ref: jae-ik-park
 lang: en
@@ -15,8 +15,8 @@ appointments:
   - Associate Professor, Aerospace System Engineering, University of Science and Technology (UST)
   - Principal Researcher and Head of the Space Exploration Team, Korea Aerospace Research Institute (KARI)
 summary: >-
-  Jae-ik Park studies lunar and planetary mission design and spacecraft trajectories, drawing on orbital mechanics and astrodynamics.
-  Building on experience as the mission design lead engineer for Danuri (Korea Pathfinder Lunar Orbiter, KPLO) at KARI, Park connects mission objectives with orbital, propulsion, communications, and operational constraints to develop feasible exploration scenarios and assesses their performance through optimization and numerical simulation.
+  Jae-ik Park studies orbit analysis and space mission design for satellites and exploration spacecraft, drawing on orbital mechanics and astrodynamics.
+  Building on experience as the mission design lead engineer for Danuri (Korea Pathfinder Lunar Orbiter, KPLO) at KARI, Park connects mission objectives with orbital, propulsion, communications, and operational constraints to develop feasible mission scenarios and assesses their performance through optimization and numerical simulation.
 aliases:
   - Jae-ik Park
 links:

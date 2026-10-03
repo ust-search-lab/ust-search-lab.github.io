@@ -9,7 +9,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-newspaper" %}News
 {: .page-title }
 
-SEARCH Lab의 소식을 전합니다.
+SEARCH Lab의 공지사항과 연구실 소식을 전합니다.
 {: .page-intro }
 
 {% include section.html %}

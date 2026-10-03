@@ -9,16 +9,16 @@ nav:
 # {% include icon.html icon="fa-solid fa-circle-info" %}About SEARCH Lab
 {: .page-title }
 
-Turning an idea for space exploration into a mission requires rigorous analysis, careful design, and systematic verification. **SEARCH Lab** develops mission concepts, trajectories, system requirements, operational scenarios, and in-space demonstration strategies for exploration of the Moon, Mars, and deep space.
+**SEARCH Lab** studies space mission design and technology demonstration, from Earth orbit to the Moon, planets, and deep space. We translate mission objectives into orbits, trajectories, system requirements, and operations scenarios, and assess the feasibility of design alternatives.
 {: .page-intro }
 
-Space exploration architecture is the overall design that brings propulsion, structures, thermal control, power, communications, payloads, and ground operations together into one mission. Trajectories, maneuver timing, communication opportunities, orbit insertion, and landing conditions must be developed alongside the capabilities and constraints of these systems. SEARCH Lab iterates between mission scenarios and system design to assess feasibility and identify design alternatives.
+Mission architecture brings orbits and trajectories together with propulsion, structures, thermal control, power, communications, payloads, and ground operations. We consider system capabilities and constraints when assessing satellite configurations, maneuvers, observation and communications schedules, orbit insertion, and landing conditions.
 
-SEARCH Lab draws on orbital mechanics and astrodynamics to design lunar, planetary, and deep-space exploration missions and study trajectory optimization and optimal control. Our research topics include planetary entry, descent, and landing; atmospheric re-entry and thermal protection systems; solar sail exploration; deep-space optical communications; CubeSat development; and in-space demonstration. We examine the conditions needed to turn mission concepts into working systems and compare design alternatives.
+Our shared methods combine orbital mechanics and astrodynamics with systems analysis, numerical optimization, and optimal control. We apply them to Earth-orbit missions and satellite constellations; lunar and planetary exploration; entry, landing, and thermal protection; solar sails; deep-space optical communications; and CubeSat demonstrations. See [Research]({{ '/en/research/' | relative_url }}) for details of each area.
 
-Depending on research projects and development schedules, students may participate in national R&D programs at the Korea Aerospace Research Institute (KARI). Their work may involve mission design, system analysis, performance verification, and concept of operations development. Where projects involve CubeSat-class satellite development and in-orbit demonstration, students may also learn how designs and analyses are verified using hardware, ground tests, and operations in space.
+Students may participate in national R&D programs at the Korea Aerospace Research Institute (KARI), depending on project availability and development schedules. Their work may involve mission design, systems analysis, performance verification, and concepts of operations. Projects involving CubeSat development and in-space demonstration may also provide experience in verifying designs through hardware, ground tests, and in-orbit operations.
 
-Students use tools such as Python, MATLAB, STK, and GMAT as appropriate to their research questions. They learn to assess physical models and the reliability of numerical results, and to connect mission design results with system requirements.
+Students use Python, MATLAB, STK, and GMAT as appropriate to their research questions. They learn to assess physical models and numerical results and connect their analyses with system requirements. [For Students]({{ '/en/students/' | relative_url }}) explains the learning and research process.
 
-We welcome students who want to help design exploration missions to the Moon, Mars, and beyond, and develop research ideas into space missions.
+We welcome students who want to design missions from Earth orbit to deep space and develop research ideas into technology demonstrations.
 {: .about-invitation }

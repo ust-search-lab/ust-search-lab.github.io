@@ -6,13 +6,13 @@ ko:
   news_title: 공지사항
   news_all: 공지사항 전체 보기
   methods_eyebrow: OUR METHODS
-  methods_title: 탐사 임무를 설계하는 네 가지 연구방법
+  methods_title: 우주임무를 설계하는 네 가지 연구방법
   applications_eyebrow: RESEARCH AREAS
-  applications_title: 다섯 분야로 이어지는 탐사 연구
+  applications_title: 우주임무 설계와 기술실증
   topic_link: 연구내용 보기
   join_eyebrow: JOIN SEARCH Lab
-  join_title: 다음 탐사 임무를 함께 설계합니다
-  join_description: 우주탐사 연구에 함께할 석·박사과정 학생을 모집합니다.
+  join_title: 다음 우주임무를 함께 설계합니다
+  join_description: 우주임무 설계와 기술실증 연구에 함께할 석·박사과정 학생을 모집합니다.
   students_link: 학생 연구자 안내
   students_path: students/
   contact_link: 연락처
@@ -25,13 +25,13 @@ en:
   news_title: Latest news
   news_all: View all news
   methods_eyebrow: OUR METHODS
-  methods_title: Four methods for designing exploration missions
+  methods_title: Four methods for designing space missions
   applications_eyebrow: RESEARCH AREAS
-  applications_title: Five areas of exploration research
+  applications_title: Space mission design and technology demonstration
   topic_link: Explore this area
   join_eyebrow: JOIN SEARCH Lab
-  join_title: Help design the next exploration mission
-  join_description: We welcome prospective master's and doctoral students interested in space exploration research.
+  join_title: Help design the next space mission
+  join_description: We welcome prospective master's and doctoral students interested in space mission design and technology demonstration.
   students_link: For students
   students_path: en/students/
   contact_link: Contact

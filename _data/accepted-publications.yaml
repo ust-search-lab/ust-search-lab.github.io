@@ -1,0 +1,60 @@
+# Titles, author order/spelling, acceptance dates, and pending-publication status
+# were supplied by the owner on 2026-10-03. Journal sources identify the venues
+# only; they do not independently verify acceptance of these manuscripts.
+# Do not use acceptance dates as publication dates or publication years.
+---
+- id: accepted:martian-edl-communication-architecture
+  title: Comparative Analysis of Mars EDL Communication Architecture
+  authors:
+    - Jae-ik Park
+    - Sangil Ahn
+  category: journal
+  status: accepted
+  accepted_date: '2026-05-11'
+  details: The Journal of Korean Institute of Communications and Information Sciences (J-KICS)
+  journal_source: https://journal.kics.or.kr/static/aim
+  source: Owner-provided acceptance information, 2026-10-03
+  citation: Jae-ik Park, Sangil Ahn. Comparative Analysis of Mars EDL Communication Architecture. The Journal of Korean Institute of Communications and Information Sciences. Accepted 2026-05-11; awaiting publication.
+  search: 박재익 안상일 JKICS J-KICS 한국통신학회논문지 게재 승인 출판 대기 accepted awaiting publication
+
+- id: accepted:mars-edl-atmospheric-representations
+  title: Design-Metric Bias Assessment of Atmospheric Representations for Mars Entry, Descent, and Landing
+  authors:
+    - Jae-ik Park
+  category: journal
+  status: accepted
+  accepted_date: '2026-09-21'
+  details: Journal of Spacecraft and Rockets (JSR)
+  journal_source: https://arc.aiaa.org/journal/jsr
+  source: Owner-provided acceptance information, 2026-10-03
+  citation: Jae-ik Park. Design-Metric Bias Assessment of Atmospheric Representations for Mars Entry, Descent, and Landing. Journal of Spacecraft and Rockets. Accepted 2026-09-21; awaiting publication.
+  search: 박재익 JSR AIAA 게재 승인 출판 대기 accepted awaiting publication
+
+- id: accepted:mars-edl-thermal-protection-technology-gap
+  title: 'Mars EDL Thermal Protection Systems: Technology Gap Analysis and Phased Verification Strategy for Korea'
+  authors:
+    - Jae-ik Park
+    - Seongwon Kim
+  category: journal
+  status: accepted
+  accepted_date: '2026-09-18'
+  details: Journal of the Korean Society for Aeronautical and Space Sciences (JKSAS)
+  journal_source: https://journal2.ksas.or.kr/
+  source: Owner-provided acceptance information, 2026-10-03
+  citation: 'Jae-ik Park, Seongwon Kim. Mars EDL Thermal Protection Systems: Technology Gap Analysis and Phased Verification Strategy for Korea. Journal of the Korean Society for Aeronautical and Space Sciences. Accepted 2026-09-18; awaiting publication.'
+  search: 박재익 JKSAS 한국항공우주학회지 게재 승인 출판 대기 accepted awaiting publication
+
+- id: accepted:orbital-data-center-altitude
+  title: Mass-Penalty-Based Altitude Selection for Orbital Data Centers
+  authors:
+    - Jae-ik Park
+    - Jeongheum Im
+    - Choon Woo Lee
+  category: journal
+  status: accepted
+  accepted_date: '2026-09-28'
+  details: Journal of Astronomy and Space Sciences (JASS)
+  journal_source: https://www.janss.kr/main/
+  source: Owner-provided acceptance information, 2026-10-03
+  citation: Jae-ik Park, Jeongheum Im, Choon Woo Lee. Mass-Penalty-Based Altitude Selection for Orbital Data Centers. Journal of Astronomy and Space Sciences. Accepted 2026-09-28; awaiting publication.
+  search: 박재익 임정흠 이춘우 JASS 게재 승인 출판 대기 accepted awaiting publication

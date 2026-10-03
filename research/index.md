@@ -9,11 +9,12 @@ nav:
 # {% include icon.html icon="fa-solid fa-rocket" %}Research
 {: .page-title }
 
-SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 심우주 탐사 임무를 설계하고, 비행경로 최적화와 최적제어를 연구합니다.
+SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 지구궤도부터 달·행성과 심우주까지 우주임무를 설계합니다. 궤도·비행경로 최적화와 최적제어, 시스템 분석을 통해 임무의 실현 가능성과 기술실증 방안을 연구합니다.
 {: .page-intro }
 
 <nav class="research-nav" aria-label="연구분야 바로가기">
   <a href="#methods">핵심 연구방법</a>
+  <a href="#earth-orbit">지구궤도 임무설계</a>
   <a href="#planetary">달·행성 탐사</a>
   <a href="#entry-systems">진입·착륙·열보호</a>
   <a href="#solar-sail">태양돛</a>
@@ -29,15 +30,15 @@ SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[0].ko.title }} {#architecture}
+### {% include research-title.html group="methods" id="architecture" %} {#architecture}
 
-탐사 목표를 임무·시스템 요구조건과 운용개념으로 구체화하고, 비행경로·탐사선·통신·착륙 조건의 상호작용을 분석합니다. 국가 우주개발사업과 연계한 개념설계와 절충 분석을 통해 임무 시나리오를 검토합니다.
+임무 목표를 시스템 요구조건과 운용개념으로 구체화하고, 궤도·비행경로·위성·탐사선·통신 조건의 상호작용을 분석합니다. 지구궤도 임무와 탐사 임무의 목적에 맞춰 개념설계와 절충 분석을 수행하고, 임무 시나리오의 실현 가능성을 검토합니다.
 
 </div>
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[1].ko.title }} {#dynamical-systems}
+### {% include research-title.html group="methods" id="dynamical-systems" %} {#dynamical-systems}
 
 원제한 삼체문제 등 다체계 모델에서 라그랑주점 주변 주기궤도와 불변다양체 같은 위상공간 구조를 계산해, 저에너지 전이와 비케플러 궤도의 설계공간을 체계적으로 탐색하고 정밀 궤도해석의 초기해로 활용하고자 합니다.
 
@@ -45,31 +46,47 @@ SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[2].ko.title }} {#astrodynamics}
+### {% include research-title.html group="methods" id="astrodynamics" %} {#astrodynamics}
 
-천체의 중력과 궤도섭동을 반영한 정밀 모델로 궤도를 전파해 탐사선의 운동을 분석합니다. 달·행성 전이와 궤도삽입, 기동 전략의 실현 가능성과 성능을 실제 임무 조건에서 평가합니다.
+천체의 중력과 궤도섭동을 반영한 정밀 모델로 위성·탐사선의 궤도를 전파합니다. 지구궤도에서의 위성 배치와 궤도유지, 달·행성 전이와 궤도삽입 등 기동 전략의 실현 가능성과 성능을 임무 조건에 맞춰 평가합니다.
 
 </div>
 
 <div class="research-method" markdown="1">
 
-### {{ site.data.research-topics.methods[3].ko.title }} {#optimization}
+### {% include research-title.html group="methods" id="optimization" %} {#optimization}
 
-수치최적화·최적제어·민감도 분석을 활용해 발사 시기, 비행시간, 추진제 소모, 통신 조건, 착륙 정밀도와 임무 위험 사이의 상충관계를 살핍니다. 저추력·연속추력 전이와 착륙 유도·감속에 적합한 비행경로와 제어 전략을 연구합니다.
-
-</div>
+수치최적화·최적제어·민감도 분석을 활용해 임무 성능, 발사 시기, 비행시간, 추진제 소모와 운용 제약 사이의 상충관계를 살핍니다. 군집위성 배치, 저추력·연속추력 전이, 착륙 유도·감속 등 문제에 맞는 설계변수와 목적함수를 설정하고 궤도·비행경로와 제어 전략을 연구합니다.
 
 </div>
 
-{% include research-figure.html topic="architecture" caption="임무 목표와 제약조건을 바탕으로 비행경로·시스템·통신 운용을 연계해 분석·최적화하고, 실현 가능성을 평가해 설계를 다듬습니다." alt="임무 목표와 제약조건에서 출발해 비행경로·기동, 탐사선·탑재체, 통신·운용의 연계 모델을 구성하고, 성능·실현 가능성·민감도·위험 평가를 설계에 반영하는 개념도." %}
+</div>
+
+{% include research-figure.html topic="architecture" caption="임무 목표와 제약조건을 바탕으로 궤도·비행경로·시스템·통신 운용을 연계해 분석·최적화하고, 실현 가능성을 평가해 설계를 다듬습니다." alt="임무 목표와 제약조건에서 출발해 궤도·비행경로·기동, 위성·탐사선·탑재체, 통신·운용의 연계 모델을 구성하고, 성능·실현 가능성·민감도·위험 평가를 설계에 반영하는 개념도." %}
 
 {% include section.html %}
 
 ## 적용 연구분야 {#applications}
 
-공통 연구방법을 다음 다섯 분야에 적용하며, 각 분야의 임무 환경과 기술 요구조건에 맞는 문제를 다룹니다.
+공통 연구방법을 다음 여섯 분야에 적용하며, 각 분야의 임무 환경과 기술 요구조건에 맞는 문제를 다룹니다.
 
-### {% include icon.html icon="fa-solid fa-moon" %}{{ site.data.research-topics.applications[0].ko.title }} {#planetary}
+### {% include icon.html icon="fa-solid fa-globe" %}{% include research-title.html id="earth-orbit" %} {#earth-orbit}
+
+지구관측·통신·기술실증을 위한 지구궤도 임무를 설계합니다. 임무 요구조건에 맞는 궤도와 운용 시나리오를 검토하고, 관측 범위·재방문 주기·지상국 가시성을 분석합니다.
+
+- 지구관측·통신·기술실증 위성의 궤도 고도·경사각과 운용개념 설계
+- 관심 지역의 관측 범위·재방문 주기 및 지상국과의 통신 가능 시간 분석
+- 지구 비구면 중력·대기저항을 고려한 장기 궤도전파와 궤도유지 전략
+
+#### 군집위성 궤도설계 {#earth-constellation}
+
+여러 위성이 함께 임무를 수행하는 군집위성에서는 위성 수, 궤도면 구성, 위성 간 위상 배치를 함께 설계합니다. 관측·통신 성능과 추진제 소모, 운용 부담의 상충관계를 분석해 배치를 최적화하고, 궤도섭동과 궤도유지 기동을 반영해 장기 임무 성능을 평가합니다.
+
+{% include research-figure.html topic="earth-constellation" caption="세 궤도면에 위성을 나누어 배치한 군집위성 개념도. 색상은 서로 다른 궤도면을 구분합니다. 설명을 위한 예시로, 크기와 거리는 축척을 따르지 않습니다." alt="지구를 둘러싼 세 원궤도에 여러 위성을 배치하고, 궤도 고도·경사각·궤도면·위성 간 위상을 설계변수로 표시한 개념도." %}
+
+{% include section.html %}
+
+### {% include icon.html icon="fa-solid fa-moon" %}{% include research-title.html id="planetary" %} {#planetary}
 
 달 착륙선과 화성 궤도선·착륙선 등 달·행성 탐사 임무를 설계합니다. 탐사 목표에 맞는 궤도와 착륙지를 검토하고, 탐사선·관측 대상·지구의 상대적 위치가 관측과 통신에 미치는 영향을 분석해 운용 시나리오를 수립합니다.
 
@@ -82,7 +99,7 @@ SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-parachute-box" %}{{ site.data.research-topics.applications[1].ko.title }} {#entry-systems}
+### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
 
 #### 행성 진입·하강·착륙 {#edl}
 
@@ -108,7 +125,7 @@ SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-sun" %}{{ site.data.research-topics.applications[2].ko.title }} {#solar-sail}
+### {% include icon.html icon="fa-solid fa-sun" %}{% include research-title.html id="solar-sail" %} {#solar-sail}
 
 태양돛은 햇빛이 돛에 운동량을 전달할 때 생기는 태양복사압을 이용해 추력을 얻습니다. 돛의 방향을 조절해 비행경로를 바꾸는 원리를 바탕으로, 추진제 사용을 줄이는 장기 비행과 미래 심우주 탐사 임무를 설계합니다.
 
@@ -143,7 +160,7 @@ SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-satellite-dish" %}{{ site.data.research-topics.applications[3].ko.title }} {#optical-communications}
+### {% include icon.html icon="fa-solid fa-satellite-dish" %}{% include research-title.html id="optical-communications" %} {#optical-communications}
 
 심우주 광통신은 레이저를 이용해 탐사선과 지구 사이에 데이터를 주고받는 기술입니다. 연구실은 비행경로와 탐사선 자세, 지구와의 거리, 지상국의 대기·기상 조건이 통신 성능에 미치는 영향에 관심을 두고 있습니다. 통신 가능 시간과 데이터 전송량을 평가하고, 질량·전력·열 제약을 고려한 시스템 요구조건과 운용·기술실증 방안을 연구하고자 합니다.
 
@@ -156,7 +173,7 @@ SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 
 
 {% include section.html %}
 
-### {% include icon.html icon="fa-solid fa-satellite" %}{{ site.data.research-topics.applications[4].ko.title }} {#cubesat}
+### {% include icon.html icon="fa-solid fa-satellite" %}{% include research-title.html id="cubesat" %} {#cubesat}
 
 큐브샛을 활용해 임무 개념과 기술을 우주에서 검증하는 방법을 연구합니다. 임무설계부터 시스템 요구조건, 지상시험, 궤도상 운용까지 이어지는 개발 과정을 다루며, 학생은 연구과제와 개발 일정에 따라 관련 활동에 참여할 수 있습니다.
 

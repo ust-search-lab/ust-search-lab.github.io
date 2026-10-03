@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: SEARCH Lab
 subtitle: Space Exploration ARCHitecture Laboratory, UST
-description: SEARCH Lab designs mission architectures for the Moon, Mars, and beyond.
+description: SEARCH Lab studies space mission design and technology demonstration, from Earth orbit to the Moon, planets, and deep space.
 header: images/header-bar.jpg
 footer: images/footer-bar.jpg
 show-subtitle: false

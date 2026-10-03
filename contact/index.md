@@ -1,7 +1,7 @@
 ---
 title: Contact
 ref: contact
-description: SEARCH Lab의 석사·박사과정 진학과 학생 연구 참여에 관심 있는 분들을 위한 문의 안내입니다.
+description: SEARCH Lab의 석·박사과정 진학과 학생 연구 참여에 관심 있는 분들을 위한 문의 안내입니다.
 nav:
   order: 7
   tooltip: 학생 모집·지원 문의
@@ -15,9 +15,9 @@ nav:
 <div class="contact-recruitment">
   <div class="contact-intro">
     <p class="contact-eyebrow">학생 연구자 모집</p>
-    <h2>우주탐사 임무를 함께 설계할 학생 연구자를 기다립니다.</h2>
-    <p>SEARCH Lab의 석사·박사과정 진학과 우주임무설계 연구에 관심이 있다면 연락해 주세요. 관심 연구분야와 진학 계획을 담아 이메일로 문의해 주세요.</p>
-    <p class="contact-welcome"><strong>군위탁장교의 석사·박사과정 진학도 환영합니다.</strong></p>
+    <h2>우주임무 설계와 기술실증에 함께할 학생 연구자를 기다립니다.</h2>
+    <p>SEARCH Lab의 석·박사과정 진학에 관심이 있다면, 관심 연구분야와 진학 계획을 담아 이메일로 문의해 주세요.</p>
+    <p class="contact-welcome"><strong>군위탁장교의 석·박사과정 진학도 환영합니다.</strong></p>
   </div>
   <div class="contact-email-card">
     <h3>진학·연구 참여 문의</h3>
