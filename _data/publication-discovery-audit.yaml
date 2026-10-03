@@ -1,0 +1,5083 @@
+---
+checked_on: '2026-10-02'
+scope: 책임교수 박재익의 현재까지 공개된 연구성과. 기존 87건을 기준으로 국내외 이름 검색·공식 학회자료·출판사·기관 기록을 대조했습니다.
+inclusion_rule: 제목·저자·소속·발행정보로 개인 실적을 확인한 자료만 추가. 동명이인, 동일 실적의 중복 서지, 개인 귀속이 확인되지 않은 기관 소유 소프트웨어는 제외. 학회 발표와 후속 학술지 논문은 별개로 기록.
+limitations: 공개 검색 범위와 접근 제한을 아래에 기록했습니다. 모든 사이트·비공개 출원·유료 색인까지의 완전성을 보장하는 전수 목록은 아닙니다.
+summary:
+  baseline_displayed: 86
+  new_displayed: 46
+  total_displayed: 132
+  new_by_category:
+    conference: 45
+    journal: 1
+  new_magazine_features: 1
+  software_candidates_not_included: 6
+  displayed_by_category:
+    conference: 99
+    journal: 19
+    patent: 8
+    software: 6
+  displayed_doi_verified: 12
+  displayed_doi_not_found: 120
+  author_groups_checked: 87
+  author_orcid_verified: 47
+  author_orcid_unconfirmed: 40
+  author_name_variants_in_publications: 130
+coverage:
+  dbpia:
+    sources:
+    - https://www.dbpia.co.kr/author/authorDetail?ancId=791627856
+    - https://www.dbpia.co.kr/api/search/list
+    queries:
+    - query: 박재익
+      mode: author
+      total: 87
+      pages: 5
+      pages_inspected: 5
+      url: https://www.dbpia.co.kr/search/topSearch?searchOption=author&query=%EB%B0%95%EC%9E%AC%EC%9D%B5
+    - query: '"Jae-ik Park"'
+      mode: author exact phrase
+      total: 52
+      pages: 1
+      pages_inspected: 1
+      url: https://www.dbpia.co.kr/search/topSearch?searchOption=author&query=%22Jae-ik+Park%22
+    - query: '"Jae Ik Park"'
+      mode: author exact phrase
+      total: 52
+      pages: 1
+      pages_inspected: 1
+      url: https://www.dbpia.co.kr/search/topSearch?searchOption=author&query=%22Jae+Ik+Park%22
+    - query: '"Park Jae-ik"'
+      mode: author exact phrase
+      total: 9
+      pages: 1
+      pages_inspected: 1
+      url: https://www.dbpia.co.kr/search/topSearch?searchOption=author&query=%22Park+Jae-ik%22
+    total_claimed:
+      korean_author_search: 87
+      exact_english_search_Jae_ik_Park: 52
+      exact_english_search_Park_Jae_ik: 9
+      deduplicated_union: 97
+    inspected_count: 97
+    pi_records_count: 61
+    new_verified_count: 22
+    existing_count: 39
+    excluded_count: 36
+    as_of: '2026-10-02'
+    limitations:
+    - DBpia 저자프로필 논문목록 자체는 로그인 제한이 있어 우회하지 않았다. 대신 공개 일반검색 API에서 한글 전체5페이지 및 영문정확구문 검색 전체를 열람했다.
+    - 검색사이트의 미수록·잘못된 저자 표기 자료까지 완전성을 보장할 수 없다. DBpia 자체 메타데이터의 1월 기본날짜, 제목 오타, 저자프로필 오합병을 별도 표기했다.
+    - 띄어쓴 비정확 영문검색은 서로 다른 공저자 이름까지 섞는 결과여서 광범위 963건을 전체검토하지 않았다. 정확구문으로 바꾸어 결과 전체를 검토했다.
+    - 추가 대조한 Jaeik Park 비정확 검색43건은 연구자명이 서로 다른 Jaeik/Park 공저자와 의학 동명이인으로 별도 PI 신규 결과가 없었다.
+    excluded_records:
+    - node_id: T17450786
+      title: Post-Retrieval Context Engineering based RAG for Medical Question Answering
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12292471
+      title: Self-Attention 기반 관객 리뷰 임베딩을 활용한 영화 장르 클러스터링 및 재정의
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12293829
+      title: Self-Attention 기반 관객 리뷰 임베딩을 활용한 영화 장르 클러스터링 및 재정의
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: T16926519
+      title: Hepatocyte Growth Factor/cMET 신호전달에 의한 통증 억제성 기전 연구
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE11272104
+      title: 춘향전과 심청전에 구현된 환생(還生)과 대속(代贖)
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE10643554
+      title: 한국어와 몽골어 비교언어학 연구의 쟁점 -개연성있는 공통어휘를 제시하며
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE10746399
+      title: '수궁가의 은유적 상징: 왕 섬김에 대한 사회적 개인적 의미'
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE10746281
+      title: '필요할 때의 친구: 판소리 적벽가의 다섯 가지 우정의 요소'
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE09246856
+      title: '문학이라는 소꿉놀이: 김동인 초기 문예론 재독'
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE08937379
+      title: 음성적 모호성과 의미기능적 유사성에 기인한한국어 모음의 융합
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE07100974
+      title: 다문화가정 자녀의 한국어, 계승어, 영어 학습 상황에서의 계승어 교육의 필요성과 지원 방안
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE11375364
+      title: 미군정시대의 사회상황과 행정조직의 변화
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE11471705
+      title: 옥천군 사업추진과 주민참여제도 고찰
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE10880333
+      title: 이효석 소설에서의 ‘애욕’ 연구
+      reason: 인문사회과학연구의 이효석 문학 논문. DBpia가 PI 프로필791627856에 잘못 합친 것으로 판단되며 연구영역·단독문학주제가 PI와 불일치한다.
+    - node_id: NODE08833618
+      title: "｢虎叱｣ 서두의 창귀의 등급과 기능"
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE06075105
+      title: '한국어 기식음의 모음 앞 약화 현상에 대한 음운론적해석 : 방언, 세대, 남녀별 조사 결과를 바탕으로'
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE02467079
+      title: 풍력발전용 Gearbox Carrier 개발에 관한 연구
+      reason: 상세 저자 소속 박재익=디에스티, 금오공대·기계가공 연구 공저자군으로 KARI PI와 다름.
+    - node_id: T13566550
+      title: 屠畜牛의 生殖器 疾病發生 動向硏究
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE10880265
+      title: 1900년대 이인직의 사회적 상상- 신소설 텍스트를 중심으로
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE02219338
+      title: 두 성경 번역본을 통해 본 지난 40년간의 한국어 형태 변화의 경향
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE08937723
+      title: 'The Korean Case Marker Allomorphy: Violable Constraints vs. Inviolable Constraints'
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE08937354
+      title: The Tonology of Kilega Verbs
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE01553486
+      title: A Study on CF IZO Application
+      reason: 상세 저자 소속 박재익=삼성전자공과대학교, 디스플레이/진공 IZO 연구로 KARI PI와 다름.
+    - node_id: NODE02250768
+      title: 통사구조에 따른 부산지역 대학생들의 영어 의문문의 억양
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE10999310
+      title: 외국인을 위한 한국어 교재 개발과 현실적인 문제
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE01057511
+      title: Some Intonational and Phonological-Featural Errors in the English Pronunciation by Koreans
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE00639122
+      title: 전통적 방법에 의한 부각의 제조 및 저장성 향상에 관한 연구
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE00163331
+      title: "[통계학] 이항분포의 의미"
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12679697
+      title: Esophageal Endoscopic Vacuum Therapy with Enteral Feeding Using a Sengstaken-Blakemore Tube
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12679452
+      title: Bronchial Artery Aneurysm Presenting as Hematemesis and Mediastinal Hemorrhage
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE10239425
+      title: 'Split hand/foot malformation with long-bone deficiency and BHLHA9 duplication: A prenatal diagnosis report'
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12679101
+      title: Early and Mid-term Changes of the Distal Aorta after Total Arch Replacement for Acute Type A Aortic Dissection
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12255489
+      title: Performance of Interventional Procedures in a Day-hospital System
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12255266
+      title: Transarterial Embolization of Acute Intercostal Artery Bleeding
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE12947520
+      title: A Study on the Mechanism of Visit Intention Formation by Generative AI-Based Regional Festival Promotional Content in Korea
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+    - node_id: NODE11700634
+      title: Enhancing Copper Anisotropic Etching Mechanism with Organic Additives in Highly Concentrated Copper Chloride Solutions
+      reason: '의학·인문·행정·화공 등 동명이인: 소속·공저자·연구분야가 PI와 일치하지 않아 제외.'
+  korean-indexes:
+    as_of: '2026-10-02'
+    sources:
+    - RISS
+    - KCI
+    - ScienceON
+    - KISS
+    - 국회도서관
+    - 한국우주과학회
+    - 한국항공우주학회
+    - 한국통신학회
+    - 한국물리학회
+    - 경희대학교 SFMCL
+    queries:
+    - 'RISS 저자 박재익(한국어명): 101건, pageScale=100 두 페이지 끝까지'
+    - 'RISS 저자 박재익(Jae-Ik Park): 54건 전체'
+    - KCI 저자 CRT000280238
+    - 웹검색 박재익 ScienceON / KISS 위성 / 국회도서관 위성 / KCI 항공우주
+    - KSSS 공식 2004~2026 회보 다운로드 전체 검색
+    - >-
+      KCI 저자명(CRET_NM) 박재익: https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?poSearchBean.conditionList=CRET_NM&poSearchBean.keywordList=%EB%B0%95%EC%9E%AC%EC%9D%B5&poSearchBean.docsCount=100&poSearchBean.startPg=1
+    - >-
+      KCI 저자명 Jae-Ik Park / Park, Jae-Ik / Jae Ik Park: 세 변형 모두 332건으로 동일. Jae-Ik Park 4페이지 전체 조회: https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?poSearchBean.conditionList=CRET_NM&poSearchBean.keywordList=Jae-Ik+Park&poSearchBean.docsCount=100&poSearchBean.startPg=1
+    - KSSS 2019 봄·2020 가을·2022 봄·2022 가을·2023 봄 전권 영어 OCR 및 원문 대조
+    total_claimed:
+      riss_korean_name: 101
+      riss_korean_english_variant: 54
+      kci_korean_name: 33
+      kci_english_variant: 332
+    inspected_count:
+      riss_korean_name: 101
+      riss_korean_english_variant: 54
+      kci_korean_name: 33
+      kci_english_variant_rows: 332
+      kci_english_variant_unique_ids: 330
+      ksss_archive_volumes_downloaded: 43
+      ksss_alternative_full_bulletin: 1
+      ksss_full_ocr_volumes: 5
+    limitations:
+    - RISS 한글명 검색 101건과 영문혼합 검색 54건은 서로 중복된다. 동명이인 인문학·식품·소재 연구자는 제외했다.
+    - KCI 한국어명 결과 33건 전부와 영문명 변형 332행 4페이지를 확인했다. 영문 검색은 이름 부분 일치로 무관한 저자가 많고 페이지 이동 중 2개의 중복 ID가 있어 고유 330건이다.
+    - ScienceON 직접 접근 오류와 KISS 접근 제약으로 이 두 사이트의 자체 저자 목록을 전수 확보하지 못했다. RISS 제공처 색인, KCI, 공식 발행자 및 웹검색으로 교차 확인했으며 모든 검색 사이트의 완전성을 보장하지 않는다.
+    - KSSS 공개 아카이브 2004~2026 회보 43권 및 2019 가을 대체 완본 1권을 내려받아 텍스트 검색했다. 일부 2004~2007 구권과 중간 연도 회보는 스캔/문자 인코딩 문제로 텍스트 검색만으로 누락을 배제할 수 없다. 2019 봄·2020 가을·2022 봄/가을·2023 봄 5권은 전권 OCR도 수행했다.
+    - 국회도서관은 공개 색인 검색 및 기존 2009 HIL 논문의 서지를 확인했으며 전체 저자 소장목록은 확보하지 못했다.
+    - 2011 Satellite Formation Reconfiguration and Station-Keeping using State-Dependent Riccati Equation Technique는 사용자 지시로 제외한다.
+    - DOI null은 확인된 DOI가 없다는 뜻이며 발급되지 않았다고 단정하지 않는다. 신규 회보 초록에 명시된 DOI는 찾지 못했다.
+    source_checks:
+    - source: KCI
+      url: >-
+        https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?poSearchBean.conditionList=CRET_NM&poSearchBean.keywordList=%EB%B0%95%EC%9E%AC%EC%9D%B5&poSearchBean.docsCount=100&poSearchBean.startPg=1
+      result: 한국어 저자명 33건 전수; 관련 공학·우주 논문은 기존 목록과 일치, 신규 없음.
+    - source: KCI English
+      url: >-
+        https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?poSearchBean.conditionList=CRET_NM&poSearchBean.keywordList=Jae-Ik+Park&poSearchBean.docsCount=100&poSearchBean.startPg=1
+      result: 332행 끝까지 조회. 이름 부분일치로 포함된 2013 SIL 시뮬레이터와 2012 레이저 상대위치 논문은 실제 Han-Earl Park 저작으로 제외.
+    - source: 국회도서관
+      url: https://cloud.nanet.go.kr/search/searchView.do?lodArticleId=ARTICLE_149311
+      result: 기존 2009 HIL 테스트베드 논문 저자·DOI 대조.
+    - source: KISS
+      url: https://kiss.kstudy.com/Detail/Ar?key=3464927
+      result: 직접 접근 제한. RISS와 KCI에서 기존 SBAS 기술표준 논문 교차 확인.
+    - source: ScienceON
+      url: https://scienceon.kisti.re.kr
+      result: 직접 웹 도구 접근 오류. RISS의 ScienceON 제공처 색인을 검색.
+    - source: KSSS
+      url: https://ksss.or.kr/homepage/custom/bulletin
+      result: 공개 회보 전체 링크 수집 후 텍스트·OCR 검색. 추가 21개 발표 확인.
+    excluded_false_matches:
+    - title: Development of Integrated Orbit and Attitude Software-in-the-loop Simulator for Satellite Formation Flying
+      reason: 실제 저자 Han-Earl Park, Sang-Young Park, Chandeok Park, Sung-Woo Kim; 박재익 미포함.
+      sources:
+      - https://oak.go.kr/central/journallist/journaldetail.do?article_seq=12052
+      - https://acl.yonsei.ac.kr/journal_articles/
+    - title: Real-Time Determination of Relative Position Between Satellites Using Laser Ranging
+      reason: 실제 저자 Shinwon Jung, Sang-Young Park, Han-Earl Park, Chan-Deok Park, Seung-Woo Kim, Yoon-Soo Jang; 박재익 미포함.
+      sources:
+      - https://dl.nanet.go.kr/detail/KINX2013040778
+    unresolved_candidates: []
+    resolved_followup: 2026 SASE 시간표 후보는 최종 웹프로시딩·프로그램에서 제목과 전체 저자를 확보하여 신규 실적에 반영했습니다.
+  sase-additional:
+    checked_on: '2026-10-02'
+    sources:
+    - https://sase.or.kr/Conference/ConferenceView.asp?AC=0&B_CATE=BBC1&CODE=CC20260301
+    - https://sase.or.kr/UploadData/Editor/Conference/202604/A756470F7EF94A84B8699104C6B83210.pdf
+    - https://sase.or.kr/proceedings/2026a/TrackList.asp?ST_DATE=20260508&ST_TYPE=1
+    queries:
+    - 최종 프로그램집 전체 텍스트 박재익 및 Jae 검색
+    - 2026-05-08 P-탐사-1 / 접수번호00456
+    - 최종 프로그램집에서 추가 발견한 P-구조-12 / 접수번호00481
+    total_claimed: 472
+    inspected_count:
+      program_pdf_pages: 110
+      matched_full_author_list_entries: 2
+      verified_session_pages: 2
+    limitations:
+    - 472는 대회 전체 발표논문 수이며 박재익 성과 수가 아님. 프로그램집 전체에서 한글 이름을 검색하고 해당 목록 2건을 웹프로시딩과 재대조함.
+    - 등록비 인증을 요구하는 발표자료 본문은 열람하지 않았으며 DOI 발급 여부를 단정하지 않음.
+    - 최종 프로그램과 공개 명단의 게재 사실을 확인했으며 현장 발표 이행 여부를 별도로 증명한 것은 아님.
+  international:
+    checked_on: '2026-10-02'
+    sources:
+    - Crossref
+    - OpenAlex
+    - Semantic Scholar
+    - DataCite
+    - ORCID
+    - NASA NTRS
+    - KoreaScience
+    - MDPI
+    - ScienceDirect
+    - Yonsei/Kyung Hee/WVU institutional pages
+    - Google web search
+    queries:
+    - source: Crossref
+      query: query.author=Jae-Ik Park, rows=300
+      inspected_count: 300
+      exact_name_hits: 8
+      result: PI 기존실적 6건, 재료/문학 동명이인 2건. 신규 PI 학술지 논문 미발견.
+    - source: Crossref
+      query: query.author=박재익, rows=100
+      exact_name_hits: 8
+      result: 정확한 한글이름의 결과는 언어학·문학·행정학 동명이인으로 제외.
+    - source: OpenAlex
+      query: ORCID 0000-0001-6227-0442 및 Jae-ik Park 저자명 변형
+      author_profiles_inspected: 8
+      work_rows_inspected: 28
+      result: 기존 국내 논문 DOI 1건 추가 확인. ORCID 연결 프로필에도 문학 실적 오합병이 있어 소속·원문 저자 대조.
+    - source: Semantic Scholar
+      query: Jae-ik Park, author profiles 2109210168/2116021217/2016556415
+      work_rows_inspected: 21
+      result: 기존 PI 실적 및 동명이인. 두 추가 이름 후보 프로필은 HTTP429로 조회 제한.
+    - source: DataCite
+      query: creators.nameIdentifiers.nameIdentifier:0000-0001-6227-0442
+      total_claimed: 0
+    - source: DataCite
+      query: creators.name:"Park, Jae-Ik"
+      total_claimed: 1
+      result: 물성 분야 동명이인의 arXiv 프리프린트 제외.
+    - source: NASA NTRS
+      query: Jae-ik Park 검색 및 기존 20180006802 대조
+      result: 검색 API 결과 0; 기존 AAS18-246 기관 기록 직접 대조. 사이트 전체 부재 판정 아님.
+    - source: Institutional / publisher pages
+      queries:
+      - '"Jae-ik Park" "2025"'
+      - '"Jae-ik Park" "2026"'
+      - '"박재익" "학위논문" 위성'
+      - '"Jae-ik Park" "Scholar"'
+      result: 새로운 학술지 논문 미확인. 공저자 연구실 학회 목록은 KSSS 회보 조사로 연결.
+    limitations:
+    - 이름 검색의 한정된 결과 및 공개 API를 대조한 것이며 전 세계 모든 검색 사이트·유료 색인·비공개 실적의 완전성을 보증하지 않는다.
+    - Google Scholar, Scopus, Web of Science의 인증된 전체 저자 목록은 확보하지 못했다. 웹 색인·공개 기관 기록으로 보완했다.
+    - OpenAlex와 Semantic Scholar의 동명이인/ORCID 오합병을 확인해 식별자를 자동 수입하지 않았다.
+  patents_software:
+    checked_on: '2026-10-02'
+    scope: 현재까지 공개된 박재익/Jae-ik Park 특허·소프트웨어. 동일 기관·기술분야·공동발명자 및 출원번호를 대조.
+    sources:
+    - name: Google Patents (patent-family search and official publication PDFs)
+      url: https://patents.google.com/
+      total_claimed:
+        korean_name_all_assignees: 46
+        korean_name_KARI: 6
+        Jae_Ik_Park_KARI: 1
+        Jaeik_Park_KARI: 0
+      inspected_count:
+        korean_name_all_assignees: 46
+        korean_name_KARI: 6
+        English_US_family: 1
+        official_publication_documents: 9
+    - name: KARI 지식재산권 공개목록
+      url: https://www.kari.re.kr/kor/94/patent
+      total_claimed: 3108
+      inspected_count:
+        unfiltered_first_page: 10
+        first_page_each_of_4_title_queries: 40
+      queries:
+      - 달
+      - GNSS
+      - 위성항법
+      - GPS
+      limit: 기관 전체 목록. 발명자 검색 필드가 없고 3108건 전량 검사하지 않음; 제목·출원번호만 확인 가능한 목록.
+    - name: KAIA 위성항법기반 교통인프라 기술개발 특허성과
+      url: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?menuNo=200060&listCd=Patent&tskId=42881&yearCnt=3&pageUnit=100
+      total_claimed: 62
+      inspected_count: 62
+      unit: 중복 출원/등록 보고를 포함한 목록 행
+    - name: KAIA 같은 과제 소프트웨어성과
+      url: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+      total_claimed: 27
+      inspected_count: 27
+      unit: yearCnt=7 전체 공개 목록 행
+    - name: NTIS 박재익 특허
+      url: https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+      total_claimed: 6
+      inspected_count: 6
+    - name: NTIS 박재익 소프트웨어
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+      total_claimed: 0
+      inspected_count: 0
+    - name: 한국저작권위원회 저작권등록
+      url: https://www.cros.or.kr/page.do?w2xPath=/ui/main/main.xml
+      limit: WebSquare 동적 화면으로 공개 검색을 텍스트 접근에서 진행하지 못함.
+    - name: KIPRIS 서지정보 연결
+      url: https://www.kipris.or.kr/link/main/Biblio.jsp?APPLNO=1020180131171
+      limit: KARI 연결을 통해 접근 시도했으나 공개 서지 응답을 확보하지 못함. 명세서의 공식 공보 PDF로 보완.
+    queries:
+    - source: Google Patents
+      query: inventor=박재익&assignee=한국항공우주연구원&num=100
+      url: >-
+        https://patents.google.com/xhr/query?url=inventor%3D%EB%B0%95%EC%9E%AC%EC%9D%B5%26assignee%3D%ED%95%9C%EA%B5%AD%ED%95%AD%EA%B3%B5%EC%9A%B0%EC%A3%BC%EC%97%B0%EA%B5%AC%EC%9B%90%26num%3D100&exp=
+      total_claimed: 6
+      inspected_count: 6
+    - source: Google Patents
+      query: inventor=박재익&num=100
+      url: https://patents.google.com/xhr/query?url=inventor%3D%EB%B0%95%EC%9E%AC%EC%9D%B5%26num%3D100&exp=
+      total_claimed: 46
+      inspected_count: 46
+    - source: Google Patents
+      query: inventor=Jaeik+Park&assignee=Korea+Aerospace+Research+Institute&num=100
+      url: https://patents.google.com/xhr/query?url=inventor%3DJaeik%2BPark%26assignee%3DKorea%2BAerospace%2BResearch%2BInstitute%26num%3D100&exp=
+      total_claimed: 0
+      inspected_count: 0
+    - source: Google Patents
+      query: inventor=Jae-ik+Park&assignee=Korea+Aerospace+Research+Institute&num=100
+      url: https://patents.google.com/xhr/query?url=inventor%3DJae-ik%2BPark%26assignee%3DKorea%2BAerospace%2BResearch%2BInstitute%26num%3D100&exp=
+      total_claimed: 1
+      inspected_count: 1
+    - source: NTIS 특허
+      query: 박재익
+      url: https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+      total_claimed: 6
+      inspected_count: 6
+      result: 기존 국내 특허 4개에 해당. 출원/등록 중복 보고 2건.
+    - source: NTIS 소프트웨어
+      query: 박재익
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+      total_claimed: 0
+      inspected_count: 0
+    - source: NTIS 소프트웨어
+      query: 수신국 시스템 이상검출
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%88%98%EC%8B%A0%EA%B5%AD+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EC%9D%B4%EC%83%81%EA%B2%80%EC%B6%9C
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    - source: NTIS 소프트웨어
+      query: 관성센서 데이터 시각동기
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EA%B4%80%EC%84%B1%EC%84%BC%EC%84%9C+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8B%9C%EA%B0%81%EB%8F%99%EA%B8%B0
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    - source: NTIS 소프트웨어
+      query: 위성항법 수신국 처리운용
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%88%98%EC%8B%A0%EA%B5%AD+%EC%B2%98%EB%A6%AC%EC%9A%B4%EC%9A%A9
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    - source: NTIS 소프트웨어
+      query: 다중 수신국 네트워크 데이터 실시간
+      url: >-
+        https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%8B%A4%EC%A4%91+%EC%88%98%EC%8B%A0%EA%B5%AD+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8B%A4%EC%8B%9C%EA%B0%84
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    - source: NTIS 소프트웨어
+      query: 위성항법기반 교통인프라 시스템 모니터링
+      url: >-
+        https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EA%B8%B0%EB%B0%98+%EA%B5%90%ED%86%B5%EC%9D%B8%ED%94%84%EB%9D%BC+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    - source: NTIS 소프트웨어
+      query: 기상청 데이터 획득
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EA%B8%B0%EC%83%81%EC%B2%AD+%EB%8D%B0%EC%9D%B4%ED%84%B0+%ED%9A%8D%EB%93%9D
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    - source: NTIS 소프트웨어
+      query: 달착륙선 2차원
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%8B%AC%EC%B0%A9%EB%A5%99%EC%84%A0+2%EC%B0%A8%EC%9B%90
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    - source: NTIS 소프트웨어
+      query: 후처리 항법위성
+      url: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%ED%9B%84%EC%B2%98%EB%A6%AC+%ED%95%AD%EB%B2%95%EC%9C%84%EC%84%B1
+      result: 공개 검색 결과 확인; 개인 귀속 확인에는 사용하지 못함.
+    total_claimed: 각 사이트/검색식별 sources·queries에 기록. 서로 중복되므로 합계를 개인 실적 수로 쓰지 않음.
+    inspected_count:
+      google_patents_unique_korean_name_families: 46
+      KAIA_patent_rows: 62
+      KAIA_software_rows: 27
+      NTIS_patent_rows: 6
+      existing_records_reconciled: 14
+      new_verified: 0
+      unattributed_software_candidates: 6
+    limitations:
+    - 공개 검색·색인 범위에 대한 조사로 미공개 출원, 비공개/비색인 성과까지 누락 없음을 증명하지 못함.
+    - Google Patents 한국어 박재익 46개 family 중 항우연 6개만 기존 연구이력과 일치. 나머지는 가전·통신·건설 등 다른 기관/공동발명자이므로 개인 성과에서 제외.
+    - KARI 전체 특허 목록 3108건은 전수 점검하지 않음. 대규모 기관 목록과 개인 이름 검색의 범위를 혼동하지 않음.
+    - KAIA·NTIS의 소프트웨어 저작권자가 기관인 항목에서 개인 개발자를 추론하지 않음. 후보 6건은 개인 참여 증거가 없어 보류.
+    - NTIS 소프트웨어 상세 5건은 로그인 필요 화면. 공개 검색 목록만 확인했고 인증 제한을 우회하지 않음.
+    - KR 특허 등록일은 공보 (24)등록일을 사용. Google 이벤트 날짜/공고일 및 KARI 목록의 일부 중복된 날짜를 등록일로 쓰지 않음.
+    - legacy-082 등록일이 개인목록 2017-11-27, NTIS 2017-11-24로 충돌하여 별도 기록.
+    - 등록 사실과 현시점 권리 유효 상태는 별개. 현재 법적 상태는 조사·판단하지 않음.
+records:
+- title: Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering Entry Interface Constraints
+  authors:
+  - Jung-Ju Bae
+  - Jae-ik Park
+  - Dae Yeong Kim
+  - Gi-Hyuk Choi
+  - Jae In Kim
+  - Seung-ryeol Oh
+  - Min Ki Kim
+  - Jeong Heum Im
+  - Choon Woo Lee
+  category: conference
+  scope: domestic
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 43, 발표 II-2-8
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2026-spring-II-2-8
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2026-spring-II-2-8
+  key: discovered-001
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Analysis+of+Mars+Arrival+Conditions+for+Solar+Sail+Spacecraft+Considering+Entry+Interface+Constraints&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-067
+  - author-004
+  - author-065
+  - author-079
+  - author-064
+  - author-068
+  - author-066
+  - author-069
+  - author-070
+- title: Design Criteria and TPM Characteristics of Mars Entry Capsules
+  authors:
+  - Dae Yeong Kim
+  - Gi-Hyuk Choi
+  - Jae-ik Park
+  - Jae In Kim
+  - Seung-ryeol Oh
+  - Jung-Ju Bae
+  category: conference
+  scope: domestic
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 42, 발표 II-2-6
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2026-spring-II-2-6
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2026-spring-II-2-6
+  key: discovered-002
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: https://api.crossref.org/works?query.title=Design+Criteria+and+TPM+Characteristics+of+Mars+Entry+Capsules&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-065
+  - author-079
+  - author-004
+  - author-064
+  - author-068
+  - author-067
+- title: Development of an Integrated Verification Framework for Mars Atmospheric Entry-Descent-Landing
+  authors:
+  - Jae-ik Park
+  - Dae Yeong Kim
+  - Gi-Hyuk Choi
+  - Jae In Kim
+  - Seung-ryeol Oh
+  - Jung-Ju Bae
+  - Min Ki Kim
+  - Jeong Heum Im
+  - Choon Woo Lee
+  category: conference
+  scope: domestic
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 42, 발표 II-2-4
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2026-spring-II-2-4
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2026-spring-II-2-4
+  key: discovered-003
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Development+of+an+Integrated+Verification+Framework+for+Mars+Atmospheric+Entry-Descent-Landing&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+  - author-065
+  - author-079
+  - author-064
+  - author-068
+  - author-067
+  - author-066
+  - author-069
+  - author-070
+- title: Overseas Development Status of Mars Atmosphere Entry Aeroshell and Analysis of 1D Trajectory and Aerodynamic Heating
+  authors:
+  - Gi-Hyuk Choi
+  - Dae-Young Kim
+  - Jae-Ik Park
+  - Jae-In Kim
+  - Chun-Woo Lee
+  category: conference
+  scope: domestic
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 41, 발표 II-2-3
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2026-spring-II-2-3
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2026-spring-II-2-3
+  key: discovered-004
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Overseas+Development+Status+of+Mars+Atmosphere+Entry+Aeroshell+and+Analysis+of+1D+Trajectory+and+Aerodynamic+Heating&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-079
+  - author-065
+  - author-004
+  - author-064
+  - author-070
+- title: 안정적인 랜드마크 추출을 위한 화성 참조지도의 공간해상도 요구사항 분석
+  authors:
+  - 김재인
+  - 박재익
+  - 김대영
+  - 김민기
+  - 배정주
+  - 오승렬
+  - 임정흠
+  - 이춘우
+  category: conference
+  year: 2026
+  date: '2026-06-26'
+  date_precision: month
+  details: 한국항공우주학회 2026년도 우주학술대회, 2026.6, pp. 394-395
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - KSAS 2026 우주학술대회 공식 P탐사-8 목록에 전체 저자 한국항공우주연구원 소속 명시.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE12932292
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE12932292
+  - provider: korean-indexes
+    id: riss-54-30
+  key: discovered-005
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8+%EB%9E%9C%EB%93%9C%EB%A7%88%ED%81%AC+%EC%B6%94%EC%B6%9C%EC%9D%84+%EC%9C%84%ED%95%9C+%ED%99%94%EC%84%B1+%EC%B0%B8%EC%A1%B0%EC%A7%80%EB%8F%84%EC%9D%98+%EA%B3%B5%EA%B0%84%ED%95%B4%EC%83%81%EB%8F%84+%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-064
+  - author-004
+  - author-065
+  - author-066
+  - author-067
+  - author-068
+  - author-069
+  - author-070
+- title: 액정 광 위상배열 기반 회절형 태양돛의 온도 의존 성능 한계 분석
+  authors:
+  - 김종덕
+  - 유상호
+  - 지대찬
+  - 이훈경
+  - 박재익
+  category: conference
+  scope: domestic
+  year: 2026
+  date: '2026-05-08'
+  date_precision: day
+  details: 항공우주시스템공학회 2026년도 춘계학술대회, 부산, 2026.5.8, 포스터 P-구조-12 (발표번호 00481)
+  doi:
+  link: https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  - https://sase.or.kr/UploadData/Editor/Conference/202604/A756470F7EF94A84B8699104C6B83210.pdf
+  - https://sase.or.kr/Conference/ConferenceView.asp?AC=0&B_CATE=BBC1&CODE=CC20260301
+  identity_evidence:
+  - 공식 최종 웹프로시딩의 전체 저자 명단 및 최종 프로그램집에서 박재익(한국항공우주연구원) 확인. 제목·세션·발표일 및 전체 저자 명단이 두 공식 자료에서 일치.
+  existing_match:
+  status: new_verified
+  discovery_index: sase-2026-spring-00481
+  publication_type: conference_poster
+  author_orcids: []
+  program_page: 58
+  program_pdf_page: 89
+  notes:
+  - 프로그램집 쪽수는 학술논문 본문 쪽수가 아니므로 details에 논문 페이지로 넣지 않음.
+  - 원문 발표자료는 등록비 인증 대상이지만 제목·전체 저자·소속을 포함한 공식 웹목록과 최종 프로그램집은 공개되어 있어 이 서지만 사용함.
+  source_records:
+  - provider: sase-additional
+    id: sase-2026-spring-00481
+  key: discovered-006
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%95%A1%EC%A0%95+%EA%B4%91+%EC%9C%84%EC%83%81%EB%B0%B0%EC%97%B4+%EA%B8%B0%EB%B0%98+%ED%9A%8C%EC%A0%88%ED%98%95+%ED%83%9C%EC%96%91%EB%8F%9B%EC%9D%98+%EC%98%A8%EB%8F%84+%EC%9D%98%EC%A1%B4+%EC%84%B1%EB%8A%A5+%ED%95%9C%EA%B3%84+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-084
+  - author-085
+  - author-086
+  - author-087
+  - author-004
+- title: 한국형 화성 탐사 임무의 EDL 단계 통신 아키텍처 연구
+  authors:
+  - 박재익
+  - 안상일
+  category: conference
+  year: 2026
+  date: '2026-02-05'
+  date_precision: month
+  details: 2026년도 한국통신학회 동계종합학술발표회 논문집, 2026.2, pp. 481-482
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+  - https://www.riss.kr/link?id=A110268793
+  - https://conf.kics.or.kr/2026w/downloadProgram?type=program
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - 한국통신학회 2026 동계 공식 프로그램 13D-6 박재익(한국항공우주연구원)과 동일 제목. 최종 RISS 서지는 공저자 안상일 포함.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE12738254
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE12738254
+  - provider: korean-indexes
+    id: riss-54-17
+  key: discovered-007
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%ED%95%9C%EA%B5%AD%ED%98%95+%ED%99%94%EC%84%B1+%ED%83%90%EC%82%AC+%EC%9E%84%EB%AC%B4%EC%9D%98+EDL+%EB%8B%A8%EA%B3%84+%ED%86%B5%EC%8B%A0+%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98+%EC%97%B0%EA%B5%AC&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+  - author-071
+- title: 화성 대기 진입-감속-착륙 해석을 위한 항력계수 모델별 예측 성능 비교
+  authors:
+  - 박재익
+  category: conference
+  scope: domestic
+  year: 2026
+  date: '2026-05-08'
+  date_precision: day
+  details: 항공우주시스템공학회 2026년도 춘계학술대회, 부산, 2026.5.8, 포스터 P-탐사-1 (발표번호 00456)
+  doi:
+  link: https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1315
+  sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1315
+  - https://sase.or.kr/UploadData/Editor/Conference/202604/A756470F7EF94A84B8699104C6B83210.pdf
+  - https://sase.or.kr/Conference/ConferenceView.asp?AC=0&B_CATE=BBC1&CODE=CC20260301
+  identity_evidence:
+  - 공식 최종 웹프로시딩의 전체 저자 명단 및 최종 프로그램집에서 박재익(한국항공우주연구원) 확인. 제목·세션·발표일 및 전체 저자 명단이 두 공식 자료에서 일치.
+  existing_match:
+  status: new_verified
+  discovery_index: sase-2026-spring-00456
+  publication_type: conference_poster
+  author_orcids: []
+  program_page: 63
+  program_pdf_page: 94
+  notes:
+  - 프로그램집 쪽수는 학술논문 본문 쪽수가 아니므로 details에 논문 페이지로 넣지 않음.
+  - 원문 발표자료는 등록비 인증 대상이지만 제목·전체 저자·소속을 포함한 공식 웹목록과 최종 프로그램집은 공개되어 있어 이 서지만 사용함.
+  source_records:
+  - provider: sase-additional
+    id: sase-2026-spring-00456
+  key: discovered-008
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%ED%99%94%EC%84%B1+%EB%8C%80%EA%B8%B0+%EC%A7%84%EC%9E%85-%EA%B0%90%EC%86%8D-%EC%B0%A9%EB%A5%99+%ED%95%B4%EC%84%9D%EC%9D%84+%EC%9C%84%ED%95%9C+%ED%95%AD%EB%A0%A5%EA%B3%84%EC%88%98+%EB%AA%A8%EB%8D%B8%EB%B3%84+%EC%98%88%EC%B8%A1+%EC%84%B1%EB%8A%A5+%EB%B9%84%EA%B5%90&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+- title: 딥러닝 기반 태양돛 우주선 자율 제어를 위한 동역학 좌표계 정합성 검증
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-06
+  date_precision: month
+  details: 한국항공우주학회 2025년도 우주학술대회, 2025.6, pp. 368-368
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512263
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512263
+  - https://www.riss.kr/link?id=A110088141
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지에서 단독 저자 박재익(Jae-ik Park), KSAS, 우주 임무설계/태양돛 연구 주제 확인. 발행자 소속 확인 후 확정 필요. DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE12512263
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE12512263
+  - provider: korean-indexes
+    id: riss-54-5
+  key: discovered-009
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EB%94%A5%EB%9F%AC%EB%8B%9D+%EA%B8%B0%EB%B0%98+%ED%83%9C%EC%96%91%EB%8F%9B+%EC%9A%B0%EC%A3%BC%EC%84%A0+%EC%9E%90%EC%9C%A8+%EC%A0%9C%EC%96%B4%EB%A5%BC+%EC%9C%84%ED%95%9C+%EB%8F%99%EC%97%AD%ED%95%99+%EC%A2%8C%ED%91%9C%EA%B3%84+%EC%A0%95%ED%95%A9%EC%84%B1+%EA%B2%80%EC%A6%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+- title: 딥러닝 기반 태양돛 화성 전이궤도 최적 제어를 위한 간접법 해석
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-11
+  date_precision: month
+  details: 한국항공우주학회 2025년도 추계학술대회, 2025.11, pp. 1466-1467
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746
+  - https://www.riss.kr/link?id=A110187813
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지에서 단독 저자 박재익(Jae-ik Park), KSAS, 우주 임무설계/태양돛 연구 주제 확인. 발행자 소속 확인 후 확정 필요. DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE12589746
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE12589746
+  - provider: korean-indexes
+    id: riss-54-28
+  key: discovered-010
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EB%94%A5%EB%9F%AC%EB%8B%9D+%EA%B8%B0%EB%B0%98+%ED%83%9C%EC%96%91%EB%8F%9B+%ED%99%94%EC%84%B1+%EC%A0%84%EC%9D%B4%EA%B6%A4%EB%8F%84+%EC%B5%9C%EC%A0%81+%EC%A0%9C%EC%96%B4%EB%A5%BC+%EC%9C%84%ED%95%9C+%EA%B0%84%EC%A0%91%EB%B2%95+%ED%95%B4%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+- title: '임무설계 관점에서 본 달 착륙선 착륙지 선정 고려사항: 태양광 분석'
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-04
+  date_precision: month
+  details: 한국항공우주학회 2025년도 춘계학술대회, 2025.4, pp. 1318-1320
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12341171
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12341171
+  - https://www.riss.kr/link?id=A109902129
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지에서 단독 저자 박재익(Jae-ik Park), KSAS, 우주 임무설계/태양돛 연구 주제 확인. 발행자 소속 확인 후 확정 필요. DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE12341171
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE12341171
+  - provider: korean-indexes
+    id: riss-54-26
+  key: discovered-011
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%9E%84%EB%AC%B4%EC%84%A4%EA%B3%84+%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C+%EB%B3%B8+%EB%8B%AC+%EC%B0%A9%EB%A5%99%EC%84%A0+%EC%B0%A9%EB%A5%99%EC%A7%80+%EC%84%A0%EC%A0%95+%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD%3A+%ED%83%9C%EC%96%91%EA%B4%91+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+- title: 화성 대기 진입 경계면 제약 조건을 고려한 전이궤도 발사창 분석
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-11
+  date_precision: month
+  details: 한국항공우주학회 2025년도 추계학술대회, 2025.11, pp. 1464-1465
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589745
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589745
+  - https://www.riss.kr/link?id=A110187517
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지에서 단독 저자 박재익(Jae-ik Park), KSAS, 우주 임무설계/태양돛 연구 주제 확인. 발행자 소속 확인 후 확정 필요. DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE12589745
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE12589745
+  - provider: korean-indexes
+    id: riss-54-21
+  key: discovered-012
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%ED%99%94%EC%84%B1+%EB%8C%80%EA%B8%B0+%EC%A7%84%EC%9E%85+%EA%B2%BD%EA%B3%84%EB%A9%B4+%EC%A0%9C%EC%95%BD+%EC%A1%B0%EA%B1%B4%EC%9D%84+%EA%B3%A0%EB%A0%A4%ED%95%9C+%EC%A0%84%EC%9D%B4%EA%B6%A4%EB%8F%84+%EB%B0%9C%EC%82%AC%EC%B0%BD+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+- title: 태양관측 L4 탐사선 시스템 개념연구 결과
+  authors:
+  - 전문진
+  - 박재익
+  - 신현진
+  - 김창균
+  - 문상만
+  category: conference
+  year: 2024
+  date: 2024-06
+  date_precision: month
+  details: 한국항공우주학회 2024년도 우주학술대회, 2024.6, pp. 225-225
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  - https://www.riss.kr/link?id=A109564734
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE12062439
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE12062439
+  - provider: korean-indexes
+    id: riss-54-32
+  key: discovered-013
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%ED%83%9C%EC%96%91%EA%B4%80%EC%B8%A1+L4+%ED%83%90%EC%82%AC%EC%84%A0+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EA%B0%9C%EB%85%90%EC%97%B0%EA%B5%AC+%EA%B2%B0%EA%B3%BC&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-072
+  - author-004
+  - author-073
+  - author-074
+  - author-075
+- title: Mission Design Considerations for a Sun-Earth Lagrange Point L4 Mission
+  authors:
+  - Jae-ik Park
+  - Moon-Jin Jeon
+  - Donghun Lee
+  - Sung-Woo Kim
+  - Junga Hwang
+  - Kyung-Suk Cho
+  category: conference
+  scope: domestic
+  year: 2023
+  date: 2023-04
+  date_precision: month
+  details: 한국우주과학회 2023년 봄 학술대회, 한국우주과학회보 제32권 1호, p. 33, 발표 II-2-4
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  identity_evidence:
+  - 공식 회보 PDF 39쪽 초록 및 16쪽 프로그램에서 첫 저자 Jae-ik Park와 Korea Aerospace Research Institute 소속, 공저자 5명 확인.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2023-spring-II-2-4
+  note: 2023년 6월 KSAS의 태양-지구 라그랑지점 L4 탐사선 임무 설계 기준 발표와 행사·월·공저자 구성이 다르므로 별도 발표.
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2023-spring-II-2-4
+  key: discovered-014
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Mission+Design+Considerations+for+a+Sun-Earth+Lagrange+Point+L4+Mission&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+  - author-072
+  - author-006
+  - author-081
+  - author-082
+  - author-083
+- title: "[크로스로드] 대한민국 최초 달 궤도선 ‘다누리’ 궤적에 관하여"
+  authors:
+  - 박재익
+  category: journal
+  year: 2023
+  date: '2023-05-02'
+  date_precision: day
+  details: 물리학과 첨단기술 제32권 제5호, 2023.5, pp. 13-15
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11419479
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11419479
+  - https://webzine.kps.or.kr/?idx=16841&p=5_view
+  - https://www.riss.kr/link?id=A108610580
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다. 한국물리학회 공식 웹진 저자약력의 연세대 천문우주학과 박사(2010), KARI 책임연구원 및 다누리 임무설계 책임자가 PI와 일치한다.
+  - '한국물리학회 공식 원문 저자약력: 연세대 천문우주학 박사(2010), KARI 책임연구원, 다누리 임무설계 책임자.'
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE11419479
+  publication_type: 전문잡지
+  author_orcids: []
+  notes:
+  - 한국물리학회 전문잡지 기고(크로스로드)이며 학술지 심사논문으로 분류하지 않는다. 기존 Coordinates 기고와 같이 게재 실적으로 제시할 수 있다.
+  source_records:
+  - provider: dbpia
+    id: NODE11419479
+  - provider: korean-indexes
+    id: riss-all-1
+  key: discovered-015
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%5B%ED%81%AC%EB%A1%9C%EC%8A%A4%EB%A1%9C%EB%93%9C%5D+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+%EC%B5%9C%EC%B4%88+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0+%E2%80%98%EB%8B%A4%EB%88%84%EB%A6%AC%E2%80%99+%EA%B6%A4%EC%A0%81%EC%97%90+%EA%B4%80%ED%95%98%EC%97%AC&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+- title: 달 궤도선 ‘다누리’ 임무 운영 결과
+  authors:
+  - 박재익
+  - 전문진
+  - 조영호
+  - 김대관
+  category: conference
+  year: 2023
+  date: 2023-04
+  date_precision: month
+  details: 한국항공우주학회 2023년도 춘계학술대회, 2023.4, pp. 515-516
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  - https://www.riss.kr/link?id=A108647713
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE11439221
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE11439221
+  - provider: korean-indexes
+    id: riss-54-11
+  key: discovered-016
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0+%E2%80%98%EB%8B%A4%EB%88%84%EB%A6%AC%E2%80%99+%EC%9E%84%EB%AC%B4+%EC%9A%B4%EC%98%81+%EA%B2%B0%EA%B3%BC&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+  - author-072
+  - author-046
+  - author-007
+- title: 태양-지구 라그랑지점 L4 탐사선 임무 설계 기준
+  authors:
+  - 박재익
+  - 전문진
+  - 조영호
+  category: conference
+  year: 2023
+  date: 2023-06
+  date_precision: month
+  details: 한국항공우주학회 2023 제1회 우주학술대회, 2023.6, pp. 75-75
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  - https://www.riss.kr/link?id=A108873931
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE11622715
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE11622715
+  - provider: korean-indexes
+    id: riss-54-29
+  key: discovered-017
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%ED%83%9C%EC%96%91-%EC%A7%80%EA%B5%AC+%EB%9D%BC%EA%B7%B8%EB%9E%91%EC%A7%80%EC%A0%90+L4+%ED%83%90%EC%82%AC%EC%84%A0+%EC%9E%84%EB%AC%B4+%EC%84%A4%EA%B3%84+%EA%B8%B0%EC%A4%80&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+  - author-072
+  - author-046
+- title: BLT 구간에서의 KPLO X 대역 중심 주파수 Doppler 주파수 편이 예측
+  authors:
+  - 문상만
+  - 김창균
+  - 이현철
+  - 박재익
+  category: conference
+  year: 2022
+  date: 2022-11
+  date_precision: month
+  details: 한국항공우주학회 2022년도 추계학술대회, 2022.11, pp. 1291-1292
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  - https://www.riss.kr/link?id=A108421184
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE11181152
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE11181152
+  - provider: korean-indexes
+    id: riss-54-47
+  key: discovered-018
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=BLT+%EA%B5%AC%EA%B0%84%EC%97%90%EC%84%9C%EC%9D%98+KPLO+X+%EB%8C%80%EC%97%AD+%EC%A4%91%EC%8B%AC+%EC%A3%BC%ED%8C%8C%EC%88%98+Doppler+%EC%A3%BC%ED%8C%8C%EC%88%98+%ED%8E%B8%EC%9D%B4+%EC%98%88%EC%B8%A1&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-075
+  - author-074
+  - author-076
+  - author-004
+- title: Orbit Determination Performance Analysis According to the Ground Tracking Support Condition in Trans-Lunar Orbit for Korea Pathfinder Lunar Orbiter
+  authors:
+  - Jonghee Bae
+  - Young-Joo Song
+  - Young-Rok Kim
+  - SeungBum Hong
+  - Jun Bang
+  - Jae-ik Park
+  category: conference
+  scope: domestic
+  year: 2022
+  date: 2022-04
+  details: 한국우주과학회 2022년 봄 학술대회, 한국우주과학회보 제31권 1호, pp. 73, 발표 P-61
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2022-spring-P-61
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2022-spring-P-61
+  key: discovered-019
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Orbit+Determination+Performance+Analysis+According+to+the+Ground+Tracking+Support+Condition+in+Trans-Lunar+Orbit+for+Korea+Pathfinder+Lunar+Orbiter&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-003
+  - author-001
+  - author-002
+  - author-005
+  - author-023
+  - author-004
+- title: Simulation of KPLO Flight Dynamics Subsystem Using Blind Test Data for Operational Readiness Preparation
+  authors:
+  - Young-Joo Song
+  - Jonghee Bae
+  - SeungBum Hong
+  - Jun Bang
+  - Jae-ik Park
+  - Young-Rok Kim
+  category: conference
+  scope: domestic
+  year: 2022
+  date: 2022-04
+  details: 한국우주과학회 2022년 봄 학술대회, 한국우주과학회보 제31권 1호, pp. 35–36, 발표 III-1-3
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2022-spring-III-1-3
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2022-spring-III-1-3
+  key: discovered-020
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Simulation+of+KPLO+Flight+Dynamics+Subsystem+Using+Blind+Test+Data+for+Operational+Readiness+Preparation&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-001
+  - author-003
+  - author-005
+  - author-023
+  - author-004
+  - author-002
+- title: 한국 달 궤도선 ‘다누리’ 초기 임무 운영 현황
+  authors:
+  - 박재익
+  - 전문진
+  - 조영호
+  - 김대관
+  category: conference
+  year: 2022
+  date: 2022-11
+  date_precision: month
+  details: 한국항공우주학회 2022년도 추계학술대회, 2022.11, pp. 577-578
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  - https://www.riss.kr/link?id=A108421717
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE11180726
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE11180726
+  - provider: korean-indexes
+    id: riss-54-3
+  key: discovered-021
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%ED%95%9C%EA%B5%AD+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0+%E2%80%98%EB%8B%A4%EB%88%84%EB%A6%AC%E2%80%99+%EC%B4%88%EA%B8%B0+%EC%9E%84%EB%AC%B4+%EC%9A%B4%EC%98%81+%ED%98%84%ED%99%A9&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+  - author-072
+  - author-046
+  - author-007
+- title: Design and Implementation Results for Flight Dynamics Subsystem for Korea Pathfinder Lunar Orbiter Mission
+  authors:
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - SeungBum Hong
+  - Jae-ik Park
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 22, 발표 IV-1-5
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2021-spring-IV-1-5
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2021-spring-IV-1-5
+  key: discovered-022
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Design+and+Implementation+Results+for+Flight+Dynamics+Subsystem+for+Korea+Pathfinder+Lunar+Orbiter+Mission&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-001
+  - author-002
+  - author-003
+  - author-005
+  - author-004
+  - author-007
+  - author-015
+- title: Fuel Gauging Methods for Flight Operation of Korea Pathfinder Lunar Orbiter Mission
+  authors:
+  - Young-Joo Song
+  - Moon-Jin Jeon
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 37, 발표 P-25
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2021-spring-P-25
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2021-spring-P-25
+  key: discovered-023
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Fuel+Gauging+Methods+for+Flight+Operation+of+Korea+Pathfinder+Lunar+Orbiter+Mission&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-001
+  - author-072
+  - author-003
+  - author-002
+  - author-004
+  - author-005
+  - author-007
+  - author-015
+- title: Ground Tracking Support Condition Effect on Orbit Determination and Prediction for Korea Pathfinder Lunar Orbiter for Trans-Lunar Trajectory
+  authors:
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jonghee Bae
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 22, 발표 IV-1-4
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2021-spring-IV-1-4
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2021-spring-IV-1-4
+  key: discovered-024
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Ground+Tracking+Support+Condition+Effect+on+Orbit+Determination+and+Prediction+for+Korea+Pathfinder+Lunar+Orbiter+for+Trans-Lunar+Trajectory&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-002
+  - author-001
+  - author-003
+  - author-004
+  - author-005
+  - author-007
+  - author-015
+- title: KARI In-house Code를 이용한 시험용 달 궤도선의 궤도결정 성능 분석
+  authors:
+  - 김영록
+  - 송영주
+  - 배종희
+  - 박재익
+  - 홍승범
+  - 김대관
+  - 석정철
+  - 이운섭
+  category: conference
+  year: 2021
+  date: 2021-07
+  date_precision: month
+  details: 한국항공우주학회 2021년도 춘계학술대회, 2021.7, pp. 400-401
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  - https://www.riss.kr/link?id=A107879020
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE10613625
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE10613625
+  - provider: korean-indexes
+    id: riss-54-43
+  key: discovered-025
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=KARI+In-house+Code%EB%A5%BC+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EA%B6%A4%EB%8F%84%EA%B2%B0%EC%A0%95+%EC%84%B1%EB%8A%A5+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-002
+  - author-001
+  - author-003
+  - author-004
+  - author-005
+  - author-007
+  - author-077
+  - author-078
+- title: Korea Pathfinder Lunar Orbiter Mission Flight Dynamics Subsystem Operation Preparation Status
+  authors:
+  - Young-Joo Song
+  - Jonghee Bae
+  - Young-Rok Kim
+  - SeungBum Hong
+  - Jae-ik Park
+  - Jun Bang
+  - Donghun Lee
+  category: conference
+  scope: domestic
+  year: 2021
+  date: 2021-10
+  details: 한국우주과학회 2021년 가을 학술대회, 한국우주과학회보 제30권 2호, pp. 69–70, 발표 P-102
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2021-fall-P-102
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2021-fall-P-102
+  key: discovered-026
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Korea+Pathfinder+Lunar+Orbiter+Mission+Flight+Dynamics+Subsystem+Operation+Preparation+Status&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-001
+  - author-003
+  - author-002
+  - author-005
+  - author-004
+  - author-023
+  - author-006
+- title: Maneuver Recovery Process of Lunar Orbit Insertion Maneuver Considering Engine Model for Korea Pathfinder Lunar Orbiter
+  authors:
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jae-Ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 37, 발표 P-23
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2021-spring-P-23
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2021-spring-P-23
+  key: discovered-027
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Maneuver+Recovery+Process+of+Lunar+Orbit+Insertion+Maneuver+Considering+Engine+Model+for+Korea+Pathfinder+Lunar+Orbiter&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-003
+  - author-002
+  - author-001
+  - author-004
+  - author-005
+  - author-007
+  - author-015
+- title: Orbit Determination Performance Analysis of Korea Pathfinder Lunar Orbiter Flight Dynamics System Using GRAIL Mission Data
+  authors:
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Young-Joo Song
+  - Jae-ik Park
+  - SeungBum Hong
+  category: conference
+  scope: domestic
+  year: 2021
+  date: 2021-10
+  details: 한국우주과학회 2021년 가을 학술대회, 한국우주과학회보 제30권 2호, pp. 21–22, 발표 II-2-1
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2021-fall-II-2-1
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2021-fall-II-2-1
+  key: discovered-028
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Orbit+Determination+Performance+Analysis+of+Korea+Pathfinder+Lunar+Orbiter+Flight+Dynamics+System+Using+GRAIL+Mission+Data&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-002
+  - author-003
+  - author-001
+  - author-004
+  - author-005
+- title: 한국형 달 궤도선의 달 임무궤도에서의 궤도유지기동에 대한 전파기간에 따른 Maneuver Recovery 분석
+  authors:
+  - 배종희
+  - 김영록
+  - 송영주
+  - 박재익
+  - 홍승범
+  category: conference
+  year: 2021
+  date: 2021-11
+  date_precision: month
+  details: 한국항공우주학회 2021년도 추계학술대회, 2021.11, pp. 679-680
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11031472
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11031472
+  - https://www.riss.kr/link?id=A108019567
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인. 공저자 송영주 교수 공식 연구실 발표 목록의 제목·전체 저자·행사와 일치.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE11031472
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE11031472
+  - provider: korean-indexes
+    id: riss-54-46
+  key: discovered-029
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%ED%95%9C%EA%B5%AD%ED%98%95+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EB%8B%AC+%EC%9E%84%EB%AC%B4%EA%B6%A4%EB%8F%84%EC%97%90%EC%84%9C%EC%9D%98+%EA%B6%A4%EB%8F%84%EC%9C%A0%EC%A7%80%EA%B8%B0%EB%8F%99%EC%97%90+%EB%8C%80%ED%95%9C+%EC%A0%84%ED%8C%8C%EA%B8%B0%EA%B0%84%EC%97%90+%EB%94%B0%EB%A5%B8+Maneuver+Recovery+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-003
+  - author-002
+  - author-001
+  - author-004
+  - author-005
+- title: BLT 전이궤적 기반 시험용 달 궤도선의 달 진입 시점 궤도예측오차 영향 분석
+  authors:
+  - 송영주
+  - 김영록
+  - 이동헌
+  - 박재익
+  - 홍승범
+  - 배종희
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  date_precision: month
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 478-479
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442225
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442225
+  - https://www.riss.kr/link?id=A107065918
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인. 공저자 송영주 교수 공식 연구실 발표 목록의 제목·전체 저자·행사와 일치.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE10442225
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE10442225
+  - provider: korean-indexes
+    id: riss-54-48
+  key: discovered-030
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=BLT+%EC%A0%84%EC%9D%B4%EA%B6%A4%EC%A0%81+%EA%B8%B0%EB%B0%98+%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EB%8B%AC+%EC%A7%84%EC%9E%85+%EC%8B%9C%EC%A0%90+%EA%B6%A4%EB%8F%84%EC%98%88%EC%B8%A1%EC%98%A4%EC%B0%A8+%EC%98%81%ED%96%A5+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-001
+  - author-002
+  - author-006
+  - author-004
+  - author-005
+  - author-003
+  - author-007
+  - author-015
+- title: KPLO Ground Station Tracking Time Analysis
+  authors:
+  - SeungBum Hong
+  - Jae-Ik Park
+  - In Kyu Kim
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Donghun Lee
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 37, 발표 P-11
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2020-fall-P-11
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2020-fall-P-11
+  key: discovered-031
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: https://api.crossref.org/works?query.title=KPLO+Ground+Station+Tracking+Time+Analysis&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-005
+  - author-004
+  - author-080
+  - author-001
+  - author-002
+  - author-003
+  - author-006
+  - author-007
+  - author-015
+- title: KPLO Lunar Mission Orbit Design Using Eccentricity-Argument of Periapsis Vector
+  authors:
+  - Jae-ik Park
+  - Donghun Lee
+  - SeungBum Hong
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 19, 발표 III-1-1
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2020-fall-III-1-1
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2020-fall-III-1-1
+  key: discovered-032
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=KPLO+Lunar+Mission+Orbit+Design+Using+Eccentricity-Argument+of+Periapsis+Vector&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-004
+  - author-006
+  - author-005
+  - author-001
+  - author-002
+  - author-003
+  - author-007
+  - author-015
+- title: Maneuver Recovery Function Development and Result Analysis of Trajectory Correction Maneuver of Korea Pathfinder Lunar Orbiter
+  authors:
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jae-Ik Park
+  - SeungBum Hong
+  - Donghun Lee
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 54–55, 발표 P-84
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2020-fall-P-84
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2020-fall-P-84
+  key: discovered-033
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Maneuver+Recovery+Function+Development+and+Result+Analysis+of+Trajectory+Correction+Maneuver+of+Korea+Pathfinder+Lunar+Orbiter&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-003
+  - author-002
+  - author-001
+  - author-004
+  - author-005
+  - author-006
+  - author-007
+  - author-015
+- title: Mission Coordinate System Definition, Precise Transformation Algorithm and Its Implementation Results for Korea Pathfinder Lunar Orbiter Flight Dynamics
+  authors:
+  - Young-Joo Song
+  - Donghun Lee
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 35–36, 발표 P-5
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2020-fall-P-5
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2020-fall-P-5
+  key: discovered-034
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Mission+Coordinate+System+Definition%2C+Precise+Transformation+Algorithm+and+Its+Implementation+Results+for+Korea+Pathfinder+Lunar+Orbiter+Flight+Dynamics&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-001
+  - author-006
+  - author-003
+  - author-002
+  - author-004
+  - author-005
+  - author-007
+  - author-015
+- title: WSB/BLT Trajectories for the KPLO Mission
+  authors:
+  - Donghun Lee
+  - Jae-ik Park
+  - Young-Joo Song
+  - Young-Rok Kim
+  - SeungBum Hong
+  - Jonghee Bae
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  scope: domestic
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 19, 발표 III-1-2
+  doi:
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2020-fall-III-1-2
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2020-fall-III-1-2
+  key: discovered-035
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: https://api.crossref.org/works?query.title=WSB%2FBLT+Trajectories+for+the+KPLO+Mission&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-006
+  - author-004
+  - author-001
+  - author-002
+  - author-005
+  - author-003
+  - author-007
+  - author-015
+- title: 시험용 달 궤도선의 BLT 전이궤적 궤도결정 및 궤도예측 시뮬레이션
+  authors:
+  - 김영록
+  - 송영주
+  - 박재익
+  - 배종희
+  - 이동헌
+  - 홍승범
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  date_precision: month
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 480-481
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442226
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442226
+  - https://www.riss.kr/link?id=A107065919
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인. 공저자 송영주 교수 공식 연구실 발표 목록의 제목·전체 저자·행사와 일치.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE10442226
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE10442226
+  - provider: korean-indexes
+    id: riss-54-45
+  key: discovered-036
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+BLT+%EC%A0%84%EC%9D%B4%EA%B6%A4%EC%A0%81+%EA%B6%A4%EB%8F%84%EA%B2%B0%EC%A0%95+%EB%B0%8F+%EA%B6%A4%EB%8F%84%EC%98%88%EC%B8%A1+%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-002
+  - author-001
+  - author-004
+  - author-003
+  - author-006
+  - author-005
+  - author-007
+  - author-015
+- title: 시험용 달 궤도선의 BLT 전이궤적 발사체 분산 분석
+  authors:
+  - 홍승범
+  - 김영록
+  - 송영주
+  - 이동헌
+  - 박재익
+  - 배종희
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  date_precision: month
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 476-477
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442224
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442224
+  - https://www.riss.kr/link?id=A107065997
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인. 공저자 송영주 교수 공식 연구실 발표 목록의 제목·전체 저자·행사와 일치.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE10442224
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE10442224
+  - provider: korean-indexes
+    id: riss-54-52
+  key: discovered-037
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+BLT+%EC%A0%84%EC%9D%B4%EA%B6%A4%EC%A0%81+%EB%B0%9C%EC%82%AC%EC%B2%B4+%EB%B6%84%EC%82%B0+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-005
+  - author-002
+  - author-001
+  - author-006
+  - author-004
+  - author-003
+  - author-007
+  - author-015
+- title: 시험용 달 궤도선의 비행 운영을 고려한 BLT 궤적 오차 보정 기동 설계
+  authors:
+  - 배종희
+  - 이동헌
+  - 송영주
+  - 김영록
+  - 박재익
+  - 홍승범
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  date_precision: month
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 472-473
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442222
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442222
+  - https://www.riss.kr/link?id=A107065995
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인. 공저자 송영주 교수 공식 연구실 발표 목록의 제목·전체 저자·행사와 일치.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE10442222
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE10442222
+  - provider: korean-indexes
+    id: riss-54-50
+  key: discovered-038
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EB%B9%84%ED%96%89+%EC%9A%B4%EC%98%81%EC%9D%84+%EA%B3%A0%EB%A0%A4%ED%95%9C+BLT+%EA%B6%A4%EC%A0%81+%EC%98%A4%EC%B0%A8+%EB%B3%B4%EC%A0%95+%EA%B8%B0%EB%8F%99+%EC%84%A4%EA%B3%84&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-003
+  - author-006
+  - author-001
+  - author-002
+  - author-004
+  - author-005
+  - author-007
+  - author-015
+- title: Graphical Display Function of Korea Pathfinder Lunar Orbiter’s Flight Dynamics Subsystem to Support Successful Flight Operation
+  authors:
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Su-Jin Choi
+  - Jae-Ik Park
+  - Donghun Lee
+  category: conference
+  scope: domestic
+  year: 2019
+  date: 2019-04
+  details: 한국우주과학회 2019년 봄 학술대회, 한국우주과학회보 제28권 1호, pp. 46–47, 발표 P-61
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2019-spring-P-61
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2019-spring-P-61
+  key: discovered-039
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Graphical+Display+Function+of+Korea+Pathfinder+Lunar+Orbiter%E2%80%99s+Flight+Dynamics+Subsystem+to+Support+Successful+Flight+Operation&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-001
+  - author-002
+  - author-003
+  - author-018
+  - author-004
+  - author-006
+- title: Orbit Determination and Prediction Analysis on the Elliptical Mission Orbit of the Lunar Orbiter
+  authors:
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jae-ik Park
+  category: conference
+  scope: domestic
+  year: 2019
+  date: 2019-10
+  details: 한국우주과학회 2019년 가을 학술대회, 한국우주과학회보 제28권 2호, pp. 18, 발표 II-4-1
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  identity_evidence:
+  - 공식 한국우주과학회 회보 초록의 전체 저자 명단과 Korea Aerospace Research Institute 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2019-fall-II-4-1
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2019-fall-II-4-1
+  key: discovered-040
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Orbit+Determination+and+Prediction+Analysis+on+the+Elliptical+Mission+Orbit+of+the+Lunar+Orbiter&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-002
+  - author-001
+  - author-004
+- title: Orbit Prediction Error Analysis in Lunar Capture Phase with Lunar Orbit Insertion Maneuvers for the Korea Pathfinder Lunar Orbiter Mission
+  authors:
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jonghee Bae
+  - Su-Jin Choi
+  - Jae-ik Park
+  - Donghun Lee
+  category: conference
+  scope: domestic
+  year: 2019
+  date: 2019-04
+  details: 한국우주과학회 2019년 봄 학술대회, 한국우주과학회보 제28권 1호, pp. 16, 발표 I-3-4
+  doi:
+  link: https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  identity_evidence:
+  - 공식 한국우주과학회 회보 스캔 원문/OCR과 공저자 송영주 교수 공식 연구실 발표 목록 대조. 전체 저자 명단과 KARI 소속에 Jae-ik Park 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: ksss-2019-spring-I-3-4
+  date_precision: month
+  source_records:
+  - provider: korean-indexes
+    id: ksss-2019-spring-I-3-4
+  key: discovered-041
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=Orbit+Prediction+Error+Analysis+in+Lunar+Capture+Phase+with+Lunar+Orbit+Insertion+Maneuvers+for+the+Korea+Pathfinder+Lunar+Orbiter+Mission&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-002
+  - author-001
+  - author-003
+  - author-018
+  - author-004
+  - author-006
+- title: 3.5 위상전이 궤적을 이용하는 달 궤도선의 근지점 기동 횟수에 따른 속도증분 해석
+  authors:
+  - 최수진
+  - 이동헌
+  - 박재익
+  - 임성빈
+  - 최석원
+  category: conference
+  year: 2017
+  date: 2017-11
+  date_precision: month
+  details: 항공우주시스템공학회 2017년도 추계학술대회 논문집, 2017.11, pp. 444-445
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+  - https://www.riss.kr/link?id=A108363752
+  identity_evidence:
+  - DBpia가 이 논문 저자5명(최수진·이동헌·박재익·임성빈·최석원)을 명시한다. 기존 legacy-048의 KPLO 위상전이 연구와 동일한 KARI 공저자군·주제·2017년이 일치하며, 학회(항공우주시스템공학회)와 제목·페이지가 달라 별개 발표이다. 상세페이지 소속 필드는 공란이다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE11163973
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE11163973
+  - provider: korean-indexes
+    id: riss-54-40
+  key: discovered-042
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=3.5+%EC%9C%84%EC%83%81%EC%A0%84%EC%9D%B4+%EA%B6%A4%EC%A0%81%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%98%EB%8A%94+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EA%B7%BC%EC%A7%80%EC%A0%90+%EA%B8%B0%EB%8F%99+%ED%9A%9F%EC%88%98%EC%97%90+%EB%94%B0%EB%A5%B8+%EC%86%8D%EB%8F%84%EC%A6%9D%EB%B6%84+%ED%95%B4%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-018
+  - author-006
+  - author-004
+  - author-049
+  - author-019
+- title: 육상 환경을 고려한 위성항법 신호 및 데이터의 개선된 오류검출 기법
+  authors:
+  - 김현수
+  - 허문범
+  - 이은성
+  - 박재익
+  - 강우용
+  - 한지애
+  - 홍운기
+  category: conference
+  year: 2011
+  date: 2011-05
+  date_precision: month
+  details: 2011 제26회 ICROS 학술대회, 2011.5, pp. 77-81
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02033977
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02033977
+  - https://www.riss.kr/link?id=A102996122
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE02033977
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE02033977
+  - provider: korean-indexes
+    id: riss-all-76
+  key: discovered-043
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%9C%A1%EC%83%81+%ED%99%98%EA%B2%BD%EC%9D%84+%EA%B3%A0%EB%A0%A4%ED%95%9C+%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%8B%A0%ED%98%B8+%EB%B0%8F+%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98+%EA%B0%9C%EC%84%A0%EB%90%9C+%EC%98%A4%EB%A5%98%EA%B2%80%EC%B6%9C+%EA%B8%B0%EB%B2%95&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-029
+  - author-013
+  - author-012
+  - author-004
+  - author-011
+  - author-027
+  - author-028
+- title: 육상교통 환경에서 시각도움정보를 이용한 사용자 위치결정 가용성 분석
+  authors:
+  - 한지애
+  - 강우용
+  - 이은성
+  - 박재익
+  - 김현수
+  - 허문범
+  category: conference
+  scope: domestic
+  year: 2011
+  date: '2011-04-28'
+  details: 한국우주과학회보(Bulletin of the Korean Space Science Society) Vol. 20, No. 1, 21-21(1쪽)
+  doi:
+  link: https://www.riss.kr/link?id=A100257883
+  sources:
+  - https://www.riss.kr/link?id=A100257883
+  - https://ksss.or.kr/society/tksss/file/download/12136?view=1
+  identity_evidence:
+  - 한국우주과학회 2011 봄 공식 회보 p.21, I-2-1에서 전체 저자 KARI 위성항행항법팀 소속 명시.
+  existing_match:
+  status: new_verified
+  discovery_index: riss-all-80
+  source_records:
+  - provider: korean-indexes
+    id: riss-all-80
+  key: discovered-044
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%9C%A1%EC%83%81%EA%B5%90%ED%86%B5+%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C+%EC%8B%9C%EA%B0%81%EB%8F%84%EC%9B%80%EC%A0%95%EB%B3%B4%EB%A5%BC+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%82%AC%EC%9A%A9%EC%9E%90+%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95+%EA%B0%80%EC%9A%A9%EC%84%B1+%EB%B6%84%EC%84%9D&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-027
+  - author-011
+  - author-012
+  - author-004
+  - author-029
+  - author-013
+- title: 제한조건을 이용한 위성항법 기반 주행 차로 구분
+  authors:
+  - 강우용
+  - 이은성
+  - 박재익
+  - 한지애
+  - 김현수
+  - 허문범
+  - 남기욱
+  category: conference
+  year: 2011
+  date: 2011-04
+  date_precision: month
+  details: 한국항공우주학회 2011년도 춘계학술대회, 2011.4, pp. 582-585
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01690442
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01690442
+  - https://www.riss.kr/link?id=A82661958
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE01690442
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE01690442
+  - provider: korean-indexes
+    id: riss-all-68
+  key: discovered-045
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%A0%9C%ED%95%9C%EC%A1%B0%EA%B1%B4%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EA%B8%B0%EB%B0%98+%EC%A3%BC%ED%96%89+%EC%B0%A8%EB%A1%9C+%EA%B5%AC%EB%B6%84&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-011
+  - author-012
+  - author-004
+  - author-027
+  - author-029
+  - author-013
+  - author-014
+- title: 차로 구분을 위한 위성항법 및 조향 센서 활용 방법
+  authors:
+  - 강우용
+  - 이은성
+  - 박재익
+  - 한지애
+  - 김현수
+  - 허문범
+  category: conference
+  year: 2011
+  date: 2011-05
+  date_precision: month
+  details: 2011 한국자동차공학회 부분종합 학술대회, 2011.5, pp. 1331-1336
+  doi:
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01755526
+  sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01755526
+  - https://www.riss.kr/link?id=A101873679
+  identity_evidence:
+  - DBpia 공개 상세페이지 저자란에 박재익(한국항공우주연구원)을 명시한다.
+  - RISS 상세 서지의 박재익(Jae-ik Park) 및 항공우주/GNSS 공동연구 저자·연구주제 확인.
+  existing_match:
+  status: new_verified
+  dbpia_node_id: NODE01755526
+  publication_type: 학술대회자료
+  author_orcids: []
+  source_records:
+  - provider: dbpia
+    id: NODE01755526
+  - provider: korean-indexes
+    id: riss-54-41
+  key: discovered-046
+  doi_status: not_found
+  doi_note: 학회/출판사·제공기관 서지와 Crossref 제목 검색 후보의 제목·저자·연도를 대조했으나 해당 실적의 DOI를 확인하지 못했습니다. 학회 초록과 유사한 후속 학술지 논문의 DOI는 붙이지 않았으며 DOI 미발급을 단정하지 않습니다.
+  doi_search:
+    url: >-
+      https://api.crossref.org/works?query.title=%EC%B0%A8%EB%A1%9C+%EA%B5%AC%EB%B6%84%EC%9D%84+%EC%9C%84%ED%95%9C+%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EB%B0%8F+%EC%A1%B0%ED%96%A5+%EC%84%BC%EC%84%9C+%ED%99%9C%EC%9A%A9+%EB%B0%A9%EB%B2%95&rows=3&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Ctype%2Ccontainer-title
+  checked_on: '2026-10-02'
+  included: true
+  author_refs:
+  - author-011
+  - author-012
+  - author-004
+  - author-027
+  - author-029
+  - author-013
+existing_records_rechecked:
+  dbpia:
+  - title: 근지구소행성 (99942) 아포피스 탐사의 직접 전이궤적 분석
+    authors:
+    - 박재익
+    - 홍승범
+    - 김영록
+    - 배종희
+    - 송영주
+    - 김대관
+    category: conference
+    year: 2021
+    date: 2021-07
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2021.7, pp. 751-752
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613855
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613855
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-037
+    status: existing
+    dbpia_node_id: NODE10613855
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 심 우주 탐사를 위한 큐브샛 안테나 기술 동향
+    authors:
+    - 박재익
+    - 이동헌
+    - 김대관
+    - 이상률
+    category: journal
+    year: 2020
+    date: 2020-12
+    date_precision: month
+    details: 항공우주산업기술동향, 2020.12, pp. 66-75
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10499444
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10499444
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-008
+    status: existing
+    dbpia_node_id: NODE10499444
+    publication_type: 학술저널
+    author_orcids: []
+  - title: WSB/BLT 궤적 설계를 위한 달 궤도 조건
+    authors:
+    - 이동헌
+    - 박재익
+    - 송영주
+    - 김영록
+    - 홍승범
+    - 배종희
+    - 김대관
+    - 이상률
+    category: conference
+    year: 2020
+    date: 2020-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2020.11, pp. 53-54
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525945
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525945
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-038
+    status: existing
+    dbpia_node_id: NODE10525945
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 시험용 달 궤도선의 발사체 분산 궤적보정기동 설계를 위한 궤도결정 오차 분석
+    authors:
+    - 김영록
+    - 홍승범
+    - 송영주
+    - 박재익
+    - 배종희
+    - 이동헌
+    - 김대관
+    - 이상률
+    category: conference
+    year: 2020
+    date: 2020-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2020.11, pp. 55-56
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525946
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525946
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-039
+    status: existing
+    dbpia_node_id: NODE10525946
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 시험용 달 궤도선의 분사오차와 기동시점을 고려한 WSB/BLT 궤적오차보정기동 분석
+    authors:
+    - 배종희
+    - 홍승범
+    - 송영주
+    - 김영록
+    - 박재익
+    - 이동헌
+    - 김대관
+    - 이상률
+    category: conference
+    year: 2020
+    date: 2020-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2020.11, pp. 57-58
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525947
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525947
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-040
+    status: existing
+    dbpia_node_id: NODE10525947
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: KPLO BLT 궤적 설계
+    authors:
+    - 이동헌
+    - 박재익
+    - 송영주
+    - 김영록
+    - 홍승범
+    - 배종희
+    - 김대관
+    - 이상률
+    category: conference
+    year: 2020
+    date: 2020-07
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2020.7, pp. 470-471
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442221
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442221
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-041
+    status: existing
+    dbpia_node_id: NODE10442221
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 시험용 달 궤도선 BLT 궤적의 달 궤도 진입 및 임무궤도 설계
+    authors:
+    - 박재익
+    - 이동헌
+    - 김영록
+    - 송영주
+    - 홍승범
+    - 배종희
+    - 김대관
+    - 이상률
+    category: conference
+    year: 2020
+    date: 2020-07
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2020.7, pp. 474-475
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442223
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442223
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-042
+    status: existing
+    dbpia_node_id: NODE10442223
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 시험용 달 궤도선 발사기간 분석
+    authors:
+    - 박재익
+    - 이동헌
+    - 김응현
+    category: conference
+    year: 2019
+    date: 2019-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2019.11, pp. 1001-1002
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09318213
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09318213
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-043
+    status: existing
+    dbpia_node_id: NODE09318213
+    publication_type: 학술대회자료
+    author_orcids: []
+    notes:
+    - 기존 제목의 괄호 영어 Launch Period가 DBpia 제목에는 생략되었으며 동일 발표이다.
+  - title: 상용 소프트웨어를 사용한 달 착륙선 착륙궤적 설계 가능성 연구
+    authors:
+    - 박재익
+    - 류동영
+    category: conference
+    year: 2019
+    date: 2019-04
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2019.4, pp. 601-602
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08753239
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08753239
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-044
+    status: existing
+    dbpia_node_id: NODE08753239
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 시험용 달궤도선(KPLO)의 궤도유지기동 속도증분 저감 방법 연구
+    authors:
+    - 박재익
+    - 최수진
+    - 류동영
+    - 최석원
+    category: conference
+    year: 2018
+    date: 2018-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2018.11, pp. 490-491
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07619798
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07619798
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-045
+    status: existing
+    dbpia_node_id: NODE07619798
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 무인 달착륙선의 동력하강단계에서 자세각속도 영향에 따른 최적화 착륙궤적 분석
+    authors:
+    - 박재익
+    - 류동영
+    category: journal
+    year: 2018
+    date: 2018-05
+    date_precision: month
+    details: 한국항공우주학회지, 2018.5, pp. 402-409
+    doi: 10.5139/jksas.2018.46.5.402
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07435355
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07435355
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-009
+    status: existing
+    dbpia_node_id: NODE07435355
+    publication_type: 학술저널
+    author_orcids: []
+  - title: 시험용 달궤도선(KPLO) 궤도유지기동 속도증분 요구사항 해석
+    authors:
+    - 박재익
+    - 최수진
+    - 류동영
+    - 최석원
+    category: conference
+    year: 2018
+    date: 2018-04
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2018.4, pp. 350-351
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07525772
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07525772
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-046
+    status: existing
+    dbpia_node_id: NODE07525772
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 무인 달 착륙선 동력하강 단계에서 요구 연료량 분석
+    authors:
+    - 박재익
+    - 류동영
+    category: conference
+    year: 2017
+    date: 2017-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2017.11, pp. 836-837
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367210
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367210
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-049
+    status: existing
+    dbpia_node_id: NODE07367210
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 달착륙선 착륙시 장애물 인식 및 회피 기동을 위한 이미지 처리 방안 연구
+    authors:
+    - 구철회
+    - 박재익
+    - 류동영
+    category: conference
+    year: 2017
+    date: 2017-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2017.11, pp. 657-658
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367123
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367123
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-047
+    status: existing
+    dbpia_node_id: NODE07367123
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 달 궤도선의 위상 전이 횟수에 따른 요구 속도증분 해석
+    authors:
+    - 최수진
+    - 이동헌
+    - 박재익
+    - 임성빈
+    - 최석원
+    category: conference
+    year: 2017
+    date: 2017-11
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2017.11, pp. 651-652
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-048
+    status: existing
+    dbpia_node_id: NODE07367120
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 무인 달 착륙선 임무단계별 속도증분 및 연료량 분석 연구
+    authors:
+    - 박재익
+    - 류동영
+    category: conference
+    year: 2017
+    date: 2017-04
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2017.4, pp. 356-357
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188720
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188720
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-051
+    status: existing
+    dbpia_node_id: NODE07188720
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 무인 달 착륙임무를 위한 시스템 개념 연구
+    authors:
+    - 류동영
+    - 박재익
+    - 이우섭
+    - 조진호
+    - 손광재
+    - 김진주
+    category: conference
+    year: 2017
+    date: 2017-04
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2017.4, pp. 354-355
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188719
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188719
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-050
+    status: existing
+    dbpia_node_id: NODE07188719
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: KASS 활용을 위한 위성기반 보강항법시스템(SBAS) 비규격 데이터 전송 방법 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    category: journal
+    year: 2016
+    date: 2016-12
+    date_precision: month
+    details: 한국통신학회논문지, 2016.12, pp. 1861-1867
+    doi: 10.7840/kics.2016.41.12.1861
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07091509
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07091509
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-010
+    status: existing
+    dbpia_node_id: NODE07091509
+    publication_type: 학술저널
+    author_orcids: []
+  - title: 위성기반 보강항법시스템(SBAS) 최신 기술 동향
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    category: journal
+    year: 2016
+    date: 2016-07
+    date_precision: month
+    details: 항공우주산업기술동향, 2016.7, pp. 191-202
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06740439
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06740439
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-012
+    status: existing
+    dbpia_node_id: NODE06740439
+    publication_type: 학술저널
+    author_orcids: []
+  - title: SBAS 성능기반 항행을 위한 항공용 GNSS 기술표준 분석 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    category: journal
+    year: 2016
+    date: 2016-01
+    date_precision: month
+    details: 한국항행학회논문지, 2016.1, pp. 305-313
+    doi: 10.12673/jant.2016.20.4.305
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10103620
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10103620
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-011
+    status: existing
+    dbpia_node_id: NODE10103620
+    publication_type: 학술저널
+    author_orcids: []
+    notes:
+    - DBpia의 1월 표기는 기존 공식 자료의 발행/행사 날짜와 다를 수 있으므로 원본 날짜 유지 권장.
+  - title: 준/실시간 GNSS 궤도력 활용을 위한 ICS 초신속궤도력 예측궤도 오차 요구조건 분석
+    authors:
+    - 박재익
+    - 천세범
+    - 허문범
+    category: conference
+    year: 2013
+    date: 2013-06
+    date_precision: month
+    details: 한국통신학회 학술대회논문집, 2013.6, pp. 495-496
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02408663
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02408663
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-053
+    status: existing
+    dbpia_node_id: NODE02408663
+    publication_type: 학술대회자료
+    author_orcids: []
+    notes:
+    - DBpia 제목은 ICS로 표기하지만 기존자료의 IGS와 동일 발표이다. 원본 제목 변경 또는 별개 추가 금지.
+  - title: GPS 반송파 위상을 사용한 편대비행위성 상대위치결정 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    category: journal
+    year: 2012
+    date: 2012-12
+    date_precision: month
+    details: 한국항공우주학회지, 2012.12, pp. 1032-1039
+    doi: 10.5139/jksas.2012.40.12.1032
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02050381
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02050381
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-013
+    status: existing
+    dbpia_node_id: NODE02050381
+    publication_type: 학술저널
+    author_orcids: []
+  - title: 육상교통 환경의 위성항법 위치결정 성능향상을 위한 기술 동향
+    authors:
+    - 이은성
+    - 박재익
+    - 임성혁
+    - 허문범
+    - 염찬홍
+    category: journal
+    year: 2012
+    date: 2012-07
+    date_precision: month
+    details: 항공우주산업기술동향, 2012.7, pp. 179-195
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01939603
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01939603
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-015
+    status: existing
+    dbpia_node_id: NODE01939603
+    publication_type: 학술저널
+    author_orcids: []
+  - title: IGS 위성 궤도력을 이용한 육상교통 사용자 위치결정 성능향상 분석
+    authors:
+    - 박재익
+    - 손민혁
+    - 김규헌
+    - 이은성
+    - 허문범
+    category: conference
+    year: 2012
+    date: 2012-06
+    date_precision: month
+    details: 한국통신학회 학술대회논문집, 2012.6, pp. 379-380
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06695400
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06695400
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-055
+    status: existing
+    dbpia_node_id: NODE06695400
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 위성항법 수신국의 원격 영상 감시기법의 설계
+    authors:
+    - 손민혁
+    - 김규헌
+    - 박재익
+    - 이은성
+    - 허문범
+    category: conference
+    year: 2012
+    date: 2012-02
+    date_precision: month
+    details: 한국통신학회 학술대회논문집, 2012.2, pp. 102-103
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039082
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039082
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-062
+    status: existing
+    dbpia_node_id: NODE02039082
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 위성항법 다중 수신국 네트워크 구성을 위한 거리에 따른 위치결정 성능분석
+    authors:
+    - 박재익
+    - 홍운기
+    - 손민혁
+    - 김규헌
+    - 이은성
+    - 허문범
+    category: conference
+    year: 2012
+    date: 2012-02
+    date_precision: month
+    details: 한국통신학회 학술대회논문집, 2012.2, pp. 938-939
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039524
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039524
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-056
+    status: existing
+    dbpia_node_id: NODE02039524
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 실시간 다중 기준국 GNSS/GPS 반송파 미지정수 결정 기술 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    category: conference
+    year: 2012
+    date: 2012-10
+    date_precision: month
+    details: 2012 한국우주과학회·한국천문학회 공동 가을학술대회, 천문학회보 37(2), 2012.10, pp. 157-158(쪽수 출처 불일치)
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12657255
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12657255
+    - https://www.kas.org/down/bkas/2012_spring.pdf
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-054
+    status: existing
+    dbpia_node_id: NODE12657255
+    publication_type: 학술저널
+    author_orcids: []
+    notes:
+    - DBpia는 2012.1·p157로 표시하지만 학회 PDF 본문은 2012.10 및 해당 초록이 인쇄p158로 나온다. PDF 파일명 spring과 실제 내용도 불일치한다. 기존 legacy-054와 동일 저자·동일 가을학회·RTK기법으로 제목 변형이므로 중복 추가하지 않는다.
+    - DBpia의 1월 표기는 기존 공식 자료의 발행/행사 날짜와 다를 수 있으므로 원본 날짜 유지 권장.
+  - title: 육상교통 환경에서 네트워크기반의 다중기준국 활용을 위한 성능분석 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 강우용
+    - 한지애
+    - 김현수
+    - 허문범
+    category: conference
+    year: 2011
+    date: 2011-02
+    date_precision: month
+    details: 한국통신학회 학술대회논문집, 2011.2, pp. 722-723
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02376753
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02376753
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-059
+    status: existing
+    dbpia_node_id: NODE02376753
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 차로 구분이 가능한 정밀전자지도의 성능 요구사항에 관한 연구
+    authors:
+    - 강우용
+    - 이은성
+    - 이건우
+    - 박재익
+    - 최광식
+    - 허문범
+    category: journal
+    year: 2011
+    date: 2011-01
+    date_precision: month
+    details: 제어로봇시스템학회 논문지, 2011.1, pp. 47-53
+    doi: 10.5302/j.icros.2011.17.1.47
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01986144
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01986144
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-017
+    status: existing
+    dbpia_node_id: NODE01986144
+    publication_type: 학술저널
+    author_orcids: []
+    notes:
+    - DBpia의 1월 표기는 기존 공식 자료의 발행/행사 날짜와 다를 수 있으므로 원본 날짜 유지 권장.
+  - title: 차로 제한 조건을 이용한 차로 구분 성능 분석
+    authors:
+    - 강우용
+    - 이은성
+    - 박재익
+    - 한지애
+    - 홍운기
+    - 김현수
+    - 허문범
+    - 남기욱
+    category: journal
+    year: 2011
+    date: 2011-01
+    date_precision: month
+    details: 한국항행학회논문지, 2011.1, pp. 432-440
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10102342
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10102342
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-016
+    status: existing
+    dbpia_node_id: NODE10102342
+    publication_type: 학술저널
+    author_orcids: []
+    notes:
+    - DBpia의 1월 표기는 기존 공식 자료의 발행/행사 날짜와 다를 수 있으므로 원본 날짜 유지 권장.
+  - title: 위성항법 다중기준국을 활용한 육상교통 항법의 성능예측
+    authors:
+    - 이은성
+    - 허문범
+    - 박재익
+    - 원대희
+    - 이영재
+    category: conference
+    year: 2010
+    date: 2010-04
+    date_precision: month
+    details: 한국항공우주학회 학술발표회 초록집, 2010.4, pp. 579-582
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01445875
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01445875
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-064
+    status: existing
+    dbpia_node_id: NODE01445875
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 도심지 동적 환경에서 안정적인 반송파 사용을 위한 GPS 기준국용 고장검출기법 적용 가능성 분석
+    authors:
+    - 원대희
+    - 안종선
+    - 성상경
+    - 박재익
+    - 허문범
+    - 이영재
+    category: conference
+    year: 2010
+    date: 2010-04
+    date_precision: month
+    details: 한국항공우주학회 2010년도 춘계학술발표회 논문집, 2010.4, pp. 560-563
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01445870
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01445870
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-065
+    status: existing
+    dbpia_node_id: NODE01445870
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 위성항법기반 교통인프라 기술개발
+    authors:
+    - 허문범
+    - 박재익
+    - 이은성
+    - 강우용
+    category: conference
+    year: 2010
+    date: 2010-02
+    date_precision: month
+    details: 대한교통학회 제62회 학술발표회, 2010.2, pp. 21-27
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07498489
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07498489
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-066
+    status: existing
+    dbpia_node_id: NODE07498489
+    publication_type: 학술대회자료
+    author_orcids: []
+  - title: 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    - 심은섭
+    category: journal
+    year: 2010
+    date: 2010-01
+    date_precision: month
+    details: 한국항행학회논문지, 2010.1, pp. 640-647
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10103468
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10103468
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-014
+    status: existing
+    dbpia_node_id: NODE10103468
+    publication_type: 학술저널
+    author_orcids: []
+    notes:
+    - DBpia의 1월 표기는 기존 공식 자료의 발행/행사 날짜와 다를 수 있으므로 원본 날짜 유지 권장.
+  - title: 편대비행위성의 항법 및 궤도제어를 위한 실시간 Hardware-In-the-Loop 시뮬레이션 테스트베드 초기 설계
+    authors:
+    - 박재익
+    - 박한얼
+    - 심선화
+    - 박상영
+    - 최규홍
+    category: journal
+    year: 2009
+    date: 2009-03
+    date_precision: month
+    details: Journal of Astronomy and Space Sciences, 2009.3, pp. 99-110
+    doi: 10.5140/jass.2009.26.1.099
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12584803
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12584803
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-018
+    status: existing
+    dbpia_node_id: NODE12584803
+    publication_type: 학술저널
+    author_orcids: []
+  - title: 위성편대유지 Hardware-In-the-Loop 시뮬레이션 테스트
+    authors:
+    - 박재익
+    - 박한얼
+    - 심선화
+    - 박상영
+    - 최규홍
+    category: conference
+    year: 2009
+    date: 2009-01
+    date_precision: month
+    details: 천문학회보 제34권 제1호, 2009.1, pp. 105-105
+    doi:
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12656031
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12656031
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-068
+    status: existing
+    dbpia_node_id: NODE12656031
+    publication_type: 학술저널
+    author_orcids: []
+    notes:
+    - 기존 legacy-068 제목의 비행 글자가 DBpia에서는 생략되었다. 저자5명·2009년·HIL 초록이 일치하여 중복 추가하지 않는다. DBpia의 2009.1은 행사 개최월을 뜻하지 않음.
+    - DBpia의 1월 표기는 기존 공식 자료의 발행/행사 날짜와 다를 수 있으므로 원본 날짜 유지 권장.
+  - title: 통신해양기상위성에서의 태양광 반사점(SUN-GLINT) 위치예측
+    authors:
+    - 박재익
+    - 최규홍
+    - 박상영
+    - 유주형
+    - 안유환
+    - 박재우
+    - 김병수
+    category: journal
+    year: 2005
+    date: 2005-09
+    date_precision: month
+    details: Journal of Astronomy and Space Sciences Vol.22 No.3, 2005.9, pp. 263-272
+    doi: 10.5140/jass.2005.22.3.263
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12584633
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12584633
+    identity_evidence: DBpia 공개 저자검색의 제목·공저자·연도와 기존 실적이 일치한다.
+    existing_match: legacy-019
+    status: existing
+    dbpia_node_id: NODE12584633
+    publication_type: 학술저널
+    author_orcids: []
+  - title: Ground Tracking Support Condition Effect on Orbit Determination for Korea Pathfinder Lunar Orbiter (KPLO) in Lunar Orbit
+    authors:
+    - Young-Rok Kim
+    - Young-Joo Song
+    - Jae-ik Park
+    - Donghun Lee
+    - Jonghee Bae
+    - SeungBum Hong
+    - Dae-Kwan Kim
+    - Sang-Ryool Lee
+    category: journal
+    year: 2020
+    date: 2020-12
+    date_precision: month
+    details: Journal of Astronomy and Space Sciences, 2020.12, pp. 237-247
+    doi: 10.5140/jass.2020.37.4.237
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12585284
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12585284
+    identity_evidence: 공식 출판사 DOI 확인이 완료된 기존 JASS 실적과 제목·연도·전체 저자가 일치한다.
+    existing_match: legacy-006
+    status: existing
+    dbpia_node_id: NODE12585284
+    publication_type: 학술저널
+    author_orcids: []
+  - title: Practical Algorithms on Lunar Reference Frame Transformations for Korea Pathfinder Lunar Orbiter Flight Operation
+    authors:
+    - Song, Young-Joo
+    - Lee, Donghun
+    - Kim, Young-Rok
+    - Bae, Jonghee
+    - Park, Jae-ik
+    - Hong, SeungBum
+    - Kim, Dae-Kwan
+    - Lee, Sang-Ryool
+    category: journal
+    year: 2021
+    date: 2021-09
+    date_precision: month
+    details: Journal of Astronomy and Space Sciences, 2021.09, pp. 185-192
+    doi: 10.5140/jass.2021.38.3.185
+    link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12585302
+    sources:
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12585302
+    identity_evidence: 공식 출판사 DOI 확인이 완료된 기존 JASS 실적과 제목·연도·전체 저자가 일치한다.
+    existing_match: legacy-007
+    status: existing
+    dbpia_node_id: NODE12585302
+    publication_type: 학술저널
+    author_orcids: []
+  korean-indexes:
+  - title: 실시간 다중 기준국 GNSS/GPS 반송파 미지정수 결정 기술 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    category: conference
+    scope: domestic
+    year: 2012
+    date: '2012'
+    details: 천문학회보(Bulletin of the Korean Astronomical Society) Vol. 37, No. 2, 1571-1571(1쪽)
+    doi:
+    link: https://www.riss.kr/link?id=A101341327
+    sources:
+    - https://www.riss.kr/link?id=A101341327
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12657255
+    - https://www.kas.org/down/bkas/2012_spring.pdf
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 다중 기준국 네트워크를 활용한 실시간 GNSS/GPS 반송파 미지정수 결정 기술 연구
+    status: existing
+    discovery_index: riss-54-0
+  - title: 시험용 달궤도선(KPLO)의 궤도유지기동 속도증분 저감 방법 연구
+    authors:
+    - 박재익
+    - 최수진
+    - 류동영
+    - 최석원
+    category: conference
+    scope: domestic
+    year: 2018
+    date: '2018'
+    details: 박재익 ( Jae ik Park ) , 최수진(Sujin Choi) , 류동영(Dong-Young Rew) , 최석원(Seok-Weon Choi) 한국항공우주학회 2018 한국항공우주학회 학술발표회 논문집 Vol.2018 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c4cc30eb5d244d4a7f7a54760bb41745&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c4cc30eb5d244d4a7f7a54760bb41745&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07619798
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 시험용 달궤도선(KPLO) 궤도유지기동 속도증분 저감 방법 연구
+    status: existing
+    discovery_index: riss-54-2
+  - title: 위성기반 보강항법시스템(SBAS) 최신 기술 동향
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    category: journal
+    scope: domestic
+    year: 2016
+    date: '2016'
+    details: 박재익 ( Park , Jae-Ik ) , 이은성(Lee, Eunsung) , 허문범(Heo, Moon-Beom) , 남기욱(Nam, Giwook) 한국항공우주연구원 2016 항공우주산업기술동향 Vol.14 No.1
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=387b77030cb118dee9810257f7042666&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=387b77030cb118dee9810257f7042666&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06740439
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 위성기반 보강항법시스템(SBAS) 최신 기술 동향
+    status: existing
+    discovery_index: riss-54-4
+  - title: 상용 소프트웨어를 사용한 달 착륙선 착륙궤적 설계 가능성 연구
+    authors:
+    - 박재익
+    - 류동영
+    category: conference
+    scope: domestic
+    year: 2019
+    date: '2019'
+    details: 박재익 ( Jae-ik Park ) , 류동영(Dong-Young Rew) 한국항공우주학회 2019 한국항공우주학회 학술발표회 논문집 Vol.2019 No.4
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec3121facd2a3c5d7f7a54760bb41745&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=ec3121facd2a3c5d7f7a54760bb41745&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08753239
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 상용 소프트웨어를 사용한 달 착륙선 착륙궤적 설계 가능성 연구
+    status: existing
+    discovery_index: riss-54-6
+  - title: 무인 달착륙선의 동력하강단계에서 자세각속도 영향에 따른 최적화 착륙궤적 분석
+    authors:
+    - 박재익
+    - 류동영
+    category: journal
+    scope: domestic
+    year: 2018
+    date: '2018'
+    details: 박재익 ( Jae-ik Park ) , 류동영(Dong-Young Rew) 한국항공우주학회 2018 한국항공우주학회지 Vol.46 No.5
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e227f45f63a94d15b7998d826d417196&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=e227f45f63a94d15b7998d826d417196&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07435355
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 무인 달 착륙선의 동력하강단계에서 자세각속도 영향에 따른 최적화 착륙궤적 분석
+    status: existing
+    discovery_index: riss-54-7
+  - title: 근지구소행성 (99942) 아포피스 탐사의 직접 전이궤적 분석
+    authors:
+    - 박재익
+    - 홍승범
+    - 김영록
+    - 배종희
+    - 송영주
+    - 김대관
+    category: conference
+    scope: domestic
+    year: 2021
+    date: '2021'
+    details: 박재익 ( Jae-ik Park ) , 홍승범(SeungBum Hong) , 김영록(Young-Rok Kim) , 배종희(Jonghee Bae) , 송영주(Young-Joo Song) , 김대관(Dae-Kwan Kim) 한국항공우주학회 2021 한국항공우주학회 학술발표회 논문집 Vol.2021 No.7
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=242ddcd39425e7914884a65323211ff0&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=242ddcd39425e7914884a65323211ff0&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613855
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 근지구소행성 (99942) 아포피스 탐사의 직접 전이궤적 분석
+    status: existing
+    discovery_index: riss-54-8
+  - title: KASS 활용을 위한 위성기반 보강항법시스템(SBAS) 비규격 데이터 전송 방법 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    category: journal
+    scope: domestic
+    year: 2016
+    date: '2016'
+    details: 박재익 ( Jae-ik Park ) , 이은성(Eunsung Lee) , 허문범(Moon-beom Heo) , 남기욱(Gi-wook Nam) 한국통신학회 2016 한국통신학회논문지 Vol.41 No.12
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c5fc081ddb9fb1a7ecd42904f0c5d65&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c5fc081ddb9fb1a7ecd42904f0c5d65&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07091509
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: KASS 활용을 위한 위성기반 보강항법시스템(SBAS) 비규격 데이터 전송 방법 연구
+    status: existing
+    discovery_index: riss-54-9
+  - title: GPS 반송파 위상을 사용한 편대비행위성 상대위치결정 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    category: journal
+    scope: domestic
+    year: 2012
+    date: '2012'
+    details: 박재익 ( Jae-Ik Park ) , 이은성(Eunsung Lee) , 허문범(Moon-Beom Heo) 한국항공우주학회 2012 한국항공우주학회지 Vol.40 No.12
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c90b44a9f62cc044884a65323211ff0&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7c90b44a9f62cc044884a65323211ff0&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02050381
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: GPS 반송파 위상을 사용한 편대비행위성 상대위치결정 연구
+    status: existing
+    discovery_index: riss-54-10
+  - title: '항행 및 항법 분야 : 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출'
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    - 심은섭
+    category: journal
+    scope: domestic
+    year: 2010
+    date: '2010'
+    details: 박재익 ( Jae Ik Park ) , 이은성 ( Eun Sung Lee ) , 허문범 ( Moon Beom Heo ) , 남기욱 ( Gi Wook Nam ) , 심은섭 ( Eun Sup Sim ) 한국항행학회 2010 한국항행학회논문지 Vol.14 No.5
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cc52c102aee96ec5ffe0bdc3ef48d419&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cc52c102aee96ec5ffe0bdc3ef48d419&keyword=
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 이동체 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출
+    status: existing
+    discovery_index: riss-54-12
+  - title: 준/실시간 GNSS 궤도력 활용을 위한 ICS 초신속궤도력 예측궤도 오차 요구조건 분석
+    authors:
+    - 박재익
+    - 천세범
+    - 허문범
+    category: conference
+    scope: domestic
+    year: 2013
+    date: '2013'
+    details: 박재익 ( Jae-Ik Park ) , 천세범(Se-Bum Chun) , 허문범(Moon-Beom Heo) 한국통신학회 2013 한국통신학회 학술대회논문집 Vol.2013 No.6
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1f563721220adfc9ffe0bdc3ef48d419&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=1f563721220adfc9ffe0bdc3ef48d419&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02408663
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 준/실시간 GNSS 궤도력 활용을 위한 IGS 초신속궤도력 예측궤도 오차 요구조건 분석
+    status: existing
+    discovery_index: riss-54-13
+  - title: SBAS 성능기반 항행을 위한 항공용 GNSS 기술표준 분석 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 허문범
+    - 남기욱
+    category: journal
+    scope: domestic
+    year: 2016
+    date: '2016'
+    details: 박재익 ( Jae-ik Park ) , 이은성 ( Eunsung Lee ) , 허문범 ( Moon-beom Heo ) , 남기욱 ( Gi-wook Nam ) 한국항행학회 2016 한국항행학회논문지 Vol.20 No.4
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f940ea8f512dd20ab36097776a77e665&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=f940ea8f512dd20ab36097776a77e665&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10103620
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: SBAS 성능기반 항행을 위한 항공용 GNSS 기술표준 분석 연구
+    status: existing
+    discovery_index: riss-54-14
+  - title: 육상교통 환경에서 네트워크기반의 다중기준국 활용을 위한 성능분석 연구
+    authors:
+    - 박재익
+    - 이은성
+    - 강우용
+    - 한지애
+    - 김현수
+    - 허문범
+    category: conference
+    scope: domestic
+    year: 2011
+    date: '2011'
+    details: 박재익 ( Jae-Ik Park ) , 이은성(Eunsung Lee) , 강우용(Wooyong Kang) , 한지애(JiAe Han) , 김현수(Hyunsu Kim) , 허문범(Moon-beom Heo) 한국통신학회 2011 한국통신학회 학술대회논문집 Vol.2011 No.2
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69312bf55e9d1f80ffe0bdc3ef48d419&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=69312bf55e9d1f80ffe0bdc3ef48d419&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02376753
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 육상교통 환경에서 네트워크기반의 다중기준국 활용을 위한 성능분석 연구
+    status: existing
+    discovery_index: riss-54-16
+  - title: 시험용 달 궤도선 BLT 궤적의 달 궤도 진입 및 임무궤도 설계
+    authors:
+    - 박재익
+    - 이동헌
+    - 김영록
+    - 송영주
+    - 홍승범
+    - 배종희
+    - 김대관
+    - 이상률
+    category: conference
+    scope: domestic
+    year: 2020
+    date: '2020'
+    details: >-
+      박재익 ( Jae-ik Park ) , 이동헌(Donghun Lee) , 김영록(Young-Rok Kim) , 송영주(Young-Joo Song) , 홍승범(SeungBum Hong) , 배종희(Jonghee Bae) , 김대관(Dae-Kwan Kim) , 이상률(Sang-Ryool Lee) 한국항공우주학회 2020
+      한국항공우주학회 학술발표회 논문집 Vol.2020 No.7
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8901be06618f11c67f7a54760bb41745&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8901be06618f11c67f7a54760bb41745&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442223
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 시험용 달 궤도선 BLT 궤적의 달 궤도 진입 및 임무궤도 설계
+    status: existing
+    discovery_index: riss-54-18
+  - title: 무인 달 착륙선 동력하강 단계에서 요구 연료량 분석
+    authors:
+    - 박재익
+    - 류동영
+    category: conference
+    scope: domestic
+    year: 2017
+    date: '2017'
+    details: 박재익 ( Jae-ik Park ) , 류동영(Dong-Young Rew) 한국항공우주학회 2017 한국항공우주학회 학술발표회 논문집 Vol.2017 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b13381a3350b7f494884a65323211ff0&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b13381a3350b7f494884a65323211ff0&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367210
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 무인 달 착륙선 동력하강 단계에서 요구 연료량 분석
+    status: existing
+    discovery_index: riss-54-19
+  - title: 심 우주 탐사를 위한 큐브샛 안테나 기술 동향
+    authors:
+    - 박재익
+    - 이동헌
+    - 김대관
+    - 이상률
+    category: journal
+    scope: domestic
+    year: 2020
+    date: '2020'
+    details: 박재익 ( Park , Jae-ik ) , 이동헌(Lee, Donghun) , 김대관(Kim, Dae-Kwan) , 이상률(Lee, Sang-Ryool) 한국항공우주연구원 2020 항공우주산업기술동향 Vol.18 No.2
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b39e6f89a74a5f364884a65323211ff0&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=b39e6f89a74a5f364884a65323211ff0&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10499444
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 심 우주 탐사를 위한 큐브샛 안테나 기술 동향
+    status: existing
+    discovery_index: riss-54-20
+  - title: 시험용 달 궤도선 발사기간 분석
+    authors:
+    - 박재익
+    - 이동헌
+    - 김응현
+    category: conference
+    scope: domestic
+    year: 2019
+    date: '2019'
+    details: 박재익 ( Jae-ik Park ) , 이동헌(Donghun Lee) , 김응현(EungHyun Kim) 한국항공우주학회 2019 한국항공우주학회 학술발표회 논문집 Vol.2019 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d21c140ba6bbd0dc85d2949c297615a&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=2d21c140ba6bbd0dc85d2949c297615a&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09318213
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 시험용 달 궤도선 발사기간(Launch Period) 분석
+    status: existing
+    discovery_index: riss-54-22
+  - title: 시험용 달궤도선(KPLO) 궤도유지기동 속도증분 요구사항 해석
+    authors:
+    - 박재익
+    - 최수진
+    - 류동영
+    - 최석원
+    category: conference
+    scope: domestic
+    year: 2018
+    date: '2018'
+    details: 박재익 ( Jae-ik Park ) , 최수진(Su-Jin Choi) , 류동영(Dong-Young Rew) , 최석원(Suk-Won Choi) 한국항공우주학회 2018 한국항공우주학회 학술발표회 논문집 Vol.2018 No.4
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cc550a25943000a747de9c1710b0298d&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=cc550a25943000a747de9c1710b0298d&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07525772
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 시험용 달궤도선(KPLO) 궤도유지기동 속도증분 요구사항 해석
+    status: existing
+    discovery_index: riss-54-23
+  - title: 무인 달 착륙선 임무단계별 속도증분 및 연료량 분석 연구
+    authors:
+    - 박재익
+    - 류동영
+    category: conference
+    scope: domestic
+    year: 2017
+    date: '2017'
+    details: 박재익 ( Jae-ik Park ) , 류동영(Dong-Young Rew) 한국항공우주학회 2017 한국항공우주학회 학술발표회 논문집 Vol.2017 No.4
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7cb4ee843da22fff47de9c1710b0298d&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7cb4ee843da22fff47de9c1710b0298d&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188720
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 무인 달 착륙선 임무단계별 속도증분 및 연료량 분석 연구
+    status: existing
+    discovery_index: riss-54-24
+  - title: 위성항법 다중 수신국 네트워크 구성을 위한 거리에 따른 위치결정 성능분석
+    authors:
+    - 박재익
+    - 홍운기
+    - 손민혁
+    - 김규헌
+    - 이은성
+    - 허문범
+    category: conference
+    scope: domestic
+    year: 2012
+    date: '2012'
+    details: 박재익 ( Jae-Ik Park ) , 홍운기(Woonki Hong) , 손민혁(Minhyuk Son) , 김규헌(Kyuheon Kim) , 이은성(Eunsung Lee) , 허문범(Moonbeom Heo) 한국통신학회 2012 한국통신학회 학술대회논문집 Vol.2012 No.2
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a6f64982c1ec1a636aae8a972f9116fb&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a6f64982c1ec1a636aae8a972f9116fb&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039524
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 위성항법 다중 수신국 네트워크 구성을 위한 거리에 따른 위치결정 성능분석
+    status: existing
+    discovery_index: riss-54-25
+  - title: IGS 위성 궤도력을 이용한 육상교통 사용자 위치결정 성능향상 분석
+    authors:
+    - 박재익
+    - 손민혁
+    - 김규헌
+    - 이은성
+    - 허문범
+    category: conference
+    scope: domestic
+    year: 2012
+    date: '2012'
+    details: 박재익 ( Jae-Ik Park ) , 손민혁(Minhyuk Son) , 김규헌(Kyuheon Kim) , 이은성(Eunsung Lee) , 허문범(Moonbeom Heo) 한국통신학회 2012 한국통신학회 학술대회논문집 Vol.2012 No.6
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c538c3f408273fca47de9c1710b0298d&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=c538c3f408273fca47de9c1710b0298d&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06695400
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: IGS 위성 궤도력을 이용한 육상교통 사용자 위치결정 성능향상 분석
+    status: existing
+    discovery_index: riss-54-27
+  - title: 육상교통 환경의 위성항법 위치결정 성능향상을 위한 기술 동향
+    authors:
+    - 이은성
+    - 박재익
+    - 임성혁
+    - 허문범
+    - 염찬홍
+    category: journal
+    scope: domestic
+    year: 2012
+    date: '2012'
+    details: 이은성(Eunsung Lee) , 박재익 ( Jae-Ik Park ) , 임성혁(Sung Hyuck Im) , 허문범(Moon Beom Heo) , 염찬홍(Chan-Hong Yeom) 한국항공우주연구원 2012 항공우주산업기술동향 Vol.10 No.1
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=20ad436c66087e35ffe0bdc3ef48d419&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=20ad436c66087e35ffe0bdc3ef48d419&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01939603
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 육상교통 환경의 위성항법 위치결정 성능향상을 위한 기술 동향
+    status: existing
+    discovery_index: riss-54-31
+  - title: WSB/BLT 궤적 설계를 위한 달 궤도 조건
+    authors:
+    - 이동헌
+    - 박재익
+    - 송영주
+    - 김영록
+    - 홍승범
+    - 배종희
+    - 김대관
+    - 이상률
+    category: conference
+    scope: domestic
+    year: 2020
+    date: '2020'
+    details: >-
+      이동헌(Donghun Lee) , 박재익 ( Jae-ik Park ) , 송영주(Young-Joo Song) , 김영록(Young-Rok Kim) , 홍승범(SeungBum Hong) , 배종희(Jonghee Bae) , 김대관(Dae-Kwan Kim) , 이상률(Sang-Ryool Lee) 한국항공우주학회 2020
+      한국항공우주학회 학술발표회 논문집 Vol.2020 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=536721e114005f6247de9c1710b0298d&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=536721e114005f6247de9c1710b0298d&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525945
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: WSB/BLT 궤적 설계를 위한 달 궤도 조건
+    status: existing
+    discovery_index: riss-54-33
+  - title: 무인 달 착륙임무를 위한 시스템 개념 연구
+    authors:
+    - 류동영
+    - 박재익
+    - 이우섭
+    - 조진호
+    - 손광재
+    - 김진주
+    category: conference
+    scope: domestic
+    year: 2017
+    date: '2017'
+    details: 류동영(Dong-Young Rew) , 박재익 ( Jae-Ik Park ) , 이우섭(Woosup Lee) , 조진호(Jinho Jo) , 손광재 (Kwang- Jae Son) , 김진주(Jin Joo Kim) 한국항공우주학회 2017 한국항공우주학회 학술발표회 논문집 Vol.2017 No.4
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7cb4ee843da22fffc85d2949c297615a&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=7cb4ee843da22fffc85d2949c297615a&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188719
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 무인 달 착륙임무를 위한 시스템 개념 연구
+    status: existing
+    discovery_index: riss-54-34
+  - title: KPLO BLT 궤적 설계
+    authors:
+    - 이동헌
+    - 박재익
+    - 송영주
+    - 김영록
+    - 홍승범
+    - 배종희
+    - 김대관
+    - 이상률
+    category: conference
+    scope: domestic
+    year: 2020
+    date: '2020'
+    details: >-
+      이동헌(Donghun Lee) , 박재익 ( Jae-ik Park ) , 송영주(Young-Joo Song) , 김영록(Young-Rok Kim) , 홍승범(SeungBum Hong) , 배종희(Jonghee Bae) , 김대관(Dae-Kwan Kim) , 이상률(Sang-Ryool Lee) 한국항공우주학회 2020
+      한국항공우주학회 학술발표회 논문집 Vol.2020 No.7
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8901be06618f11c6c85d2949c297615a&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=8901be06618f11c6c85d2949c297615a&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442221
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: KPLO BLT 궤적 설계
+    status: existing
+    discovery_index: riss-54-35
+  - title: 달착륙선 착륙시 장애물 인식 및 회피 기동을 위한 이미지 처리 방안 연구
+    authors:
+    - 구철회
+    - 박재익
+    - 류동영
+    category: conference
+    scope: domestic
+    year: 2017
+    date: '2017'
+    details: 구철회(Cheol Hea Koo) , 박재익 ( Jae-ik Park ) , 류동영(Dong-Young Rew) 한국항공우주학회 2017 한국항공우주학회 학술발표회 논문집 Vol.2017 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6a4aaad712ee8d73c85d2949c297615a&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6a4aaad712ee8d73c85d2949c297615a&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367123
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 달착륙선 착륙시 장애물 인식 및 회피 기동을 위한 이미지 처리 방안 연구
+    status: existing
+    discovery_index: riss-54-36
+  - title: 달 궤도선의 위상 전이 횟수에 따른 요구 속도증분 해석
+    authors:
+    - 최수진
+    - 이동헌
+    - 박재익
+    - 임성빈
+    - 최석원
+    category: conference
+    scope: domestic
+    year: 2017
+    date: '2017'
+    details: 최수진(Su-Jin Choi) , 이동헌(Donghun Lee) , 박재익 ( Jae-Ik Park ) , 임성빈(Seong-Bin Lim) , 최석원(Seok-Weon Choi) 한국항공우주학회 2017 한국항공우주학회 학술발표회 논문집 Vol.2017 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6a4aaad712ee8d73e9810257f7042666&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=6a4aaad712ee8d73e9810257f7042666&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 달 궤도선의 위상 전이 횟수에 따른 요구 속도증분 해석
+    status: existing
+    discovery_index: riss-54-38
+  - title: 위성항법 수신국의 원격 영상 감시기법의 설계
+    authors:
+    - 손민혁
+    - 김규헌
+    - 박재익
+    - 이은성
+    - 허문범
+    category: conference
+    scope: domestic
+    year: 2012
+    date: '2012'
+    details: 손민혁(Minhyuk Son) , 김규헌(Gueheon Kim) , 박재익 ( Jae-Ik Park ) , 이은성(Eunsung Lee) , 허문범(Mun-Beom Heo) 한국통신학회 2012 한국통신학회 학술대회논문집 Vol.2012 No.2
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=50b9976844f022d2b36097776a77e665&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=50b9976844f022d2b36097776a77e665&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039082
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 위성항법 수신국의 원격 영상 감시기법의 설계
+    status: existing
+    discovery_index: riss-54-39
+  - title: '항공 응용 분야 : 차로 제한 조건을 이용한 차로 구분 성능 분석'
+    authors:
+    - 강우용
+    - 이은성
+    - 박재익
+    - 한지애
+    - 홍운기
+    - 김현수
+    - 허문범
+    - 남기욱
+    category: journal
+    scope: domestic
+    year: 2011
+    date: '2011'
+    details: >-
+      강우용 ( Woo Yong Kang ) , 이은성 ( Eun Sung Lee ) , 박재익 ( Jae Ik Park ) , 한지애 ( Ji Ae Han ) , 홍운기 ( Woon Ki Hong ) , 김현수 ( Hyun So Kim ) , 허문범 ( Moon Beon Heo ) , 남기욱 ( Gi Wook Nam
+      ) 한국항행학회 2011 한국항행학회논문지 Vol.15 No.3
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a76cb9416f1a2682ffe0bdc3ef48d419&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a76cb9416f1a2682ffe0bdc3ef48d419&keyword=
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 차로 제한 조건을 이용한 차로 구분 성능 분석
+    status: existing
+    discovery_index: riss-54-42
+  - title: 차로 구분이 가능한 정밀전자지도의 성능 요구사항에 관한 연구
+    authors:
+    - 강우용
+    - 이은성
+    - 이건우
+    - 박재익
+    - 최광식
+    - 허문범
+    category: journal
+    scope: domestic
+    year: 2011
+    date: '2011'
+    details: 강우용(Wooyong Kang) , 이은성(Eunsung Lee) , 이건우(Geonwoo Lee) , 박재익 ( Jae-Ik Park ) , 최광식(Kwangsik Choi) , 허문범(Moonbeom Heo) 제어로봇시스템학회 2011 제어·로봇·시스템학회 논문지 Vol.17 No.1
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=62ad7a92976c5fd7ffe0bdc3ef48d419&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=62ad7a92976c5fd7ffe0bdc3ef48d419&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01986144
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 차로 구분이 가능한 정밀전자지도의 성능 요구사항에 관한 연구
+    status: existing
+    discovery_index: riss-54-44
+  - title: 시험용 달 궤도선의 발사체 분산 궤적보정기동 설계를 위한 궤도결정 오차 분석
+    authors:
+    - 김영록
+    - 홍승범
+    - 송영주
+    - 박재익
+    - 배종희
+    - 이동헌
+    - 김대관
+    - 이상률
+    category: conference
+    scope: domestic
+    year: 2020
+    date: '2020'
+    details: >-
+      김영록(Young-Rok Kim) , 홍승범(SeungBum Hong) , 송영주(Young-Joo Song) , 박재익 ( Jae-ik Park ) , 배종희(Jonghee Bae) , 이동헌(Donghun Lee) , 김대관(Dae-Kwan Kim) , 이상률(Sang-Ryool Lee) 한국항공우주학회 2020
+      한국항공우주학회 학술발표회 논문집 Vol.2020 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=536721e114005f627f7a54760bb41745&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=536721e114005f627f7a54760bb41745&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525946
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 시험용 달 궤도선의 발사체 분산 궤적보정기동 설계를 위한 궤도결정 오차 분석
+    status: existing
+    discovery_index: riss-54-49
+  - title: 시험용 달 궤도선의 분사오차와 기동시점을 고려한 WSB/BLT 궤적오차보정기동 분석
+    authors:
+    - 배종희
+    - 홍승범
+    - 송영주
+    - 김영록
+    - 박재익
+    - 이동헌
+    - 김대관
+    - 이상률
+    category: conference
+    scope: domestic
+    year: 2020
+    date: '2020'
+    details: >-
+      배종희(Jonghee Bae) , 홍승범(SeungBum Hong) , 송영주(Young-Joo Song) , 김영록(Young-Rok Kim) , 박재익 ( Jae-ik Park ) , 이동헌(Donghun Lee) , 김대관(Dae-Kwan Kim) , 이상률(Sang-Ryool Lee) 한국항공우주학회 2020
+      한국항공우주학회 학술발표회 논문집 Vol.2020 No.11
+    doi:
+    link: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=536721e114005f62e9810257f7042666&keyword=
+    sources:
+    - https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=536721e114005f62e9810257f7042666&keyword=
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525947
+    identity_evidence: 기존 목록과 제목·저자·연도·학술대회를 대조한 동일 기록.
+    existing_match: 시험용 달 궤도선의 분사오차와 기동시점을 고려한 WSB/BLT 궤적오차보정기동 분석
+    status: existing
+    discovery_index: riss-54-53
+  sase-additional: []
+existing_identifier_updates:
+- key: legacy-016
+  doi: 10.12673/jant.2011.15.3.432
+  sources:
+  - https://doi.org/10.12673/jant.2011.15.3.432
+  - https://koreascience.or.kr/article/JAKO201119663062551.page
+  note: KoreaScience citation_doi, 제목, 저자8명, 권호·쪽수 및 DOI 실제 연결 확인. Crossref API404와 무관하게 검증.
+patents_software_review:
+- title: Method and system for Time To First Fix(TTFF) reduction of GPS Receivers using Satellite Based Augmentation System Signal
+  authors:
+  - Jae-ik Park
+  - Eunsung Lee
+  - Moonbeom Heo
+  - Giwook Nam
+  category: patent
+  year: 2017
+  details: >-
+    유럽 출원 17202087.7 (2017-11-16), 공개 EP3327465A1 (2018-05-30); 미국 출원 15/819,926 (2017-11-21), 등록 US10649091B2 (2020-05-12); 일본 출원 2017-223495 (2017-11-21), 공개 JP2018084583A (2018-05-31)
+  application_number: 17202087.7 (EU); 15/819,926 (US); 2017-223495 (JP)
+  registration_number: US10649091B2
+  status: mixed
+  link: https://patents.google.com/patent/US10649091B2/en
+  existing_match: legacy-074
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+  - https://patents.google.com/patent/EP3327465A1/en
+  - https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+  - https://patents.google.com/patent/JP2018084583A/ja
+  - https://patentimages.storage.googleapis.com/94/18/2b/8e8b841efdd92b/JP2018084583A.pdf
+  identity_evidence: US·EP 명세서 첫 페이지에서 Jae Ik Park, Eun Sung Lee, Moon Beom Heo, Gi Wook Nam 및 KARI 확인. 출원번호는 개인목록의 미국·유럽·일본 세 번호와 일치.
+  country_records:
+  - jurisdiction: US
+    status: registered
+    application_number: 15/819,926
+    application_date: '2017-11-21'
+    publication_number: US20180143325A1
+    publication_date: '2018-05-24'
+    registration_number: US10649091B2
+    registration_date: '2020-05-12'
+    source: https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+  - jurisdiction: EP
+    status: application
+    application_number: '17202087.7'
+    application_date: '2017-11-16'
+    publication_number: EP3327465A1
+    publication_date: '2018-05-30'
+    source: https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+  - jurisdiction: JP
+    status: application
+    application_number: 2017-223495
+    application_date: '2017-11-21'
+    publication_number: JP2018084583A
+    publication_date: '2018-05-31'
+    source: https://patents.google.com/patent/JP2018084583A/ja
+  proposed_update: 미국 등록이 새로 확인됨. 동일 발명의 별도 신규 성과로 추가하지 말고 기존 해외 묶음을 보완. 단일 행 유지 시 미국 등록·유럽/일본 공개 출원을 구분해서 표시. mixed는 조사자료 상태이며 현재 사이트 상태 enum에 그대로 입력하지 말 것.
+  note: EP·JP는 공개출원 문서까지만 확인했으며 현재 등록 여부/법적 상태를 단정하지 않음. 등록 사실을 그룹 전체로 확장하지 않음.
+- title: 달 탐사선 연료절감을 위한 궤도유지기동 제어방법 및 이를 기록한 컴퓨터로 읽을 수 있는 기록매체
+  authors:
+  - 박재익
+  - 최수진
+  - 류동영
+  category: patent
+  year: 2018
+  details: 한국, 출원번호 10-2018-0131171 (출원 2018-10-30); 등록번호 10-2091031 (등록 2020-03-12)
+  application_number: 10-2018-0131171
+  registration_number: 10-2091031
+  status: registered
+  link: https://patents.google.com/patent/KR102091031B1/en
+  existing_match: legacy-075
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR102091031B1/en
+  - https://patentimages.storage.googleapis.com/53/67/75/339e883adbd02d/KR102091031B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  identity_evidence: 대한민국 공개/등록 특허공보에 발명자 박재익과 공동발명자, 출원인 한국항공우주연구원이 명시됨. 기존 출원번호와 일치.
+  application_date: '2018-10-30'
+  registration_date: '2020-03-12'
+  publication_date: '2020-04-24'
+  publication_number: KR102091031B1
+  note: 공보의 출원·등록 사실만 기록하며 현재 권리의 존속 여부는 판단하지 않음. 연도는 기존 출원연도를 유지.
+- title: GNSS 안테나 플랫폼
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: patent
+  year: 2012
+  details: 한국, 출원번호 10-2012-0124798 (출원 2012-11-06); 등록번호 10-1414146 (등록 2014-06-25)
+  application_number: 10-2012-0124798
+  registration_number: 10-1414146
+  status: registered
+  link: https://patents.google.com/patent/KR101414146B1/ko
+  existing_match: legacy-076
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR101414146B1/ko
+  - https://patentimages.storage.googleapis.com/82/7c/5d/d7957dbf086753/KR101414146B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  identity_evidence: 대한민국 공개/등록 특허공보에 발명자 박재익과 공동발명자, 출원인 한국항공우주연구원이 명시됨. 기존 출원번호와 일치.
+  application_date: '2012-11-06'
+  registration_date: '2014-06-25'
+  publication_date: '2014-07-01'
+  publication_number: KR101414146B1
+  note: 공보의 출원·등록 사실만 기록하며 현재 권리의 존속 여부는 판단하지 않음. 연도는 기존 출원연도를 유지.
+  verified_title: 안테나 플랫폼
+- title: 위성항법 데이터의 실시간 처리를 위한 데이터 전송 방법
+  authors:
+  - 김규헌
+  - 손민혁
+  - 박재익
+  - 이은성
+  - 허문범
+  category: patent
+  year: 2012
+  details: 한국, 출원번호 10-2012-0139240 (출원 2012-12-03); 등록번호 10-1271006 (등록 2013-05-29)
+  application_number: 10-2012-0139240
+  registration_number: 10-1271006
+  status: registered
+  link: https://patents.google.com/patent/KR101271006B1/ko
+  existing_match: legacy-077
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR101271006B1/ko
+  - https://patentimages.storage.googleapis.com/8a/64/e2/fd2bd91baf2e87/KR101271006B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  identity_evidence: 대한민국 공개/등록 특허공보에 발명자 박재익과 공동발명자, 출원인 한국항공우주연구원이 명시됨. 기존 출원번호와 일치.
+  application_date: '2012-12-03'
+  registration_date: '2013-05-29'
+  publication_date: '2013-06-04'
+  publication_number: KR101271006B1
+  note: 공보의 출원·등록 사실만 기록하며 현재 권리의 존속 여부는 판단하지 않음. 연도는 기존 출원연도를 유지.
+  verified_title: 위성항법데이터의 실시간 처리를 위한 데이터 전송방법
+- title: 위성항법 기준국용 데이터 송수신 장치
+  authors:
+  - 손민혁
+  - 김규헌
+  - 박재익
+  - 이은성
+  - 허문범
+  category: patent
+  year: 2012
+  details: 한국, 출원번호 10-2012-0139241 (출원 2012-12-03); 등록번호 10-1261315 (등록 2013-04-30)
+  application_number: 10-2012-0139241
+  registration_number: 10-1261315
+  status: registered
+  link: https://patents.google.com/patent/KR101261315B1/en
+  existing_match: legacy-078
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR101261315B1/en
+  - https://patentimages.storage.googleapis.com/98/c0/83/27034cfec325ce/KR101261315B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  identity_evidence: 대한민국 공개/등록 특허공보에 발명자 박재익과 공동발명자, 출원인 한국항공우주연구원이 명시됨. 기존 출원번호와 일치.
+  application_date: '2012-12-03'
+  registration_date: '2013-04-30'
+  publication_date: '2013-05-06'
+  publication_number: KR101261315B1
+  note: 공보의 출원·등록 사실만 기록하며 현재 권리의 존속 여부는 판단하지 않음. 연도는 기존 출원연도를 유지.
+- title: SBAS 신호를 이용하여 GPS 수신 장치의 TTFF를 단축할 수 있는 방법 및 시스템
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  - 남기욱
+  category: patent
+  year: 2017
+  details: 한국, 출원번호 10-2017-0136795 (출원 2017-10-20); 공개 KR20180058184A (2018-05-31)
+  application_number: 10-2017-0136795
+  registration_number:
+  status: application
+  link: https://patents.google.com/patent/KR20180058184A/en
+  existing_match: legacy-079
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR20180058184A/en
+  - https://patentimages.storage.googleapis.com/df/94/71/105a25dff0a805/KR20180058184A.pdf
+  identity_evidence: 대한민국 공개/등록 특허공보에 발명자 박재익과 공동발명자, 출원인 한국항공우주연구원이 명시됨. 기존 출원번호와 일치.
+  application_date: '2017-10-20'
+  registration_date:
+  publication_date: '2018-05-31'
+  publication_number: KR20180058184A
+  note: 공보의 출원·등록 사실만 기록하며 현재 권리의 존속 여부는 판단하지 않음. 연도는 기존 출원연도를 유지.
+  family_relationship: legacy-080 출원을 우선권으로 주장하며 legacy-074 해외 출원과 관련된 동일 기술군. 다른 출원번호이므로 자동 병합하지 않음.
+- title: GPS 수신 방법, GPS 수신 장치 및  이를 포함하는 제어 시스템
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  - 남기욱
+  category: patent
+  year: 2016
+  details: 한국, 출원번호 10-2016-0156815, 2016
+  application_number: 10-2016-0156815
+  registration_number:
+  status: application
+  link:
+  existing_match: legacy-080
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patentimages.storage.googleapis.com/df/94/71/105a25dff0a805/KR20180058184A.pdf
+  - https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+  identity_evidence: 기존 개인목록의 제목·발명자 정보. KR20180058184A 및 EP3327465A1의 우선권란에서 KR10-2016-0156815 및 2016-11-23 확인. 이 출원 자체의 공개 명세서는 찾지 못함.
+  application_date: '2016-11-23'
+  family_relationship: legacy-079 및 legacy-074 출원의 한국 우선권. 별개 신규 발명으로 추가하지 않음.
+  verification_limit: 제목·발명자 자체의 독립 재확인은 미완료. 우선권 번호와 날짜만 독립 확인.
+- title: 위성항법시스템의 반송파 측정값에 대한 고장성분 검출 방법
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: patent
+  year: 2011
+  details: 한국, 출원번호 10-2011-0143201 (출원 2011-12-27); 공개 KR20130075022A (2013-07-05)
+  application_number: 10-2011-0143201
+  registration_number:
+  status: application
+  link: https://patents.google.com/patent/KR20130075022A/en
+  existing_match: legacy-081
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR20130075022A/en
+  - https://patentimages.storage.googleapis.com/59/b6/8a/e86f7522028f68/KR20130075022A.pdf
+  identity_evidence: 대한민국 공개/등록 특허공보에 발명자 박재익과 공동발명자, 출원인 한국항공우주연구원이 명시됨. 기존 출원번호와 일치.
+  application_date: '2011-12-27'
+  registration_date:
+  publication_date: '2013-07-05'
+  publication_number: KR20130075022A
+  note: 공보의 출원·등록 사실만 기록하며 현재 권리의 존속 여부는 판단하지 않음. 연도는 기존 출원연도를 유지.
+- title: 달착륙선 2차원 최적화 착륙궤적 생성 프로그램
+  authors:
+  - 박재익
+  - 류동영
+  category: software
+  year: 2017
+  details: C-2017-029915, 2017년 11월 27일 등록
+  application_number:
+  registration_number: C-2017-029915
+  status: registered
+  link: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%8B%AC%EC%B0%A9%EB%A5%99%EC%84%A0+2%EC%B0%A8%EC%9B%90
+  existing_match: legacy-082
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%8B%AC%EC%B0%A9%EB%A5%99%EC%84%A0+2%EC%B0%A8%EC%9B%90
+  identity_evidence: 기존 개인목록의 개인 저자 정보를 유지. NTIS 공식 검색에서 제목·C-2017-029915·한국항공우주연구원 일치. 개인 저자명은 공개 검색 결과에 없음.
+  conflicts:
+  - field: registration_date
+    existing_value: '2017-11-27'
+    external_value: '2017-11-24'
+    external_source: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%8B%AC%EC%B0%A9%EB%A5%99%EC%84%A0+2%EC%B0%A8%EC%9B%90
+    resolution: 등록증 원본 또는 책임교수 확인 전 기존 날짜 자동 수정 금지.
+- title: 위성항법 다중 기준국 네트워크 데이터 후처리 보정정보 생성 프로그램
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: software
+  year: 2012
+  details: C-2012-027793, 2012년 12월 20일 등록
+  application_number:
+  registration_number: C-2012-027793
+  status: registered
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  existing_match: legacy-083
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  identity_evidence: 기존 개인목록의 개인 저자 정보를 유지. KAIA 공식 과제 성과에서 동일 제목 또는 한글 대응 제목, 등록번호·등록일·저작권자 한국항공우주연구원 확인. KAIA에는 개인 저자명이 없음.
+  registration_date: '2012-12-20'
+  creation_date: '2012-11-13'
+- title: 가중치 최소자승법을 이용한 후처리기반 위성항법 위치결정 프로그램
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: software
+  year: 2012
+  details: C-2012-027792, 2012년 12월 20일 등록
+  application_number:
+  registration_number: C-2012-027792
+  status: registered
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  existing_match: legacy-084
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  identity_evidence: 기존 개인목록의 개인 저자 정보를 유지. KAIA 공식 과제 성과에서 동일 제목 또는 한글 대응 제목, 등록번호·등록일·저작권자 한국항공우주연구원 확인. KAIA에는 개인 저자명이 없음.
+  registration_date: '2012-12-20'
+  creation_date: '2012-11-13'
+- title: Novatel GPS receiver binary data handling program
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: software
+  year: 2012
+  details: C-2012-027791, 2012년 12월 20일 등록
+  application_number:
+  registration_number: C-2012-027791
+  status: registered
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  existing_match: legacy-085
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  identity_evidence: 기존 개인목록의 개인 저자 정보를 유지. KAIA 공식 과제 성과에서 동일 제목 또는 한글 대응 제목, 등록번호·등록일·저작권자 한국항공우주연구원 확인. KAIA에는 개인 저자명이 없음.
+  registration_date: '2012-12-20'
+  creation_date: '2012-11-13'
+- title: 후처리 항법위성 궤도오차 정보 생성 프로그램
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: software
+  year: 2011
+  details: 등록번호 2011-01-121-009405, 2011년 12월 14일
+  application_number:
+  registration_number: 2011-01-121-009405
+  status: registered
+  link:
+  existing_match: legacy-086
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  identity_evidence: 책임교수의 기존 개인 연구성과 목록에 기재됨.
+  verification_limit: 개인 연구성과 목록 외 독립적으로 확인되는 공개 등록 기록은 이번 검색에서 찾지 못함. 기존 개인 저자·등록번호 유지.
+- title: 후처리 항법위성 궤도예측 프로그램
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: software
+  year: 2011
+  details: 등록번호 2011-01-121-009404, 2011년 12월 14일
+  application_number:
+  registration_number: 2011-01-121-009404
+  status: registered
+  link:
+  existing_match: legacy-087
+  discovery_status: existing
+  sources:
+  - https://sites.google.com/view/dr-space/publications
+  identity_evidence: 책임교수의 기존 개인 연구성과 목록에 기재됨.
+  verification_limit: 개인 연구성과 목록 외 독립적으로 확인되는 공개 등록 기록은 이번 검색에서 찾지 못함. 기존 개인 저자·등록번호 유지.
+- title: 수신국 시스템 이상검출 문자메시지 전송 프로그램
+  authors: []
+  category: software
+  year: 2012
+  details: C-2012-028183, 2012-12-26 등록; 저작권자 한국항공우주연구원
+  application_number:
+  registration_number: C-2012-028183
+  status: registered
+  registration_date: '2012-12-26'
+  creation_date: '2012-12-10'
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  identity_evidence: KAIA에 한국항공우주연구원 소유 등록 사실만 확인됨. 박재익의 개인 저작자/개발자 참여는 확인되지 않음. 같은 과제·기관이라는 이유만으로 귀속 불가.
+  existing_match:
+  discovery_status: candidate
+  recommendation: 책임교수 참여 근거가 확보되기 전 Publications에 추가하지 않음.
+  creator_search:
+    source: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%88%98%EC%8B%A0%EA%B5%AD+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EC%9D%B4%EC%83%81%EA%B2%80%EC%B6%9C
+    result: 검색 결과 없음
+- title: 위성항법 수신기 시각을 이용한 관성센서 데이터 시각동기 프로그램
+  authors: []
+  category: software
+  year: 2012
+  details: C-2012-028246, 2012-12-27 등록; 저작권자 한국항공우주연구원
+  application_number:
+  registration_number: C-2012-028246
+  status: registered
+  registration_date: '2012-12-27'
+  creation_date: '2012-12-10'
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  identity_evidence: KAIA에 한국항공우주연구원 소유 등록 사실만 확인됨. 박재익의 개인 저작자/개발자 참여는 확인되지 않음. 같은 과제·기관이라는 이유만으로 귀속 불가.
+  existing_match:
+  discovery_status: candidate
+  recommendation: 책임교수 참여 근거가 확보되기 전 Publications에 추가하지 않음.
+  creator_search:
+    source: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EA%B4%80%EC%84%B1%EC%84%BC%EC%84%9C+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8B%9C%EA%B0%81%EB%8F%99%EA%B8%B0
+    result: 검색 결과 없음
+- title: 위성항법 수신국 처리운용 프로그램
+  authors: []
+  category: software
+  year: 2014
+  details: C-2014-030610, 2014-12-03 등록; 저작권자 한국항공우주연구원
+  application_number:
+  registration_number: C-2014-030610
+  status: registered
+  registration_date: '2014-12-03'
+  creation_date: '2014-11-25'
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  - https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%88%98%EC%8B%A0%EA%B5%AD+%EC%B2%98%EB%A6%AC%EC%9A%B4%EC%9A%A9
+  identity_evidence: KAIA에 한국항공우주연구원 소유 등록 사실만 확인됨. 박재익의 개인 저작자/개발자 참여는 확인되지 않음. 같은 과제·기관이라는 이유만으로 귀속 불가.
+  existing_match:
+  discovery_status: candidate
+  recommendation: 책임교수 참여 근거가 확보되기 전 Publications에 추가하지 않음.
+  creator_search:
+    source: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%88%98%EC%8B%A0%EA%B5%AD+%EC%B2%98%EB%A6%AC%EC%9A%B4%EC%9A%A9
+    result: 저작권자로 기관만 표시, 개인 개발자 미기재
+- title: 위성항법 다중 수신국 네트워크 데이터 실시간 보정정보 생성 프로그램
+  authors: []
+  category: software
+  year: 2015
+  details: C-2015-028406, 2015-11-26 등록; 저작권자 한국항공우주연구원
+  application_number:
+  registration_number: C-2015-028406
+  status: registered
+  registration_date: '2015-11-26'
+  creation_date: '2015-11-17'
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  - >-
+    https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%8B%A4%EC%A4%91+%EC%88%98%EC%8B%A0%EA%B5%AD+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8B%A4%EC%8B%9C%EA%B0%84
+  identity_evidence: KAIA에 한국항공우주연구원 소유 등록 사실만 확인됨. 박재익의 개인 저작자/개발자 참여는 확인되지 않음. 같은 과제·기관이라는 이유만으로 귀속 불가.
+  existing_match:
+  discovery_status: candidate
+  recommendation: 책임교수 참여 근거가 확보되기 전 Publications에 추가하지 않음.
+  creator_search:
+    source: >-
+      https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EB%8B%A4%EC%A4%91+%EC%88%98%EC%8B%A0%EA%B5%AD+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%8B%A4%EC%8B%9C%EA%B0%84
+    result: 저작권자로 기관만 표시, 개인 개발자 미기재
+- title: 위성항법기반 교통인프라 시스템 모니터링 프로그램
+  authors: []
+  category: software
+  year: 2015
+  details: C-2015-029054, 2015-12-03 등록; 저작권자 한국항공우주연구원
+  application_number:
+  registration_number: C-2015-029054
+  status: registered
+  registration_date: '2015-12-03'
+  creation_date: '2015-11-17'
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  - >-
+    https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EA%B8%B0%EB%B0%98+%EA%B5%90%ED%86%B5%EC%9D%B8%ED%94%84%EB%9D%BC+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81
+  identity_evidence: KAIA에 한국항공우주연구원 소유 등록 사실만 확인됨. 박재익의 개인 저작자/개발자 참여는 확인되지 않음. 같은 과제·기관이라는 이유만으로 귀속 불가.
+  existing_match:
+  discovery_status: candidate
+  recommendation: 책임교수 참여 근거가 확보되기 전 Publications에 추가하지 않음.
+  creator_search:
+    source: >-
+      https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EA%B8%B0%EB%B0%98+%EA%B5%90%ED%86%B5%EC%9D%B8%ED%94%84%EB%9D%BC+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81
+    result: 저작권자로 기관만 표시, 개인 개발자 미기재
+- title: 기상청 데이터 획득 프로그램
+  authors: []
+  category: software
+  year: 2015
+  details: C-2015-029056, 2015-12-03 등록; 저작권자 한국항공우주연구원
+  application_number:
+  registration_number: C-2015-029056
+  status: registered
+  registration_date: '2015-12-03'
+  creation_date: '2015-11-17'
+  link: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=7&pageUnit=100
+  - https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EA%B8%B0%EC%83%81%EC%B2%AD+%EB%8D%B0%EC%9D%B4%ED%84%B0+%ED%9A%8D%EB%93%9D
+  identity_evidence: KAIA에 한국항공우주연구원 소유 등록 사실만 확인됨. 박재익의 개인 저작자/개발자 참여는 확인되지 않음. 같은 과제·기관이라는 이유만으로 귀속 불가.
+  existing_match:
+  discovery_status: candidate
+  recommendation: 책임교수 참여 근거가 확보되기 전 Publications에 추가하지 않음.
+  creator_search:
+    source: https://www.ntis.go.kr/ThSearchResultSoftwareList.do?searchWord=%EA%B8%B0%EC%83%81%EC%B2%AD+%EB%8D%B0%EC%9D%B4%ED%84%B0+%ED%9A%8D%EB%93%9D
+    result: 저작권자로 기관만 표시, 개인 개발자 미기재
+excluded_international_candidates:
+- title: 선형 및 비선형 상대궤도운동 모델들의 정확도 분석
+  doi: 10.5140/JASS.2009.26.3.317
+  reason: OpenAlex의 Jae-Ik Park 매핑 오류. 공식 KCI 저자는 Han-Earl Park이며 PI 미포함.
+  source: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001375774
+- title: 'Enhanced Test Data Management in Spacecraft Ground Testing: A Practical Approach for Centralized Storage and Automated Processing'
+  doi: 10.3390/aerospace12090813
+  reason: 공식 출판사 저자는 Jooho Park, Young Joo Song, Donghun Lee. Jae-ik Park 미포함.
+  source: https://www.mdpi.com/2226-4310/12/9/813
+- title: 'Centralizing Korea’s space governance: Institutional impacts and strategic implications one year after launching KASA'
+  doi: 10.1016/j.spacepol.2026.101748
+  reason: 공식 출판사·KAIST 기관 레코드의 저자는 Jooho Park. PI 미포함.
+  source: https://www.sciencedirect.com/science/article/pii/S0265964626000032
+- title: South Korea's First Moon Mission 'Danuri'
+  date: '2023-11-10'
+  reason: WVU의 PI 초청 세미나 활동으로 확인되나 학술대회 논문/출판물은 아니므로 현재 네 연구성과 유형에 추가하지 않음.
+  source: https://cal.wvu.edu/event/the_fall_2023_semester_aerospace_seminar
+orcid_review:
+  method: 모든 신규 저자 및 한영 이름 변형을 ORCID 공개 검색·출판사 저자 식별자·학회 공식 논문·기관 소속과 대조했습니다. 이름만 일치하는 후보는 연결하지 않습니다.
+  changes:
+  - name: Jae-In Kim
+    aliases:
+    - Jae-In Kim
+    - 김재인
+    - Jae In Kim
+    orcid: 0000-0003-0813-8808
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/0000-0003-0813-8808/record
+    - https://kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002922806
+    - https://e-sciencecentral.org/upload/KJRS/pdf/kjrs-38-6-1-1015.pdf
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A110452703
+    note: 공개 ORCID에 KARI 선임연구원(2021년~) 경력과 화성 지형상대항법 논문 DOI 10.7780/kjrs.2022.38.6.1.3이 있다. 해당 공식 논문의 김재인/Jae-In Kim, KARI KPS위성개발부 소속과 주제를 대조했다. 신규 KSSS 자료의 Jae In Kim도 같은 KARI 공저자다.
+    action: add_new
+    existing_key:
+  - name: Dae-Yeong Kim
+    aliases:
+    - Dae-Yeong Kim
+    - 김대영
+    - Dae-Young Kim
+    - Dae Yeong Kim
+    orcid: 0000-0002-0409-3262
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.jstna.org/download/download_pdf?pid=jsta-2-1-52
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A110452703
+    note: JSTNA 2022 공식 논문 첫쪽에 김대영/Dae-Yeong Kim, KARI 소속과 저자별 ORCID가 직접 기재된다. 신규 KSSS 화성 탐사 자료의 Dae-Young Kim 및 Dae Yeong Kim은 동일 KARI 공동연구 저자 표기로 대조했다.
+    action: add_new
+    existing_key:
+  - name: Min-Ki Kim
+    aliases:
+    - Min-Ki Kim
+    - 김민기
+    - Min Ki Kim
+    orcid: 0000-0003-1167-6658
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.jstna.org/download/download_pdf?pid=jsta-3-1-72
+    - https://www.jstna.org/download/download_pdf?pid=jsta-6-2-196
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A110452703
+    note: JSTNA 2023 나노위성 전개스위치 논문과 2026 궤도이탈 장치 논문의 첫쪽에서 김민기/Min-Ki Kim/Min Ki Kim, KARI 소속, 동일 ORCID를 직접 확인했다.
+    action: add_new
+    existing_key:
+  - name: Jungju Bae
+    aliases:
+    - Jungju Bae
+    - 배정주
+    - Jung-Ju Bae
+    orcid: 0000-0003-4397-5740
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/0000-0003-4397-5740/record
+    - https://api.crossref.org/works/10.1016%2Fj.ast.2026.111779
+    - https://www.sciencedirect.com/science/article/pii/S1270963826001604
+    - https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602235944791789
+    - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193028
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A110452703
+    note: >-
+      Elsevier의 화성 태양돛 논문(10.1016/j.ast.2026.111779) Crossref 저자 메타데이터에 Jungju Bae의 ORCID가 명시되며 공개 ORCID에도 같은 논문이 있다. 일본 JST 공식 서지정보의 KARI Space Exploration Research Center 소속, KCI의
+      배정주/Jungju Bae 한영 표기와 신규 KSSS 태양돛·화성 공저자 소속을 함께 대조했다. 해양시설 분야 Bea Jungju 동명이인은 제외했다.
+    action: add_new
+    existing_key:
+  - name: Seung-ryeol Oh
+    aliases:
+    - Seung-ryeol Oh
+    - 오승렬
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%98%A4%EC%8A%B9%EB%A0%AC%22+OR+%22Seung-ryeol+Oh%22+OR+%22Seungryeol+Oh%22+OR+%22Seung-Ryul+Oh%22&rows=100
+    - https://pub.orcid.org/v3.0/0000-0002-5710-3946/record
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A110452703
+    note: 공식 KSSS 및 DBpia 신규 화성 자료의 오승렬/Seung-ryeol Oh와 KARI 소속을 확인했다. ORCID 변형 이름 검색의 Seung Ryeol Oh 후보는 공개 소속·실적이 모두 없어 동일인으로 확정하지 않았다. 운동생리·중국경제 분야 동명이인은 별개이다.
+    action: add_new
+    existing_key:
+    candidate_orcids:
+    - 0000-0002-5710-3946
+  - name: Jeong Heum Im
+    aliases:
+    - Jeong Heum Im
+    - 임정흠
+    - Jeongheum Im
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9E%84%EC%A0%95%ED%9D%A0%22+OR+%22Jeong+Heum+Im%22+OR+%22Jeongheum+Im%22+OR+%22Jungheum+Im%22&rows=100
+    - https://pub.orcid.org/v3.0/0009-0007-7622-1415/record
+    - https://www.sfb1667.uni-stuttgart.de/news/A-visit-from-KARI/
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A110452703
+    note: KSSS의 임정흠/Jeong Heum Im과 슈투트가르트대 공식 방문 기사에 있는 KARI Jeongheum Im을 대조했다. 후보 ORCID에 동일 영문명과 KARI 소속은 있으나 공개 논문·학력·저자 직접 연결이 없으므로 엄격한 동일인 기준에 따라 미확정으로 남겼다.
+    action: add_new
+    existing_key:
+    candidate_orcids:
+    - '0009-0007-7622-1415'
+  - name: Choon Woo Lee
+    aliases:
+    - Choon Woo Lee
+    - 이춘우
+    - Chun-Woo Lee
+    orcid: '0009-0005-5208-7149'
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.jstna.org/download/download_pdf?pid=jsta-6-2-196
+    - https://www.sfb1667.uni-stuttgart.de/news/A-visit-from-KARI/
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A110452703
+    note: JSTNA 2026 궤도이탈 장치 논문 첫쪽에 이춘우/Choon Woo Lee, KARI 소속과 ORCID가 직접 기재된다. 신규 KSSS의 Chun-Woo Lee 변형도 동일 KARI 시스템/태양돛 공동연구자로 대조했다.
+    action: add_new
+    existing_key:
+  - name: Sangil Ahn
+    aliases:
+    - Sangil Ahn
+    - 안상일
+    - Sang Il Ahn
+    - Sang-il Ahn
+    orcid: 0000-0002-5589-3083
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.jstna.org/download/download_pdf?pid=jsta-2-2-137
+    - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002153097
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%95%88%EC%83%81%EC%9D%BC%22+OR+%22Sang+Il+Ahn%22+OR+%22Sang-il+Ahn%22+OR+%22Sangil+Ahn%22&rows=100
+    - https://conf.kics.or.kr/2026w/downloadProgram?type=program
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+    - https://www.riss.kr/link?id=A110268793
+    note: JSTNA 2022 IOAG 국제표준화 논문 첫쪽에 안상일/Sangil Ahn, KARI 소속과 ORCID가 직접 기재된다. KCI 항공우주 논문의 sang il ahn 표기를 함께 확인했다. 의학 및 성균관대 영상학습·서강대 물리학 동명이인 ORCID는 채택하지 않았다.
+    action: add_new
+    existing_key:
+  - name: Moon-Jin Jeon
+    aliases:
+    - Moon-Jin Jeon
+    - 전문진
+    orcid: '0009-0009-7649-459X'
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+    - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+    - https://www.riss.kr/link?id=A108421717
+    - https://www.riss.kr/link?id=A108647713
+    - https://www.riss.kr/link?id=A108873931
+    - https://www.riss.kr/link?id=A109564734
+    note: JASS 2024 KPLO Operation Design and Results 공식 PDF의 KARI 저자 정보와 59쪽 저자별 ORCID를 직접 확인했다. 신규 다누리 운영 발표의 전문진 및 신규 KSSS Moon-Jin Jeon과 연구주제·공저자가 일치한다.
+    action: add_new
+    existing_key:
+  - name: Hyun-Jin Shin
+    aliases:
+    - Hyun-Jin Shin
+    - 신현진
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%8B%A0%ED%98%84%EC%A7%84%22+OR+%22Hyun-Jin+Shin%22+OR+%22Hyunjin+Shin%22+OR+%22Hyeon-Jin+Shin%22&rows=100
+    - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+    - https://www.riss.kr/link?id=A109564734
+    note: >-
+      KSSS 공식 2019 회보의 KARI Hyun-Jin Shin과 신규 L4 시스템 연구의 신현진 소속을 확인했다. ORCID 한영변형 검색 17명과 공개 가능한 후보 실적을 대조했으나 KARI 위성 시험·시스템 연구로 연결되는 계정은 찾지 못했다. 의학·반도체·수의학 등 명백한 동명이인은 제외했고, 공개 정보가
+      없는 후보는 채택하지 않았다.
+    action: add_new
+    existing_key:
+  - name: Changkyoon Kim
+    aliases:
+    - Changkyoon Kim
+    - 김창균
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%B0%BD%EA%B7%A0%22+OR+%22Chang-Kyun+Kim%22+OR+%22Chang-Gyun+Kim%22+OR+%22Changkyun+Kim%22&rows=100
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22Changkyoon+Kim%22+OR+%22Chang+Kyoon+Kim%22&rows=100
+    - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002086084
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+    - https://www.riss.kr/link?id=A108421184
+    - https://www.riss.kr/link?id=A109564734
+    note: KCI 달 궤도선 가시성 논문에서 김창균/Changkyoon Kim 및 KARI 소속을 확인했다. Changkyoon 변형 ORCID 검색은 0건이며 Chang-Kyun/Chang-Gyun 등의 6개 후보는 의료로봇·생물·병원 연구 또는 소속·실적 공란으로 KARI 달탐사 저자와 연결되지 않았다.
+    action: add_new
+    existing_key:
+  - name: Sang-Man Moon
+    aliases:
+    - Sang-Man Moon
+    - 문상만
+    - Sangman Moon
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EB%AC%B8%EC%83%81%EB%A7%8C%22+OR+%22Sang-Man+Moon%22+OR+%22Sang+Man+Moon%22+OR+%22Sangman+Moon%22&rows=100
+    - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002086084
+    - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+    - https://www.riss.kr/link?id=A108421184
+    - https://www.riss.kr/link?id=A109564734
+    note: KCI와 KSSS에서 문상만/Sang-Man Moon/Sangman Moon의 KARI 달탐사 통신 연구를 확인했다. 한글 및 영문 세 변형 ORCID 검색 결과는 0건이었으며 공개 논문에서 직접 식별자도 찾지 못했다. ORCID 미보유를 뜻하지는 않는다.
+    action: add_new
+    existing_key:
+  - name: Hyeon-Cheol Lee
+    aliases:
+    - Hyeon-Cheol Lee
+    - 이현철
+    orcid: 0000-0002-0585-9717
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/0000-0002-0585-9717/record
+    - https://www.jkiees.org/archive/view_article?pid=jkiees-33-10-790
+    - https://journal.kics.or.kr/digital-library/manuscript/file/36109/NODE07064263.pdf
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+    - https://www.riss.kr/link?id=A108421184
+    note: 공개 ORCID에 KARI 책임연구원 경력과 10.5515/KJKIEES.2022.33.10.790 실적이 있으며, 해당 공식 학회 논문에서 이현철/Hyeon-Cheol Lee 및 KARI 위성탑재체연구부 소속을 확인했다. 공식 KICS 약력의 1995년 이후 KARI 경력과 신규 문상만·김창균 공동연구도
+      일치한다.
+    action: add_new
+    existing_key:
+  - name: 석정철
+    aliases:
+    - 석정철
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - >-
+      https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%84%9D%EC%A0%95%EC%B2%A0%22+OR+%22Jeong-Cheol+Seok%22+OR+%22Jung-Chul+Suk%22+OR+%22Jung-Chul+Seok%22+OR+%22Jungcheol+Seok%22&rows=100
+    - https://ksas.or.kr/wp/2021a/SessionPaperList.asp?code=1376
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+    - https://www.riss.kr/link?id=A107879020
+    note: KSAS 공식 2021 발표 목록에서 석정철의 쎄트렉아이 소속 및 김영록·박재익 등 공저자를 확인했다. 한글 및 영문 예상 표기 변형 ORCID 검색은 0건이고, 공식 영문명 확정 자료도 찾지 못해 예상 영문명을 aliases로 채택하지 않았다.
+    action: add_new
+    existing_key:
+  - name: Un-seob Lee
+    aliases:
+    - Un-seob Lee
+    - 이운섭
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9D%B4%EC%9A%B4%EC%84%AD%22+OR+%22Woon-Seop+Lee%22+OR+%22Un-Seob+Lee%22+OR+%22Un-Seop+Lee%22+OR+%22Woonseop+Lee%22&rows=100
+    - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001608689
+    - https://ksas.or.kr/wp/2021a/SessionPaperList.asp?code=1376
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+    - https://www.riss.kr/link?id=A107879020
+    note: KCI/JASS 2011 지구획득 알고리듬 논문에서 이운섭/Un-seob Lee와 쎄트렉아이 소속을 확인했다. 신규 KSAS 발표의 소속과 일치한다. 한영 변형 ORCID 검색에서 후보를 찾지 못했으며 의학 분야 동명이인은 제외했다.
+    action: add_new
+    existing_key:
+  - name: Gi-Hyuk Choi
+    aliases:
+    - Gi-Hyuk Choi
+    - 최기혁
+    orcid: 0000-0001-8862-7809
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.jstna.org/download/download_pdf?pid=jsta-2-1-52
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    note: JSTNA 2022 한국 심우주탐사 로드맵 논문 첫쪽에 최기혁/Gi-Hyuk Choi, KARI 소속과 ORCID가 직접 명시된다.
+    action: add_new
+    existing_key:
+  - name: Inkyu Kim
+    aliases:
+    - Inkyu Kim
+    - In Kyu Kim
+    - 김인규
+    orcid: 0000-0002-3832-8736
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/0000-0002-3832-8736/record
+    - https://api.crossref.org/works/10.3390%2Felectronics13153088
+    - https://pure.kaist.ac.kr/en/publications/operational-tests-for-delay-tolerant-network-between-the-moon-and/
+    - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002086084
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+    - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+    note: >-
+      기존 registry에는 김인규 그룹이 없다. 2024 KPLO 지연허용통신 논문의 출판사 Crossref 메타데이터가 Inkyu Kim의 ORCID와 KARI/KAIST 소속을 직접 명시하며 ORCID 공개실적도 같은 DOI이다. KCI 달 궤도선 가시성 논문에서 김인규/Kim inkyu KARI 소속을 확인했고
+      2020 KPLO 지상국 추적 발표의 In Kyu Kim과 연결했다.
+    action: add_new
+    existing_key:
+  - name: Sung-Woo Kim
+    aliases:
+    - Sung-Woo Kim
+    - 김성우
+    orcid:
+    status: unconfirmed
+    checked_on: '2026-10-02'
+    sources:
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sung-Woo+Kim%22+OR+%22Sungwoo+Kim%22&rows=1000
+    - https://pub.orcid.org/v3.0/expanded-search/?q=affiliation-org-name%3A%22TelePIX%22&rows=1000
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%28%22Sung-Woo+Kim%22+OR+%22Sungwoo+Kim%22%29+AND+%28satellite+OR+spacecraft+OR+TelePIX+OR+%22Sang-Young+Park%22%29&rows=1000
+    - https://ksas.or.kr/wp/2023c/SessionPaperList.asp?code=1814
+    - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+    note: >-
+      KSSS 2023 공식 L4 초록에서 TelePIX 소속 Sung-Woo Kim, KSAS 공식 목록에서 텔레픽스 김성우를 확인했다. 이름 검색 후보 51개 및 TelePIX 소속 검색 3개를 대조하고 위성·공동연구 조건을 추가 검색했으나 해당 연구자와 연결되는 ORCID를 확인하지 못했다. 연세대 경력을 포함하는
+      후보 0000-0001-7492-3877도 공개 논문이 없어 채택하지 않았다.
+    action: add_new
+    existing_key:
+  - name: Junga Hwang
+    aliases:
+    - Junga Hwang
+    orcid: 0000-0002-6862-5854
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.janss.kr/download/download_pdf?pid=jass-41-1-1
+    - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+    note: JASS 2024 L4 현장측정 과학임무 논문의 첫쪽 KASI 소속과 11쪽 저자별 ORCID를 직접 확인했다. 신규 KSSS 2023 L4 발표의 동일 이름·소속·주제·Kyung-Suk Cho 공저자가 일치한다.
+    action: add_new
+    existing_key:
+  - name: Kyung-Suk Cho
+    aliases:
+    - Kyung-Suk Cho
+    orcid: 0000-0003-2161-9606
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.janss.kr/download/download_pdf?pid=jass-41-1-1
+    - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+    note: JASS 2024 L4 현장측정 과학임무 논문의 첫쪽 KASI 소속과 11쪽 저자별 ORCID를 직접 확인했다. 신규 KSSS 2023 L4 발표의 동일 이름·소속·주제·Junga Hwang 공저자가 일치한다.
+    action: add_new
+    existing_key:
+  - name: Young-Ho Cho
+    aliases:
+    - Young-Ho Cho
+    - 조영호
+    - Young Ho Cho
+    orcid: '0009-0001-7961-0092'
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+    - https://www.riss.kr/link?id=A108421717
+    - https://www.riss.kr/link?id=A108647713
+    - https://www.riss.kr/link?id=A108873931
+    note: 기존 미확정을 보완했다. JASS 2024 KPLO Operation Design and Results 공식 PDF의 KARI 소속 및 59쪽 ORCIDs 목록이 Young-Ho Cho의 식별자를 직접 기재한다. 신규 다누리 임무 운영 발표의 조영호·전문진 공저자와 기존 KSSS의 Young Ho Cho 표기를
+      대조했다.
+    action: update_existing
+    existing_key: author-046
+  - name: Seok-Weon Choi
+    aliases:
+    - Seok-Weon Choi
+    - 최석원
+    - SeokWeon Choi
+    orcid: 0000-0002-3352-3102
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.jstna.org/download/download_pdf?pid=jsta-1-1-41
+    - https://www.jstna.org/archive/view_article?pid=jsta-1-3-356
+    - https://pub.orcid.org/v3.0/0000-0002-3352-3102/record
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+    - https://www.riss.kr/link?id=A108363752
+    note: >-
+      기존 미확정을 보완했다. JSTNA 2021 공식 PDF 첫쪽에서 최석원/SeokWeon Choi의 ORCID를 직접 확인했다. ORCID 계정 이름은 Srokweon Choi로 오타가 있으나 KARI 영상체계개발부 경력 및 1992년 서울대 학위·KARI 입사 정보가 공식 논문 저자약력과 일치한다. 계정의 오타
+      이름은 출판물 aliases에 추가하지 않았다.
+    action: update_existing
+    existing_key: author-019
+  - name: Jae-ik Park
+    aliases:
+    - Jae-ik Park
+    - Park Jae-ik
+    - 박재익
+    - Jae-Ik Park
+    orcid: 0000-0001-6227-0442
+    status: verified
+    checked_on: '2026-10-02'
+    sources:
+    - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+    - https://conf.kics.or.kr/2026w/downloadProgram?type=program
+    - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+    - https://ksss.or.kr/homepage/custom/d_conference
+    - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+    - https://ksss.or.kr/society/tksss/file/download/12136?view=1
+    - https://ksss.or.kr/society/tksss/file/download/12152?view=1
+    - https://ksss.or.kr/society/tksss/file/download/12156?view=1
+    - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+    - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+    - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+    - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+    - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+    - https://webzine.kps.or.kr/?idx=16841&p=5_view
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01690442
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01755526
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02033977
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442222
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442224
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442225
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442226
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11031472
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11419479
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12341171
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512263
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589745
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+    - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+    - https://www.riss.kr/link?id=A100257883
+    - https://www.riss.kr/link?id=A101873679
+    - https://www.riss.kr/link?id=A102996122
+    - https://www.riss.kr/link?id=A107065918
+    - https://www.riss.kr/link?id=A107065919
+    - https://www.riss.kr/link?id=A107065995
+    - https://www.riss.kr/link?id=A107065997
+    - https://www.riss.kr/link?id=A107879020
+    - https://www.riss.kr/link?id=A108019567
+    - https://www.riss.kr/link?id=A108363752
+    - https://www.riss.kr/link?id=A108421184
+    - https://www.riss.kr/link?id=A108421717
+    - https://www.riss.kr/link?id=A108610580
+    - https://www.riss.kr/link?id=A108647713
+    - https://www.riss.kr/link?id=A108873931
+    - https://www.riss.kr/link?id=A109564734
+    - https://www.riss.kr/link?id=A109902129
+    - https://www.riss.kr/link?id=A110088141
+    - https://www.riss.kr/link?id=A110187517
+    - https://www.riss.kr/link?id=A110187813
+    - https://www.riss.kr/link?id=A110268793
+    - https://www.riss.kr/link?id=A110452703
+    - https://www.riss.kr/link?id=A82661958
+    note: 신규 KSSS 자료의 Jae-Ik Park는 기존 PI Jae-ik Park의 대소문자 변형으로 동일 그룹에 aliases만 보완한다.
+    action: update_existing
+    existing_key: author-004
+  - name: Jongdeok Kim
+    aliases:
+    - Jongdeok Kim
+    - 김종덕
+    orcid: '0009-0008-8547-3443'
+    status: verified
+    sources:
+    - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+    - https://sites.google.com/view/hoonkyung/members
+    - https://www.konkuk.ac.kr/bbs/caku/4011/1194123/download.do
+    - https://journals.aps.org/prmaterials/abstract/10.1103/82kc-pt11
+    - https://api.crossref.org/works/10.1103%2F82kc-pt11
+    - https://orcid.org/0009-0008-8547-3443
+    note: >-
+      SASE 2026의 김종덕은 건국대 공식 연구실 안전자료에서 이훈경 전자구조연구실 소속으로 확인된다. 이훈경 연구실 Members에 Jongdeok Kim 박사과정이 명시된다. APS 2025 논문 10.1103/82kc-pt11은 Jongdeok Kim·Hoonkyung Lee의 건국대 물리학과 공동논문이고 출판사
+      제출 Crossref author metadata가 Jongdeok Kim에게 이 ORCID를 authenticated-orcid:true로 직접 부여한다. 공개 ORCID에도 건국대 물리학과 Ph.D. student(2021-09부터)가 일치한다.
+    checked_on: '2026-10-02'
+    action: add_new
+    existing_key:
+  - name: Sangho Yoo
+    aliases:
+    - Sangho Yoo
+    - 유상호
+    orcid:
+    status: unconfirmed
+    sources:
+    - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+    - https://sites.google.com/view/hoonkyung/members
+    - https://www.nims.go.jp/event/asian26/assets/files/asian-26-poster-list.pdf
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sangho+Yoo%22+OR+%22Sang-ho+Yoo%22+OR+%22%EC%9C%A0%EC%83%81%ED%98%B8%22&rows=100
+    - https://orcid.org/0009-0000-2617-1463
+    - https://orcid.org/0009-0001-7686-6199
+    - https://orcid.org/0000-0001-9030-1365
+    - https://orcid.org/0000-0002-7258-5090
+    candidate_orcids:
+    - '0009-0000-2617-1463'
+    note: >-
+      SASE 건국대 유상호와 이훈경 연구실 Members의 Sangho Yoo(M.S. candidate), NIMS ASIAN-26 발표명단의 건국대 Sangho Yoo로 영문명·연구소속을 대조했다. ORCID 이름/변형 검색 후보 4개를 확인했으나 0009-0000-2617-1463은 이름 외 소속·학력·works가
+      비공개/공란이며, 0009-0001-7686-6199는 인하대, 나머지는 의학·식품 연구 실적으로 동일인 근거가 없다. 직접 연결된 ORCID는 미확정이며 없음으로 단정하지 않는다.
+    checked_on: '2026-10-02'
+    action: add_new
+    existing_key:
+  - name: Daechan Ji
+    aliases:
+    - Daechan Ji
+    - 지대찬
+    orcid:
+    status: unconfirmed
+    sources:
+    - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+    - https://sites.google.com/view/hoonkyung/members
+    - https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202413904
+    - https://pub.orcid.org/v3.0/expanded-search/?q=%22Daechan+Ji%22+OR+%22Dae-chan+Ji%22+OR+%22%EC%A7%80%EB%8C%80%EC%B0%AC%22&rows=100
+    note: >-
+      SASE 건국대 지대찬과 이훈경 연구실 Members의 Daechan Ji(M.S., 2026)를 대조했다. Wiley 논문 10.1002/adfm.202413904에도 Daechan Ji와 Hoonkyung Lee가 건국대 물리학과 공동저자로 명시된다. ORCID 공개 API의 Daechan Ji/Dae-chan
+      Ji/지대찬 검색은 0건이었으며 확인한 Wiley 저자정보에는 Daechan Ji의 ORCID가 명시되지 않았다. 공개자료 내 식별자를 미확정으로 남기며 ORCID 없음으로 단정하지 않는다.
+    checked_on: '2026-10-02'
+    action: add_new
+    existing_key:
+  - name: Hoonkyung Lee
+    aliases:
+    - Hoonkyung Lee
+    - 이훈경
+    orcid: 0000-0002-6417-1648
+    status: verified
+    sources:
+    - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+    - https://qiet.konkuk.ac.kr/html.do?menuSeq=14712&siteId=RIQFT
+    - https://sites.google.com/view/hoonkyung/hoonkyung-lee
+    - https://www.nature.com/articles/s41467-026-69613-8
+    - https://orcid.org/0000-0002-6417-1648
+    note: >-
+      건국대 양자미래기술연구소 공식 교수명 이훈경(Hoonkyung Lee), 연구분야 및 연구실 정보로 한영 이름·소속을 확인했다. Nature Communications 2026 논문 10.1038/s41467-026-69613-8의 Hoonkyung Lee 저자 옆 ORCID가 이 번호로 직접 연결되며 저자 소속도
+      Department of Physics, Konkuk University이다. 의료분야 동명이인 Hun-Kyung Lee는 제외했다.
+    checked_on: '2026-10-02'
+    action: add_new
+    existing_key:

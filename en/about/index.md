@@ -7,15 +7,18 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-circle-info" %}About SEARCH Lab
+{: .page-title }
 
-Space exploration begins with bold imagination, but turning it into a real mission takes rigorous calculation, careful design, and a verifiable system architecture. **SEARCH Lab** designs future exploration missions to the Moon, Mars, and deep space, developing mission concepts, flight trajectories, system requirements, operations scenarios, and in-orbit demonstration strategies together.
+Turning an idea for space exploration into a mission requires rigorous analysis, careful design, and systematic verification. **SEARCH Lab** develops mission concepts, trajectories, system requirements, operational scenarios, and in-space demonstration strategies for exploration of the Moon, Mars, and deep space.
+{: .page-intro }
 
-In aerospace system engineering, the space exploration architecture is the starting point that ties many subsystems into a single mission. Only once it is decided which path a spacecraft takes, when it maneuvers, when it communicates, and under what conditions it enters orbit or lands can the requirements for propulsion, structures, thermal control, power, communications, payloads, and ground operations be defined. SEARCH Lab tackles these mission-level questions: we first compute what an exploration mission can achieve, then set the direction for system design.
+Space exploration architecture is the overall design that brings propulsion, structures, thermal control, power, communications, payloads, and ground operations together into one mission. Trajectories, maneuver timing, communication opportunities, orbit insertion, and landing conditions must be developed alongside the capabilities and constraints of these systems. SEARCH Lab iterates between mission scenarios and system design to assess feasibility and identify design alternatives.
 
-Grounded in orbital mechanics and astrodynamics, SEARCH Lab studies space mission design, trajectory design and optimization, optimal control, planetary entry, descent, and landing technology, solar sail-based deep-space missions, and CubeSat-class satellite development and in-orbit demonstration missions. Rather than stopping at a single trajectory or simulation result, we analyze, as a whole, the conditions and alternatives a mission needs in order to become a real system.
+SEARCH Lab draws on orbital mechanics and astrodynamics to design lunar, planetary, and deep-space exploration missions and study trajectory optimization and optimal control. Our research topics include planetary entry, descent, and landing; atmospheric re-entry and thermal protection systems; solar sail exploration; deep-space optical communications; CubeSat development; and in-space demonstration. We examine the conditions needed to turn mission concepts into working systems and compare design alternatives.
 
-Our work does not stay in theory and simulation. Student researchers take part in national R&D programs carried out at the Korea Aerospace Research Institute (KARI), gaining first-hand experience in the mission design, system analysis, performance verification, and operations concept development that real space development demands. They can also join CubeSat-class satellite development and in-orbit demonstration missions, learning how the missions they design and analyze are verified on actual hardware and in the space environment.
+Depending on research projects and development schedules, students may participate in national R&D programs at the Korea Aerospace Research Institute (KARI). Their work may involve mission design, system analysis, performance verification, and concept of operations development. Where projects involve CubeSat-class satellite development and in-orbit demonstration, students may also learn how designs and analyses are verified using hardware, ground tests, and operations in space.
 
-Student researchers use tools such as Python, MATLAB, STK, and GMAT to carry out analysis and design studies close to real space missions. What matters is not simply using analysis tools, but developing the research judgment to decide for themselves whether a physical model is valid, whether numerical results can be trusted, and how mission design results connect to system requirements.
+Students use tools such as Python, MATLAB, STK, and GMAT as appropriate to their research questions. They learn to assess physical models and the reliability of numerical results, and to connect mission design results with system requirements.
 
-SEARCH Lab looks forward to welcoming future researchers who will design exploration missions to the Moon, Mars, and beyond with us, and bring research to reality through real space development programs and in-orbit demonstration missions.
+We welcome students who want to help design exploration missions to the Moon, Mars, and beyond, and develop research ideas into space missions.
+{: .about-invitation }

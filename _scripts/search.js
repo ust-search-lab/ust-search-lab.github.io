@@ -89,6 +89,18 @@
       } else element.style.display = "none";
     }
 
+    // Hide publication headings together with groups that have no matches.
+    document
+      .querySelectorAll(
+        ".publication-year-group, .publication-subgroup, .publication-category"
+      )
+      .forEach((group) => {
+        const hasResults = [...group.querySelectorAll(".citation")].some(
+          (citation) => citation.style.display !== "none"
+        );
+        group.hidden = !hasResults;
+      });
+
     return [x, n, tags];
   };
 
@@ -134,13 +146,14 @@
       // show all info boxes
       boxes.forEach((info) => (info.style.display = ""));
 
-      // info template
-      let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
-
-      // set info HTML string
-      boxes.forEach((el) => (el.innerHTML = info));
+      boxes.forEach((el) => {
+        const template = el.dataset.results || "Showing $X of $N results";
+        const info = template
+          .replace("$X", x.toLocaleString())
+          .replace("$N", n.toLocaleString());
+        const clear = el.dataset.clear || "Clear search";
+        el.innerHTML = `${info}<br><a href='./'>${clear}</a>`;
+      });
     }
     // if nothing searched
     else {

@@ -1,0 +1,115 @@
+# Mission photographs and credited concept images used by the bilingual homepage.
+# Captions distinguish illustrations from photographs; source links identify the missions shown.
+planetary:
+  image: /images/home/planetary-danuri-earth-eclipse.jpg
+  width: 2451
+  height: 4000
+  position: 50% 50%
+  fit: contain
+  background: '#000000'
+  credit: Korea Aerospace Research Institute (KARI)
+  source: https://www.kari.re.kr/kor/83/img/S/MOON/view/1331
+  source_image: https://www.kari.re.kr/attach/db7fb823db75475bb27ad7a55c9b17e3/13055e35ba7465cb478c5b4be490c5a8
+  photo_id: P_S_MOON_240409_0063
+  photographed_at: '2024-04-09T03:54:10+09:00'
+  published_on: '2024-04-11'
+  license: KOGL Type 4
+  license_url: https://www.kogl.or.kr/info/license.do
+  # Preserve the source bytes and display the complete photograph without cropping.
+  checked_on: '2026-10-03'
+  ko:
+    caption: 다누리가 개기일식 때 촬영한 지구 · 2024.4.9. 한국시간
+    alt: 다누리가 촬영한 흑백 사진으로, 달 표면 너머 지구의 북미 대륙 부근에 개기일식의 그림자가 보이는 모습
+    credit: 한국항공우주연구원(KARI)
+  en:
+    caption: Earth during the total solar eclipse, photographed by Danuri · April 8, 2024 (UTC)
+    alt: Black-and-white photograph from Danuri showing Earth beyond the lunar surface, with the eclipse shadow near North America
+
+entry-systems:
+  image: /images/home/entry-orion-reentry.jpg
+  width: 1920
+  height: 1080
+  position: 50% 50%
+  credit: NASA
+  source: https://technology.nasa.gov/patent/TOP2-226
+  source_image: https://www.asc-csa.gc.ca/images/recherche/hi-res/4a293ee9-6e62-41f9-bf54-05b16c03f3fd.jpg
+  image_type: Computer-generated illustration of Orion's atmospheric reentry
+  archive_id: CSA image 8283
+  archive_image_date: '2014-12-03'
+  verification_sources:
+    - https://www.asc-csa.gc.ca/eng/multimedia/search/image/8283
+    - https://www.nasa.gov/specials/orionfirstflight/
+  provenance: >-
+    The supplied image matches the Orion reentry scene hosted by NASA's
+    Technology Transfer Program (TOP2-226, ARC-16692-1), which identifies it
+    as a computer-generated graphic. CSA image 8283 identifies the scene
+    as an artist's impression and explicitly credits NASA. The local file
+    preserves the unmodified 1920-by-1080 image from CSA's official archive.
+    The archive date is not a photograph capture date. NASA's Orion first-flight
+    feature also labels its version of this scene an artist's illustration.
+  checked_on: '2026-10-03'
+  ko:
+    caption: 오리온 우주선의 지구 대기권 재진입 개념도
+    alt: 지구를 배경으로 열차폐면이 빛나고 뒤로 플라스마가 흐르는 오리온 우주선의 대기권 재진입 개념도
+  en:
+    caption: Orion atmospheric reentry · artist's concept
+    alt: Artist's concept of Orion reentering Earth's atmosphere, with a glowing heat shield and trailing plasma above Earth
+
+solar-sail:
+  image: /images/home/solar-sail-ikaros.jpg
+  width: 705
+  height: 490
+  position: 70% 70%
+  credit: JAXA
+  source: https://global.jaxa.jp/press/2010/06/20100616_ikaros_e.html
+  source_image: https://global.jaxa.jp/press/2010/06/img/20100616_ikaros_3.jpg
+  published_on: '2010-06-16'
+  photograph_type: Photograph taken in space by a separation camera
+  checked_on: '2026-10-03'
+  ko:
+    caption: 우주에서 전개된 IKAROS 태양돛
+    alt: 우주에서 촬영한 IKAROS의 사각형 태양돛과 중앙 본체
+  en:
+    caption: The deployed IKAROS solar sail in space
+    alt: The square solar sail and central body of IKAROS photographed in space
+
+optical-communications:
+  image: /images/research/optical-communications-dsoc-octl.jpg
+  width: 1600
+  height: 1068
+  position: 50% 60%
+  credit: NASA/JPL-Caltech
+  source: https://www.jpl.nasa.gov/images/pia26661-table-mountain-facility-sends-dsoc-laser-beacon-to-nasas-psyche-infrared-image/
+  photo_id: PIA26661
+  photographed_on: '2025-06-02'
+  photograph_type: Infrared photograph of the uplink laser beacon sent to Psyche
+  checked_on: '2026-10-03'
+  ko:
+    caption: 사이키 탐사선으로 보내는 레이저 비콘 · 적외선 사진
+    alt: 지상 관측소에서 밤하늘로 뻗은 레이저 비콘과 망원경 돔을 적외선으로 촬영한 사진
+  en:
+    caption: Laser beacon sent to Psyche · infrared photograph
+    alt: Infrared photograph of a laser beacon extending into the night sky from a ground station, with a telescope dome at right
+
+cubesat:
+  image: /images/home/cubesat-marco-deep-space.jpg
+  width: 1920
+  height: 1080
+  position: 50% 50%
+  credit: NASA/JPL-Caltech
+  source: https://www.jpl.nasa.gov/images/pia22314-marcos-cruise-in-deep-space/
+  source_image: https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA22314.jpg
+  image_type: Artist's rendering of the twin Mars Cube One spacecraft in deep space
+  archive_id: PIA22314
+  published_on: '2018-03-29'
+  provenance: >-
+    JPL identifies this image as an artist's rendering of the twin MarCO
+    CubeSats flying through deep space and credits NASA/JPL-Caltech.
+    The local file preserves the original 1920-by-1080 JPEG.
+  checked_on: '2026-10-03'
+  ko:
+    caption: 심우주를 비행하는 MarCO 큐브샛 · 개념도
+    alt: 태양전지판과 안테나를 펼친 두 대의 MarCO 큐브샛이 심우주를 비행하는 개념도
+  en:
+    caption: MarCO CubeSats in deep space · artist's concept
+    alt: Artist's concept of two MarCO CubeSats flying through deep space with their solar panels and antennas deployed

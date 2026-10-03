@@ -23,14 +23,14 @@
 
 {% assign subtitle = i18n.subtitle | default: site.subtitle %}
 
-{% assign description = page.description | default: i18n.description | default: site.description %}
+{% assign description = page.summary | default: page.description | default: i18n.description | default: site.description %}
 {% if subtitle %}
   {% capture description -%}
     {{ subtitle }}. {{ description }}
   {%- endcapture %}
 {% endif %}
 {% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
+  {{ page.url | absolute_url }}
 {%- endcapture %}
 
 {% assign description = description | xml_escape %}
@@ -92,7 +92,7 @@
     "@context": "https://schema.org",
     {% if page.author %}
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "{{ title }}" },
+      "author": { "@type": "{% if page.author == site.title %}Organization{% else %}Person{% endif %}", "name": {{ page.author | join: ", " | jsonify }} },
       "datePublished": "{{ published }}",
       "dateModified": "{{ updated }}",
     {% else %}

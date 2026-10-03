@@ -1,18 +1,36 @@
-<div class="post-nav">
-  <span>
-    {% if include.post.previous %}
-      {% include icon.html icon="fa-solid fa-angle-left" %} Previous post<br>
-      <a href="{{ include.post.previous.url | relative_url }}">
-        {{ include.post.previous.title }}
-      </a>
+{% assign post_lang = include.post.lang | default: page.lang | default: 'ko' %}
+{% assign post_i18n = site.data.i18n[post_lang] %}
+{% assign language_posts = site.posts | where: 'lang', post_lang | sort: 'date' | reverse %}
+{% assign previous_post = nil %}
+{% assign next_post = nil %}
+{% for entry in language_posts %}
+  {% if entry.url == include.post.url %}
+    {% assign previous_index = forloop.index0 | plus: 1 %}
+    {% assign previous_post = language_posts[previous_index] %}
+    {% if forloop.index0 > 0 %}
+      {% assign next_index = forloop.index0 | minus: 1 %}
+      {% assign next_post = language_posts[next_index] %}
     {% endif %}
-  </span>
-  <span>
-    {% if include.post.next %}
-      Next post {% include icon.html icon="fa-solid fa-angle-right" %}<br>
-      <a href="{{ include.post.next.url | relative_url }}">
-        {{ include.post.next.title }}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<nav class="post-nav" aria-label="{{ post_i18n.post-nav }}">
+  {% if previous_post %}
+    <span class="post-nav-previous">
+      {% include icon.html icon="fa-solid fa-angle-left" %} {{ post_i18n.post-previous }}<br>
+      <a href="{{ previous_post.url | relative_url }}">
+        {{ previous_post.title | escape }}
       </a>
-    {% endif %}
-  </span>
-</div>
+    </span>
+  {% endif %}
+  <a class="post-nav-return" href="{{ post_i18n.news-page | relative_url }}">{{ post_i18n.post-back }}</a>
+  {% if next_post %}
+    <span class="post-nav-next">
+      {{ post_i18n.post-next }} {% include icon.html icon="fa-solid fa-angle-right" %}<br>
+      <a href="{{ next_post.url | relative_url }}">
+        {{ next_post.title | escape }}
+      </a>
+    </span>
+  {% endif %}
+</nav>

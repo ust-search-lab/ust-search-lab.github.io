@@ -1,0 +1,1065 @@
+# Additional outputs verified through 2026-10-02.
+# Evidence and search coverage: publication-discovery-audit.yaml.
+---
+- title: Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering
+    Entry Interface Constraints
+  authors:
+  - Jung-Ju Bae
+  - Jae-ik Park
+  - Dae Yeong Kim
+  - Gi-Hyuk Choi
+  - Jae In Kim
+  - Seung-ryeol Oh
+  - Min Ki Kim
+  - Jeong Heum Im
+  - Choon Woo Lee
+  category: conference
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 43, 발표 II-2-8
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Jung-Ju Bae, Jae-ik Park, Dae Yeong Kim, Gi-Hyuk Choi, Jae In Kim, Seung-ryeol
+    Oh, Min Ki Kim, Jeong Heum Im, Choon Woo Lee. Analysis of Mars Arrival Conditions
+    for Solar Sail Spacecraft Considering Entry Interface Constraints. 한국우주과학회 2026년
+    봄 학술대회, 한국우주과학회보 제35권 1호, pp. 43, 발표 II-2-8
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-001
+- title: Design Criteria and TPM Characteristics of Mars Entry Capsules
+  authors:
+  - Dae Yeong Kim
+  - Gi-Hyuk Choi
+  - Jae-ik Park
+  - Jae In Kim
+  - Seung-ryeol Oh
+  - Jung-Ju Bae
+  category: conference
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 42, 발표 II-2-6
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Dae Yeong Kim, Gi-Hyuk Choi, Jae-ik Park, Jae In Kim, Seung-ryeol Oh,
+    Jung-Ju Bae. Design Criteria and TPM Characteristics of Mars Entry Capsules. 한국우주과학회
+    2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 42, 발표 II-2-6
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-002
+- title: Development of an Integrated Verification Framework for Mars Atmospheric
+    Entry-Descent-Landing
+  authors:
+  - Jae-ik Park
+  - Dae Yeong Kim
+  - Gi-Hyuk Choi
+  - Jae In Kim
+  - Seung-ryeol Oh
+  - Jung-Ju Bae
+  - Min Ki Kim
+  - Jeong Heum Im
+  - Choon Woo Lee
+  category: conference
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 42, 발표 II-2-4
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Jae-ik Park, Dae Yeong Kim, Gi-Hyuk Choi, Jae In Kim, Seung-ryeol Oh,
+    Jung-Ju Bae, Min Ki Kim, Jeong Heum Im, Choon Woo Lee. Development of an Integrated
+    Verification Framework for Mars Atmospheric Entry-Descent-Landing. 한국우주과학회 2026년
+    봄 학술대회, 한국우주과학회보 제35권 1호, pp. 42, 발표 II-2-4
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-003
+- title: Overseas Development Status of Mars Atmosphere Entry Aeroshell and Analysis
+    of 1D Trajectory and Aerodynamic Heating
+  authors:
+  - Gi-Hyuk Choi
+  - Dae-Young Kim
+  - Jae-Ik Park
+  - Jae-In Kim
+  - Chun-Woo Lee
+  category: conference
+  year: 2026
+  date: 2026-04
+  details: 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 41, 발표 II-2-3
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Gi-Hyuk Choi, Dae-Young Kim, Jae-Ik Park, Jae-In Kim, Chun-Woo Lee. Overseas
+    Development Status of Mars Atmosphere Entry Aeroshell and Analysis of 1D Trajectory
+    and Aerodynamic Heating. 한국우주과학회 2026년 봄 학술대회, 한국우주과학회보 제35권 1호, pp. 41, 발표 II-2-3
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-004
+- title: 안정적인 랜드마크 추출을 위한 화성 참조지도의 공간해상도 요구사항 분석
+  authors:
+  - 김재인
+  - 박재익
+  - 김대영
+  - 김민기
+  - 배정주
+  - 오승렬
+  - 임정흠
+  - 이춘우
+  category: conference
+  year: 2026
+  date: '2026-06-26'
+  details: 한국항공우주학회 2026년도 우주학술대회, 2026.6, pp. 394-395
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  citation: 김재인, 박재익, 김대영, 김민기, 배정주, 오승렬, 임정흠, 이춘우. 안정적인 랜드마크 추출을 위한 화성 참조지도의 공간해상도
+    요구사항 분석. 한국항공우주학회 2026년도 우주학술대회, 2026.6, pp. 394-395
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-005
+- title: 액정 광 위상배열 기반 회절형 태양돛의 온도 의존 성능 한계 분석
+  authors:
+  - 김종덕
+  - 유상호
+  - 지대찬
+  - 이훈경
+  - 박재익
+  category: conference
+  year: 2026
+  date: '2026-05-08'
+  details: 항공우주시스템공학회 2026년도 춘계학술대회, 부산, 2026.5.8, 포스터 P-구조-12 (발표번호 00481)
+  link: https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  scope: domestic
+  source: https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  verification_sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  - https://sase.or.kr/UploadData/Editor/Conference/202604/A756470F7EF94A84B8699104C6B83210.pdf
+  - https://sase.or.kr/Conference/ConferenceView.asp?AC=0&B_CATE=BBC1&CODE=CC20260301
+  citation: 김종덕, 유상호, 지대찬, 이훈경, 박재익. 액정 광 위상배열 기반 회절형 태양돛의 온도 의존 성능 한계 분석. 항공우주시스템공학회
+    2026년도 춘계학술대회, 부산, 2026.5.8, 포스터 P-구조-12 (발표번호 00481)
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-006
+- title: 한국형 화성 탐사 임무의 EDL 단계 통신 아키텍처 연구
+  authors:
+  - 박재익
+  - 안상일
+  category: conference
+  year: 2026
+  date: '2026-02-05'
+  details: 2026년도 한국통신학회 동계종합학술발표회 논문집, 2026.2, pp. 481-482
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+  - https://www.riss.kr/link?id=A110268793
+  - https://conf.kics.or.kr/2026w/downloadProgram?type=program
+  citation: 박재익, 안상일. 한국형 화성 탐사 임무의 EDL 단계 통신 아키텍처 연구. 2026년도 한국통신학회 동계종합학술발표회 논문집,
+    2026.2, pp. 481-482
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-007
+- title: 화성 대기 진입-감속-착륙 해석을 위한 항력계수 모델별 예측 성능 비교
+  authors:
+  - 박재익
+  category: conference
+  year: 2026
+  date: '2026-05-08'
+  details: 항공우주시스템공학회 2026년도 춘계학술대회, 부산, 2026.5.8, 포스터 P-탐사-1 (발표번호 00456)
+  link: https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1315
+  scope: domestic
+  source: https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1315
+  verification_sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1315
+  - https://sase.or.kr/UploadData/Editor/Conference/202604/A756470F7EF94A84B8699104C6B83210.pdf
+  - https://sase.or.kr/Conference/ConferenceView.asp?AC=0&B_CATE=BBC1&CODE=CC20260301
+  citation: 박재익. 화성 대기 진입-감속-착륙 해석을 위한 항력계수 모델별 예측 성능 비교. 항공우주시스템공학회 2026년도 춘계학술대회,
+    부산, 2026.5.8, 포스터 P-탐사-1 (발표번호 00456)
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-008
+- title: 딥러닝 기반 태양돛 우주선 자율 제어를 위한 동역학 좌표계 정합성 검증
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-06
+  details: 한국항공우주학회 2025년도 우주학술대회, 2025.6, pp. 368-368
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512263
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512263
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512263
+  - https://www.riss.kr/link?id=A110088141
+  citation: 박재익. 딥러닝 기반 태양돛 우주선 자율 제어를 위한 동역학 좌표계 정합성 검증. 한국항공우주학회 2025년도 우주학술대회,
+    2025.6, pp. 368-368
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-009
+- title: 딥러닝 기반 태양돛 화성 전이궤도 최적 제어를 위한 간접법 해석
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-11
+  details: 한국항공우주학회 2025년도 추계학술대회, 2025.11, pp. 1466-1467
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746
+  - https://www.riss.kr/link?id=A110187813
+  citation: 박재익. 딥러닝 기반 태양돛 화성 전이궤도 최적 제어를 위한 간접법 해석. 한국항공우주학회 2025년도 추계학술대회, 2025.11,
+    pp. 1466-1467
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-010
+- title: '임무설계 관점에서 본 달 착륙선 착륙지 선정 고려사항: 태양광 분석'
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-04
+  details: 한국항공우주학회 2025년도 춘계학술대회, 2025.4, pp. 1318-1320
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12341171
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12341171
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12341171
+  - https://www.riss.kr/link?id=A109902129
+  citation: '박재익. 임무설계 관점에서 본 달 착륙선 착륙지 선정 고려사항: 태양광 분석. 한국항공우주학회 2025년도 춘계학술대회, 2025.4,
+    pp. 1318-1320'
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-011
+- title: 화성 대기 진입 경계면 제약 조건을 고려한 전이궤도 발사창 분석
+  authors:
+  - 박재익
+  category: conference
+  year: 2025
+  date: 2025-11
+  details: 한국항공우주학회 2025년도 추계학술대회, 2025.11, pp. 1464-1465
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589745
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589745
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589745
+  - https://www.riss.kr/link?id=A110187517
+  citation: 박재익. 화성 대기 진입 경계면 제약 조건을 고려한 전이궤도 발사창 분석. 한국항공우주학회 2025년도 추계학술대회, 2025.11,
+    pp. 1464-1465
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-012
+- title: 태양관측 L4 탐사선 시스템 개념연구 결과
+  authors:
+  - 전문진
+  - 박재익
+  - 신현진
+  - 김창균
+  - 문상만
+  category: conference
+  year: 2024
+  date: 2024-06
+  details: 한국항공우주학회 2024년도 우주학술대회, 2024.6, pp. 225-225
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  - https://www.riss.kr/link?id=A109564734
+  citation: 전문진, 박재익, 신현진, 김창균, 문상만. 태양관측 L4 탐사선 시스템 개념연구 결과. 한국항공우주학회 2024년도 우주학술대회,
+    2024.6, pp. 225-225
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-013
+- title: Mission Design Considerations for a Sun-Earth Lagrange Point L4 Mission
+  authors:
+  - Jae-ik Park
+  - Moon-Jin Jeon
+  - Donghun Lee
+  - Sung-Woo Kim
+  - Junga Hwang
+  - Kyung-Suk Cho
+  category: conference
+  year: 2023
+  date: 2023-04
+  details: 한국우주과학회 2023년 봄 학술대회, 한국우주과학회보 제32권 1호, p. 33, 발표 II-2-4
+  link: https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  citation: Jae-ik Park, Moon-Jin Jeon, Donghun Lee, Sung-Woo Kim, Junga Hwang, Kyung-Suk
+    Cho. Mission Design Considerations for a Sun-Earth Lagrange Point L4 Mission.
+    한국우주과학회 2023년 봄 학술대회, 한국우주과학회보 제32권 1호, p. 33, 발표 II-2-4
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-014
+- title: "[크로스로드] 대한민국 최초 달 궤도선 ‘다누리’ 궤적에 관하여"
+  authors:
+  - 박재익
+  category: journal
+  year: 2023
+  date: '2023-05-02'
+  details: 물리학과 첨단기술 제32권 제5호, 2023.5, pp. 13-15
+  link: https://webzine.kps.or.kr/?idx=16841&p=5_view
+  scope: domestic
+  subtype: magazine
+  source: https://webzine.kps.or.kr/?idx=16841&p=5_view
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11419479
+  - https://webzine.kps.or.kr/?idx=16841&p=5_view
+  - https://www.riss.kr/link?id=A108610580
+  citation: 박재익. [크로스로드] 대한민국 최초 달 궤도선 ‘다누리’ 궤적에 관하여. 물리학과 첨단기술 제32권 제5호, 2023.5,
+    pp. 13-15
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-015
+- title: 달 궤도선 ‘다누리’ 임무 운영 결과
+  authors:
+  - 박재익
+  - 전문진
+  - 조영호
+  - 김대관
+  category: conference
+  year: 2023
+  date: 2023-04
+  details: 한국항공우주학회 2023년도 춘계학술대회, 2023.4, pp. 515-516
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  - https://www.riss.kr/link?id=A108647713
+  citation: 박재익, 전문진, 조영호, 김대관. 달 궤도선 ‘다누리’ 임무 운영 결과. 한국항공우주학회 2023년도 춘계학술대회, 2023.4,
+    pp. 515-516
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-016
+- title: 태양-지구 라그랑지점 L4 탐사선 임무 설계 기준
+  authors:
+  - 박재익
+  - 전문진
+  - 조영호
+  category: conference
+  year: 2023
+  date: 2023-06
+  details: 한국항공우주학회 2023 제1회 우주학술대회, 2023.6, pp. 75-75
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  - https://www.riss.kr/link?id=A108873931
+  citation: 박재익, 전문진, 조영호. 태양-지구 라그랑지점 L4 탐사선 임무 설계 기준. 한국항공우주학회 2023 제1회 우주학술대회,
+    2023.6, pp. 75-75
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-017
+- title: BLT 구간에서의 KPLO X 대역 중심 주파수 Doppler 주파수 편이 예측
+  authors:
+  - 문상만
+  - 김창균
+  - 이현철
+  - 박재익
+  category: conference
+  year: 2022
+  date: 2022-11
+  details: 한국항공우주학회 2022년도 추계학술대회, 2022.11, pp. 1291-1292
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  - https://www.riss.kr/link?id=A108421184
+  citation: 문상만, 김창균, 이현철, 박재익. BLT 구간에서의 KPLO X 대역 중심 주파수 Doppler 주파수 편이 예측. 한국항공우주학회
+    2022년도 추계학술대회, 2022.11, pp. 1291-1292
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-018
+- title: Orbit Determination Performance Analysis According to the Ground Tracking
+    Support Condition in Trans-Lunar Orbit for Korea Pathfinder Lunar Orbiter
+  authors:
+  - Jonghee Bae
+  - Young-Joo Song
+  - Young-Rok Kim
+  - SeungBum Hong
+  - Jun Bang
+  - Jae-ik Park
+  category: conference
+  year: 2022
+  date: 2022-04
+  details: 한국우주과학회 2022년 봄 학술대회, 한국우주과학회보 제31권 1호, pp. 73, 발표 P-61
+  link: https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Jonghee Bae, Young-Joo Song, Young-Rok Kim, SeungBum Hong, Jun Bang, Jae-ik
+    Park. Orbit Determination Performance Analysis According to the Ground Tracking
+    Support Condition in Trans-Lunar Orbit for Korea Pathfinder Lunar Orbiter. 한국우주과학회
+    2022년 봄 학술대회, 한국우주과학회보 제31권 1호, pp. 73, 발표 P-61
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-019
+- title: Simulation of KPLO Flight Dynamics Subsystem Using Blind Test Data for Operational
+    Readiness Preparation
+  authors:
+  - Young-Joo Song
+  - Jonghee Bae
+  - SeungBum Hong
+  - Jun Bang
+  - Jae-ik Park
+  - Young-Rok Kim
+  category: conference
+  year: 2022
+  date: 2022-04
+  details: 한국우주과학회 2022년 봄 학술대회, 한국우주과학회보 제31권 1호, pp. 35–36, 발표 III-1-3
+  link: https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Young-Joo Song, Jonghee Bae, SeungBum Hong, Jun Bang, Jae-ik Park, Young-Rok
+    Kim. Simulation of KPLO Flight Dynamics Subsystem Using Blind Test Data for Operational
+    Readiness Preparation. 한국우주과학회 2022년 봄 학술대회, 한국우주과학회보 제31권 1호, pp. 35–36, 발표 III-1-3
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-020
+- title: 한국 달 궤도선 ‘다누리’ 초기 임무 운영 현황
+  authors:
+  - 박재익
+  - 전문진
+  - 조영호
+  - 김대관
+  category: conference
+  year: 2022
+  date: 2022-11
+  details: 한국항공우주학회 2022년도 추계학술대회, 2022.11, pp. 577-578
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  - https://www.riss.kr/link?id=A108421717
+  citation: 박재익, 전문진, 조영호, 김대관. 한국 달 궤도선 ‘다누리’ 초기 임무 운영 현황. 한국항공우주학회 2022년도 추계학술대회,
+    2022.11, pp. 577-578
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-021
+- title: Design and Implementation Results for Flight Dynamics Subsystem for Korea
+    Pathfinder Lunar Orbiter Mission
+  authors:
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - SeungBum Hong
+  - Jae-ik Park
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 22, 발표 IV-1-5
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Young-Joo Song, Young-Rok Kim, Jonghee Bae, SeungBum Hong, Jae-ik Park,
+    Dae-Kwan Kim, Sang-Ryool Lee. Design and Implementation Results for Flight Dynamics
+    Subsystem for Korea Pathfinder Lunar Orbiter Mission. 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보
+    제30권 1호, pp. 22, 발표 IV-1-5
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-022
+- title: Fuel Gauging Methods for Flight Operation of Korea Pathfinder Lunar Orbiter
+    Mission
+  authors:
+  - Young-Joo Song
+  - Moon-Jin Jeon
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 37, 발표 P-25
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Young-Joo Song, Moon-Jin Jeon, Jonghee Bae, Young-Rok Kim, Jae-ik Park,
+    SeungBum Hong, Dae-Kwan Kim, Sang-Ryool Lee. Fuel Gauging Methods for Flight Operation
+    of Korea Pathfinder Lunar Orbiter Mission. 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권
+    1호, pp. 37, 발표 P-25
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-023
+- title: Ground Tracking Support Condition Effect on Orbit Determination and Prediction
+    for Korea Pathfinder Lunar Orbiter for Trans-Lunar Trajectory
+  authors:
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jonghee Bae
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 22, 발표 IV-1-4
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Young-Rok Kim, Young-Joo Song, Jonghee Bae, Jae-ik Park, SeungBum Hong,
+    Dae-Kwan Kim, Sang-Ryool Lee. Ground Tracking Support Condition Effect on Orbit
+    Determination and Prediction for Korea Pathfinder Lunar Orbiter for Trans-Lunar
+    Trajectory. 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 22, 발표 IV-1-4
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-024
+- title: KARI In-house Code를 이용한 시험용 달 궤도선의 궤도결정 성능 분석
+  authors:
+  - 김영록
+  - 송영주
+  - 배종희
+  - 박재익
+  - 홍승범
+  - 김대관
+  - 석정철
+  - 이운섭
+  category: conference
+  year: 2021
+  date: 2021-07
+  details: 한국항공우주학회 2021년도 춘계학술대회, 2021.7, pp. 400-401
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  - https://www.riss.kr/link?id=A107879020
+  citation: 김영록, 송영주, 배종희, 박재익, 홍승범, 김대관, 석정철, 이운섭. KARI In-house Code를 이용한 시험용 달
+    궤도선의 궤도결정 성능 분석. 한국항공우주학회 2021년도 춘계학술대회, 2021.7, pp. 400-401
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-025
+- title: Korea Pathfinder Lunar Orbiter Mission Flight Dynamics Subsystem Operation
+    Preparation Status
+  authors:
+  - Young-Joo Song
+  - Jonghee Bae
+  - Young-Rok Kim
+  - SeungBum Hong
+  - Jae-ik Park
+  - Jun Bang
+  - Donghun Lee
+  category: conference
+  year: 2021
+  date: 2021-10
+  details: 한국우주과학회 2021년 가을 학술대회, 한국우주과학회보 제30권 2호, pp. 69–70, 발표 P-102
+  link: https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Young-Joo Song, Jonghee Bae, Young-Rok Kim, SeungBum Hong, Jae-ik Park,
+    Jun Bang, Donghun Lee. Korea Pathfinder Lunar Orbiter Mission Flight Dynamics
+    Subsystem Operation Preparation Status. 한국우주과학회 2021년 가을 학술대회, 한국우주과학회보 제30권 2호,
+    pp. 69–70, 발표 P-102
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-026
+- title: Maneuver Recovery Process of Lunar Orbit Insertion Maneuver Considering Engine
+    Model for Korea Pathfinder Lunar Orbiter
+  authors:
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jae-Ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2021
+  date: 2021-04
+  details: 한국우주과학회 2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 37, 발표 P-23
+  link: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Jonghee Bae, Young-Rok Kim, Young-Joo Song, Jae-Ik Park, SeungBum Hong,
+    Dae-Kwan Kim, Sang-Ryool Lee. Maneuver Recovery Process of Lunar Orbit Insertion
+    Maneuver Considering Engine Model for Korea Pathfinder Lunar Orbiter. 한국우주과학회
+    2021년 봄 학술대회, 한국우주과학회보 제30권 1호, pp. 37, 발표 P-23
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-027
+- title: Orbit Determination Performance Analysis of Korea Pathfinder Lunar Orbiter
+    Flight Dynamics System Using GRAIL Mission Data
+  authors:
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Young-Joo Song
+  - Jae-ik Park
+  - SeungBum Hong
+  category: conference
+  year: 2021
+  date: 2021-10
+  details: 한국우주과학회 2021년 가을 학술대회, 한국우주과학회보 제30권 2호, pp. 21–22, 발표 II-2-1
+  link: https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Young-Rok Kim, Jonghee Bae, Young-Joo Song, Jae-ik Park, SeungBum Hong.
+    Orbit Determination Performance Analysis of Korea Pathfinder Lunar Orbiter Flight
+    Dynamics System Using GRAIL Mission Data. 한국우주과학회 2021년 가을 학술대회, 한국우주과학회보 제30권
+    2호, pp. 21–22, 발표 II-2-1
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-028
+- title: 한국형 달 궤도선의 달 임무궤도에서의 궤도유지기동에 대한 전파기간에 따른 Maneuver Recovery 분석
+  authors:
+  - 배종희
+  - 김영록
+  - 송영주
+  - 박재익
+  - 홍승범
+  category: conference
+  year: 2021
+  date: 2021-11
+  details: 한국항공우주학회 2021년도 추계학술대회, 2021.11, pp. 679-680
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11031472
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11031472
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11031472
+  - https://www.riss.kr/link?id=A108019567
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: 배종희, 김영록, 송영주, 박재익, 홍승범. 한국형 달 궤도선의 달 임무궤도에서의 궤도유지기동에 대한 전파기간에 따른 Maneuver
+    Recovery 분석. 한국항공우주학회 2021년도 추계학술대회, 2021.11, pp. 679-680
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-029
+- title: BLT 전이궤적 기반 시험용 달 궤도선의 달 진입 시점 궤도예측오차 영향 분석
+  authors:
+  - 송영주
+  - 김영록
+  - 이동헌
+  - 박재익
+  - 홍승범
+  - 배종희
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 478-479
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442225
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442225
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442225
+  - https://www.riss.kr/link?id=A107065918
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: 송영주, 김영록, 이동헌, 박재익, 홍승범, 배종희, 김대관, 이상률. BLT 전이궤적 기반 시험용 달 궤도선의 달 진입 시점
+    궤도예측오차 영향 분석. 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 478-479
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-030
+- title: KPLO Ground Station Tracking Time Analysis
+  authors:
+  - SeungBum Hong
+  - Jae-Ik Park
+  - In Kyu Kim
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Donghun Lee
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 37, 발표 P-11
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: SeungBum Hong, Jae-Ik Park, In Kyu Kim, Young-Joo Song, Young-Rok Kim,
+    Jonghee Bae, Donghun Lee, Dae-Kwan Kim, Sang-Ryool Lee. KPLO Ground Station Tracking
+    Time Analysis. 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 37, 발표 P-11
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-031
+- title: KPLO Lunar Mission Orbit Design Using Eccentricity-Argument of Periapsis
+    Vector
+  authors:
+  - Jae-ik Park
+  - Donghun Lee
+  - SeungBum Hong
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 19, 발표 III-1-1
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Jae-ik Park, Donghun Lee, SeungBum Hong, Young-Joo Song, Young-Rok Kim,
+    Jonghee Bae, Dae-Kwan Kim, Sang-Ryool Lee. KPLO Lunar Mission Orbit Design Using
+    Eccentricity-Argument of Periapsis Vector. 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권
+    1호, pp. 19, 발표 III-1-1
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-032
+- title: Maneuver Recovery Function Development and Result Analysis of Trajectory
+    Correction Maneuver of Korea Pathfinder Lunar Orbiter
+  authors:
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jae-Ik Park
+  - SeungBum Hong
+  - Donghun Lee
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 54–55, 발표 P-84
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Jonghee Bae, Young-Rok Kim, Young-Joo Song, Jae-Ik Park, SeungBum Hong,
+    Donghun Lee, Dae-Kwan Kim, Sang-Ryool Lee. Maneuver Recovery Function Development
+    and Result Analysis of Trajectory Correction Maneuver of Korea Pathfinder Lunar
+    Orbiter. 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 54–55, 발표 P-84
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-033
+- title: Mission Coordinate System Definition, Precise Transformation Algorithm and
+    Its Implementation Results for Korea Pathfinder Lunar Orbiter Flight Dynamics
+  authors:
+  - Young-Joo Song
+  - Donghun Lee
+  - Jonghee Bae
+  - Young-Rok Kim
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 35–36, 발표 P-5
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Young-Joo Song, Donghun Lee, Jonghee Bae, Young-Rok Kim, Jae-ik Park,
+    SeungBum Hong, Dae-Kwan Kim, Sang-Ryool Lee. Mission Coordinate System Definition,
+    Precise Transformation Algorithm and Its Implementation Results for Korea Pathfinder
+    Lunar Orbiter Flight Dynamics. 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 35–36,
+    발표 P-5
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-034
+- title: WSB/BLT Trajectories for the KPLO Mission
+  authors:
+  - Donghun Lee
+  - Jae-ik Park
+  - Young-Joo Song
+  - Young-Rok Kim
+  - SeungBum Hong
+  - Jonghee Bae
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  category: conference
+  year: 2020
+  date: 2020-10
+  details: 한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 19, 발표 III-1-2
+  link: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Donghun Lee, Jae-ik Park, Young-Joo Song, Young-Rok Kim, SeungBum Hong,
+    Jonghee Bae, Dae-Kwan Kim, Sang-Ryool Lee. WSB/BLT Trajectories for the KPLO Mission.
+    한국우주과학회 2020년 가을 학술대회, 한국우주과학회보 제29권 1호, pp. 19, 발표 III-1-2
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-035
+- title: 시험용 달 궤도선의 BLT 전이궤적 궤도결정 및 궤도예측 시뮬레이션
+  authors:
+  - 김영록
+  - 송영주
+  - 박재익
+  - 배종희
+  - 이동헌
+  - 홍승범
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 480-481
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442226
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442226
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442226
+  - https://www.riss.kr/link?id=A107065919
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: 김영록, 송영주, 박재익, 배종희, 이동헌, 홍승범, 김대관, 이상률. 시험용 달 궤도선의 BLT 전이궤적 궤도결정 및 궤도예측
+    시뮬레이션. 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 480-481
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-036
+- title: 시험용 달 궤도선의 BLT 전이궤적 발사체 분산 분석
+  authors:
+  - 홍승범
+  - 김영록
+  - 송영주
+  - 이동헌
+  - 박재익
+  - 배종희
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 476-477
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442224
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442224
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442224
+  - https://www.riss.kr/link?id=A107065997
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: 홍승범, 김영록, 송영주, 이동헌, 박재익, 배종희, 김대관, 이상률. 시험용 달 궤도선의 BLT 전이궤적 발사체 분산 분석.
+    한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 476-477
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-037
+- title: 시험용 달 궤도선의 비행 운영을 고려한 BLT 궤적 오차 보정 기동 설계
+  authors:
+  - 배종희
+  - 이동헌
+  - 송영주
+  - 김영록
+  - 박재익
+  - 홍승범
+  - 김대관
+  - 이상률
+  category: conference
+  year: 2020
+  date: 2020-07
+  details: 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 472-473
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442222
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442222
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442222
+  - https://www.riss.kr/link?id=A107065995
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: 배종희, 이동헌, 송영주, 김영록, 박재익, 홍승범, 김대관, 이상률. 시험용 달 궤도선의 비행 운영을 고려한 BLT 궤적 오차
+    보정 기동 설계. 한국항공우주학회 2020년도 춘계학술대회, 2020.7, pp. 472-473
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-038
+- title: Graphical Display Function of Korea Pathfinder Lunar Orbiter’s Flight Dynamics
+    Subsystem to Support Successful Flight Operation
+  authors:
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Su-Jin Choi
+  - Jae-Ik Park
+  - Donghun Lee
+  category: conference
+  year: 2019
+  date: 2019-04
+  details: 한국우주과학회 2019년 봄 학술대회, 한국우주과학회보 제28권 1호, pp. 46–47, 발표 P-61
+  link: https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Young-Joo Song, Young-Rok Kim, Jonghee Bae, Su-Jin Choi, Jae-Ik Park,
+    Donghun Lee. Graphical Display Function of Korea Pathfinder Lunar Orbiter’s Flight
+    Dynamics Subsystem to Support Successful Flight Operation. 한국우주과학회 2019년 봄 학술대회,
+    한국우주과학회보 제28권 1호, pp. 46–47, 발표 P-61
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-039
+- title: Orbit Determination and Prediction Analysis on the Elliptical Mission Orbit
+    of the Lunar Orbiter
+  authors:
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jae-ik Park
+  category: conference
+  year: 2019
+  date: 2019-10
+  details: 한국우주과학회 2019년 가을 학술대회, 한국우주과학회보 제28권 2호, pp. 18, 발표 II-4-1
+  link: https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  - https://ksss.or.kr/homepage/custom/d_conference
+  citation: Young-Rok Kim, Young-Joo Song, Jae-ik Park. Orbit Determination and Prediction
+    Analysis on the Elliptical Mission Orbit of the Lunar Orbiter. 한국우주과학회 2019년 가을
+    학술대회, 한국우주과학회보 제28권 2호, pp. 18, 발표 II-4-1
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-040
+- title: Orbit Prediction Error Analysis in Lunar Capture Phase with Lunar Orbit Insertion
+    Maneuvers for the Korea Pathfinder Lunar Orbiter Mission
+  authors:
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jonghee Bae
+  - Su-Jin Choi
+  - Jae-ik Park
+  - Donghun Lee
+  category: conference
+  year: 2019
+  date: 2019-04
+  details: 한국우주과학회 2019년 봄 학술대회, 한국우주과학회보 제28권 1호, pp. 16, 발표 I-3-4
+  link: https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  scope: domestic
+  source: https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  verification_sources:
+  - https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  citation: Young-Rok Kim, Young-Joo Song, Jonghee Bae, Su-Jin Choi, Jae-ik Park,
+    Donghun Lee. Orbit Prediction Error Analysis in Lunar Capture Phase with Lunar
+    Orbit Insertion Maneuvers for the Korea Pathfinder Lunar Orbiter Mission. 한국우주과학회
+    2019년 봄 학술대회, 한국우주과학회보 제28권 1호, pp. 16, 발표 I-3-4
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-041
+- title: 3.5 위상전이 궤적을 이용하는 달 궤도선의 근지점 기동 횟수에 따른 속도증분 해석
+  authors:
+  - 최수진
+  - 이동헌
+  - 박재익
+  - 임성빈
+  - 최석원
+  category: conference
+  year: 2017
+  date: 2017-11
+  details: 항공우주시스템공학회 2017년도 추계학술대회 논문집, 2017.11, pp. 444-445
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+  - https://www.riss.kr/link?id=A108363752
+  citation: 최수진, 이동헌, 박재익, 임성빈, 최석원. 3.5 위상전이 궤적을 이용하는 달 궤도선의 근지점 기동 횟수에 따른 속도증분 해석.
+    항공우주시스템공학회 2017년도 추계학술대회 논문집, 2017.11, pp. 444-445
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-042
+- title: 육상 환경을 고려한 위성항법 신호 및 데이터의 개선된 오류검출 기법
+  authors:
+  - 김현수
+  - 허문범
+  - 이은성
+  - 박재익
+  - 강우용
+  - 한지애
+  - 홍운기
+  category: conference
+  year: 2011
+  date: 2011-05
+  details: 2011 제26회 ICROS 학술대회, 2011.5, pp. 77-81
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02033977
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02033977
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02033977
+  - https://www.riss.kr/link?id=A102996122
+  citation: 김현수, 허문범, 이은성, 박재익, 강우용, 한지애, 홍운기. 육상 환경을 고려한 위성항법 신호 및 데이터의 개선된 오류검출
+    기법. 2011 제26회 ICROS 학술대회, 2011.5, pp. 77-81
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-043
+- title: 육상교통 환경에서 시각도움정보를 이용한 사용자 위치결정 가용성 분석
+  authors:
+  - 한지애
+  - 강우용
+  - 이은성
+  - 박재익
+  - 김현수
+  - 허문범
+  category: conference
+  year: 2011
+  date: '2011-04-28'
+  details: 한국우주과학회보(Bulletin of the Korean Space Science Society) Vol. 20, No. 1,
+    21-21(1쪽)
+  link: https://www.riss.kr/link?id=A100257883
+  scope: domestic
+  source: https://www.riss.kr/link?id=A100257883
+  verification_sources:
+  - https://www.riss.kr/link?id=A100257883
+  - https://ksss.or.kr/society/tksss/file/download/12136?view=1
+  citation: 한지애, 강우용, 이은성, 박재익, 김현수, 허문범. 육상교통 환경에서 시각도움정보를 이용한 사용자 위치결정 가용성 분석. 한국우주과학회보(Bulletin
+    of the Korean Space Science Society) Vol. 20, No. 1, 21-21(1쪽)
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-044
+- title: 제한조건을 이용한 위성항법 기반 주행 차로 구분
+  authors:
+  - 강우용
+  - 이은성
+  - 박재익
+  - 한지애
+  - 김현수
+  - 허문범
+  - 남기욱
+  category: conference
+  year: 2011
+  date: 2011-04
+  details: 한국항공우주학회 2011년도 춘계학술대회, 2011.4, pp. 582-585
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01690442
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01690442
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01690442
+  - https://www.riss.kr/link?id=A82661958
+  citation: 강우용, 이은성, 박재익, 한지애, 김현수, 허문범, 남기욱. 제한조건을 이용한 위성항법 기반 주행 차로 구분. 한국항공우주학회
+    2011년도 춘계학술대회, 2011.4, pp. 582-585
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-045
+- title: 차로 구분을 위한 위성항법 및 조향 센서 활용 방법
+  authors:
+  - 강우용
+  - 이은성
+  - 박재익
+  - 한지애
+  - 김현수
+  - 허문범
+  category: conference
+  year: 2011
+  date: 2011-05
+  details: 2011 한국자동차공학회 부분종합 학술대회, 2011.5, pp. 1331-1336
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01755526
+  scope: domestic
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01755526
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01755526
+  - https://www.riss.kr/link?id=A101873679
+  citation: 강우용, 이은성, 박재익, 한지애, 김현수, 허문범. 차로 구분을 위한 위성항법 및 조향 센서 활용 방법. 2011 한국자동차공학회
+    부분종합 학술대회, 2011.5, pp. 1331-1336
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
+  audit_key: discovered-046

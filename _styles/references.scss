@@ -1,0 +1,16 @@
+---
+---
+
+.book-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  margin: 4px 0 12px;
+  font-size: 0.9em;
+  text-align: left;
+
+  a {
+    white-space: nowrap;
+  }
+}

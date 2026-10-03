@@ -1,0 +1,135 @@
+# Editorial and factual provenance for the principal investigator profile.
+# This file is not rendered as page content.
+checked_on: "2026-10-03"
+profile_ref: jae-ik-park
+benchmarks:
+  - researcher: Kathleen C. Howell
+    source: "https://engineering.purdue.edu/AAE/people/awards/ptProfile?resource_id=1384"
+    applied: Separate the research focus, education, and contact information.
+  - researcher: Daniel Scheeres
+    source: "https://ccar.colorado.edu/scheeres/scheeres/people.html?id=DrScheeres"
+    applied: Combine a short biography with a portrait and clearly dated experience.
+  - researcher: Panagiotis Tsiotras
+    source: "https://dcsl.gatech.edu/tsiotras.html"
+    applied: Keep the overview concise and link to detailed research and scholarly records.
+  - researcher: Koki Ho
+    source: "https://space.gatech.edu/koki-ho"
+    applied: Explain the research methods and mission problems together before listing interests.
+facts:
+  - item: UST position, major, research field, and Korean KARI organizational unit
+    source: "https://www.ust.ac.kr/prog/major/kor/sub03_03_04/all/professor.do?majorNo=65&kind=professor&empNo=0bnf2fNreLy2da8OVuGkdw%3D%3D"
+    finding: Associate Professor; Aerospace System Engineering; Astrodynamics and Space Mission Design; Space Exploration Team.
+  - item: Official English name and UST major
+    source: "https://www.ust.ac.kr/prog/major/eng/sub03_03_02/all/professor.do?majorNo=65&kind=professor&empNo=0bnf2fNreLy2da8OVuGkdw%3D%3D"
+    finding: Jae-ik Park; Associate professor; Aerospace System Engineering.
+  - item: KARI directorate and center names in English
+    source: "https://www.kari.re.kr/eng/contents/117"
+    finding: Satellite and Space Exploration Research Directorate; Space Exploration Center.
+  - item: English team name and current KARI affiliation
+    source: "https://pub.orcid.org/v3.0/0000-0001-6227-0442/employment/37310009"
+    finding: Space Exploration Team; employment record updated 2026-06-24.
+    note: The ORCID title has the typo Principle Researcher; the profile uses Principal Researcher. The 2010 employment start is not treated as the start of the principal-researcher rank.
+  - item: Education and KARI career milestones
+    source: "https://sites.google.com/view/dr-space/cv"
+    finding: Ph.D. Astronomy, Yonsei, 2010; M.S. Astronomy, Yonsei, 2004; B.S. Physics, Hanyang, 2002; joined KARI 2010-02; Principal Researcher from 2022-03.
+  - item: Doctoral education
+    source: "https://pub.orcid.org/v3.0/0000-0001-6227-0442/education/37310038"
+    finding: Yonsei University doctoral education ended 2010-02.
+  - item: WVU visiting-scholar dates
+    source: "https://pub.orcid.org/v3.0/0000-0001-6227-0442/invited-position/37310086"
+    corroborating_source: "https://cal.wvu.edu/event/the_fall_2023_semester_aerospace_seminar"
+    finding: ORCID lists 2023-08 to 2024-08; the official WVU seminar announcement identifies Park as a visiting scholar in November 2023.
+    conflict: The older personal CV lists 2022-08 to 2023-08. The profile follows the ORCID record updated 2026-06-23, with the 2023 presence corroborated by WVU. The exact end date is self-reported through ORCID.
+  - item: Head of the Space Exploration Team
+    finding: Preserved from the existing site profile. The reviewed UST page confirms the unit but does not independently state the team-head role or appointment date.
+selected_publications:
+  - doi: 10.3390/aerospace8080222
+    topic: KPLO flight dynamics subsystem
+    source: "https://www.mdpi.com/2226-4310/8/8/222"
+    corroborating_source: "https://pure.kaist.ac.kr/en/publications/overview-of-the-flight-dynamics-subsystem-for-korea-pathfinder-lu/"
+    note: Presented as collaborative research, without attributing project leadership.
+  - doi: 10.5139/jksas.2018.46.5.402
+    topic: Lunar powered-descent trajectory optimization
+    source: "https://api.crossref.org/works/10.5139/jksas.2018.46.5.402"
+    note: English title follows the registered title verbatim.
+  - doi: 10.1016/j.asr.2010.08.012
+    topic: Formation-flying navigation and control with HIL validation
+    source: "https://www.sciencedirect.com/science/article/abs/pii/S0273117710005260"
+honors_and_recognition:
+  checked_on: "2026-10-03"
+  source_type: Documents supplied by the profile owner and visually reviewed in full, plus the owner's directly stated award history as identified below.
+  presentation: Concise bilingual timeline on the detailed profile; original certificates and the casebook extract are not copied into the website.
+  english_titles: Descriptive translations of the Korean records, not verified official English award titles.
+  records:
+    - date: "2024-12-31"
+      title: 우주항공청장 표창
+      source_file: 우주항공청_표창.jpeg
+      recognition_type: individual commendation
+      recipient: 박재익
+      issuer: 우주항공청장
+      finding: The certificate names Park Jae-ik, Principal Researcher at KARI, and recognizes contributions to Danuri's successful mission through trajectory design.
+    - date: "2023-11-29"
+      title: 2023년 출연(연) 우수 연구성과
+      source_file: 2023년 출연(연) 우수 연구성과 - 과기부 장관상 (달탐사사업단).pdf
+      source_page: 1
+      recognition_type: team award
+      recipient: 한국항공우주연구원 달탐사사업단
+      issuer: 과학기술정보통신부장관
+      finding: The ministerial certificate is awarded to the Lunar Exploration Program Office as a group. The profile explicitly labels it a team award, not a personal ministerial award to Park.
+    - year: 2023
+      title: 국가연구개발 우수성과 100선
+      source_file: 국가우수개발성과.pdf
+      source_page: 1
+      printed_pages: "26–27"
+      recognition_type: selected research achievement
+      achievement: 대한민국 달 궤도선 다누리 개발 및 발사 성공
+      category: 기계·소재
+      profile_role: 참여연구진
+      finding: The 2023 casebook lists Kim Dae-kwan as the representative researcher and Park Jae-ik among the research team. The profile records Park as a contributing researcher on the selected achievement, not the representative researcher or an individual awardee.
+      date_note: Only the selection year is shown; no exact selection date is inferred from PDF metadata.
+    - date: "2018-10-10"
+      title: 한국항공우주연구원 우수연구상
+      source_type: Direct statement from the profile owner.
+      recognition_type: research award
+      issuer: 한국항공우주연구원
+      finding: The owner supplied the award name and date. No additional award citation or project attribution is inferred.
+professional_memberships:
+  checked_on: "2026-10-03"
+  source_type: Membership periods and grades supplied directly by the profile owner.
+  note: The owner explicitly confirmed regular membership in SASE in a follow-up. Official society pages verify organization names only, not the owner's membership history.
+  records:
+    - society_ko: 한국우주과학회
+      society_en: The Korean Space Science Society
+      abbreviation: KSSS
+      start_year: 2002
+      end: present
+      membership: regular
+      name_source: https://ksss.or.kr/
+    - society_ko: 한국항공우주학회
+      society_en: The Korean Society for Aeronautical and Space Sciences
+      abbreviation: KSAS
+      start_year: 2010
+      end: present
+      membership: regular
+      name_source: https://ksas.or.kr/
+    - society_ko: 한국통신학회
+      society_en: The Korean Institute of Communications and Information Sciences
+      abbreviation: KICS
+      start_year: 2012
+      end: present
+      membership: regular
+      website: https://www.kics.or.kr/
+      name_source: https://journal.kics.or.kr/static/aim
+    - society_ko: 항공우주시스템공학회
+      society_en: The Society for Aerospace System Engineering
+      abbreviation: SASE
+      start_year: 2022
+      end: present
+      membership: regular
+      name_source: https://sase.or.kr/main/
+editorial_scope:
+  - Research interests synthesize the existing Research page and the official UST lab description; deep-space optical communications was explicitly requested by the site owner.
+  - Representative papers illustrate three research themes; the complete bibliography remains on Publications.
+  - No researcher biographies, honors, project leadership claims, or student admission requirements were copied from benchmark sites.
+follow_up:
+  - The UST profile lists 16 items under its recent-patents heading, including program titles, with dates in 2025. The page does not identify the dates as filing or registration dates and provides no identifiers. They were retained as a source lead, not imported as verified new patents or software registrations during this profile edit.

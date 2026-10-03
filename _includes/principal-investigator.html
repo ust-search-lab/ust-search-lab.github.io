@@ -1,0 +1,59 @@
+{% assign profile_member = include.member %}
+{% assign profile_mode = include.mode | default: "summary" %}
+{% assign profile_lang = profile_member.lang | default: page.lang | default: "ko" %}
+{% if profile_lang == "en" %}
+  {% assign profile_detail_label = "Full profile" %}
+  {% assign profile_publications_label = "Research outputs" %}
+  {% assign profile_publications_url = "/en/publications/" %}
+{% else %}
+  {% assign profile_detail_label = "상세 프로필" %}
+  {% assign profile_publications_label = "연구성과" %}
+  {% assign profile_publications_url = "/publications/" %}
+{% endif %}
+
+<article class="profile-card{% unless profile_member.image %} profile-card--without-photo{% endunless %}" data-profile-mode="{{ profile_mode | escape }}" lang="{{ profile_lang | escape }}">
+  {% if profile_member.image %}
+    <div class="profile-photo-wrapper">
+      <img
+        class="profile-photo"
+        src="{{ profile_member.image | relative_url | uri_escape }}"
+        alt="{{ profile_member.name | escape }}"
+        width="200"
+        height="200"
+        loading="{% if profile_mode == 'full' %}eager{% else %}lazy{% endif %}"
+        decoding="async"
+        {% include fallback.html %}
+      >
+    </div>
+  {% endif %}
+
+  <div class="profile-information">
+    {% if profile_mode == "full" %}
+      <h1 class="profile-name">{{ profile_member.display_name | default: profile_member.name | escape }}</h1>
+    {% else %}
+      <h3 class="profile-name">{{ profile_member.display_name | default: profile_member.name | escape }}</h3>
+    {% endif %}
+
+    {% if profile_member.appointments and profile_member.appointments.size > 0 %}
+      <ul class="profile-appointments" role="list">
+        {% for profile_appointment in profile_member.appointments %}
+          <li>{{ profile_appointment | escape }}</li>
+        {% endfor %}
+      </ul>
+    {% elsif profile_member.affiliation %}
+      <p class="profile-affiliation">{{ profile_member.affiliation | escape }}</p>
+    {% endif %}
+
+    {% if profile_member.summary %}
+      <p class="profile-summary">{{ profile_member.summary | escape }}</p>
+    {% endif %}
+
+    <div class="profile-links">
+      {% if profile_mode == "full" %}
+        <a class="profile-link profile-link--primary" href="{{ profile_publications_url | relative_url }}">{{ profile_publications_label }}</a>
+      {% elsif profile_member.url %}
+        <a class="profile-link profile-link--primary" href="{{ profile_member.url | relative_url | uri_escape }}" aria-label="{{ profile_member.name | escape }} · {{ profile_detail_label }}">{{ profile_detail_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</article>

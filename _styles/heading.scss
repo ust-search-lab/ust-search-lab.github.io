@@ -7,45 +7,64 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 40px 0 20px 0;
+  margin: 36px 0 18px;
+  color: var(--ink);
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 0;
+  line-height: var(--compact);
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 h1 {
   margin: 40px 0;
-  font-size: 1.6rem;
+  font-size: var(--title-size);
   font-weight: var(--regular);
   text-transform: uppercase;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.6rem;
-  padding-bottom: 5px;
+  font-size: var(--section-title-size);
+  padding-bottom: 12px;
   border-bottom: solid 1px var(--light-gray);
-  font-weight: var(--regular);
+  font-weight: var(--semi-bold);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 h5 {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 h6 {
   font-size: 1rem;
 }
 
-:where(h1, h2, h3, h4, h5, h6) > .icon {
-  margin-right: 1em;
-  color: var(--light-gray);
+:where(h1, h2, h3, h4, h5, h6) > .icon:not(.anchor) {
+  margin-right: 0.6em;
+  color: var(--primary);
+}
+
+.page-title {
+  margin: 12px 0 32px;
+  font-size: var(--title-size);
+  letter-spacing: 0.04em;
+
+  &::after {
+    display: block;
+    width: 42px;
+    height: 2px;
+    margin: 20px auto 0;
+    background: var(--primary);
+    content: "";
+  }
 }

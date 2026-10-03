@@ -1,35 +1,43 @@
 ---
 ---
 
-// colors
+// Shared palette for every page and for surfaces with an explicit theme.
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
+  --primary: #1761a3;
+  --secondary: #e4f0fa;
+  --ink: #132c48;
+  --text: #283d51;
   --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --background-alt: #f3f7fb;
+  --light-gray: #d8e3ed;
+  --gray: #627487;
+  --dark-gray: #526578;
+  --overlay: #132c480d;
+  --button-background: #1761a3;
+  --button-hover: #132c48;
+  --button-text: #ffffff;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #8ccaf5;
+  --secondary: #243e55;
+  --ink: #e3edf7;
+  --text: #d5e0ec;
+  --background: #101c2a;
+  --background-alt: #152333;
+  --light-gray: #33475b;
+  --gray: #9aacbf;
+  --dark-gray: #b7c7d7;
+  --overlay: #00000026;
+  --button-background: #8ccaf5;
+  --button-hover: #e3edf7;
+  --button-text: #132c48;
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Barlow", system-ui, sans-serif;
+  --heading: "Barlow", system-ui, sans-serif;
+  --body: "Barlow", system-ui, sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
@@ -44,11 +52,26 @@
   --bold: 600;
 
   // text line spacing
-  --spacing: 2;
+  --spacing: 1.85;
   --compact: 1.5;
 
+  // Shared dimensions; page-specific files only define their own layouts.
+  --page-width: 1000px;
+  --page-gutter: 40px;
+  --section-space: 48px;
+  --title-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  --section-title-size: clamp(1.25rem, 2vw, 1.5rem);
+  --radius-small: 6px;
+
   // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 8px;
+  --shadow: 0 4px 18px var(--overlay);
   --transition: 0.2s ease;
+}
+
+@media (max-width: 700px) {
+  :root {
+    --page-gutter: 22px;
+    --section-space: 36px;
+  }
 }

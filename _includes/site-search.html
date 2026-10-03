@@ -1,6 +1,7 @@
+{% assign search_lang = page.lang | default: 'ko' %}
 <form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google" />
-  <button type="submit" class="button" aria-label="search site">
+  <input type="text" name="query" placeholder="{{ site.data.i18n[search_lang].site-search-placeholder }}" aria-label="{{ site.data.i18n[search_lang].site-search }}" />
+  <button type="submit" class="button" aria-label="{{ site.data.i18n[search_lang].site-search }}">
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>
 </form>

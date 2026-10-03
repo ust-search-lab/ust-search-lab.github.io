@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <main>
+    <main data-page="{{ page.ref | escape }}">
       {% include content.html content=content %}
     </main>
     {% include footer.html %}

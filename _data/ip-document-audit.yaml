@@ -1,0 +1,490 @@
+---
+checked_on: '2026-10-03'
+scope: 사용자 제공 저작권 등록증 13개 및 특허 출원서·출원번호통지서 3개를 기존 PUBLICATIONS 항목에 반영.
+summary:
+  documents_reviewed: 16
+  existing_records_updated: 16
+  software_registrations_confirmed: 13
+  patent_applications_confirmed: 3
+  patent_grants_confirmed: 0
+  titles_corrected: 8
+  new_records_created: 0
+  total_displayed: 157
+  total_displayed_at_document_verification: 159
+method:
+- 등록증 1쪽 제호·등록번호·제7항 등록연월일을 텍스트 및 렌더 이미지로 대조. 창작일·공표일·발급일과 구분.
+- 특허 PDF의 출원번호통지서(1쪽)는 OCR와 렌더 이미지를 대조하여 공식 출원번호·출원일 확인. 출원서의 정식 명칭·출원인·발명인과 대응 주제도 확인.
+- 내부 접수번호는 PDF에 없으므로 문서의 공식 서지 검증과 기존 현황표 항목의 연결 근거를 분리해 기록.
+- 원본 PDF와 전체 텍스트·민감한 주소 및 식별번호·접근코드는 사이트에 추가하지 않음. 이 감사파일에는 필요한 서지정보·파일명·해시·근거 페이지만 보존.
+role_interpretation: 등록증상 저작자는 한국항공우주연구원이다. 현황표의 박재익은 기여자로 표시하며 개인 저작자로 바꾸지 않는다. 특허는 출원인 한국항공우주연구원과 발명자 박재익을 구분한다.
+records:
+- audit_key: ip-2025-5-0049
+  category: software
+  filename: 프3806_저작권 등록증.pdf
+  sha256: e970b0b62b27e6d718c77f09d175721b9df080bbca3840b04b55f984ac047fe6
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 초저궤도(VLEO) 위성 델타브이(DeltaV) 버짓 계산 프로그램
+  registered_title: 초저궤도(VLEO) 위성 델타브이(DeltaV) 버짓 계산 프로그램 (VLEO Satellite DeltaV Budget Calculation Program)
+  registered_title_en: VLEO Satellite DeltaV Budget Calculation Program
+  registration_number: C-2025-046096
+  registration_date: '2025-10-31'
+  certificate_issue_date: '2025-11-03'
+  creation_date: '2025-08-01'
+  publication_date: '2025-08-01'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 초저궤도(VLEO) 위성 DeltaV 버짓 계산 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0048
+  category: software
+  filename: 프3805_저작권 등록증.pdf
+  sha256: 198e1abfeb4885694ed6317afe17eea3a89d2daec0d0789d5e311083dccfc759
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 초저궤도 원자산소 플럭스 및 플루언스 계산 프로그램
+  registered_title: 초저궤도 원자산소 플럭스 및 플루언스 계산 프로그램 (VLEO Atomic Oxygen Flux and Fluence Analysis Program)
+  registered_title_en: VLEO Atomic Oxygen Flux and Fluence Analysis Program
+  registration_number: C-2025-046098
+  registration_date: '2025-10-31'
+  certificate_issue_date: '2025-11-03'
+  creation_date: '2025-08-01'
+  publication_date: '2025-08-01'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 초저궤도(VLEO) 원자산소 플럭스 및 플루언스 계산 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0047
+  category: software
+  filename: 프3804_저작권 등록증.pdf
+  sha256: a17c9e5959dfe82656cc1c06d4f49b7036369dca0f0cf5a36ba601aa8046ca79
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 초저궤도 대기밀도 분석 및 시각화 프로그램
+  registered_title: 초저궤도 대기밀도 분석 및 시각화 프로그램 (VLEO Atmospheric Density Analysis and Visualization Program)
+  registered_title_en: VLEO Atmospheric Density Analysis and Visualization Program
+  registration_number: C-2025-046674
+  registration_date: '2025-11-04'
+  certificate_issue_date: '2025-11-04'
+  creation_date: '2025-08-01'
+  publication_date: '2025-09-02'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 초저궤도(VLEO) 대기밀도 분석 및 시각화 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0046
+  category: software
+  filename: 프3803_저작권 등록증.pdf
+  sha256: 641eb2885bac0477377ad593e88dea5b6f290c1495e9284f45511fd5c3234b25
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 다중 천체 궤도력 온보드 탑재용 체비셰프 다항식 계수 생성 프로그램
+  registered_title: 다중 천체 궤도력 온보드 탑재용 체비셰프 다항식 계수 생성 프로그램 (Multi-Body Orbit Ephemeris Onboard Chebyshev Polynomial Coefficient Generation Program)
+  registered_title_en: Multi-Body Orbit Ephemeris Onboard Chebyshev Polynomial Coefficient Generation Program
+  registration_number: C-2025-046662
+  registration_date: '2025-11-04'
+  certificate_issue_date: '2025-11-04'
+  creation_date: '2025-07-24'
+  publication_date: '2025-09-02'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 다중 천체 궤도력 온보드 탑재용 체비셰프 다항식 계수 생성 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0024
+  category: software
+  filename: 프3787_저작권 등록증.pdf
+  sha256: f55568e3c4417aabc4a12243b5913b20c96dac4a2a50bb1ccce7f285fac92c6a
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 저궤도 군집위성 위상 배치 및 기동 설계 프로그램
+  registered_title: 저궤도 군집위성 위상 배치 및 기동 설계 프로그램
+  registered_title_en:
+  registration_number: C-2025-037040
+  registration_date: '2025-09-15'
+  certificate_issue_date: '2025-09-16'
+  creation_date: '2025-06-28'
+  publication_date: '2025-07-22'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 저궤도 군집위성 위상 배치 및 기동 설계 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0023
+  category: software
+  filename: 프3786_저작권 등록증.pdf
+  sha256: 192e8ba29bbb8152bce4eb490a499d385c37768b2f6f69e0a803224abadd2f63
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 지구궤도 위성 광통신 링크 버짓 분석 프로그램
+  registered_title: 지구궤도 위성 광통신 링크 버짓 분석 프로그램
+  registered_title_en:
+  registration_number: C-2025-037041
+  registration_date: '2025-09-15'
+  certificate_issue_date: '2025-09-16'
+  creation_date: '2025-06-01'
+  publication_date: '2025-07-22'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 지구궤도위성 광통신 링크 버짓 분석 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0021
+  category: software
+  filename: 프3784_저작권 등록증.pdf
+  sha256: abaa17de9943db830c62bd3c49aa3c9cc13f4992dd1e714df211253ee93b37fd
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 심우주 임무용 안테나 빔폭-이득 계산 프로그램
+  registered_title: 심우주 임무용 안테나 빔폭-이득 계산 프로그램
+  registered_title_en:
+  registration_number: C-2025-037039
+  registration_date: '2025-09-15'
+  certificate_issue_date: '2025-09-16'
+  creation_date: '2025-06-01'
+  publication_date: '2025-06-28'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 심우주 임무용 안테나 빔폭-이득 계산 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0016
+  category: software
+  filename: 프3782_저작권 등록증.pdf
+  sha256: 332ede89808eb58c9346f21aa9c09063f18c628c4d39c55ac1788c9cf9c7e50b
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 특성 가속도 기반 정사각형 태양돛 치수 산정 프로그램
+  registered_title: 특성 가속도 기반 정사각형 태양돛 치수 산정 프로그램
+  registered_title_en:
+  registration_number: C-2025-035552
+  registration_date: '2025-09-08'
+  certificate_issue_date: '2025-09-09'
+  creation_date: '2025-03-01'
+  publication_date: '2025-03-28'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 특성 가속도 기반 정사각형 태양돛 치수 산정 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0015
+  category: software
+  filename: 프3781_저작권 등록증.pdf
+  sha256: a14fc9d1affaa6690a88bc3f85e5fe9fe1a2dd6bed6e6942cc5e6ffd64401b4f
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 화성 전이 궤적 설계용 포크찹 플롯 생성 프로그램
+  registered_title: 화성 전이 궤적 설계용 포크찹 플롯 생성 프로그램
+  registered_title_en:
+  registration_number: C-2025-035551
+  registration_date: '2025-09-08'
+  certificate_issue_date: '2025-09-09'
+  creation_date: '2025-05-01'
+  publication_date: '2025-05-15'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 화성 전이 궤적 설계용 포크찹 플롯 생성 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0014
+  category: software
+  filename: 프3780_저작권 등록증.pdf
+  sha256: 57ba047c74e7bba66b975178ef7f38dad6a25b4cddb9a24d200971e8f3cb602b
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 태양-지구 L4 라그랑주점 초기궤도 계산 프로그램
+  registered_title: 태양-지구 L4 라그랑주점 초기궤도 계산 프로그램
+  registered_title_en:
+  registration_number: C-2025-035550
+  registration_date: '2025-09-08'
+  certificate_issue_date: '2025-09-09'
+  creation_date: '2024-03-19'
+  publication_date: '2025-06-05'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 태양-지구 L4 라그랑주점 초기궤도 계산 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0012
+  category: software
+  filename: 프3779_저작권 등록증.pdf
+  sha256: d98669b3c3bb7f8439736ed9ed87793f26f434be40b63c5ad2e0ea9de8861aaa
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: MSAFE(엠세이프) 태양 활동 예측 모델 데이터 생성 프로그램
+  registered_title: MSAFE(엠세이프) 태양 활동 예측 모델 데이터 생성 프로그램
+  registered_title_en:
+  registration_number: C-2025-035549
+  registration_date: '2025-09-08'
+  certificate_issue_date: '2025-09-09'
+  creation_date: '2025-06-02'
+  publication_date:
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: MSAFE 태양 활동 예측 모델 데이터 생성 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0009
+  category: software
+  filename: 프3776_저작권 등록증.pdf
+  sha256: 981ed30d8530b8dfc24802c60c79c554aae884339ac014eb20f632ba85a4a1f8
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 비케플러 궤도 푸앙카레 단면 분석 프로그램
+  registered_title: 비케플러 궤도 푸앙카레 단면 분석 프로그램
+  registered_title_en:
+  registration_number: C-2025-035548
+  registration_date: '2025-09-08'
+  certificate_issue_date: '2025-09-09'
+  creation_date: '2025-05-01'
+  publication_date:
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 비케플러 궤도 푸앙카레 단면 분석 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-5-0020
+  category: software
+  filename: 프3770_저작권 등록증.pdf
+  sha256: b85cb61cf04225733f558f2f6babbc7b6f5b9cd371a80acee4940e79f79778d3
+  document_type: copyright_registration_certificate
+  evidence_pages:
+  - 1
+  title: 소행성 및 행성의 케플러 궤도 시각화 프로그램
+  registered_title: 소행성 및 행성의 케플러 궤도 시각화 프로그램
+  registered_title_en:
+  registration_number: C-2025-037038
+  registration_date: '2025-09-15'
+  certificate_issue_date: '2025-09-16'
+  creation_date: '2025-06-01'
+  publication_date: '2025-06-28'
+  copyright_author: 한국항공우주연구원
+  visual_verified: true
+  mapping_basis: 등록증 제호와 현황표의 명칭 대조. 내부 접수번호는 등록증에 없으므로 제목에 근거하여 연결.
+  date_evidence: 1쪽 제7항 등록연월일을 사용. 창작일·공표일·하단 증명서 발급일과 구분.
+  role_evidence: 1쪽 제3항 및 제8항의 저작자는 한국항공우주연구원. 박재익은 현황표의 기여 인명이며 등록증에 개인 저작자로 기재된 것은 아님.
+  previous_title: 소행성 및 행성의 케플러 궤도 시각화 프로그램
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-1-0119
+  category: patent
+  filename: 3413_10-2025-0187696_출원서.pdf
+  sha256: 15b644dd75193337fd8f76b52fa6c5635d80c8270a8568fdd5fedd6f9aa9423e
+  document_type: patent_application_and_filing_notice
+  evidence_pages:
+  - 1
+  - 3
+  - 6
+  title: 전이 궤적을 설계하기 위한 컴퓨터 처리 방법, 이를 구현하는 전자 기기 및 저장 매체
+  title_en: COMPUTER PROCESSING METHOD FOR DESIGNING OPTIMAL TRAJECTORIES AND ELECTRONIC DEVICE, STORAGE MEDIUM IMPLEMENTING THE SAME
+  previous_title: 행성간 궤적 설계를 위한 하이브리드 적응형 램버트(Lambert) 솔버 시스템 및 방법
+  application_number: 10-2025-0187696
+  application_date: '2025-12-02'
+  applicant: 한국항공우주연구원
+  inventors:
+  - 박재익
+  status: application
+  visual_verified: true
+  field_evidence:
+    application_number_basis:
+      pdf_page: 1
+      document_heading: 출원번호통지서
+      field_label: 출원번호
+      verification: 파일명뿐 아니라 통지서 번호를 OCR와 이미지에서 확인했습니다.
+    application_date_basis:
+      pdf_page: 1
+      document_heading: 출원번호통지서
+      field_label: 출원일자
+      verification: OCR와 원본 렌더링의 해당 행을 시각 대조했습니다. 출원서 본문 상단 작성일 또는 서명일을 출원일로 추정하지 않았습니다.
+    title_basis:
+      pdf_page: 3
+      field_label: 발명의 국문명칭
+      verification: PDF 텍스트 추출과 해당 명칭 영역의 이미지 대조. 줄바꿈으로 나뉜 단어는 이어 적었습니다.
+    inventor_basis:
+      pdf_page: 3
+      field_labels:
+      - 발명자
+      - 성명
+      verification: 전체 문서의 발명자-성명 필드 검색에서 박재익 한 명을 확인했습니다. 대리인 성명은 제외했습니다.
+    applicant_basis:
+      pdf_page: 3
+      field_labels:
+      - 출원인
+      - 명칭
+  mapping:
+    audit_key: ip-2025-1-0119
+    internal_reference: 2025-1-0119
+    existing_title: 행성간 궤적 설계를 위한 하이브리드 적응형 램버트(Lambert) 솔버 시스템 및 방법
+    recommended_preserved_alias: 행성간 궤적 설계를 위한 하이브리드 적응형 램버트(Lambert) 솔버 시스템 및 방법
+    confidence: high
+    direct_internal_reference_in_pdf: false
+    evidence_pages:
+    - 3
+    - 6
+    basis: 명세서의 램버트/Lambert 및 전이 궤적 설계 대상, 박재익 단독 발명인과 2025년이 기존 하이브리드 적응형 램버트 솔버 항목에 대응합니다.
+    limitation: 기존 내부 접수번호는 이 PDF에 명시되어 있지 않습니다. 공식 출원정보의 검증과 내부 항목 매핑의 근거를 구분합니다.
+  public_link_inferred: false
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-1-0084
+  category: patent
+  filename: 3376_10-2025-0149621_출원서.pdf
+  sha256: 7368be774d03515c3d2afe710ee96c756669389cc7fe89958241e5464e0eae42
+  document_type: patent_application_and_filing_notice
+  evidence_pages:
+  - 1
+  - 2
+  - 7
+  - 10
+  - 12
+  title: 원자산소로부터 초저궤도 위성을 보호하는 방법 및 장치
+  title_en: Method And Apparatus for Protecting VLEO Satellites from Atomic Oxygen
+  previous_title: 초저궤도(VLEO) 위성 원자산소 차단 장치 머신러닝 기반 자율 제어 시스템
+  application_number: 10-2025-0149621
+  application_date: '2025-10-16'
+  applicant: 한국항공우주연구원
+  inventors:
+  - 박재익
+  status: application
+  visual_verified: true
+  field_evidence:
+    application_number_basis:
+      pdf_page: 1
+      document_heading: 출원번호통지서
+      field_label: 출원번호
+      verification: 파일명뿐 아니라 통지서 번호를 OCR와 이미지에서 확인했습니다.
+    application_date_basis:
+      pdf_page: 1
+      document_heading: 출원번호통지서
+      field_label: 출원일자
+      verification: OCR와 원본 렌더링의 해당 행을 시각 대조했습니다. 출원서 본문 상단 작성일 또는 서명일을 출원일로 추정하지 않았습니다.
+    title_basis:
+      pdf_page: 2
+      field_label: 발명의 국문명칭
+      verification: PDF 텍스트 추출과 해당 명칭 영역의 이미지 대조. 줄바꿈으로 나뉜 단어는 이어 적었습니다.
+    inventor_basis:
+      pdf_page: 2
+      field_labels:
+      - 발명자
+      - 성명
+      verification: 전체 문서의 발명자-성명 필드 검색에서 박재익 한 명을 확인했습니다. 대리인 성명은 제외했습니다.
+    applicant_basis:
+      pdf_page: 2
+      field_labels:
+      - 출원인
+      - 명칭
+  mapping:
+    audit_key: ip-2025-1-0084
+    internal_reference: 2025-1-0084
+    existing_title: 초저궤도(VLEO) 위성 원자산소 차단 장치 머신러닝 기반 자율 제어 시스템
+    recommended_preserved_alias: 초저궤도(VLEO) 위성 원자산소 차단 장치 머신러닝 기반 자율 제어 시스템
+    confidence: high
+    direct_internal_reference_in_pdf: false
+    evidence_pages:
+    - 2
+    - 7
+    - 10
+    - 12
+    basis: 초저궤도 위성의 원자산소 보호라는 대상 및 명세서의 머신러닝 용어, 박재익 단독 발명인과 2025년이 기존 머신러닝 기반 자율 제어 항목에 대응합니다.
+    limitation: 기존 내부 접수번호는 이 PDF에 명시되어 있지 않습니다. 공식 출원정보의 검증과 내부 항목 매핑의 근거를 구분합니다.
+  public_link_inferred: false
+  checked_on: '2026-10-03'
+- audit_key: ip-2025-1-0077
+  category: patent
+  filename: 3371_10-2025-0132472_출원서.pdf
+  sha256: b6e554780b62c7efd5c1a57cbb38f050b5fa0881811b2a7de3b6b31a7a189042
+  document_type: patent_application_and_filing_notice
+  evidence_pages:
+  - 1
+  - 3
+  - 7
+  - 8
+  title: 위성 표면 보호를 위한 위성 장치 및 그 방법
+  title_en: Satellite apparatus and method for protecting satellite surface
+  previous_title: 초저궤도(VLEO) 위성 표면 보호를 위한 플라즈마 기반 원자산소 차단 장치
+  application_number: 10-2025-0132472
+  application_date: '2025-09-16'
+  applicant: 한국항공우주연구원
+  inventors:
+  - 박재익
+  status: application
+  visual_verified: true
+  field_evidence:
+    application_number_basis:
+      pdf_page: 1
+      document_heading: 출원번호통지서
+      field_label: 출원번호
+      verification: 파일명뿐 아니라 통지서 번호를 OCR와 이미지에서 확인했습니다.
+    application_date_basis:
+      pdf_page: 1
+      document_heading: 출원번호통지서
+      field_label: 출원일자
+      verification: OCR와 원본 렌더링의 해당 행을 시각 대조했습니다. 출원서 본문 상단 작성일 또는 서명일을 출원일로 추정하지 않았습니다.
+    title_basis:
+      pdf_page: 3
+      field_label: 발명의 국문명칭
+      verification: PDF 텍스트 추출과 해당 명칭 영역의 이미지 대조. 줄바꿈으로 나뉜 단어는 이어 적었습니다.
+    inventor_basis:
+      pdf_page: 3
+      field_labels:
+      - 발명자
+      - 성명
+      verification: 전체 문서의 발명자-성명 필드 검색에서 박재익 한 명을 확인했습니다. 대리인 성명은 제외했습니다.
+    applicant_basis:
+      pdf_page: 3
+      field_labels:
+      - 출원인
+      - 명칭
+  mapping:
+    audit_key: ip-2025-1-0077
+    internal_reference: 2025-1-0077
+    existing_title: 초저궤도(VLEO) 위성 표면 보호를 위한 플라즈마 기반 원자산소 차단 장치
+    recommended_preserved_alias: 초저궤도(VLEO) 위성 표면 보호를 위한 플라즈마 기반 원자산소 차단 장치
+    confidence: high
+    direct_internal_reference_in_pdf: false
+    evidence_pages:
+    - 3
+    - 7
+    - 8
+    basis: 위성 표면 보호라는 대상 및 명세서의 플라즈마 용어, 박재익 단독 발명인과 2025년이 기존 플라즈마 기반 원자산소 차단 장치 항목에 대응합니다. 머신러닝 제어 발명은 별도 출원 10-2025-0149621로 구분합니다.
+    limitation: 기존 내부 접수번호는 이 PDF에 명시되어 있지 않습니다. 공식 출원정보의 검증과 내부 항목 매핑의 근거를 구분합니다.
+  public_link_inferred: false
+  checked_on: '2026-10-03'
+subsequent_display_update: KPLO 제38류 두 기록 통합으로 159에서 158건, 이후 사용자 요청으로 2011년 미지정수 결정 성능향상 특허를 제외하여 157건으로 변경됨. 이 감사의 등록증·출원서 16건은 영향 없음.

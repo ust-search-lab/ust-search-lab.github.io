@@ -1,5 +1,5 @@
-{:start="15"}
-15. McInnes, C. R., *Solar Sailing: Technology, Dynamics and Mission Applications*, Springer-Praxis Series in Space Science and Technology, Springer, 1999.
-16. Wright, J. L., *Space Sailing*, Gordon and Breach Science Publishers, 1992.
-17. Vulpetti, G., Johnson, L., and Matloff, G. L., *Solar Sails: A Novel Approach to Interplanetary Travel*, 2nd ed., Springer, 2015.
-18. Johnson, L., Barnes, N., Ceriotti, M., Chen, T. Y., Davoyan, A., Friedman, L., Garber, D., Kezerashvili, R., Kobayashi, K., Matloff, G., McInnes, C., Mulligan, P., Swartzlander, G., and Turyshev, S. G., “Solar Sail Propulsion by 2050: An Enabling Capability for Heliophysics Missions,” 2023.
+{:start="16"}
+16. McInnes, C. R., *Solar Sailing: Technology, Dynamics and Mission Applications*, Springer-Praxis Series in Space Science and Technology, Springer, 1999. {% include book-links.html isbn="9781852331023" url="https://link.springer.com/book/10.1007/978-1-4471-3992-8" %}
+17. Wright, J. L., *Space Sailing*, Gordon and Breach Science Publishers, 1992. {% include book-links.html isbn="9782881248030" url="https://astrobooks.com/spacesailinghardbackjeromelwright-1992.aspx" label="Microcosm" %}
+18. Vulpetti, G., Johnson, L., and Matloff, G. L., *Solar Sails: A Novel Approach to Interplanetary Travel*, 2nd ed., Springer, 2015. {% include book-links.html isbn="9781493909407" url="https://link.springer.com/book/10.1007/978-1-4939-0941-4" %}
+19. Johnson, L., Barnes, N., Ceriotti, M., Chen, T. Y., Davoyan, A., Friedman, L., Garber, D., Kezerashvili, R., Kobayashi, K., Matloff, G., McInnes, C., Mulligan, P., Swartzlander, G., and Turyshev, S. G., “[Solar Sail Propulsion by 2050: An Enabling Capability for Heliophysics Missions](https://arxiv.org/abs/2301.01297),” Heliophysics 2050 White Paper, arXiv:2301.01297, 2023.

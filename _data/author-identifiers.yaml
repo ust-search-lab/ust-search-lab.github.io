@@ -1,0 +1,1523 @@
+---
+- key: author-001
+  name: Young-Joo Song
+  aliases:
+  - Young-Joo Song
+  - 송영주
+  orcid: 0000-0001-6948-1920
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Young-Joo+Song%22+OR+%22%EC%86%A1%EC%98%81%EC%A3%BC%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  note: 공식 학술지의 저자별 ORCID 명시를 대조했습니다.
+- key: author-002
+  name: Young-Rok Kim
+  aliases:
+  - Young-Rok Kim
+  - 김영록
+  orcid: 0000-0002-0862-0146
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Young-Rok+Kim%22+OR+%22%EA%B9%80%EC%98%81%EB%A1%9D%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  note: 공식 학술지의 저자별 ORCID 명시를 대조했습니다.
+- key: author-003
+  name: Jonghee Bae
+  aliases:
+  - Jonghee Bae
+  - 배종희
+  orcid: 0000-0002-2069-0366
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jonghee+Bae%22+OR+%22%EB%B0%B0%EC%A2%85%ED%9D%AC%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  note: 공식 학술지의 저자별 ORCID 명시를 대조했습니다.
+- key: author-004
+  name: Jae-ik Park
+  aliases:
+  - Jae-ik Park
+  - Park Jae-ik
+  - 박재익
+  - Jae-Ik Park
+  orcid: 0000-0001-6227-0442
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jae-ik+Park%22+OR+%22Park+Jae-ik%22+OR+%22%EB%B0%95%EC%9E%AC%EC%9D%B5%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - https://orcid.org/0000-0001-6227-0442
+  - https://conf.kics.or.kr/2026w/downloadProgram?type=program
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  - https://ksss.or.kr/society/tksss/file/download/12136?view=1
+  - https://ksss.or.kr/society/tksss/file/download/12152?view=1
+  - https://ksss.or.kr/society/tksss/file/download/12156?view=1
+  - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  - https://webzine.kps.or.kr/?idx=16841&p=5_view
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01690442
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01755526
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02033977
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442222
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442224
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442225
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442226
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11031472
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11419479
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12341171
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512263
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589745
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A100257883
+  - https://www.riss.kr/link?id=A101873679
+  - https://www.riss.kr/link?id=A102996122
+  - https://www.riss.kr/link?id=A107065918
+  - https://www.riss.kr/link?id=A107065919
+  - https://www.riss.kr/link?id=A107065995
+  - https://www.riss.kr/link?id=A107065997
+  - https://www.riss.kr/link?id=A107879020
+  - https://www.riss.kr/link?id=A108019567
+  - https://www.riss.kr/link?id=A108363752
+  - https://www.riss.kr/link?id=A108421184
+  - https://www.riss.kr/link?id=A108421717
+  - https://www.riss.kr/link?id=A108610580
+  - https://www.riss.kr/link?id=A108647713
+  - https://www.riss.kr/link?id=A108873931
+  - https://www.riss.kr/link?id=A109564734
+  - https://www.riss.kr/link?id=A109902129
+  - https://www.riss.kr/link?id=A110088141
+  - https://www.riss.kr/link?id=A110187517
+  - https://www.riss.kr/link?id=A110187813
+  - https://www.riss.kr/link?id=A110268793
+  - https://www.riss.kr/link?id=A110452703
+  - https://www.riss.kr/link?id=A82661958
+  note: 신규 KSSS 자료의 Jae-Ik Park는 기존 PI Jae-ik Park의 대소문자 변형으로 동일 그룹에 aliases만 보완한다.
+- key: author-005
+  name: SeungBum Hong
+  aliases:
+  - SeungBum Hong
+  - 홍승범
+  orcid: 0000-0001-5999-7018
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22SeungBum+Hong%22+OR+%22%ED%99%8D%EC%8A%B9%EB%B2%94%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  note: 공식 학술지의 저자별 ORCID 명시를 대조했습니다.
+- key: author-006
+  name: Donghun Lee
+  aliases:
+  - Donghun Lee
+  - 이동헌
+  orcid: 0000-0001-9839-0673
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Donghun+Lee%22+OR+%22%EC%9D%B4%EB%8F%99%ED%97%8C%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  note: 공식 학술지의 저자별 ORCID 명시를 대조했습니다. 이름 검색의 다수 동명이인 대신 논문의 직접 연결을 사용했습니다.
+- key: author-007
+  name: Dae-Kwan Kim
+  aliases:
+  - Dae-Kwan Kim
+  - 김대관
+  orcid: 0000-0002-9934-2515
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Dae-Kwan+Kim%22+OR+%22%EA%B9%80%EB%8C%80%EA%B4%80%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  note: 공식 학술지의 저자별 ORCID 명시를 대조했습니다.
+- key: author-008
+  name: Han-Earl Park
+  aliases:
+  - Han-Earl Park
+  - 박한얼
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Han-Earl+Park%22+OR+%22%EB%B0%95%ED%95%9C%EC%96%BC%22&rows=50
+  note: 동일 영문명의 공개 ORCID 후보 2개가 있으나 소속과 공개 실적이 없어 어느 식별자가 해당 공동저자인지 확인하지 못했습니다.
+- key: author-009
+  name: Sang-Young Park
+  aliases:
+  - Sang-Young Park
+  - 박상영
+  orcid: 0000-0002-1962-4038
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sang-Young+Park%22+OR+%22%EB%B0%95%EC%83%81%EC%98%81%22&rows=50
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001325397
+  note: 해당 논문 KCI 저자명 옆 ORCID 링크와 연세대 소속을 확인했습니다.
+- key: author-010
+  name: Kyu-Hong Choi
+  aliases:
+  - Kyu-Hong Choi
+  - 최규홍
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Kyu-Hong+Choi%22+OR+%22%EC%B5%9C%EA%B7%9C%ED%99%8D%22&rows=50
+  note: 검색된 전주대 농생명/트랙터 연구자는 연세대 천문우주 연구자와 다른 사람으로 판단해 제외했습니다. 해당 공동저자의 ORCID는 미확인입니다.
+- key: author-011
+  name: Woo-Yong Kang
+  aliases:
+  - Woo-Yong Kang
+  - Wooyong Kang
+  - Kang Wooyong
+  - 강우용
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://mycoordinates.org/transport-planning-in-korea/
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Woo-Yong+Kang%22+OR+%22Wooyong+Kang%22+OR+%22Kang+Wooyong%22+OR+%22%EA%B0%95%EC%9A%B0%EC%9A%A9%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Woo+Yong+Kang%22+OR+%22Woo-Yong+Kang%22+OR+%22Wooyong+Kang%22&rows=100
+  note: Woo Yong Kang/Woo-Yong Kang/Wooyong Kang 변형 검색까지 보완했으나 공개 ORCID 후보를 찾지 못했다. 원 Coordinates 발행사에서 KARI 위성항법부 연구자임을 확인했으며, 미발견은 미보유를 뜻하지 않는다.
+- key: author-012
+  name: Eunsung Lee
+  aliases:
+  - Eunsung Lee
+  - Lee Eunsung
+  - 이은성
+  orcid: 0000-0003-4565-5863
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Eunsung+Lee%22+OR+%22Lee+Eunsung%22+OR+%22%EC%9D%B4%EC%9D%80%EC%84%B1%22&rows=50
+  - https://ki-it.com/xml/44085/44085.pdf
+  - https://orcid.org/0000-0003-4565-5863
+  note: 학회 공식 논문의 ORCID와 공개 프로필의 KARI 위성항법 경력, 건국대 학력을 대조했습니다.
+- key: author-013
+  name: Moon-Beom Heo
+  aliases:
+  - Moon-Beom Heo
+  - Heo Moonbeom
+  - Moonbeom Heo
+  - 허문범
+  orcid: 0000-0001-9674-9937
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Moon-Beom+Heo%22+OR+%22Heo+Moonbeom%22+OR+%22Moonbeom+Heo%22+OR+%22%ED%97%88%EB%AC%B8%EB%B2%94%22&rows=50
+  - https://journal.kics.or.kr/digital-library/manuscript/file/37419/NODE10547259.pdf
+  note: 한국통신학회 공식 논문 저자약력에서 이름, KARI 위성항법 경력, ORCID를 직접 확인했습니다.
+- key: author-014
+  name: Giwook Nam
+  aliases:
+  - Giwook Nam
+  - 남기욱
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/0000-0002-7016-3732/record
+  - https://journal.kics.or.kr/digital-library/manuscript/file/36140/NODE07091509.pdf
+  - https://www.icao.int/sites/default/files/sp-files/APAC/APAC-RSO/GBAS/SBAS%20Implementation%20Workshop/Participant%20List%20-%20GBASSBAS.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Giwook+Nam%22+OR+%22%EB%82%A8%EA%B8%B0%EC%9A%B1%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Gi-Wook+Nam%22+OR+%22Ki-Wook+Nam%22+OR+%22Ki+Wook+Nam%22&rows=100
+  note: Gi-Wook Nam/Ki-Wook Nam/Ki Wook Nam 변형 검색으로 0000-0002-7016-3732(Gi Wook Nam)를 발견했다. 그러나 해당 공개 ORCID에는 소속·학력·실적이 모두 없어, 공식 KICS 논문 및 ICAO 자료의 KARI SBAS 연구자 남기욱과 동일인으로 확정할 근거가
+    없다.
+- key: author-015
+  name: Sang-Ryool Lee
+  aliases:
+  - Sang-Ryool Lee
+  - 이상률
+  orcid: 0000-0002-5894-0594
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sang-Ryool+Lee%22+OR+%22%EC%9D%B4%EC%83%81%EB%A5%A0%22&rows=50
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  note: 공식 학술지의 저자별 ORCID 명시를 대조했습니다.
+- key: author-016
+  name: Eunsup Sim
+  aliases:
+  - Eunsup Sim
+  - Sim Eunsup
+  - 심은섭
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://doi.org/10.2322/tastj.12.a59
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Eunsup+Sim%22+OR+%22Sim+Eunsup%22+OR+%22%EC%8B%AC%EC%9D%80%EC%84%AD%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Eun-Sup+Sim%22+OR+%22Eun+Sup+Sim%22+OR+%22Eun-Sup+Shim%22&rows=100
+  note: Eun-Sup Sim/Eun Sup Sim/Eun-Sup Shim 변형 검색까지 보완했으나 후보를 찾지 못했다. 학회 발행 J-STAGE 논문은 Eun-Sup SIM의 KARI 소속을 확인해 주지만 표시된 일반 ORCID 안내 아이콘은 저자 식별자가 아니므로 채택하지 않았다.
+- key: author-017
+  name: Dong-Young Rew
+  aliases:
+  - Dong-Young Rew
+  - 류동영
+  orcid: 0000-0002-2450-4313
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Dong-Young+Rew%22+OR+%22%EB%A5%98%EB%8F%99%EC%98%81%22&rows=50
+  - https://www.jstna.org/download/download_pdf?pid=jsta-3-3-199
+  - https://orcid.org/0000-0002-2450-4313
+  note: 학회 공식 논문의 ORCID와 공개 프로필의 KARI 달탐사 경력을 대조했습니다.
+- key: author-018
+  name: Sujin Choi
+  aliases:
+  - Sujin Choi
+  - Su-Jin Choi
+  - 최수진
+  orcid: 0000-0002-0285-2720
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sujin+Choi%22+OR+%22Su-Jin+Choi%22+OR+%22%EC%B5%9C%EC%88%98%EC%A7%84%22&rows=50
+  - https://orcid.org/0000-0002-0285-2720
+  - https://www.koreatech.ac.kr/faculty/list.es?classification=DEPF002&division=1&mid=a80201000000
+  note: 공개 ORCID의 KARI 경력(2007–2024), 현재 한국기술교육대 소속, 달/화성 궤적 연구 및 공동저자를 대조했습니다.
+- key: author-019
+  name: Seok-Weon Choi
+  aliases:
+  - Seok-Weon Choi
+  - 최석원
+  - SeokWeon Choi
+  orcid: 0000-0002-3352-3102
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/0000-0002-6892-1485/record
+  - https://pub.orcid.org/v3.0/0000-0002-0530-173X/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Seok-Weon+Choi%22+OR+%22%EC%B5%9C%EC%84%9D%EC%9B%90%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Seok-Weon+Choi%22+OR+%22Seok-Won+Choi%22+OR+%22Seok+Won+Choi%22&rows=100
+  - https://www.jstna.org/download/download_pdf?pid=jsta-1-1-41
+  - https://www.jstna.org/archive/view_article?pid=jsta-1-3-356
+  - https://pub.orcid.org/v3.0/0000-0002-3352-3102/record
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367120
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11163973
+  - https://www.riss.kr/link?id=A108363752
+  note: >-
+    기존 미확정을 보완했다. JSTNA 2021 공식 PDF 첫쪽에서 최석원/SeokWeon Choi의 ORCID를 직접 확인했다. ORCID 계정 이름은 Srokweon Choi로 오타가 있으나 KARI 영상체계개발부 경력 및 1992년 서울대 학위·KARI 입사 정보가 공식 논문 저자약력과 일치한다. 계정의 오타 이름은
+    출판물 aliases에 추가하지 않았다.
+  previous_note: Seok-Weon Choi/Seok-Won Choi/Seok Won Choi 변형 검색 후보 두 명의 공개 기록을 확인했다. 0000-0002-6892-1485는 소속·실적이 없고, 0000-0002-0530-173X는 간이식 임상 논문 실적이어서 대상 항공우주 연구자와 연결되지 않는다. 둘 모두
+    채택하지 않았다.
+- key: author-020
+  name: Sun-Hwa Shim
+  aliases:
+  - Sun-Hwa Shim
+  - 심선화
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sun-Hwa+Shim%22+OR+%22%EC%8B%AC%EC%84%A0%ED%99%94%22&rows=50
+  note: 동명 후보 중 전주대 연구자는 해당 천문우주 공동저자와 소속이 다르고, 다른 후보는 이름 외 정보가 없어 동일인 확인이 불가능합니다.
+- key: author-021
+  name: Yu-Hwan Ahn
+  aliases:
+  - Yu-Hwan Ahn
+  - 안유환
+  orcid: 0000-0002-2638-6656
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Yu-Hwan+Ahn%22+OR+%22%EC%95%88%EC%9C%A0%ED%99%98%22&rows=50
+  - https://api.crossref.org/works/10.1080/01431161.2017.1375619
+  - https://orcid.org/0000-0002-2638-6656
+  note: 발행사 제공 Crossref 저자 필드에 Yu-Hwan Ahn, ORCID 및 KIOST 해양위성센터 소속이 함께 명시되고 공개 프로필의 GOCI 실적이 일치합니다.
+- key: author-022
+  name: GeonWoo Lee
+  aliases:
+  - GeonWoo Lee
+  - 이건우
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/0000-0002-3344-0411/record
+  - https://api.crossref.org/works/10.5302/j.icros.2011.17.1.47
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22GeonWoo+Lee%22+OR+%22%EC%9D%B4%EA%B1%B4%EC%9A%B0%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Geon-Woo+Lee%22+AND+affiliation-org-name%3A%22Korea+Aerospace+Research+Institute%22&rows=100
+  note: >-
+    Geon-Woo Lee의 KARI 소속 조건을 추가 검색했으나 후보가 없었다. 제시된 0000-0002-3344-0411의 공개 프로필은 이름 이외의 소속·학력·실적이 없어 2011년 KARI 정밀 디지털지도 논문 저자와 동일인인지 검증할 수 없다. 유동인구 연구와 대상 GNSS 공동연구의 명확한 연결을 확보하지 못하여
+    미확정으로 종결했다.
+- key: author-023
+  name: Jun Bang
+  aliases:
+  - Jun Bang
+  - 방준
+  orcid: 0000-0003-2239-4699
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jun+Bang%22+OR+%22%EB%B0%A9%EC%A4%80%22&rows=50
+  - https://orcid.org/0000-0003-2239-4699
+  note: 공개 ORCID의 KARI 소속, KAIST 학력과 KPLO 비상궤적 등 다수 관련 실적을 대조했습니다.
+- key: author-024
+  name: JeongHo Cho
+  aliases:
+  - JeongHo Cho
+  orcid: 0000-0001-5162-1745
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.ki-it.com/xml/13225/13225.pdf
+  - https://ki-it.com/xml/44085/44085.pdf
+  - https://mycoordinates.org/transport-planning-in-korea/
+  - https://pub.orcid.org/v3.0/0000-0001-5162-1745/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22JeongHo+Cho%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jung-Ho+Cho%22+AND+affiliation-org-name%3A%22Korea+Aerospace+Research+Institute%22&rows=100
+  note: >-
+    KIIT 공식 2018 논문 첫 페이지에서 조정호/Jeongho Cho ORCID 0000-0001-5162-1745를 직접 확인했다. 같은 PDF p83 저자소개는 2004년 Florida 전기컴퓨터공학 박사, 2007~2014년 KARI 선임연구원, 2017년부터 순천향대 전기공학과 경력 및 GNSS·보강시스템 관심분야를
+    명시한다. 원 Coordinates2010의 Jung-Ho Cho는 KARI 위성항법부 선임연구원이며, 2025 KIIT 논문에서도 원 공동저자 이은성(KARI)과 조정호가 함께 저술하고 동일 ORCID를 명시하므로 동일인 확인했다.
+- key: author-025
+  name: 임성혁
+  aliases:
+  - 임성혁
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001740302
+  - https://orcid.org/0009-0000-2285-876X
+  - https://pub.orcid.org/v3.0/0009-0000-2285-876X/record
+  - https://orcid.org/0009-0008-0673-9822
+  - https://ksas.or.kr/wp/2022b/data/%28%EC%B2%A8%EB%B6%802%29%202022%20%EC%B6%94%EA%B3%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9E%84%EC%84%B1%ED%98%81%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sung-Hyuck+Im%22+OR+%22Sunghyuck+Im%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sung-Hyuck+Im%22&rows=100
+  note: >-
+    공식 KCI에서 임성혁=Sung-Hyuck Im, 한국항공우주연구원 소속 및 허문범과 GNSS 공동연구를 확인했다. 영문명 검색 후보 0009-0000-2285-876X에는 동일 이름과 한국항공우주연구원 소형발사체 부서가 있으나 공개 연구실적이 없고, 0009-0008-0673-9822도 동일 이름으로 조회된다. 학회
+    프로그램에서 임성혁의 소형발사체 연구도 확인했으나 특정 ORCID와 해당 공동연구의 직접 연결 근거가 없어 보수적으로 미확정 처리했다. 의학 분야 Sung Hyuk Lim과 혼동하지 않았다.
+- key: author-026
+  name: 염찬홍
+  aliases:
+  - 염찬홍
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001358673
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001436509
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%97%BC%EC%B0%AC%ED%99%8D%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Chan-Hong+Yeom%22+OR+%22Chanhong+Yeom%22&rows=100
+  note: 공식 KCI에서 Chan-Hong Yeom 영문명 및 한국항공우주연구원 소속을 확인하고 Chan-Hong Yeom/Chanhong Yeom 변형으로 ORCID 공개 검색을 실시했으나 후보를 찾지 못했다. 미발견은 ORCID 미보유를 의미하지 않는다.
+- key: author-027
+  name: 한지애
+  aliases:
+  - 한지애
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001564852
+  - https://kiss.kstudy.com/Detail/Ar?key=2932397
+  - https://pub.orcid.org/v3.0/0009-0003-1789-8670/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%ED%95%9C%EC%A7%80%EC%95%A0%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Ji+Ae+Han%22+OR+%22Jiae+Han%22&rows=100
+  note: 대상 차선 인식 논문의 KCI 및 발행 서지정보에서 Ji-Ae Han 영문명, 한국항공우주연구원 소속과 공동저자들을 확인했다. Jiae Han 후보 0009-0003-1789-8670은 공개 소속·연구실적이 전혀 없어 대상 연구자와 동일인인지 확인할 수 없다.
+- key: author-028
+  name: 홍운기
+  aliases:
+  - 홍운기
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001564852
+  - https://kiss.kstudy.com/Detail/Ar?key=2932397
+  - https://pub.orcid.org/v3.0/0000-0002-4244-8781/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%ED%99%8D%EC%9A%B4%EA%B8%B0%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Woon+Ki+Hong%22+OR+%22Woonki+Hong%22&rows=100
+  note: 대상 논문 서지정보에서 Woon-Ki Hong/Woon Ki Hong 영문명 및 한국항공우주연구원 소속을 확인했다. Woonki Hong 후보 0000-0002-4244-8781의 공개 프로필은 노동·인사관리 전공과 조직행동 연구실적이며 대상 GNSS 연구자와 일치하지 않아 제외했다.
+- key: author-029
+  name: 김현수
+  aliases:
+  - 김현수
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001564852
+  - https://kiss.kstudy.com/Detail/Ar?key=2932397
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%ED%98%84%EC%88%98%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Hyun+So+Kim%22+OR+%22Hyun-Soo+Kim%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Hyun-So+Kim%22&rows=100
+  note: 대상 차선 인식 논문에서 김현수 및 Hyun So Kim 표기를 확인했다. Hyun-So Kim 정확검색은 결과가 없으며 Hyun-Soo Kim 등 변형검색의 여러 동명이인 중 대상 한국항공우주연구원 GNSS 공동연구와 연결되는 ORCID는 확인하지 못했다.
+- key: author-030
+  name: 최광식
+  aliases:
+  - 최광식
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://api.crossref.org/works/10.5302/j.icros.2011.17.1.47
+  - https://www.ipnt.or.kr/history/2012_Program.pdf
+  - https://ipnt.or.kr/2022IPNT/file/P-13.pdf
+  - https://pub.orcid.org/v3.0/0000-0001-9066-5134/record
+  - https://pub.orcid.org/v3.0/0009-0001-0421-1273/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%B5%9C%EA%B4%91%EC%8B%9D%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Kwang+Sik+Choi%22+OR+%22Kwangsik+Choi%22&rows=100
+  note: >-
+    Crossref의 대상 논문에서 Kwang-Sik Choi, 학회 공식 프로그램에서 한국항공우주연구원 GNSS/SBAS 연구자임을 확인했다. 후보 0000-0001-9066-5134는 한국항공우주산업(KAI)·대한항공 경력과 레이돔/RCS 연구실적으로 대상 KARI 연구자와 구분하여 제외했다. 0009-0001-0421-1273은
+    이름만 공개되어 확인 불가이다.
+- key: author-031
+  name: 유주형
+  aliases:
+  - 유주형
+  orcid: 0000-0003-4514-5214
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003163004
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000992170
+  - https://sciwatch.kiost.ac.kr/researcher-profile?ep=101&type=all
+  - https://orcid.org/0000-0003-4514-5214
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9C%A0%EC%A3%BC%ED%98%95%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Joo+Hyung+Ryu%22&rows=100
+  note: KCI의 2024년 공식 논문에서 유주형/Joo-Hyung Ryu 옆 ORCID 링크가 해당 식별자로 연결됨을 직접 확인했다. 원래 2005년 논문의 한국해양연구원 소속과 KIOST 연구자 공식 프로필의 이름·원격탐사 연구·해당 sun-glint 연구실적이 일치한다. 정신의학 및 정형외과 동명이인 ORCID는
+    제외했다.
+- key: author-032
+  name: 박재우
+  aliases:
+  - 박재우
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000992170
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EB%B0%95%EC%9E%AC%EC%9A%B0%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jae-Woo+Park%22&rows=100
+  - >-
+    https://pub.orcid.org/v3.0/expanded-search/?q=%22Jaewoo+Park%22+AND+%28affiliation-org-name%3A%22Electronics+and+Telecommunications+Research+Institute%22+OR+affiliation-org-name%3AETRI%29&rows=100
+  note: 원 논문 KCI에서 Jae-Woo Park 영문명과 한국전자통신연구원 소속을 확인했다. Jae-Woo Park/Jaewoo Park 및 ETRI 소속 조건으로 공개 ORCID를 검색했으나 대상 연구와 연결된 후보는 확인하지 못했다. 한글 검색의 동명이인 후보를 그대로 채택하지 않았다.
+- key: author-033
+  name: 김병수
+  aliases:
+  - 김병수
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000992170
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EB%B3%91%EC%88%98%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Byoung-Soo+Kim%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Byoungsoo+Kim%22+OR+%22Byung+Soo+Kim%22+AND+affiliation-org-name%3AKISTEP&rows=100
+  note: 원 논문 KCI에서 Byoungsoo Kim/Byoung-Soo Kim 및 한국과학기술기획평가원 소속을 확인했다. 영문명 변형 및 KISTEP 조건 검색을 실시했으나 대상 논문 또는 소속을 연결할 수 있는 ORCID는 확인하지 못했다.
+- key: author-034
+  name: Stephen West
+  aliases:
+  - Stephen West
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Stephen+West%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=given-names%3AStephen+AND+family-name%3AWest&rows=100
+  - https://science.nasa.gov/wp-content/uploads/2023/11/west-see-1.pdf
+  - https://ntrs.nasa.gov/api/citations/20240010030/downloads/West_24-365_Slides_240805.pdf
+  note: ORCID 정확 이름 및 given/family 검색 후보의 소속·연구성과를 조사했다. SEE의 비행역학 연구자임은 NASA 공개 자료로 확인되지만, 공개 후보들은 타 분야이거나 식별 정보가 부족하여 동일인 ORCID를 확정하지 못했다. ORCID 미등록을 뜻하지 않는다.
+- key: author-035
+  name: Tiffany Finley
+  aliases:
+  - Tiffany Finley
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Tiffany+Finley%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=given-names%3ATiffany+AND+family-name%3AFinley&rows=100
+  - https://science.nasa.gov/wp-content/uploads/2023/11/west-see-1.pdf
+  - https://www.space-flight.org/docs/2022_summer/ASC22_FullProgram_Compiled.pdf
+  note: ORCID 정확 이름과 given-names:Tiffany/family-name:Finley 검색 모두 공개 후보를 찾지 못했다. NASA 공개 SEE 자료의 Principal Mission Systems Engineer와 대조했으나 해당 인물의 ORCID는 확인하지 못했다. 미등록을 단정하지 않는다.
+- key: author-036
+  name: Craig Nickel
+  aliases:
+  - Craig Nickel
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Craig+Nickel%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=given-names%3ACraig+AND+family-name%3ANickel&rows=100
+  - https://www.space-flight.org/docs/2022_summer/ASC22_FullProgram_Compiled.pdf
+  note: ORCID 정확 이름과 given-names:Craig/family-name:Nickel 검색 모두 공개 후보를 찾지 못했다. 공식 AAS 22-697 프로그램의 공동저자 목록과 대조했으나 해당 인물의 ORCID는 확인하지 못했다. 미등록을 단정하지 않는다.
+- key: author-037
+  name: Mike Loucks
+  aliases:
+  - Mike Loucks
+  orcid: 0000-0001-7770-5621
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://orcid.org/0000-0001-7770-5621
+  - https://pub.orcid.org/v3.0/0000-0001-7770-5621/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Mike+Loucks%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Michael+Loucks%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=family-name%3ALoucks&rows=100
+  - https://b612foundation.org/members/mike-loucks/
+  - https://pure.kaist.ac.kr/en/publications/trajectory-design-for-the-korea-pathfinder-lunar-orbiter/
+  note: >-
+    ORCID 등록 이름은 Michel Loucks이다. 공개 약력의 SEE 1995년 공동 창업, Whitman 물리·천문 학사와 Colorado 항공우주 석사, IBEX·LADEE 궤적 설계 경력이 B612 공식 Mike Loucks 소개와 일치한다. 공식 소개 본문도 Michel Loucks로 기재하여 Mike/Michel
+    표기 관계를 확인했다. 공개 works는 비어 있으므로 논문별 ORCID 직접 기재가 아닌 인물 식별 결과이다.
+- key: author-038
+  name: John Carrico
+  aliases:
+  - John Carrico
+  orcid: 0000-0002-9284-087X
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://orcid.org/0000-0002-9284-087X
+  - https://pub.orcid.org/v3.0/0000-0002-9284-087X/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22John+Carrico%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=family-name%3ACarrico&rows=100
+  - https://ntrs.nasa.gov/api/citations/20180006802/downloads/20180006802.pdf
+  - https://soma.larc.nasa.gov/lws/gdc/teaming.html
+  - https://b612foundation.org/members/john-carrico/
+  note: >-
+    ORCID의 John Paul Carrico Jr는 SEE Co-owner/CTO 및 B612 소속을 공개했다. NASA 원문 AAS 18-246의 John Carrico 저자 각주가 SEE Chief Technology Officer이며, NASA GDC 공식 페이지도 SEE 담당자를 John P. Carrico,
+    Jr.로 기재해 동일인을 확인했다. J.P. Carrico III에게 이 식별자를 확장 적용하면 안 된다. 공개 works에는 해당 발표가 없어 인물 식별 근거로 연결했다.
+- key: author-039
+  name: J.P. Carrico III
+  aliases:
+  - J.P. Carrico III
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22J.P.+Carrico+III%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22John+Paul+Carrico%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22J+P+Carrico%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22JP+Carrico%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=family-name%3ACarrico&rows=100
+  - https://www.linkedin.com/posts/space-exploration-engineering_see-seeaerospace-spaceexploration-activity-6988533949660553216-L4m0
+  - https://www.space-flight.org/docs/2019_summer/ASC2019_Program_Full.pdf
+  - https://pub.orcid.org/v3.0/0000-0002-9284-087X/record
+  note: >-
+    J.P. Carrico III, JP Carrico, John Paul Carrico 변형 및 Carrico 성 검색을 조사했으나 III의 ORCID를 확인하지 못했다. SEE의 공식 소개는 JP Carrico III를 UMBC 물리학사·Purdue 의학물리 석사 출신 Senior Aerospace Engineer로
+    명시한다. 공개 ORCID 0000-0002-9284-087X는 John Paul Carrico Jr/SEE CTO의 기록이므로 III에게 부여하지 않았다. 미등록을 단정하지 않는다.
+- key: author-040
+  name: Alisa Hawkins
+  aliases:
+  - Alisa Hawkins
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Alisa+Hawkins%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=given-names%3AAlisa+AND+family-name%3AHawkins&rows=100
+  - https://www.space-flight.org/docs/2019_summer/ASC2019_Program_Full.pdf
+  - https://www.space-flight.org/docs/2023_winter/33rdSFFM-Full_Program_Abstracts.pdf
+  note: ORCID 정확 이름과 given-names:Alisa/family-name:Hawkins 검색 모두 공개 후보를 찾지 못했다. 공식 AAS 19-865와 후속 AAS 프로그램의 동명 공동저자를 대조했으나 해당 인물의 ORCID는 확인하지 못했다. 미등록을 단정하지 않는다.
+- key: author-041
+  name: Diane C. Davis
+  aliases:
+  - Diane C. Davis
+  orcid: '0009-0009-3658-7329'
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://orcid.org/0009-0009-3658-7329
+  - https://pub.orcid.org/v3.0/0009-0009-3658-7329/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Diane+C.+Davis%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Diane+Davis%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Diane+Cimpean+Davis%22&rows=100
+  - https://engineering.tamu.edu/aerospace/profiles/davis-diane.html
+  - https://news.engineering.tamu.edu/news/2026/05/09/nasa-engineer-joins-texas-am-faculty/
+  - https://ntrs.nasa.gov/api/citations/20180006802/downloads/20180006802.pdf
+  note: >-
+    Diane Davis 변형 검색으로 찾은 공개 ORCID의 Texas A&M University Aerospace Engineering Associate Professor 소속·직함을 공식 대학 프로필과 대조했다. 공식 프로필의 D. C. Davis 궤도역학 논문 및 NASA 경력, 대학의 NASA Gateway 임무설계
+    담당자 영입 기사로 AAS 18-246의 Diane C. Davis와 연결했다. 다른 동명 의료·상담·원자력 분야 후보는 제외했다. ORCID 공개 works는 비어 있어 인물 식별 결과이며 2018년 논문 원문의 ORCID 직접 기재는 아니다.
+- key: author-042
+  name: Ryan Whitley
+  aliases:
+  - Ryan Whitley
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Ryan+Whitley%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Ryan+J+Whitley%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=given-names%3ARyan+AND+family-name%3AWhitley&rows=100
+  - https://pub.orcid.org/v3.0/0000-0002-7468-472X/record
+  - https://ntrs.nasa.gov/api/citations/20180006802/downloads/20180006802.pdf
+  note: >-
+    정확 이름 및 given/family 검색에서 나온 ORCID 0000-0002-7468-472X는 럭비 프리시즌 저항훈련 논문(10.47206/ijsc.v2i1.151)을 공개하여 NASA 궤적설계 공동저자와 매칭하지 않았다. Ryan J Whitley 변형 검색도 조사했다. NASA AAS 18-246 원문의 NASA
+    Johnson Space Center 소속과 일치하는 ORCID를 확인하지 못했으며 미등록을 단정하지 않는다.
+- key: author-043
+  name: Gerald Condon
+  aliases:
+  - Gerald Condon
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Gerald+Condon%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=given-names%3AGerald+AND+family-name%3ACondon&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jerry+Condon%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Gerry+Condon%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Gerald+L+Condon%22&rows=100
+  - https://ntrs.nasa.gov/api/citations/20170004980/downloads/20170004980.pdf
+  - https://pure.kaist.ac.kr/en/publications/trajectory-design-for-the-korea-pathfinder-lunar-orbiter/
+  note: >-
+    Gerald Condon, given/family, Gerald L Condon, Jerry Condon, Gerry Condon 변형 검색에서 공개 ORCID 후보를 찾지 못했다. NASA의 NASA/KARI 임무설계 발표에서 Gerald Condon의 NASA JSC Flight Mechanics and Trajectory
+    Design Branch 소속을 확인했지만 해당 인물의 ORCID는 확인하지 못했다. 미등록을 단정하지 않는다.
+- key: author-044
+  name: Se-jin Kwon
+  aliases:
+  - Se-jin Kwon
+  orcid: 0000-0003-0891-0386
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://orcid.org/0000-0003-0891-0386
+  - https://pub.orcid.org/v3.0/0000-0003-0891-0386/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Se-jin+Kwon%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sejin+Kwon%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Se-Jin+Kwon%22&rows=100
+  - https://engineering.kaist.ac.kr/people/faculty?dept=&gubun=&gubun_lang=en&keyword=&kind=&page=24&research_area=&sust=&sust_all=all
+  - https://pure.kaist.ac.kr/en/publications/trajectory-design-for-the-korea-pathfinder-lunar-orbiter/
+  note: >-
+    ORCID SEJIN KWON의 공개 약력은 항공우주공학 교수·로켓/항공 연료전지 연구이며 연구자 홈페이지가 rocket.kaist.ac.kr이다. KAIST 공식 교수 명부의 Se Jin Kwon, Aerospace Engineering, 동일 연구실 URL 및 KPLO 발표의 KAIST 저자 정보와 대조해 확인했다.
+    동명 전산·의료 분야 후보를 제외했다. 공개 works는 비어 있어 인물 식별 근거로 연결했다.
+- key: author-045
+  name: Kang-Sik Choi
+  aliases:
+  - Kang-Sik Choi
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Kang-Sik+Choi%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Kangsik+Choi%22&rows=100
+  - https://pub.orcid.org/v3.0/0009-0007-9761-9385/record
+  - https://pub.orcid.org/v3.0/0000-0002-0918-7022/record
+  - https://sites.google.com/view/dr-space/publications
+  note: >-
+    Kang-Sik Choi 검색 후보 0009-0007-9761-9385는 공개 소속·약력·works가 없어 동명이인 여부를 판별할 수 없었다. Kangsik Choi 변형의 0000-0002-0918-7022는 경제학 연구성과와 대학 소속으로 GPS 도로 차선 인식 공동저자와 매칭하지 않았다. 원문 저자와 연결되는 ORCID를
+    확인하지 못했으며 미등록을 단정하지 않는다.
+- key: author-046
+  name: Young-Ho Cho
+  aliases:
+  - 조영호
+  - Young-Ho Cho
+  - Young Ho Cho
+  orcid: '0009-0001-7961-0092'
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%A1%B0%EC%98%81%ED%98%B8%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Young+Ho+Cho%22+OR+%22Young-Ho+Cho%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Youngho+Cho%22&rows=100
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  - https://www.riss.kr/link?id=A108421717
+  - https://www.riss.kr/link?id=A108647713
+  - https://www.riss.kr/link?id=A108873931
+  note: 기존 미확정을 보완했다. JASS 2024 KPLO Operation Design and Results 공식 PDF의 KARI 소속 및 59쪽 ORCIDs 목록이 Young-Ho Cho의 식별자를 직접 기재한다. 신규 다누리 임무 운영 발표의 조영호·전문진 공저자와 기존 KSSS의 Young Ho Cho 표기를
+    대조했다.
+  previous_note: 2021년 한국우주과학회 발표자료에서 한국항공우주연구원 조영호의 영문 이름 Young Ho Cho를 확인했다. ORCID 한글 및 영문 변형 이름 검색과 공개 후보 레코드를 대조했으나 항우연 소속·해당 연구실적과 연결되는 공개 근거를 확인하지 못했다. 이름만 일치하는 후보는 채택하지 않았다.
+- key: author-047
+  name: 김응현
+  aliases:
+  - 김응현
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001936722
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%9D%91%ED%98%84%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Eunghyun+Kim%22+OR+%22Eung+Hyun+Kim%22&rows=100
+  note: KCI의 STSAT-1 논문에서 김응현/Eunghyun Kim과 한국항공우주연구원 소속을 확인했으나 해당 저자의 ORCID 표기는 없다. ORCID 한글·영문 변형 검색 후보는 의학 분야 소속이거나 공개 소속·실적이 없어 동일인으로 확정하지 않았다.
+- key: author-048
+  name: 구철회
+  aliases:
+  - 구철회
+  orcid: 0000-0002-7180-1476
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.ki-it.com/xml/48201/48201.pdf
+  - https://orcid.org/0000-0002-7180-1476
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B5%AC%EC%B2%A0%ED%9A%8C%22&rows=50
+  note: 한국정보기술학회 발행 논문 첫 페이지가 구철회/Cheol Hea Koo, 한국항공우주연구원 책임연구원 및 해당 ORCID를 직접 연결한다.
+- key: author-049
+  name: 임성빈
+  aliases:
+  - 임성빈
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001936722
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9E%84%EC%84%B1%EB%B9%88%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Seong-Bin+Lim%22+OR+%22Seongbin+Lim%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Seong+Bin+Lim%22&rows=100
+  note: KCI의 STSAT-1 논문에서 임성빈/Seong-Bin Lim과 한국항공우주연구원 소속을 확인했으나 해당 저자의 ORCID 표기는 없다. 한글 동명 ORCID 0000-0002-9053-4940은 공개 소속·실적이 없고, 영문 검색 후보와도 항우연 연구자를 연결할 근거가 없어 미확인으로 남겼다.
+- key: author-050
+  name: 이우섭
+  aliases:
+  - 이우섭
+  orcid: 0000-0002-1813-9348
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002451671
+  - https://orcid.org/0000-0002-1813-9348
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9D%B4%EC%9A%B0%EC%84%AD%22&rows=50
+  note: KCI의 달 탐사 로버 논문(2019)에서 이우섭/Lee Woosub의 저자 링크 바로 옆에 해당 ORCID가 명시되고 소속은 한국과학기술연구원으로 확인된다.
+- key: author-051
+  name: 조진호
+  aliases:
+  - 조진호
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001681882
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%A1%B0%EC%A7%84%ED%98%B8%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jinho+Jo%22+OR+%22Jin+Ho+Cho%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Jin+Ho+Jo%22+OR+%22Jin-Ho+Jo%22&rows=100
+  note: KCI의 천리안위성 Ka대역 안테나 논문에서 조진호/Jin Ho JO와 한국전자통신연구원 소속을 확인했으나 ORCID 표기는 없다. Jin Ho Jo/Jin-Ho Jo 공개 ORCID 검색은 0건이며 한글 동명 레코드 0000-0002-9195-2335는 소속·실적이 공개되지 않아 동일인으로 확정하지 않았다.
+- key: author-052
+  name: 손광재
+  aliases:
+  - 손광재
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002272791
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%86%90%EA%B4%91%EC%9E%AC%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Kwang+Jae+Son%22+OR+%22Kwang-Jae+Son%22&rows=100
+  note: KCI의 Ni-63 베타전지 선원 논문에서 손광재/Kwang Jae Son과 한국원자력연구원 소속을 확인했으나 해당 저자의 ORCID 표기는 없다. 영문 이름 검색의 0000-0002-1459-5645는 공개 소속·실적·외부 연결이 없어 이름만으로 채택하지 않았다.
+- key: author-053
+  name: 김진주
+  aliases:
+  - 김진주
+  orcid: 0000-0002-2635-7767
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002272791
+  - https://orcid.org/0000-0002-2635-7767
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%A7%84%EC%A3%BC%22&rows=50
+  note: KCI의 Ni-63 베타전지 선원 논문(2017)에서 김진주/Jinju Kim과 해당 ORCID가 직접 연결된다. 한국원자력연구원 소속 및 공동저자 손광재를 함께 대조했다.
+- key: author-054
+  name: 천세범
+  aliases:
+  - 천세범
+  orcid: 0000-0003-1367-7734
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002530718
+  - https://orcid.org/0000-0003-1367-7734
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%B2%9C%EC%84%B8%EB%B2%94%22&rows=50
+  note: KCI의 GLONASS 궤도수치적분 논문(2019)에서 천세범/Sebum Chun의 해당 ORCID와 한국항공우주연구원 소속이 명시된다.
+- key: author-055
+  name: 손민혁
+  aliases:
+  - 손민혁
+  orcid: 0000-0003-4250-0006
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002723489
+  - https://orcid.org/0000-0003-4250-0006
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%86%90%EB%AF%BC%ED%98%81%22&rows=50
+  note: KCI의 KASS KRS 인프라 논문(2021)에서 손민혁/Minhyuk Son의 해당 ORCID와 한국항공우주연구원 소속이 명시된다. 화학 분야 동명이인과 구별했다.
+- key: author-056
+  name: 김규헌
+  aliases:
+  - 김규헌
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001736507
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EA%B7%9C%ED%97%8C%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Kyu+Heon+Kim%22+OR+%22Kyuheon+Kim%22+OR+%22Gyuheon+Kim%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Gyu+Heon+Kim%22+OR+%22Gyu-Heon+Kim%22&rows=100
+  note: KCI의 다중 수신국 GNSS 데이터 송수신 논문(2012)에서 김규헌과 한국항공우주연구원 소속 및 손민혁·이은성·허문범 공동저자를 확인했으나 ORCID 표기는 없다. 한글·영문 변형 이름 검색에서 항우연 GNSS 연구와 연결되는 공개 근거를 찾지 못했다. 경희대학교 방송공학 및 식품 분야 동명이인 ID는 제외했다.
+- key: author-057
+  name: 원대희
+  aliases:
+  - 원대희
+  orcid: 0000-0003-3183-1352
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002754618
+  - https://orcid.org/0000-0003-3183-1352
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001716924
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9B%90%EB%8C%80%ED%9D%AC%22&rows=50
+  note: KCI의 KASS Control Station 검증 논문(2021)에서 원대희/Won, Daehee의 해당 ORCID와 한국항공우주연구원 소속이 명시된다. GNSS 공동저자 이은성과 연구 연속성을 대조했으며 한국생산기술연구원 로봇 분야 동명이인 ID는 제외했다.
+- key: author-058
+  name: 이영재
+  aliases:
+  - 이영재
+  orcid: 0000-0002-9203-048X
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001716924
+  - https://orcid.org/0000-0002-9203-048X
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9D%B4%EC%98%81%EC%9E%AC%22&rows=50
+  note: KCI의 GPS Carrier Phase Fault Detection 논문(2012)에서 이영재/Young Jae Lee의 해당 ORCID와 건국대학교 소속이 명시된다. 원대희·안종선·성상경 공동저자를 함께 대조했다.
+- key: author-059
+  name: 안종선
+  aliases:
+  - 안종선
+  orcid: 0000-0002-5432-4436
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002530718
+  - https://orcid.org/0000-0002-5432-4436
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001716924
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%95%88%EC%A2%85%EC%84%A0%22&rows=50
+  note: KCI의 GLONASS 궤도수치적분 논문(2019)에서 안종선/Jongsun Ahn의 해당 ORCID와 한국항공우주연구원 소속이 명시된다. 이전 건국대학교 GPS 논문의 공동저자 연결도 확인했다.
+- key: author-060
+  name: 성상경
+  aliases:
+  - 성상경
+  orcid: 0000-0002-0867-8428
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001716924
+  - https://orcid.org/0000-0002-0867-8428
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%84%B1%EC%83%81%EA%B2%BD%22&rows=50
+  note: KCI의 GPS Carrier Phase Fault Detection 논문(2012)에서 성상경/Sangkyung Sung의 해당 ORCID와 건국대학교 소속이 명시된다. 원대희·안종선·이영재 공동저자를 함께 대조했다.
+- key: author-061
+  name: 이병선
+  aliases:
+  - 이병선
+  orcid: 0000-0003-1798-7684
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://orcid.org/0000-0003-1798-7684
+  - https://pub.orcid.org/v3.0/0000-0003-1798-7684/record
+  - https://ksp.etri.re.kr/ksp/article/file/46048.pdf
+  - https://www.jstage.jst.go.jp/article/tjsass/62/4/62_T-18-18/_article/-char/en
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9D%B4%EB%B3%91%EC%84%A0%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Byoung-Sun+Lee%22&rows=100
+  note: >-
+    공개 ORCID 기록의 Byoung-Sun Lee는 ETRI Aerospace Systems Research Section 경력(1989~2025), 연세대학교 천문우주과학 박사, 위성 궤도결정·지상시스템 연구 키워드와 52개 연구실적을 공개하고 있다. 실적 중 COMS 단일 지상국 궤도결정 논문(10.4218/etrij.08.0108.0152)은
+    ETRI 공식 원문에서 황유라·이병선 공동저자 및 ETRI 소속이 일치한다. 동일 영문명의 고분자 연구자 후보는 제외했다.
+- key: author-062
+  name: 황유라
+  aliases:
+  - 황유라
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://ksp.etri.re.kr/ksp/article/file/46048.pdf
+  - https://www.jstage.jst.go.jp/article/tjsass/62/4/62_T-18-18/_article/-char/en
+  - https://pub.orcid.org/v3.0/0000-0002-3403-1847/record
+  - https://onlinelibrary.wiley.com/doi/10.1155/2020/7358286
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%ED%99%A9%EC%9C%A0%EB%9D%BC%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Yoola+Hwang%22&rows=100
+  note: >-
+    ETRI 공식 논문 및 J-STAGE에서 Yoola Hwang 영문명·ETRI 소속·이병선과의 공동연구를 확인했다. 같은 이름의 ORCID 0000-0002-3403-1847은 소속 및 연구실적이 모두 비공개/미등록으로 동일인 확인 근거가 없다. Wiley 2020 논문의 ORCID 0000-0001-5208-9041은
+    공동저자 Kyoung-Min Roh의 것이므로 황유라에게 부여하지 않았다.
+- key: author-063
+  name: 김남균
+  aliases:
+  - 김남균
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001254270
+  - https://pub.orcid.org/v3.0/0000-0002-1573-8046/record
+  - https://pub.orcid.org/v3.0/0000-0001-7017-280X/record
+  - https://pub.orcid.org/v3.0/0000-0001-9276-6799/record
+  - https://pub.orcid.org/v3.0/0000-0002-1082-7736/record
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EB%82%A8%EA%B7%A0%22&rows=50
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Nam-Gyun+Kim%22+OR+%22Namkyun+Kim%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Nam-Kyun+Kim%22&rows=100
+  note: >-
+    공식 KCI에서 Nam-Kyun Kim 영문명, 연세대학교 및 최규홍·박상영·김영록과 위성군 설계 공동연구를 확인했다. Nam-Kyun/Namkyun/Nam-Gyun 변형으로 검색했으나 해당 공동연구에 연결되는 ORCID를 확인하지 못했다. 연세대 경력이 있는 0000-0002-1573-8046은 의학·병리학 분야이고,
+    나머지 이름만 공개된 후보들도 확정할 수 없어 제외했다.
+- key: author-064
+  name: Jae-In Kim
+  aliases:
+  - Jae-In Kim
+  - 김재인
+  - Jae In Kim
+  orcid: 0000-0003-0813-8808
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/0000-0003-0813-8808/record
+  - https://kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002922806
+  - https://e-sciencecentral.org/upload/KJRS/pdf/kjrs-38-6-1-1015.pdf
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  note: 공개 ORCID에 KARI 선임연구원(2021년~) 경력과 화성 지형상대항법 논문 DOI 10.7780/kjrs.2022.38.6.1.3이 있다. 해당 공식 논문의 김재인/Jae-In Kim, KARI KPS위성개발부 소속과 주제를 대조했다. 신규 KSSS 자료의 Jae In Kim도 같은 KARI 공저자다.
+- key: author-065
+  name: Dae-Yeong Kim
+  aliases:
+  - Dae-Yeong Kim
+  - 김대영
+  - Dae-Young Kim
+  - Dae Yeong Kim
+  orcid: 0000-0002-0409-3262
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-2-1-52
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  note: JSTNA 2022 공식 논문 첫쪽에 김대영/Dae-Yeong Kim, KARI 소속과 저자별 ORCID가 직접 기재된다. 신규 KSSS 화성 탐사 자료의 Dae-Young Kim 및 Dae Yeong Kim은 동일 KARI 공동연구 저자 표기로 대조했다.
+- key: author-066
+  name: Min-Ki Kim
+  aliases:
+  - Min-Ki Kim
+  - 김민기
+  - Min Ki Kim
+  orcid: 0000-0003-1167-6658
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-3-1-72
+  - https://www.jstna.org/download/download_pdf?pid=jsta-6-2-196
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  note: JSTNA 2023 나노위성 전개스위치 논문과 2026 궤도이탈 장치 논문의 첫쪽에서 김민기/Min-Ki Kim/Min Ki Kim, KARI 소속, 동일 ORCID를 직접 확인했다.
+- key: author-067
+  name: Jungju Bae
+  aliases:
+  - Jungju Bae
+  - 배정주
+  - Jung-Ju Bae
+  orcid: 0000-0003-4397-5740
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/0000-0003-4397-5740/record
+  - https://api.crossref.org/works/10.1016%2Fj.ast.2026.111779
+  - https://www.sciencedirect.com/science/article/pii/S1270963826001604
+  - https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602235944791789
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193028
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  note: >-
+    Elsevier의 화성 태양돛 논문(10.1016/j.ast.2026.111779) Crossref 저자 메타데이터에 Jungju Bae의 ORCID가 명시되며 공개 ORCID에도 같은 논문이 있다. 일본 JST 공식 서지정보의 KARI Space Exploration Research Center 소속, KCI의 배정주/Jungju
+    Bae 한영 표기와 신규 KSSS 태양돛·화성 공저자 소속을 함께 대조했다. 해양시설 분야 Bea Jungju 동명이인은 제외했다.
+- key: author-068
+  name: Seung-ryeol Oh
+  aliases:
+  - Seung-ryeol Oh
+  - 오승렬
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%98%A4%EC%8A%B9%EB%A0%AC%22+OR+%22Seung-ryeol+Oh%22+OR+%22Seungryeol+Oh%22+OR+%22Seung-Ryul+Oh%22&rows=100
+  - https://pub.orcid.org/v3.0/0000-0002-5710-3946/record
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  note: 공식 KSSS 및 DBpia 신규 화성 자료의 오승렬/Seung-ryeol Oh와 KARI 소속을 확인했다. ORCID 변형 이름 검색의 Seung Ryeol Oh 후보는 공개 소속·실적이 모두 없어 동일인으로 확정하지 않았다. 운동생리·중국경제 분야 동명이인은 별개이다.
+  candidate_orcids:
+  - 0000-0002-5710-3946
+- key: author-069
+  name: Jeong Heum Im
+  aliases:
+  - Jeong Heum Im
+  - 임정흠
+  - Jeongheum Im
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9E%84%EC%A0%95%ED%9D%A0%22+OR+%22Jeong+Heum+Im%22+OR+%22Jeongheum+Im%22+OR+%22Jungheum+Im%22&rows=100
+  - https://pub.orcid.org/v3.0/0009-0007-7622-1415/record
+  - https://www.sfb1667.uni-stuttgart.de/news/A-visit-from-KARI/
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  note: KSSS의 임정흠/Jeong Heum Im과 슈투트가르트대 공식 방문 기사에 있는 KARI Jeongheum Im을 대조했다. 후보 ORCID에 동일 영문명과 KARI 소속은 있으나 공개 논문·학력·저자 직접 연결이 없으므로 엄격한 동일인 기준에 따라 미확정으로 남겼다.
+  candidate_orcids:
+  - '0009-0007-7622-1415'
+- key: author-070
+  name: Choon Woo Lee
+  aliases:
+  - Choon Woo Lee
+  - 이춘우
+  - Chun-Woo Lee
+  orcid: '0009-0005-5208-7149'
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-6-2-196
+  - https://www.sfb1667.uni-stuttgart.de/news/A-visit-from-KARI/
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
+  - https://www.riss.kr/link?id=A110452703
+  note: JSTNA 2026 궤도이탈 장치 논문 첫쪽에 이춘우/Choon Woo Lee, KARI 소속과 ORCID가 직접 기재된다. 신규 KSSS의 Chun-Woo Lee 변형도 동일 KARI 시스템/태양돛 공동연구자로 대조했다.
+- key: author-071
+  name: Sangil Ahn
+  aliases:
+  - Sangil Ahn
+  - 안상일
+  - Sang Il Ahn
+  - Sang-il Ahn
+  orcid: 0000-0002-5589-3083
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-2-2-137
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002153097
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%95%88%EC%83%81%EC%9D%BC%22+OR+%22Sang+Il+Ahn%22+OR+%22Sang-il+Ahn%22+OR+%22Sangil+Ahn%22&rows=100
+  - https://conf.kics.or.kr/2026w/downloadProgram?type=program
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12738254
+  - https://www.riss.kr/link?id=A110268793
+  note: JSTNA 2022 IOAG 국제표준화 논문 첫쪽에 안상일/Sangil Ahn, KARI 소속과 ORCID가 직접 기재된다. KCI 항공우주 논문의 sang il ahn 표기를 함께 확인했다. 의학 및 성균관대 영상학습·서강대 물리학 동명이인 ORCID는 채택하지 않았다.
+- key: author-072
+  name: Moon-Jin Jeon
+  aliases:
+  - Moon-Jin Jeon
+  - 전문진
+  orcid: '0009-0009-7649-459X'
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  - https://ksss.or.kr/society/tksss/file/download/12212?view=1
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180726
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439221
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11622715
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  - https://www.riss.kr/link?id=A108421717
+  - https://www.riss.kr/link?id=A108647713
+  - https://www.riss.kr/link?id=A108873931
+  - https://www.riss.kr/link?id=A109564734
+  note: JASS 2024 KPLO Operation Design and Results 공식 PDF의 KARI 저자 정보와 59쪽 저자별 ORCID를 직접 확인했다. 신규 다누리 운영 발표의 전문진 및 신규 KSSS Moon-Jin Jeon과 연구주제·공저자가 일치한다.
+- key: author-073
+  name: Hyun-Jin Shin
+  aliases:
+  - Hyun-Jin Shin
+  - 신현진
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%8B%A0%ED%98%84%EC%A7%84%22+OR+%22Hyun-Jin+Shin%22+OR+%22Hyunjin+Shin%22+OR+%22Hyeon-Jin+Shin%22&rows=100
+  - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  - https://www.riss.kr/link?id=A109564734
+  note: >-
+    KSSS 공식 2019 회보의 KARI Hyun-Jin Shin과 신규 L4 시스템 연구의 신현진 소속을 확인했다. ORCID 한영변형 검색 17명과 공개 가능한 후보 실적을 대조했으나 KARI 위성 시험·시스템 연구로 연결되는 계정은 찾지 못했다. 의학·반도체·수의학 등 명백한 동명이인은 제외했고, 공개 정보가 없는
+    후보는 채택하지 않았다.
+- key: author-074
+  name: Changkyoon Kim
+  aliases:
+  - Changkyoon Kim
+  - 김창균
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%B0%BD%EA%B7%A0%22+OR+%22Chang-Kyun+Kim%22+OR+%22Chang-Gyun+Kim%22+OR+%22Changkyun+Kim%22&rows=100
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Changkyoon+Kim%22+OR+%22Chang+Kyoon+Kim%22&rows=100
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002086084
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  - https://www.riss.kr/link?id=A108421184
+  - https://www.riss.kr/link?id=A109564734
+  note: KCI 달 궤도선 가시성 논문에서 김창균/Changkyoon Kim 및 KARI 소속을 확인했다. Changkyoon 변형 ORCID 검색은 0건이며 Chang-Kyun/Chang-Gyun 등의 6개 후보는 의료로봇·생물·병원 연구 또는 소속·실적 공란으로 KARI 달탐사 저자와 연결되지 않았다.
+- key: author-075
+  name: Sang-Man Moon
+  aliases:
+  - Sang-Man Moon
+  - 문상만
+  - Sangman Moon
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EB%AC%B8%EC%83%81%EB%A7%8C%22+OR+%22Sang-Man+Moon%22+OR+%22Sang+Man+Moon%22+OR+%22Sangman+Moon%22&rows=100
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002086084
+  - https://ksss.or.kr/society/tksss/file/download/12070?view=1
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12062439
+  - https://www.riss.kr/link?id=A108421184
+  - https://www.riss.kr/link?id=A109564734
+  note: KCI와 KSSS에서 문상만/Sang-Man Moon/Sangman Moon의 KARI 달탐사 통신 연구를 확인했다. 한글 및 영문 세 변형 ORCID 검색 결과는 0건이었으며 공개 논문에서 직접 식별자도 찾지 못했다. ORCID 미보유를 뜻하지는 않는다.
+- key: author-076
+  name: Hyeon-Cheol Lee
+  aliases:
+  - Hyeon-Cheol Lee
+  - 이현철
+  orcid: 0000-0002-0585-9717
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/0000-0002-0585-9717/record
+  - https://www.jkiees.org/archive/view_article?pid=jkiees-33-10-790
+  - https://journal.kics.or.kr/digital-library/manuscript/file/36109/NODE07064263.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11181152
+  - https://www.riss.kr/link?id=A108421184
+  note: 공개 ORCID에 KARI 책임연구원 경력과 10.5515/KJKIEES.2022.33.10.790 실적이 있으며, 해당 공식 학회 논문에서 이현철/Hyeon-Cheol Lee 및 KARI 위성탑재체연구부 소속을 확인했다. 공식 KICS 약력의 1995년 이후 KARI 경력과 신규 문상만·김창균 공동연구도 일치한다.
+- key: author-077
+  name: 석정철
+  aliases:
+  - 석정철
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - >-
+    https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%84%9D%EC%A0%95%EC%B2%A0%22+OR+%22Jeong-Cheol+Seok%22+OR+%22Jung-Chul+Suk%22+OR+%22Jung-Chul+Seok%22+OR+%22Jungcheol+Seok%22&rows=100
+  - https://ksas.or.kr/wp/2021a/SessionPaperList.asp?code=1376
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  - https://www.riss.kr/link?id=A107879020
+  note: KSAS 공식 2021 발표 목록에서 석정철의 쎄트렉아이 소속 및 김영록·박재익 등 공저자를 확인했다. 한글 및 영문 예상 표기 변형 ORCID 검색은 0건이고, 공식 영문명 확정 자료도 찾지 못해 예상 영문명을 aliases로 채택하지 않았다.
+- key: author-078
+  name: Un-seob Lee
+  aliases:
+  - Un-seob Lee
+  - 이운섭
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9D%B4%EC%9A%B4%EC%84%AD%22+OR+%22Woon-Seop+Lee%22+OR+%22Un-Seob+Lee%22+OR+%22Un-Seop+Lee%22+OR+%22Woonseop+Lee%22&rows=100
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001608689
+  - https://ksas.or.kr/wp/2021a/SessionPaperList.asp?code=1376
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613625
+  - https://www.riss.kr/link?id=A107879020
+  note: KCI/JASS 2011 지구획득 알고리듬 논문에서 이운섭/Un-seob Lee와 쎄트렉아이 소속을 확인했다. 신규 KSAS 발표의 소속과 일치한다. 한영 변형 ORCID 검색에서 후보를 찾지 못했으며 의학 분야 동명이인은 제외했다.
+- key: author-079
+  name: Gi-Hyuk Choi
+  aliases:
+  - Gi-Hyuk Choi
+  - 최기혁
+  orcid: 0000-0001-8862-7809
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-2-1-52
+  - https://ksss.or.kr/homepage/custom/d_conference
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
+  note: JSTNA 2022 한국 심우주탐사 로드맵 논문 첫쪽에 최기혁/Gi-Hyuk Choi, KARI 소속과 ORCID가 직접 명시된다.
+- key: author-080
+  name: Inkyu Kim
+  aliases:
+  - Inkyu Kim
+  - In Kyu Kim
+  - 김인규
+  orcid: 0000-0002-3832-8736
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/0000-0002-3832-8736/record
+  - https://api.crossref.org/works/10.3390%2Felectronics13153088
+  - https://pure.kaist.ac.kr/en/publications/operational-tests-for-delay-tolerant-network-between-the-moon-and/
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002086084
+  - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2020_fall.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  note: >-
+    기존 registry에는 김인규 그룹이 없다. 2024 KPLO 지연허용통신 논문의 출판사 Crossref 메타데이터가 Inkyu Kim의 ORCID와 KARI/KAIST 소속을 직접 명시하며 ORCID 공개실적도 같은 DOI이다. KCI 달 궤도선 가시성 논문에서 김인규/Kim inkyu KARI 소속을 확인했고 2020
+    KPLO 지상국 추적 발표의 In Kyu Kim과 연결했다.
+- key: author-081
+  name: Sung-Woo Kim
+  aliases:
+  - Sung-Woo Kim
+  - 김성우
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-02'
+  sources:
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sung-Woo+Kim%22+OR+%22Sungwoo+Kim%22&rows=1000
+  - https://pub.orcid.org/v3.0/expanded-search/?q=affiliation-org-name%3A%22TelePIX%22&rows=1000
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%28%22Sung-Woo+Kim%22+OR+%22Sungwoo+Kim%22%29+AND+%28satellite+OR+spacecraft+OR+TelePIX+OR+%22Sang-Young+Park%22%29&rows=1000
+  - https://ksas.or.kr/wp/2023c/SessionPaperList.asp?code=1814
+  - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  note: >-
+    KSSS 2023 공식 L4 초록에서 TelePIX 소속 Sung-Woo Kim, KSAS 공식 목록에서 텔레픽스 김성우를 확인했다. 이름 검색 후보 51개 및 TelePIX 소속 검색 3개를 대조하고 위성·공동연구 조건을 추가 검색했으나 해당 연구자와 연결되는 ORCID를 확인하지 못했다. 연세대 경력을 포함하는 후보
+    0000-0001-7492-3877도 공개 논문이 없어 채택하지 않았다.
+- key: author-082
+  name: Junga Hwang
+  aliases:
+  - Junga Hwang
+  orcid: 0000-0002-6862-5854
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-1
+  - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  note: JASS 2024 L4 현장측정 과학임무 논문의 첫쪽 KASI 소속과 11쪽 저자별 ORCID를 직접 확인했다. 신규 KSSS 2023 L4 발표의 동일 이름·소속·주제·Kyung-Suk Cho 공저자가 일치한다.
+- key: author-083
+  name: Kyung-Suk Cho
+  aliases:
+  - Kyung-Suk Cho
+  orcid: 0000-0003-2161-9606
+  status: verified
+  checked_on: '2026-10-02'
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-1
+  - https://ksss.or.kr/society/tksss/file/download/12158?view=1
+  note: JASS 2024 L4 현장측정 과학임무 논문의 첫쪽 KASI 소속과 11쪽 저자별 ORCID를 직접 확인했다. 신규 KSSS 2023 L4 발표의 동일 이름·소속·주제·Junga Hwang 공저자가 일치한다.
+- key: author-084
+  name: Jongdeok Kim
+  aliases:
+  - Jongdeok Kim
+  - 김종덕
+  orcid: '0009-0008-8547-3443'
+  status: verified
+  sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  - https://sites.google.com/view/hoonkyung/members
+  - https://www.konkuk.ac.kr/bbs/caku/4011/1194123/download.do
+  - https://journals.aps.org/prmaterials/abstract/10.1103/82kc-pt11
+  - https://api.crossref.org/works/10.1103%2F82kc-pt11
+  - https://orcid.org/0009-0008-8547-3443
+  note: >-
+    SASE 2026의 김종덕은 건국대 공식 연구실 안전자료에서 이훈경 전자구조연구실 소속으로 확인된다. 이훈경 연구실 Members에 Jongdeok Kim 박사과정이 명시된다. APS 2025 논문 10.1103/82kc-pt11은 Jongdeok Kim·Hoonkyung Lee의 건국대 물리학과 공동논문이고 출판사
+    제출 Crossref author metadata가 Jongdeok Kim에게 이 ORCID를 authenticated-orcid:true로 직접 부여한다. 공개 ORCID에도 건국대 물리학과 Ph.D. student(2021-09부터)가 일치한다.
+  checked_on: '2026-10-02'
+- key: author-085
+  name: Sangho Yoo
+  aliases:
+  - Sangho Yoo
+  - 유상호
+  orcid:
+  status: unconfirmed
+  sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  - https://sites.google.com/view/hoonkyung/members
+  - https://www.nims.go.jp/event/asian26/assets/files/asian-26-poster-list.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Sangho+Yoo%22+OR+%22Sang-ho+Yoo%22+OR+%22%EC%9C%A0%EC%83%81%ED%98%B8%22&rows=100
+  - https://orcid.org/0009-0000-2617-1463
+  - https://orcid.org/0009-0001-7686-6199
+  - https://orcid.org/0000-0001-9030-1365
+  - https://orcid.org/0000-0002-7258-5090
+  candidate_orcids:
+  - '0009-0000-2617-1463'
+  note: >-
+    SASE 건국대 유상호와 이훈경 연구실 Members의 Sangho Yoo(M.S. candidate), NIMS ASIAN-26 발표명단의 건국대 Sangho Yoo로 영문명·연구소속을 대조했다. ORCID 이름/변형 검색 후보 4개를 확인했으나 0009-0000-2617-1463은 이름 외 소속·학력·works가
+    비공개/공란이며, 0009-0001-7686-6199는 인하대, 나머지는 의학·식품 연구 실적으로 동일인 근거가 없다. 직접 연결된 ORCID는 미확정이며 없음으로 단정하지 않는다.
+  checked_on: '2026-10-02'
+- key: author-086
+  name: Daechan Ji
+  aliases:
+  - Daechan Ji
+  - 지대찬
+  orcid:
+  status: unconfirmed
+  sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  - https://sites.google.com/view/hoonkyung/members
+  - https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202413904
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22Daechan+Ji%22+OR+%22Dae-chan+Ji%22+OR+%22%EC%A7%80%EB%8C%80%EC%B0%AC%22&rows=100
+  note: >-
+    SASE 건국대 지대찬과 이훈경 연구실 Members의 Daechan Ji(M.S., 2026)를 대조했다. Wiley 논문 10.1002/adfm.202413904에도 Daechan Ji와 Hoonkyung Lee가 건국대 물리학과 공동저자로 명시된다. ORCID 공개 API의 Daechan Ji/Dae-chan Ji/지대찬
+    검색은 0건이었으며 확인한 Wiley 저자정보에는 Daechan Ji의 ORCID가 명시되지 않았다. 공개자료 내 식별자를 미확정으로 남기며 ORCID 없음으로 단정하지 않는다.
+  checked_on: '2026-10-02'
+- key: author-087
+  name: Hoonkyung Lee
+  aliases:
+  - Hoonkyung Lee
+  - 이훈경
+  orcid: 0000-0002-6417-1648
+  status: verified
+  sources:
+  - https://sase.or.kr/proceedings/2026a/SessionPaperList.asp?code=1304
+  - https://qiet.konkuk.ac.kr/html.do?menuSeq=14712&siteId=RIQFT
+  - https://sites.google.com/view/hoonkyung/hoonkyung-lee
+  - https://www.nature.com/articles/s41467-026-69613-8
+  - https://orcid.org/0000-0002-6417-1648
+  note: >-
+    건국대 양자미래기술연구소 공식 교수명 이훈경(Hoonkyung Lee), 연구분야 및 연구실 정보로 한영 이름·소속을 확인했다. Nature Communications 2026 논문 10.1038/s41467-026-69613-8의 Hoonkyung Lee 저자 옆 ORCID가 이 번호로 직접 연결되며 저자 소속도 Department
+    of Physics, Konkuk University이다. 의료분야 동명이인 Hun-Kyung Lee는 제외했다.
+  checked_on: '2026-10-02'
+- key: author-088
+  name: 김일영
+  orcid:
+  status: unconfirmed
+  aliases:
+  - 김일영
+  sources:
+  - https://ksas.or.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20200701&CpPage=1162
+  - https://www.codil.or.kr/filebank/original/RK/OTKCRK180965/OTKCRK180965.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%9D%BC%EC%98%81%22+OR+%22Il+Young+Kim%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 학회 달탐사 심포지엄의 항우연 연락 담당자와 정부 연구보고서에서 이름·기관을 확인했다. 공개 ORCID의 한국어명 및 영문 검색 후보에는 의학 분야 또는 소속이 공개되지 않은 동명이인이 있어 해당 기재자와 연결하지 않았다. ORCID 미확정은 미보유를 뜻하지 않는다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-089
+  name: 임조령
+  orcid: 0000-0003-1516-4473
+  status: verified
+  aliases:
+  - 임조령
+  - Jo Ryeong Yim
+  - Jo-Ryeong Yim
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://www.janss.kr/download/download_pdf?pid=jass-37-3-199
+  - https://www.scholar.go.kr/search/scholarDetail.do?localId=P2020125408
+  - https://orcid.org/0000-0003-1516-4473
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9E%84%EC%A1%B0%EB%A0%B9%22+OR+%22Jo-Ryeong+Yim%22+OR+%22Jo+Ryeong+Yim%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 JASS 논문의 저자별 ORCID와 항우연 소속을 확인했다. 국회도서관 연구자 전거에서 임조령과 Jo-Ryeong Yim의 한영 대응을 대조했다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-090
+  name: 김형완
+  orcid:
+  status: unconfirmed
+  aliases:
+  - 김형완
+  sources:
+  - https://ksas.or.kr/wp/2024a/data/%EB%B3%84%EC%B2%A81.%202024%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All_%EC%88%98%EC%A0%95v3.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%ED%98%95%EC%99%84%22+OR+%22Hyungwan+Kim%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 KSAS 2024 춘계 논문집에서 항우연 김형완을 확인했다. 한국어명과 Hyungwan Kim 검색으로 공개 ORCID 후보를 찾지 못했다. 동명의 의학 분야 연구자는 해당 인물이라는 근거가 없어 제외했다. 영문 표기는 확정 alias로 추가하지 않았다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-091
+  name: 송재훈
+  orcid:
+  status: unconfirmed
+  aliases:
+  - 송재훈
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001675644
+  - https://www.codil.or.kr/filebank/original/RK/OTKCRK180966/OTKCRK180966.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%86%A1%EC%9E%AC%ED%9B%88%22+OR+%22Jae+Hoon+Song%22&rows=50
+  checked_on: '2026-10-03'
+  note: 항우연 발행 학술지의 저자 소속과 정부 연구보고서에서 항우연 송재훈을 확인했다. 공개 ORCID에 여러 Jae Hoon Song 후보가 있으나 항우연 소속 또는 일치 논문으로 연결되는 근거를 확인하지 못했다. 의학 분야 송재훈과 이름만으로 연결하지 않았다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-092
+  name: 김현순
+  orcid:
+  status: unconfirmed
+  aliases:
+  - 김현순
+  sources:
+  - https://ksas.or.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20200701&CpPage=1162
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%ED%98%84%EC%88%9C%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 KSAS 달탐사 심포지엄에서 항우연 연락 담당자로 확인했다. 한국어명 ORCID 공개검색 결과가 없으며 정확한 영문 표기와 동일인 식별자 근거를 확보하지 못해 미확정으로 남겼다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-093
+  name: 김주현
+  orcid: 0000-0001-7984-1379
+  status: verified
+  aliases:
+  - 김주현
+  - Joo Hyeon Kim
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-5-4-248
+  - https://orcid.org/0000-0001-7984-1379
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%A3%BC%ED%98%84%22+OR+%22Joo+Hyeon+Kim%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 JSTA 논문 첫 페이지에 김주현/Joo Hyeon Kim, 한국항공우주연구원 우주탐사팀 소속과 ORCID가 함께 명시되어 있다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-094
+  name: 손승희
+  orcid:
+  status: unconfirmed
+  aliases:
+  - 손승희
+  sources:
+  - https://ksas.or.kr/wp/2024a/data/%EB%B3%84%EC%B2%A81.%202024%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All_%EC%88%98%EC%A0%95v3.pdf
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001086858
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%86%90%EC%8A%B9%ED%9D%AC%22+OR+%22Seung+Hee+Son%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 KSAS 논문집에서 달궤도선 지상시스템 관련 항우연 연구자를 확인했다. 공개 ORCID의 손승희/Seung Hee Son 후보는 한남대학교 소속으로, 항우연 기재자와 연결할 근거가 없어 제외했다. 해당 기재자의 ORCID는 미확정이다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-095
+  name: 김동규
+  orcid: '0009-0004-1097-1430'
+  status: verified
+  aliases:
+  - 김동규
+  - Dong-Gyu Kim
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://orcid.org/0009-0004-1097-1430
+  - https://ksss.or.kr/homepage/custom/committee07
+  - https://ksas.or.kr/wp/2024a/data/%EB%B3%84%EC%B2%A81.%202024%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All_%EC%88%98%EC%A0%95v3.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EB%8F%99%EA%B7%9C%22+OR+%22Dong-Gyu+Kim%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 JASS KPLO 운용 논문의 항우연 소속 및 저자별 ORCID를 확인했다. 공개 ORCID에도 항우연 소속과 동일 KPLO 논문이 명시되어 있으며, 공식 학회 자료의 김동규·달탐사 지상시스템 활동과 대조했다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-096
+  name: 김은혁
+  orcid: 0000-0002-0883-6748
+  status: verified
+  aliases:
+  - 김은혁
+  - Eunhyeuk Kim
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://orcid.org/0000-0002-0883-6748
+  - https://www.kari.re.kr/kor/article/ATCL90a22172e/10875
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%9D%80%ED%98%81%22+OR+%22Eunhyeuk+Kim%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 JASS KPLO 운용 논문의 항우연 소속과 저자별 ORCID를 확인했다. 항우연 달탐사 공고의 김은혁 이름 및 eunhyeuk 표기와 대조했다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-097
+  name: 민승용
+  orcid: '0009-0009-1500-8658'
+  status: verified
+  aliases:
+  - 민승용
+  - Seung Yong Min
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-6-3-293
+  - https://orcid.org/0009-0009-1500-8658
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EB%AF%BC%EC%8A%B9%EC%9A%A9%22+OR+%22Seung+Yong+Min%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 JSTA 태양돛 전개 논문 첫 페이지에 민승용/Seung Yong Min, 항우연 소속과 ORCID가 직접 명시되어 있다. 공개 ORCID 검색 결과의 항우연 소속도 일치한다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-098
+  name: 강범석
+  orcid: '0009-0007-8393-0826'
+  status: verified
+  aliases:
+  - 강범석
+  - Beom Suk Kang
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-6-3-293
+  - https://orcid.org/0009-0007-8393-0826
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B0%95%EB%B2%94%EC%84%9D%22+OR+%22Beom+Suk+Kang%22&rows=50
+  checked_on: '2026-10-03'
+  note: 공식 JSTA 태양돛 전개 논문 첫 페이지에 강범석/Beom Suk Kang, 항우연 소속과 ORCID가 직접 명시되어 있다. 공개 이름검색 결과가 0건이어도 공식 논문의 직접 연결로 확인했다. 엑셀 row26의 반복 기재는 동일 이름 한 명으로 집계했으며 방준으로 치환하거나 보충하지 않았다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.

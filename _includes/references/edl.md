@@ -1,6 +1,6 @@
-{:start="10"}
-10. Braun, R. D., and Manning, R. M., “Mars Exploration Entry, Descent, and Landing Challenges,” *Journal of Spacecraft and Rockets*, Vol. 44, No. 2, 2007, pp. 310–323.
-11. Way, D. W., Powell, R. W., Chen, A., Steltzner, A. D., San Martin, A. M., Burkhart, P. D., and Mendeck, G. F., “Mars Science Laboratory: Entry, Descent, and Landing System Performance,” IEEE Aerospace Conference, Big Sky, Montana, 2007.
-12. Ball, A. J., Garry, J. R. C., Lorenz, R. D., and Kerzhanovich, V. V., *Planetary Landers and Entry Probes*, Cambridge University Press, 2007.
-13. Anderson, J. D., Jr., *Hypersonic and High-Temperature Gas Dynamics*, 2nd ed., American Institute of Aeronautics and Astronautics, 2006.
-14. Justus, C. G., Duvall, A., and Johnson, D. L., “Atmospheric Environments for Entry, Descent and Landing Systems,” NASA Technical Report, 2007.
+{:start="11"}
+11. Braun, R. D., and Manning, R. M., “[Mars Exploration Entry, Descent, and Landing Challenges](https://doi.org/10.2514/1.25116),” *Journal of Spacecraft and Rockets*, Vol. 44, No. 2, 2007, pp. 310–323.
+12. Way, D. W., Powell, R. W., Chen, A., Steltzner, A. D., San Martin, A. M., Burkhart, P. D., and Mendeck, G. F., “[Mars Science Laboratory: Entry, Descent, and Landing System Performance](https://doi.org/10.1109/AERO.2007.352821),” IEEE Aerospace Conference, Big Sky, Montana, 2007.
+13. Ball, A. J., Garry, J. R. C., Lorenz, R. D., and Kerzhanovich, V. V., *Planetary Landers and Entry Probes*, Cambridge University Press, 2007. {% include book-links.html isbn="9780521820028" url="https://www.cambridge.org/core/books/planetary-landers-and-entry-probes/8DE95EEE4A7A3EF7820792504AC1C5E2" %}
+14. Anderson, J. D., Jr., *Hypersonic and High-Temperature Gas Dynamics*, 2nd ed., American Institute of Aeronautics and Astronautics, 2006. {% include book-links.html isbn="9781563477805" url="https://arc.aiaa.org/doi/book/10.2514/4.861956" %}
+15. Justus, C. G., and Braun, R. D., “[Atmospheric Environments for Entry, Descent and Landing (EDL)](https://ntrs.nasa.gov/citations/20070032693),” 5th International Planetary Probes Workshop and Short Course, Bordeaux, France, 2007.

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">From exploration goals to a feasible mission</title>
+<desc id="desc">Mission objectives and constraints inform a coupled model of trajectories, spacecraft, communications and operations. Analysis and optimization compare performance, feasibility and sensitivity. The assessment feeds back to refine the mission requirements and design.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0 1L8 5L0 9Z" fill="#3478CE"/></marker>
+<marker id="feedback" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0 1L8 5L0 9Z" fill="#008D96"/></marker>
+</defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="420" rx="20" fill="#F7F9FC"/>
+<text x="32" y="43" font-size="26" font-weight="700" fill="#183153">From exploration goals to a feasible mission</text>
+<path d="M32 62H928" stroke="#E4EDF7" stroke-width="2"/>
+<g fill="#FFFFFF" stroke="#C9D8EA" stroke-width="2">
+<rect x="32" y="111" width="240" height="201" rx="12"/>
+<rect x="322" y="92" width="316" height="236" rx="12"/>
+<rect x="688" y="111" width="240" height="201" rx="12"/>
+</g>
+<g fill="#183153" text-anchor="middle">
+<text x="152" y="147" font-size="22" font-weight="700">Objectives &amp; limits</text>
+<text x="152" y="191" font-size="19">Science · destinations</text>
+<text x="152" y="229" font-size="19">Resources · schedule</text>
+<text x="152" y="267" font-size="19">Mission requirements</text>
+<text x="480" y="123" font-size="22" font-weight="700">Coupled mission model</text>
+<text x="808" y="147" font-size="22" font-weight="700">Mission assessment</text>
+<text x="808" y="191" font-size="19">Performance</text>
+<text x="808" y="229" font-size="19">Feasibility</text>
+<text x="808" y="267" font-size="19">Sensitivity · risk</text>
+</g>
+<g fill="#EDF4FC" stroke="#C9D8EA">
+<rect x="342" y="143" width="276" height="44" rx="6"/>
+<rect x="342" y="202" width="276" height="44" rx="6"/>
+<rect x="342" y="261" width="276" height="44" rx="6"/>
+</g>
+<g text-anchor="middle" fill="#183153" font-size="20">
+<text x="480" y="171">Trajectory &amp; maneuvers</text>
+<text x="480" y="230">Spacecraft &amp; payload</text>
+<text x="480" y="289">Links &amp; operations</text>
+</g>
+<g fill="none" stroke="#3478CE" stroke-width="2.5">
+<path d="M281 211H311" marker-end="url(#arrow)"/>
+<path d="M647 211H677" marker-end="url(#arrow)"/>
+<path d="M480 187V202"/>
+<path d="M480 246V261"/>
+</g>
+<path d="M808 312V354H152V318" fill="none" stroke="#008D96" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#feedback)"/>
+<rect x="336" y="340" width="288" height="29" rx="6" fill="#F7F9FC"/>
+<text x="480" y="360" text-anchor="middle" fill="#008D96" font-size="19" font-weight="600">Evaluate → refine → repeat</text>
+<text x="32" y="399" font-size="18" fill="#64748B">Research approach · Dynamics, system analysis and optimization work together</text>
+</g>
+</svg>

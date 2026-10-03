@@ -7,15 +7,17 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}News
+{: .page-title }
 
-News from SEARCH Lab.
+News and updates from SEARCH Lab.
+{: .page-intro }
 
 {% include section.html %}
 
 {% assign news = site.posts | where: "lang", "en" %}
 {% if news.size == 0 %}
 No news yet.
-{:.center}
+{: .page-empty }
 {% else %}
 {% include search-box.html %}
 

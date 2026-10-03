@@ -5,15 +5,32 @@ ko:
   locale: ko_KR
   home: /
   subtitle: 우주탐사 아키텍처 연구실, UST
-  description: SEARCH Lab은 달, 화성, 그리고 심우주를 향한 미래 우주탐사 임무의 아키텍처를 설계하고 검증합니다.
+  description: SEARCH Lab은 달·화성과 심우주 탐사를 위한 임무 아키텍처를 설계하고 검증합니다.
   home-tooltip: 홈
+  nav-toggle: 메뉴 열기·닫기
+  nav-label: 주 메뉴
+  institution-links: 기관 홈페이지
+  dark-mode: 다크 모드
+  dark-toggle: 다크 모드 전환
+  site-search-placeholder: Google로 사이트 검색
+  site-search: 사이트 검색
   switch-lang: en
   switch-text: English
   switch-tooltip: View this page in English
   search-placeholder: 이 페이지에서 검색
   search-clear: 검색어 지우기
+  search-results: "검색 결과 $N건 중 $X건"
   publications-page: publications/
-  member-papers: "Publications 페이지에서 $NAME의 논문 찾기"
+  member-papers: "Publications 페이지에서 $NAME의 연구성과 보기"
+  news-page: /news/
+  post-date-format: "%Y년 %-m월 %-d일"
+  post-author: 작성자
+  post-published: 게시일
+  post-updated: 수정일
+  post-previous: 이전 글
+  post-next: 다음 글
+  post-back: NEWS 목록으로
+  post-nav: 공지사항 탐색
 
 en:
   locale: en_US
@@ -21,10 +38,27 @@ en:
   subtitle: Space Exploration ARCHitecture Laboratory, UST
   description: SEARCH Lab designs mission architectures for the Moon, Mars, and beyond.
   home-tooltip: Home
+  nav-toggle: Show or hide navigation
+  nav-label: Main navigation
+  institution-links: Institution websites
+  dark-mode: Dark mode
+  dark-toggle: Toggle dark mode
+  site-search-placeholder: Search this site with Google
+  site-search: Search this site
   switch-lang: ko
   switch-text: 한국어
-  switch-tooltip: 이 페이지를 한국어로 보기
+  switch-tooltip: 한국어로 보기
   search-placeholder: Search items on this page
   search-clear: Clear search
+  search-results: "Showing $X of $N results"
   publications-page: en/publications/
-  member-papers: "Search for $NAME's papers on the Publications page"
+  member-papers: "View $NAME's research outputs on the Publications page"
+  news-page: /en/news/
+  post-date-format: "%B %-d, %Y"
+  post-author: Author
+  post-published: Published on
+  post-updated: Updated on
+  post-previous: Previous post
+  post-next: Next post
+  post-back: Back to News
+  post-nav: News navigation

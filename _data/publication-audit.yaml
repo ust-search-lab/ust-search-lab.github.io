@@ -1,0 +1,2282 @@
+---
+checked_on: '2026-10-02'
+scope: 2025년 이전 원본 실적 87건 및 모든 공저자. 사용자 요청으로 1건을 표시 목록에서 제외.
+doi_method: 원본 전체 제목을 Crossref에서 검색하고 제목·연도·저자·학술지/학회를 대조했습니다. 학회 공식 자료, 출판사, KCI 및 기관 기록을 추가 조사했습니다. 특허/소프트웨어는 DataCite도 검색했습니다. not_found는 조사한 공개 자료에서 식별자를 찾지 못했다는 뜻이며 DOI가 없다는 확정
+  판정이 아닙니다.
+orcid_method: 모든 원본 저자명과 영문/국문 변형을 ORCID 공개 검색으로 조사했습니다. 학술지에 명시된 ORCID 또는 공개 프로필의 소속·경력·연구실적을 공식 출처와 대조한 경우에만 verified로 연결했습니다. 동명이인 및 근거 부족 후보는 unconfirmed입니다.
+pi_public_orcid:
+  orcid: 0000-0001-6227-0442
+  source: https://pub.orcid.org/v3.0/0000-0001-6227-0442/works
+  matching_work_dois:
+  - 10.5140/jass.2021.38.3.185
+  note: 공개 ORCID 기록에 보이는 실적과의 일치 여부만 별도로 기록합니다. 다른 실적의 저자 자격이나 비공개 실적 유무를 판단하지 않습니다. 공동저자 ORCID 연결은 해당 실적이 그 저자의 ORCID에 등록되어 있다는 뜻이 아닙니다.
+summary:
+  imported_records: 87
+  displayed_records: 86
+  excluded_records: 1
+  displayed_doi_verified: 12
+  displayed_doi_not_found: 74
+  author_name_variants_checked: 94
+  author_groups_checked: 63
+  author_orcid_verified: 33
+  author_orcid_unconfirmed: 30
+records:
+- audit_index: 0
+  title: Overview of the Flight Dynamics Subsystem for Korea Pathfinder Lunar Orbiter Mission
+  doi: 10.3390/aerospace8080222
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.3390/aerospace8080222
+  - https://www.mdpi.com/2226-4310/8/8/222
+  doi_note: Crossref 등록 레코드의 제목, 저자 7명, Aerospace 8(8), 2021년이 일치하여 기존 DOI를 확인했습니다. 222는 기사번호입니다.
+  verified_metadata:
+    year: 2021
+    publisher: Aerospace
+    date: '2021-08-10'
+  author_orcids:
+  - name: Young-Rok Kim
+    orcid: 0000-0002-0862-0146
+    source: https://api.crossref.org/works/10.3390/aerospace8080222
+  - name: Dae-Kwan Kim
+    orcid: 0000-0002-9934-2515
+    source: https://api.crossref.org/works/10.3390/aerospace8080222
+  crossref_authors:
+  - Young-Joo Song
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Jae-ik Park
+  - Seungbum Hong
+  - Donghun Lee
+  - Dae-Kwan Kim
+  key: legacy-001
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-001
+  - author-002
+  - author-003
+  - author-004
+  - author-005
+  - author-006
+  - author-007
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 1
+  title: Satellite Formation Reconfiguration and Station-Keeping using State-Dependent Riccati Equation Technique
+  doi: 10.1016/j.ast.2010.09.007
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.1016/j.ast.2010.09.007
+  - https://www.sciencedirect.com/science/article/abs/pii/S1270963810001318
+  - https://www.sciencedirect.com/author/9246790900/sangyoung-park
+  - https://www.kas.org/down/bkas/2012_fall.pdf
+  doi_note: >-
+    Crossref 및 ScienceDirect에서 제목·학술지·2011년·440–452쪽이 일치하는 DOI를 확인했습니다. 다만 원본 실적 목록에는 Jae-ik Park가 포함되어 있으나 Crossref와 ScienceDirect 저자 페이지에는 Han-earl Park, Sang-Young Park, Kyu-Hong
+    Choi 3명만 기재되어 있어 저자 정보 확인이 필요합니다. 원본 저자 목록은 수정하지 않았습니다. 사용자 확인 후 2026-10-02 표시 목록에서 제외하기로 결정했습니다.
+  verified_metadata:
+    year: 2011
+    publisher: Aerospace Science and Technology
+    pages: 440-452
+    date: 2011-09
+  author_orcids: []
+  crossref_authors:
+  - Han-earl Park
+  - Sang-Young Park
+  - Kyu-Hong Choi
+  key: legacy-002
+  category: journal
+  included: false
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-008
+  - author-004
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+  exclusion_reason: Crossref와 출판사의 저자 목록에 박재익이 없어 사용자 요청으로 실적 목록에서 제외했습니다 (2026-10-02).
+- audit_index: 2
+  title: Hardware-in-the-Loop Simulations of GPS-Based Navigation and Control for Satellite Formation Flying
+  doi: 10.1016/j.asr.2010.08.012
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.1016/j.asr.2010.08.012
+  - https://www.sciencedirect.com/science/article/abs/pii/S0273117710005260
+  doi_note: Crossref와 Elsevier ScienceDirect에서 제목, 저자 4명, Advances in Space Research 46(11), 2010년, 1451–1465쪽을 대조하여 신규 DOI를 확인했습니다.
+  verified_metadata:
+    year: 2010
+    publisher: Advances in Space Research
+    pages: 1451-1465
+    date: 2010-12
+  author_orcids: []
+  crossref_authors:
+  - Jae-Ik Park
+  - Han-Earl Park
+  - Sang-Young Park
+  - Kyu-Hong Choi
+  key: legacy-003
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-008
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 3
+  title: Road lane recognition using a precise digital map and GNSS
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.bibliographic=Road+lane+recognition+using+a+precise+digital+map+and+GNSS&rows=3
+  - https://mycoordinates.org/road-lane-recognition-using-a-precise-digital-map-and-gnss/
+  - https://mycoordinates.org/volume-vii-issue-6-june-2011/
+  doi_note: 발행사 Coordinates의 기사 및 2011년 6월호 목차에서 제목·저자 5명·발행월을 확인했습니다. 발행사 페이지와 Crossref 제목/서지검색에서 이 항목에 대응하는 DOI를 확인하지 못했습니다. 이는 DOI가 없다는 단정이 아닙니다.
+  verified_metadata:
+    year: 2011
+    publisher: Coordinates
+    date: 2011-06
+  author_orcids: []
+  key: legacy-004
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-011
+  - author-012
+  - author-004
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 4
+  title: Development of GNSS based Transportation Infrastructure Technology in Korea
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Development+of+GNSS+based+Transportation+Infrastructure+Technology+in+Korea&rows=3
+  - https://mycoordinates.org/transport-planning-in-korea/
+  - https://mycoordinates.org/pdf/july10.pdf
+  doi_note: >-
+    Crossref의 원본 제목 검색 및 발행사 Coordinates 2010년 7월 기사·목차를 조사했으나 DOI를 확인하지 못했습니다. 동일 저자군의 발행사 실제 기사 제목은 Transport planning in Korea이며, 원본 목록 제목에 가까운 문구는 본문에 연구과제명으로 등장합니다. 마지막 저자는 발행사에서
+    Jung-Ho Cho로 표기하여 원본 JeongHo Cho와 표기 차이가 있습니다. 제목과 저자표기를 임의로 변경하지 않았습니다.
+  verified_metadata:
+    year: 2010
+    publisher: Coordinates
+    date: 2010-07
+  author_orcids: []
+  key: legacy-005
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-013
+  - author-004
+  - author-012
+  - author-011
+  - author-024
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 5
+  title: Ground Tracking Support Condition Effect on Orbit Determination for Korea Pathfinder Lunar Orbiter (KPLO) in Lunar Orbit
+  doi: 10.5140/jass.2020.37.4.237
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.5140/jass.2020.37.4.237
+  - https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  doi_note: 학술지 공식 본문과 Crossref에서 제목, 저자 8명, 37(4), 237–247쪽, 발행연도 2020을 확인했습니다. 기존 원문 citation의 2021년 표기는 발행연도와 다릅니다. 학술지 ORCID 절에서 저자 8명 모두의 식별자를 확인했습니다.
+  verified_metadata:
+    year: 2020
+    publisher: Journal of Astronomy and Space Sciences
+    pages: 237-247
+    date: 2020-12
+  author_orcids:
+  - name: Young-Rok Kim
+    orcid: 0000-0002-0862-0146
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - name: Young-Joo Song
+    orcid: 0000-0001-6948-1920
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - name: Jae-ik Park
+    orcid: 0000-0001-6227-0442
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - name: Donghun Lee
+    orcid: 0000-0001-9839-0673
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - name: Jonghee Bae
+    orcid: 0000-0002-2069-0366
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - name: SeungBum Hong
+    orcid: 0000-0001-5999-7018
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - name: Dae-Kwan Kim
+    orcid: 0000-0002-9934-2515
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  - name: Sang-Ryool Lee
+    orcid: 0000-0002-5894-0594
+    source: https://www.janss.kr/archive/view_article?pid=jass-37-4-237
+  crossref_authors:
+  - Young-Rok Kim
+  - Young-Joo Song
+  - Jae-ik Park
+  - Donghun Lee
+  - Jonghee Bae
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  key: legacy-006
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-002
+  - author-001
+  - author-004
+  - author-006
+  - author-003
+  - author-005
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 6
+  title: Practical Algorithms on Lunar Reference Frame Transformations for Korea Pathfinder Lunar Orbiter Flight Operation
+  doi: 10.5140/jass.2021.38.3.185
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - https://www.janss.kr/archive/view_article?pid=jass-38-3-185
+  doi_note: 학술지 공식 본문과 Crossref에서 제목, 저자 8명, 38(3), 185–192쪽, 2021년을 대조하여 기존 DOI를 확인했습니다. Crossref에 저자 8명의 ORCID가 명시되어 있습니다.
+  verified_metadata:
+    year: 2021
+    publisher: Journal of Astronomy and Space Sciences
+    pages: 185-192
+    date: 2021-09
+  author_orcids:
+  - name: Young-Joo Song
+    orcid: 0000-0001-6948-1920
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - name: Donghun Lee
+    orcid: 0000-0001-9839-0673
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - name: Young-Rok Kim
+    orcid: 0000-0002-0862-0146
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - name: Jonghee Bae
+    orcid: 0000-0002-2069-0366
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - name: Jae-ik Park
+    orcid: 0000-0001-6227-0442
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - name: SeungBum Hong
+    orcid: 0000-0001-5999-7018
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - name: Dae-Kwan Kim
+    orcid: 0000-0002-9934-2515
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  - name: Sang-Ryool Lee
+    orcid: 0000-0002-5894-0594
+    source: https://api.crossref.org/works/10.5140/jass.2021.38.3.185
+  crossref_authors:
+  - Young-Joo Song
+  - Donghun Lee
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  key: legacy-007
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-001
+  - author-006
+  - author-002
+  - author-003
+  - author-004
+  - author-005
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: matched
+- audit_index: 7
+  title: 심 우주 탐사를 위한 큐브샛 안테나 기술 동향
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.bibliographic=Technology+Trend+of+CubeSat+Antenna+for+Deep+Space+Exploration&rows=3
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10499444
+  doi_note: 한국항공우주연구원이 제공한 DBpia 학술지 레코드에서 국·영문 제목, 저자 4명, 18(2), 2020년 12월, 66–75쪽을 확인했습니다. Crossref 영문 제목의 서지검색 결과는 다른 논문들로, 이 항목에 대응하는 DOI는 확인하지 못했습니다. DOI 부재를 단정하지 않습니다.
+  verified_metadata:
+    year: 2020
+    publisher: 항공우주산업기술동향
+    pages: 66-75
+    date: 2020-12
+  author_orcids: []
+  key: legacy-008
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-006
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 8
+  title: 무인 달 착륙선의 동력하강단계에서 자세각속도 영향에 따른 최적화 착륙궤적 분석
+  doi: 10.5139/jksas.2018.46.5.402
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.5139/jksas.2018.46.5.402
+  doi_note: Crossref에서 대응 영문 제목, 박재익/Jae-ik Park와 류동영/Dong-Young Rew, 46(5), 402–409쪽을 대조하여 기존 DOI를 확인했습니다. 등록된 발행일은 2018-05-31로 원본 실적 목록의 2018년 3월 26일과 다릅니다.
+  verified_metadata:
+    year: 2018
+    publisher: Journal of the Korean Society for Aeronautical & Space Sciences
+    pages: 402-409
+    date: '2018-05-31'
+  author_orcids: []
+  crossref_authors:
+  - Jae-ik Park
+  - Dong-Young Rew
+  key: legacy-009
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 9
+  title: KASS 활용을 위한 위성기반 보강항법시스템(SBAS) 비규격 데이터 전송 방법 연구
+  doi: 10.7840/kics.2016.41.12.1861
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.7840/kics.2016.41.12.1861
+  - https://journal.kics.or.kr/digital-library/manuscript/file/36140/NODE07091509.pdf
+  doi_note: 한국통신학회 공식 PDF와 Crossref에서 국·영문 제목, 저자 4명, DOI 및 1861–1867쪽을 확인했습니다. Crossref 발행일은 2016-12-31로 원본의 12월 1일과 다릅니다. 원본 citation의 DOI 오기(20167)와 쪽수 1–7은 기존에 바로잡힌 값이 맞습니다.
+  verified_metadata:
+    year: 2016
+    publisher: The Journal of Korean Institute of Communications and Information Sciences
+    pages: 1861-1867
+    date: '2016-12-31'
+  author_orcids: []
+  crossref_authors:
+  - Jae-ik Park
+  - Eunsung Lee
+  - Moon-beom Heo
+  - Gi-wook Nam
+  key: legacy-010
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 10
+  title: SBAS 성능기반 항행을 위한 항공용 GNSS 기술표준 분석 연구
+  doi: 10.12673/jant.2016.20.4.305
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.12673/jant.2016.20.4.305
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002141429
+  doi_note: Crossref와 KCI에서 대응 영문 제목, 저자 4명, 20(4), 305–313쪽, 2016-08-30을 대조하여 기존 DOI를 확인했습니다.
+  verified_metadata:
+    year: 2016
+    publisher: The Journal of Advanced Navigation Technology
+    pages: 305-313
+    date: '2016-08-30'
+  author_orcids: []
+  crossref_authors:
+  - Jae-ik Park
+  - Eunsung Lee
+  - Moon-beom Heo
+  - Gi-wook Nam
+  key: legacy-011
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 11
+  title: 위성기반 보강항법시스템(SBAS) 최신 기술 동향
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Latest+Technology+Trending+for+Satellite+Based+Augmentation+System&rows=3
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06740439
+  doi_note: 한국항공우주연구원 제공 DBpia 레코드의 국·영문 제목, 저자 4명, 14(1), 191–202쪽, 2016년 7월과 Crossref 영문 제목검색을 조사했습니다. 조회 결과에서 이 논문의 DOI는 확인하지 못했습니다. DOI가 없다고 단정하지 않습니다.
+  verified_metadata:
+    year: 2016
+    publisher: 항공우주산업기술동향
+    pages: 191-202
+    date: 2016-07
+  author_orcids: []
+  key: legacy-012
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 12
+  title: GPS 반송파 위상을 사용한 편대비행위성 상대위치결정 연구
+  doi: 10.5139/jksas.2012.40.12.1032
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.5139/jksas.2012.40.12.1032
+  doi_note: Crossref에서 대응 영문 제목, 저자 3명, 한국항공우주학회지 40(12), 1032–1039쪽, 2012년을 대조하여 기존 DOI를 확인했습니다.
+  verified_metadata:
+    year: 2012
+    publisher: Journal of the Korean Society for Aeronautical & Space Sciences
+    pages: 1032-1039
+    date: '2012-12-01'
+  author_orcids: []
+  crossref_authors:
+  - Jae-Ik Park
+  - Eunsung Lee
+  - Moon-Beom Heo
+  key: legacy-013
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 13
+  title: 이동체 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Fault+Detection+Method+of+GNSS+Carrier+Phase+Measurement+using+Vehicle+Velocity+and+Antenna+Baseline+Distance&rows=3
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001491965
+  doi_note: >-
+    KCI에서 원문 제목은 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출로 확인되며, 저자 5명·2010년·14(5)·640–647쪽이 일치합니다. KCI 인용내보내기의 DOI 필드는 비어 있고 Crossref 영문 제목검색에서도 일치 DOI를 확인하지 못했습니다. DOI가 없다는 단정은 아닙니다. 국회도서관
+    권호 기록은 2010년 10월로 원본 목록의 12월과 다르므로 발행월 재확인이 필요합니다.
+  verified_metadata:
+    year: 2010
+    publisher: 한국항행학회논문지
+    pages: 640-647
+  author_orcids: []
+  key: legacy-014
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-014
+  - author-016
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 14
+  title: 육상교통 환경의 위성항법 위치결정 성능향상을 위한 기술 동향
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Technical+Trend+for+Performance+Improvement+of+GNSS+based+Positioning+in+Land+Transportation+Environment&rows=3
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%A1%EC%83%81%EA%B5%90%ED%86%B5+%ED%99%98%EA%B2%BD%EC%9D%98+%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95+%EC%84%B1%EB%8A%A5%ED%96%A5%EC%83%81%EC%9D%84+%EC%9C%84%ED%95%9C+%EA%B8%B0%EC%88%A0+%EB%8F%99%ED%96%A5&rows=3
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01939603
+  doi_note: 한국항공우주연구원 제공 DBpia 레코드에서 국·영문 제목, 저자 5명, 10(1), 179–195쪽, 2012년 7월을 확인했습니다. Crossref 국문 및 영문 제목검색에서 이 논문에 일치하는 DOI를 확인하지 못했습니다. DOI 부재를 단정하지 않습니다.
+  verified_metadata:
+    year: 2012
+    publisher: 항공우주산업기술동향
+    pages: 179-195
+    date: 2012-07
+  author_orcids: []
+  key: legacy-015
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-012
+  - author-004
+  - author-025
+  - author-013
+  - author-026
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 15
+  title: 차로 제한 조건을 이용한 차로 구분 성능 분석
+  doi: 10.12673/jant.2011.15.3.432
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Performance+Analysis+of+Road+Lane+Recognition+using+Lane+Constraints&rows=3
+  - >-
+    https://api.crossref.org/works?query.title=%EC%B0%A8%EB%A1%9C+%EC%A0%9C%ED%95%9C+%EC%A1%B0%EA%B1%B4%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%B0%A8%EB%A1%9C+%EA%B5%AC%EB%B6%84+%EC%84%B1%EB%8A%A5+%EB%B6%84%EC%84%9D&rows=3
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001564852
+  - https://doi.org/10.12673/jant.2011.15.3.432
+  - https://koreascience.or.kr/article/JAKO201119663062551.page
+  doi_note: 확대 조사에서 DOI가 KoreaScience 공식 서지로 연결되는 것을 확인했습니다. 해당 페이지의 citation_doi, 국·영문 제목, 저자 8명, 15(3), 2011년, 432–440쪽을 대조했습니다. Crossref API에는 없는 식별자이므로 Crossref 미검색을 DOI 부재로 판단하지
+    않았습니다.
+  verified_metadata:
+    year: 2011
+    publisher: 한국항행학회논문지
+    pages: 432-440
+  author_orcids: []
+  key: legacy-016
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-011
+  - author-012
+  - author-004
+  - author-027
+  - author-028
+  - author-029
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 16
+  title: 차로 구분이 가능한 정밀전자지도의 성능 요구사항에 관한 연구
+  doi: 10.5302/j.icros.2011.17.1.47
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.5302/j.icros.2011.17.1.47
+  - https://cloud.nanet.go.kr/search/searchView.do?lodArticleId=ARTICLE_769789
+  doi_note: >-
+    Crossref에서 대응 영문 제목 A Study on the Performane Requirement of Precise Digital Map for Road Lane Recognition, 저자 6명, Journal of Institute of Control, Robotics and Systems 17(1), 47–53쪽,
+    2011년을 대조하여 신규 DOI를 확인했습니다. 영문 제목의 Performane은 Crossref 원문 표기입니다.
+  verified_metadata:
+    year: 2011
+    publisher: Journal of Institute of Control, Robotics and Systems
+    pages: 47-53
+    date: '2011-01-01'
+  author_orcids: []
+  crossref_authors:
+  - Woo-Yong Kang
+  - Eun-Sung Lee
+  - Geon-Woo Lee
+  - Jae-Ik Park
+  - Kwang-Sik Choi
+  - Moon-Beom Heo
+  key: legacy-017
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-011
+  - author-012
+  - author-022
+  - author-004
+  - author-030
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 17
+  title: 편대비행위성의 항법 및 궤도제어를 위한 실시간 Hardware-In-the-Loop 시뮬레이션 테스트베드 초기 설계
+  doi: 10.5140/jass.2009.26.1.099
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.5140/jass.2009.26.1.099
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001325397
+  doi_note: >-
+    Crossref와 KCI에서 국·영문 제목, 저자 5명, JASS 26(1), 99–110쪽, 2009년을 대조하여 신규 DOI를 확인했습니다. Crossref 발행일은 2009-03-15로 원본 실적 목록의 5월과 다릅니다. KCI 영문 저자 필드에서 박한얼을 Park, Jae-Ik으로 잘못 표기하지만 국문 저자와
+    Crossref의 Han-Earl Park가 일치합니다. 박상영 이름 옆 ORCID 링크도 확인했습니다.
+  verified_metadata:
+    year: 2009
+    publisher: Journal of Astronomy and Space Sciences
+    pages: 99-110
+    date: '2009-03-15'
+  author_orcids:
+  - name: Sang-Young Park
+    orcid: 0000-0002-1962-4038
+    source: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001325397
+  crossref_authors:
+  - Jae-Ik Park
+  - Han-Earl Park
+  - Sun-Hwa Shim
+  - Sang-Young Park
+  - Kyu-Hong Choi
+  key: legacy-018
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-008
+  - author-020
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 18
+  title: 통신해양기상위성에서의 태양광 반사점(Sun-glint) 위치 예측
+  doi: 10.5140/jass.2005.22.3.263
+  doi_status: verified
+  doi_sources:
+  - https://api.crossref.org/works/10.5140/jass.2005.22.3.263
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART000992170
+  doi_note: Crossref와 KCI에서 대응 영문 제목, JASS 22(3), 263–272쪽, 2005년을 대조하여 신규 DOI를 확인했습니다. Crossref 저자명에 Choil/Payk 오기가 있고 KCI의 유주형 저자 순서는 원본 및 Crossref와 다릅니다. 저자명·순서를 임의로 바꾸지 않았습니다.
+  verified_metadata:
+    year: 2005
+    publisher: Journal of Astronomy and Space Sciences
+    pages: 263-272
+    date: '2005-09-01'
+  author_orcids: []
+  crossref_authors:
+  - Jae-Ik Park
+  - Kyu-Hong Choil
+  - Sang-Young Payk
+  - Joo-Hyung Ryu
+  - Yu-Hwan Ahn
+  - Jae-Woo Park
+  - Byoung-Soo Kim
+  key: legacy-019
+  category: journal
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-010
+  - author-009
+  - author-031
+  - author-021
+  - author-032
+  - author-033
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 19
+  title: Contingency Analysis and Recovery Planning for the Korea Pathfinder Lunar Orbiter
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Contingency+Analysis+and+Recovery+Planning+for+the+Korea+Pathfinder+Lunar+Orbiter&rows=5
+  - https://www.space-flight.org/docs/2022_summer/ASC22_FullProgram_Compiled.pdf
+  doi_note: AAS/AIAA 공식 2022년 프로그램의 AAS 22-697에서 제목과 7명 저자, 학회 일정을 확인했습니다. Crossref 제목 검색 결과는 다른 KPLO 학술지 논문으로 해당 학회 발표와 일치하는 DOI를 찾지 못했습니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-020
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-034
+  - author-035
+  - author-036
+  - author-037
+  - author-038
+  - author-004
+  - author-023
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 20
+  title: Orbit Determination Simulation for Korea Pathfinder Lunar Orbiter using Ballistic Lunar Transfer
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Orbit+Determination+Simulation+for+Korea+Pathfinder+Lunar+Orbiter+using+Ballistic+Lunar+Transfer&rows=5
+  - https://pure.kaist.ac.kr/en/publications/orbit-determination-simulation-for-korea-pathfinder-lunar-orbiter/
+  - https://khu.elsevierpure.com/en/publications/orbit-determination-simulation-for-korea-pathfinder-lunar-orbiter-2/
+  doi_note: >-
+    공동저자 대학의 출판 기록에서 제목·저자와 ASTRODYNAMICS 2020 수록(pp.3147–3162), 행사 2020-08-09~12, 논문집 출판 2021을 확인했습니다. 해당 기록과 Crossref 검색에서 이 컨퍼런스 발표의 DOI는 찾지 못했으며, 관련 2020년 JASS 논문의 DOI와 구분했습니다. 기존
+    행사연도 정정을 유지합니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  landing_url: https://pure.kaist.ac.kr/en/publications/orbit-determination-simulation-for-korea-pathfinder-lunar-orbiter/
+  key: legacy-021
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-002
+  - author-001
+  - author-004
+  - author-006
+  - author-003
+  - author-005
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 21
+  title: Analysis of a Constrained Optimal Multiple-phase Landing Trajectory for a Small Robotic Lunar Lander
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Analysis+of+a+Constrained+Optimal+Multiple-phase+Landing+Trajectory+for+a+Small+Robotic+Lunar+Lander&rows=5
+  - https://www.space-flight.org/docs/2019_summer/ASC2019_Program_Full.pdf
+  doi_note: >-
+    AAS/AIAA 공식 2019년 프로그램의 AAS 19-865에서 제목과 발표자·공동저자를 확인했습니다. 프로그램과 Crossref 제목 검색에서 일치 DOI를 찾지 못했습니다. 관련 2017/2018년 착륙궤적 학술지 논문은 별도 실적이므로 해당 DOI를 연결하지 않았습니다. DOI 미발견은 DOI 미발급을 의미하지
+    않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-022
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-039
+  - author-004
+  - author-040
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 22
+  title: Enhanced Stationkeeping Maneuver Control Technique for Delta-V Cost Reduction in the Korea Pathfinder Lunar Orbiter
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=Enhanced+Stationkeeping+Maneuver+Control+Technique+for+Delta-V+Cost+Reduction+in+the+Korea+Pathfinder+Lunar+Orbiter&query.author=Park&rows=8
+  - https://ntrs.nasa.gov/citations/20180006802
+  - https://ntrs.nasa.gov/api/citations/20180006802/downloads/20180006802.pdf
+  doi_note: NASA NTRS 공식 기록과 첨부 AAS 18-246 원문에서 제목·7명 저자·2018년 학회를 확인했습니다. NTRS 식별자는 보고서번호와 별개이며 DOI가 아닙니다. 공식 기록/원문 및 Crossref 검색에서 이 발표의 DOI를 찾지 못했습니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  landing_url: https://ntrs.nasa.gov/citations/20180006802
+  key: legacy-023
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-041
+  - author-004
+  - author-018
+  - author-042
+  - author-038
+  - author-017
+  - author-019
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 23
+  title: Trajectory Design for the Korea Pathfinder Lunar Orbiter(KPLO)
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Trajectory+Design+for+the+Korea+Pathfinder+Lunar+Orbiter%28KPLO%29&query.author=Park&rows=8
+  - https://pure.kaist.ac.kr/en/publications/trajectory-design-for-the-korea-pathfinder-lunar-orbiter-kplo/
+  - https://www.space-flight.org/docs/2018_summer/2018ASC_Program_08_19_18_opt.pdf
+  doi_note: KAIST 출판 기록에서 제목·7명 저자·2018년 AAS/AIAA 학회, Univelt 논문집 167권 pp.1231–1244를 확인했고 공식 학회 프로그램도 대조했습니다. 해당 기록과 Crossref 제목·저자 검색에서 일치 DOI를 찾지 못했습니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  landing_url: https://pure.kaist.ac.kr/en/publications/trajectory-design-for-the-korea-pathfinder-lunar-orbiter-kplo/
+  key: legacy-024
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-018
+  - author-042
+  - author-043
+  - author-037
+  - author-004
+  - author-019
+  - author-044
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 24
+  title: Validation of Formation Keeping Control for GPS-based Satellite Formation Flying
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Validation+of+Formation+Keeping+Control+for+GPS-based+Satellite+Formation+Flying&query.author=Park&rows=8
+  - https://sites.google.com/view/dr-space/publications
+  - https://elib.dlr.de/85994/
+  - https://cosparhq.cnes.fr/events/others/other-meetings-of-interest-to-cospar/
+  doi_note: >-
+    저자 원본 목록의 제목·3명 저자를 기준으로 Crossref와 SFFMT/DLR 자료를 검색했으나 일치 DOI를 찾지 못했습니다. DLR와 COSPAR의 학회 일정 자료로 2013-05-29~31 뮌헨 개최를 재확인했습니다. DLR URL은 동일 행사에 관한 다른 논문의 기록이므로 본 논문의 원문 링크로 사용하지 않습니다.
+    기존 날짜 정정을 유지합니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-025
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-008
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 25
+  title: Development of GNSS-based Transportation Infrastructure for Intelligent Transportation System
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.bibliographic=Development+GNSS+Transportation+Infrastructure+Intelligent+Transportation+System+Park+Lee+Heo+2013&rows=10
+  - https://www.ion.org/publications/abstract.cfm?articleID=10903
+  - https://www.ion.org/itm/upload/ITM13OnsiteProgram.pdf
+  doi_note: >-
+    ION 공식 논문 페이지에서 제목·3명 저자·2013년 논문집 pp.909–914를 확인했습니다. DOI 표기/링크는 찾지 못했고 Crossref 제목·저자/서지정보 검색에서도 일치 DOI를 찾지 못했습니다. 공식 현장 프로그램상 학회일정은 2013-01-28~30으로 기존 원문 종료일(31일)과 달라 정정 메타데이터를
+    기록했습니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  landing_url: https://www.ion.org/publications/abstract.cfm?articleID=10903
+  verified_metadata:
+    details: Proceedings of the 2013 International Technical Meeting of the Institute of Navigation, San Diego, CA, 28-30 Jan., 2013, pp.909-914
+    note: ION 공식 현장 프로그램에 따라 개최일을 2013년 1월 28–30일로 정정하고 공식 논문 페이지의 페이지 범위 909–914를 반영했습니다.
+    verification_source: https://www.ion.org/itm/upload/ITM13OnsiteProgram.pdf
+  key: legacy-026
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 26
+  title: Satellite Relative Navigation using Kinematic Approach
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Satellite+Relative+Navigation+using+Kinematic+Approach&rows=5
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=8&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=5
+  - https://sites.google.com/view/dr-space/publications
+  doi_note: 국토교통과학기술진흥원 과제 성과 목록에서 같은 제목과 European Navigation Conference 2012, 폴란드 개최를 확인했습니다. Crossref 제목 검색과 공식 행사 관련 검색에서 제목·저자·연도가 일치하는 DOI 또는 공개 원문을 찾지 못했습니다. DOI 미발견은 DOI 미발급을
+    의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-027
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 27
+  title: GNSS based Relative Navigation of Formation Satellite with Long Baseline
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=GNSS+based+Relative+Navigation+of+Formation+Satellite+with+Long+Baseline&query.author=Park&rows=8
+  - https://www.iafastro.org/assets/files/publications/iac-publications/IAC2011_FProgramme_final_20Sept.pdf
+  doi_note: >-
+    IAF 공식 IAC 2011 프로그램의 IAC-11.B2.4.2에서 제목·Jae-Ik Park·KARI 소속을 확인했습니다. 원본의 공동저자와 발표연도를 기준으로 Crossref도 대조했으나 해당 발표의 DOI를 찾지 못했습니다. 2012년 GPS 상대위치결정 학술지 논문 DOI는 별도 실적이므로 연결하지 않았습니다.
+    DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-028
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 28
+  title: GNSS based Navigation and Control for Autonomous Formation Vehicles
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=GNSS+based+Navigation+and+Control+for+Autonomous+Formation+Vehicles&query.author=Park&rows=8
+  - https://www.iafastro.org/assets/files/publications/iac-publications/iac-2010-final.pdf
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=3&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=2
+  doi_note: >-
+    IAF 공식 IAC 2010 프로그램의 IAC-10.B2.3.1 및 국토교통과학기술진흥원 성과 목록에서 제목과 발표자/행사를 확인했습니다. 프로그램 제목은 마지막 단어를 Vehicle로 표기합니다. Crossref 제목·저자 검색에서 이 학회 발표의 DOI를 찾지 못했습니다. DOI 미발견은 DOI 미발급을 의미하지
+    않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-029
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-016
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 29
+  title: Experiment of Road Lane Recognition Using Precise Digital Map
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Experiment+of+Road+Lane+Recognition+Using+Precise+Digital+Map&query.author=Park&rows=8
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=3&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=2
+  - https://sites.google.com/view/dr-space/publications
+  doi_note: >-
+    국토교통과학기술진흥원 성과 목록에서 제목(목록에는 Expreriment로 철자 표기), GPS/GNSS 2010, 대만 개최를 확인했습니다. Crossref 제목·저자 검색에서 일치 DOI를 찾지 못했습니다. 관련 2011년 정밀전자지도 학술지 논문의 DOI는 별도 실적으로 구분했습니다. DOI 미발견은 DOI 미발급을
+    의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-030
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-011
+  - author-012
+  - author-022
+  - author-004
+  - author-045
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 30
+  title: Safety Improvement Test of A GPS Based AGV System Using A Dead Reckoning Algorithm
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Safety+Improvement+Test+of+A+GPS+Based+AGV+System+Using+A+Dead+Reckoning+Algorithm&rows=5
+  - https://www.proceedings.com/content/024/024718webtoc.pdf
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=3&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=2
+  doi_note: APISAT 2010 논문집 목차에서 제목·5명 저자·시작페이지 656을, 국토교통과학기술진흥원 성과 목록에서 행사·연도를 확인했습니다. Crossref 제목 검색에서 해당 발표의 DOI를 찾지 못했으며 다른 AGV/추측항법 논문과 구분했습니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-031
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-011
+  - author-012
+  - author-004
+  - author-013
+  - author-016
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 31
+  title: A Hardware-in-the-Loop Simulations for GPS-based Formation Navigation and Control using a State-Dependent Riccati Equation Technique
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=A+Hardware-in-the-Loop+Simulations+for+GPS-based+Formation+Navigation+and+Control+using+a+State-Dependent+Riccati+Equation+Technique&rows=5
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.kwse.or.kr/files/kor/newsletter/2009/INWES-newsletter_03.pdf
+  - https://m.wwst.or.kr/kor/business/bien.jsp
+  doi_note: >-
+    저자 원본 목록의 제목·5명 저자를 기준으로 검색했고 주최 측 자료에서 BIEN 2009의 2009-08-27~29 부산 개최를 확인했습니다. Crossref에서 검색되는 2010년 GPS 편대비행 학술지 논문과 2012년 자세동기화 논문은 제목·저자/연도가 달라 제외했습니다. 이 2009년 학회 발표의 DOI와 공식
+    개별 원문은 찾지 못했습니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-032
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-008
+  - author-020
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 32
+  title: Development of Sun-glint Prediction Program For The Communication, Ocean and Meteorological Satellite
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Development+of+Sun-glint+Prediction+Program+For+The+Communication%2C+Ocean+and+Meteorological+Satellite&rows=5
+  - https://sites.google.com/view/dr-space/publications
+  - https://acl.yonsei.ac.kr/domestic_conferences/
+  doi_note: >-
+    Crossref 제목 검색에서 2005년 JASS 학술지 논문 등은 발견되었으나 2004년 학회 발표와 일치하는 DOI는 찾지 못했습니다. 공동저자 소속 연세대 연구실에는 같은 제목이 한국우주과학회 2004년 가을학술대회로 분류되고 저자순서 및 이병선 저자 추가가 원본과 달라 동일 발표 여부·분류·저자 확인이 필요합니다.
+    원본의 분류와 저자는 임의로 변경하지 않았습니다. DOI 미발견은 DOI 미발급을 의미하지 않습니다.
+  author_orcids: []
+  author_orcid_note: 확보한 해당 발표의 공식 기록·원문에서 저자와 직접 연결된 ORCID를 확인하지 못했습니다. 이름만 같은 프로필은 연결하지 않았습니다.
+  key: legacy-033
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-009
+  - author-010
+  - author-021
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 33
+  title: KPLO 임무궤도에서 모멘텀 언로딩시 궤도 영향성 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=KPLO+%EC%9E%84%EB%AC%B4%EA%B6%A4%EB%8F%84%EC%97%90%EC%84%9C+%EB%AA%A8%EB%A9%98%ED%85%80+%EC%96%B8%EB%A1%9C%EB%94%A9%EC%8B%9C+%EA%B6%A4%EB%8F%84+%EC%98%81%ED%96%A5%EC%84%B1+%EB%B6%84%EC%84%9D&rows=5
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  doi_note: 학회 공식 2021년 가을 회보 PDF 60쪽(P-32)에서 대응 영문 제목·저자 확인. 해당 초록에 DOI/ORCID 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://ksss.or.kr/society/tksss/file/download/12211?view=1#page=60
+  author_orcids: []
+  key: legacy-034
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-023
+  - author-005
+  - author-003
+  - author-001
+  - author-002
+  - author-046
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 34
+  title: KPLO 달 궤도 진입 기동 분산 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=KPLO+%EB%8B%AC+%EA%B6%A4%EB%8F%84+%EC%A7%84%EC%9E%85+%EA%B8%B0%EB%8F%99+%EB%B6%84%EC%82%B0+%EB%B6%84%EC%84%9D&rows=5
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  doi_note: >-
+    학회 공식 2021년 가을 회보 PDF 30쪽(II-2-2)에서 KPLO Dispersion Analysis on Lunar Orbit Insertion Burns와 저자 확인. 해당 초록에 DOI/ORCID 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지
+    않음.
+  landing_url: https://ksss.or.kr/society/tksss/file/download/12211?view=1#page=30
+  author_orcids: []
+  key: legacy-035
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-005
+  - author-004
+  - author-006
+  - author-001
+  - author-003
+  - author-002
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 35
+  title: OMT 보정기동을 고려한 KPLO 궤도보정기동 설계 및 궤적 운용 절차
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=OMT+%EB%B3%B4%EC%A0%95%EA%B8%B0%EB%8F%99%EC%9D%84+%EA%B3%A0%EB%A0%A4%ED%95%9C+KPLO+%EA%B6%A4%EB%8F%84%EB%B3%B4%EC%A0%95%EA%B8%B0%EB%8F%99+%EC%84%A4%EA%B3%84+%EB%B0%8F+%EA%B6%A4%EC%A0%81+%EC%9A%B4%EC%9A%A9+%EC%A0%88%EC%B0%A8&rows=5
+  - https://ksss.or.kr/society/tksss/file/download/12211?view=1
+  doi_note: 학회 공식 2021년 가을 회보 PDF 78쪽(P-105)에서 OMT 보정기동을 고려한 설계·운용절차의 대응 영문 제목·저자 확인. 해당 초록에 DOI/ORCID 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://ksss.or.kr/society/tksss/file/download/12211?view=1#page=78
+  author_orcids: []
+  key: legacy-036
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-005
+  - author-004
+  - author-001
+  - author-003
+  - author-023
+  - author-002
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 36
+  title: 근지구소행성 (99942) 아포피스 탐사의 직접 전이궤적 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EA%B7%BC%EC%A7%80%EA%B5%AC%EC%86%8C%ED%96%89%EC%84%B1+%2899942%29+%EC%95%84%ED%8F%AC%ED%94%BC%EC%8A%A4+%ED%83%90%EC%82%AC%EC%9D%98+%EC%A7%81%EC%A0%91+%EC%A0%84%EC%9D%B4%EA%B6%A4%EC%A0%81+%EB%B6%84%EC%84%9D&rows=5
+  - https://ksas.or.kr/wp/2021a/data/2021%EB%85%84%EB%8F%84%20%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%28%EC%95%88%29%20v26.pdf
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  doi_note: 한국항공우주학회 2021 춘계 공식 프로그램 P탐사-6에서 제목·저자 확인. 프로그램에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://ksas.or.kr/wp/2021a/data/2021%EB%85%84%EB%8F%84%20%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%28%EC%95%88%29%20v26.pdf
+  author_orcids: []
+  key: legacy-037
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-005
+  - author-002
+  - author-003
+  - author-001
+  - author-007
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 37
+  title: WSB/BLT 궤적 설계를 위한 달 궤도 조건
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=WSB%2FBLT+%EA%B6%A4%EC%A0%81+%EC%84%A4%EA%B3%84%EB%A5%BC+%EC%9C%84%ED%95%9C+%EB%8B%AC+%EA%B6%A4%EB%8F%84+%EC%A1%B0%EA%B1%B4&rows=5
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  doi_note: 공동저자 송영주의 경희대 연구실 공식 실적목록에서 대응 영문 제목 Lunar Orbit Conditions to Design WSB/BLT Trajectories와 2020 학회·저자 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을
+    뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-038
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-006
+  - author-004
+  - author-001
+  - author-002
+  - author-005
+  - author-003
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 38
+  title: 시험용 달 궤도선의 발사체 분산 궤적보정기동 설계를 위한 궤도결정 오차 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EB%B0%9C%EC%82%AC%EC%B2%B4+%EB%B6%84%EC%82%B0+%EA%B6%A4%EC%A0%81%EB%B3%B4%EC%A0%95%EA%B8%B0%EB%8F%99+%EC%84%A4%EA%B3%84%EB%A5%BC+%EC%9C%84%ED%95%9C+%EA%B6%A4%EB%8F%84%EA%B2%B0%EC%A0%95+%EC%98%A4%EC%B0%A8+%EB%B6%84%EC%84%9D&rows=5
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525946
+  doi_note: 한국항공우주학회 2020 추계 자료 배포 페이지와 공동저자 연구실 목록에서 제목·저자·연도 확인. 공개 서지정보에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525946
+  author_orcids: []
+  key: legacy-039
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-002
+  - author-005
+  - author-001
+  - author-004
+  - author-003
+  - author-006
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 39
+  title: 시험용 달 궤도선의 분사오차와 기동시점을 고려한 WSB/BLT 궤적오차보정기동 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EB%B6%84%EC%82%AC%EC%98%A4%EC%B0%A8%EC%99%80+%EA%B8%B0%EB%8F%99%EC%8B%9C%EC%A0%90%EC%9D%84+%EA%B3%A0%EB%A0%A4%ED%95%9C+WSB%2FBLT+%EA%B6%A4%EC%A0%81%EC%98%A4%EC%B0%A8%EB%B3%B4%EC%A0%95%EA%B8%B0%EB%8F%99+%EB%B6%84%EC%84%9D&rows=5
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525947
+  doi_note: 한국항공우주학회 2020 추계 자료 배포 페이지에서 제목·저자·연도 확인. 공개 서지정보에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525947
+  author_orcids: []
+  key: legacy-040
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-003
+  - author-005
+  - author-001
+  - author-002
+  - author-004
+  - author-006
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 40
+  title: KPLO BLT 궤적 설계
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=KPLO+BLT+%EA%B6%A4%EC%A0%81+%EC%84%A4%EA%B3%84&rows=5
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442221
+  doi_note: 한국항공우주학회 2020 춘계 자료 배포 페이지에서 제목·저자·연도 확인. UCI는 표기되어 있으나 DOI 표기는 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442221
+  author_orcids: []
+  key: legacy-041
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-006
+  - author-004
+  - author-001
+  - author-002
+  - author-005
+  - author-003
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 41
+  title: 시험용 달 궤도선 BLT 궤적의 달 궤도 진입 및 임무궤도 설계
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0+BLT+%EA%B6%A4%EC%A0%81%EC%9D%98+%EB%8B%AC+%EA%B6%A4%EB%8F%84+%EC%A7%84%EC%9E%85+%EB%B0%8F+%EC%9E%84%EB%AC%B4%EA%B6%A4%EB%8F%84+%EC%84%A4%EA%B3%84&rows=5
+  - https://sites.google.com/khu.ac.kr/sfmcl/publications/conferences
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442223
+  doi_note: 한국항공우주학회 2020 춘계 자료 배포 페이지에서 제목·저자·연도 확인. UCI는 표기되어 있으나 DOI 표기는 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442223
+  author_orcids: []
+  key: legacy-042
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-006
+  - author-002
+  - author-001
+  - author-005
+  - author-003
+  - author-007
+  - author-015
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 42
+  title: 시험용 달 궤도선 발사기간(Launch Period) 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0+%EB%B0%9C%EC%82%AC%EA%B8%B0%EA%B0%84%28Launch+Period%29+%EB%B6%84%EC%84%9D&rows=5
+  doi_note: 정확 제목 공개검색에서 발표 자체의 공식 원문을 특정하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-043
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-006
+  - author-047
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 43
+  title: 상용 소프트웨어를 사용한 달 착륙선 착륙궤적 설계 가능성 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%83%81%EC%9A%A9+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A5%BC+%EC%82%AC%EC%9A%A9%ED%95%9C+%EB%8B%AC+%EC%B0%A9%EB%A5%99%EC%84%A0+%EC%B0%A9%EB%A5%99%EA%B6%A4%EC%A0%81+%EC%84%A4%EA%B3%84+%EA%B0%80%EB%8A%A5%EC%84%B1+%EC%97%B0%EA%B5%AC&rows=5
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08753239
+  doi_note: 한국항공우주학회 2019 춘계 자료 배포 페이지에서 제목·저자·연도 확인. 공개 서지정보에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08753239
+  author_orcids: []
+  key: legacy-044
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 44
+  title: 시험용 달궤도선(KPLO) 궤도유지기동 속도증분 저감 방법 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC%EA%B6%A4%EB%8F%84%EC%84%A0%28KPLO%29+%EA%B6%A4%EB%8F%84%EC%9C%A0%EC%A7%80%EA%B8%B0%EB%8F%99+%EC%86%8D%EB%8F%84%EC%A6%9D%EB%B6%84+%EC%A0%80%EA%B0%90+%EB%B0%A9%EB%B2%95+%EC%97%B0%EA%B5%AC&rows=5
+  - https://www.riss.or.kr/search/Search.do?colName=re_a_kor&isDetailSearch=Y&queryText=znCreator%2C%EB%B0%95%EC%9E%AC%EC%9D%B5%28Jae-Ik+Park%29&searchGubun=true
+  doi_note: 공개 RISS 저자검색에서 제목의 조사 차이(시험용 달궤도선(KPLO)의 …)를 가진 2018 학회 항목 및 저자를 확인했으나 논문 DOI는 확인하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-045
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-018
+  - author-017
+  - author-019
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 45
+  title: 시험용 달궤도선(KPLO) 궤도유지기동 속도증분 요구사항 해석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%8B%9C%ED%97%98%EC%9A%A9+%EB%8B%AC%EA%B6%A4%EB%8F%84%EC%84%A0%28KPLO%29+%EA%B6%A4%EB%8F%84%EC%9C%A0%EC%A7%80%EA%B8%B0%EB%8F%99+%EC%86%8D%EB%8F%84%EC%A6%9D%EB%B6%84+%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD+%ED%95%B4%EC%84%9D&rows=5
+  doi_note: 정확 제목 공개검색에서 발표 자체의 공식 원문을 특정하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-046
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-018
+  - author-017
+  - author-019
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 46
+  title: 달착륙선 착륙시 장애물 인식 및 회피 기동을 위한 이미지 처리 방안 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8B%AC%EC%B0%A9%EB%A5%99%EC%84%A0+%EC%B0%A9%EB%A5%99%EC%8B%9C+%EC%9E%A5%EC%95%A0%EB%AC%BC+%EC%9D%B8%EC%8B%9D+%EB%B0%8F+%ED%9A%8C%ED%94%BC+%EA%B8%B0%EB%8F%99%EC%9D%84+%EC%9C%84%ED%95%9C+%EC%9D%B4%EB%AF%B8%EC%A7%80+%EC%B2%98%EB%A6%AC+%EB%B0%A9%EC%95%88+%EC%97%B0%EA%B5%AC&rows=5
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367123
+  doi_note: 한국항공우주학회 2017 추계 자료 배포 페이지에서 제목·저자·연도 확인. UCI는 표기되어 있으나 DOI 표기는 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367123
+  author_orcids: []
+  key: legacy-047
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-048
+  - author-004
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 47
+  title: 달 궤도선의 위상 전이 횟수에 따른 요구 속도증분 해석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8B%AC+%EA%B6%A4%EB%8F%84%EC%84%A0%EC%9D%98+%EC%9C%84%EC%83%81+%EC%A0%84%EC%9D%B4+%ED%9A%9F%EC%88%98%EC%97%90+%EB%94%B0%EB%A5%B8+%EC%9A%94%EA%B5%AC+%EC%86%8D%EB%8F%84%EC%A6%9D%EB%B6%84+%ED%95%B4%EC%84%9D&rows=5
+  doi_note: 정확 제목 공개검색에서 발표 자체의 공식 원문을 특정하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-048
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-018
+  - author-006
+  - author-004
+  - author-049
+  - author-019
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 48
+  title: 무인 달 착륙선 동력하강 단계에서 요구 연료량 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%AC%B4%EC%9D%B8+%EB%8B%AC+%EC%B0%A9%EB%A5%99%EC%84%A0+%EB%8F%99%EB%A0%A5%ED%95%98%EA%B0%95+%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C+%EC%9A%94%EA%B5%AC+%EC%97%B0%EB%A3%8C%EB%9F%89+%EB%B6%84%EC%84%9D&rows=5
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367210
+  doi_note: 한국항공우주학회 2017 추계 자료 배포 페이지에서 제목·저자·연도 확인. 공개 서지정보에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367210
+  author_orcids: []
+  key: legacy-049
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 49
+  title: 무인 달 착륙임무를 위한 시스템 개념 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%AC%B4%EC%9D%B8+%EB%8B%AC+%EC%B0%A9%EB%A5%99%EC%9E%84%EB%AC%B4%EB%A5%BC+%EC%9C%84%ED%95%9C+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EA%B0%9C%EB%85%90+%EC%97%B0%EA%B5%AC&rows=5
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188719
+  doi_note: 한국항공우주학회 2017 춘계 자료 배포 페이지에서 제목·저자·연도 확인. 공개 서지정보에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188719
+  author_orcids: []
+  key: legacy-050
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-017
+  - author-004
+  - author-050
+  - author-051
+  - author-052
+  - author-053
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 50
+  title: 무인 달 착륙선 임무단계별 속도증분 및 연료량 분석 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%AC%B4%EC%9D%B8+%EB%8B%AC+%EC%B0%A9%EB%A5%99%EC%84%A0+%EC%9E%84%EB%AC%B4%EB%8B%A8%EA%B3%84%EB%B3%84+%EC%86%8D%EB%8F%84%EC%A6%9D%EB%B6%84+%EB%B0%8F+%EC%97%B0%EB%A3%8C%EB%9F%89+%EB%B6%84%EC%84%9D+%EC%97%B0%EA%B5%AC&rows=5
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188720
+  doi_note: 한국항공우주학회 2017 춘계 자료 배포 페이지에서 제목·저자·연도 확인. 공개 서지정보에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188720
+  author_orcids: []
+  key: legacy-051
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 51
+  title: KASS 통합운영국 개발을 위한 RTCA/DO-178 소프트웨어 개발 절차 분석 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=KASS+%ED%86%B5%ED%95%A9%EC%9A%B4%EC%98%81%EA%B5%AD+%EA%B0%9C%EB%B0%9C%EC%9D%84+%EC%9C%84%ED%95%9C+RTCA%2FDO-178+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4+%EA%B0%9C%EB%B0%9C+%EC%A0%88%EC%B0%A8+%EB%B6%84%EC%84%9D+%EC%97%B0%EA%B5%AC&rows=5
+  - https://www.ipnt.or.kr/history/2015_Program.pdf
+  doi_note: 위성항법시스템학회 2015 공식 프로그램 PS28에서 제목·저자 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.ipnt.or.kr/history/2015_Program.pdf
+  author_orcids: []
+  key: legacy-052
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 52
+  title: 준/실시간 GNSS 궤도력 활용을 위한 IGS 초신속궤도력 예측궤도 오차 요구조건 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%A4%80%2F%EC%8B%A4%EC%8B%9C%EA%B0%84+GNSS+%EA%B6%A4%EB%8F%84%EB%A0%A5+%ED%99%9C%EC%9A%A9%EC%9D%84+%EC%9C%84%ED%95%9C+IGS+%EC%B4%88%EC%8B%A0%EC%86%8D%EA%B6%A4%EB%8F%84%EB%A0%A5+%EC%98%88%EC%B8%A1%EA%B6%A4%EB%8F%84+%EC%98%A4%EC%B0%A8+%EC%9A%94%EA%B5%AC%EC%A1%B0%EA%B1%B4+%EB%B6%84%EC%84%9D&rows=5
+  - https://www.riss.or.kr/search/Search.do?colName=re_a_kor&isDetailSearch=Y&queryText=znCreator%2C%EB%B0%95%EC%9E%AC%EC%9D%B5%28Jae-Ik+Park%29&searchGubun=true
+  doi_note: 공개 RISS 저자검색에서 2013 한국통신학회 항목 확인. 색인의 제목에는 IGS 대신 ICS로 표기됨. DOI는 확인하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-053
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-054
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 53
+  title: 다중 기준국 네트워크를 활용한 실시간 GNSS/GPS 반송파 미지정수 결정 기술 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8B%A4%EC%A4%91+%EA%B8%B0%EC%A4%80%EA%B5%AD+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EB%A5%BC+%ED%99%9C%EC%9A%A9%ED%95%9C+%EC%8B%A4%EC%8B%9C%EA%B0%84+GNSS%2FGPS+%EB%B0%98%EC%86%A1%ED%8C%8C+%EB%AF%B8%EC%A7%80%EC%A0%95%EC%88%98+%EA%B2%B0%EC%A0%95+%EA%B8%B0%EC%88%A0+%EC%97%B0%EA%B5%AC&rows=5
+  - https://ksss.or.kr/society/tksss/file/download/12137?view=1
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=9&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=3
+  doi_note: >-
+    KAIA 공식 성과목록에 원제목이 있으며 학회 공식 2012 공동 가을 회보 PDF 89쪽에 실시간 다중 기준국 GNSS/GPS 반송파 미지정수 결정 기술 연구라는 유사 제목·동일 저자 항목이 있음. 해당 초록에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을
+    뜻하지 않음.
+  landing_url: https://ksss.or.kr/society/tksss/file/download/12137?view=1#page=89
+  author_orcids: []
+  key: legacy-054
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 54
+  title: IGS 위성 궤도력을 이용한 육상교통 사용자 위치결정 성능향상 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=IGS+%EC%9C%84%EC%84%B1+%EA%B6%A4%EB%8F%84%EB%A0%A5%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%9C%A1%EC%83%81%EA%B5%90%ED%86%B5+%EC%82%AC%EC%9A%A9%EC%9E%90+%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95+%EC%84%B1%EB%8A%A5%ED%96%A5%EC%83%81+%EB%B6%84%EC%84%9D&rows=5
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=8&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=5
+  doi_note: KAIA 공식 연구과제 성과목록에서 해당 제목과 한국통신학회 2012 하계 발표 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-055
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-055
+  - author-056
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 55
+  title: 위성항법 다중 수신국 네트워크 구성을 위한 거리에 따른 위치결정 성능분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EB%8B%A4%EC%A4%91+%EC%88%98%EC%8B%A0%EA%B5%AD+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EA%B5%AC%EC%84%B1%EC%9D%84+%EC%9C%84%ED%95%9C+%EA%B1%B0%EB%A6%AC%EC%97%90+%EB%94%B0%EB%A5%B8+%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95+%EC%84%B1%EB%8A%A5%EB%B6%84%EC%84%9D&rows=5
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=8&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=5
+  doi_note: KAIA 공식 연구과제 성과목록에서 해당 제목과 한국통신학회 2012 동계 발표 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-056
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-028
+  - author-055
+  - author-056
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 56
+  title: 편대비행위성 상대위치결정을 위한 미지정수결정 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%ED%8E%B8%EB%8C%80%EB%B9%84%ED%96%89%EC%9C%84%EC%84%B1+%EC%83%81%EB%8C%80%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95%EC%9D%84+%EC%9C%84%ED%95%9C+%EB%AF%B8%EC%A7%80%EC%A0%95%EC%88%98%EA%B2%B0%EC%A0%95+%EC%97%B0%EA%B5%AC&rows=5
+  doi_note: 정확 제목 공개검색에서 발표 자체의 공식 원문을 특정하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-057
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 57
+  title: 다중기준국을 이용한 육상교통 환경에서 항법위성 궤도력에 따른 위치결정 성능향상 분석 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8B%A4%EC%A4%91%EA%B8%B0%EC%A4%80%EA%B5%AD%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%9C%A1%EC%83%81%EA%B5%90%ED%86%B5+%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C+%ED%95%AD%EB%B2%95%EC%9C%84%EC%84%B1+%EA%B6%A4%EB%8F%84%EB%A0%A5%EC%97%90+%EB%94%B0%EB%A5%B8+%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95+%EC%84%B1%EB%8A%A5%ED%96%A5%EC%83%81+%EB%B6%84%EC%84%9D+%EC%97%B0%EA%B5%AC&rows=5
+  - https://ksss.or.kr/file/download/12136?view=1
+  doi_note: 한국우주과학회 공식 2011 봄 회보에서 제목·저자 확인. 해당 초록에 DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://ksss.or.kr/file/download/12136?view=1
+  author_orcids: []
+  key: legacy-058
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-011
+  - author-027
+  - author-029
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 58
+  title: 육상교통 환경에서 네트워크기반의 다중기준국 활용을 위한 성능분석 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%A1%EC%83%81%EA%B5%90%ED%86%B5+%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B8%B0%EB%B0%98%EC%9D%98+%EB%8B%A4%EC%A4%91%EA%B8%B0%EC%A4%80%EA%B5%AD+%ED%99%9C%EC%9A%A9%EC%9D%84+%EC%9C%84%ED%95%9C+%EC%84%B1%EB%8A%A5%EB%B6%84%EC%84%9D+%EC%97%B0%EA%B5%AC&rows=5
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=11&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=7
+  doi_note: KAIA 공식 연구과제 성과목록에서 해당 제목과 한국통신학회 2011 동계 발표 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-059
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-011
+  - author-027
+  - author-029
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 59
+  title: GNSS 시뮬레이터를 이용한 운동궤적의 시각동기화 기술연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=GNSS+%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0%EB%A5%BC+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%9A%B4%EB%8F%99%EA%B6%A4%EC%A0%81%EC%9D%98+%EC%8B%9C%EA%B0%81%EB%8F%99%EA%B8%B0%ED%99%94+%EA%B8%B0%EC%88%A0%EC%97%B0%EA%B5%AC&rows=5
+  - https://ksss.or.kr/society/tksss/file/download/12205?view=1
+  doi_note: 한국우주과학회 공식 2010 봄 회보 PDF 29쪽 II-2-4에서 이동체를 포함한 제목·동일 저자 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://ksss.or.kr/society/tksss/file/download/12205?view=1#page=29
+  author_orcids: []
+  key: legacy-060
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-011
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 60
+  title: 위성항법기반의 자율편대위성을 위한 HIL 시물레이터 개발
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EA%B8%B0%EB%B0%98%EC%9D%98+%EC%9E%90%EC%9C%A8%ED%8E%B8%EB%8C%80%EC%9C%84%EC%84%B1%EC%9D%84+%EC%9C%84%ED%95%9C+HIL+%EC%8B%9C%EB%AC%BC%EB%A0%88%EC%9D%B4%ED%84%B0+%EA%B0%9C%EB%B0%9C&rows=5
+  doi_note: 정확 제목 공개검색에서 발표 자체의 공식 원문을 특정하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-061
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 61
+  title: 위성항법 수신국의 원격 영상 감시기법의 설계
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%88%98%EC%8B%A0%EA%B5%AD%EC%9D%98+%EC%9B%90%EA%B2%A9+%EC%98%81%EC%83%81+%EA%B0%90%EC%8B%9C%EA%B8%B0%EB%B2%95%EC%9D%98+%EC%84%A4%EA%B3%84&rows=5
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039082
+  doi_note: 한국통신학회 2012 동계 자료 배포 페이지에서 제목·저자·연도 확인. UCI는 표기되어 있으나 DOI 표기는 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039082
+  author_orcids: []
+  key: legacy-062
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-055
+  - author-056
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 62
+  title: 위성항법기반 항법장비의 병렬 구성을 활용한 안정성 향상
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EA%B8%B0%EB%B0%98+%ED%95%AD%EB%B2%95%EC%9E%A5%EB%B9%84%EC%9D%98+%EB%B3%91%EB%A0%AC+%EA%B5%AC%EC%84%B1%EC%9D%84+%ED%99%9C%EC%9A%A9%ED%95%9C+%EC%95%88%EC%A0%95%EC%84%B1+%ED%96%A5%EC%83%81&rows=5
+  - https://ksss.or.kr/society/tksss/file/download/12205?view=1
+  doi_note: 한국우주과학회 공식 2010 봄 회보 PDF 29쪽 II-2-3에서 안전성 향상으로 표기된 제목·동일 저자 확인. 기존 목록은 안정성으로 표기. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://ksss.or.kr/society/tksss/file/download/12205?view=1#page=29
+  author_orcids: []
+  key: legacy-063
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-011
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 63
+  title: 위성항법 다중기준국을 활용한 육상교통 항법의 성능예측
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EB%8B%A4%EC%A4%91%EA%B8%B0%EC%A4%80%EA%B5%AD%EC%9D%84+%ED%99%9C%EC%9A%A9%ED%95%9C+%EC%9C%A1%EC%83%81%EA%B5%90%ED%86%B5+%ED%95%AD%EB%B2%95%EC%9D%98+%EC%84%B1%EB%8A%A5%EC%98%88%EC%B8%A1&rows=5
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01445875
+  doi_note: 한국항공우주학회 2010 춘계 자료 배포 페이지에서 제목·저자·연도 확인. UCI는 표기되어 있으나 DOI 표기는 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01445875
+  author_orcids: []
+  key: legacy-064
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-012
+  - author-013
+  - author-004
+  - author-057
+  - author-058
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 64
+  title: 도심지 동적 환경에서 안정적인 반송파 사용을 위한 GPS 기준국용 고장검출기법 적용 가능성 분석
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8F%84%EC%8B%AC%EC%A7%80+%EB%8F%99%EC%A0%81+%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C+%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8+%EB%B0%98%EC%86%A1%ED%8C%8C+%EC%82%AC%EC%9A%A9%EC%9D%84+%EC%9C%84%ED%95%9C+GPS+%EA%B8%B0%EC%A4%80%EA%B5%AD%EC%9A%A9+%EA%B3%A0%EC%9E%A5%EA%B2%80%EC%B6%9C%EA%B8%B0%EB%B2%95+%EC%A0%81%EC%9A%A9+%EA%B0%80%EB%8A%A5%EC%84%B1+%EB%B6%84%EC%84%9D&rows=5
+  - >-
+    https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?bizId=&bizName=&bizYy=&cate1=&cate2=&cate3=&engNm=&itmNm=&korNm=&listCd=Cfrprs&menuNo=200060&orgNm=&pageIndex=16&pageUnit=10&psnNm=&searchBiz=&searchCnd=&searchTsk=&searchWrd=&searchYear=&sort=&state=&tskId=42881&tskName=&tskYy=&year=&yearCnt=7
+  doi_note: KAIA 공식 연구과제 성과목록에서 제목·2010 한국항공우주학회 발표 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-065
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-057
+  - author-059
+  - author-060
+  - author-004
+  - author-013
+  - author-058
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 65
+  title: 위성항법기반 교통인프라 기술개발
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EA%B8%B0%EB%B0%98+%EA%B5%90%ED%86%B5%EC%9D%B8%ED%94%84%EB%9D%BC+%EA%B8%B0%EC%88%A0%EA%B0%9C%EB%B0%9C&rows=5
+  doi_note: 정확 제목 공개검색에서 발표 자체의 공식 원문을 특정하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-066
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-013
+  - author-004
+  - author-012
+  - author-011
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 66
+  title: 고해상도 관측위성의 지상궤적 유지조정 알고리즘 연구
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EA%B3%A0%ED%95%B4%EC%83%81%EB%8F%84+%EA%B4%80%EC%B8%A1%EC%9C%84%EC%84%B1%EC%9D%98+%EC%A7%80%EC%83%81%EA%B6%A4%EC%A0%81+%EC%9C%A0%EC%A7%80%EC%A1%B0%EC%A0%95+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+%EC%97%B0%EA%B5%AC&rows=5
+  - https://acl.yonsei.ac.kr/domestic_conferences/
+  doi_note: 공동저자 연세대 Astrodynamics and Control Laboratory 공식 국내학회 실적목록에서 제목·저자·2009년 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-067
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-009
+  - author-061
+  - author-062
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 67
+  title: 위성편대비행유지 Hardware-In-the-Loop 시뮬레이션 테스트
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%8E%B8%EB%8C%80%EB%B9%84%ED%96%89%EC%9C%A0%EC%A7%80+Hardware-In-the-Loop+%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98+%ED%85%8C%EC%8A%A4%ED%8A%B8&rows=5
+  - https://acl.yonsei.ac.kr/domestic_conferences/
+  doi_note: 공동저자 연세대 연구실 공식 목록에서는 위성편대유지 Hardware-in-the-Loop 시뮬레이션 테스트로 표기된 2009 공동학회 발표 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-068
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-008
+  - author-020
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 68
+  title: Development of a Preliminary Formation Flying Testbed for Satellite Relative Navigation and Control
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Development+of+a+Preliminary+Formation+Flying+Testbed+for+Satellite+Relative+Navigation+and+Control&rows=5
+  - https://acl.yonsei.ac.kr/domestic_conferences/
+  doi_note: 공동저자 연세대 연구실 공식 목록에서 2008 학회 발표 확인. Crossref 후보 10.5140/jass.2009.26.1.099는 2009년 학술지 논문으로, 이 2008 학회발표의 DOI로 적용하지 않음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을
+    뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-069
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-008
+  - author-020
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 69
+  title: Relative Orbit Control of Formation Flying Mission in Low Earth Orbit Using Eccentricity/Inclination Vector Separation
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Relative+Orbit+Control+of+Formation+Flying+Mission+in+Low+Earth+Orbit+Using+Eccentricity%2FInclination+Vector+Separation&rows=5
+  - https://acl.yonsei.ac.kr/domestic_conferences/
+  doi_note: 공동저자 연세대 연구실 공식 목록에서 제목·저자·2008년 확인. Crossref의 유사 제목 AIAA 논문들은 저자/연도가 달라 제외함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-070
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 70
+  title: Optimum Target Trajectory for the SAR Interferometry Repeat Observation Satellite
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Optimum+Target+Trajectory+for+the+SAR+Interferometry+Repeat+Observation+Satellite&rows=5
+  - https://acl.yonsei.ac.kr/domestic_conferences/
+  doi_note: 공동저자 연세대 연구실 공식 목록에서 제목·저자·2006년 확인. DOI 표기 없음. TerraSAR-X 유사 제목의 해외 타저자 논문과 구분함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-071
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 71
+  title: Prediction of the Sun-glint location for the Communication, Ocean and Meteorological Satellite
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Prediction+of+the+Sun-glint+location+for+the+Communication%2C+Ocean+and+Meteorological+Satellite&rows=5
+  doi_note: Crossref 최상위 후보 10.5140/jass.2005.22.3.263는 2005년 JASS 학술지 논문이므로 이 2003년 학회발표의 DOI로 적용하지 않음. 해당 학회발표 자체의 DOI는 확인하지 못함. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을
+    뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-072
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-009
+  - author-010
+  - author-021
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 72
+  title: 동북아지역의 효율적인 정보획득을 위한 최적의 위성군 궤도 설계
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8F%99%EB%B6%81%EC%95%84%EC%A7%80%EC%97%AD%EC%9D%98+%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8+%EC%A0%95%EB%B3%B4%ED%9A%8D%EB%93%9D%EC%9D%84+%EC%9C%84%ED%95%9C+%EC%B5%9C%EC%A0%81%EC%9D%98+%EC%9C%84%EC%84%B1%EA%B5%B0+%EA%B6%A4%EB%8F%84+%EC%84%A4%EA%B3%84&rows=5
+  - https://acl.yonsei.ac.kr/domestic_conferences/
+  doi_note: 공동저자 연세대 연구실 공식 목록에서 제목·저자·2006년 확인. DOI 표기 없음. Crossref 제목검색 상위 5건에서도 동일 발표 DOI를 확인하지 못함. DOI 미발급을 뜻하지 않음.
+  landing_url:
+  author_orcids: []
+  key: legacy-073
+  category: conference
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-063
+  - author-001
+  - author-004
+  - author-009
+  - author-010
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 73
+  title: Method and system for Time To First Fix(TTFF) reduction of GPS Receivers using Satellite Based Augmentation System Signal
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Method+and+system+for+Time+To+First+Fix%28TTFF%29+reduction+of+GPS+Receivers+using+Satellite+Based+Augmentation+System+Signal&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22Method+and+system+for+Time+To+First+Fix%28TTFF%29+reduction+of+GPS+Receivers+using+Satellite+Based+Augmentation+System+Signal%22&page%5Bsize%5D=3
+  - https://patents.google.com/patent/US20180143325A1/en
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 공개 특허 명세서의 제목·출원/등록번호·발명자를 대조했습니다. 표시 분류는 원본의 출원/등록 구분을 유지합니다.
+  author_orcids: []
+  landing_url: https://patents.google.com/patent/US20180143325A1/en
+  key: legacy-074
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+  - https://patents.google.com/patent/EP3327465A1/en
+  - https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+  - https://patents.google.com/patent/JP2018084583A/ja
+  - https://patentimages.storage.googleapis.com/94/18/2b/8e8b841efdd92b/JP2018084583A.pdf
+  verified_metadata:
+    year: 2017
+    application_number: 17202087.7 (EU); 15/819,926 (US); 2017-223495 (JP)
+    registration_number: US10649091B2
+    country_records:
+    - jurisdiction: US
+      status: registered
+      application_number: 15/819,926
+      application_date: '2017-11-21'
+      publication_number: US20180143325A1
+      publication_date: '2018-05-24'
+      registration_number: US10649091B2
+      registration_date: '2020-05-12'
+      source: https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+    - jurisdiction: EP
+      status: application
+      application_number: '17202087.7'
+      application_date: '2017-11-16'
+      publication_number: EP3327465A1
+      publication_date: '2018-05-30'
+      source: https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+    - jurisdiction: JP
+      status: application
+      application_number: 2017-223495
+      application_date: '2017-11-21'
+      publication_number: JP2018084583A
+      publication_date: '2018-05-31'
+      source: https://patents.google.com/patent/JP2018084583A/ja
+- audit_index: 74
+  title: 달 탐사선 연료절감을 위한 궤도유지기동 제어방법 및 이를 기록한 컴퓨터로 읽을 수 있는 기록매체
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8B%AC+%ED%83%90%EC%82%AC%EC%84%A0+%EC%97%B0%EB%A3%8C%EC%A0%88%EA%B0%90%EC%9D%84+%EC%9C%84%ED%95%9C+%EA%B6%A4%EB%8F%84%EC%9C%A0%EC%A7%80%EA%B8%B0%EB%8F%99+%EC%A0%9C%EC%96%B4%EB%B0%A9%EB%B2%95+%EB%B0%8F+%EC%9D%B4%EB%A5%BC+%EA%B8%B0%EB%A1%9D%ED%95%9C+%EC%BB%B4%ED%93%A8%ED%84%B0%EB%A1%9C+%EC%9D%BD%EC%9D%84+%EC%88%98+%EC%9E%88%EB%8A%94+%EA%B8%B0%EB%A1%9D%EB%A7%A4%EC%B2%B4&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%EB%8B%AC+%ED%83%90%EC%82%AC%EC%84%A0+%EC%97%B0%EB%A3%8C%EC%A0%88%EA%B0%90%EC%9D%84+%EC%9C%84%ED%95%9C+%EA%B6%A4%EB%8F%84%EC%9C%A0%EC%A7%80%EA%B8%B0%EB%8F%99+%EC%A0%9C%EC%96%B4%EB%B0%A9%EB%B2%95+%EB%B0%8F+%EC%9D%B4%EB%A5%BC+%EA%B8%B0%EB%A1%9D%ED%95%9C+%EC%BB%B4%ED%93%A8%ED%84%B0%EB%A1%9C+%EC%9D%BD%EC%9D%84+%EC%88%98+%EC%9E%88%EB%8A%94+%EA%B8%B0%EB%A1%9D%EB%A7%A4%EC%B2%B4%22&page%5Bsize%5D=3
+  - https://patents.google.com/patent/KR102091031B1/en
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 공개 특허 명세서의 제목·출원/등록번호·발명자를 대조했습니다. 표시 분류는 원본의 출원/등록 구분을 유지합니다.
+  author_orcids: []
+  landing_url: https://patents.google.com/patent/KR102091031B1/en
+  key: legacy-075
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-018
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR102091031B1/en
+  - https://patentimages.storage.googleapis.com/53/67/75/339e883adbd02d/KR102091031B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  verified_metadata:
+    year: 2018
+    application_number: 10-2018-0131171
+    registration_number: 10-2091031
+    application_date: '2018-10-30'
+    registration_date: '2020-03-12'
+- audit_index: 75
+  title: GNSS 안테나 플랫폼
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=GNSS+%EC%95%88%ED%85%8C%EB%82%98+%ED%94%8C%EB%9E%AB%ED%8F%BC&rows=3
+  - https://api.datacite.org/dois?query=titles.title%3A%22GNSS+%EC%95%88%ED%85%8C%EB%82%98+%ED%94%8C%EB%9E%AB%ED%8F%BC%22&page%5Bsize%5D=3
+  - https://patents.google.com/patent/KR101414146B1/ko
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 공개 특허 명세서의 제목·출원/등록번호·발명자를 대조했습니다. 표시 분류는 원본의 출원/등록 구분을 유지합니다.
+  author_orcids: []
+  landing_url: https://patents.google.com/patent/KR101414146B1/ko
+  key: legacy-076
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR101414146B1/ko
+  - https://patentimages.storage.googleapis.com/82/7c/5d/d7957dbf086753/KR101414146B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  verified_metadata:
+    year: 2012
+    application_number: 10-2012-0124798
+    registration_number: 10-1414146
+    application_date: '2012-11-06'
+    registration_date: '2014-06-25'
+- audit_index: 76
+  title: 위성항법 데이터의 실시간 처리를 위한 데이터 전송 방법
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98+%EC%8B%A4%EC%8B%9C%EA%B0%84+%EC%B2%98%EB%A6%AC%EB%A5%BC+%EC%9C%84%ED%95%9C+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%A0%84%EC%86%A1+%EB%B0%A9%EB%B2%95&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98+%EC%8B%A4%EC%8B%9C%EA%B0%84+%EC%B2%98%EB%A6%AC%EB%A5%BC+%EC%9C%84%ED%95%9C+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%A0%84%EC%86%A1+%EB%B0%A9%EB%B2%95%22&page%5Bsize%5D=3
+  - https://patents.google.com/patent/KR101271006B1/ko
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 공개 특허 명세서의 제목·출원/등록번호·발명자를 대조했습니다. 표시 분류는 원본의 출원/등록 구분을 유지합니다.
+  author_orcids: []
+  landing_url: https://patents.google.com/patent/KR101271006B1/ko
+  key: legacy-077
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-056
+  - author-055
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR101271006B1/ko
+  - https://patentimages.storage.googleapis.com/8a/64/e2/fd2bd91baf2e87/KR101271006B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  verified_metadata:
+    year: 2012
+    application_number: 10-2012-0139240
+    registration_number: 10-1271006
+    application_date: '2012-12-03'
+    registration_date: '2013-05-29'
+- audit_index: 77
+  title: 위성항법 기준국용 데이터 송수신 장치
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EA%B8%B0%EC%A4%80%EA%B5%AD%EC%9A%A9+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%86%A1%EC%88%98%EC%8B%A0+%EC%9E%A5%EC%B9%98&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EA%B8%B0%EC%A4%80%EA%B5%AD%EC%9A%A9+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%86%A1%EC%88%98%EC%8B%A0+%EC%9E%A5%EC%B9%98%22&page%5Bsize%5D=3
+  - https://patents.google.com/patent/KR101261315B1/en
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 공개 특허 명세서의 제목·출원/등록번호·발명자를 대조했습니다. 표시 분류는 원본의 출원/등록 구분을 유지합니다.
+  author_orcids: []
+  landing_url: https://patents.google.com/patent/KR101261315B1/en
+  key: legacy-078
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-055
+  - author-056
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR101261315B1/en
+  - https://patentimages.storage.googleapis.com/98/c0/83/27034cfec325ce/KR101261315B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  verified_metadata:
+    year: 2012
+    application_number: 10-2012-0139241
+    registration_number: 10-1261315
+    application_date: '2012-12-03'
+    registration_date: '2013-04-30'
+- audit_index: 78
+  title: SBAS 신호를 이용하여 GPS 수신 장치의 TTFF를 단축할 수 있는 방법 및 시스템
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=SBAS+%EC%8B%A0%ED%98%B8%EB%A5%BC+%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC+GPS+%EC%88%98%EC%8B%A0+%EC%9E%A5%EC%B9%98%EC%9D%98+TTFF%EB%A5%BC+%EB%8B%A8%EC%B6%95%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8A%94+%EB%B0%A9%EB%B2%95+%EB%B0%8F+%EC%8B%9C%EC%8A%A4%ED%85%9C&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22SBAS+%EC%8B%A0%ED%98%B8%EB%A5%BC+%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC+GPS+%EC%88%98%EC%8B%A0+%EC%9E%A5%EC%B9%98%EC%9D%98+TTFF%EB%A5%BC+%EB%8B%A8%EC%B6%95%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8A%94+%EB%B0%A9%EB%B2%95+%EB%B0%8F+%EC%8B%9C%EC%8A%A4%ED%85%9C%22&page%5Bsize%5D=3
+  - https://patents.google.com/patent/KR20180058184A/en
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 공개 특허 명세서의 제목·출원/등록번호·발명자를 대조했습니다. 표시 분류는 원본의 출원/등록 구분을 유지합니다.
+  author_orcids: []
+  landing_url: https://patents.google.com/patent/KR20180058184A/en
+  key: legacy-079
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR20180058184A/en
+  - https://patentimages.storage.googleapis.com/df/94/71/105a25dff0a805/KR20180058184A.pdf
+  verified_metadata:
+    year: 2017
+    application_number: 10-2017-0136795
+    registration_number:
+    application_date: '2017-10-20'
+    registration_date:
+- audit_index: 79
+  title: GPS 수신 방법, GPS 수신 장치 및  이를 포함하는 제어 시스템
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=GPS+%EC%88%98%EC%8B%A0+%EB%B0%A9%EB%B2%95%2C+GPS+%EC%88%98%EC%8B%A0+%EC%9E%A5%EC%B9%98+%EB%B0%8F%C2%A0+%EC%9D%B4%EB%A5%BC+%ED%8F%AC%ED%95%A8%ED%95%98%EB%8A%94+%EC%A0%9C%EC%96%B4+%EC%8B%9C%EC%8A%A4%ED%85%9C&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22GPS+%EC%88%98%EC%8B%A0+%EB%B0%A9%EB%B2%95%2C+GPS+%EC%88%98%EC%8B%A0+%EC%9E%A5%EC%B9%98+%EB%B0%8F%C2%A0+%EC%9D%B4%EB%A5%BC+%ED%8F%AC%ED%95%A8%ED%95%98%EB%8A%94+%EC%A0%9C%EC%96%B4+%EC%8B%9C%EC%8A%A4%ED%85%9C%22&page%5Bsize%5D=3
+  - https://sites.google.com/view/dr-space/publications
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 원본의 기존 출원/등록번호는 보존하며 독립된 공개 등록자료로 확인하지 못했습니다.
+  author_orcids: []
+  key: legacy-080
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  - author-014
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patentimages.storage.googleapis.com/df/94/71/105a25dff0a805/KR20180058184A.pdf
+  - https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+  verified_metadata:
+    year: 2016
+    application_number: 10-2016-0156815
+    registration_number:
+    application_date: '2016-11-23'
+- audit_index: 80
+  title: 위성항법시스템의 반송파 측정값에 대한 고장성분 검출 방법
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98+%EB%B0%98%EC%86%A1%ED%8C%8C+%EC%B8%A1%EC%A0%95%EA%B0%92%EC%97%90+%EB%8C%80%ED%95%9C+%EA%B3%A0%EC%9E%A5%EC%84%B1%EB%B6%84+%EA%B2%80%EC%B6%9C+%EB%B0%A9%EB%B2%95&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98+%EB%B0%98%EC%86%A1%ED%8C%8C+%EC%B8%A1%EC%A0%95%EA%B0%92%EC%97%90+%EB%8C%80%ED%95%9C+%EA%B3%A0%EC%9E%A5%EC%84%B1%EB%B6%84+%EA%B2%80%EC%B6%9C+%EB%B0%A9%EB%B2%95%22&page%5Bsize%5D=3
+  - https://patents.google.com/patent/KR20130075022A/en
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 공개 특허 명세서의 제목·출원/등록번호·발명자를 대조했습니다. 표시 분류는 원본의 출원/등록 구분을 유지합니다.
+  author_orcids: []
+  landing_url: https://patents.google.com/patent/KR20130075022A/en
+  key: legacy-081
+  category: patent
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+  expanded_verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://patents.google.com/patent/KR20130075022A/en
+  - https://patentimages.storage.googleapis.com/59/b6/8a/e86f7522028f68/KR20130075022A.pdf
+  verified_metadata:
+    year: 2011
+    application_number: 10-2011-0143201
+    registration_number:
+    application_date: '2011-12-27'
+    registration_date:
+- audit_index: 81
+  title: 달착륙선 2차원 최적화 착륙궤적 생성 프로그램
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EB%8B%AC%EC%B0%A9%EB%A5%99%EC%84%A0+2%EC%B0%A8%EC%9B%90+%EC%B5%9C%EC%A0%81%ED%99%94+%EC%B0%A9%EB%A5%99%EA%B6%A4%EC%A0%81+%EC%83%9D%EC%84%B1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%EB%8B%AC%EC%B0%A9%EB%A5%99%EC%84%A0+2%EC%B0%A8%EC%9B%90+%EC%B5%9C%EC%A0%81%ED%99%94+%EC%B0%A9%EB%A5%99%EA%B6%A4%EC%A0%81+%EC%83%9D%EC%84%B1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%22&page%5Bsize%5D=3
+  - https://sites.google.com/view/dr-space/publications
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 원본의 기존 출원/등록번호는 보존하며 독립된 공개 등록자료로 확인하지 못했습니다.
+  author_orcids: []
+  key: legacy-082
+  category: software
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-017
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 82
+  title: 위성항법 다중 기준국 네트워크 데이터 후처리 보정정보 생성 프로그램
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EB%8B%A4%EC%A4%91+%EA%B8%B0%EC%A4%80%EA%B5%AD+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%ED%9B%84%EC%B2%98%EB%A6%AC+%EB%B3%B4%EC%A0%95%EC%A0%95%EB%B3%B4+%EC%83%9D%EC%84%B1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EB%8B%A4%EC%A4%91+%EA%B8%B0%EC%A4%80%EA%B5%AD+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EB%8D%B0%EC%9D%B4%ED%84%B0+%ED%9B%84%EC%B2%98%EB%A6%AC+%EB%B3%B4%EC%A0%95%EC%A0%95%EB%B3%B4+%EC%83%9D%EC%84%B1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%22&page%5Bsize%5D=3
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. KAIA 국가 R&D 성과 목록에서 대응 프로그램의 등록번호와 등록일을 확인했습니다.
+  author_orcids: []
+  landing_url: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+  verified_metadata:
+    registration_number: C-2012-027793
+    registration_date: '2012-12-20'
+  key: legacy-083
+  category: software
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 83
+  title: 가중치 최소자승법을 이용한 후처리기반 위성항법 위치결정 프로그램
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%EA%B0%80%EC%A4%91%EC%B9%98+%EC%B5%9C%EC%86%8C%EC%9E%90%EC%8A%B9%EB%B2%95%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%9C+%ED%9B%84%EC%B2%98%EB%A6%AC%EA%B8%B0%EB%B0%98+%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%EA%B0%80%EC%A4%91%EC%B9%98+%EC%B5%9C%EC%86%8C%EC%9E%90%EC%8A%B9%EB%B2%95%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%9C+%ED%9B%84%EC%B2%98%EB%A6%AC%EA%B8%B0%EB%B0%98+%EC%9C%84%EC%84%B1%ED%95%AD%EB%B2%95+%EC%9C%84%EC%B9%98%EA%B2%B0%EC%A0%95+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%22&page%5Bsize%5D=3
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. KAIA 국가 R&D 성과 목록에서 대응 프로그램의 등록번호와 등록일을 확인했습니다.
+  author_orcids: []
+  landing_url: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+  verified_metadata:
+    registration_number: C-2012-027792
+    registration_date: '2012-12-20'
+  key: legacy-084
+  category: software
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 84
+  title: Novatel GPS receiver binary data handling program
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - https://api.crossref.org/works?query.title=Novatel+GPS+receiver+binary+data+handling+program&rows=3
+  - https://api.datacite.org/dois?query=titles.title%3A%22Novatel+GPS+receiver+binary+data+handling+program%22&page%5Bsize%5D=3
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. KAIA 국가 R&D 성과 목록에서 대응 프로그램의 등록번호와 등록일을 확인했습니다.
+  author_orcids: []
+  landing_url: https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+  verified_metadata:
+    registration_number: C-2012-027791
+    registration_date: '2012-12-20'
+  key: legacy-085
+  category: software
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 85
+  title: 후처리 항법위성 궤도오차 정보 생성 프로그램
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%ED%9B%84%EC%B2%98%EB%A6%AC+%ED%95%AD%EB%B2%95%EC%9C%84%EC%84%B1+%EA%B6%A4%EB%8F%84%EC%98%A4%EC%B0%A8+%EC%A0%95%EB%B3%B4+%EC%83%9D%EC%84%B1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%ED%9B%84%EC%B2%98%EB%A6%AC+%ED%95%AD%EB%B2%95%EC%9C%84%EC%84%B1+%EA%B6%A4%EB%8F%84%EC%98%A4%EC%B0%A8+%EC%A0%95%EB%B3%B4+%EC%83%9D%EC%84%B1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%22&page%5Bsize%5D=3
+  - https://sites.google.com/view/dr-space/publications
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 원본의 기존 출원/등록번호는 보존하며 독립된 공개 등록자료로 확인하지 못했습니다.
+  author_orcids: []
+  key: legacy-086
+  category: software
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record
+- audit_index: 86
+  title: 후처리 항법위성 궤도예측 프로그램
+  doi:
+  doi_status: not_found
+  doi_sources:
+  - >-
+    https://api.crossref.org/works?query.title=%ED%9B%84%EC%B2%98%EB%A6%AC+%ED%95%AD%EB%B2%95%EC%9C%84%EC%84%B1+%EA%B6%A4%EB%8F%84%EC%98%88%EC%B8%A1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&rows=3
+  - >-
+    https://api.datacite.org/dois?query=titles.title%3A%22%ED%9B%84%EC%B2%98%EB%A6%AC+%ED%95%AD%EB%B2%95%EC%9C%84%EC%84%B1+%EA%B6%A4%EB%8F%84%EC%98%88%EC%B8%A1+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%22&page%5Bsize%5D=3
+  - https://sites.google.com/view/dr-space/publications
+  doi_note: Crossref 제목 검색과 DataCite 제목 검색에서 해당 실적과 일치하는 DOI를 확인하지 못했습니다. 특허 출원/등록번호와 소프트웨어 등록번호는 DOI와 구분합니다. 원본의 기존 출원/등록번호는 보존하며 독립된 공개 등록자료로 확인하지 못했습니다.
+  author_orcids: []
+  key: legacy-087
+  category: software
+  included: true
+  checked_on: '2026-10-02'
+  author_refs:
+  - author-004
+  - author-012
+  - author-013
+  pi_public_orcid_work_match: not_found_in_public_record

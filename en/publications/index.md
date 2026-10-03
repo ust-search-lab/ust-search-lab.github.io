@@ -7,8 +7,10 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-book-open" %}Publications
+{: .page-title }
 
-Publications of SEARCH Lab. The list is updated automatically from works registered in ORCID.
+Explore SEARCH Lab’s research outputs, organized into journal articles and features, conference presentations, patents, software, and trademarks and designs.
+{: .page-intro }
 
 {% include section.html %}
 
@@ -16,4 +18,4 @@ Publications of SEARCH Lab. The list is updated automatically from works registe
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include publications.html %}

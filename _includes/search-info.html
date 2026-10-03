@@ -1,1 +1,7 @@
-<div class="search-info"></div>
+{% assign search_lang = page.lang | default: "ko" %}
+<div
+  class="search-info"
+  data-results="{{ site.data.i18n[search_lang].search-results | xml_escape }}"
+  data-clear="{{ site.data.i18n[search_lang].search-clear | xml_escape }}"
+  role="status"
+></div>

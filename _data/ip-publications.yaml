@@ -1,0 +1,1146 @@
+# IP records from the user-provided inventory, supplemented by verified documents and public records.
+# Internal references remain separate from official application and registration numbers.
+---
+- title: 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출 프로그램
+  authors:
+  - 이은성
+  - 박재익
+  - 허문범
+  category: software
+  scope: domestic
+  year: 2010
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 S-2010-008688 · 등록일 2010-12-29 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration S-2010-008688 · Registered 2010-12-29 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2010-5-0077
+  citation: 이은성, 박재익, 허문범, "이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출 프로그램", 프로그램, 접수번호 2010-5-0077
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 3
+  audit_key: ip-2010-5-0077
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 제호 완전 일치, 공식 검색의 단일 결과, 한국항공우주연구원 저작자 및 창작·등록연도 2010이 현황표와 일치합니다. 기저선·반송파 두 확장 검색에서도 같은 SYS_ID와 등록번호가 확인됩니다. 내부 접수번호 2010-5-0077은 공식 공개 레코드에 없어 내부번호 자체의 직접 대응을 입증한 것은 아닙니다. 공식 접수번호 2010-027428도 저작권 등록번호 S-2010-008688과 구분합니다. 기존 이은성·박재익·허문범은 현황표 기재인명/연구참여 정보로 보존하되, 공식 등록 저작자인 한국항공우주연구원과 구분합니다. 이 세 사람을 개인 저작권자로 단정하지 않습니다.
+  registration_number: S-2010-008688
+  registration_date: '2010-12-29'
+  copyright_author: 한국항공우주연구원
+  creation_date: '2010-10-10'
+  contributor_role: research_contributor
+  verification_sources:
+  - https://www.cros.or.kr/page.do?w2xPath=/ui/main/main.xml
+  - https://www.cros.or.kr/psnsys/cmmn/wisenut/search.do?query=%EC%9D%B4%EB%8F%99%EC%B2%B4%EC%9D%98+%EC%86%8D%EB%8F%84%EC%99%80+%EC%95%88%ED%85%8C%EB%82%98+%EA%B8%B0%EC%A0%80%EC%84%A0%EC%9D%84+%ED%99%9C%EC%9A%A9%ED%95%9C+%EB%B0%98%EC%86%A1%ED%8C%8C+%EC%B8%A1%EC%A0%95%EA%B0%92%EC%9D%98+%EA%B3%A0%EC%9E%A5%EA%B2%80%EC%B6%9C+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&sort=SYS_ID&sortOrder=DESC&startCount=1&listCount=100&TOTALVIEWCOUNT=100&collection=reg_copyright
+  - https://www.cros.or.kr/req/reg/selectRegDtlList3.do
+  - https://www.cros.or.kr/req/reg/selectRegDtlList2.do
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법
+  authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  category: patent
+  scope: domestic
+  year: 2011
+  year_basis: internal_reference_year
+  status: unknown
+  details: 접수연도 2011 · 내부 접수번호 2011-1-0085 · 출원·등록 정보 미확인
+  details_en: Internal report year 2011 · Internal reference 2011-1-0085 · Filing / registration details unverified
+  internal_reference: 2011-1-0085
+  citation: 박재익, 이은성, 허문범, "GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법", 특허, 접수번호 2011-1-0085
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 4
+  audit_key: ip-2011-1-0085
+  exclude: true
+  exclusion_reason: 사용자 요청으로 실적 목록에서 제외.
+  excluded_on: '2026-10-03'
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 현황표의 명칭·기재 인명·접수번호를 반영했습니다. 연도는 접수번호의 연도이며 출원·등록일을 뜻하지 않습니다. 현황표의 출원번호·출원일·등록번호·등록일은 공란입니다. 2026-10-03 공개 검색에서도 대응 출원·등록번호를 확인하지 못했습니다. 미출원·미등록을 뜻하지 않으며, 조사 범위와 제외 후보는 ip-search-audit.yaml에 기록했습니다.
+  public_search_checked_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: KPLO (제12류)
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2022
+  year_basis: application_year
+  status: registered
+  details: '제12류 · 출원번호 40-2022-0039240 (출원 2022-03-02) · 등록번호 40-1883049 (등록 2022-06-27) · 출원인·등록 상표권자: 한국항공우주연구원'
+  details_en: 'Class 12 · Application 40-2022-0039240 (filed 2022-03-02) · Registration 40-1883049 (registered 2022-06-27) · Applicant / registered owner: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2022-3-0002
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 방준, 이상률, "KPLO (케이피엘오) - 달 궤도선 "제12류"", 상표, 접수번호 2022-3-0002
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 21
+  audit_key: ip-2022-3-0002
+  search: 박재익 Jae-ik Park Park Jae-ik KPLO (케이피엘오) - 달 궤도선 "제12류"
+  note: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님. 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  subtype: trademark
+  reported_class: '12'
+  title_aliases:
+  - KPLO (케이피엘오) - 달 궤도선 "제12류"
+  registered_title: KPLO
+  application_number: 40-2022-0039240
+  application_date: '2022-03-02'
+  registration_number: 40-1883049
+  registration_date: '2022-06-27'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  trademark_class: 12
+  contributor_role: research_contributor
+  link: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039240&right=ktm
+  verification_sources:
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039240&right=ktm
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e7e4c3774e42ad64c49ce5602545341aac608d23da3dd446f6ea714499d02a77b63fd8872eaacef96d95a84fe7603a175
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500c87a2952a9b1d44bd2d6c1febeb8e6baa1f58d7c5056c93ee8e59e3b6bb761e9e6067252179acb765a77ea614a7a05a
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: KPLO (제16류)
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2022
+  year_basis: application_year
+  status: registered
+  details: '제16류 · 출원번호 40-2022-0039241 (출원 2022-03-02) · 등록번호 40-1900633 (등록 2022-08-19) · 출원인·등록 상표권자: 한국항공우주연구원'
+  details_en: 'Class 16 · Application 40-2022-0039241 (filed 2022-03-02) · Registration 40-1900633 (registered 2022-08-19) · Applicant / registered owner: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2022-3-0003
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 방준, 이상률, "KPLO (케이피엘오) - 달 궤도선 "제16류"", 상표, 접수번호 2022-3-0003
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 22
+  audit_key: ip-2022-3-0003
+  search: 박재익 Jae-ik Park Park Jae-ik KPLO (케이피엘오) - 달 궤도선 "제16류"
+  note: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님. 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  subtype: trademark
+  reported_class: '16'
+  title_aliases:
+  - KPLO (케이피엘오) - 달 궤도선 "제16류"
+  registered_title: KPLO
+  application_number: 40-2022-0039241
+  application_date: '2022-03-02'
+  registration_number: 40-1900633
+  registration_date: '2022-08-19'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  trademark_class: 16
+  contributor_role: research_contributor
+  link: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039241&right=ktm
+  verification_sources:
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039241&right=ktm
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e21c2a4aec8ca6304ea2ea306aa7d3de71ae8a27b1f316398023ccb658b30c2586a428f4044e283a0cbbdf55096cf1c8d
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500a34678399497f581eea708b4cd31199935113b394f867c59a08de86d65ee7991982200876d851f652cff7dd9bc56ea1
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: KPLO (제25류)
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2022
+  year_basis: application_year
+  status: registered
+  details: '제25류 · 출원번호 40-2022-0039242 (출원 2022-03-02) · 등록번호 40-1900634 (등록 2022-08-19) · 출원인·등록 상표권자: 한국항공우주연구원'
+  details_en: 'Class 25 · Application 40-2022-0039242 (filed 2022-03-02) · Registration 40-1900634 (registered 2022-08-19) · Applicant / registered owner: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2022-3-0004
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 방준, 이상률, "KPLO (케이피엘오) - 달 궤도선 "제25류"", 상표, 접수번호 2022-3-0004
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 23
+  audit_key: ip-2022-3-0004
+  search: 박재익 Jae-ik Park Park Jae-ik KPLO (케이피엘오) - 달 궤도선 "제25류"
+  note: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님. 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  subtype: trademark
+  reported_class: '25'
+  title_aliases:
+  - KPLO (케이피엘오) - 달 궤도선 "제25류"
+  registered_title: KPLO
+  application_number: 40-2022-0039242
+  application_date: '2022-03-02'
+  registration_number: 40-1900634
+  registration_date: '2022-08-19'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  trademark_class: 25
+  contributor_role: research_contributor
+  link: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039242&right=ktm
+  verification_sources:
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039242&right=ktm
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e21c2a4aec8ca6304ea2ea306aa7d3de7eeb664e81689dea1a5af8181f9c70e343182eae25933f1dd7dd63a9fdff967d3
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500a34678399497f581eea708b4cd3119997e4de733c42550617b80441eaf6c544e2deb5dc9c7886585af581195caa31a9
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: KPLO (제28류)
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2022
+  year_basis: application_year
+  status: registered
+  details: '제28류 · 출원번호 40-2022-0039243 (출원 2022-03-02) · 등록번호 40-1883050 (등록 2022-06-27) · 출원인·등록 상표권자: 한국항공우주연구원'
+  details_en: 'Class 28 · Application 40-2022-0039243 (filed 2022-03-02) · Registration 40-1883050 (registered 2022-06-27) · Applicant / registered owner: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2022-3-0005
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 방준, 이상률, "KPLO (케이피엘오) - 달 궤도선 "제28류"", 상표, 접수번호 2022-3-0005
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 24
+  audit_key: ip-2022-3-0005
+  search: 박재익 Jae-ik Park Park Jae-ik KPLO (케이피엘오) - 달 궤도선 "제28류"
+  note: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님. 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  subtype: trademark
+  reported_class: '28'
+  title_aliases:
+  - KPLO (케이피엘오) - 달 궤도선 "제28류"
+  registered_title: KPLO
+  application_number: 40-2022-0039243
+  application_date: '2022-03-02'
+  registration_number: 40-1883050
+  registration_date: '2022-06-27'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  trademark_class: 28
+  contributor_role: research_contributor
+  link: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039243&right=ktm
+  verification_sources:
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039243&right=ktm
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e7e4c3774e42ad64c49ce5602545341aa51a1fda3e14c9efa3ce60084cf6d4e4eaeea235afda997cf49cc52a9fb6e0797
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500c87a2952a9b1d44bd2d6c1febeb8e6b164f68c8e4337dd42216111bcbe0bcce04de4688abbc1050863f4224869cf615
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: KPLO (제9류)
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2022
+  year_basis: application_year
+  status: registered
+  details: '제9류 · 출원번호 40-2022-0043570 (출원 2022-03-08) · 등록번호 40-1889853 (등록 2022-07-15) · 출원인·등록 상표권자: 한국항공우주연구원'
+  details_en: 'Class 9 · Application 40-2022-0043570 (filed 2022-03-08) · Registration 40-1889853 (registered 2022-07-15) · Applicant / registered owner: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2022-3-0006
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 방준, 이상률, "KPLO (케이피엘오) - 달 궤도선 "제9류"", 상표, 접수번호 2022-3-0006
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 25
+  audit_key: ip-2022-3-0006
+  search: 박재익 Jae-ik Park Park Jae-ik KPLO (케이피엘오) - 달 궤도선 "제9류"
+  note: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님. 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  subtype: trademark
+  reported_class: '9'
+  title_aliases:
+  - KPLO (케이피엘오) - 달 궤도선 "제9류"
+  registered_title: KPLO
+  application_number: 40-2022-0043570
+  application_date: '2022-03-08'
+  registration_number: 40-1889853
+  registration_date: '2022-07-15'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  trademark_class: 9
+  contributor_role: research_contributor
+  link: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220043570&right=ktm
+  verification_sources:
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220043570&right=ktm
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e6bbdf57187170910a131903b86cec05f4e0b3e0b1b35a191a86bbca4b2b081dce8c7b0e27ef2bede337c02f1d88f5177
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500f1c9f6676285ca3e001705a5209ba5185b69985ad4c82f3a6799ac0175b55cf266b33a1385cfdc585c9e65d182f7edf
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: KPLO (케이피엘오) - 달 궤도선 "제38류"
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2022
+  year_basis: internal_reference_year
+  status: unknown
+  details: 접수연도 2022 · 내부 접수번호 2022-3-0007 · 출원·등록 정보 미확인
+  details_en: Internal report year 2022 · Internal reference 2022-3-0007 · Filing / registration details unverified
+  internal_reference: 2022-3-0007
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 강범석, 이상률, "KPLO (케이피엘오) - 달 궤도선 "제38류"", 상표, 접수번호 2022-3-0007
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 26
+  audit_key: ip-2022-3-0007
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 원본 현황표 26행을 보존합니다. 인명 강범석은 표시 명단에서 한 번만 유지했습니다. 같은 명칭·분류·연도의 27행과 통합하여 ip-2022-3-0008에서 표시합니다. 후속 공식 검색에서 KPLO 제38류 등록 40-1883051 한 건을 확인했으며 대표 항목에 반영했습니다. 내부 두 접수번호가 같은 권리를 뜻한다는 직접 대응 자료는 없습니다.
+  subtype: trademark
+  reported_class: '38'
+  exclude: true
+  duplicate_of: ip-2022-3-0008
+  exclusion_reason: 동일 명칭·분류·연도의 KPLO 제38류 기록을 PUBLICATIONS에서 한 건으로 통합 표시합니다. 내부 접수번호 차이만으로 별도 실적으로 집계하지 않으며 원본 데이터는 보존합니다.
+- title: KPLO (제38류)
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2022
+  year_basis: application_year
+  status: registered
+  details: '제38류 · 출원번호 40-2022-0043571 (출원 2022-03-08) · 등록번호 40-1883051 (등록 2022-06-27) · 출원인·등록 상표권자: 한국항공우주연구원 · 내부 접수번호 2022-3-0007 / 2022-3-0008'
+  details_en: 'Class 38 · Application 40-2022-0043571 (filed 2022-03-08) · Registration 40-1883051 (registered 2022-06-27) · Applicant / registered owner: Korea Aerospace Research Institute (KARI) · Internal references 2022-3-0007 / 2022-3-0008'
+  internal_reference: 2022-3-0008
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 방준, 이상률, "KPLO (케이피엘오) - 달 궤도선 "제38류"", 상표, 접수번호 2022-3-0008
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 27
+  audit_key: ip-2022-3-0008
+  search: 박재익 Jae-ik Park Park Jae-ik 2022-3-0007 2022-3-0008 KPLO (케이피엘오) - 달 궤도선 "제38류"
+  note: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님. 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음. 현황표 26·27행은 한 건으로 표시하고 원본 두 행과 번호를 보존합니다. 공식 KPLO 제38류 결과는 한 건이며, 내부 두 번호가 같은 권리를 가리킨다는 직접 대응 문서는 확인하지 못했습니다.
+  subtype: trademark
+  reported_class: '38'
+  internal_references:
+  - 2022-3-0007
+  - 2022-3-0008
+  source_rows:
+  - 26
+  - 27
+  merged_record_keys:
+  - ip-2022-3-0007
+  title_aliases:
+  - KPLO (케이피엘오) - 달 궤도선 "제38류"
+  registered_title: KPLO
+  application_number: 40-2022-0043571
+  application_date: '2022-03-08'
+  registration_number: 40-1883051
+  registration_date: '2022-06-27'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  trademark_class: 38
+  contributor_role: research_contributor
+  link: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220043571&right=ktm
+  verification_sources:
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220043571&right=ktm
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e0a7a04cc6c4feeae13ad7e1596657bde04681b899aa442ce9491b412150326009ebc86913b4f8e42e32ccde009d3e709
+  - https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500c87a2952a9b1d44a8cde17d3114b977a9667fac376a3eb38b707d8537958bad59a79146ddd43a87f6419981eb8511bd
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: 인공위성
+  authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  category: intellectual-property
+  scope: domestic
+  year: 2023
+  year_basis: application_year
+  status: registered
+  details: '로카르노 분류 12-07 · 출원번호 30-2023-0018859 (출원 2023-05-17) · 등록번호 30-1243208 (등록 2023-12-14) · 출원인·등록 디자인권자: 한국항공우주연구원'
+  details_en: 'Locarno class 12-07 · Application 30-2023-0018859 (filed 2023-05-17) · Registration 30-1243208 (registered 2023-12-14) · Applicant / registered owner: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2022-4-0001
+  citation: 김인규, 김일영, 문상만, 임조령, 김형완, 송재훈, 조영호, 김현순, 김대관, 전문진, 박재익, 김주현, 송영주, 배종희, 손승희, 김창균, 홍승범, 김동규, 김은혁, 민승용, 김영록, 신현진, 강범석, 방준, 이상률, "대한민국 달 궤도선 '제12류 07군 (인공위성)'", 디자인, 접수번호 2022-4-0001
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 28
+  audit_key: ip-2022-4-0001
+  search: 박재익 Jae-ik Park Park Jae-ik 대한민국 달 궤도선 '제12류 07군 (인공위성)'
+  note: 현황표 25명과 KIPRIS 창작자 25명의 이름 및 배열 순서가 모두 일치합니다. 현황표 제12류 07군과 공식 Locarno 12-07이 일치합니다. 공식 출원인과 권리자는 한국항공우주연구원입니다. 공식 도면은 태양전지판, 접시형 안테나, 장형 붐을 가진 위성입니다. 도면만으로 동정하지 않고 인명·분류·출원인을 함께 대조했습니다. 현황표의 2022년은 내부 접수연도이므로 화면에서는 공식 출원연도 2023년으로 분류합니다. 등록일과 공고일은 구분합니다.
+  subtype: design
+  title_aliases:
+  - 대한민국 달 궤도선 '제12류 07군 (인공위성)'
+  application_number: 30-2023-0018859
+  application_date: '2023-05-17'
+  registration_number: 30-1243208
+  registration_date: '2023-12-14'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  designers:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  locarno_class: 12-07
+  registration_publication_date: '2023-12-19'
+  link: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=3020230018859%2CM001&right=kdg
+  verification_sources:
+  - https://www.kipris.or.kr/khome/search/searchResult.do?tab=design
+  - https://www.kipris.or.kr/kdtj/grrt1000a.do?method=searchDG
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=3020230018859%2CM001&right=kdg
+  - https://www.kipris.or.kr/kdtj/remoteFile.do?method=imageDG&filePath=%2Ffile14%2FKD_IMG%2F20231219%2F30%2F2023%2F0018%2F3020230018859%2FM001%2F000.jpg&isMain=Y
+  verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+- title: 위성 표면 보호를 위한 위성 장치 및 그 방법
+  authors:
+  - 박재익
+  category: patent
+  scope: domestic
+  year: 2025
+  year_basis: application_year
+  status: application
+  details: '한국, 출원번호 10-2025-0132472 · 출원일 2025-09-16 · 출원인: 한국항공우주연구원'
+  details_en: 'Korea, application 10-2025-0132472 · Filed 2025-09-16 · Applicant: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-1-0077
+  citation: 박재익, "초저궤도(VLEO) 위성 표면 보호를 위한 플라즈마 기반 원자산소 차단 장치", 특허, 접수번호 2025-1-0077
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 29
+  audit_key: ip-2025-1-0077
+  search: 박재익 Jae-ik Park Park Jae-ik 초저궤도(VLEO) 위성 표면 보호를 위한 플라즈마 기반 원자산소 차단 장치 Satellite apparatus and method for protecting satellite surface
+  note: 사용자 제공 출원번호통지서에서 출원번호·출원일을, 출원서에서 공식 명칭·출원인·발명자를 확인했습니다. 내부 접수번호는 PDF에 기재되지 않아 명칭·발명자·연도·대응 기술을 대조해 기존 기록과 연결했습니다. 현황표의 원문 citation과 내부 제목은 보존합니다. 출원 사실의 확인이며 등록 또는 현재 심사 상태를 나타내지 않습니다.
+  title_aliases:
+  - 초저궤도(VLEO) 위성 표면 보호를 위한 플라즈마 기반 원자산소 차단 장치
+  - Satellite apparatus and method for protecting satellite surface
+  application_number: 10-2025-0132472
+  application_date: '2025-09-16'
+  applicant: 한국항공우주연구원
+  inventors:
+  - 박재익
+  official_title_en: Satellite apparatus and method for protecting satellite surface
+  verification_documents:
+  - filename: 3371_10-2025-0132472_출원서.pdf
+    sha256: b6e554780b62c7efd5c1a57cbb38f050b5fa0881811b2a7de3b6b31a7a189042
+    document_type: patent_application_and_filing_notice
+    evidence_pages:
+    - 1
+    - 3
+    - 7
+    - 8
+    checked_on: '2026-10-03'
+- title: 원자산소로부터 초저궤도 위성을 보호하는 방법 및 장치
+  authors:
+  - 박재익
+  category: patent
+  scope: domestic
+  year: 2025
+  year_basis: application_year
+  status: application
+  details: '한국, 출원번호 10-2025-0149621 · 출원일 2025-10-16 · 출원인: 한국항공우주연구원'
+  details_en: 'Korea, application 10-2025-0149621 · Filed 2025-10-16 · Applicant: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-1-0084
+  citation: 박재익, "초저궤도(VLEO) 위성 원자산소 차단 장치 머신러닝 기반 자율 제어 시스템", 특허, 접수번호 2025-1-0084
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 30
+  audit_key: ip-2025-1-0084
+  search: 박재익 Jae-ik Park Park Jae-ik 초저궤도(VLEO) 위성 원자산소 차단 장치 머신러닝 기반 자율 제어 시스템 Method And Apparatus for Protecting VLEO Satellites from Atomic Oxygen
+  note: 사용자 제공 출원번호통지서에서 출원번호·출원일을, 출원서에서 공식 명칭·출원인·발명자를 확인했습니다. 내부 접수번호는 PDF에 기재되지 않아 명칭·발명자·연도·대응 기술을 대조해 기존 기록과 연결했습니다. 현황표의 원문 citation과 내부 제목은 보존합니다. 출원 사실의 확인이며 등록 또는 현재 심사 상태를 나타내지 않습니다.
+  title_aliases:
+  - 초저궤도(VLEO) 위성 원자산소 차단 장치 머신러닝 기반 자율 제어 시스템
+  - Method And Apparatus for Protecting VLEO Satellites from Atomic Oxygen
+  application_number: 10-2025-0149621
+  application_date: '2025-10-16'
+  applicant: 한국항공우주연구원
+  inventors:
+  - 박재익
+  official_title_en: Method And Apparatus for Protecting VLEO Satellites from Atomic Oxygen
+  verification_documents:
+  - filename: 3376_10-2025-0149621_출원서.pdf
+    sha256: 7368be774d03515c3d2afe710ee96c756669389cc7fe89958241e5464e0eae42
+    document_type: patent_application_and_filing_notice
+    evidence_pages:
+    - 1
+    - 2
+    - 7
+    - 10
+    - 12
+    checked_on: '2026-10-03'
+- title: 전이 궤적을 설계하기 위한 컴퓨터 처리 방법, 이를 구현하는 전자 기기 및 저장 매체
+  authors:
+  - 박재익
+  category: patent
+  scope: domestic
+  year: 2025
+  year_basis: application_year
+  status: application
+  details: '한국, 출원번호 10-2025-0187696 · 출원일 2025-12-02 · 출원인: 한국항공우주연구원'
+  details_en: 'Korea, application 10-2025-0187696 · Filed 2025-12-02 · Applicant: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-1-0119
+  citation: 박재익, "행성간 궤적 설계를 위한 하이브리드 적응형 램버트(Lambert) 솔버 시스템 및 방법", 특허, 접수번호 2025-1-0119
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 31
+  audit_key: ip-2025-1-0119
+  search: 박재익 Jae-ik Park Park Jae-ik 행성간 궤적 설계를 위한 하이브리드 적응형 램버트(Lambert) 솔버 시스템 및 방법 COMPUTER PROCESSING METHOD FOR DESIGNING OPTIMAL TRAJECTORIES AND ELECTRONIC DEVICE, STORAGE MEDIUM IMPLEMENTING THE SAME
+  note: 사용자 제공 출원번호통지서에서 출원번호·출원일을, 출원서에서 공식 명칭·출원인·발명자를 확인했습니다. 내부 접수번호는 PDF에 기재되지 않아 명칭·발명자·연도·대응 기술을 대조해 기존 기록과 연결했습니다. 현황표의 원문 citation과 내부 제목은 보존합니다. 출원 사실의 확인이며 등록 또는 현재 심사 상태를 나타내지 않습니다.
+  title_aliases:
+  - 행성간 궤적 설계를 위한 하이브리드 적응형 램버트(Lambert) 솔버 시스템 및 방법
+  - COMPUTER PROCESSING METHOD FOR DESIGNING OPTIMAL TRAJECTORIES AND ELECTRONIC DEVICE, STORAGE MEDIUM IMPLEMENTING THE SAME
+  application_number: 10-2025-0187696
+  application_date: '2025-12-02'
+  applicant: 한국항공우주연구원
+  inventors:
+  - 박재익
+  official_title_en: COMPUTER PROCESSING METHOD FOR DESIGNING OPTIMAL TRAJECTORIES AND ELECTRONIC DEVICE, STORAGE MEDIUM IMPLEMENTING THE SAME
+  verification_documents:
+  - filename: 3413_10-2025-0187696_출원서.pdf
+    sha256: 15b644dd75193337fd8f76b52fa6c5635d80c8270a8568fdd5fedd6f9aa9423e
+    document_type: patent_application_and_filing_notice
+    evidence_pages:
+    - 1
+    - 3
+    - 6
+    checked_on: '2026-10-03'
+- title: 비케플러 궤도 푸앙카레 단면 분석 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-035548 · 등록일 2025-09-08 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-035548 · Registered 2025-09-08 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0009
+  citation: 박재익, "비케플러 궤도 푸앙카레 단면 분석 프로그램", 프로그램, 접수번호 2025-5-0009
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 32
+  audit_key: ip-2025-5-0009
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases: []
+  registered_title: 비케플러 궤도 푸앙카레 단면 분석 프로그램
+  registration_number: C-2025-035548
+  registration_date: '2025-09-08'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-09'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3776_저작권 등록증.pdf
+    sha256: 981ed30d8530b8dfc24802c60c79c554aae884339ac014eb20f632ba85a4a1f8
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: MSAFE(엠세이프) 태양 활동 예측 모델 데이터 생성 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-035549 · 등록일 2025-09-08 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-035549 · Registered 2025-09-08 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0012
+  citation: 박재익, "MSAFE 태양 활동 예측 모델 데이터 생성 프로그램", 프로그램, 접수번호 2025-5-0012
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 33
+  audit_key: ip-2025-5-0012
+  search: 박재익 Jae-ik Park Park Jae-ik MSAFE 태양 활동 예측 모델 데이터 생성 프로그램
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases:
+  - MSAFE 태양 활동 예측 모델 데이터 생성 프로그램
+  registered_title: MSAFE(엠세이프) 태양 활동 예측 모델 데이터 생성 프로그램
+  registration_number: C-2025-035549
+  registration_date: '2025-09-08'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-09'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3779_저작권 등록증.pdf
+    sha256: d98669b3c3bb7f8439736ed9ed87793f26f434be40b63c5ad2e0ea9de8861aaa
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 태양-지구 L4 라그랑주점 초기궤도 계산 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-035550 · 등록일 2025-09-08 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-035550 · Registered 2025-09-08 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0014
+  citation: 박재익, "태양-지구 L4 라그랑주점 초기궤도 계산 프로그램", 프로그램, 접수번호 2025-5-0014
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 34
+  audit_key: ip-2025-5-0014
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases: []
+  registered_title: 태양-지구 L4 라그랑주점 초기궤도 계산 프로그램
+  registration_number: C-2025-035550
+  registration_date: '2025-09-08'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-09'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3780_저작권 등록증.pdf
+    sha256: 57ba047c74e7bba66b975178ef7f38dad6a25b4cddb9a24d200971e8f3cb602b
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 화성 전이 궤적 설계용 포크찹 플롯 생성 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-035551 · 등록일 2025-09-08 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-035551 · Registered 2025-09-08 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0015
+  citation: 박재익, "화성 전이 궤적 설계용 포크찹 플롯 생성 프로그램", 프로그램, 접수번호 2025-5-0015
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 35
+  audit_key: ip-2025-5-0015
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases: []
+  registered_title: 화성 전이 궤적 설계용 포크찹 플롯 생성 프로그램
+  registration_number: C-2025-035551
+  registration_date: '2025-09-08'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-09'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3781_저작권 등록증.pdf
+    sha256: a14fc9d1affaa6690a88bc3f85e5fe9fe1a2dd6bed6e6942cc5e6ffd64401b4f
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 특성 가속도 기반 정사각형 태양돛 치수 산정 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-035552 · 등록일 2025-09-08 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-035552 · Registered 2025-09-08 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0016
+  citation: 박재익, "특성 가속도 기반 정사각형 태양돛 치수 산정 프로그램", 프로그램, 접수번호 2025-5-0016
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 36
+  audit_key: ip-2025-5-0016
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases: []
+  registered_title: 특성 가속도 기반 정사각형 태양돛 치수 산정 프로그램
+  registration_number: C-2025-035552
+  registration_date: '2025-09-08'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-09'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3782_저작권 등록증.pdf
+    sha256: 332ede89808eb58c9346f21aa9c09063f18c628c4d39c55ac1788c9cf9c7e50b
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 소행성 및 행성의 케플러 궤도 시각화 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-037038 · 등록일 2025-09-15 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-037038 · Registered 2025-09-15 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0020
+  citation: 박재익, "소행성 및 행성의 케플러 궤도 시각화 프로그램", 프로그램, 접수번호 2025-5-0020
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 37
+  audit_key: ip-2025-5-0020
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases: []
+  registered_title: 소행성 및 행성의 케플러 궤도 시각화 프로그램
+  registration_number: C-2025-037038
+  registration_date: '2025-09-15'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-16'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3770_저작권 등록증.pdf
+    sha256: b85cb61cf04225733f558f2f6babbc7b6f5b9cd371a80acee4940e79f79778d3
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 심우주 임무용 안테나 빔폭-이득 계산 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-037039 · 등록일 2025-09-15 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-037039 · Registered 2025-09-15 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0021
+  citation: 박재익, "심우주 임무용 안테나 빔폭-이득 계산 프로그램", 프로그램, 접수번호 2025-5-0021
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 38
+  audit_key: ip-2025-5-0021
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases: []
+  registered_title: 심우주 임무용 안테나 빔폭-이득 계산 프로그램
+  registration_number: C-2025-037039
+  registration_date: '2025-09-15'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-16'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3784_저작권 등록증.pdf
+    sha256: abaa17de9943db830c62bd3c49aa3c9cc13f4992dd1e714df211253ee93b37fd
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 지구궤도 위성 광통신 링크 버짓 분석 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-037041 · 등록일 2025-09-15 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-037041 · Registered 2025-09-15 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0023
+  citation: 박재익, "지구궤도위성 광통신 링크 버짓 분석 프로그램", 프로그램, 접수번호 2025-5-0023
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 39
+  audit_key: ip-2025-5-0023
+  search: 박재익 Jae-ik Park Park Jae-ik 지구궤도위성 광통신 링크 버짓 분석 프로그램
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases:
+  - 지구궤도위성 광통신 링크 버짓 분석 프로그램
+  registered_title: 지구궤도 위성 광통신 링크 버짓 분석 프로그램
+  registration_number: C-2025-037041
+  registration_date: '2025-09-15'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-16'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3786_저작권 등록증.pdf
+    sha256: 192e8ba29bbb8152bce4eb490a499d385c37768b2f6f69e0a803224abadd2f63
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 저궤도 군집위성 위상 배치 및 기동 설계 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-037040 · 등록일 2025-09-15 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-037040 · Registered 2025-09-15 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0024
+  citation: 박재익, "저궤도 군집위성 위상 배치 및 기동 설계 프로그램", 프로그램, 접수번호 2025-5-0024
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 40
+  audit_key: ip-2025-5-0024
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases: []
+  registered_title: 저궤도 군집위성 위상 배치 및 기동 설계 프로그램
+  registration_number: C-2025-037040
+  registration_date: '2025-09-15'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-09-16'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3787_저작권 등록증.pdf
+    sha256: f55568e3c4417aabc4a12243b5913b20c96dac4a2a50bb1ccce7f285fac92c6a
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 다중 천체 궤도력 온보드 탑재용 체비셰프 다항식 계수 생성 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-046662 · 등록일 2025-11-04 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-046662 · Registered 2025-11-04 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0046
+  citation: 박재익, "다중 천체 궤도력 온보드 탑재용 체비셰프 다항식 계수 생성 프로그램", 프로그램, 접수번호 2025-5-0046
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 41
+  audit_key: ip-2025-5-0046
+  search: 박재익 Jae-ik Park Park Jae-ik Multi-Body Orbit Ephemeris Onboard Chebyshev Polynomial Coefficient Generation Program
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases:
+  - Multi-Body Orbit Ephemeris Onboard Chebyshev Polynomial Coefficient Generation Program
+  registered_title: 다중 천체 궤도력 온보드 탑재용 체비셰프 다항식 계수 생성 프로그램 (Multi-Body Orbit Ephemeris Onboard Chebyshev Polynomial Coefficient Generation Program)
+  registered_title_en: Multi-Body Orbit Ephemeris Onboard Chebyshev Polynomial Coefficient Generation Program
+  registration_number: C-2025-046662
+  registration_date: '2025-11-04'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-11-04'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3803_저작권 등록증.pdf
+    sha256: 641eb2885bac0477377ad593e88dea5b6f290c1495e9284f45511fd5c3234b25
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 초저궤도 대기밀도 분석 및 시각화 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-046674 · 등록일 2025-11-04 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-046674 · Registered 2025-11-04 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0047
+  citation: 박재익, "초저궤도(VLEO) 대기밀도 분석 및 시각화 프로그램", 프로그램, 접수번호 2025-5-0047
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 42
+  audit_key: ip-2025-5-0047
+  search: 박재익 Jae-ik Park Park Jae-ik 초저궤도(VLEO) 대기밀도 분석 및 시각화 프로그램 VLEO Atmospheric Density Analysis and Visualization Program
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases:
+  - 초저궤도(VLEO) 대기밀도 분석 및 시각화 프로그램
+  - VLEO Atmospheric Density Analysis and Visualization Program
+  registered_title: 초저궤도 대기밀도 분석 및 시각화 프로그램 (VLEO Atmospheric Density Analysis and Visualization Program)
+  registered_title_en: VLEO Atmospheric Density Analysis and Visualization Program
+  registration_number: C-2025-046674
+  registration_date: '2025-11-04'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-11-04'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3804_저작권 등록증.pdf
+    sha256: a17c9e5959dfe82656cc1c06d4f49b7036369dca0f0cf5a36ba601aa8046ca79
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 초저궤도 원자산소 플럭스 및 플루언스 계산 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-046098 · 등록일 2025-10-31 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-046098 · Registered 2025-10-31 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0048
+  citation: 박재익, "초저궤도(VLEO) 원자산소 플럭스 및 플루언스 계산 프로그램", 프로그램, 접수번호 2025-5-0048
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 43
+  audit_key: ip-2025-5-0048
+  search: 박재익 Jae-ik Park Park Jae-ik 초저궤도(VLEO) 원자산소 플럭스 및 플루언스 계산 프로그램 VLEO Atomic Oxygen Flux and Fluence Analysis Program
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases:
+  - 초저궤도(VLEO) 원자산소 플럭스 및 플루언스 계산 프로그램
+  - VLEO Atomic Oxygen Flux and Fluence Analysis Program
+  registered_title: 초저궤도 원자산소 플럭스 및 플루언스 계산 프로그램 (VLEO Atomic Oxygen Flux and Fluence Analysis Program)
+  registered_title_en: VLEO Atomic Oxygen Flux and Fluence Analysis Program
+  registration_number: C-2025-046098
+  registration_date: '2025-10-31'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-11-03'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3805_저작권 등록증.pdf
+    sha256: 198e1abfeb4885694ed6317afe17eea3a89d2daec0d0789d5e311083dccfc759
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 초저궤도(VLEO) 위성 델타브이(DeltaV) 버짓 계산 프로그램
+  authors:
+  - 박재익
+  category: software
+  scope: domestic
+  year: 2025
+  year_basis: registration_year
+  status: registered
+  details: '저작권 등록번호 C-2025-046096 · 등록일 2025-10-31 · 저작자: 한국항공우주연구원'
+  details_en: 'Copyright registration C-2025-046096 · Registered 2025-10-31 · Registered author: Korea Aerospace Research Institute (KARI)'
+  internal_reference: 2025-5-0049
+  citation: 박재익, "초저궤도(VLEO) 위성 DeltaV 버짓 계산 프로그램", 프로그램, 접수번호 2025-5-0049
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 44
+  audit_key: ip-2025-5-0049
+  search: 박재익 Jae-ik Park Park Jae-ik 초저궤도(VLEO) 위성 DeltaV 버짓 계산 프로그램 VLEO Satellite DeltaV Budget Calculation Program
+  note: 사용자 제공 저작권 등록증의 제호·등록번호·제7항 등록일을 확인했습니다. 창작일·공표일·발급일은 등록일과 구분합니다. 저작자는 한국항공우주연구원이며, authors의 박재익은 기존 지식재산권 현황표의 기여 인명으로 보존합니다. 현황표의 명칭·접수번호와 원문 citation은 추적을 위해 유지했습니다.
+  title_aliases:
+  - 초저궤도(VLEO) 위성 DeltaV 버짓 계산 프로그램
+  - VLEO Satellite DeltaV Budget Calculation Program
+  registered_title: 초저궤도(VLEO) 위성 델타브이(DeltaV) 버짓 계산 프로그램 (VLEO Satellite DeltaV Budget Calculation Program)
+  registered_title_en: VLEO Satellite DeltaV Budget Calculation Program
+  registration_number: C-2025-046096
+  registration_date: '2025-10-31'
+  copyright_author: 한국항공우주연구원
+  certificate_issue_date: '2025-11-03'
+  registration_authority: 한국저작권위원회
+  contributor_role: research_contributor
+  verification_documents:
+  - filename: 프3806_저작권 등록증.pdf
+    sha256: e970b0b62b27e6d718c77f09d175721b9df080bbca3840b04b55f984ac047fe6
+    document_type: copyright_registration_certificate
+    evidence_pages:
+    - 1
+    checked_on: '2026-10-03'
+- title: 통신 블랙아웃 저감을 위한 친전자성 나노입자 함유 다층 열방호 시스템 및 그 제조 방법
+  authors:
+  - 박재익
+  category: patent
+  scope: domestic
+  year: 2026
+  year_basis: internal_reference_year
+  status: unknown
+  details: 접수연도 2026 · 내부 접수번호 2026-1-0033 · 출원·등록 정보 미확인
+  details_en: Internal report year 2026 · Internal reference 2026-1-0033 · Filing / registration details unverified
+  internal_reference: 2026-1-0033
+  citation: 박재익, "통신 블랙아웃 저감을 위한 친전자성 나노입자 함유 다층 열방호 시스템 및 그 제조 방법", 특허, 접수번호 2026-1-0033
+  source: 지식재산권현황_20260420.xlsx
+  source_sheet: ag-grid
+  source_row: 45
+  audit_key: ip-2026-1-0033
+  search: 박재익 Jae-ik Park Park Jae-ik
+  note: 사용자 제공 현황표의 명칭·기재 인명·접수번호를 반영했습니다. 연도는 접수번호의 연도이며 출원·등록일을 뜻하지 않습니다. 현황표의 출원번호·출원일·등록번호·등록일은 공란입니다. 2026-10-03 공개 검색에서도 대응 출원·등록번호를 확인하지 못했습니다. 미출원·미등록을 뜻하지 않으며, 조사 범위와 제외 후보는 ip-search-audit.yaml에 기록했습니다.
+  public_search_checked_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml

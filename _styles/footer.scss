@@ -14,8 +14,9 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
-  padding: 40px;
+  gap: 16px;
+  padding: 36px var(--page-gutter);
+  font-size: 0.9rem;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
 }
@@ -59,4 +60,44 @@ footer a:hover {
 
 footer .icon {
   font-size: var(--xl);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 28px;
+  width: 100%;
+}
+
+.footer-institutions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  max-width: 100%;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    max-width: 100%;
+    padding: 6px 0;
+    text-align: left;
+    text-decoration: none;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  a:hover { text-decoration: underline; }
+  a > span:first-child { min-width: 0; }
+  a > span[aria-hidden] { flex-shrink: 0; }
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

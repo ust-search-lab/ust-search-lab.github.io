@@ -1,0 +1,1522 @@
+---
+checked_on: '2026-10-03'
+scope: 사용자 제공 지식재산권 현황 43행을 기존 PUBLICATIONS와 대조한 뒤 등록증 13개·특허 출원서 3개의 공식 서지정보로 보완.
+source_workbook:
+  filename: 지식재산권현황_20260420.xlsx
+  inventory_date_from_filename: '2026-04-20'
+  sheet: ag-grid
+  range: A3:O45
+  sha256: 72b963ba882bcbf618dc8b8ade4de4a263ab9dae2bcffba3535e45faef9ffc3d
+  modified: false
+source_columns:
+  B: 구분
+  C: 접수번호
+  E: 명칭
+  F: 발명인
+  H: 국내/외
+  J: 출원일
+  K: 출원번호
+  "N": 등록일
+  O: 등록번호
+summary:
+  workbook_rows: 43
+  workbook_by_type:
+    patent: 15
+    software: 20
+    trademark: 7
+    design: 1
+  reconciled_rows: 16
+  existing_entries_reconciled: 14
+  new_entries: 25
+  new_by_category:
+    patent: 4
+    software: 14
+    trademark: 6
+    design: 1
+  total_displayed: 157
+  displayed_by_category:
+    journal: 19
+    conference: 99
+    patent: 12
+    software: 20
+    intellectual-property: 7
+  displayed_patent_statuses:
+    registered: 5
+    application: 6
+    mixed: 0
+    unknown: 1
+  displayed_doi_verified: 12
+  new_records_doi_status: not_assessed; IP-specific identifiers retained separately
+  new_author_groups_checked: 11
+  new_author_orcid_verified: 6
+  new_author_orcid_unconfirmed: 5
+  author_registry_groups: 98
+  author_orcid_verified: 53
+  author_orcid_unconfirmed: 45
+  displayed_software_with_registration_number: 20
+  displayed_software_registration_unconfirmed: 0
+  records_updated_from_documents: 16
+  inventory_records_added: 27
+  duplicate_records_not_displayed: 1
+  records_updated_from_public_search: 8
+  displayed_intellectual_property_registered: 7
+  displayed_ip_information_unconfirmed: 1
+  records_excluded_by_owner: 1
+interpretation:
+- 현황표의 출원일·출원번호·등록일·등록번호는 43건 모두 공란이다. 내부 접수번호는 공식 출원번호 또는 등록번호로 사용하지 않았다.
+- 공식 출원·등록 정보를 문서에서 확인한 항목은 그 연도를 사용한다. 정보 미확인 항목만 내부 접수번호의 연도를 사용하며 화면에 접수연도라고 표시한다.
+- 기존 공식 식별자를 보존하고 제공 문서로 소프트웨어 13건·특허 3건, 후속 공개 검색으로 상표 6건·디자인 1건·소프트웨어 1건의 서지정보를 보완했다. 검색 후 미확인 특허 2건 중 2011년 항목은 사용자 요청으로 제외하여 화면에는 2026년 특허 1건만 unknown으로 남는다.
+- 상표·디자인은 특허와 구분한다. 공식 공보에서 한국항공우주연구원을 출원인·등록 권리자로 확인했다. 상표의 현황표 기재인명은 기여자로 표시하고, 디자인의 25인 명단은 공식 창작자와 모두 일치함을 확인했다.
+- 해외 특허 3행은 과거 조사에서 1개 발명 계열로 연결했으며 사용자 요청에 따라 현재는 그 항목의 미국 등록만 표시한다. 3개 내부 접수번호를 미국 출원에 개별 대응시키지 않는다. KPLO 제38류 2행 통합 및 2011년 특허 요청 제외를 반영하여 지식재산은 39개 항목으로 표시한다.
+- 원본 파일, 부서·대리인·계정·비용 정보는 사이트에 복사하지 않았다. 기존 공개조사 감사파일은 해당 조사시점의 기록으로 유지한다.
+source_issues:
+- rows:
+  - 26
+  field: F
+  issue: 강범석이 연속 두 번 기재됨. 표시 명단에서 동일 이름 한 번만 유지하고, 다른 행에 있는 방준을 추정해 넣지 않음.
+- rows:
+  - 26
+  - 27
+  field: E
+  issue: 같은 KPLO 제38류 명칭·연도가 내부 접수번호 2022-3-0007, 2022-3-0008로 두 번 기재됨. 접수번호 차이만으로 별도 실적을 확인할 수 없어 화면에서는 한 건으로 통합하며 원본 두 행과 번호는 보존.
+  resolution: merged_for_display
+  representative_record: ip-2022-3-0008
+  legal_identity_verified: false
+- rows:
+  - 14
+  field: E
+  issue: 원본 내부 제목에 Time To Firsr Fix 오타가 있음. 기존 공식 제목을 표시하며 원문은 감사기록에 보존.
+rows:
+- source_row: 3
+  reported_type: 프로그램
+  internal_reference: 2010-5-0077
+  reported_title: 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출 프로그램
+  reported_authors:
+  - 이은성
+  - 박재익
+  - 허문범
+  record_key: ip-2010-5-0077
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_public_record:
+    title: 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출 프로그램
+    registration_number: S-2010-008688
+    registration_date: '2010-12-29'
+    copyright_author: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 고장검출 특허 legacy-081과 기술 주제는 유사하지만 본 항목은 별도의 프로그램 기록이므로 특허와 합치지 않습니다.
+- source_row: 4
+  reported_type: 특허
+  internal_reference: 2011-1-0085
+  reported_title: GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: ip-2011-1-0085
+  action: exclude_at_owner_request
+  basis: 2026-10-03 사용자 요청으로 실적 목록에서 제외. 현황표 원문과 공개 조사 이력은 감사 기록에 보존.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 2011년 고장검출 특허 legacy-081과 저자는 같지만 본 항목은 미지정수 결정 성능향상으로 기술 목적이 다르므로 합치지 않습니다. 제목·저자 조합으로 공개 검색했으나 해당 출원 공보는 찾지 못했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  public_search_audit: ip-search-audit.yaml
+  prior_action: add
+  basis_before_exclusion: 현황표에서 추가. 2026-10-03 공개 검색 후에도 대응 공식 출원·등록번호 미확인. ip-search-audit.yaml 참조.
+  excluded_on: '2026-10-03'
+- source_row: 5
+  reported_type: 특허
+  internal_reference: 2011-1-0187
+  reported_title: 이동체의 동특성과 다중 안테나를 이용한 GPS 반송파 위상 고장검출 기법
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-081
+  action: reconcile_existing
+  basis: 내부 보고 제목과 공보 제목은 다르지만 기술 주제·기재 인명·연도가 일치하여 같은 실적으로 연결한 추론. 내부 접수번호와 공식 출원번호를 직접 연결한 문서는 없음.
+  match_basis: technical_description_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 현황표의 동특성·다중 안테나·GPS 반송파 고장검출이라는 기술 요소가 공보 청구항 1의 이동체 동적 특성·복수 안테나·반송파 고장성분 검출과 일치합니다.
+  - 발명인 박재익·이은성·허문범 및 접수번호 연도 2011과 공보 출원연도 2011이 일치합니다.
+  - 공보 출원번호는 10-2011-0143201입니다. 현황표 접수번호와 이를 직접 연결하는 자료는 미확인입니다.
+  verification_sources:
+  - https://patents.google.com/patent/KR20130075022A/ko
+  - https://patentimages.storage.googleapis.com/59/b6/8a/e86f7522028f68/KR20130075022A.pdf
+- source_row: 6
+  reported_type: 프로그램
+  internal_reference: 2011-5-0112
+  reported_title: 후처리 항법위성 궤도예측 프로그램
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-087
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: exact_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 제목이 기존 항목과 정확히 일치합니다.
+  - 발명인/저자 목록 및 접수번호의 연도가 기존 소프트웨어 연도와 일치합니다.
+  - 현황표는 등록번호·등록일을 제공하지 않으므로 등록 식별자로 직접 교차 확인한 매핑은 아닙니다.
+  verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+- source_row: 7
+  reported_type: 프로그램
+  internal_reference: 2011-5-0113
+  reported_title: 후처리 항법위성 궤도오차 정보 생성 프로그램
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-086
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: exact_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 제목이 기존 항목과 정확히 일치합니다.
+  - 발명인/저자 목록 및 접수번호의 연도가 기존 소프트웨어 연도와 일치합니다.
+  - 현황표는 등록번호·등록일을 제공하지 않으므로 등록 식별자로 직접 교차 확인한 매핑은 아닙니다.
+  verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+- source_row: 8
+  reported_type: 특허
+  internal_reference: 2012-1-0103
+  reported_title: GNSS 정밀 이동형 수신국 안테나 플랫폼
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-076
+  action: reconcile_existing
+  basis: 내부 보고 제목과 공보 제목은 다르지만 기술 주제·기재 인명·연도가 일치하여 같은 실적으로 연결한 추론. 내부 접수번호와 공식 출원번호를 직접 연결한 문서는 없음.
+  match_basis: public_title_application_number_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - KAIA 국가 R&D 특허 목록에 현황표와 동일한 제목 GNSS 정밀 이동형 수신국 안테나 플랫폼 및 출원번호 10-2012-0124798, 출원일 2012-11-06이 함께 기재되어 있습니다.
+  - 이 번호는 기존 GNSS 안테나 플랫폼의 출원번호와 일치합니다. 발명인·연도도 일치합니다.
+  - 접수번호 자체를 공보 번호와 직접 연결한 문서는 없습니다.
+  verification_sources:
+  - https://member.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Patent&menuNo=200060&tskId=42881&yearCnt=5&pageIndex=3&pageUnit=10
+  - https://patents.google.com/patent/KR101414146B1/ko
+- source_row: 9
+  reported_type: 특허
+  internal_reference: 2012-1-0153
+  reported_title: 위성항법데이터의 실시간 처리를 위한 전송방법
+  reported_authors:
+  - 김규헌
+  - 손민혁
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-077
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: near_title_authors_year_public_number
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 현황표와 기존 제목은 위성항법 데이터 실시간 처리를 위한 전송방법으로 일치하며 기존 제목에 데이터가 추가된 차이입니다.
+  - 김규헌·손민혁·박재익·이은성·허문범의 발명인 순서 및 2012년이 일치합니다.
+  - KAIA 목록의 위성항법데이터의 실시간 처리를 위한 데이터 전송방법은 출원 10-2012-0139240으로 기존 항목 번호와 일치합니다. 접수번호 연결은 미확인입니다.
+  verification_sources:
+  - https://member.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Patent&menuNo=200060&tskId=42881&yearCnt=5&pageIndex=3&pageUnit=10
+  - https://patents.google.com/patent/KR101271006B1/ko
+- source_row: 10
+  reported_type: 특허
+  internal_reference: 2012-1-0154
+  reported_title: 위성항법 기준국용 데이터 송수신 장치
+  reported_authors:
+  - 손민혁
+  - 김규헌
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-078
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: exact_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 제목·발명인 순서·연도가 기존 항목과 일치합니다.
+  - KAIA와 공보는 동일 제목에 출원 10-2012-0139241을 연결합니다. 현황표 접수번호 연결은 미확인입니다.
+  verification_sources:
+  - https://member.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Patent&menuNo=200060&tskId=42881&yearCnt=5&pageIndex=3&pageUnit=10
+  - https://patents.google.com/patent/KR101261315B1/en
+- source_row: 11
+  reported_type: 프로그램
+  internal_reference: 2012-5-0046
+  reported_title: Novatel 위성항법 수신기 바이너리 데이터 처리 프로그램
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-085
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: translated_title_authors_year
+  confidence: medium_high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - Novatel 위성항법 수신기 바이너리 데이터 처리 프로그램은 기존 영문 제목 Novatel GPS receiver binary data handling program의 대응 번역으로 판단됩니다. 등록번호 연결은 직접 확인되지 않았습니다.
+  - 발명인/저자 목록 및 접수번호의 연도가 기존 소프트웨어 연도와 일치합니다.
+  - 현황표는 등록번호·등록일을 제공하지 않으므로 등록 식별자로 직접 교차 확인한 매핑은 아닙니다.
+  verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+- source_row: 12
+  reported_type: 프로그램
+  internal_reference: 2012-5-0047
+  reported_title: 가중치 최소자승법을 이용한 후처리기반 위성항법 위치결정 프로그램
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-084
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: exact_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 제목이 기존 항목과 정확히 일치합니다.
+  - 발명인/저자 목록 및 접수번호의 연도가 기존 소프트웨어 연도와 일치합니다.
+  - 현황표는 등록번호·등록일을 제공하지 않으므로 등록 식별자로 직접 교차 확인한 매핑은 아닙니다.
+  verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+- source_row: 13
+  reported_type: 프로그램
+  internal_reference: 2012-5-0048
+  reported_title: 위성항법 다중 기준국 네트워크 데이터 후처리 보정정보 생성 프로그램
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  record_key: legacy-083
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: exact_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 제목이 기존 항목과 정확히 일치합니다.
+  - 발명인/저자 목록 및 접수번호의 연도가 기존 소프트웨어 연도와 일치합니다.
+  - 현황표는 등록번호·등록일을 제공하지 않으므로 등록 식별자로 직접 교차 확인한 매핑은 아닙니다.
+  verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3
+- source_row: 14
+  reported_type: 특허
+  internal_reference: 2016-1-0223
+  reported_title: SBAS 신호를 활용한 TTFF(Time To Firsr Fix) 단축 방법
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  - 남기욱
+  record_key: legacy-080
+  action: reconcile_existing
+  basis: 내부 보고 제목과 공보 제목은 다르지만 기술 주제·기재 인명·연도가 일치하여 같은 실적으로 연결한 추론. 내부 접수번호와 공식 출원번호를 직접 연결한 문서는 없음.
+  match_basis: priority_chain_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - KAIA가 GPS 수신방법, GPS 수신 장치 및 이를 포함하는 제어 시스템의 출원번호 10-2016-0156815 및 출원일 2016-11-23을 명시합니다.
+  - SBAS TTFF 단축 발명의 미국 공보 US10649091B2는 10-2016-0156815(2016-11-23) 및 10-2017-0136795(2017-10-20)를 한국 우선권으로 명시합니다.
+  - 4인 발명인이 동일하고 현황표의 SBAS 신호/TTFF 단축이라는 내용이 동일한 우선권 계열임을 뒷받침합니다.
+  - 현황표 접수번호 2016-1-0223과 10-2016-0156815를 직접 연결한 문서는 없어 높은 신뢰도의 후보입니다. legacy-079(2017년 국내 출원)와 하나로 합치면 별도 출원 기록을 잃으므로 구분해야 합니다.
+  verification_sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Patent&menuNo=200060&tskId=87579&yearCnt=2
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+- source_row: 15
+  reported_type: 특허
+  internal_reference: 2017-1-0173
+  reported_title: 위성항법보정시스템(SBAS) 신호를 활용한 TTFF(Time To First Fix) 단축 방법
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  - 남기욱
+  record_key: legacy-074
+  action: reconcile_existing
+  basis: 기존 조사에서 해외 발명 계열 수준으로 연결한 내부 접수기록. 사용자 요청으로 현재 화면은 미국 등록 US10649091B2만 표시하며, 개별 내부 접수번호를 미국 출원에 직접 대응시키지 않는다.
+  match_basis: same_invention_title_authors_year_foreign_count
+  confidence: high_at_family_level_only
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 동일한 제목과 4인 발명인, 2017년 국외 특허라는 점이 legacy-074의 미국·유럽·일본 출원 3건과 일치합니다.
+  - 공보에서 미국 US15/819,926, 유럽 EP17202087.7, 일본 JP2017-223495의 같은 발명 계열을 확인했습니다.
+  - 현황표는 세 행 모두 국외로만 표시하며 국가·출원번호가 없습니다. 각 접수번호에 US/EP/JP를 임의 할당할 수 없습니다.
+  - 그룹 3행을 legacy-074 한 묶음의 내부 접수기록으로 연결하는 것은 제안 가능하지만 개별 권리와의 일대일 대응은 미확인입니다.
+  verification_sources:
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patents.google.com/patent/EP3327465A1/en
+  - https://patents.google.com/patent/JP2018084583A/en
+  family_mapping_basis: 기술 주제·기재 인명·2017년 국외 3건을 기존 해외 특허 1개 묶음에 연결. 현황표에 국가명이 없어 개별 내부 접수번호와 US/EP/JP 대응은 지정하지 않음.
+  display_scope: US_registered_only
+- source_row: 16
+  reported_type: 특허
+  internal_reference: 2017-1-0174
+  reported_title: 위성항법보정시스템(SBAS) 신호를 활용한 TTFF(Time To First Fix) 단축 방법
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  - 남기욱
+  record_key: legacy-074
+  action: reconcile_existing
+  basis: 기존 조사에서 해외 발명 계열 수준으로 연결한 내부 접수기록. 사용자 요청으로 현재 화면은 미국 등록 US10649091B2만 표시하며, 개별 내부 접수번호를 미국 출원에 직접 대응시키지 않는다.
+  match_basis: same_invention_title_authors_year_foreign_count
+  confidence: high_at_family_level_only
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 동일한 제목과 4인 발명인, 2017년 국외 특허라는 점이 legacy-074의 미국·유럽·일본 출원 3건과 일치합니다.
+  - 공보에서 미국 US15/819,926, 유럽 EP17202087.7, 일본 JP2017-223495의 같은 발명 계열을 확인했습니다.
+  - 현황표는 세 행 모두 국외로만 표시하며 국가·출원번호가 없습니다. 각 접수번호에 US/EP/JP를 임의 할당할 수 없습니다.
+  - 그룹 3행을 legacy-074 한 묶음의 내부 접수기록으로 연결하는 것은 제안 가능하지만 개별 권리와의 일대일 대응은 미확인입니다.
+  verification_sources:
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patents.google.com/patent/EP3327465A1/en
+  - https://patents.google.com/patent/JP2018084583A/en
+  family_mapping_basis: 기술 주제·기재 인명·2017년 국외 3건을 기존 해외 특허 1개 묶음에 연결. 현황표에 국가명이 없어 개별 내부 접수번호와 US/EP/JP 대응은 지정하지 않음.
+  display_scope: US_registered_only
+- source_row: 17
+  reported_type: 특허
+  internal_reference: 2017-1-0177
+  reported_title: 위성항법보정시스템(SBAS) 신호를 활용한 TTFF(Time To First Fix) 단축 방법
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  - 남기욱
+  record_key: legacy-074
+  action: reconcile_existing
+  basis: 기존 조사에서 해외 발명 계열 수준으로 연결한 내부 접수기록. 사용자 요청으로 현재 화면은 미국 등록 US10649091B2만 표시하며, 개별 내부 접수번호를 미국 출원에 직접 대응시키지 않는다.
+  match_basis: same_invention_title_authors_year_foreign_count
+  confidence: high_at_family_level_only
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 동일한 제목과 4인 발명인, 2017년 국외 특허라는 점이 legacy-074의 미국·유럽·일본 출원 3건과 일치합니다.
+  - 공보에서 미국 US15/819,926, 유럽 EP17202087.7, 일본 JP2017-223495의 같은 발명 계열을 확인했습니다.
+  - 현황표는 세 행 모두 국외로만 표시하며 국가·출원번호가 없습니다. 각 접수번호에 US/EP/JP를 임의 할당할 수 없습니다.
+  - 그룹 3행을 legacy-074 한 묶음의 내부 접수기록으로 연결하는 것은 제안 가능하지만 개별 권리와의 일대일 대응은 미확인입니다.
+  verification_sources:
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patents.google.com/patent/EP3327465A1/en
+  - https://patents.google.com/patent/JP2018084583A/en
+  family_mapping_basis: 기술 주제·기재 인명·2017년 국외 3건을 기존 해외 특허 1개 묶음에 연결. 현황표에 국가명이 없어 개별 내부 접수번호와 US/EP/JP 대응은 지정하지 않음.
+  display_scope: US_registered_only
+- source_row: 18
+  reported_type: 특허
+  internal_reference: 2017-1-0234
+  reported_title: ＳＢＡＳ 신호를 이용하여 GPS 수신 장치의 ＴＴＦＦ를 단축할 수 있는 방법 및 시스템
+  reported_authors:
+  - 박재익
+  - 이은성
+  - 허문범
+  - 남기욱
+  record_key: legacy-079
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: normalized_exact_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 전각 ＳＢＡＳ/ＴＴＦＦ를 NFKC 정규화하면 기존 항목 제목과 일치합니다.
+  - 4인 발명인 순서 및 2017년 국내 출원 구분이 일치합니다. 공보 출원번호 10-2017-0136795. 접수번호 연결은 미확인입니다.
+  verification_sources:
+  - https://patents.google.com/patent/KR20180058184A/ko
+- source_row: 19
+  reported_type: 프로그램
+  internal_reference: 2017-5-0182
+  reported_title: 달착륙선 2차원 최적화 착륙궤적 생성 프로그램
+  reported_authors:
+  - 박재익
+  - 류동영
+  record_key: legacy-082
+  action: reconcile_existing
+  basis: 기존 제목 또는 동등한 명칭, 기재 인명, 연도가 일치하여 기존 항목에 연결. 기존 공식 제목·식별자·날짜를 보존.
+  match_basis: exact_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 제목이 기존 항목과 정확히 일치합니다.
+  - 발명인/저자 목록 및 접수번호의 연도가 기존 소프트웨어 연도와 일치합니다.
+  - 현황표는 등록번호·등록일을 제공하지 않으므로 등록 식별자로 직접 교차 확인한 매핑은 아닙니다.
+  verification_sources:
+  - https://sites.google.com/view/dr-space/publications
+- source_row: 20
+  reported_type: 특허
+  internal_reference: 2018-1-0082
+  reported_title: 달탐사선의 궤도유지기동 연료절감을 위한 향상된 제어 방법
+  reported_authors:
+  - 박재익
+  - 최수진
+  - 류동영
+  record_key: legacy-075
+  action: reconcile_existing
+  basis: 내부 보고 제목과 공보 제목은 다르지만 기술 주제·기재 인명·연도가 일치하여 같은 실적으로 연결한 추론. 내부 접수번호와 공식 출원번호를 직접 연결한 문서는 없음.
+  match_basis: technical_title_authors_year
+  confidence: high
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 달탐사선의 궤도유지기동 연료 절감이라는 목적과 제어 방법이라는 기술 범위가 일치합니다.
+  - 발명인 박재익·최수진·류동영이 순서까지 같고 접수번호 2018년은 출원연도 2018년과 일치합니다.
+  - 공식 등록공보 KR102091031B1은 출원번호 10-2018-0131171, 출원일 2018-10-30, 등록번호 10-2091031, 등록일 2020-03-12를 명시합니다. 2020-04-24는 공고일입니다.
+  - 접수번호와 공보 번호를 직접 연결하는 근거가 없으나 신규 독립 특허로 중복 추가하기보다 기존 항목의 내부 제목 후보로 두는 것이 타당합니다.
+  verification_sources:
+  - https://patents.google.com/patent/KR102091031B1/en
+  - https://patentimages.storage.googleapis.com/53/67/75/339e883adbd02d/KR102091031B1.pdf
+- source_row: 21
+  reported_type: 상표
+  internal_reference: 2022-3-0002
+  reported_title: KPLO (케이피엘오) - 달 궤도선 "제12류"
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  record_key: ip-2022-3-0002
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_public_record:
+    title: KPLO (제12류)
+    application_number: 40-2022-0039240
+    application_date: '2022-03-02'
+    registration_number: 40-1883049
+    registration_date: '2022-06-27'
+    applicant: 한국항공우주연구원
+    registered_owner: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+- source_row: 22
+  reported_type: 상표
+  internal_reference: 2022-3-0003
+  reported_title: KPLO (케이피엘오) - 달 궤도선 "제16류"
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  record_key: ip-2022-3-0003
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_public_record:
+    title: KPLO (제16류)
+    application_number: 40-2022-0039241
+    application_date: '2022-03-02'
+    registration_number: 40-1900633
+    registration_date: '2022-08-19'
+    applicant: 한국항공우주연구원
+    registered_owner: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+- source_row: 23
+  reported_type: 상표
+  internal_reference: 2022-3-0004
+  reported_title: KPLO (케이피엘오) - 달 궤도선 "제25류"
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  record_key: ip-2022-3-0004
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_public_record:
+    title: KPLO (제25류)
+    application_number: 40-2022-0039242
+    application_date: '2022-03-02'
+    registration_number: 40-1900634
+    registration_date: '2022-08-19'
+    applicant: 한국항공우주연구원
+    registered_owner: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+- source_row: 24
+  reported_type: 상표
+  internal_reference: 2022-3-0005
+  reported_title: KPLO (케이피엘오) - 달 궤도선 "제28류"
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  record_key: ip-2022-3-0005
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_public_record:
+    title: KPLO (제28류)
+    application_number: 40-2022-0039243
+    application_date: '2022-03-02'
+    registration_number: 40-1883050
+    registration_date: '2022-06-27'
+    applicant: 한국항공우주연구원
+    registered_owner: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+- source_row: 25
+  reported_type: 상표
+  internal_reference: 2022-3-0006
+  reported_title: KPLO (케이피엘오) - 달 궤도선 "제9류"
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  record_key: ip-2022-3-0006
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_public_record:
+    title: KPLO (제9류)
+    application_number: 40-2022-0043570
+    application_date: '2022-03-08'
+    registration_number: 40-1889853
+    registration_date: '2022-07-15'
+    applicant: 한국항공우주연구원
+    registered_owner: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+- source_row: 26
+  reported_type: 상표
+  internal_reference: 2022-3-0007
+  reported_title: KPLO (케이피엘오) - 달 궤도선 "제38류"
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 강범석
+  - 이상률
+  record_key: ip-2022-3-0007
+  action: add
+  basis: 원본 26행을 보존하고 제38류는 ip-2022-3-0008에서 한 건으로 표시. 후속 공식 검색에서 확인한 등록 40-1883051은 대표 항목에 반영. 내부 두 번호의 법적 동일성은 직접 확인되지 않음.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+  verification_sources: []
+  display_record_key: ip-2022-3-0008
+  display_action: merged_into_representative
+  inventory_import_basis: 같은 명칭·분류·연도의 제38류 두 행을 화면에서 한 건으로 표시. 원본 접수번호와 인명·행 정보는 보존. 공식 식별자 미확인으로 법적 권리 동일 여부는 미확정.
+  public_search_audit: ip-search-audit.yaml
+- source_row: 27
+  reported_type: 상표
+  internal_reference: 2022-3-0008
+  reported_title: KPLO (케이피엘오) - 달 궤도선 "제38류"
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  record_key: ip-2022-3-0008
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  display_record_key: ip-2022-3-0008
+  display_action: representative
+  inventory_import_basis: 같은 명칭·분류·연도의 제38류 두 행을 화면에서 한 건으로 표시. 원본 접수번호와 인명·행 정보는 보존. 공식 식별자 미확인으로 법적 권리 동일 여부는 미확정.
+  verified_public_record:
+    title: KPLO (제38류)
+    application_number: 40-2022-0043571
+    application_date: '2022-03-08'
+    registration_number: 40-1883051
+    registration_date: '2022-06-27'
+    applicant: 한국항공우주연구원
+    registered_owner: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+- source_row: 28
+  reported_type: 디자인
+  internal_reference: 2022-4-0001
+  reported_title: 대한민국 달 궤도선 '제12류 07군 (인공위성)'
+  reported_authors:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  record_key: ip-2022-4-0001
+  action: add
+  basis: 후속 공개 검색에서 공식 출원·등록 서지정보를 확인하여 보완. 세부 근거와 내부 접수번호 연결의 한계는 ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 공식 공개 검색·공보에서 명칭·번호·날짜·기관 역할을 대조했습니다. 세부 출처와 연결 근거는 ip-search-audit.yaml의 해당 audit_key에 기록했습니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_public_record:
+    title: 인공위성
+    application_number: 30-2023-0018859
+    application_date: '2023-05-17'
+    registration_number: 30-1243208
+    registration_date: '2023-12-14'
+    applicant: 한국항공우주연구원
+    registered_owner: 한국항공우주연구원
+    verified_on: '2026-10-03'
+  public_search_audit: ip-search-audit.yaml
+  inventory_import_evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  - 기존 데이터에는 해당 권리유형의 항목이 없습니다. 현황표의 발명인 열은 기여자 목록으로 보존할 수 있으나 상표권자/디자인권자로 단정할 근거는 아닙니다.
+- source_row: 29
+  reported_type: 특허
+  internal_reference: 2025-1-0077
+  reported_title: 초저궤도(VLEO) 위성 표면 보호를 위한 플라즈마 기반 원자산소 차단 장치
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-1-0077
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 3371_10-2025-0132472_출원서.pdf
+    evidence_pages:
+    - 1
+    - 3
+    - 7
+    - 8
+    application_number: 10-2025-0132472
+    application_date: '2025-09-16'
+- source_row: 30
+  reported_type: 특허
+  internal_reference: 2025-1-0084
+  reported_title: 초저궤도(VLEO) 위성 원자산소 차단 장치 머신러닝 기반 자율 제어 시스템
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-1-0084
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 3376_10-2025-0149621_출원서.pdf
+    evidence_pages:
+    - 1
+    - 2
+    - 7
+    - 10
+    - 12
+    application_number: 10-2025-0149621
+    application_date: '2025-10-16'
+- source_row: 31
+  reported_type: 특허
+  internal_reference: 2025-1-0119
+  reported_title: 행성간 궤적 설계를 위한 하이브리드 적응형 램버트(Lambert) 솔버 시스템 및 방법
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-1-0119
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 3413_10-2025-0187696_출원서.pdf
+    evidence_pages:
+    - 1
+    - 3
+    - 6
+    application_number: 10-2025-0187696
+    application_date: '2025-12-02'
+- source_row: 32
+  reported_type: 프로그램
+  internal_reference: 2025-5-0009
+  reported_title: 비케플러 궤도 푸앙카레 단면 분석 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0009
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3776_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-035548
+    registration_date: '2025-09-08'
+- source_row: 33
+  reported_type: 프로그램
+  internal_reference: 2025-5-0012
+  reported_title: MSAFE 태양 활동 예측 모델 데이터 생성 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0012
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3779_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-035549
+    registration_date: '2025-09-08'
+- source_row: 34
+  reported_type: 프로그램
+  internal_reference: 2025-5-0014
+  reported_title: 태양-지구 L4 라그랑주점 초기궤도 계산 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0014
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3780_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-035550
+    registration_date: '2025-09-08'
+- source_row: 35
+  reported_type: 프로그램
+  internal_reference: 2025-5-0015
+  reported_title: 화성 전이 궤적 설계용 포크찹 플롯 생성 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0015
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3781_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-035551
+    registration_date: '2025-09-08'
+- source_row: 36
+  reported_type: 프로그램
+  internal_reference: 2025-5-0016
+  reported_title: 특성 가속도 기반 정사각형 태양돛 치수 산정 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0016
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3782_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-035552
+    registration_date: '2025-09-08'
+- source_row: 37
+  reported_type: 프로그램
+  internal_reference: 2025-5-0020
+  reported_title: 소행성 및 행성의 케플러 궤도 시각화 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0020
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3770_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-037038
+    registration_date: '2025-09-15'
+- source_row: 38
+  reported_type: 프로그램
+  internal_reference: 2025-5-0021
+  reported_title: 심우주 임무용 안테나 빔폭-이득 계산 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0021
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3784_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-037039
+    registration_date: '2025-09-15'
+- source_row: 39
+  reported_type: 프로그램
+  internal_reference: 2025-5-0023
+  reported_title: 지구궤도위성 광통신 링크 버짓 분석 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0023
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3786_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-037041
+    registration_date: '2025-09-15'
+- source_row: 40
+  reported_type: 프로그램
+  internal_reference: 2025-5-0024
+  reported_title: 저궤도 군집위성 위상 배치 및 기동 설계 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0024
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3787_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-037040
+    registration_date: '2025-09-15'
+- source_row: 41
+  reported_type: 프로그램
+  internal_reference: 2025-5-0046
+  reported_title: 다중 천체 궤도력 온보드 탑재용 체비셰프 다항식 계수 생성 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0046
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3803_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-046662
+    registration_date: '2025-11-04'
+- source_row: 42
+  reported_type: 프로그램
+  internal_reference: 2025-5-0047
+  reported_title: 초저궤도(VLEO) 대기밀도 분석 및 시각화 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0047
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3804_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-046674
+    registration_date: '2025-11-04'
+- source_row: 43
+  reported_type: 프로그램
+  internal_reference: 2025-5-0048
+  reported_title: 초저궤도(VLEO) 원자산소 플럭스 및 플루언스 계산 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0048
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3805_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-046098
+    registration_date: '2025-10-31'
+- source_row: 44
+  reported_type: 프로그램
+  internal_reference: 2025-5-0049
+  reported_title: 초저궤도(VLEO) 위성 DeltaV 버짓 계산 프로그램
+  reported_authors:
+  - 박재익
+  record_key: ip-2025-5-0049
+  action: add
+  basis: 현황표에서 추가한 항목을 후속 제공된 등록증 또는 출원서의 공식 명칭·번호·날짜로 보완. 상세 근거는 ip-document-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  verified_document:
+    filename: 프3806_저작권 등록증.pdf
+    evidence_pages:
+    - 1
+    registration_number: C-2025-046096
+    registration_date: '2025-10-31'
+- source_row: 45
+  reported_type: 특허
+  internal_reference: 2026-1-0033
+  reported_title: 통신 블랙아웃 저감을 위한 친전자성 나노입자 함유 다층 열방호 시스템 및 그 제조 방법
+  reported_authors:
+  - 박재익
+  record_key: ip-2026-1-0033
+  action: add
+  basis: 현황표에서 추가. 2026-10-03 공개 검색 후에도 대응 공식 출원·등록번호 미확인. ip-search-audit.yaml 참조.
+  match_basis: no_corresponding_existing_record
+  confidence: not_applicable
+  receipt_to_official_number_confirmed: false
+  evidence:
+  - 기존 특허 8건·소프트웨어 6건 중 일치 항목을 찾지 못했습니다. 현황표 등재는 확인되지만 외부 출원·등록번호 및 법적 상태는 미확인입니다.
+  verification_sources: []
+  inventory_import_basis: 현황표에서 추가. 공식 출원·등록 정보는 미확인.
+  public_search_audit: ip-search-audit.yaml
+verified_metadata_updates:
+- record_key: legacy-080
+  field: application_date
+  value: '2016-11-23'
+  sources:
+  - https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Patent&menuNo=200060&tskId=87579&yearCnt=2
+  - https://patents.google.com/patent/US10649091B2/en
+  displayed_details_updated: true
+public_identifier_search:
+  checked_on: '2026-10-03'
+  scope: 신규 항목 중 GNSS 미지정수 결정 특허, VLEO 원자산소 차단·자율제어, 적응형 램버트 솔버, 나노입자 열방호 특허 및 2010년 고장검출 프로그램의 제목 검색
+  result: 제목·기재 인명과 일치하는 공식 출원·등록 식별자를 확인하지 못함. 식별자가 없다는 확정은 아님.
+  new_records_status: unknown
+new_author_identifiers:
+- key: author-088
+  name: 김일영
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-03'
+  sources:
+  - https://ksas.or.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20200701&CpPage=1162
+  - https://www.codil.or.kr/filebank/original/RK/OTKCRK180965/OTKCRK180965.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%9D%BC%EC%98%81%22+OR+%22Il+Young+Kim%22&rows=50
+  note: 공식 학회 달탐사 심포지엄의 항우연 연락 담당자와 정부 연구보고서에서 이름·기관을 확인했다. 공개 ORCID의 한국어명 및 영문 검색 후보에는 의학 분야 또는 소속이 공개되지 않은 동명이인이 있어 해당 기재자와 연결하지 않았다. ORCID 미확정은 미보유를 뜻하지 않는다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-089
+  name: 임조령
+  orcid: 0000-0003-1516-4473
+  status: verified
+  checked_on: '2026-10-03'
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://www.janss.kr/download/download_pdf?pid=jass-37-3-199
+  - https://www.scholar.go.kr/search/scholarDetail.do?localId=P2020125408
+  - https://orcid.org/0000-0003-1516-4473
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%9E%84%EC%A1%B0%EB%A0%B9%22+OR+%22Jo-Ryeong+Yim%22+OR+%22Jo+Ryeong+Yim%22&rows=50
+  note: 공식 JASS 논문의 저자별 ORCID와 항우연 소속을 확인했다. 국회도서관 연구자 전거에서 임조령과 Jo-Ryeong Yim의 한영 대응을 대조했다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-090
+  name: 김형완
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-03'
+  sources:
+  - https://ksas.or.kr/wp/2024a/data/%EB%B3%84%EC%B2%A81.%202024%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All_%EC%88%98%EC%A0%95v3.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%ED%98%95%EC%99%84%22+OR+%22Hyungwan+Kim%22&rows=50
+  note: 공식 KSAS 2024 춘계 논문집에서 항우연 김형완을 확인했다. 한국어명과 Hyungwan Kim 검색으로 공개 ORCID 후보를 찾지 못했다. 동명의 의학 분야 연구자는 해당 인물이라는 근거가 없어 제외했다. 영문 표기는 확정 alias로 추가하지 않았다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-091
+  name: 송재훈
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-03'
+  sources:
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001675644
+  - https://www.codil.or.kr/filebank/original/RK/OTKCRK180966/OTKCRK180966.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%86%A1%EC%9E%AC%ED%9B%88%22+OR+%22Jae+Hoon+Song%22&rows=50
+  note: 항우연 발행 학술지의 저자 소속과 정부 연구보고서에서 항우연 송재훈을 확인했다. 공개 ORCID에 여러 Jae Hoon Song 후보가 있으나 항우연 소속 또는 일치 논문으로 연결되는 근거를 확인하지 못했다. 의학 분야 송재훈과 이름만으로 연결하지 않았다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-092
+  name: 김현순
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-03'
+  sources:
+  - https://ksas.or.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20200701&CpPage=1162
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%ED%98%84%EC%88%9C%22&rows=50
+  note: 공식 KSAS 달탐사 심포지엄에서 항우연 연락 담당자로 확인했다. 한국어명 ORCID 공개검색 결과가 없으며 정확한 영문 표기와 동일인 식별자 근거를 확보하지 못해 미확정으로 남겼다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-093
+  name: 김주현
+  orcid: 0000-0001-7984-1379
+  status: verified
+  checked_on: '2026-10-03'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-5-4-248
+  - https://orcid.org/0000-0001-7984-1379
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%A3%BC%ED%98%84%22+OR+%22Joo+Hyeon+Kim%22&rows=50
+  note: 공식 JSTA 논문 첫 페이지에 김주현/Joo Hyeon Kim, 한국항공우주연구원 우주탐사팀 소속과 ORCID가 함께 명시되어 있다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-094
+  name: 손승희
+  orcid:
+  status: unconfirmed
+  checked_on: '2026-10-03'
+  sources:
+  - https://ksas.or.kr/wp/2024a/data/%EB%B3%84%EC%B2%A81.%202024%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All_%EC%88%98%EC%A0%95v3.pdf
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001086858
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%86%90%EC%8A%B9%ED%9D%AC%22+OR+%22Seung+Hee+Son%22&rows=50
+  note: 공식 KSAS 논문집에서 달궤도선 지상시스템 관련 항우연 연구자를 확인했다. 공개 ORCID의 손승희/Seung Hee Son 후보는 한남대학교 소속으로, 항우연 기재자와 연결할 근거가 없어 제외했다. 해당 기재자의 ORCID는 미확정이다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-095
+  name: 김동규
+  orcid: '0009-0004-1097-1430'
+  status: verified
+  checked_on: '2026-10-03'
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://orcid.org/0009-0004-1097-1430
+  - https://ksss.or.kr/homepage/custom/committee07
+  - https://ksas.or.kr/wp/2024a/data/%EB%B3%84%EC%B2%A81.%202024%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All_%EC%88%98%EC%A0%95v3.pdf
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EB%8F%99%EA%B7%9C%22+OR+%22Dong-Gyu+Kim%22&rows=50
+  note: 공식 JASS KPLO 운용 논문의 항우연 소속 및 저자별 ORCID를 확인했다. 공개 ORCID에도 항우연 소속과 동일 KPLO 논문이 명시되어 있으며, 공식 학회 자료의 김동규·달탐사 지상시스템 활동과 대조했다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-096
+  name: 김은혁
+  orcid: 0000-0002-0883-6748
+  status: verified
+  checked_on: '2026-10-03'
+  sources:
+  - https://www.janss.kr/download/download_pdf?pid=jass-41-1-43
+  - https://orcid.org/0000-0002-0883-6748
+  - https://www.kari.re.kr/kor/article/ATCL90a22172e/10875
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B9%80%EC%9D%80%ED%98%81%22+OR+%22Eunhyeuk+Kim%22&rows=50
+  note: 공식 JASS KPLO 운용 논문의 항우연 소속과 저자별 ORCID를 확인했다. 항우연 달탐사 공고의 김은혁 이름 및 eunhyeuk 표기와 대조했다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-097
+  name: 민승용
+  orcid: '0009-0009-1500-8658'
+  status: verified
+  checked_on: '2026-10-03'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-6-3-293
+  - https://orcid.org/0009-0009-1500-8658
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EB%AF%BC%EC%8A%B9%EC%9A%A9%22+OR+%22Seung+Yong+Min%22&rows=50
+  note: 공식 JSTA 태양돛 전개 논문 첫 페이지에 민승용/Seung Yong Min, 항우연 소속과 ORCID가 직접 명시되어 있다. 공개 ORCID 검색 결과의 항우연 소속도 일치한다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+- key: author-098
+  name: 강범석
+  orcid: '0009-0007-8393-0826'
+  status: verified
+  checked_on: '2026-10-03'
+  sources:
+  - https://www.jstna.org/download/download_pdf?pid=jsta-6-3-293
+  - https://orcid.org/0009-0007-8393-0826
+  - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EA%B0%95%EB%B2%94%EC%84%9D%22+OR+%22Beom+Suk+Kang%22&rows=50
+  note: 공식 JSTA 태양돛 전개 논문 첫 페이지에 강범석/Beom Suk Kang, 항우연 소속과 ORCID가 직접 명시되어 있다. 공개 이름검색 결과가 0건이어도 공식 논문의 직접 연결로 확인했다. 엑셀 row26의 반복 기재는 동일 이름 한 명으로 집계했으며 방준으로 치환하거나 보충하지 않았다. 엑셀 상표·디자인 항목의 기재인명으로, 해당 항목에서의 실제 역할이나 권리관계는 확정하지 않았다.
+inventory_import_summary:
+  workbook_rows: 43
+  workbook_by_type:
+    patent: 15
+    software: 20
+    trademark: 7
+    design: 1
+  reconciled_rows: 16
+  existing_entries_reconciled: 14
+  new_entries: 27
+  new_by_category:
+    patent: 5
+    software: 14
+    trademark: 7
+    design: 1
+  total_displayed: 159
+  displayed_by_category:
+    journal: 19
+    conference: 99
+    patent: 13
+    software: 20
+    intellectual-property: 8
+  displayed_patent_statuses:
+    registered: 4
+    application: 3
+    mixed: 1
+    unknown: 5
+  displayed_doi_verified: 12
+  new_records_doi_status: not_assessed; IP-specific identifiers retained separately
+  new_author_groups_checked: 11
+  new_author_orcid_verified: 6
+  new_author_orcid_unconfirmed: 5
+  author_registry_groups: 98
+  author_orcid_verified: 53
+  author_orcid_unconfirmed: 45
+document_audit: ip-document-audit.yaml
+display_deduplication:
+  checked_on: '2026-10-03'
+  reason: 사용자의 제38류 중복 지적 후 동일 명칭·분류·연도의 두 기록을 화면에서 통합.
+  source_rows:
+  - 26
+  - 27
+  internal_references:
+  - 2022-3-0007
+  - 2022-3-0008
+  representative_record: ip-2022-3-0008
+  retained_source_record: ip-2022-3-0007
+  original_source_rows_preserved: true
+  count_before: 159
+  count_after: 158
+  legal_identity_verified: false
+  subsequent_public_search: 2026-10-03 KIPRIS에서 정확히 KPLO인 제38류 결과는 등록 40-1883051 한 건. 대표 항목에 반영하고 두 내부 접수번호와 원본 행은 보존. 내부번호 자체의 동일 권리 대응은 직접 확인되지 않음.
+public_search_audit: ip-search-audit.yaml
+owner_requested_exclusions:
+- record_key: ip-2011-1-0085
+  checked_on: '2026-10-03'
+  reason: 사용자가 2011년 GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법 삭제를 명시적으로 요청.
+  count_before: 158
+  count_after: 157
+owner_requested_scope_changes:
+- record_key: legacy-074
+  checked_on: '2026-10-03'
+  reason: 사용자가 해당 TTFF 해외 특허의 미국 등록만 표시하도록 요청.
+  display_scope: US_registered_only
+  status_before: mixed
+  status_after: registered
+  year: 2017
+  year_basis: application_year
+  registration_number: US10649091B2
+  registration_date: '2020-05-12'
+  application_number: 15/819,926
+  application_date: '2017-11-21'
+  original_citation: Jae-ik Park, Eunsung Lee,  Moonbeom Heo, and Giwook Nam, "Method and system for Time To First Fix(TTFF) reduction of GPS Receivers using Satellite Based Augmentation System Signal",   No.17202087.7(EU), 15/819,926(US),  2017-223495(JP)
+  previous_country_records:
+  - jurisdiction: US
+    status: registered
+    application_number: 15/819,926
+    application_date: '2017-11-21'
+    publication_number: US20180143325A1
+    publication_date: '2018-05-24'
+    registration_number: US10649091B2
+    registration_date: '2020-05-12'
+    source: https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+  - jurisdiction: EP
+    status: application
+    application_number: '17202087.7'
+    application_date: '2017-11-16'
+    publication_number: EP3327465A1
+    publication_date: '2018-05-30'
+    source: https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+  - jurisdiction: JP
+    status: application
+    application_number: 2017-223495
+    application_date: '2017-11-21'
+    publication_number: JP2018084583A
+    publication_date: '2018-05-31'
+    source: https://patents.google.com/patent/JP2018084583A/ja
+  previous_verification_sources:
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+  - https://patents.google.com/patent/EP3327465A1/en
+  - https://patentimages.storage.googleapis.com/d9/7b/34/1b4e93c97f09d3/EP3327465A1.pdf
+  - https://patents.google.com/patent/JP2018084583A/ja
+  - https://patentimages.storage.googleapis.com/94/18/2b/8e8b841efdd92b/JP2018084583A.pdf
+  total_displayed_before: 157
+  total_displayed_after: 157
+  note: 원문과 유럽·일본 조사 기록은 이력으로만 보존한다. 미국 출원은 2017년, 등록은 2020년으로 구분한다.

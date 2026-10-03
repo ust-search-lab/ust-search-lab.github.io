@@ -9,3 +9,12 @@
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

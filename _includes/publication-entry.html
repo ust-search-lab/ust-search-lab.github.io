@@ -1,0 +1,51 @@
+{% assign publication_entry = include.record %}
+{% assign publication_entry_authors = publication_entry.authors | publication_authors: site.data.author-identifiers %}
+{% assign publication_entry_details = publication_entry.details %}
+{% if include.lang == "en" %}
+  {% assign publication_entry_details = publication_entry.details_en | default: publication_entry.details %}
+{% endif %}
+<article class="citation publication-entry" data-search="{{ publication_entry.search | join: ' ' | escape }} {{ publication_entry.citation | escape }} {{ publication_entry.id | escape }} {{ publication_entry.category | escape }} {{ publication_entry.status | escape }} {% for publication_author in publication_entry_authors %}{{ publication_author.aliases | join: ' ' | escape }} {{ publication_author.orcid | escape }} {% endfor %}">
+  <div class="publication-entry-title">
+    {% if publication_entry.link %}
+      <a href="{{ publication_entry.link | escape }}">{{ publication_entry.title | escape }}</a>
+    {% else %}
+      {{ publication_entry.title | escape }}
+    {% endif %}
+  </div>
+  {% if publication_entry.authors %}
+    <div class="publication-entry-authors">
+      {% if publication_entry.contributor_role == "research_contributor" %}<span>{% if include.lang == "en" %}Contributor: {% else %}기여자: {% endif %}</span>{% endif %}
+      {%- for publication_author in publication_entry_authors -%}
+        <span class="publication-author">{{ publication_author.name | escape }}{% if publication_author.orcid %}<a class="publication-orcid" href="https://orcid.org/{{ publication_author.orcid | escape }}" title="{{ publication_author.name | escape }} · ORCID {{ publication_author.orcid | escape }}" aria-label="{{ publication_author.name | escape }} · ORCID {{ publication_author.orcid | escape }}">iD</a>{% endif %}</span>{% unless forloop.last %}, {% endunless %}
+      {%- endfor -%}
+    </div>
+  {% endif %}
+  <div class="publication-entry-details">
+    {% if publication_entry.subtype == "magazine" %}
+      <span class="publication-scope">{% if include.lang == "en" %}Magazine feature{% else %}전문지 기고{% endif %}</span>
+    {% elsif publication_entry.subtype == "trademark" %}
+      <span class="publication-scope">{% if include.lang == "en" %}Trademark{% else %}상표{% endif %}</span>
+    {% elsif publication_entry.subtype == "design" %}
+      <span class="publication-scope">{% if include.lang == "en" %}Design{% else %}디자인{% endif %}</span>
+    {% endif %}
+    {% if publication_entry.scope %}
+      <span class="publication-scope">
+        {% if include.lang == "en" %}
+          {% if publication_entry.scope == "international" %}International{% else %}Domestic (Korea){% endif %}
+        {% else %}
+          {% if publication_entry.scope == "international" %}국제{% else %}국내{% endif %}
+        {% endif %}
+      </span>
+    {% endif %}
+    {% if publication_entry_details %}
+      <span>{{ publication_entry_details | escape }}</span>
+    {% else %}
+      {% if publication_entry.publisher %}<span>{{ publication_entry.publisher | escape }}</span>{% endif %}
+      {% if publication_entry.date %}<span>{{ publication_entry.date | escape }}</span>{% endif %}
+      {% if publication_entry.id and publication_entry.doi == nil %}<span>{{ publication_entry.id | escape }}</span>{% endif %}
+    {% endif %}
+  </div>
+  {% if publication_entry.doi %}
+    <div class="publication-entry-identifiers"><a href="https://doi.org/{{ publication_entry.doi | escape }}">DOI: {{ publication_entry.doi | escape }}</a></div>
+  {% endif %}
+</article>

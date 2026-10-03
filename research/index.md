@@ -7,108 +7,162 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-rocket" %}Research
+{: .page-title }
 
-SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 우주임무설계, 비행경로 설계 및 최적화, 최적제어, 행성 진입·하강·착륙 기술, 태양돛 기반 심우주 임무, 큐브샛급 위성 개발 및 우주실증 임무를 연구합니다.
+SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 달·행성과 심우주 탐사 임무를 설계하고, 비행경로 최적화와 최적제어를 연구합니다.
+{: .page-intro }
+
+<nav class="research-nav" aria-label="연구분야 바로가기">
+  <a href="#methods">핵심 연구방법</a>
+  <a href="#planetary">달·행성 탐사</a>
+  <a href="#entry-systems">진입·착륙·열보호</a>
+  <a href="#solar-sail">태양돛</a>
+  <a href="#optical-communications">심우주 광통신</a>
+  <a href="#cubesat">큐브샛·우주실증</a>
+</nav>
 
 {% include section.html %}
 
-## {% include icon.html icon="fa-solid fa-diagram-project" %}우주탐사 아키텍처 및 임무설계 {#architecture}
+## 핵심 연구방법 {#methods}
 
-**Space Exploration Architecture and Mission Design**
+<div class="research-methods" markdown="1">
 
-달, 화성, 심우주 탐사 임무의 전체 구조를 설계하고, 임무 목표와 시스템 요구조건을 연결하는 연구를 수행합니다. 임무 개념, 비행경로, 운용 시나리오, 통신 조건, 착륙 조건, 우주실증 전략을 통합적으로 검토합니다.
+<div class="research-method" markdown="1">
 
-**주요 연구내용**
+### {{ site.data.research-topics.methods[0].ko.title }} {#architecture}
 
-- 우주탐사 임무 개념설계
-- 임무 요구조건 및 시스템 요구조건 도출
-- 임무 시나리오 및 운용개념 수립
-- 탐사선 궤도, 통신, 착륙 조건의 통합 분석
-- 국가 우주개발사업과 연계한 임무 아키텍처 연구
+탐사 목표를 임무·시스템 요구조건과 운용개념으로 구체화하고, 비행경로·탐사선·통신·착륙 조건의 상호작용을 분석합니다. 국가 우주개발사업과 연계한 개념설계와 절충 분석을 통해 임무 시나리오를 검토합니다.
 
-## {% include icon.html icon="fa-solid fa-route" %}우주비행역학 및 심우주 비행경로 설계 {#astrodynamics}
+</div>
 
-**Astrodynamics and Deep-Space Trajectory Design**
+<div class="research-method" markdown="1">
 
-궤도역학과 우주비행역학을 바탕으로 달, 화성, 심우주 탐사선의 비행경로를 설계하고 분석합니다. 제한된 연료, 시간, 발사조건, 통신조건을 고려하여 임무가 성립 가능한 비행경로와 기동 전략을 도출합니다.
+### {{ site.data.research-topics.methods[1].ko.title }} {#dynamical-systems}
 
-**주요 연구내용**
+원제한 삼체문제 등 다체계 모델에서 라그랑주점 주변 주기궤도와 불변다양체 같은 위상공간 구조를 계산해, 저에너지 전이와 비케플러 궤도의 설계공간을 체계적으로 탐색하고 정밀 궤도해석의 초기해로 활용하고자 합니다.
 
-- 궤도역학 및 우주비행역학
-- 달·행성 전이 및 궤도삽입 전략
-- 심우주 비행경로 설계
-- 궤도전파 및 궤도섭동 분석
-- 임무 성립성 및 성능 분석
+</div>
 
-## {% include icon.html icon="fa-solid fa-chart-line" %}임무 최적화 및 최적제어 {#optimization}
+<div class="research-method" markdown="1">
 
-**Mission Optimization and Optimal Control**
+### {{ site.data.research-topics.methods[2].ko.title }} {#astrodynamics}
 
-우주임무의 성능을 높이기 위해 최적화 및 최적제어 기법을 적용합니다. 비행시간, 연료소모, 착륙정밀도, 통신조건, 임무위험 등을 고려하여 더 효율적이고 신뢰도 높은 임무설계 방법을 연구합니다.
+천체의 중력과 궤도섭동을 반영한 정밀 모델로 궤도를 전파해 탐사선의 운동을 분석합니다. 달·행성 전이와 궤도삽입, 기동 전략의 실현 가능성과 성능을 실제 임무 조건에서 평가합니다.
 
-**주요 연구내용**
+</div>
 
-- 최적제어 기반 우주비행경로 설계
-- 궤적 최적화 및 민감도 분석
-- 저추력 및 연속추력 궤도전이
-- 착륙 유도 및 감속 시나리오 최적화
-- 수치최적화 기반 임무설계 방법론
+<div class="research-method" markdown="1">
 
-## {% include icon.html icon="fa-solid fa-moon" %}달·행성 탐사 임무설계 {#planetary}
+### {{ site.data.research-topics.methods[3].ko.title }} {#optimization}
 
-**Lunar and Planetary Exploration Mission Design**
+수치최적화·최적제어·민감도 분석을 활용해 발사 시기, 비행시간, 추진제 소모, 통신 조건, 착륙 정밀도와 임무 위험 사이의 상충관계를 살핍니다. 저추력·연속추력 전이와 착륙 유도·감속에 적합한 비행경로와 제어 전략을 연구합니다.
 
-달 착륙선, 화성 궤도선, 화성 착륙선, 심우주 탐사선 등 미래 우주탐사 임무를 대상으로 임무설계 연구를 수행합니다. 탐사 목표, 궤도, 착륙지, 관측기하, 통신기하, 운용 제약을 함께 고려합니다.
+</div>
 
-**주요 연구내용**
+</div>
 
-- 달 탐사 및 달 착륙 임무설계
-- 화성 궤도선 및 착륙선 임무설계
-- 행성 간 전이 및 궤도삽입 전략
-- 착륙지, 관측기하, 통신기하 분석
-- 탐사 임무 운용 시나리오 설계
+{% include research-figure.html topic="architecture" caption="임무 목표와 제약조건을 바탕으로 비행경로·시스템·통신 운용을 연계해 분석·최적화하고, 실현 가능성을 평가해 설계를 다듬습니다." alt="임무 목표와 제약조건에서 출발해 비행경로·기동, 탐사선·탑재체, 통신·운용의 연계 모델을 구성하고, 성능·실현 가능성·민감도·위험 평가를 설계에 반영하는 개념도." %}
 
-## {% include icon.html icon="fa-solid fa-parachute-box" %}행성 진입·하강·착륙 기술 {#edl}
+{% include section.html %}
 
-**Planetary Entry, Descent, and Landing Technology**
+## 적용 연구분야 {#applications}
 
-화성 등 행성 대기권에 진입한 탐사선이 안전하게 감속하고 착륙하기 위한 진입·하강·착륙 기술을 연구합니다. 대기모델, 열공력, 낙하산 전개 조건, 유도·제어, 착륙분산 등을 임무설계 관점에서 분석합니다.
+공통 연구방법을 다음 다섯 분야에 적용하며, 각 분야의 임무 환경과 기술 요구조건에 맞는 문제를 다룹니다.
 
-**주요 연구내용**
+### {% include icon.html icon="fa-solid fa-moon" %}{{ site.data.research-topics.applications[0].ko.title }} {#planetary}
 
-- 화성 대기권 진입경로 해석
-- 진입 유도 및 낙하산 전개 조건 분석
-- 감속·착륙 시나리오 설계
-- 3DOF/6DOF EDL 시뮬레이션
-- 열공력, 대기모델, 착륙분산 분석
-- 행성 착륙 임무 성능 검증
+달 착륙선과 화성 궤도선·착륙선 등 달·행성 탐사 임무를 설계합니다. 탐사 목표에 맞는 궤도와 착륙지를 검토하고, 탐사선·관측 대상·지구의 상대적 위치가 관측과 통신에 미치는 영향을 분석해 운용 시나리오를 수립합니다.
 
-## {% include icon.html icon="fa-solid fa-satellite" %}큐브샛급 위성 개발 및 우주실증 임무 {#cubesat}
+- 달 탐사·착륙 및 화성 궤도선·착륙선 임무 개념설계
+- 탐사 목표에 따른 궤도와 착륙지 검토
+- 탐사선·표면 관측 대상·지구 사이의 관측·통신 기하 분석
+- 관측·통신 가능 시간을 고려한 탐사선 운용 시나리오 설계
 
-**CubeSat-Class Satellite Development and In-Orbit Demonstration**
+{% include research-figure.html topic="planetary" caption="궤도선·표면 관측 대상·지구의 상대적 위치는 관측 가능 시간과 통신 경로를 결정하는 주요 조건입니다. 크기와 거리는 축척을 따르지 않습니다." alt="천체 주위를 도는 궤도선과 표면 관측 대상, 지구 사이의 관측 방향과 통신 경로를 나타낸 개념도." %}
 
-연구실에서 설계한 임무 개념과 해석 결과를 실제 우주실증으로 연결하기 위해 큐브샛급 위성 개발 및 운용개념 연구를 수행합니다. 학생 연구자는 임무설계뿐 아니라 시스템 요구조건, 지상시험, 운용 시나리오, 우주환경 검증 과정을 경험할 수 있습니다.
+{% include section.html %}
 
-**주요 연구내용**
+### {% include icon.html icon="fa-solid fa-parachute-box" %}{{ site.data.research-topics.applications[1].ko.title }} {#entry-systems}
 
-- 큐브샛급 위성 임무설계
-- 우주실증 임무 기획
-- 위성 운용개념 수립
-- 임무 요구조건 및 시스템 요구조건 도출
-- 지상시험 및 우주환경 검증
-- 국가연구개발사업 연계 우주실증
+#### 행성 진입·하강·착륙 {#edl}
 
-## {% include icon.html icon="fa-solid fa-sun" %}태양돛 및 미래 심우주 임무 {#solar-sail}
+화성처럼 대기가 있는 행성에서 탐사선이 대기권에 진입한 뒤 감속하고 안전하게 착륙하는 과정을 연구합니다. 대기와 열공력 환경, 낙하산 전개 조건, 유도·제어 방식이 비행경로와 착륙 위치의 오차에 미치는 영향을 분석합니다.
 
-**Solar Sail and Future Deep-Space Mission Design**
+- 화성 대기권 진입경로와 진입 유도 해석
+- 낙하산 전개 조건 및 감속·착륙 시나리오 설계
+- 대기·열공력 모델을 반영한 3자유도·6자유도 시뮬레이션
+- 착륙분산 분석과 행성 착륙 임무 성능 평가
 
-태양복사압을 활용한 태양돛 기반 우주비행역학, 저추력 장기비행, 미래 심우주 탐사 임무설계를 연구합니다. 태양돛은 추진제 사용을 최소화하면서 장기 심우주 임무를 수행할 수 있는 미래형 우주비행 기술입니다.
+{% include research-figure.html topic="edl" caption="화성 탐사선의 대표적인 진입·하강·착륙 단계. 대기권 진입, 낙하산 감속, 최종 하강과 착륙을 이어 설계하며, 구체적인 방식은 임무에 따라 달라집니다." alt="화성 대기권 진입부터 낙하산을 이용한 감속, 최종 하강, 표면 착륙까지 이어지는 단계별 개념도." %}
 
-**주요 연구내용**
+#### 지구 재진입과 열보호시스템 {#reentry}
 
-- 태양돛 기반 궤도상승 및 심우주 임무설계
-- 태양복사압 기반 우주비행역학
-- 저추력 장기 비행경로 설계
-- 비케플러 궤도 및 특수궤도 설계
-- 미래 탐사임무 개념설계
+지구로 귀환하는 우주선과 시료귀환 캡슐이 고속으로 대기권에 진입할 때의 공력가열과 감속하중을 분석합니다. 재진입 비행경로와 열환경을 함께 고려해 열차폐체 등 열보호시스템을 설계하고 검증하는 방법을 연구합니다.
+
+- 재진입 비행경로·진입 회랑 및 시료귀환 캡슐 회수 시나리오 설계
+- 공력가열과 감속하중 등 재진입 환경 예측
+- 열보호시스템 개념설계·두께 산정 및 삭마형·재사용형 열보호재의 열응답 해석
+- 아크제트 등 지상시험과 비행시험을 활용한 검증 방법 연구
+
+{% include research-figure.html topic="reentry" caption="삭마형 열차폐체를 사용하는 귀환 캡슐의 단면 개념도. 열차폐체와 단열층은 내부로 전달되는 열을 줄이며, 실제 층 구성과 두께는 재료와 임무 조건에 따라 달라집니다." alt="극초음속 유동을 마주하는 귀환 캡슐의 충격파와 고온 기체층, 삭마형 열차폐체, 단열층, 내부 탑재체를 구분한 단면 개념도." %}
+
+{% include section.html %}
+
+### {% include icon.html icon="fa-solid fa-sun" %}{{ site.data.research-topics.applications[2].ko.title }} {#solar-sail}
+
+태양돛은 햇빛이 돛에 운동량을 전달할 때 생기는 태양복사압을 이용해 추력을 얻습니다. 돛의 방향을 조절해 비행경로를 바꾸는 원리를 바탕으로, 추진제 사용을 줄이는 장기 비행과 미래 심우주 탐사 임무를 설계합니다.
+
+- 태양복사압과 돛 자세를 고려한 우주비행역학
+- 태양돛 기반 궤도상승과 장기 저추력 비행경로 설계
+- 비케플러 궤도 등 특수궤도와 미래 탐사 임무 개념설계
 - 태양돛 우주실증 임무 기획
+
+{% include research-figure.html topic="solar-sail" caption="태양광이 돛에 운동량을 전달해 추력을 만드는 원리. 오른쪽은 이상적인 완전 반사 돛의 단면으로, 돛의 방향에 따라 추력의 크기와 방향이 달라집니다." alt="펼쳐진 태양돛의 전체 형상과 이상적인 반사 돛의 단면. 입사광·반사광과 돛 표면에 수직으로 작용하는 추력을 나타낸 개념도." %}
+
+#### 태양돛 전개장치 개발 및 지상시험 {#solar-sail-ground-test}
+
+한국항공우주연구원(KARI)은 심우주 탐사에 활용할 태양돛 전개기술을 확보하기 위해 10 m × 10 m(100 m²) 규모의 지상 시험모델을 개발했습니다. 모터로 네 개의 지지대(붐)를 펼치면서 수납된 얇은 돛을 전개하는 구조로, 지상시험을 통해 붐과 돛의 전개 과정에서 발생하는 문제와 개선점을 확인했습니다. 아래 영상은 시험모델의 전개 과정을 상부와 측면에서 촬영한 것입니다.
+
+관련 자료: [항우연 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228) · [태양돛 전개 시험 및 교훈](https://doi.org/10.52912/jsta.2026.6.3.293)
+
+<div class="research-video-grid">
+{% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="태양돛 전개시험 · 상부 촬영 (영상 23초)" %}
+{% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="태양돛 전개시험 · 측면 촬영 (영상 22초)" %}
+</div>
+
+#### 우주쓰레기 제거용 궤도이탈 장치 개발 및 지상시험 {#deorbiter-ground-test}
+
+한국항공우주연구원(KARI)은 저궤도 우주쓰레기의 포획·제거 기술을 검증하기 위해 궤도이탈 장치(deorbiter)의 지상 시험모델을 개발했습니다. 견인부·포획부·전개부로 구성되며, 5 m × 5 m(25 m²)의 저항돛(drag sail)을 펼쳐 대기저항을 높이고 포획한 물체의 대기권 재진입을 유도하는 개념입니다. 아래 영상은 이 가운데 저항돛의 전개 기능을 확인하는 지상시험 장면입니다.
+
+관련 자료: [항우연 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417) · [궤도이탈 장치 개발·시험 논문](https://doi.org/10.52912/jsta.2026.6.2.196)
+
+<div class="research-video-grid">
+{% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="저항돛 전개시험 · 전체 모습 (영상 2.4초)" %}
+{% include research-video.html id="deorbiter-test-overhead" file="kari-deorbiter-drag-sail-overhead.mp4" poster="kari-deorbiter-drag-sail-overhead.jpg" title="저항돛 전개시험 · 상부 촬영 (영상 12.9초)" %}
+</div>
+
+{% include section.html %}
+
+### {% include icon.html icon="fa-solid fa-satellite-dish" %}{{ site.data.research-topics.applications[3].ko.title }} {#optical-communications}
+
+심우주 광통신은 레이저를 이용해 탐사선과 지구 사이에 데이터를 주고받는 기술입니다. 연구실은 비행경로와 탐사선 자세, 지구와의 거리, 지상국의 대기·기상 조건이 통신 성능에 미치는 영향에 관심을 두고 있습니다. 통신 가능 시간과 데이터 전송량을 평가하고, 질량·전력·열 제약을 고려한 시스템 요구조건과 운용·기술실증 방안을 연구하고자 합니다.
+
+- 거리·광학계·전력·손실을 고려한 링크 버짓과 데이터 전송 성능 분석
+- 정밀 지향·포착·추적(PAT) 요구조건과 탐사선 자세 안정성 분석
+- 대기·기상·가시성을 고려한 광학 지상국 배치와 통신 가용성 분석
+- 전파(RF)·광통신 병행 운용, 데이터 전송 일정 및 기술실증 시나리오 설계
+
+{% include research-figure.html topic="optical-communications" caption="탐사선에서 지상 망원경으로 보내는 레이저 링크의 개념도. 거리·지향 오차·대기 조건·통신 가능 시간이 데이터 전송 성능에 영향을 미칩니다." alt="탐사선 레이저 터미널에서 대기를 거쳐 지상 망원경으로 이어지는 하향 링크와 거리·빔 확산·지향 손실, 전력·광학계, 기상·통신 가용성, 통신 시간·데이터 전송량의 관계를 나타낸 개념도." %}
+
+{% include section.html %}
+
+### {% include icon.html icon="fa-solid fa-satellite" %}{{ site.data.research-topics.applications[4].ko.title }} {#cubesat}
+
+큐브샛을 활용해 임무 개념과 기술을 우주에서 검증하는 방법을 연구합니다. 임무설계부터 시스템 요구조건, 지상시험, 궤도상 운용까지 이어지는 개발 과정을 다루며, 학생은 연구과제와 개발 일정에 따라 관련 활동에 참여할 수 있습니다.
+
+- 큐브샛급 위성 임무 개념설계와 시스템 요구조건 도출
+- 지상시험과 우주환경 적합성 검증 방법 연구
+- 위성 운용개념 수립과 궤도상 기술 검증 시나리오 설계
+- 국가연구개발사업과 연계한 우주실증 임무 기획
+
+{% include research-figure.html topic="cubesat" caption="큐브샛 임무 개념을 시스템 요구조건으로 구체화하고, 설계·제작과 지상시험을 거쳐 궤도상 운용에서 기술을 검증하는 개발 과정." alt="큐브샛 임무 개념, 시스템 설계와 제작, 지상시험, 궤도상 운용과 실증으로 이어지는 개발·검증 과정의 개념도." %}

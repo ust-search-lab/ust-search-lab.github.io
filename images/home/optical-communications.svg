@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="home-optical-title home-optical-desc">
+  <title id="home-optical-title">Deep-space optical communications</title>
+  <desc id="home-optical-desc">A spacecraft sends a narrow laser downlink toward the receiving aperture of a ground telescope. The spacecraft terminal, beam, and telescope axis are aligned. A curved horizon indicates the ground station on Earth. This is a conceptual illustration; distances, equipment sizes, and beam width are not to scale.</desc>
+  <defs>
+    <marker id="home-optical-signal" viewBox="0 0 12 12" refX="10" refY="6" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#62d7e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="640" height="360" fill="#071b32"/>
+  <g fill="#e7f2fc" opacity=".4">
+    <circle cx="311" cy="66" r="2"/><circle cx="524" cy="105" r="2"/><circle cx="93" cy="269" r="2"/>
+  </g>
+  <path d="M325 333Q476 264 640 303V360H325Z" fill="#6d9dfa" fill-opacity=".09"/>
+  <path d="M325 333Q476 264 640 303" fill="none" stroke="#6d9dfa" stroke-width="2.5"/>
+  <!-- All optical components share a 22-degree axis in screen coordinates. -->
+  <g transform="translate(144 100) rotate(22)">
+    <path d="M0-21V-38M0 21V38" stroke="#e7f2fc" stroke-width="3"/>
+    <g fill="#6d9dfa" fill-opacity=".22" stroke="#6d9dfa" stroke-width="2.5">
+      <path d="M-32-72H32V-35H-32Z M-32 35H32V72H-32Z"/>
+      <path d="M-10-72V-35M11-72V-35M-10 35V72M11 35V72"/>
+    </g>
+    <rect x="-23" y="-21" width="46" height="42" rx="4" fill="#071b32" stroke="#e7f2fc" stroke-width="2.5"/>
+    <path d="M23-10H43V10H23" fill="#62d7e6" fill-opacity=".2" stroke="#62d7e6" stroke-width="2.5"/>
+    <path d="M45 0H334" stroke="#62d7e6" stroke-opacity=".13" stroke-width="12"/>
+    <path d="M45 0H334" stroke="#62d7e6" stroke-width="2.5"/>
+    <path d="M166 0H197" stroke="#62d7e6" stroke-width="2.5" marker-end="url(#home-optical-signal)"/>
+    <rect x="334" y="-15" width="55" height="30" rx="3" fill="#071b32" stroke="#e7f2fc" stroke-width="2.5"/>
+    <path d="M334-19V19" stroke="#62d7e6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="M483 253L492 268V296M474 298H510" fill="none" stroke="#e7f2fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="483" cy="253" r="6" fill="#071b32" stroke="#62d7e6" stroke-width="2.5"/>
+</svg>

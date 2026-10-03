@@ -50,9 +50,9 @@
   </a>
   {% endunless %}
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="{{ i18n.nav-toggle }}" aria-controls="site-navigation">
 
-  <nav>
+  <nav id="site-navigation" class="site-nav" aria-label="{{ i18n.nav-label }}">
     {% comment %} only show nav pages in the current page's language {% endcomment %}
     {% assign navpages = site.pages
       | where_exp: "p", "p.nav"
@@ -63,13 +63,20 @@
       <a
         href="{{ p.dir | relative_url | uri_escape }}"
         data-tooltip="{{ p.nav.tooltip | xml_escape }}"
+        {% if page.ref == p.ref %}
+          aria-current="page"
+        {% elsif page.collection == 'members' and p.ref == 'people' %}
+          aria-current="location"
+        {% elsif page.collection == 'posts' and p.ref == 'news' %}
+          aria-current="location"
+        {% endif %}
       >
         {{ p.title }}
       </a>
     {% endfor %}
 
     {% comment %}
-      language switch: page/member with same "ref" in the other language,
+      language switch: page/member/post with same "ref" in the other language,
       otherwise the other language's home page
     {% endcomment %}
     {% assign altlang = i18n.switch-lang %}
@@ -77,6 +84,7 @@
     {% if page.ref %}
       {% assign alt = site.pages
         | concat: site.members
+        | concat: site.posts
         | where: "ref", page.ref
         | where: "lang", altlang
         | first
@@ -86,6 +94,7 @@
       {% endif %}
     {% endif %}
     <a
+      class="language-switch"
       href="{{ alturl | relative_url | uri_escape }}"
       hreflang="{{ altlang }}"
       lang="{{ altlang }}"

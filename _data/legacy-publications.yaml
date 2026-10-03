@@ -1,0 +1,1725 @@
+# Research outputs transcribed from the principal investigator's personal page.
+# Source: https://sites.google.com/view/dr-space/publications
+# Scope: entries before 2025; imported 2026-10-02.
+# Preserve the complete original citation, including source typos and ambiguous dates.
+# Verified metadata corrections are documented in note and verification_source.
+# Omit year when conflicting source dates remain unresolved or no year is stated.
+# Conference year refers to the event; proceedings publication may be later.
+# Patent status describes the source listing, not current legal status.
+# One international patent entry contains EU, US, and JP application numbers.
+# DOI IDs are supplied only for verified identifiers.
+
+- title: "Overview of the Flight Dynamics Subsystem for Korea Pathfinder Lunar Orbiter Mission"
+  authors:
+    - "Young-Joo Song"
+    - "Young-Rok Kim"
+    - "Jonghee Bae"
+    - "Jae-ik Park"
+    - "SeungBum Hong"
+    - "Donghun Lee"
+    - "Dae-Kwan Kim"
+  category: "journal"
+  scope: "international"
+  year: 2021
+  details: "Aerospace 2021, 8(8), 222(SCI)"
+  citation: "Young-Joo Song, Young-Rok Kim, Jonghee Bae, Jae-ik Park, SeungBum Hong, Donghun Lee, Dae-Kwan Kim, “Overview of the Flight Dynamics Subsystem for Korea Pathfinder Lunar Orbiter Mission”, Aerospace 2021, 8(8), 222(SCI) (https://doi.org/10.3390/aerospace8080222)"
+  id: "doi:10.3390/aerospace8080222"
+  link: "https://doi.org/10.3390/aerospace8080222"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-001"
+  doi: "10.3390/aerospace8080222"
+  date: "2021-08-10"
+
+- title: "Satellite Formation Reconfiguration and Station-Keeping using State-Dependent Riccati Equation Technique"
+  authors:
+    - "Han-Earl Park"
+    - "Jae-ik Park"
+    - "Sang-Young Park"
+    - "Kyu-Hong Choi"
+  category: "journal"
+  scope: "international"
+  year: 2011
+  details: "Aerospace Science and Technology, Vol. 15, Issue 6, Sep. 2011 (SCI)"
+  citation: "Han-Earl Park, Jae-ik Park , Sang-Young Park, and Kyu-Hong Choi, \"Satellite Formation Reconfiguration and Station-Keeping using State-Dependent Riccati Equation Technique\", Aerospace Science and Technology, Vol. 15, Issue 6, Sep. 2011 (SCI)"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-002"
+  doi: "10.1016/j.ast.2010.09.007"
+  id: "doi:10.1016/j.ast.2010.09.007"
+  link: "https://doi.org/10.1016/j.ast.2010.09.007"
+  exclude: true
+  exclusion_reason: "Crossref와 출판사의 저자 목록에 박재익이 없어 사용자 요청으로 실적 목록에서 제외했습니다 (2026-10-02)."
+  date: "2011-09"
+
+- title: "Hardware-in-the-Loop Simulations of GPS-Based Navigation and Control for Satellite Formation Flying"
+  authors:
+    - "Jae-ik Park"
+    - "Han-Earl Park"
+    - "Sang-Young Park"
+    - "Kyu-Hong Choi"
+  category: "journal"
+  scope: "international"
+  year: 2010
+  details: "Advances in Space Research, Vol. 46, Issue. 11, Dec. 2010 (SCI)"
+  citation: "Jae-ik Park, Han-Earl Park, Sang-Young Park, and Kyu-Hong Choi, \"Hardware-in-the-Loop Simulations of GPS-Based Navigation and Control for Satellite Formation Flying\", Advances in Space Research, Vol. 46, Issue. 11, Dec. 2010 (SCI)"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-003"
+  doi: "10.1016/j.asr.2010.08.012"
+  id: "doi:10.1016/j.asr.2010.08.012"
+  link: "https://doi.org/10.1016/j.asr.2010.08.012"
+  date: "2010-12"
+
+- title: "Road lane recognition using a precise digital map and GNSS"
+  authors:
+    - "Woo-Yong Kang"
+    - "Eunsung Lee"
+    - "Jae-ik Park"
+    - "Moon-Beom Heo"
+    - "Giwook Nam"
+  category: "journal"
+  scope: "international"
+  year: 2011
+  details: "Vol. VII, Issue. 6, June 2011"
+  citation: "Woo-Yong Kang, Eunsung Lee, Jae-ik Park,  Moon-Beom Heo, and Giwook Nam, \"Road lane recognition using a precise digital map and GNSS\", Vol. VII, Issue. 6, June 2011"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-004"
+  subtype: "magazine"
+
+- title: "Transport planning in Korea"
+  authors:
+    - "Moon-Beom Heo"
+    - "Jae-ik Park"
+    - "Eunsung Lee"
+    - "Woo-Yong Kang"
+    - "JeongHo Cho"
+  category: "journal"
+  scope: "international"
+  year: 2010
+  details: "Coordinates magazine,  Vol. VI, Issue. 7, July 2010"
+  citation: "Moon-Beom Heo, Jae-ik Park, Eunsung Lee, Woo-Yong Kang, and JeongHo Cho, \"Development of GNSS based Transportation Infrastructure Technology in Korea\", Coordinates magazine,  Vol. VI, Issue. 7, July 2010"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-005"
+  link: "https://mycoordinates.org/transport-planning-in-korea/"
+  note: "발행사 Coordinates 2010년 7월의 실제 기사 제목으로 정정했습니다. 원본 제목은 본문 연구과제명에 해당하며 원본 citation은 보존합니다. 저자 JeongHo Cho는 발행사에서 Jung-Ho Cho로 표기됩니다."
+  verification_source: "https://mycoordinates.org/transport-planning-in-korea/"
+  subtype: "magazine"
+
+- title: "Ground Tracking Support Condition Effect on Orbit Determination for Korea Pathfinder Lunar Orbiter (KPLO) in Lunar Orbit"
+  authors:
+    - "Young-Rok Kim"
+    - "Young-Joo Song"
+    - "Jae-ik Park"
+    - "Donghun Lee"
+    - "Jonghee Bae"
+    - "SeungBum Hong"
+    - "Dae-Kwan Kim"
+    - "Sang-Ryool Lee"
+  category: "journal"
+  scope: "domestic"
+  year: 2020
+  details: "Journal of Astronomy and Space Sciences, Vol.37 No.4 pp.237-247, 2020"
+  citation: "Young-Rok Kim, Young-Joo Song, Jae-ik Park, Donghun Lee, Jonghee Bae, SeungBum Hong, Dae-Kwan Kim, Sang-Ryool Lee, “Ground Tracking Support Condition Effect on Orbit Determination for Korea Pathfinder Lunar Orbiter (KPLO) in Lunar Orbit”, Journal of Astronomy and Space Sciences, Vol.37 No.4 pp.237-247, 2021 (https://doi.org/10.5140/JASS.2020.37.4.237)"
+  id: "doi:10.5140/jass.2020.37.4.237"
+  link: "https://doi.org/10.5140/jass.2020.37.4.237"
+  note: "원문에는 2021로 기재되어 있으나 학술지 공식 자료에 따라 발행연도를 2020으로 정정했습니다."
+  verification_source: "https://www.janss.kr/archive/view_article?pid=jass-37-4-237"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-006"
+  doi: "10.5140/jass.2020.37.4.237"
+  date: "2020-12"
+
+- title: "Practical Algorithms on Lunar Reference Frame Transformations for Korea Pathfinder Lunar Orbiter Flight Operation"
+  authors:
+    - "Young-Joo Song"
+    - "Donghun Lee"
+    - "Young-Rok Kim"
+    - "Jonghee Bae"
+    - "Jae-ik Park"
+    - "SeungBum Hong"
+    - "Dae-Kwan Kim"
+    - "Sang-Ryool Lee"
+  category: "journal"
+  scope: "domestic"
+  year: 2021
+  details: "Journal of Astronomy and Space Sciences, Vol.38 No.3, pp.185-192 , 2021"
+  citation: "Young-Joo Song, Donghun Lee, Young-Rok Kim, Jonghee Bae, Jae-ik Park, SeungBum Hong, Dae-Kwan Kim, Sang-Ryool Lee, “Practical Algorithms on Lunar Reference Frame Transformations for Korea Pathfinder Lunar Orbiter Flight Operation”, Journal of Astronomy and Space Sciences, Vol.38 No.3, pp.185-192 , 2021 (https://doi.org/10.5140/JASS.2021.38.3.185)"
+  id: "doi:10.5140/jass.2021.38.3.185"
+  link: "https://doi.org/10.5140/jass.2021.38.3.185"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-007"
+  doi: "10.5140/jass.2021.38.3.185"
+  date: "2021-09"
+
+- title: "심 우주 탐사를 위한 큐브샛 안테나 기술 동향"
+  authors:
+    - "박재익"
+    - "이동헌"
+    - "김대관"
+    - "이상률"
+  category: "journal"
+  scope: "domestic"
+  year: 2020
+  details: "항공우주산업기술동향 제 18권 제 2호, 2020년 12월"
+  citation: "박재익, 이동헌, 김대관, 이상률, “심 우주 탐사를 위한 큐브샛 안테나 기술 동향”, 항공우주산업기술동향 제 18권 제 2호, 2020년 12월"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-008"
+
+- title: "무인 달 착륙선의 동력하강단계에서 자세각속도 영향에 따른 최적화 착륙궤적 분석"
+  authors:
+    - "박재익"
+    - "류동영"
+  category: "journal"
+  scope: "domestic"
+  year: 2018
+  details: "한국항공우주학회 논문지, 제 46권, 5호, pp.402-409, 2018년 5월 31일"
+  citation: "박재익, 류동영,  \"무인 달 착륙선의 동력하강단계에서 자세각속도 영향에 따른 최적화 착륙궤적 분석\", 한국항공우주학회 논문지, 제 46권, 5호, pp.402-409, 2018. 3월 26 (DOI:http://doi.org/10.5139/JKSAS.2018.46.5.402)"
+  id: "doi:10.5139/jksas.2018.46.5.402"
+  link: "https://doi.org/10.5139/jksas.2018.46.5.402"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-009"
+  doi: "10.5139/jksas.2018.46.5.402"
+  note: "Crossref에서 대응 영문 제목, 박재익/Jae-ik Park와 류동영/Dong-Young Rew, 46(5), 402–409쪽을 대조하여 기존 DOI를 확인했습니다. 등록된 발행일은 2018-05-31로 원본 실적 목록의 2018년 3월 26일과 다릅니다."
+  verification_source: "https://api.crossref.org/works/10.5139/jksas.2018.46.5.402"
+  date: "2018-05-31"
+
+- title: "KASS 활용을 위한 위성기반 보강항법시스템(SBAS) 비규격 데이터 전송 방법 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+    - "남기욱"
+  category: "journal"
+  scope: "domestic"
+  year: 2016
+  details: "한국통신학회지 논문지, 제 41권, 12호,  pp.1861-1867, 2016년 12월 31일"
+  citation: "박재익, 이은성, 허문범,  남기욱,  \"KASS 활용을 위한 위성기반 보강항법시스템(SBAS) 비규격 데이터 전송 방법 연구\", 한국통신학회지 논문지, 제 41권, 12호,  pp.1-7, 2016년 12월 1일 (DOI:http://dx.doi.org/10.7840/kics.20167.41.12.1)"
+  id: "doi:10.7840/kics.2016.41.12.1861"
+  link: "https://doi.org/10.7840/kics.2016.41.12.1861"
+  note: "학술지 원문에 따라 페이지를 1861–1867로, DOI를 10.7840/kics.2016.41.12.1861로 정정했습니다. 한국통신학회 공식 PDF와 Crossref에서 국·영문 제목, 저자 4명, DOI 및 1861–1867쪽을 확인했습니다. Crossref 발행일은 2016-12-31로 원본의 12월 1일과 다릅니다. 원본 citation의 DOI 오기(20167)와 쪽수 1–7은 기존에 바로잡힌 값이 맞습니다."
+  verification_source: "https://api.crossref.org/works/10.7840/kics.2016.41.12.1861"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-010"
+  doi: "10.7840/kics.2016.41.12.1861"
+  date: "2016-12-31"
+
+- title: "SBAS 성능기반 항행을 위한 항공용 GNSS 기술표준 분석 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+    - "남기욱"
+  category: "journal"
+  scope: "domestic"
+  year: 2016
+  details: "한국항행학회 논문지, 제 20권, 4호,  pp.305-313, 2016년 8월 30일"
+  citation: "박재익, 이은성, 허문범,  남기욱,  \"SBAS 성능기반 항행을 위한 항공용 GNSS 기술표준 분석 연구\", 한국항행학회 논문지, 제 20권, 4호,  pp.1-8, 2016년 8월 30일(DOI:http://dx.doi.org/10.12673.jkoni)"
+  id: "doi:10.12673/jant.2016.20.4.305"
+  link: "https://doi.org/10.12673/jant.2016.20.4.305"
+  note: "KCI 서지정보에 따라 페이지를 305–313으로, DOI를 10.12673/jant.2016.20.4.305로 정정했습니다."
+  verification_source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002141429"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-011"
+  doi: "10.12673/jant.2016.20.4.305"
+  date: "2016-08-30"
+
+- title: "위성기반 보강항법시스템(SBAS) 최신 기술 동향"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+    - "남기욱"
+  category: "journal"
+  scope: "domestic"
+  year: 2016
+  details: "항공우주산업기술동향, 제 14권,  1호,  pp.191-202, 2016년 7월 1일(ISSN 1738-057x)"
+  citation: "박재익, 이은성, 허문범,  남기욱,  \"위성기반 보강항법시스템(SBAS) 최신 기술 동향\", 항공우주산업기술동향, 제 14권,  1호,  pp.191-202, 2016년 7월 1일(ISSN 1738-057x)"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-012"
+
+- title: "GPS 반송파 위상을 사용한 편대비행위성 상대위치결정 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "journal"
+  scope: "domestic"
+  year: 2012
+  details: "한국항공우주학회 논문지, 제 40권,  12호,  pp.1032-1039, 2012년 12월"
+  citation: "박재익, 이은성, 허문범,  \"GPS 반송파 위상을 사용한 편대비행위성 상대위치결정 연구\", 한국항공우주학회 논문지, 제 40권,  12호,  pp.1032-1039, 2012년 12월(DOI:http://dx.doi.org/10.5139/JKSAS.2012.40.12.1032)"
+  id: "doi:10.5139/jksas.2012.40.12.1032"
+  link: "https://doi.org/10.5139/jksas.2012.40.12.1032"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-013"
+  doi: "10.5139/jksas.2012.40.12.1032"
+  date: "2012-12-01"
+
+- title: "이동체 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+    - "남기욱"
+    - "심은섭"
+  category: "journal"
+  scope: "domestic"
+  year: 2010
+  details: "한국항행학회 논문지,  제 14권, 5호,  pp. 640-647, 2010년 12월"
+  citation: "박재익, 이은성, 허문범, 남기욱, 심은섭,  \"이동체 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출\", 한국항행학회 논문지,  제 14권, 5호,  pp. 640-647, 2010년 12월"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-014"
+
+- title: "육상교통 환경의 위성항법 위치결정 성능향상을 위한 기술 동향"
+  authors:
+    - "이은성"
+    - "박재익"
+    - "임성혁"
+    - "허문범"
+    - "염찬홍"
+  category: "journal"
+  scope: "domestic"
+  year: 2012
+  details: "항공우주산업기술동향, 제 10권, 1호, pp.179-195, 2012년 7월 1일"
+  citation: "이은성, 박재익, 임성혁, 허문범, 염찬홍, \"육상교통 환경의 위성항법 위치결정 성능향상을 위한 기술 동향\", 항공우주산업기술동향, 제 10권, 1호, pp.179-195, 2012년 7월 1일"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-015"
+
+- title: "차로 제한 조건을 이용한 차로 구분 성능 분석"
+  authors:
+    - "강우용"
+    - "이은성"
+    - "박재익"
+    - "한지애"
+    - "홍운기"
+    - "김현수"
+    - "허문범"
+    - "남기욱"
+  category: "journal"
+  scope: "domestic"
+  year: 2011
+  details: "한국항행학회 논문지, 제15권 제3호, pp. 432-440, 2011년 6월"
+  citation: "강우용, 이은성,  박재익,  한지애, 홍운기, 김현수, 허문범, 남기욱, \"차로 제한 조건을 이용한 차로 구분 성능 분석\", 한국항행학회 논문지, 제 15권, 제 3호, 2011년 6월"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-016"
+  doi: "10.12673/jant.2011.15.3.432"
+  id: "doi:10.12673/jant.2011.15.3.432"
+  link: "https://doi.org/10.12673/jant.2011.15.3.432"
+  verification_source: "https://koreascience.or.kr/article/JAKO201119663062551.page"
+  note: "확대 조사에서 KoreaScience의 DOI 메타데이터 및 doi.org 연결을 확인했습니다. Crossref 검색에 없는 DOI이므로 국내 공식 서지의 제목·저자 8명·권호·쪽수를 대조했습니다."
+
+- title: "차로 구분이 가능한 정밀전자지도의 성능 요구사항에 관한 연구"
+  authors:
+    - "강우용"
+    - "이은성"
+    - "이건우"
+    - "박재익"
+    - "최광식"
+    - "허문범"
+  category: "journal"
+  scope: "domestic"
+  year: 2011
+  details: "Journal of Institute of Control, Robotics and Systems, Vol. 17, No.1 , pp. 47-53, 2011년 1월"
+  citation: "강우용, 이은성, 이건우, 박재익, 최광식, 허문범, \"차로 구분이 가능한 정밀전자지도의 성능 요구사항에 관한 연구\",  Journal of Institute of Control, Robotics and Systems, Vol. 17, No.1 , pp. 47-53, 2011년 1월"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-017"
+  doi: "10.5302/j.icros.2011.17.1.47"
+  id: "doi:10.5302/j.icros.2011.17.1.47"
+  link: "https://doi.org/10.5302/j.icros.2011.17.1.47"
+  date: "2011-01-01"
+
+- title: "편대비행위성의 항법 및 궤도제어를 위한 실시간 Hardware-In-the-Loop 시뮬레이션 테스트베드 초기 설계"
+  authors:
+    - "박재익"
+    - "박한얼"
+    - "심선화"
+    - "박상영"
+    - "최규홍"
+  category: "journal"
+  scope: "domestic"
+  year: 2009
+  details: "한국우주과학회지, Vol. 26, No. 1, pp. 99-110, 2009년 3월 15일"
+  citation: "박재익, 박한얼, 심선화, 박상영, 최규홍, \"편대비행위성의 항법 및 궤도제어를 위한 실시간 Hardware-In-the-Loop 시뮬레이션 테스트베드 초기 설계\", 한국우주과학회지, Vol. 26, No. 1, pp. 99-110, 2009년 5월"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-018"
+  doi: "10.5140/jass.2009.26.1.099"
+  id: "doi:10.5140/jass.2009.26.1.099"
+  link: "https://doi.org/10.5140/jass.2009.26.1.099"
+  note: "Crossref와 KCI에서 국·영문 제목, 저자 5명, JASS 26(1), 99–110쪽, 2009년을 대조하여 신규 DOI를 확인했습니다. Crossref 발행일은 2009-03-15로 원본 실적 목록의 5월과 다릅니다. KCI 영문 저자 필드에서 박한얼을 Park, Jae-Ik으로 잘못 표기하지만 국문 저자와 Crossref의 Han-Earl Park가 일치합니다. 박상영 이름 옆 ORCID 링크도 확인했습니다."
+  verification_source: "https://api.crossref.org/works/10.5140/jass.2009.26.1.099"
+  date: "2009-03-15"
+
+- title: "통신해양기상위성에서의 태양광 반사점(Sun-glint) 위치 예측"
+  authors:
+    - "박재익"
+    - "최규홍"
+    - "박상영"
+    - "유주형"
+    - "안유환"
+    - "박재우"
+    - "김병수"
+  category: "journal"
+  scope: "domestic"
+  year: 2005
+  details: "한국우주과학회지, Vol. 22, No. 3, pp. 263-272, 2005년 9월"
+  citation: "박재익, 최규홍, 박상영, 유주형, 안유환, 박재우, 김병수, \"통신해양기상위성에서의 태양광 반사점(Sun-glint) 위치 예측\", 한국우주과학회지, Vol. 22, No. 3, pp. 263-272, 2005년 9월"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-019"
+  doi: "10.5140/jass.2005.22.3.263"
+  id: "doi:10.5140/jass.2005.22.3.263"
+  link: "https://doi.org/10.5140/jass.2005.22.3.263"
+  date: "2005-09-01"
+
+- title: "Contingency Analysis and Recovery Planning for the Korea Pathfinder Lunar Orbiter"
+  authors:
+    - "Stephen West"
+    - "Tiffany Finley"
+    - "Craig Nickel"
+    - "Mike Loucks"
+    - "John Carrico"
+    - "Jae-ik Park"
+    - "Jun Bang"
+  category: "conference"
+  scope: "international"
+  year: 2022
+  details: "2022 AAS/AIAA Astrodynamics Specialist Conference, AAS 22-697, Charlotte, North Carolina, Aug. 7-11, 2022"
+  citation: "Stephen West, Tiffany Finley, Craig Nickel, Mike Loucks, John Carrico,  Jae-ik Park,  andJun Bang, \"Contingency Analysis and Recovery Planning for the Korea Pathfinder Lunar Orbiter\", 2022 AAS/AIAA Astrodynamics Specialist Conference, AAS 22-697, Charlotte, North Carolina, Aug. 7-11, 2022"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-020"
+
+- title: "Orbit Determination Simulation for Korea Pathfinder Lunar Orbiter using Ballistic Lunar Transfer"
+  authors:
+    - "Young-Rok Kim"
+    - "Young-Joo Song"
+    - "Jae-ik Park"
+    - "Donghun Lee"
+    - "Jonghee Bae"
+    - "SeungBum Hong"
+    - "Dae-Kwan Kim"
+    - "Sang-Ryool Lee"
+  category: "conference"
+  scope: "international"
+  year: 2020
+  details: "2020 AAS/AIAA Astrodynamics Specialist Conference, AAS 20-613, Virtual Conference, Aug.9-12, 2020; proceedings published 2021"
+  citation: "Young-Rok Kim, Young-Joo Song, Jae-ik Park, Donghun Lee, Jonghee Bae, SeungBum Hong, Dae-Kwan Kim, and Sang-Ryool Lee, \"Orbit Determination Simulation for Korea Pathfinder Lunar Orbiter using Ballistic Lunar Transfer\", 2021 AAS/AIAA Astrodynamics Specialist Conference, AAS 20-613, Virtual Conference, Aug.9-12, 2020"
+  note: "공동저자 소속 대학의 기록에 따라 학회 개최연도는 2020으로 표시했습니다. 학술대회 논문집 출판연도는 2021입니다."
+  verification_source: "https://khu.elsevierpure.com/en/publications/orbit-determination-simulation-for-korea-pathfinder-lunar-orbiter-2/"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-021"
+  link: "https://pure.kaist.ac.kr/en/publications/orbit-determination-simulation-for-korea-pathfinder-lunar-orbiter/"
+
+- title: "Analysis of a Constrained Optimal Multiple-phase Landing Trajectory for a Small Robotic Lunar Lander"
+  authors:
+    - "J.P. Carrico III"
+    - "Jae-ik Park"
+    - "Alisa Hawkins"
+    - "Dong-Young Rew"
+  category: "conference"
+  scope: "international"
+  year: 2019
+  details: "2019 AAS/AIAA Astrodynamics Specialist Conference, AAS 19-865, Portland, ME, USA, Aug. 11-15, 2019"
+  citation: "J.P. Carrico III, Jae-ik Park,  Alisa Hawkins, and Dong-Young Rew,  \"Analysis of a Constrained Optimal Multiple-phase Landing Trajectory for a Small Robotic Lunar Lander\", 2019 AAS/AIAA Astrodynamics Specialist Conference, AAS 19-865, Portland, ME, USA, Aug. 11-15, 2019"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-022"
+
+- title: "Enhanced Stationkeeping Maneuver Control Technique for Delta-V Cost Reduction in the Korea Pathfinder Lunar Orbiter"
+  authors:
+    - "Diane C. Davis"
+    - "Jae-ik Park"
+    - "Sujin Choi"
+    - "Ryan Whitley"
+    - "John Carrico"
+    - "Dong-Young Rew"
+    - "Seok-Weon Choi"
+  category: "conference"
+  scope: "international"
+  year: 2018
+  details: "2018 AAS/AIAA Astrodynamics Specialist Conference,  AAS 18-246, Snowbird, UT, USA, Aug. 19-23, 2018"
+  citation: "Diane C. Davis, Jae-ik Park, Sujin Choi, Ryan Whitley, John Carrico, Dong-Young Rew, and Seok-Weon Choi, \"Enhanced Stationkeeping Maneuver Control Technique for Delta-V Cost Reduction in the Korea Pathfinder Lunar Orbiter\", 2018 AAS/AIAA Astrodynamics Specialist Conference,  AAS 18-246, Snowbird, UT, USA, Aug. 19-23, 2018"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-023"
+  link: "https://ntrs.nasa.gov/citations/20180006802"
+
+- title: "Trajectory Design for the Korea Pathfinder Lunar Orbiter(KPLO)"
+  authors:
+    - "Su-Jin Choi"
+    - "Ryan Whitley"
+    - "Gerald Condon"
+    - "Mike Loucks"
+    - "Jae-ik Park"
+    - "Seok-Weon Choi"
+    - "Se-jin Kwon"
+  category: "conference"
+  scope: "international"
+  year: 2018
+  details: "2018 AAS/AIAA Astrodynamics Specialist Conference, AAS 18-293, Snowbird, UT, USA, Aug. 19-23, 2018"
+  citation: "Su-Jin Choi, Ryan Whitley, Gerald Condon, Mike Loucks, Jae-ik Park, Seok-Weon Choi, and Se-jin Kwon, \"Trajectory Design for the Korea Pathfinder Lunar Orbiter(KPLO)\", 2018 AAS/AIAA Astrodynamics Specialist Conference, AAS 18-293, Snowbird, UT, USA, Aug. 19-23, 2018"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-024"
+  link: "https://pure.kaist.ac.kr/en/publications/trajectory-design-for-the-korea-pathfinder-lunar-orbiter-kplo/"
+
+- title: "Validation of Formation Keeping Control for GPS-based Satellite Formation Flying"
+  authors:
+    - "Jae-ik Park"
+    - "Han-Earl Park"
+    - "Moon-Beom Heo"
+  category: "conference"
+  scope: "international"
+  year: 2013
+  details: "Proceeding of The Satellite Formation Flying and Mission Technologies(SFFMT) 2013, Munich, German, 29-31 May, 2013"
+  citation: "Jae-ik Park, Han-Earl Park and Moon-Beom Heo, \"Validation of Formation Keeping Control for GPS-based Satellite Formation Flying\", Proceeding of The Satellite Formation Flying and Mission Technologies(SFFMT) 2013, Munich, German, 27-31 Apr., 2013"
+  note: "원문에는 2013년 4월 27–31일로 기재되어 있으나 공식 학회 일정에 따라 2013년 5월 29–31일로 정정했습니다."
+  verification_source: "https://sffmt2013.org/"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-025"
+
+- title: "Development of GNSS-based Transportation Infrastructure for Intelligent Transportation System"
+  authors:
+    - "Jae-ik Park"
+    - "Eunsung Lee"
+    - "Moon-Beom Heo"
+  category: "conference"
+  scope: "international"
+  year: 2013
+  details: "Proceedings of the 2013 International Technical Meeting of the Institute of Navigation, San Diego, CA, 28-30 Jan., 2013, pp.909-914"
+  citation: "Jae-ik Park, Eunsung Lee and Moon-Beom Heo, \"Development of GNSS-based Transportation Infrastructure for Intelligent Transportation System\", Proceeding of The ION Technical Meeting(ITM) 2013, San Diego, CA, 28-31 Jan., 2013"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-026"
+  link: "https://www.ion.org/publications/abstract.cfm?articleID=10903"
+  note: "ION 공식 현장 프로그램에 따라 개최일을 2013년 1월 28–30일로 정정하고 공식 논문 페이지의 페이지 범위 909–914를 반영했습니다."
+  verification_source: "https://www.ion.org/itm/upload/ITM13OnsiteProgram.pdf"
+
+- title: "Satellite Relative Navigation using Kinematic Approach"
+  authors:
+    - "Jae-ik Park"
+    - "Eunsung Lee"
+    - "Moon-Beom Heo"
+  category: "conference"
+  scope: "international"
+  year: 2012
+  details: "Proceeding of The European Navigation Conference(ENC) 2012, Gdansk, Poland, 25-27 Apr., 2012"
+  citation: "Jae-ik Park, Eunsung Lee and Moon-Beom Heo, \"Satellite Relative Navigation using Kinematic Approach\", Proceeding of The European Navigation Conference(ENC) 2012, Gdansk, Poland, 25-27 Apr., 2012"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-027"
+
+- title: "GNSS based Relative Navigation of Formation Satellite with Long Baseline"
+  authors:
+    - "Jae-ik Park"
+    - "Eunsung Lee"
+    - "Moon-Beom Heo"
+  category: "conference"
+  scope: "international"
+  year: 2011
+  details: "Proceeding of The 62nd International Astronautical Congress(IAC), Cape Town, South Africa, 3-7 Oct., 2011"
+  citation: "Jae-ik Park, Eunsung Lee and Moon-Beom Heo, \"GNSS based Relative Navigation of Formation Satellite with Long Baseline\", Proceeding of The 62nd International Astronautical Congress(IAC), Cape Town, South Africa, 3-7 Oct., 2011"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-028"
+
+- title: "GNSS based Navigation and Control for Autonomous Formation Vehicles"
+  authors:
+    - "Jae-ik Park"
+    - "Eunsung Lee"
+    - "Moon-Beom Heo"
+    - "Eunsup Sim"
+  category: "conference"
+  scope: "international"
+  year: 2010
+  details: "Proceeding of The 61th International Astronautical Congress(IAC), Prague, Czech Republic, 27 Sep. - 1 Oct. 2010"
+  citation: "Jae-ik Park, Eunsung Lee, Moon-Beom Heo and Eunsup Sim, \"GNSS based Navigation and Control for Autonomous Formation Vehicles\", Proceeding of The 61th International Astronautical Congress(IAC), Prague, Czech Republic, 27 Sep. - 1 Oct. 2010"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-029"
+
+- title: "Experiment of Road Lane Recognition Using Precise Digital Map"
+  authors:
+    - "Wooyong Kang"
+    - "Eunsung Lee"
+    - "GeonWoo Lee"
+    - "Jae-ik Park"
+    - "Kang-Sik Choi"
+    - "Moon-Beom Heo"
+  category: "conference"
+  scope: "international"
+  year: 2010
+  details: "International Symposium on GPS/GNSS 2010, 26-28 Oct. 2010"
+  citation: "Wooyong Kang, Eunsung Lee, GeonWoo Lee, Jae-ik Park, Kang-Sik Choi, and Moon-Beom Heo, \"Experiment of Road Lane Recognition Using Precise Digital Map\", International Symposium on GPS/GNSS 2010, 26-28 Oct. 2010"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-030"
+
+- title: "Safety Improvement Test of A GPS Based AGV System Using A Dead Reckoning Algorithm"
+  authors:
+    - "Kang Wooyong"
+    - "Lee Eunsung"
+    - "Park Jae-ik"
+    - "Heo Moonbeom"
+    - "Sim Eunsup"
+  category: "conference"
+  scope: "international"
+  year: 2010
+  details: "The Proceedings of 2010 Asia-Pacific International Symposium on Aerospace Technology, Xian, China,  12-15 Sep.,2010"
+  citation: "Kang Wooyong, Lee Eunsung, Park Jae-ik, Heo Moonbeom, and Sim Eunsup, \"Safety Improvement Test of A GPS Based AGV System Using A Dead Reckoning Algorithm\", The Proceedings of 2010 Asia-Pacific International Symposium on Aerospace Technology, Xian, China,  12-15 Sep.,2010"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-031"
+
+- title: "A Hardware-in-the-Loop Simulations for GPS-based Formation Navigation and Control using a State-Dependent Riccati Equation Technique"
+  authors:
+    - "Jae-ik Park"
+    - "Han-Earl Park"
+    - "Sun-Hwa Shim"
+    - "Sang-Young Park"
+    - "Kyu-Hong Choi"
+  category: "conference"
+  scope: "international"
+  year: 2009
+  details: "Proceeding of The BIEN 2009: INWES Asian Network, Westin Chosun Busan, Korea, 27-29 Aug., 2009"
+  citation: "Jae-ik Park, Han-Earl Park, Sun-Hwa Shim, Sang-Young Park, and Kyu-Hong Choi, \"A Hardware-in-the-Loop Simulations for GPS-based Formation Navigation and Control using a State-Dependent Riccati Equation Technique\", Proceeding of The BIEN 2009: INWES Asian Network, Westin Chosun Busan, Korea, 27-29 Aug., 2009"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-032"
+
+- title: "Development of Sun-glint Prediction Program For The Communication, Ocean and Meteorological Satellite"
+  authors:
+    - "Jae-ik Park"
+    - "Sang-Young Park"
+    - "Kyu-Hong Choi"
+    - "Yu-Hwan Ahn"
+  category: "conference"
+  scope: "international"
+  year: 2004
+  details: "International Conference on Astronomy and Space Science, Havichi Resort, Jeju, 27-29 Oct. 2004"
+  citation: "Jae-ik Park, Sang-Young Park, Kyu-Hong Choi, and Yu-Hwan Ahn, \"Development of Sun-glint Prediction Program For The Communication, Ocean and Meteorological Satellite\",  International Conference on Astronomy and Space Science, Havichi Resort, Jeju, 27-29 Oct. 2004"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-033"
+
+- title: "KPLO 임무궤도에서 모멘텀 언로딩시 궤도 영향성 분석"
+  authors:
+    - "박재익"
+    - "방준"
+    - "홍승범"
+    - "배종희"
+    - "송영주"
+    - "김영록"
+    - "조영호"
+  category: "conference"
+  scope: "domestic"
+  year: 2021
+  details: "한국우주과학회 2021년 가을학술대회, 경주 라한셀렉트, 2021.10.28"
+  citation: "박재익, 방준, 홍승범, 배종희, 송영주, 김영록, 조영호, “KPLO 임무궤도에서 모멘텀 언로딩시 궤도 영향성 분석”, 한국우주과학회 2021년 가을학술대회, 경주 라한셀렉트, 2021.10.28"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-034"
+  link: "https://ksss.or.kr/society/tksss/file/download/12211?view=1#page=60"
+
+- title: "KPLO 달 궤도 진입 기동 분산 분석"
+  authors:
+    - "홍승범"
+    - "박재익"
+    - "이동헌"
+    - "송영주"
+    - "배종희"
+    - "김영록"
+  category: "conference"
+  scope: "domestic"
+  year: 2021
+  details: "한국우주과학회 2021년 가을학술대회, 경주 라한셀렉트, 2021.10.28"
+  citation: "홍승범, 박재익, 이동헌, 송영주, 배종희, 김영록, “KPLO 달 궤도 진입 기동 분산 분석”, 한국우주과학회 2021년 가을학술대회, 경주 라한셀렉트, 2021.10.28"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-035"
+  link: "https://ksss.or.kr/society/tksss/file/download/12211?view=1#page=30"
+
+- title: "OMT 보정기동을 고려한 KPLO 궤도보정기동 설계 및 궤적 운용 절차"
+  authors:
+    - "홍승범"
+    - "박재익"
+    - "송영주"
+    - "배종희"
+    - "방준"
+    - "김영록"
+  category: "conference"
+  scope: "domestic"
+  year: 2021
+  details: "한국우주과학회 2021년 가을학술대회, 경주 라한셀렉트, 2021.10.28"
+  citation: "홍승범, 박재익, 송영주, 배종희, 방준, 김영록, “OMT 보정기동을 고려한 KPLO 궤도보정기동 설계 및 궤적 운용 절차”, 한국우주과학회 2021년 가을학술대회, 경주 라한셀렉트, 2021.10.28"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-036"
+  link: "https://ksss.or.kr/society/tksss/file/download/12211?view=1#page=78"
+
+- title: "근지구소행성 (99942) 아포피스 탐사의 직접 전이궤적 분석"
+  authors:
+    - "박재익"
+    - "홍승범"
+    - "김영록"
+    - "배종희"
+    - "송영주"
+    - "김대관"
+  category: "conference"
+  scope: "domestic"
+  year: 2021
+  details: "2021년 한국항공우주학회 춘계학술대회, 쏠비치 삼척 리조트, 강원도, 2021.7.9"
+  citation: "박재익, 홍승범, 김영록, 배종희 송영주, 김대관, “근지구소행성 (99942) 아포피스 탐사의 직접 전이궤적 분석”, 2021년 한국항공우주학회 춘계학술대회, 쏠비치 삼척 리조트, 강원도, 2021.7.9"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-037"
+  link: "https://ksas.or.kr/wp/2021a/data/2021%EB%85%84%EB%8F%84%20%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%28%EC%95%88%29%20v26.pdf"
+
+- title: "WSB/BLT 궤적 설계를 위한 달 궤도 조건"
+  authors:
+    - "이동헌"
+    - "박재익"
+    - "송영주"
+    - "김영록"
+    - "홍승범"
+    - "배종희"
+    - "김대관"
+    - "이상률"
+  category: "conference"
+  scope: "domestic"
+  year: 2020
+  details: "2020년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 2020.11"
+  citation: "이동헌, 박재익, 송영주, 김영록, 홍승범, 배종희, 김대관, 이상률, “WSB/BLT 궤적 설계를 위한 달 궤도 조건”, 2020년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 2020.11"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-038"
+
+- title: "시험용 달 궤도선의 발사체 분산 궤적보정기동 설계를 위한 궤도결정 오차 분석"
+  authors:
+    - "김영록"
+    - "홍승범"
+    - "송영주"
+    - "박재익"
+    - "배종희"
+    - "이동헌"
+    - "김대관"
+    - "이상률"
+  category: "conference"
+  scope: "domestic"
+  year: 2020
+  details: "2020년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 2020.11"
+  citation: "김영록, 홍승범, 송영주, 박재익, 배종희, 이동헌, 김대관, 이상률, “시험용 달 궤도선의 발사체 분산 궤적보정기동 설계를 위한 궤도결정 오차 분석”, 2020년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 2020.11"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-039"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525946"
+
+- title: "시험용 달 궤도선의 분사오차와 기동시점을 고려한 WSB/BLT 궤적오차보정기동 분석"
+  authors:
+    - "배종희"
+    - "홍승범"
+    - "송영주"
+    - "김영록"
+    - "박재익"
+    - "이동헌"
+    - "김대관"
+    - "이상률"
+  category: "conference"
+  scope: "domestic"
+  year: 2020
+  details: "2020년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 2020.11"
+  citation: "배종희, 홍승범, 송영주, 김영록, 박재익, 이동헌, 김대관, 이상률, “시험용 달 궤도선의 분사오차와 기동시점을 고려한 WSB/BLT 궤적오차보정기동 분석”, 2020년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 2020.11"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-040"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525947"
+
+- title: "KPLO BLT 궤적 설계"
+  authors:
+    - "이동헌"
+    - "박재익"
+    - "송영주"
+    - "김영록"
+    - "홍승범"
+    - "배종희"
+    - "김대관"
+    - "이상률"
+  category: "conference"
+  scope: "domestic"
+  year: 2020
+  details: "2020년 한국항공우주학회 춘계학술대회, 대명리조트 델피노, 설악, 2020.7"
+  citation: "이동헌, 박재익, 송영주, 김영록, 홍승범, 배종희, 김대관, 이상률, “KPLO BLT 궤적 설계”, 2020년 한국항공우주학회 춘계학술대회, 대명리조트 델피노, 설악, 2020.7"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-041"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442221"
+
+- title: "시험용 달 궤도선 BLT 궤적의 달 궤도 진입 및 임무궤도 설계"
+  authors:
+    - "박재익"
+    - "이동헌"
+    - "김영록"
+    - "송영주"
+    - "홍승범"
+    - "배종희"
+    - "김대관"
+    - "이상률"
+  category: "conference"
+  scope: "domestic"
+  year: 2020
+  details: "2020년 한국항공우주학회 춘계학술대회, 대명리조트 델피노, 설악, 2020.7"
+  citation: "박재익, 이동헌, 김영록, 송영주, 홍승범, 배종희, 김대관, 이상률, “시험용 달 궤도선 BLT 궤적의 달 궤도 진입 및 임무궤도 설계”, 2020년 한국항공우주학회 춘계학술대회, 대명리조트 델피노, 설악, 2020.7"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-042"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10442223"
+
+- title: "시험용 달 궤도선 발사기간(Launch Period) 분석"
+  authors:
+    - "박재익"
+    - "이동헌"
+    - "김응현"
+  category: "conference"
+  scope: "domestic"
+  year: 2019
+  details: "2019년 한국항공우주학회 추계학술대회,  라마다프라자 제주호텔, 제주,  11.22, 2019년"
+  citation: "박재익, 이동헌, 김응현,  \"시험용 달 궤도선 발사기간(Launch Period) 분석\", 2019년 한국항공우주학회 추계학술대회,  라마다프라자 제주호텔, 제주,  11.22, 2019년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-043"
+
+- title: "상용 소프트웨어를 사용한 달 착륙선 착륙궤적 설계 가능성 연구"
+  authors:
+    - "박재익"
+    - "류동영"
+  category: "conference"
+  scope: "domestic"
+  year: 2019
+  details: "2019년 한국항공우주학회 춘계학술대회,  대명리조 변산, 변산, 4.18, 2019년"
+  citation: "박재익,  류동영, \"상용 소프트웨어를 사용한 달 착륙선 착륙궤적 설계 가능성 연구\", 2019년 한국항공우주학회 춘계학술대회,  대명리조 변산, 변산, 4.18, 2019년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-044"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08753239"
+
+- title: "시험용 달궤도선(KPLO) 궤도유지기동 속도증분 저감 방법 연구"
+  authors:
+    - "박재익"
+    - "최수진"
+    - "류동영"
+    - "최석원"
+  category: "conference"
+  scope: "domestic"
+  year: 2018
+  details: "2018년 한국항공우주학회 추계학술대회,  라마다프라자 제주호텔, 제주, 2018년 11월"
+  citation: "박재익,  최수진, 류동영, 최석원, \"시험용 달궤도선(KPLO) 궤도유지기동 속도증분 저감 방법 연구\", 2018년 한국항공우주학회 추계학술대회,  라마다프라자 제주호텔, 제주, 11.31, 2018년"
+  note: "원문 개최일은 존재하지 않는 2018년 11월 31일로 기재되어 있어 연월까지만 표시했습니다."
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-045"
+
+- title: "시험용 달궤도선(KPLO) 궤도유지기동 속도증분 요구사항 해석"
+  authors:
+    - "박재익"
+    - "최수진"
+    - "류동영"
+    - "최석원"
+  category: "conference"
+  scope: "domestic"
+  year: 2018
+  details: "2018년 한국항공우주학회 춘계학술대회,  대명리조트 델피노, 설악,  4.19, 2018년"
+  citation: "박재익,  최수진, 류동영, 최석원, \"시험용 달궤도선(KPLO) 궤도유지기동 속도증분 요구사항 해석\", 2018년 한국항공우주학회 춘계학술대회,  대명리조트 델피노, 설악,  4.19, 2018년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-046"
+
+- title: "달착륙선 착륙시 장애물 인식 및 회피 기동을 위한 이미지 처리 방안 연구"
+  authors:
+    - "구철회"
+    - "박재익"
+    - "류동영"
+  category: "conference"
+  scope: "domestic"
+  year: 2017
+  details: "2017년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 11.17, 2017년"
+  citation: "구철회,  박재익,  류동영, \"달착륙선 착륙시 장애물 인식 및 회피 기동을 위한 이미지 처리 방안 연구\",  2017년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 11.17, 2017년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-047"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367123"
+
+- title: "달 궤도선의 위상 전이 횟수에 따른 요구 속도증분 해석"
+  authors:
+    - "최수진"
+    - "이동헌"
+    - "박재익"
+    - "임성빈"
+    - "최석원"
+  category: "conference"
+  scope: "domestic"
+  year: 2017
+  details: "2017년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 11.17, 2017년"
+  citation: "최수진, 이동헌,  박재익,  임성빈, 최석원, \"달 궤도선의 위상 전이 횟수에 따른 요구 속도증분 해석\",  2017년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 11.17, 2017년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-048"
+
+- title: "무인 달 착륙선 동력하강 단계에서 요구 연료량 분석"
+  authors:
+    - "박재익"
+    - "류동영"
+  category: "conference"
+  scope: "domestic"
+  year: 2017
+  details: "2017년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 11.17, 2017년"
+  citation: "박재익,  류동영, \"무인 달 착륙선 동력하강 단계에서 요구 연료량 분석\", 2017년 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주, 11.17, 2017년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-049"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07367210"
+
+- title: "무인 달 착륙임무를 위한 시스템 개념 연구"
+  authors:
+    - "류동영"
+    - "박재익"
+    - "이우섭"
+    - "조진호"
+    - "손광재"
+    - "김진주"
+  category: "conference"
+  scope: "domestic"
+  year: 2017
+  details: "2017년 한국항공우주학회 춘계학술대회, 대명솔비치리조트, 삼척, 4.20, 2017년"
+  citation: "류동영, 박재익, 이우섭, 조진호, 손광재, 김진주 ,  \"무인 달 착륙임무를 위한 시스템 개념 연구\", 2017년 한국항공우주학회 춘계학술대회, 대명솔비치리조트, 삼척, 4.20, 2017년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-050"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188719"
+
+- title: "무인 달 착륙선 임무단계별 속도증분 및 연료량 분석 연구"
+  authors:
+    - "박재익"
+    - "류동영"
+  category: "conference"
+  scope: "domestic"
+  year: 2017
+  details: "2017년 한국항공우주학회 춘계학술대회, 대명솔비치리조트, 삼척, 4.20, 2017년"
+  citation: "박재익,  류동영, \"무인 달 착륙선 임무단계별 속도증분 및 연료량 분석 연구\", 2017년 한국항공우주학회 춘계학술대회, 대명솔비치리조트, 삼척, 4.20, 2017년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-051"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07188720"
+
+- title: "KASS 통합운영국 개발을 위한 RTCA/DO-178 소프트웨어 개발 절차 분석 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2015
+  details: "2015년 한국위성항법시스템학회 정기학술대회, 라마다프라자 제주호텔, 제주, 11.4-6, 2015년"
+  citation: "박재익,  이은성, 허문범, \"KASS 통합운영국 개발을 위한 RTCA/DO-178 소프트웨어 개발 절차 분석 연구\", 2015년 한국위성항법시스템학회 정기학술대회, 라마다프라자 제주호텔, 제주, 11.4-6, 2015년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-052"
+  link: "https://www.ipnt.or.kr/history/2015_Program.pdf"
+
+- title: "준/실시간 GNSS 궤도력 활용을 위한 IGS 초신속궤도력 예측궤도 오차 요구조건 분석"
+  authors:
+    - "박재익"
+    - "천세범"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2013
+  details: "한국통신학회 2013 하계종합학술발표회, 라마다프라자 제주호텔, 제주, 6.19-21, 2013년"
+  citation: "박재익,  천세범, 허문범, \"준/실시간 GNSS 궤도력 활용을 위한 IGS 초신속궤도력 예측궤도 오차 요구조건 분석\", 한국통신학회 2013 하계종합학술발표회, 라마다프라자 제주호텔, 제주, 6.19-21, 2013년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-053"
+
+- title: "다중 기준국 네트워크를 활용한 실시간 GNSS/GPS 반송파 미지정수 결정 기술 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2012
+  details: "2012년 한국우주과학회.한국천문학회 공동 가을 학술대회, 홀리데이인광주, 광주, 10.17-19, 2012년"
+  citation: "박재익,  이은성, 허문범, \"다중 기준국 네트워크를 활용한 실시간 GNSS/GPS 반송파 미지정수 결정 기술 연구\", 2012년 한국우주과학회.한국천문학회 공동 가을 학술대회, 홀리데이인광주, 광주, 10.17-19, 2012년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-054"
+  link: "https://ksss.or.kr/society/tksss/file/download/12137?view=1#page=89"
+
+- title: "IGS 위성 궤도력을 이용한 육상교통 사용자 위치결정 성능향상 분석"
+  authors:
+    - "박재익"
+    - "손민혁"
+    - "김규헌"
+    - "이은성"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2012
+  details: "한국통신학회 2012 하계종합학술발표회, 라마다프라자 제주호텔, 제주, 6.20-22, 2012년"
+  citation: "박재익, 손민혁, 김규헌, 이은성, 허문범, \" IGS 위성 궤도력을 이용한 육상교통 사용자 위치결정 성능향상 분석\", 한국통신학회 2012 하계종합학술발표회, 라마다프라자 제주호텔, 제주, 6.20-22, 2012년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-055"
+
+- title: "위성항법 다중 수신국 네트워크 구성을 위한 거리에 따른 위치결정 성능분석"
+  authors:
+    - "박재익"
+    - "홍운기"
+    - "손민혁"
+    - "김규헌"
+    - "이은성"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2012
+  details: "한국통신학회 2012 동계종합학술발표회, 용평리조트, 용평, 2.8-10, 2012년"
+  citation: "박재익, 홍운기, 손민혁, 김규헌, 이은성, 허문범, \"위성항법 다중 수신국 네트워크 구성을 위한 거리에 따른 위치결정 성능분석\", 한국통신학회 2012 동계종합학술발표회, 용평리조트, 용평, 2.8-10, 2012년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-056"
+
+- title: "편대비행위성 상대위치결정을 위한 미지정수결정 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2011
+  details: "한국항행학회 종합학술발표대회, 서울 과학기술회관, 서울,  10.21, 2011년"
+  citation: "박재익, 이은성, 허문범, \"편대비행위성 상대위치결정을 위한 미지정수결정 연구\", 한국항행학회 종합학술발표대회, 서울 과학기술회관, 서울,  10.21, 2011년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-057"
+
+- title: "다중기준국을 이용한 육상교통 환경에서 항법위성 궤도력에 따른 위치결정 성능향상 분석 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "강우용"
+    - "한지애"
+    - "김현수"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2011
+  details: "한국우주과학회 봄 학술대회, 리솜스파캐슬,  충남 4.28-29, 2011년"
+  citation: "박재익, 이은성, 강우용, 한지애, 김현수, 허문범, \"다중기준국을 이용한 육상교통 환경에서 항법위성 궤도력에 따른 위치결정 성능향상 분석 연구\", 한국우주과학회 봄 학술대회, 리솜스파캐슬,  충남 4.28-29, 2011년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-058"
+  link: "https://ksss.or.kr/file/download/12136?view=1"
+
+- title: "육상교통 환경에서 네트워크기반의 다중기준국 활용을 위한 성능분석 연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "강우용"
+    - "한지애"
+    - "김현수"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2011
+  details: "한국통신학회 동계종합학술발표회,  용평리조트, 용평, 2.23-25, 2011년"
+  citation: "박재익, 이은성, 강우용, 한지애, 김현수, 허문범, \" 육상교통 환경에서 네트워크기반의 다중기준국 활용을 위한 성능분석 연구\", 한국통신학회 동계종합학술발표회,  용평리조트, 용평, 2.23-25, 2011년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-059"
+
+- title: "GNSS 시뮬레이터를 이용한 운동궤적의 시각동기화 기술연구"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "강우용"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2010
+  details: "한국우주과학회 봄 학술대회, 현대호텔, 경주, 4.29-30, 2010년"
+  citation: "박재익, 이은성, 강우용, 허문범, \" GNSS 시뮬레이터를 이용한 운동궤적의 시각동기화 기술연구\", 한국우주과학회 봄 학술대회, 현대호텔, 경주, 4.29-30, 2010년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-060"
+  link: "https://ksss.or.kr/society/tksss/file/download/12205?view=1#page=29"
+
+- title: "위성항법기반의 자율편대위성을 위한 HIL 시물레이터 개발"
+  authors:
+    - "박재익"
+  category: "conference"
+  scope: "domestic"
+  year: 2010
+  details: "최교홍교수 정년퇴임 기념 심포지움, 연세대학교, 서울, 2.26, 2010년"
+  citation: "박재익, \"위성항법기반의 자율편대위성을 위한 HIL 시물레이터 개발\", 최교홍교수 정년퇴임 기념 심포지움, 연세대학교, 서울, 2.26, 2010년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-061"
+
+- title: "위성항법 수신국의 원격 영상 감시기법의 설계"
+  authors:
+    - "손민혁"
+    - "김규헌"
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2012
+  details: "한국통신학회 2012 동계종합학술발표회, 용평리조트, 용평, 2.8-10 , 2012년"
+  citation: "손민혁, 김규헌, 박재익, 이은성, 허문범, \"위성항법 수신국의 원격 영상 감시기법의 설계\", 한국통신학회 2012 동계종합학술발표회, 용평리조트, 용평, 2.8-10 , 2012년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-062"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE02039082"
+
+- title: "위성항법기반 항법장비의 병렬 구성을 활용한 안정성 향상"
+  authors:
+    - "강우용"
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "conference"
+  scope: "domestic"
+  year: 2010
+  details: "한국우주과학회 봄 학술대회, 현대호텔, 경주, 4.29-30, 2010년"
+  citation: "강우용, 박재익, 이은성, 허문범, \"위성항법기반 항법장비의 병렬 구성을 활용한 안정성 향상\", 한국우주과학회 봄 학술대회, 현대호텔, 경주, 4.29-30, 2010년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-063"
+  link: "https://ksss.or.kr/society/tksss/file/download/12205?view=1#page=29"
+
+- title: "위성항법 다중기준국을 활용한 육상교통 항법의 성능예측"
+  authors:
+    - "이은성"
+    - "허문범"
+    - "박재익"
+    - "원대희"
+    - "이영재"
+  category: "conference"
+  scope: "domestic"
+  year: 2010
+  details: "한국항공우주학회 춘계학술발표회, 용평리조트, 강원도, 4.15-16, 2010년"
+  citation: "이은성, 허문범, 박재익, 원대희, 이영재, \"위성항법 다중기준국을 활용한 육상교통 항법의 성능예측\", 한국항공우주학회 춘계학술발표회, 용평리조트, 강원도, 4.15-16, 2010년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-064"
+  link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01445875"
+
+- title: "도심지 동적 환경에서 안정적인 반송파 사용을 위한 GPS 기준국용 고장검출기법 적용 가능성 분석"
+  authors:
+    - "원대희"
+    - "안종선"
+    - "성상경"
+    - "박재익"
+    - "허문범"
+    - "이영재"
+  category: "conference"
+  scope: "domestic"
+  year: 2010
+  details: "한국항공우주학회 춘계학술발표회, 용평리조트, 강원도, 4.15-16, 2010년"
+  citation: "원대희, 안종선, 성상경, 박재익, 허문범, 이영재, \"도심지 동적 환경에서 안정적인 반송파 사용을 위한 GPS 기준국용 고장검출기법 적용 가능성 분석\", 한국항공우주학회 춘계학술발표회, 용평리조트, 강원도, 4.15-16, 2010년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-065"
+
+- title: "위성항법기반 교통인프라 기술개발"
+  authors:
+    - "허문범"
+    - "박재익"
+    - "이은성"
+    - "강우용"
+  category: "conference"
+  scope: "domestic"
+  year: 2010
+  details: "대한교통학회 제62회 학술발표회, 대한교통공단, 서울, 2.19-20, 2010년"
+  citation: "허문범, 박재익, 이은성, 강우용, \"위성항법기반 교통인프라 기술개발\", 대한교통학회 제62회 학술발표회, 대한교통공단, 서울, 2.19-20, 2010년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-066"
+
+- title: "고해상도 관측위성의 지상궤적 유지조정 알고리즘 연구"
+  authors:
+    - "박재익"
+    - "박상영"
+    - "이병선"
+    - "황유라"
+    - "최규홍"
+  category: "conference"
+  scope: "domestic"
+  year: 2009
+  details: "한국우주과학회 가을 학술대회, 휘닉스아일랜드, 제주, 10.29-31, 2009년"
+  citation: "박재익, 박상영, 이병선, 황유라, 최규홍, \"고해상도 관측위성의 지상궤적 유지조정 알고리즘 연구\", 한국우주과학회 가을 학술대회, 휘닉스아일랜드, 제주, 10.29-31, 2009년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-067"
+
+- title: "위성편대비행유지 Hardware-In-the-Loop 시뮬레이션 테스트"
+  authors:
+    - "박재익"
+    - "박한얼"
+    - "심선화"
+    - "박상영"
+    - "최규홍"
+  category: "conference"
+  scope: "domestic"
+  year: 2009
+  details: "2009 세계천문의 해 기념 한국천문학회/한국우주과학회 공동 봄 학술대회, 국립과천과학관, 서울, 4.29-30, 2009년"
+  citation: "박재익, 박한얼, 심선화, 박상영, 최규홍, \"위성편대비행유지 Hardware-In-the-Loop 시뮬레이션 테스트\", 2009 세계천문의 해 기념 한국천문학회/한국우주과학회 공동 봄 학술대회, 국립과천과학관, 서울, 4.29-30, 2009년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-068"
+
+- title: "Development of a Preliminary Formation Flying Testbed for Satellite Relative Navigation and Control"
+  authors:
+    - "박재익"
+    - "박한얼"
+    - "심선화"
+    - "박상영"
+    - "최규홍"
+  category: "conference"
+  scope: "domestic"
+  year: 2008
+  details: "한국우주과학회 가을 학술대회, 광주과학기술원, 광주, 10.22-25, 2008년"
+  citation: "박재익, 박한얼, 심선화, 박상영, 최규홍, \"Development of a Preliminary Formation Flying Testbed for Satellite Relative Navigation and Control\", 한국우주과학회 가을 학술대회, 광주과학기술원, 광주, 10.22-25, 2008년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-069"
+
+- title: "Relative Orbit Control of Formation Flying Mission in Low Earth Orbit Using Eccentricity/Inclination Vector Separation"
+  authors:
+    - "박재익"
+    - "박상영"
+    - "최규홍"
+  category: "conference"
+  scope: "domestic"
+  year: 2008
+  details: "한국우주과학회 봄 학술대회, 충북대학교, 청주, 4.24-25, 2008년"
+  citation: "박재익, 박상영, 최규홍, “Relative Orbit Control of Formation Flying Mission in Low Earth Orbit Using Eccentricity/Inclination Vector Separation”, 한국우주과학회 봄 학술대회, 충북대학교, 청주, 4.24-25, 2008년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-070"
+
+- title: "Optimum Target Trajectory for the SAR Interferometry Repeat Observation Satellite"
+  authors:
+    - "박재익"
+    - "박상영"
+    - "최규홍"
+  category: "conference"
+  scope: "domestic"
+  year: 2006
+  details: "한국우주과학회 가을 학술대회, 한국천문연구원, 대전, 10.26-27, 2006년"
+  citation: "박재익, 박상영, 최규홍, \"Optimum Target Trajectory for the SAR Interferometry Repeat Observation Satellite\", 한국우주과학회 가을 학술대회, 한국천문연구원, 대전, 10.26-27, 2006년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-071"
+
+- title: "Prediction of the Sun-glint location for the Communication, Ocean and Meteorological Satellite"
+  authors:
+    - "박재익"
+    - "박상영"
+    - "최규홍"
+    - "안유환"
+  category: "conference"
+  scope: "domestic"
+  year: 2003
+  details: "한국우주과학회 가을 학술대회, 청풍리조트 충북제천, 10.17-18, 2003년"
+  citation: "박재익, 박상영, 최규홍, 안유환, \"Prediction of the Sun-glint location for the Communication, Ocean and Meteorological Satellite\",한국우주과학회 가을 학술대회, 청풍리조트 충북제천, 10.17-18, 2003년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-072"
+
+- title: "동북아지역의 효율적인 정보획득을 위한 최적의 위성군 궤도 설계"
+  authors:
+    - "김남균"
+    - "송영주"
+    - "박재익"
+    - "박상영"
+    - "최규홍"
+  category: "conference"
+  scope: "domestic"
+  year: 2006
+  details: "한국우주과학회 가을 학술대회, 한국천문연구원, 대전, 10.26-27, 2006년"
+  citation: "김남균, 송영주, 박재익, 박상영, 최규홍, \"동북아지역의 효율적인 정보획득을 위한 최적의 위성군 궤도 설계\", 한국우주과학회 가을 학술대회, 한국천문연구원, 대전, 10.26-27, 2006년"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik"
+  audit_key: "legacy-073"
+
+- title: "Method and system for Time To First Fix(TTFF) reduction of GPS Receivers using Satellite Based Augmentation System Signal"
+  authors:
+    - "Jae-ik Park"
+    - "Eunsung Lee"
+    - "Moonbeom Heo"
+    - "Giwook Nam"
+  category: "patent"
+  scope: "international"
+  details: "미국, 등록번호 US10649091B2 · 등록일 2020-05-12 · 출원번호 15/819,926 · 출원일 2017-11-21"
+  details_en: "United States, patent US10649091B2 · Granted 2020-05-12 · Application 15/819,926 · Filed 2017-11-21"
+  citation: "Jae-ik Park, Eunsung Lee, Moonbeom Heo, and Giwook Nam, \"Method and system for Time To First Fix(TTFF) reduction of GPS Receivers using Satellite Based Augmentation System Signal\", US10649091B2, granted 2020-05-12, application 15/819,926 filed 2017-11-21"
+  status: "registered"
+  application_number: "15/819,926"
+  application_date: "2017-11-21"
+  registration_date: "2020-05-12"
+  jurisdiction: "US"
+  note: "사용자 요청으로 미국 등록 특허만 표시합니다. 연도 분류는 다른 특허와 같이 출원연도 2017년을 사용하고 등록일 2020-05-12를 명시합니다. 기존 해외 묶음의 원문 citation과 유럽·일본 기록은 ip-publication-audit.yaml의 표시 범위 변경 이력에 보존했습니다. 현황표 3개 내부 접수번호의 국가별 직접 대응은 확인되지 않았습니다."
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 위성항법보정시스템(SBAS) 신호를 활용한 TTFF(Time To First Fix) 단축 방법 US10649091B2"
+  audit_key: "legacy-074"
+  link: "https://patents.google.com/patent/US10649091B2/en"
+  year: 2017
+  year_basis: "application_year"
+  registration_number: "US10649091B2"
+  country_records:
+  - jurisdiction: US
+    status: registered
+    application_number: 15/819,926
+    application_date: '2017-11-21'
+    publication_number: US20180143325A1
+    publication_date: '2018-05-24'
+    registration_number: US10649091B2
+    registration_date: '2020-05-12'
+    source: https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+  verification_sources:
+  - https://patents.google.com/patent/US10649091B2/en
+  - https://patentimages.storage.googleapis.com/41/77/6b/e8aa1fc3934f31/US10649091.pdf
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 15
+      internal_reference: "2017-1-0173"
+      reported_title: "위성항법보정시스템(SBAS) 신호를 활용한 TTFF(Time To First Fix) 단축 방법"
+      match_basis: "same_invention_title_authors_year_foreign_count"
+      confidence: "high_at_family_level_only"
+      receipt_to_official_number_confirmed: false
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 16
+      internal_reference: "2017-1-0174"
+      reported_title: "위성항법보정시스템(SBAS) 신호를 활용한 TTFF(Time To First Fix) 단축 방법"
+      match_basis: "same_invention_title_authors_year_foreign_count"
+      confidence: "high_at_family_level_only"
+      receipt_to_official_number_confirmed: false
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 17
+      internal_reference: "2017-1-0177"
+      reported_title: "위성항법보정시스템(SBAS) 신호를 활용한 TTFF(Time To First Fix) 단축 방법"
+      match_basis: "same_invention_title_authors_year_foreign_count"
+      confidence: "high_at_family_level_only"
+      receipt_to_official_number_confirmed: false
+
+- title: "달 탐사선 연료절감을 위한 궤도유지기동 제어방법 및 이를 기록한 컴퓨터로 읽을 수 있는 기록매체"
+  authors:
+    - "박재익"
+    - "최수진"
+    - "류동영"
+  category: "patent"
+  scope: "domestic"
+  year: 2018
+  details: "한국, 출원번호 10-2018-0131171 (출원 2018-10-30); 등록번호 10-2091031 (등록 2020-03-12)"
+  citation: "박재익, 최수진, 류동영,  \"달 탐사선 연료절감을 위한 궤도유지기동 제어방법 및 이를 기록한 컴퓨터로 읽을 수 있는 기록매체\", 한국, 출원번호 10-2018-0131171, 2018 (등록 10-2091031)"
+  status: "registered"
+  application_number: "10-2018-0131171"
+  registration_number: "10-2091031"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 달탐사선의 궤도유지기동 연료절감을 위한 향상된 제어 방법 2018-1-0082"
+  audit_key: "legacy-075"
+  link: "https://patents.google.com/patent/KR102091031B1/en"
+  application_date: "2018-10-30"
+  registration_date: "2020-03-12"
+  verification_sources:
+  - https://patents.google.com/patent/KR102091031B1/en
+  - https://patentimages.storage.googleapis.com/53/67/75/339e883adbd02d/KR102091031B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  note: "공식 특허공보의 출원일·등록일 또는 공개번호를 확인했습니다. 등록일과 공고일은 구분하며 현재 권리 유효 상태를 뜻하지 않습니다."
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 20
+      internal_reference: "2018-1-0082"
+      reported_title: "달탐사선의 궤도유지기동 연료절감을 위한 향상된 제어 방법"
+      match_basis: "technical_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "GNSS 안테나 플랫폼"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "patent"
+  scope: "domestic"
+  year: 2012
+  details: "한국, 출원번호 10-2012-0124798 (출원 2012-11-06); 등록번호 10-1414146 (등록 2014-06-25)"
+  citation: "박재익, 이은성, 허문범, \" GNSS 안테나 플랫폼\", 한국, 출원번호 10-2012-0124798, 2012 (등록 10-1414146)"
+  status: "registered"
+  application_number: "10-2012-0124798"
+  registration_number: "10-1414146"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik GNSS 정밀 이동형 수신국 안테나 플랫폼 2012-1-0103"
+  audit_key: "legacy-076"
+  link: "https://patents.google.com/patent/KR101414146B1/ko"
+  application_date: "2012-11-06"
+  registration_date: "2014-06-25"
+  verification_sources:
+  - https://patents.google.com/patent/KR101414146B1/ko
+  - https://patentimages.storage.googleapis.com/82/7c/5d/d7957dbf086753/KR101414146B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  note: "공식 특허공보의 출원일·등록일 또는 공개번호를 확인했습니다. 등록일과 공고일은 구분하며 현재 권리 유효 상태를 뜻하지 않습니다."
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 8
+      internal_reference: "2012-1-0103"
+      reported_title: "GNSS 정밀 이동형 수신국 안테나 플랫폼"
+      match_basis: "public_title_application_number_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "위성항법 데이터의 실시간 처리를 위한 데이터 전송 방법"
+  authors:
+    - "김규헌"
+    - "손민혁"
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "patent"
+  scope: "domestic"
+  year: 2012
+  details: "한국, 출원번호 10-2012-0139240 (출원 2012-12-03); 등록번호 10-1271006 (등록 2013-05-29)"
+  citation: "김규헌, 손민혁, 박재익, 이은성, 허문범, \" 위성항법 데이터의 실시간 처리를 위한 데이터 전송 방법\", 한국, 출원번호 10-2012-0139240, 2012 (등록 10-1271006)"
+  status: "registered"
+  application_number: "10-2012-0139240"
+  registration_number: "10-1271006"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 위성항법데이터의 실시간 처리를 위한 전송방법 2012-1-0153"
+  audit_key: "legacy-077"
+  link: "https://patents.google.com/patent/KR101271006B1/ko"
+  application_date: "2012-12-03"
+  registration_date: "2013-05-29"
+  verification_sources:
+  - https://patents.google.com/patent/KR101271006B1/ko
+  - https://patentimages.storage.googleapis.com/8a/64/e2/fd2bd91baf2e87/KR101271006B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  note: "공식 특허공보의 출원일·등록일 또는 공개번호를 확인했습니다. 등록일과 공고일은 구분하며 현재 권리 유효 상태를 뜻하지 않습니다."
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 9
+      internal_reference: "2012-1-0153"
+      reported_title: "위성항법데이터의 실시간 처리를 위한 전송방법"
+      match_basis: "near_title_authors_year_public_number"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "위성항법 기준국용 데이터 송수신 장치"
+  authors:
+    - "손민혁"
+    - "김규헌"
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "patent"
+  scope: "domestic"
+  year: 2012
+  details: "한국, 출원번호 10-2012-0139241 (출원 2012-12-03); 등록번호 10-1261315 (등록 2013-04-30)"
+  citation: "손민혁,  김규헌, 박재익, 이은성, 허문범, \"위성항법 기준국용 데이터 송수신 장치\", 한국, 출원번호 10-2012-0139241, 2012 (등록 10-1261315)"
+  status: "registered"
+  application_number: "10-2012-0139241"
+  registration_number: "10-1261315"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 위성항법 기준국용 데이터 송수신 장치 2012-1-0154"
+  audit_key: "legacy-078"
+  link: "https://patents.google.com/patent/KR101261315B1/en"
+  application_date: "2012-12-03"
+  registration_date: "2013-04-30"
+  verification_sources:
+  - https://patents.google.com/patent/KR101261315B1/en
+  - https://patentimages.storage.googleapis.com/98/c0/83/27034cfec325ce/KR101261315B1.pdf
+  - https://www.ntis.go.kr/ThSearchResultPatentList.do?searchWord=%EB%B0%95%EC%9E%AC%EC%9D%B5
+  note: "공식 특허공보의 출원일·등록일 또는 공개번호를 확인했습니다. 등록일과 공고일은 구분하며 현재 권리 유효 상태를 뜻하지 않습니다."
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 10
+      internal_reference: "2012-1-0154"
+      reported_title: "위성항법 기준국용 데이터 송수신 장치"
+      match_basis: "exact_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "SBAS 신호를 이용하여 GPS 수신 장치의 TTFF를 단축할 수 있는 방법 및 시스템"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+    - "남기욱"
+  category: "patent"
+  scope: "domestic"
+  year: 2017
+  details: "한국, 출원번호 10-2017-0136795 (출원 2017-10-20); 공개 KR20180058184A (2018-05-31)"
+  citation: "박재익, 이은성, 허문범, 남기욱, \"SBAS 신호를 이용하여 GPS 수신 장치의 TTFF를 단축할 수 있는 방법 및 시스템\", 한국, 출원번호 10-2017-0136795, 2017"
+  status: "application"
+  application_number: "10-2017-0136795"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik ＳＢＡＳ 신호를 이용하여 GPS 수신 장치의 ＴＴＦＦ를 단축할 수 있는 방법 및 시스템 2017-1-0234"
+  audit_key: "legacy-079"
+  link: "https://patents.google.com/patent/KR20180058184A/en"
+  application_date: "2017-10-20"
+  registration_date: null
+  verification_sources:
+  - https://patents.google.com/patent/KR20180058184A/en
+  - https://patentimages.storage.googleapis.com/df/94/71/105a25dff0a805/KR20180058184A.pdf
+  note: "공식 특허공보의 출원일·등록일 또는 공개번호를 확인했습니다. 등록일과 공고일은 구분하며 현재 권리 유효 상태를 뜻하지 않습니다."
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 18
+      internal_reference: "2017-1-0234"
+      reported_title: "ＳＢＡＳ 신호를 이용하여 GPS 수신 장치의 ＴＴＦＦ를 단축할 수 있는 방법 및 시스템"
+      match_basis: "normalized_exact_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "GPS 수신 방법, GPS 수신 장치 및  이를 포함하는 제어 시스템"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+    - "남기욱"
+  category: "patent"
+  scope: "domestic"
+  year: 2016
+  details: "한국, 출원번호 10-2016-0156815 (출원 2016-11-23)"
+  citation: "박재익, 이은성, 허문범, 남기욱, \" GPS 수신 방법, GPS 수신 장치 및  이를 포함하는 제어 시스템\", 한국, 출원번호 10-2016-0156815, 2016"
+  status: "application"
+  application_number: "10-2016-0156815"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik SBAS 신호를 활용한 TTFF(Time To Firsr Fix) 단축 방법 2016-1-0223"
+  audit_key: "legacy-080"
+  application_date: "2016-11-23"
+  verification_sources:
+    - "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Patent&menuNo=200060&tskId=87579&yearCnt=2"
+    - "https://patents.google.com/patent/US10649091B2/en"
+  note: "KAIA 과제 성과 목록 및 미국 대응 특허공보의 한국 우선권 표를 대조하여 출원일 2016-11-23을 보완했습니다. 현황표 접수번호와 공보번호의 직접 연결은 미확인입니다."
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 14
+      internal_reference: "2016-1-0223"
+      reported_title: "SBAS 신호를 활용한 TTFF(Time To Firsr Fix) 단축 방법"
+      match_basis: "priority_chain_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "위성항법시스템의 반송파 측정값에 대한 고장성분 검출 방법"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "patent"
+  scope: "domestic"
+  year: 2011
+  details: "한국, 출원번호 10-2011-0143201 (출원 2011-12-27); 공개 KR20130075022A (2013-07-05)"
+  citation: "박재익, 이은성, 허문범, \" 위성항법시스템의 반송파 측정값에 대한 고장성분 검출 방법\", 한국, 출원번호 10-2011-0143201, 2011"
+  status: "application"
+  application_number: "10-2011-0143201"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 이동체의 동특성과 다중 안테나를 이용한 GPS 반송파 위상 고장검출 기법 2011-1-0187"
+  audit_key: "legacy-081"
+  link: "https://patents.google.com/patent/KR20130075022A/en"
+  application_date: "2011-12-27"
+  registration_date: null
+  verification_sources:
+  - https://patents.google.com/patent/KR20130075022A/en
+  - https://patentimages.storage.googleapis.com/59/b6/8a/e86f7522028f68/KR20130075022A.pdf
+  note: "공식 특허공보의 출원일·등록일 또는 공개번호를 확인했습니다. 등록일과 공고일은 구분하며 현재 권리 유효 상태를 뜻하지 않습니다."
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 5
+      internal_reference: "2011-1-0187"
+      reported_title: "이동체의 동특성과 다중 안테나를 이용한 GPS 반송파 위상 고장검출 기법"
+      match_basis: "technical_description_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "달착륙선 2차원 최적화 착륙궤적 생성 프로그램"
+  authors:
+    - "박재익"
+    - "류동영"
+  category: "software"
+  scope: "domestic"
+  year: 2017
+  details: "C-2017-029915, 2017년 11월 27일 등록"
+  citation: "박재익, 류동영, \"달착륙선 2차원 최적화 착륙궤적 생성 프로그램\", C-2017-029915, 2017년 11월 27일 등록"
+  registration_number: "C-2017-029915"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 달착륙선 2차원 최적화 착륙궤적 생성 프로그램 2017-5-0182"
+  audit_key: "legacy-082"
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 19
+      internal_reference: "2017-5-0182"
+      reported_title: "달착륙선 2차원 최적화 착륙궤적 생성 프로그램"
+      match_basis: "exact_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "위성항법 다중 기준국 네트워크 데이터 후처리 보정정보 생성 프로그램"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "software"
+  scope: "domestic"
+  year: 2012
+  details: "C-2012-027793, 2012년 12월 20일 등록"
+  citation: "박재익, 이은성, 허문범, \"위성항법 다중 기준국 네트워크 데이터 후처리 보정정보 생성 프로그램\", 2012년 등록"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 위성항법 다중 기준국 네트워크 데이터 후처리 보정정보 생성 프로그램 2012-5-0048"
+  audit_key: "legacy-083"
+  link: "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3"
+  registration_number: "C-2012-027793"
+  registration_date: "2012-12-20"
+  note: "KAIA 국가 R&D 성과 목록에서 등록번호와 등록일을 확인하여 보완했습니다."
+  verification_source: "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3"
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 13
+      internal_reference: "2012-5-0048"
+      reported_title: "위성항법 다중 기준국 네트워크 데이터 후처리 보정정보 생성 프로그램"
+      match_basis: "exact_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "가중치 최소자승법을 이용한 후처리기반 위성항법 위치결정 프로그램"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "software"
+  scope: "domestic"
+  year: 2012
+  details: "C-2012-027792, 2012년 12월 20일 등록"
+  citation: "박재익, 이은성, 허문범, \"가중치 최소자승법을 이용한 후처리기반 위성항법 위치결정 프로그램\",2012년 등록"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 가중치 최소자승법을 이용한 후처리기반 위성항법 위치결정 프로그램 2012-5-0047"
+  audit_key: "legacy-084"
+  link: "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3"
+  registration_number: "C-2012-027792"
+  registration_date: "2012-12-20"
+  note: "KAIA 국가 R&D 성과 목록에서 등록번호와 등록일을 확인하여 보완했습니다."
+  verification_source: "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3"
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 12
+      internal_reference: "2012-5-0047"
+      reported_title: "가중치 최소자승법을 이용한 후처리기반 위성항법 위치결정 프로그램"
+      match_basis: "exact_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "Novatel GPS receiver binary data handling program"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "software"
+  scope: "domestic"
+  year: 2012
+  details: "C-2012-027791, 2012년 12월 20일 등록"
+  citation: "박재익, 이은성, 허문범, \"Novatel GPS receiver binary data handling program\", 2012년 등록"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik Novatel 위성항법 수신기 바이너리 데이터 처리 프로그램 2012-5-0046"
+  audit_key: "legacy-085"
+  link: "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3"
+  registration_number: "C-2012-027791"
+  registration_date: "2012-12-20"
+  note: "KAIA 국가 R&D 성과 목록에서 등록번호와 등록일을 확인하여 보완했습니다."
+  verification_source: "https://www.kaia.re.kr/portal/landmark/readTskRsltList.do?listCd=Swbser&menuNo=200060&tskId=42881&yearCnt=3"
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 11
+      internal_reference: "2012-5-0046"
+      reported_title: "Novatel 위성항법 수신기 바이너리 데이터 처리 프로그램"
+      match_basis: "translated_title_authors_year"
+      confidence: "medium_high"
+      receipt_to_official_number_confirmed: false
+
+- title: "후처리 항법위성 궤도오차 정보 생성 프로그램"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "software"
+  scope: "domestic"
+  year: 2011
+  details: "등록번호 2011-01-121-009405, 2011년 12월 14일"
+  citation: "박재익, 이은성, 허문범, \"후처리 항법위성 궤도오차 정보 생성 프로그램\", 등록번호 2011-01-121-009405, 2011년 12월 14일"
+  registration_number: "2011-01-121-009405"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 후처리 항법위성 궤도오차 정보 생성 프로그램 2011-5-0113"
+  audit_key: "legacy-086"
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 7
+      internal_reference: "2011-5-0113"
+      reported_title: "후처리 항법위성 궤도오차 정보 생성 프로그램"
+      match_basis: "exact_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false
+
+- title: "후처리 항법위성 궤도예측 프로그램"
+  authors:
+    - "박재익"
+    - "이은성"
+    - "허문범"
+  category: "software"
+  scope: "domestic"
+  year: 2011
+  details: "등록번호 2011-01-121-009404, 2011년 12월 14일"
+  citation: "박재익, 이은성, 허문범, \"후처리 항법위성 궤도예측 프로그램\", 등록번호 2011-01-121-009404, 2011년 12월 14일"
+  registration_number: "2011-01-121-009404"
+  source: "https://sites.google.com/view/dr-space/publications"
+  search: "박재익 Jae-ik Park Park Jae-ik 후처리 항법위성 궤도예측 프로그램 2011-5-0112"
+  audit_key: "legacy-087"
+  inventory_references:
+    - workbook: "지식재산권현황_20260420.xlsx"
+      sheet: "ag-grid"
+      row: 6
+      internal_reference: "2011-5-0112"
+      reported_title: "후처리 항법위성 궤도예측 프로그램"
+      match_basis: "exact_title_authors_year"
+      confidence: "high"
+      receipt_to_official_number_confirmed: false

@@ -2,7 +2,7 @@
 ---
 
 $logo: 40px;
-$collapse: 700px;
+$collapse: 1000px;
 $sticky: true;
 
 // header background image opacity (template default for backgrounds is 0.25)
@@ -21,11 +21,11 @@ $big-menu-background: rgba(0, 0, 0, 0.75);
     display: flex;
   }
 
-  .nav-toggle:not(:checked) + nav {
+  .nav-toggle:not(:checked) + .site-nav {
     display: none;
   }
 
-  nav {
+  .site-nav {
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
@@ -95,8 +95,8 @@ header a {
 .nav-toggle {
   display: none;
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   margin: 0;
   color: var(--text);
   appearance: none;
@@ -119,22 +119,37 @@ header a {
   content: "\f00d";
 }
 
-nav {
+.site-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px;
   font-family: var(--heading);
+  font-size: 0.9rem;
   text-transform: uppercase;
 }
 
-nav > a {
-  padding: 5px;
+.site-nav > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 8px 10px;
+  border-radius: var(--radius-small);
 }
 
-nav > a:hover {
+.site-nav > a:hover {
   color: var(--primary);
+}
+
+.site-nav > a[aria-current] {
+  color: var(--primary);
+  box-shadow: inset 0 -2px 0 var(--primary);
+}
+
+.site-nav > .language-switch {
+  text-transform: none;
 }
 
 header.background:before {
@@ -157,7 +172,7 @@ header[data-big] {
     top: unset;
   }
 
-  nav {
+  .site-nav {
     justify-content: flex-end;
   }
 
@@ -165,7 +180,7 @@ header[data-big] {
     @include collapse-nav;
 
     // open menu drops down over the banner instead of resizing it
-    nav {
+    .site-nav {
       position: absolute;
       top: 60px;
       right: 10px;

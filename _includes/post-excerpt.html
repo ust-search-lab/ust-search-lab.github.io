@@ -12,9 +12,9 @@
   <div class="post-excerpt">
     {% assign url = post.url | relative_url | uri_escape %}
     {% assign title = post.title %}
-    {% assign image = post.image | relative_url | uri_escape %}
 
-    {% if image %}
+    {% if post.image and post.image != "" %}
+      {% assign image = post.image | relative_url | uri_escape %}
       <a
         href="{{ url }}"
         class="post-excerpt-image"
@@ -52,7 +52,7 @@
         | strip_newlines
         | regex_strip
       %}
-      <p data-search="{{ search }}">
+      <p data-search="{{ search | escape }}">
         {{ excerpt }}
       </p>
     </div>

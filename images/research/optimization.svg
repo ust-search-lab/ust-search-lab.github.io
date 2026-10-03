@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">An illustrative mission design trade-off</title>
+<desc id="desc">A hypothetical trade-off between flight time and required velocity increment, delta-v. Candidate A uses less time, C requires less delta-v, and B is an intermediate option. These are illustrative alternatives, not calculated trajectories or a universal relationship. Propellant mass is a distinct quantity.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0 1L8 5L0 9Z" fill="#183153"/></marker></defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="420" rx="20" fill="#F7F9FC"/>
+<text x="32" y="43" font-size="26" fill="#183153" font-weight="700">Comparing feasible mission designs</text>
+<path d="M32 62H928" stroke="#E4EDF7" stroke-width="2"/>
+<g fill="none" stroke="#183153" stroke-width="3">
+<path d="M82 324V111" marker-end="url(#arrow)"/>
+<path d="M82 324H463" marker-end="url(#arrow)"/>
+</g>
+<text x="82" y="94" font-size="20" fill="#183153">Required Δv</text>
+<text x="270" y="359" text-anchor="middle" font-size="20" fill="#183153">Flight time</text>
+<path d="M145 134C204 207 312 272 427 285" fill="none" stroke="#64748B" stroke-width="2.5" stroke-dasharray="6 6"/>
+<circle cx="168" cy="161" r="7" fill="#3478CE"/>
+<circle cx="275" cy="242" r="7" fill="#008D96"/>
+<circle cx="398" cy="281" r="7" fill="#A76112"/>
+<g font-size="22" font-weight="700"><text x="179" y="149" fill="#3478CE">A</text><text x="287" y="232" fill="#008D96">B</text><text x="410" y="269" fill="#A76112">C</text></g>
+<rect x="515" y="105" width="413" height="224" rx="12" fill="#FFFFFF" stroke="#C9D8EA" stroke-width="2"/>
+<g font-size="20" fill="#183153">
+<text x="541" y="142" font-size="22" font-weight="700">Choose against mission priorities</text>
+<text x="541" y="185">A · Shorter flight time</text>
+<text x="541" y="225">B · Intermediate trade-off</text>
+<text x="541" y="265">C · Lower required Δv</text>
+<text x="541" y="306" fill="#64748B" font-size="18">The choice depends on goals and constraints.</text>
+</g>
+<text x="32" y="399" font-size="18" fill="#64748B">Hypothetical trade-off · Not computed data or a universal time–Δv relationship</text>
+</g>
+</svg>

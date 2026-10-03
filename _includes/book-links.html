@@ -1,0 +1,9 @@
+{%- assign book_isbn = include.isbn | remove: "-" -%}
+{%- if page.lang == "en" -%}
+  {%- assign book_source_label = include.label | default: "Publisher" -%}
+  {%- assign book_amazon_label = "Search Amazon" -%}
+{%- else -%}
+  {%- assign book_source_label = include.label | default: "출판사" -%}
+  {%- assign book_amazon_label = "Amazon 검색" -%}
+{%- endif -%}
+<span class="book-links"><span>ISBN-13: {{ include.isbn | escape }}</span><a href="{{ include.url | escape }}">{{ book_source_label | escape }}</a><a href="https://www.amazon.com/s?k={{ book_isbn | url_encode }}&amp;i=stripbooks">{{ book_amazon_label }}</a></span>

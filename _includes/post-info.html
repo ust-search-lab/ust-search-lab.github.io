@@ -1,45 +1,47 @@
+{% assign post_lang = page.lang | default: 'ko' %}
+{% assign post_i18n = site.data.i18n[post_lang] %}
 <div class="post-info">
   {% if include.author %}
     {% assign authors = include.author
       | join: ","
-      | downcase
       | split: ","
       | array_filter
     %}
     {% for author in authors %}
+      {% assign author_slug = author | downcase %}
       {% assign member = site.members
-        | where_exp: "member", "member.slug == author"
+        | where: "slug", author_slug
         | first
       %}
       {% if member %}
-        {% include portrait.html lookup=author style="tiny" %}
+        {% include portrait.html lookup=author_slug style="tiny" %}
       {% else %}
-        <span data-tooltip="Author">
+        <span data-tooltip="{{ post_i18n.post-author }}">
           {% include icon.html icon="fa-solid fa-feather-pointed" %}
-          <span>{{ author }}</span>
+          <span>{{ author | escape }}</span>
         </span>
       {% endif %}
     {% endfor %}
   {% endif %}
 
-  {% assign published = include.published | date: "%B %d, %Y" %}
-  {% assign updated = include.updated | date: "%B %d, %Y" %}
+  {% assign published = include.published | date: post_i18n.post-date-format %}
+  {% assign updated = include.updated | date: post_i18n.post-date-format %}
 
   {% if published %}
-    <span data-tooltip="Originally published on">
+    <span data-tooltip="{{ post_i18n.post-published }}">
       {% include icon.html icon="fa-regular fa-calendar" %}
-      <span>{{ published }}</span>
+      <time datetime="{{ include.published | date_to_xmlschema }}">{{ published }}</time>
     </span>
   {% endif %}
 
   {% if updated and updated != "" and updated != published %}
-    <span data-tooltip="Last updated on">
+    <span data-tooltip="{{ post_i18n.post-updated }}">
       {% include icon.html icon="fa-solid fa-clock-rotate-left" %}
-      <span>{{ updated }}</span>
+      <time datetime="{{ include.updated | date_to_xmlschema }}">{{ updated }}</time>
     </span>
   {% endif %}
 </div>
 
 {% if include.tags %}
-  {% include tags.html tags=include.tags link="blog" %}
+  {% include tags.html tags=include.tags link=post_i18n.news-page %}
 {% endif %}

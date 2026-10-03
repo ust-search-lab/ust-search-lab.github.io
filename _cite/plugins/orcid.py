@@ -135,6 +135,25 @@ def main(entry):
             if link:
                 source["link"] = link
 
+        # Preserve the work category for the Publications sections. Curated
+        # input fields below can override this classification when necessary.
+        work_type = next(
+            (
+                summary.get("type")
+                for summary in get_safe(work, "work-summary", [])
+                if summary.get("type")
+            ),
+            "",
+        )
+        if work_type.startswith("conference-"):
+            source["category"] = "conference"
+        elif work_type == "patent":
+            source["category"] = "patent"
+        elif work_type == "software":
+            source["category"] = "software"
+        else:
+            source["category"] = "journal"
+
         # copy fields from entry to source
         source.update(entry)
 

@@ -1,0 +1,121 @@
+{% assign publications_lang = page.lang | default: "ko" %}
+{% assign curated_publications = site.data.legacy-publications | concat: site.data.discovered-publications | concat: site.data.ip-publications %}
+{% assign publication_records = site.data.citations | publication_records: curated_publications %}
+{% assign publication_categories = "journal,conference,patent,software,intellectual-property" | split: "," %}
+{% assign publication_anchors = "journals,conferences,patents,software,trademarks-designs" | split: "," %}
+{% if publications_lang == "en" %}
+  {% assign publication_labels = "Journal articles & features,Conferences,Patents,Software,Trademarks & designs" | split: "," %}
+{% else %}
+  {% assign publication_labels = "논문·기고,컨퍼런스,특허,소프트웨어,상표·디자인" | split: "," %}
+{% endif %}
+
+<div class="publications">
+  <nav class="publication-nav" aria-label="{% if publications_lang == 'en' %}Research output categories{% else %}연구성과 분류{% endif %}">
+    {% for publication_category in publication_categories %}
+      {% assign publication_category_records = publication_records | where: "category", publication_category %}
+      <a href="#{{ publication_anchors[forloop.index0] }}">
+        <span>{{ publication_labels[forloop.index0] }}</span>
+        <span class="publication-count">{{ publication_category_records.size }}</span>
+      </a>
+    {% endfor %}
+  </nav>
+
+  {% for publication_category in publication_categories %}
+    {% assign publication_category_records = publication_records | where: "category", publication_category %}
+    {% assign publication_category_anchor = publication_anchors[forloop.index0] %}
+    <div class="publication-category">
+      <h2 id="{{ publication_category_anchor }}">
+        {{ publication_labels[forloop.index0] }}
+        <span class="publication-count">{{ publication_category_records.size }}</span>
+      </h2>
+      {% if publication_category == "patent" %}
+        <p class="publication-note">
+          {% if publications_lang == "en" %}
+            Entries are grouped by filing year when verified; otherwise, the receipt year in the supplied records is used. Grant dates are included only where verified.
+          {% else %}
+            출원연도를 우선하며, 확인되지 않은 경우 제공 현황의 접수연도를 기준으로 정리했습니다. 확인된 등록일만 함께 표기했습니다.
+          {% endif %}
+        </p>
+        {% assign publication_statuses = "registered,application,mixed,unknown" | split: "," %}
+      {% else %}
+        {% assign publication_statuses = "all" | split: "," %}
+        {% if publication_category == "software" %}
+          <p class="publication-note">
+            {% if publications_lang == "en" %}
+              Entries are grouped by registration year where verified; otherwise, the receipt year in the inventory is used. Registration details are shown where confirmed.
+            {% else %}
+              등록연도가 확인된 항목은 등록연도순으로, 그 외 항목은 현황표의 접수연도순으로 정리했습니다. 확인된 등록번호와 등록일을 함께 표시합니다.
+            {% endif %}
+          </p>
+        {% elsif publication_category == "intellectual-property" %}
+          <p class="publication-note">
+            {% if publications_lang == "en" %}
+              Based on the April 2026 intellectual property inventory. Internal reference numbers are distinct from official application or registration numbers.
+            {% else %}
+              2026년 4월 지식재산권 현황을 기준으로 정리했습니다. 내부 접수번호와 공식 출원·등록번호를 구분해 표시합니다.
+            {% endif %}
+          </p>
+        {% endif %}
+      {% endif %}
+
+      {% for publication_status in publication_statuses %}
+        {% if publication_status == "all" %}
+          {% assign publication_status_records = publication_category_records %}
+        {% else %}
+          {% assign publication_status_records = publication_category_records | where: "status", publication_status %}
+        {% endif %}
+        {% if publication_status_records.size > 0 %}
+          <div class="publication-subgroup">
+            {% unless publication_status == "all" %}
+              <h3 id="{{ publication_category_anchor }}-{{ publication_status }}" class="publication-status-heading">
+                {% if publications_lang == "en" %}
+                  {% case publication_status %}
+                    {% when "registered" %}Registered
+                    {% when "application" %}Applications
+                    {% when "mixed" %}Registration & applications by jurisdiction
+                    {% else %}Filing / registration details unverified
+                  {% endcase %}
+                {% else %}
+                  {% case publication_status %}
+                    {% when "registered" %}등록
+                    {% when "application" %}출원
+                    {% when "mixed" %}국가별 출원·등록
+                    {% else %}출원·등록 정보 미확인
+                  {% endcase %}
+                {% endif %}
+                <span class="publication-count">{{ publication_status_records.size }}</span>
+              </h3>
+            {% endunless %}
+            {% assign publication_years = publication_status_records | group_by: "year" | sort: "name" | reverse %}
+            {% for publication_year in publication_years %}
+              <div class="publication-year-group">
+                {% if publication_category == "patent" %}
+                  {% assign publication_year_heading = "h4" %}
+                {% else %}
+                  {% assign publication_year_heading = "h3" %}
+                {% endif %}
+                <{{ publication_year_heading }} id="{{ publication_category_anchor }}-{{ publication_status }}-{{ publication_year.name | default: 'undated' }}" class="publication-year">
+                  {% if publication_year.name != empty %}
+                    {{ publication_year.name }}
+                  {% elsif publications_lang == "en" %}
+                    Year to be confirmed
+                  {% else %}
+                    연도 확인 필요
+                  {% endif %}
+                </{{ publication_year_heading }}>
+                <div class="publication-list">
+                  {% for publication_record in publication_year.items %}
+                    {% include publication-entry.html record=publication_record lang=publications_lang %}
+                  {% endfor %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      {% if publication_category_records.size == 0 %}
+        <p class="publication-note">{% if publications_lang == "en" %}No entries yet.{% else %}등록된 실적이 없습니다.{% endif %}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

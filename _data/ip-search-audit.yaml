@@ -1,0 +1,666 @@
+---
+checked_on: '2026-10-03'
+scope: PUBLICATIONS에 출원·등록정보 미확인으로 표시된 10개 지식재산 항목의 공개 자료 조사.
+summary:
+  displayed_unknown_records_reviewed: 10
+  records_verified: 8
+  verified_by_type:
+    trademark: 6
+    design: 1
+    software: 1
+  records_still_unconfirmed: 2
+  new_records_created: 0
+  total_displayed: 158
+method:
+- KIPRIS 공식 검색 및 공개 공보에서 출원·등록번호와 날짜·명칭·출원인·등록 권리자를 대조한다.
+- 한국저작권위원회 CROS 공식 공개 검색과 상세 응답에서 프로그램 등록번호·등록일·저작자를 확인한다.
+- 등록일과 공고일·창작일을 구분하고, 디자인 표시연도는 내부 접수연도 2022년에서 실제 출원연도 2023년으로 바로잡는다.
+- 내부 접수번호 자체는 공개 공보에 없으므로 공식 서지 확인과 기존 현황표의 연결 근거를 구분한다.
+- 현재 권리의 유효성·존속 여부를 판단하지 않으며, 검색으로 확인하지 못한 항목은 번호를 추정하지 않는다.
+- 공개 API 원본의 주소·개인 식별정보와 사용자 원본 문서는 사이트에 복사하지 않는다.
+records:
+- audit_key: ip-2022-3-0006
+  category: intellectual-property
+  subtype: trademark
+  application_number: 40-2022-0043570
+  application_date: '2022-03-08'
+  registration_number: 40-1889853
+  registration_date: '2022-07-15'
+  application_publication_number: 40-2022-0043843
+  application_publication_date: '2022-04-13'
+  registration_publication_number: 40-2022-0073008
+  registration_publication_date: '2022-07-19'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  year: 2022
+  year_basis: application_year
+  mapping_basis: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님.
+  receipt_number_link_explicitly_documented: false
+  mapping_confidence: high_by_mark_class_applicant_and_year
+  role_note: 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  title: KPLO (제9류)
+  registered_title: KPLO
+  trademark_class: 9
+  outcome: verified
+  official_detail_url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220043570&right=ktm
+  sources:
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 상표공고공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e6bbdf57187170910a131903b86cec05f4e0b3e0b1b35a191a86bbca4b2b081dce8c7b0e27ef2bede337c02f1d88f5177
+    sha256: 8cda35f69b5be5606688c54587785d956ce1e70e29af60e3261fdccf29f7080f
+    evidence_pages:
+    - 1
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 등록공고상표공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500f1c9f6676285ca3e001705a5209ba5185b69985ad4c82f3a6799ac0175b55cf266b33a1385cfdc585c9e65d182f7edf
+    sha256: fd4e0c17066eedcd96bdc4eab9ede431423214613f48d2daa881f80273d38d47
+    evidence_pages:
+    - 1
+  registration_gazette_visual_verified: true
+- audit_key: ip-2022-3-0002
+  category: intellectual-property
+  subtype: trademark
+  application_number: 40-2022-0039240
+  application_date: '2022-03-02'
+  registration_number: 40-1883049
+  registration_date: '2022-06-27'
+  application_publication_number: 40-2022-0036412
+  application_publication_date: '2022-03-25'
+  registration_publication_number: 40-2022-0066197
+  registration_publication_date: '2022-06-29'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  year: 2022
+  year_basis: application_year
+  mapping_basis: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님.
+  receipt_number_link_explicitly_documented: false
+  mapping_confidence: high_by_mark_class_applicant_and_year
+  role_note: 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  title: KPLO (제12류)
+  registered_title: KPLO
+  trademark_class: 12
+  outcome: verified
+  official_detail_url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039240&right=ktm
+  sources:
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 상표공고공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e7e4c3774e42ad64c49ce5602545341aac608d23da3dd446f6ea714499d02a77b63fd8872eaacef96d95a84fe7603a175
+    sha256: f7cd15fc22160cb8aa25cffa7178d3343411895a4ce68b91417c79e879519c90
+    evidence_pages:
+    - 1
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 등록공고상표공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500c87a2952a9b1d44bd2d6c1febeb8e6baa1f58d7c5056c93ee8e59e3b6bb761e9e6067252179acb765a77ea614a7a05a
+    sha256: 7911ed89b7cc1b44a49924ae38edfb341306efa6d7bab92f62727acda34af341
+    evidence_pages:
+    - 1
+  registration_gazette_visual_verified: true
+- audit_key: ip-2022-3-0003
+  category: intellectual-property
+  subtype: trademark
+  application_number: 40-2022-0039241
+  application_date: '2022-03-02'
+  registration_number: 40-1900633
+  registration_date: '2022-08-19'
+  application_publication_number: 40-2022-0054665
+  application_publication_date: '2022-05-11'
+  registration_publication_number: 40-2022-0083690
+  registration_publication_date: '2022-08-23'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  year: 2022
+  year_basis: application_year
+  mapping_basis: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님.
+  receipt_number_link_explicitly_documented: false
+  mapping_confidence: high_by_mark_class_applicant_and_year
+  role_note: 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  title: KPLO (제16류)
+  registered_title: KPLO
+  trademark_class: 16
+  outcome: verified
+  official_detail_url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039241&right=ktm
+  sources:
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 상표공고공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e21c2a4aec8ca6304ea2ea306aa7d3de71ae8a27b1f316398023ccb658b30c2586a428f4044e283a0cbbdf55096cf1c8d
+    sha256: 0da88cdb90bb3ffe89f19beea74cf2255da65cd64f3c0507e1ca48ce22f046b8
+    evidence_pages:
+    - 1
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 등록공고상표공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500a34678399497f581eea708b4cd31199935113b394f867c59a08de86d65ee7991982200876d851f652cff7dd9bc56ea1
+    sha256: 2cc573b2fd159f79d3f0d2325524460ed64f7be949938af373f37d00bbe44be6
+    evidence_pages:
+    - 1
+  registration_gazette_visual_verified: true
+- audit_key: ip-2022-3-0004
+  category: intellectual-property
+  subtype: trademark
+  application_number: 40-2022-0039242
+  application_date: '2022-03-02'
+  registration_number: 40-1900634
+  registration_date: '2022-08-19'
+  application_publication_number: 40-2022-0054666
+  application_publication_date: '2022-05-11'
+  registration_publication_number: 40-2022-0083691
+  registration_publication_date: '2022-08-23'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  year: 2022
+  year_basis: application_year
+  mapping_basis: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님.
+  receipt_number_link_explicitly_documented: false
+  mapping_confidence: high_by_mark_class_applicant_and_year
+  role_note: 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  title: KPLO (제25류)
+  registered_title: KPLO
+  trademark_class: 25
+  outcome: verified
+  official_detail_url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039242&right=ktm
+  sources:
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 상표공고공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e21c2a4aec8ca6304ea2ea306aa7d3de7eeb664e81689dea1a5af8181f9c70e343182eae25933f1dd7dd63a9fdff967d3
+    sha256: cf69c10054e2f5439e1d441e80c67b0db331677b68c64fcbdbd5cac00cc652d5
+    evidence_pages:
+    - 1
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 등록공고상표공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500a34678399497f581eea708b4cd3119997e4de733c42550617b80441eaf6c544e2deb5dc9c7886585af581195caa31a9
+    sha256: a53e2b7ee3f53804ac1bd75c0e9803699723633f9108ebced62815d6a3919f07
+    evidence_pages:
+    - 1
+  registration_gazette_visual_verified: true
+- audit_key: ip-2022-3-0005
+  category: intellectual-property
+  subtype: trademark
+  application_number: 40-2022-0039243
+  application_date: '2022-03-02'
+  registration_number: 40-1883050
+  registration_date: '2022-06-27'
+  application_publication_number: 40-2022-0036413
+  application_publication_date: '2022-03-25'
+  registration_publication_number: 40-2022-0066198
+  registration_publication_date: '2022-06-29'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  year: 2022
+  year_basis: application_year
+  mapping_basis: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님.
+  receipt_number_link_explicitly_documented: false
+  mapping_confidence: high_by_mark_class_applicant_and_year
+  role_note: 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  title: KPLO (제28류)
+  registered_title: KPLO
+  trademark_class: 28
+  outcome: verified
+  official_detail_url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220039243&right=ktm
+  sources:
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 상표공고공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e7e4c3774e42ad64c49ce5602545341aa51a1fda3e14c9efa3ce60084cf6d4e4eaeea235afda997cf49cc52a9fb6e0797
+    sha256: 21800be300d07d6ea7bf659a317f15029836ed500ce3409b138277ebaf5c8c13
+    evidence_pages:
+    - 1
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 등록공고상표공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500c87a2952a9b1d44bd2d6c1febeb8e6b164f68c8e4337dd42216111bcbe0bcce04de4688abbc1050863f4224869cf615
+    sha256: 6b3e0f349f423307ec446c1e77cef43245dbd417855a7e3da885452ef33a412d
+    evidence_pages:
+    - 1
+  registration_gazette_visual_verified: true
+- audit_key: ip-2022-3-0008
+  category: intellectual-property
+  subtype: trademark
+  application_number: 40-2022-0043571
+  application_date: '2022-03-08'
+  registration_number: 40-1883051
+  registration_date: '2022-06-27'
+  application_publication_number: 40-2022-0042853
+  application_publication_date: '2022-04-11'
+  registration_publication_number: 40-2022-0066201
+  registration_publication_date: '2022-06-29'
+  applicant: 한국항공우주연구원
+  registered_owner: 한국항공우주연구원
+  year: 2022
+  year_basis: application_year
+  mapping_basis: 사용자 현황표의 KPLO 표기·상품류·2022년과 공식 공보의 KPLO 문자상표·상품류·출원인 한국항공우주연구원·2022년 출원을 대조. 내부 접수번호는 공식 공보에 없으므로 내부번호 자체의 공식번호 대응을 직접 증명하는 자료는 아님.
+  receipt_number_link_explicitly_documented: false
+  mapping_confidence: high_by_mark_class_applicant_and_year
+  role_note: 출원공보의 출원인 및 등록공보의 상표권자는 한국항공우주연구원. 기존 인명 목록은 현황표의 기재인명이며 공식 상표권자 또는 상표 발명자로 해석하지 않음.
+  title: KPLO (제38류)
+  registered_title: KPLO
+  trademark_class: 38
+  outcome: verified
+  official_detail_url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=4020220043571&right=ktm
+  sources:
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 상표공고공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54283925701f1bafd1a4c49df586384e5a2e0a7a04cc6c4feeae13ad7e1596657bde04681b899aa442ce9491b412150326009ebc86913b4f8e42e32ccde009d3e709
+    sha256: 868c0ac1ce7ecdd9d016d2047d154a98bf27730f49388b992c88493d25528194
+    evidence_pages:
+    - 1
+  - source_type: official_gazette
+    issuer: 대한민국특허청
+    document_title: 등록공고상표공보
+    url: https://plus.kipris.or.kr/openapi/fileToss.jsp?arg=14f01eafc94d54282c43c4498d820543c3a541a36fa665500c87a2952a9b1d44a8cde17d3114b977a9667fac376a3eb38b707d8537958bad59a79146ddd43a87f6419981eb8511bd
+    sha256: 98a5104e5316f2c65c0470c892306850357de20e020242412ab557167eafe1f5
+    evidence_pages:
+    - 1
+  registration_gazette_visual_verified: true
+- audit_key: ip-2010-5-0077
+  category: software
+  verified_title: 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출 프로그램
+  registration_number: S-2010-008688
+  registration_date: '2010-12-29'
+  creation_date: '2010-10-10'
+  copyright_author: 한국항공우주연구원
+  registration_authority: 한국저작권위원회
+  record_system_id: G000244709
+  registration_type: 컴퓨터프로그램저작물 저작권 등록
+  match_basis: 제호 완전 일치, 공식 검색의 단일 결과, 한국항공우주연구원 저작자 및 창작·등록연도 2010이 현황표와 일치합니다. 기저선·반송파 두 확장 검색에서도 같은 SYS_ID와 등록번호가 확인됩니다.
+  receipt_to_official_number_confirmed: false
+  receipt_note: 내부 접수번호 2010-5-0077은 공식 공개 레코드에 없어 내부번호 자체의 직접 대응을 입증한 것은 아닙니다. 공식 접수번호 2010-027428도 저작권 등록번호 S-2010-008688과 구분합니다.
+  sources:
+  - https://www.cros.or.kr/page.do?w2xPath=/ui/main/main.xml
+  - https://www.cros.or.kr/psnsys/cmmn/wisenut/search.do?query=%EC%9D%B4%EB%8F%99%EC%B2%B4%EC%9D%98+%EC%86%8D%EB%8F%84%EC%99%80+%EC%95%88%ED%85%8C%EB%82%98+%EA%B8%B0%EC%A0%80%EC%84%A0%EC%9D%84+%ED%99%9C%EC%9A%A9%ED%95%9C+%EB%B0%98%EC%86%A1%ED%8C%8C+%EC%B8%A1%EC%A0%95%EA%B0%92%EC%9D%98+%EA%B3%A0%EC%9E%A5%EA%B2%80%EC%B6%9C+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&sort=SYS_ID&sortOrder=DESC&startCount=1&listCount=100&TOTALVIEWCOUNT=100&collection=reg_copyright
+  - https://www.cros.or.kr/req/reg/selectRegDtlList3.do
+  - https://www.cros.or.kr/req/reg/selectRegDtlList2.do
+  source_requests:
+  - method: POST
+    url: https://www.cros.or.kr/psnsys/cmmn/wisenut/search.do?query=%EC%9D%B4%EB%8F%99%EC%B2%B4%EC%9D%98+%EC%86%8D%EB%8F%84%EC%99%80+%EC%95%88%ED%85%8C%EB%82%98+%EA%B8%B0%EC%A0%80%EC%84%A0%EC%9D%84+%ED%99%9C%EC%9A%A9%ED%95%9C+%EB%B0%98%EC%86%A1%ED%8C%8C+%EC%B8%A1%EC%A0%95%EA%B0%92%EC%9D%98+%EA%B3%A0%EC%9E%A5%EA%B2%80%EC%B6%9C+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&sort=SYS_ID&sortOrder=DESC&startCount=1&listCount=100&TOTALVIEWCOUNT=100&collection=reg_copyright
+    body: ''
+    result_count: 1
+  - method: POST
+    url: https://www.cros.or.kr/req/reg/selectRegDtlList3.do
+    body:
+      dm_regDtlSchMap:
+        sysId: G000244709
+        regId: S-2010-008688
+        rgdcKdCd: S
+  - method: POST
+    url: https://www.cros.or.kr/req/reg/selectRegDtlList2.do
+    body:
+      dm_regDtlSchMap:
+        sysId: G000244709
+        regId: S-2010-008688
+        rgdcKdCd: S
+  verified_fields_evidence:
+    registration_number: 검색 REG_ID 및 상세 regId
+    registration_date: 상세 regDt=2010-12-29; 공식 공개 UI 스키마에서 등록일자 항목임을 확인
+    creation_date: '상세 creaYmd=20101010 및 regCausTxt=창작 : 2010.10.10'
+    copyright_author: 상세 authorNm 및 regCausTxt의 저작자=한국항공우주연구원
+  role_note: 기존 이은성·박재익·허문범은 현황표 기재인명/연구참여 정보로 보존하되, 공식 등록 저작자인 한국항공우주연구원과 구분합니다. 이 세 사람을 개인 저작권자로 단정하지 않습니다.
+  identifier_note: 같은 주제의 2010년 학술논문(legacy-014)과 별개 소프트웨어 등록입니다. 논문 DOI나 고장검출 특허의 출원번호를 이 프로그램의 식별자로 사용하지 않았습니다. S- 접두어를 C-로 임의 변경하지 않습니다.
+  limitations:
+  - CROS 공개 상세 화면 직접 링크는 로그인 화면으로 연결되므로 안정적인 공개 permalink를 확보하지 못했습니다. 공개 검색·상세 API의 응답 및 재현 요청을 증거로 보존했습니다.
+  - 등록 사실과 날짜를 확인했으며 등록증 원본을 다운로드하거나 현재 권리 귀속의 전체 변경 이력을 조사한 것은 아닙니다.
+  outcome: verified
+- title: 인공위성
+  subtype: design
+  status: registered
+  application_number: 30-2023-0018859
+  application_date: '2023-05-17'
+  registration_number: 30-1243208
+  registration_date: '2023-12-14'
+  registration_publication_date: '2023-12-19'
+  applicant: 한국항공우주연구원
+  audit_key: ip-2022-4-0001
+  category: intellectual-property
+  registered_owner: 한국항공우주연구원
+  designers:
+  - 김인규
+  - 김일영
+  - 문상만
+  - 임조령
+  - 김형완
+  - 송재훈
+  - 조영호
+  - 김현순
+  - 김대관
+  - 전문진
+  - 박재익
+  - 김주현
+  - 송영주
+  - 배종희
+  - 손승희
+  - 김창균
+  - 홍승범
+  - 김동규
+  - 김은혁
+  - 민승용
+  - 김영록
+  - 신현진
+  - 강범석
+  - 방준
+  - 이상률
+  locarno_class: 12-07
+  official_detail_url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=3020230018859%2CM001&right=kdg
+  mapping_basis: 현황표 25명과 KIPRIS 창작자 25명의 이름 및 배열 순서가 모두 일치합니다. 현황표 제12류 07군과 공식 Locarno 12-07이 일치합니다. 공식 출원인과 권리자는 한국항공우주연구원입니다. 공식 도면은 태양전지판, 접시형 안테나, 장형 붐을 가진 위성입니다. 도면만으로 동정하지 않고 인명·분류·출원인을 함께 대조했습니다.
+  receipt_to_official_number_confirmed: false
+  sources:
+  - https://www.kipris.or.kr/khome/search/searchResult.do?tab=design
+  - https://www.kipris.or.kr/kdtj/grrt1000a.do?method=searchDG
+  - https://www.kipris.or.kr/khome/detail/newWindow.do?applno=3020230018859%2CM001&right=kdg
+  - https://www.kipris.or.kr/kdtj/remoteFile.do?method=imageDG&filePath=%2Ffile14%2FKD_IMG%2F20231219%2F30%2F2023%2F0018%2F3020230018859%2FM001%2F000.jpg&isMain=Y
+  evidence:
+  - url: https://www.kipris.or.kr/khome/search/searchResult.do?tab=design
+    type: official_search_page
+    publisher: KIPRIS
+    supports: 공식 디자인 검색 UI와 실제 검색 폼 확인
+  - url: https://www.kipris.or.kr/kdtj/grrt1000a.do?method=searchDG
+    type: official_search_json_post
+    publisher: KIPRIS
+    method: POST
+    query: 한국항공우주연구원; 별도 출원번호3020230018859 및 박재익 조회로 교차 대조
+    supports: 정식 명칭·출원번호·출원일·등록번호·등록일·공고일·출원인·권리자·창작자·분류·등록결정 상태
+    raw_field_map:
+      title: IT
+      application_number: ANN
+      application_date: AD
+      registration_number: RNN
+      registration_date: RD
+      registration_publication_date: PD
+      applicant: APNM
+      rights_holder: TRH
+      creators: IVN
+      locarno: LC
+  - url: https://www.kipris.or.kr/khome/detail/newWindow.do?applno=3020230018859%2CM001&right=kdg
+    type: official_detail_landing
+    publisher: KIPRIS
+    supports: 공식 UI가 생성하는 개별 출원 상세 창 URL
+    checked: HTML shell HTTP 200. 내부 상세 비동기 호출은 직접 요청에서 오류 페이지 반환.
+  - url: https://www.kipris.or.kr/kdtj/remoteFile.do?method=imageDG&filePath=%2Ffile14%2FKD_IMG%2F20231219%2F30%2F2023%2F0018%2F3020230018859%2FM001%2F000.jpg&isMain=Y
+    type: official_drawing
+    publisher: KIPRIS
+    supports: 해당 출원번호/디자인 M001의 대표 도면
+    checked: HTTP 200 image/jpeg, 71911 bytes, 시각 확인 완료
+  limitations:
+  - 2022-4-0001은 사용자 현황표의 내부 접수번호이며 KIPRIS 공적 출원번호가 아닙니다. 공식 출원은 2023년입니다.
+  - 내부 접수번호가 공식 검색 기록에 직접 기재되지는 않았으나 창작자 25명 순서와 디자인 분류의 일치로 높은 확신으로 매핑했습니다.
+  - 등록 상태는 검색 응답의 등록결정 및 등록번호·등록일 확인입니다. 이후 유지료 납부나 현재 권리 존속을 별도 법률 검증한 것은 아닙니다.
+  - 공식 fullText PDF POST는 오류 페이지로 이동하여 등록공보 PDF 원문은 확보하지 못했습니다. 공식 검색 서지정보와 공식 도면은 확보했습니다.
+  - 개별 상세 링크는 정상 HTML shell을 반환하지만 브라우저 세션에 따라 서지정보 조회가 필요할 수 있습니다.
+  outcome: verified
+- audit_key: ip-2011-1-0085
+  category: patent
+  reported_title: GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법
+  finding: 공개 공식 검색 결과와 관련 연구보고서를 대조했으나 이 내부 제목에 확실히 대응하는 출원·등록번호를 확인하지 못했습니다. 미출원·미등록·권리 소멸을 의미하지 않습니다.
+  sources:
+  - https://www.kipris.or.kr/khome/search/searchResult.do?tab=patent
+  - https://www.kipris.or.kr/kpat/resulta.do
+  - https://www.codil.or.kr/filebank/original/RK/OTKCRK160131/OTKCRK160131.pdf?stream=T
+  - https://www.kaia.re.kr/renewal.html
+  - https://www.kas.org/down/bkas/2012_spring.pdf
+  official_search_coverage:
+  - query: 박재익
+    total_count: 48
+    inspected_count: 48
+    pages:
+    - 1
+    - 2
+    finding: 항우연 출원 6건은 기존 공보이며, 나머지 동명이인·인용문헌 등을 제외했습니다. 2026 열방호/블랙아웃 제목도 이 결과 집합에는 없습니다.
+  - query: 박재익*이은성*허문범
+    total_count: 5
+    inspected_count: 5
+    finding: SBAS TTFF, 기준국 데이터 송수신, 반송파 고장성분 검출, 실시간 데이터 전송, 안테나 플랫폼만 확인됩니다.
+  - query: 미지정수*한국항공우주연구원
+    total_count: 16
+    inspected_count: 16
+    finding: 다른 발명자 또는 기술 목적의 문헌으로서 대상 내부 제목의 대응을 확인하지 못했습니다.
+  - query: GNSS GPS 반송파 미지정수
+    total_count: 61
+    inspected_count: 61
+    pages:
+    - 1
+    - 2
+    - 3
+  - query: GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법
+    total_count: 9
+    inspected_count: 9
+    query_note: 전체 제목을 검색어로 입력했으나 KIPRIS가 키워드 검색으로 처리한 9개 후보이며 완전일치 결과를 뜻하지 않습니다.
+  excluded_matches:
+  - number: 10-2011-0143201
+    title: 위성항법시스템의 반송파 측정값에 대한 고장성분 검출방법
+    source: https://patents.google.com/patent/KR20130075022A/ko
+    reason: 같은 세 발명자가 있으나 고장성분 검출의 별도 기존 특허 legacy-081(현황표 내부번호 2011-1-0187 대응)입니다. 미지정수 결정 성능향상 제목과 연결하는 근거가 없습니다.
+  - number: 10-1488134
+    title: 구조물의 동적 변위 측정장치 및 그 방법
+    source: https://patentimages.storage.googleapis.com/b5/8d/07/1d2f715e380a12/KR101488134B1.pdf
+    reason: 발명자는 이흥규, 특허권자는 창원대학교 산학협력단입니다. 박재익 논문이 선행기술조사문헌으로 인용되었을 뿐 대상 발명자의 특허가 아닙니다.
+  - number: 10-0946167
+    title: GPS반송파 측정값의 미지정수 결정방법
+    source: https://www.kipris.or.kr/kpat/resulta.do
+    reason: 2007-12-28 출원, 2010-03-02 등록. 발명자 이은성·강우용·허문범·주정민·남기욱으로 박재익이 없고 현황표 2011년 항목과 연결되지 않습니다.
+  - title: 실시간 다중 기준국 GNSS/GPS 반송파 미지정수 결정 기술 연구
+    source: https://www.kas.org/down/bkas/2012_spring.pdf
+    reason: 같은 세 사람이 쓴 2012년 학술발표 초록이며 특허공보나 출원·등록 식별자가 아닙니다.
+  report_review:
+    url: https://www.codil.or.kr/filebank/original/RK/OTKCRK160131/OTKCRK160131.pdf?stream=T
+    title: 위성항법기반 교통인프라 기술개발 최종보고서
+    date: '2015-12-29'
+    relevant_pdf_pages:
+    - 367
+    - 368
+    - 369
+    - 370
+    - 371
+    printed_pages:
+    - '301'
+    - '302'
+    - '303'
+    - '304'
+    - '305'
+    finding: 특허 출원·등록 및 소프트웨어 등록 성과표를 전부 확인했으나 대상 내부 제목과 정확히 대응하는 항목을 찾지 못했습니다. 이 보고서의 누락만으로 출원·등록이 없다고 판단하지 않습니다.
+  limitations:
+  - KIPRIS 검색 대상은 현재 공개 검색 가능한 문헌입니다. 공개 전·비공개·서지 누락 또는 내부 제목 변경 사례를 전부 배제할 수 없습니다.
+  - KAIA 공식 과제·성과 페이지 직접 접속은 2026-10-03~05 개편 안내로 이동해 상세 목록을 직접 확인하지 못했습니다.
+  - NTIS 공개 웹 색인에 제목·인명 조합의 대응 결과가 없었고 직접 검색 URL도 도구 접근 오류가 발생하여 NTIS 내부 전체 결과 검토를 주장하지 않습니다.
+  - 내부 접수번호와 공식 출원번호를 연결하는 자체 대장 또는 해당 출원 서류가 공개되어 있지 않아 현재 확보한 자료만으로 대응을 확정할 수 없습니다.
+  outcome: unconfirmed
+  display_excluded: true
+  exclusion_reason: 공개 조사 후 사용자 요청으로 실적 목록에서 제외.
+- audit_key: ip-2026-1-0033
+  category: patent
+  reported_title: 통신 블랙아웃 저감을 위한 친전자성 나노입자 함유 다층 열방호 시스템 및 그 제조 방법
+  outcome: unconfirmed
+  finding: 정확 제목·기술어·인명 조합의 공개 웹 검색 및 KIPRIS 공개 결과에서 확실히 대응하는 출원·등록번호를 확인하지 못했습니다. 출원 여부 또는 미공개 사유를 추정하지 않습니다.
+  sources:
+  - https://www.kipris.or.kr/khome/search/searchResult.do?tab=patent
+  - https://www.kipris.or.kr/kpat/resulta.do
+  official_search_coverage:
+  - query: 박재익
+    total_count: 48
+    inspected_count: 48
+    finding: 전체 두 페이지의 공개 문헌에서 해당 제목·기술에 대응하는 항우연 특허를 확인하지 못함.
+  - query: 블랙아웃*박재익
+    total_count: 0
+    inspected_count: 0
+  - query: 친전자성*열방호
+    total_count: 15
+    inspected_count: 15
+    finding: 한국항공우주연구원 출원 또는 해당 발명에 대응하는 결과 없음.
+  - query: 블랙아웃*나노입자
+    total_count: 4307
+    inspected_count: 30
+    finding: 첫 페이지 후보 검토; 전체 결과를 검토한 것으로 해석하지 않음.
+  - query: 블랙아웃*한국항공우주연구원
+    total_count: 148
+    inspected_count: 30
+    finding: 첫 페이지 후보 검토; 전체 결과를 검토한 것으로 해석하지 않음.
+  limitations:
+  - 공개 검색 결과에 없다는 사실은 미출원·미등록을 뜻하지 않습니다. 내부 접수번호를 공식 출원번호와 연결하는 자료가 없어 unknown을 유지합니다.
+coverage:
+  trademarks:
+  - provider: KIPRIS official trademark search
+    method: POST
+    endpoint: https://www.kipris.or.kr/kdtj/grrt1000a.do?method=searchTM
+    query: KPLO
+    result_code: '00'
+    total_results: 33
+    retrieved_results: 33
+    requested_page_size: 90
+    pages_retrieved:
+    - 1
+    exact_mark_KPLO_count: 6
+  - provider: KIPRIS official trademark search
+    method: POST
+    endpoint: https://www.kipris.or.kr/kdtj/grrt1000a.do?method=searchTM
+    query: KPLO*한국항공우주연구원
+    result_code: '00'
+    total_results: 22
+    retrieved_results: 22
+    requested_page_size: 90
+    pages_retrieved:
+    - 1
+    exact_mark_KPLO_count: 6
+  - provider: KIPRIS official trademark search
+    method: POST
+    endpoint: https://www.kipris.or.kr/kdtj/grrt1000a.do?method=searchTM
+    query: 케이피엘오
+    result_code: '00'
+    total_results: 22
+    retrieved_results: 22
+    requested_page_size: 90
+    pages_retrieved:
+    - 1
+    exact_mark_KPLO_count: 0
+  design:
+    sources:
+    - KIPRIS 공식 국내 디자인 검색
+    - KIPRIS 공식 대표 도면
+    applicant_query:
+      query: 한국항공우주연구원
+      total_claimed: 66
+      inspected_count: 66
+      pages:
+      - 1
+      - 2
+      - 3
+      matched_satellite_record_count: 1
+    creator_query:
+      query: 박재익
+      total_claimed: 56
+      inspected_count: 56
+      pages:
+      - 1
+      - 2
+      matched_kari_satellite_record_count: 1
+    additional_queries:
+    - query: 박재익
+      page: 1
+      result_code: '00'
+      total_claimed: 56
+      inspected_count: 30
+    - query: 다누리
+      page: 1
+      result_code: '00'
+      total_claimed: 3
+      inspected_count: 3
+    - query: KPLO
+      page: 1
+      result_code: '98'
+      total_claimed: 0
+      inspected_count: 0
+    - query: 달궤도선
+      page: 1
+      result_code: '98'
+      total_claimed: 0
+      inspected_count: 0
+    - query: '3020230018859'
+      page: 1
+      result_code: '00'
+      total_claimed: 1
+      inspected_count: 1
+    - query: 박재익
+      page: 2
+      result_code: '00'
+      total_claimed: 56
+      inspected_count: 26
+    general_web_search: 항우연·디자인·달궤도선·인공위성·다누리 조합으로 공개 검색 후, 공식 KIPRIS 전체 결과를 주 근거로 채택했습니다.
+  legacy:
+    scope:
+    - ip-2010-5-0077
+    - ip-2011-1-0085
+    methods:
+    - 새 공개 웹 검색
+    - 한국저작권위원회 CROS 공식 공개 검색·상세 API
+    - KIPRIS 공식 특허 검색 API의 해당 결과 전체 페이지 검토
+    - CODIL 국토교통부 최종보고서 성과표 대조
+    cros_queries:
+    - query: 이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출 프로그램
+      total: 1
+      inspected: 1
+    - query: 기저선
+      total: 8
+      inspected: 8
+    - query: 반송파
+      total: 85
+      inspected: 85
+    kipris_queries:
+    - query: 박재익
+      total_count: 48
+      inspected_count: 48
+      pages:
+      - 1
+      - 2
+      finding: 항우연 출원 6건은 기존 공보이며, 나머지 동명이인·인용문헌 등을 제외했습니다. 2026 열방호/블랙아웃 제목도 이 결과 집합에는 없습니다.
+    - query: 박재익*이은성*허문범
+      total_count: 5
+      inspected_count: 5
+      finding: SBAS TTFF, 기준국 데이터 송수신, 반송파 고장성분 검출, 실시간 데이터 전송, 안테나 플랫폼만 확인됩니다.
+    - query: 미지정수*한국항공우주연구원
+      total_count: 16
+      inspected_count: 16
+      finding: 다른 발명자 또는 기술 목적의 문헌으로서 대상 내부 제목의 대응을 확인하지 못했습니다.
+    - query: GNSS GPS 반송파 미지정수
+      total_count: 61
+      inspected_count: 61
+      pages:
+      - 1
+      - 2
+      - 3
+    - query: GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법
+      total_count: 9
+      inspected_count: 9
+      query_note: 전체 제목을 검색어로 입력했으나 KIPRIS가 키워드 검색으로 처리한 9개 후보이며 완전일치 결과를 뜻하지 않습니다.
+    web_queries:
+    - '"이동체의 속도와 안테나 기저선을 활용한 반송파 측정값의 고장검출 프로그램"'
+    - '"GNSS/GPS 반송파 위상 실시간 미지정수 결정 성능향상 방법"'
+    - '"미지정수" "박재익" "특허"'
+    - '"안테나 기저선" "프로그램" site:kaia.re.kr'
+    - '"안테나 기저선" site:ntis.go.kr'
+    - site:cros.or.kr "반송파"
+    - site:findcopyright.or.kr "반송파"
+    - site:kipris.or.kr "미지정수" "박재익"
+    - '"위성항법기반 교통인프라 기술개발" "최종보고서" pdf'
+    privacy: 결과와 보존 API 증거에서 주소·생년월일·주민/법인 식별번호를 제거했습니다. 사이트 소스와 사용자 원본을 수정하지 않았습니다.
+similar_marks_not_merged:
+  official_mark: DANURI KPLO
+  official_search_result_count: 16
+  application_years:
+  - '2023'
+  class_38_records:
+  - application_number: '4020230108338'
+    application_date: 2023.06.20
+    registration_number: '4021304050000'
+    registration_date: 2023.12.21
+  decision: 2023년 출원한 별도 상표문자이므로 2022년 KPLO 현황표 항목의 번호로 사용하거나 이번 범위의 추가 실적으로 반영하지 않음.
+summary_basis: 공개 검색 완료 당시의 조사 범위와 표시 건수. 이후 사용자 요청 제외는 subsequent_display_update 참조.
+subsequent_display_update:
+  checked_on: '2026-10-03'
+  excluded_record: ip-2011-1-0085
+  reason: 사용자 요청으로 실적 목록에서 제외.
+  total_displayed: 157
+  displayed_unconfirmed_records: 1

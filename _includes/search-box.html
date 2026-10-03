@@ -5,11 +5,12 @@
     class="search-input"
     oninput="onSearchInput(this)"
     placeholder="{{ site.data.i18n[lang].search-placeholder }}"
+    aria-label="{{ site.data.i18n[lang].search-placeholder }}"
   />
   <button
     disabled
     data-tooltip="{{ site.data.i18n[lang].search-clear }}"
-    aria-label="clear search"
+    aria-label="{{ site.data.i18n[lang].search-clear }}"
     onclick="onSearchClear()"
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}

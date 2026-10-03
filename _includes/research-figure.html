@@ -1,0 +1,48 @@
+{%- comment -%}
+  Research figure.
+  Diagram (default): images/research/<topic>.svg, 960 x 420.
+  Photo: image="<file in images/research>" width="<px>" height="<px>"
+         credit="<credit line required by the source>" source="<URL of the original image page>"
+{%- endcomment -%}
+{%- if include.image -%}
+  {%- assign figure_url = '/images/research/' | append: include.image | relative_url -%}
+  {%- assign figure_width = include.width -%}
+  {%- assign figure_height = include.height -%}
+{%- else -%}
+  {%- assign figure_url = '/images/research/' | append: include.topic | append: '.svg' | relative_url -%}
+  {%- assign figure_width = 960 -%}
+  {%- assign figure_height = 420 -%}
+{%- endif -%}
+{%- assign research_asset_version = site.time | date: '%s' -%}
+{%- assign figure_url = figure_url | append: '?v=' | append: research_asset_version -%}
+{%- if page.lang == 'en' -%}
+  {%- assign figure_label = 'View full-size diagram' -%}
+  {%- if include.image -%}{%- assign figure_label = 'View full-size image' -%}{%- endif -%}
+  {%- assign credit_label = 'Image' -%}
+{%- else -%}
+  {%- assign figure_label = '그림 크게 보기' -%}
+  {%- if include.image -%}{%- assign figure_label = '사진 크게 보기' -%}{%- endif -%}
+  {%- assign credit_label = '이미지' -%}
+{%- endif %}
+<figure class="research-figure{% if include.image %} research-photo{% endif %}{% if include.compact %} research-figure--compact{% endif %}">
+  <a href="{{ figure_url }}" aria-label="{{ include.caption | escape }} — {{ figure_label }}">
+    <img
+      src="{{ figure_url }}"
+      alt="{{ include.alt | default: include.caption | escape }}"
+      width="{{ figure_width }}"
+      height="{{ figure_height }}"
+      loading="lazy"
+      decoding="async"
+    >
+  </a>
+  <figcaption>
+    <span>
+      {{- include.caption | escape -}}
+      {%- if include.credit %}
+      <span class="research-figure-credit">{{ credit_label }}:
+        {% if include.source %}<a href="{{ include.source }}">{{ include.credit | escape }}</a>{% else %}{{ include.credit | escape }}{% endif %}</span>
+      {%- endif -%}
+    </span>
+    <a href="{{ figure_url }}">{{ figure_label }}</a>
+  </figcaption>
+</figure>

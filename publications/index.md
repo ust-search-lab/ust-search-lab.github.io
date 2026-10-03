@@ -7,8 +7,10 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-book-open" %}Publications
+{: .page-title }
 
-SEARCH Lab의 논문 목록입니다. 목록은 ORCID에 등록된 연구성과를 바탕으로 자동으로 갱신됩니다.
+SEARCH Lab의 연구성과를 논문·기고, 학술대회 발표, 특허, 소프트웨어, 상표·디자인으로 나누어 소개합니다.
+{: .page-intro }
 
 {% include section.html %}
 
@@ -16,4 +18,4 @@ SEARCH Lab의 논문 목록입니다. 목록은 ORCID에 등록된 연구성과�
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include publications.html %}

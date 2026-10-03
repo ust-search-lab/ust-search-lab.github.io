@@ -1,0 +1,26 @@
+{%- assign video_url = '/videos/research/' | append: include.file | relative_url -%}
+{%- assign poster_url = '/images/research/' | append: include.poster | relative_url -%}
+{%- if page.lang == 'en' -%}
+  {%- assign video_link_label = 'Open video' -%}
+{%- else -%}
+  {%- assign video_link_label = '영상 열기' -%}
+{%- endif -%}
+<figure class="research-video">
+  <video
+    controls
+    playsinline
+    preload="none"
+    width="1280"
+    height="720"
+    poster="{{ poster_url }}"
+    aria-label="{{ include.title | escape }}"
+    aria-describedby="{{ include.id }}-caption"
+  >
+    <source src="{{ video_url }}" type="video/mp4">
+    <a href="{{ video_url }}">{{ video_link_label }}</a>
+  </video>
+  <figcaption id="{{ include.id }}-caption">
+    <span>{{ include.title | escape }}</span>
+    <a href="{{ video_url }}">{{ video_link_label }}</a>
+  </figcaption>
+</figure>

@@ -7,48 +7,67 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}For Students
+{: .page-title }
+
+Learn about foundational study, the research process, and degree-level goals for students at SEARCH Lab.
+{: .page-intro }
 
 {% include section.html %}
 
-## Research Supervision Approach
+## Research Goals and Supervision
 
-SEARCH Lab aims to help student researchers build a solid foundation in orbital mechanics, astrodynamics, space mission design, and system architecture, and grow into researchers who can apply it to real space development programs and in-orbit demonstration missions. Research activities progress through theoretical study, building numerical analysis and simulation skills, applying them to mission design problems, participating in national R&D programs, and producing research outcomes.
+SEARCH Lab helps students develop the ability to define and solve space mission design problems independently. Starting with theory and practical analysis, students learn to interpret mission requirements, compare design alternatives, and use their results to assess mission feasibility.
 
-In their first stage, student researchers learn the fundamentals of orbital mechanics, astrodynamics, numerical analysis, optimization and optimal control, programming, and satellite and exploration mission systems, and then join the lab's main research topics step by step. We guide them beyond simply using analysis tools, toward understanding the requirements of space missions, analyzing the effects of design variables, and judging whether a mission is feasible.
+## Foundational Study and Practical Analysis
 
-## Building Foundational Research Skills
+Early study builds on each student's academic background and research interests. The main areas are listed below; specific topics and their sequence are adapted to the student's research.
 
-In the early stage after admission, student researchers focus on the common foundational skills required for space exploration architecture and space mission design. Key topics include the two-body problem and orbital elements, orbit transfers, orbital perturbations, satellite orbit analysis, spacecraft trajectory design, mission requirements analysis, numerical integration, and optimization and optimal control techniques.
+- **Orbital mechanics and astrodynamics**: the two-body problem, orbital elements, orbital transfers and perturbations, satellite orbit analysis, and spacecraft trajectory design
+- **Mission design and spacecraft systems**: space exploration architecture, satellite and exploration spacecraft systems, mission requirements analysis, and concepts of operations
+- **Numerical analysis and programming**: numerical integration, optimization and optimal control, and implementation of analytical models and simulation code
 
-Students also use analysis tools such as Python, MATLAB, STK, and GMAT to work through basic problems in orbit propagation, orbit transfer, visibility analysis, mission scenario analysis, and trajectory optimization. These exercises build the common foundation needed to participate in the lab's main research topics and national R&D programs.
+Students use tools such as Python, MATLAB, STK, and GMAT as appropriate to the problem. Exercises in orbit propagation, orbital transfers, communications visibility, and trajectory optimization help students learn to assess model assumptions and check whether their results are valid.
 
-## Research Areas for Student Participation
+## Choosing and Developing a Research Topic
 
-Considering the lab's research direction and their own interests, student researchers can join one or more of the following topics.
+Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. Specific research questions can be developed in the following areas.
 
-The main areas are space exploration architecture and mission design, deep-space trajectory design and optimization, optimal control-based trajectory design, lunar and planetary exploration mission design, satellite orbit and constellation mission analysis, space communication relay mission analysis, planetary entry, descent, and landing technology, CubeSat-class satellite development and in-orbit demonstration mission design, and solar sail-based deep-space mission design.
+- Space exploration architecture and lunar and planetary mission design
+- Deep-space trajectory design, optimization, and optimal control
+- Satellite orbit and constellation mission analysis
+- Space communications relay mission analysis and deep-space optical communications
+- Planetary entry, descent, and landing technology
+- Atmospheric re-entry and thermal protection systems
+- CubeSat-class satellite development and in-orbit demonstration mission design
+- Solar sail-based deep-space mission design
 
-Each topic involves defining mission requirements, analyzing orbits and trajectories, analyzing sensitivity to design variables, deriving performance metrics, building simulation models, and verifying and documenting results. In this way, student researchers accumulate both theoretical understanding and hands-on mission design experience.
+For example, a project in deep-space optical communications might involve calculating a link budget and estimating data return based on communications visibility along a trajectory and weather conditions at optical ground stations. See the [Research page]({{ '/en/research/' | relative_url }}) for descriptions of each area.
 
-## Links to National R&D Programs and In-Orbit Demonstration Missions
+Once a topic is selected, students refine their objectives and performance metrics through literature review and preliminary analysis. They then build analytical and simulation models, examine how design variables affect performance, and document the validity and limitations of their results.
 
-Student researchers can participate in national R&D programs carried out at the Korea Aerospace Research Institute (KARI) and experience the R&D processes required in real space development. Depending on the project, they take part in mission design, system analysis, performance verification, operations concept development, simulation model development, and technical documentation.
+## Research Projects and In-Space Demonstration
 
-Linked to CubeSat-class satellite development and in-orbit demonstration missions, students also experience how the mission concepts they analyze and design lead to actual hardware development, ground testing, operations scenarios, and space environment verification. Through this, they build practical research skills that extend beyond theory and simulation to the implementation of real space missions.
+Students may participate in national R&D programs at the Korea Aerospace Research Institute (KARI), depending on project availability and development schedules. Responsibilities reflect project requirements and the student's research topic, and may include mission design, system analysis, performance verification, development of concepts of operations, simulation model development, and technical documentation.
 
-## Research Outcomes and Career Guidance
+Students involved in CubeSat-class satellite development or in-space demonstration missions may gain experience in hardware development, ground testing, operational scenario development, and performance verification in space, depending on the development stage. These activities help students understand how design and analysis lead to fabrication, testing, and operations.
 
-Students' research activities are guided toward concrete outcomes such as theses and dissertations, presentations at domestic and international conferences, journal articles, technical reports, mission design products, and simulation code. Early on, students define research problems through basic analysis and literature review, then develop them into independent research topics through simulation and design analysis.
+## Research Goals by Degree
 
-Master's students set a well-defined research topic related to space mission design or orbit analysis and are guided to present at conferences and submit papers within their degree period. Doctoral students are guided to propose new mission design methodologies, analysis procedures, and system design concepts based on more independent research topics.
+The scope and depth of research reflect the degree being pursued, with the following goals.
 
-Ultimately, SEARCH Lab systematically supports student researchers in building expertise in space exploration architecture, astrodynamics, and space mission design, and in growing into researchers who can contribute to national space development programs and future exploration missions.
+{: .students-degrees role="list" }
+- **Master's students** define a focused question in space mission design or orbit analysis, apply appropriate analytical methods, and obtain and validate results. They develop this work into a thesis and aim to present at conferences and submit journal articles during their studies.
+- **Doctoral students** identify an original research question based on limitations in existing work and pursue it independently. They aim to propose new mission design methods, analytical procedures, or system design concepts, and assess their contribution and applicability.
+
+Depending on the topic and type of work, results are documented in theses and dissertations, conference presentations, journal articles, technical reports, mission design documents, and simulation code. Students learn to explain their findings and record model assumptions, analytical procedures, and validation evidence so that others can review their work.
 
 {% include section.html %}
 
-## Textbooks and Key Learning Resources
+## Textbooks and Reference Materials
 
-To build the foundation needed for research, student researchers study key textbooks and literature step by step in orbital mechanics, astrodynamics, space mission design, systems engineering, optimization and optimal control, planetary entry, descent, and landing, and solar sail astrodynamics.
+These resources support study from foundational theory to advanced research topics. Students select relevant textbooks and papers according to their academic background and research topic, and consult them as their study and research progress.
+
+Textbooks include a print ISBN-13, a book information link, and an Amazon search link. Papers and online resources link to a DOI or the original source.
 
 ### Orbital Mechanics and Astrodynamics
 
@@ -62,7 +81,7 @@ To build the foundation needed for research, student researchers study key textb
 
 {% include references/optimal-control.md %}
 
-### Mars EDL and Entry Systems
+### Planetary Entry, Descent, and Landing
 
 {% include references/edl.md %}
 
@@ -70,7 +89,11 @@ To build the foundation needed for research, student researchers study key textb
 
 {% include references/solar-sail.md %}
 
-### Topic-Specific Resources
+### Deep-Space Optical Communications
 
-{:start="19"}
-19. Mission design documents, technical reports, system requirements documents, and related research papers from space agencies such as NASA, ESA, JAXA, and KARI.
+{% include references/optical-communications.md %}
+
+### Space Agency Technical Documents and Research Papers
+
+{:start="22"}
+22. Mission design documents, technical reports, system requirements documents, and related research papers from space agencies such as NASA, ESA, JAXA, and KARI.

@@ -1,0 +1,85 @@
+{% assign home_lang = page.lang | default: "ko" %}
+{% assign home_copy = site.data.home[home_lang] %}
+{% assign research_topics = site.data.research-topics %}
+
+<div class="home-intro">
+  <div>
+    <p class="home-eyebrow">{{ home_copy.identity }}</p>
+    <h1>{{ home_copy.headline }} <span>{{ home_copy.headline_accent }}</span></h1>
+  </div>
+  <div class="home-intro-copy">
+    <p>{{ home_copy.introduction }}</p>
+    <div class="home-actions">
+      <a class="home-button action-button" href="#research-areas">{{ home_copy.research_link }} <span aria-hidden="true">↗</span></a>
+      <a class="home-text-link" href="{{ home_copy.about_path | relative_url }}">{{ home_copy.about_link }} <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</div>
+
+{% include section.html %}
+
+<div class="home-section-heading">
+  <div>
+    <p class="home-eyebrow">{{ home_copy.methods_eyebrow }}</p>
+    <h2 id="research-methods">{{ home_copy.methods_title }}</h2>
+  </div>
+  <p>{{ home_copy.methods_description }}</p>
+</div>
+<div class="home-method-grid">
+  {% for method in research_topics.methods %}
+    {% assign method_copy = method[home_lang] %}
+    {% assign method_url = home_copy.research_path | append: '#' | append: method.id %}
+    <a class="home-method" href="{{ method_url | relative_url }}">
+      <div class="home-method-top"><span class="home-number">0{{ forloop.index }}</span><span aria-hidden="true">{% include icon.html icon=method.icon %}</span></div>
+      <h3>{{ method_copy.title }}</h3>
+      <p>{{ method_copy.summary }}</p>
+      <span class="home-method-arrow" aria-hidden="true">↗</span>
+    </a>
+  {% endfor %}
+</div>
+
+{% include section.html %}
+
+<div class="home-section-heading">
+  <div>
+    <p class="home-eyebrow">{{ home_copy.applications_eyebrow }}</p>
+    <h2 id="research-areas">{{ home_copy.applications_title }}</h2>
+  </div>
+  <p>{{ home_copy.applications_description }}</p>
+</div>
+<div class="home-topic-grid">
+  {% for topic in research_topics.applications %}
+    {% assign topic_copy = topic[home_lang] %}
+    {% assign topic_url = home_copy.research_path | append: '#' | append: topic.id %}
+    {% assign topic_photo = site.data.home-images[topic.id] %}
+    {% assign photo_copy = topic_photo[home_lang] %}
+    <article class="home-topic">
+      <figure class="home-topic-image">
+        <div class="home-topic-visual">
+          <img src="{{ topic_photo.image | relative_url }}" alt="{{ photo_copy.alt | escape }}" width="{{ topic_photo.width }}" height="{{ topic_photo.height }}" style="object-position: {{ topic_photo.position | default: '50% 50%' }}; object-fit: {{ topic_photo.fit | default: 'cover' }}; background: {{ topic_photo.background | default: '#071b32' }}" loading="lazy" decoding="async">
+          <span class="home-topic-number" aria-hidden="true">0{{ forloop.index }}</span>
+        </div>
+        <figcaption class="home-photo-credit">{{ photo_copy.caption }} · <a href="{{ topic_photo.source | escape }}">{{ photo_copy.credit | default: topic_photo.credit | escape }}</a></figcaption>
+      </figure>
+      <div class="home-topic-copy">
+        <h3><a href="{{ topic_url | relative_url }}">{{ topic_copy.title }}</a></h3>
+        <p>{{ topic_copy.summary }}</p>
+        <a class="home-topic-link" href="{{ topic_url | relative_url }}">{{ home_copy.topic_link }} <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+{% include section.html %}
+
+<div class="home-join" data-dark="true">
+  <div>
+    <p class="home-eyebrow">{{ home_copy.join_eyebrow }}</p>
+    <h2>{{ home_copy.join_title }}</h2>
+    <p>{{ home_copy.join_description }}</p>
+  </div>
+  <div class="home-actions">
+    <a class="home-button action-button" href="{{ home_copy.students_path | relative_url }}">{{ home_copy.students_link }} <span aria-hidden="true">↗</span></a>
+    <a class="home-text-link" href="{{ home_copy.contact_path | relative_url }}">{{ home_copy.contact_link }} <span aria-hidden="true">→</span></a>
+  </div>
+</div>

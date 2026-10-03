@@ -1,0 +1,15 @@
+- id: kari
+  ko:
+    name: 한국항공우주연구원 (KARI)
+    url: https://www.kari.re.kr/kor
+  en:
+    name: KARI · Korea Aerospace Research Institute
+    url: https://www.kari.re.kr/eng
+
+- id: ust
+  ko:
+    name: UST 과학기술연합대학원대학교
+    url: https://www.ust.ac.kr/kor/
+  en:
+    name: UST · University of Science & Technology
+    url: https://www.ust.ac.kr/eng/

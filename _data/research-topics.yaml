@@ -1,0 +1,69 @@
+methods:
+  - id: architecture
+    icon: fa-solid fa-diagram-project
+    ko:
+      title: 임무 아키텍처와 시스템 분석
+      summary: 탐사 목표를 임무 요구조건과 운용개념으로 구체화하고 비행경로·탐사선·통신·착륙 조건을 함께 분석합니다.
+    en:
+      title: Mission Architecture and Systems Analysis
+      summary: We translate exploration goals into mission requirements and operations concepts, analyzing interactions between trajectories, spacecraft, communications, and landing constraints.
+  - id: dynamical-systems
+    icon: fa-solid fa-infinity
+    ko:
+      title: 동역학계 이론과 다체 궤도역학
+      summary: 다체계의 주기궤도와 불변다양체를 활용해 저에너지 전이와 비케플러 궤도의 설계공간을 탐색하고자 합니다.
+    en:
+      title: Dynamical Systems and Multi-Body Astrodynamics
+      summary: We aim to use periodic orbits and invariant manifolds in multi-body systems to explore low-energy transfers and non-Keplerian orbit design.
+  - id: astrodynamics
+    icon: fa-solid fa-route
+    ko:
+      title: 우주비행역학과 정밀 궤도해석
+      summary: 중력과 궤도섭동을 반영한 정밀 모델로 탐사선 궤도를 분석하고 전이·궤도삽입·기동 전략을 평가합니다.
+    en:
+      title: Astrodynamics and High-Fidelity Orbit Analysis
+      summary: We analyze spacecraft trajectories with high-fidelity gravity and perturbation models to assess transfers, orbit insertion, and maneuver strategies.
+  - id: optimization
+    icon: fa-solid fa-chart-line
+    ko:
+      title: 수치최적화와 최적제어
+      summary: 발사 시기·비행시간·추진제·임무 제약의 상충관계를 분석해 비행경로와 착륙 유도·제어 전략을 연구합니다.
+    en:
+      title: Numerical Optimization and Optimal Control
+      summary: We examine trade-offs among launch timing, flight time, propellant use, and mission constraints to study trajectories, landing guidance, and control.
+applications:
+  - id: planetary
+    ko:
+      title: 달·행성 탐사 임무설계
+      summary: 달·행성 탐사의 목표에 맞는 궤도와 착륙지를 검토하고 관측·통신 조건을 반영한 임무와 운용 시나리오를 설계합니다.
+    en:
+      title: Lunar and Planetary Mission Design
+      summary: We design lunar and planetary missions by assessing orbits, landing sites, observation opportunities, and communications geometry to develop operations scenarios.
+  - id: entry-systems
+    ko:
+      title: 대기권 진입·착륙과 열보호
+      summary: 행성의 진입·하강·착륙과 지구 재진입을 함께 다루며 비행경로, 감속하중, 열환경과 열보호시스템을 연구합니다.
+    en:
+      title: Atmospheric Entry, Landing, and Thermal Protection
+      summary: We study planetary entry, descent, and landing alongside Earth re-entry, examining trajectories, deceleration loads, thermal environments, and thermal protection systems.
+  - id: solar-sail
+    ko:
+      title: 태양돛과 심우주 탐사
+      summary: 태양복사압에 의한 추력과 돛 자세의 관계를 분석해 장기 비행경로와 미래 심우주 탐사·우주실증 임무를 설계합니다.
+    en:
+      title: Solar Sails and Deep-Space Exploration
+      summary: We study solar radiation pressure and sail attitude to design long-duration trajectories and plan future deep-space exploration and in-space demonstration missions.
+  - id: optical-communications
+    ko:
+      title: 심우주 광통신
+      summary: 탐사선의 비행경로·자세와 지상국 환경을 고려해 광통신 성능, 시스템 요구조건과 운용 방안을 연구하고자 합니다.
+    en:
+      title: Deep-Space Optical Communications
+      summary: We aim to study optical link performance, system requirements, and operations under spacecraft trajectory, attitude, and ground station environmental constraints.
+  - id: cubesat
+    ko:
+      title: 큐브샛 개발과 우주실증
+      summary: 임무설계부터 지상시험과 궤도상 운용까지의 개발 과정을 다루며 큐브샛을 통한 기술 검증 방법을 연구합니다.
+    en:
+      title: CubeSat Development and In-Orbit Demonstration
+      summary: We study CubeSat technology demonstration methods across the development process, from mission design and ground testing to in-orbit operations.
