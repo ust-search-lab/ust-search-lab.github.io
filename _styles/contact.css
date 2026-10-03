@@ -35,13 +35,14 @@ main[data-page=contact] .contact-welcome strong {
 }
 main[data-page=contact] .contact-email-card {
   min-width: 0;
-  padding: 24px;
+  padding: var(--card-padding);
   border: 1px solid var(--light-gray);
   border-radius: var(--rounded);
   background: var(--background);
 }
 main[data-page=contact] .contact-email-card h3 {
-  font-size: 1.05rem;
+  font-size: var(--card-title-size);
+  font-weight: var(--bold);
 }
 main[data-page=contact] .contact-email-card h3, main[data-page=contact] .contact-email-card p {
   text-align: center;
@@ -54,7 +55,7 @@ main[data-page=contact] .contact-person span {
   display: block;
   margin-top: 8px;
   color: var(--dark-gray);
-  font-size: 0.85rem;
+  font-size: var(--meta-size);
 }
 main[data-page=contact] .contact-button {
   display: flex;
@@ -82,7 +83,7 @@ main[data-page=contact] .contact-checklist strong {
 }
 main[data-page=contact] .contact-security {
   margin-top: 32px;
-  padding: 24px;
+  padding: var(--card-padding);
   border: 1px solid var(--light-gray);
   border-radius: var(--rounded);
   background: var(--background-alt);
@@ -91,7 +92,7 @@ main[data-page=contact] .contact-security h2 {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 1.05rem;
+  font-size: var(--card-title-size);
   font-weight: var(--bold);
 }
 main[data-page=contact] .contact-security p {
@@ -115,7 +116,7 @@ main[data-page=contact] .contact-location-grid {
 }
 main[data-page=contact] .contact-location-info {
   min-width: 0;
-  padding: 24px;
+  padding: var(--card-padding);
 }
 main[data-page=contact] .contact-location-info address {
   font-style: normal;
@@ -159,19 +160,6 @@ main[data-page=contact] .contact-links {
   flex-wrap: wrap;
   gap: 4px 28px;
 }
-main[data-page=contact] .contact-links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  min-height: 44px;
-  color: var(--primary);
-  font-weight: var(--semi-bold);
-  text-decoration: none;
-}
-main[data-page=contact] .contact-links a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
 @media (max-width: 800px) {
   main[data-page=contact] .contact-recruitment {
     grid-template-columns: 1fr;
@@ -190,15 +178,6 @@ main[data-page=contact] .contact-links a:hover {
 @media (max-width: 700px) {
   main[data-page=contact] .contact-recruitment {
     padding: 24px 20px;
-  }
-  main[data-page=contact] .contact-email-card {
-    padding: 20px;
-  }
-  main[data-page=contact] .contact-security {
-    padding: 20px;
-  }
-  main[data-page=contact] .contact-location-info {
-    padding: 20px;
   }
 }
 

@@ -9,12 +9,17 @@
 }
 
 .tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
   max-width: 100%;
   margin: 0;
   padding: 5px 10px;
-  border-radius: 999px;
+  border-radius: var(--radius-small);
   background: var(--secondary);
   color: var(--text);
+  font-size: var(--label-size);
+  line-height: var(--compact);
   text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;

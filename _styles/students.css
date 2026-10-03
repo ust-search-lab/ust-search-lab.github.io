@@ -1,7 +1,7 @@
 .students-degrees {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
+  gap: var(--card-gap);
   margin: 24px 0;
   padding: 0;
   list-style: none;
@@ -9,7 +9,7 @@
 .students-degrees > li {
   min-width: 0;
   margin: 0;
-  padding: 24px;
+  padding: var(--card-padding);
   border: 1px solid var(--light-gray);
   border-top: 2px solid var(--primary);
   border-radius: var(--rounded);
@@ -22,10 +22,6 @@
 @media (max-width: 700px) {
   .students-degrees {
     grid-template-columns: 1fr;
-    gap: 16px;
-  }
-  .students-degrees > li {
-    padding: 20px;
   }
 }
 

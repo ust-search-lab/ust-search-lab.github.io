@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html lang="ko" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Research Radar | SEARCH Lab</title>
+
+
+  <link rel="icon" href="/images/icon.png">
+
+
+<meta name="title" content="Research Radar">
+<meta name="description" content="우주탐사 아키텍처 연구실, UST. JGCD·JSR·Acta Astronautica 논문 동향.">
+
+<meta property="og:title" content="Research Radar">
+<meta property="og:site_title" content="SEARCH Lab">
+<meta property="og:description" content="우주탐사 아키텍처 연구실, UST. JGCD·JSR·Acta Astronautica 논문 동향.">
+<meta property="og:url" content="https://ust-search-lab.github.io/radar/">
+
+<meta property="og:locale" content="ko_KR">
+
+<meta property="twitter:title" content="Research Radar">
+<meta property="twitter:description" content="우주탐사 아키텍처 연구실, UST. JGCD·JSR·Acta Astronautica 논문 동향.">
+<meta property="twitter:url" content="https://ust-search-lab.github.io/radar/">
+<meta property="twitter:card" content="summary_large_image">
+
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Research Radar",
+    "description": "우주탐사 아키텍처 연구실, UST. JGCD·JSR·Acta Astronautica 논문 동향.",
+    "headline": "Research Radar",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": "https://ust-search-lab.github.io/radar/"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://ust-search-lab.github.io/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+
+  
+
+  
+    <link href="/_styles/-theme.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/about.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/alert.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/all.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/anchor.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/background.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/body.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/bold.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/button.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/card.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/checkbox.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/citation.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/code.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/cols.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/contact.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/dark-toggle.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/details.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/feature.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/figure.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/float.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/font.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/footer.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/form.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/grid.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/header.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/heading.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/highlight.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/home.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/icon.css?v=1791013621" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/image.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/link.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/news.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/page.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/profile.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/publications.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/radar.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/references.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/research.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/students.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/table.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/textbox.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css?v=1791013621" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/util.css?v=1791013621" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/news.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/images/header-bar.jpg')" data-dark="true">
+  
+  
+  <a href="/" class="home">
+    
+    
+      <span class="title-text" data-tooltip="홈">
+        
+          <span class="title">SEARCH Lab</span>
+        
+        
+        
+      </span>
+    
+  </a>
+  
+
+  <input class="nav-toggle" type="checkbox" aria-label="메뉴 열기·닫기" aria-controls="site-navigation">
+
+  <nav id="site-navigation" class="site-nav" aria-label="주 메뉴">
+    
+    
+    
+      <a href="/about/" data-tooltip="연구실 소개">
+        About
+      </a>
+    
+      <a href="/research/" data-tooltip="연구분야">
+        Research
+      </a>
+    
+      <a href="/people/" data-tooltip="구성원">
+        People
+      </a>
+    
+      <a href="/publications/" data-tooltip="논문 및 연구성과">
+        Publications
+      </a>
+    
+      <a href="/students/" data-tooltip="학생 연구자 안내">
+        For Students
+      </a>
+    
+      <a href="/news/" data-tooltip="연구실 소식">
+        News
+      </a>
+    
+      <a href="/contact/" data-tooltip="학생 모집·지원 문의">
+        Contact
+      </a>
+    
+
+    
+    
+    
+    
+    <a class="language-switch" href="/en/radar/" hreflang="en" lang="en" data-tooltip="View this page in English">
+      <i class="icon fa-solid fa-language"></i>English
+    </a>
+  </nav>
+</header>
+
+    <main data-page="radar">
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 class="page-title" id="research-radar">
+<i class="icon fa-solid fa-satellite"></i>Research Radar</h1>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<div class="research-radar" role="region" aria-labelledby="research-radar-title">
+  <div class="radar-heading">
+    <div>
+      
+      <h2 id="research-radar-title">최신 관련 논문</h2>
+    </div>
+    
+  </div>
+  
+    <div class="radar-status">
+      <span>최근 수집 <time datetime="2026-10-03T16:25:27+09:00">2026.10.03 16:25</time> KST</span>
+      <span>서지정보: <a href="https://www.crossref.org/">Crossref</a></span>
+    </div>
+    
+    
+    
+    
+    
+      <div class="radar-grid">
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-10-01">2026-10-01</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009818" lang="en">Artificial Frozen Orbits Around Small Bodies via Solar Sailing <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Yuki Takao, Shota Kikuchi</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+        
+        <li>태양돛</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-10-01">2026-10-01</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36799" lang="en">Optimal Split-Delivery Lunar Campaign with Resonance Orbits and Hybrid Propulsion <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Euihyeon Choi, Jinsung Lee, Jaemyung Ahn</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-10-01">2026-10-01</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36577" lang="en">Influence of Attitude Errors on Angle-of-Arrival Receivers in Satellite Systems <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Marcello Asciolla, Angela Cratere, Rodrigo Blázquez-García et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>최적화·유도제어</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-10-01">2026-10-01</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36419" lang="en">Long-Term Loitering Transfers in the Vicinity of a Near-Rectilinear Halo Orbit <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Abram R. Aguilar, Brian P. McCarthy, Rohan Sood</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>최적화·유도제어</li>
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009804" lang="en">Orbital-Elements-Based Koopman Operator Applied to Investigating Invariant Manifolds Around Asteroids <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Zihan Liu, Fanghua Jiang</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009759" lang="en">Alternative Dilution of Precision Measure for Lunar Positioning Systems: Comparison and Sensitivities <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Austin S. Gabhart, Bradford E. Robertson, Dimitri N. Mavris</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009727" lang="en">Validating Online Guidance for Reusability Flight Experiment: Genetic Programming and Reinforcement Learning <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Riccardo Cadamuro, Francesco Marchetti, Jose Luis Redondo Gutierrez et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>진입·착륙·열보호</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009647" lang="en">Predicting, Avoiding, and Achieving Conjunctions on Spherical Manifolds <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Animesh Chakravarthy, Debasish Ghose</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>최적화·유도제어</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009586" lang="en">Station-Keeping for Quasi-Periodic Orbits via Nondivergent Component Suppression <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Bohao Du, Wenchi Zhao, Xue Bai et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009455" lang="en">Families of Two-Impulse Transfers to Sun–Earth Triangular Libration Points <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Changchun Long, Di Wu, Yuming Peng et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009344" lang="en">Adaptive Atmospheric Entry Guidance via Neural Networks <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Felipe Giraldo-Grueso, Andrey A. Popov, Jeremy R. Rea et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>진입·착륙·열보호</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g008937" lang="en">Universal Birkhoff Method for Computing Extremals in the Elliptic Restricted Three-Body Problem <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Michael J. Dixon, Isaac M. Ross</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.09.022" lang="en">Mechanical Convergence of Lunar Regolith Minerals Revealed by Nanoindentation of Chang'e-5 Samples <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Guozheng Zhang, Xiaoping Zhang, Xiaojia Zeng et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.05.055" lang="en">An overview of 3D printing Mars habitats using in-situ resources: materials, processing, structural challenges, and prospects <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Marcelo Tramontin Souza</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.05.042" lang="en">Observability analysis and optimal beacon selection for angles-only orbit determination <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Zuoxiu Zheng, Xiangyu Li, Dezhi Zheng</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.05.041" lang="en">Architecting CubeSat constellations for messaging service, Part III <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Ksenia Osipova, Joan A. Ruiz-de-Azua, Luis Contreras-Benito et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>큐브샛·소형위성</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.05.039" lang="en">A comparative assessment of heliocentric and controlled lunar impact end-of-life disposal strategies for Near Rectilinear Halo Orbits <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Mathilda Bolis, Elisa Maria Alessi, Camilla Colombo</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.05.018" lang="en">Evaluating passive surface technologies for lunar dust mitigation and tolerance <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Ankush Sookram, Susan Holmes, Stuart Bateman et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.05.016" lang="en">Libration point orbits: A brief journey through fundamental dynamics and applications <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Josep J. Masdemont</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.05.007" lang="en">Thermodynamic analysis of non-thermal plasma reduction of minerals relevant to lunar resource utilization <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Daniel S. Ellis, Joel A. Olson, Kenneth Engeling et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.04.070" lang="en">Energy-efficient and trajectory-stabilizing bioinspired foot-end design for lunar jumping robots <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">GuiFen Zhou, Shengwen Fang, Yueyang Li et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.04.069" lang="en">A study on students’ personality and motivation in the educational UCAnFly CubeSat project <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Isabel Núñez-Vázquez, Antonia Morales-Garoffolo, Guillermo Pacheco-Ramos et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>큐브샛·소형위성</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.04.068" lang="en">Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Saunab Ghosh, Francis M. McCubbin, Ardith D. Bravenec et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Acta Astronautica">Acta Astronautica</span>
+    
+    
+    <span class="radar-date">
+      게재일
+      <time datetime="2026-10">2026-10</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.1016/j.actaastro.2026.04.067" lang="en">Pontryagin–Bellman differential dynamic programming for low-thrust trajectory optimization with path constraints <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Yanis Sidhoum, Kenshiro Oguri</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-27">2026-09-27</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36704" lang="en">Robust Access to Uranus via Solar Electric Propulsion <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Jacob A. Englander, Richard Anderson, Donald H. Ellison et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-23">2026-09-23</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g010037" lang="en">Orbital Maneuver Strategy for Multitarget Overflight with Field-of-View Capability <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Yangyuxi Sun, Changxuan Wen, Zhengfan Zhu et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-23">2026-09-23</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36553" lang="en">Aerocapture Guidance, Navigation, and Control for Uranus Orbiter and Probe <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Rohan G. Deshmukh, Soumyo Dutta, Daniel A. Matz et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>최적화·유도제어</li>
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-22">2026-09-22</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g009814" lang="en">Lunar Orbit Insertion Optimization Method Based on Retargeting Impulsive Controllable Set Features <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Binyu Zhu, Haiyang Li, Zeyue Li et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-22">2026-09-22</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36026" lang="en">Atmospheric Density Modeling for High-Precision Deorbit Prediction During Space Weather Events <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Julia Briden, Peng Mun Siew, Richard Linares</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>진입·착륙·열보호</li>
+      
+        
+        <li>큐브샛·소형위성</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Guidance, Control, and Dynamics">JGCD</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-12">2026-09-12</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.g010096" lang="en">Covariance Steering for Powered-Descent Guidance with Embedded Navigation and Tracking <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Yizheng Xiao, Youmin Gong, Jie Mei et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>진입·착륙·열보호</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-12">2026-09-12</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36648" lang="en">Quasi-Periodic Motion Around Short-Period Orbits for Cislunar Applications <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Franco Criscola, David Canales, Ariadna Farres</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-12">2026-09-12</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36612" lang="en">Thermochromic Programmable Metamaterial Particle Ensembles <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Joseph Ivarson, Luke Scharck, Ana Barona-Mejía et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>태양돛</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-12">2026-09-12</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36596" lang="en">Simultaneous Magnetic Dipole and Inertia Estimation for Nano-Satellites Using Dual Filtering <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Ruixin Wen, Jonathan Morgan, Jack McRobbie et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>최적화·유도제어</li>
+      
+        
+        <li>큐브샛·소형위성</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-08">2026-09-08</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36664" lang="en">Two Scenarios of a Two-Impulse Moon–Earth Transfer <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Vladimir S. Aslanov</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-04">2026-09-04</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36533" lang="en">Operations-Driven Strategy for Safely Approaching the Lunar Gateway Throughout Its Orbit <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Tyler F. Rhodes, Riley M. Fitzgerald</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>궤도역학·임무설계</li>
+      
+        
+        <li>최적화·유도제어</li>
+      
+        
+        <li>달·행성 탐사</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+          
+
+
+<article class="radar-entry">
+  <div class="radar-meta">
+    <span class="radar-journal" title="Journal of Spacecraft and Rockets">JSR</span>
+    
+    
+    <span class="radar-date">
+      온라인 게재
+      <time datetime="2026-09-03">2026-09-03</time>
+    </span>
+  </div>
+  <h3 class="radar-entry-title"><a href="https://doi.org/10.2514/1.a36691" lang="en">Euler–Lagrangian Multiphysics Coupling Framework for Particle-Laden High-Speed Flows <span aria-hidden="true">↗</span></a></h3>
+  <p class="radar-authors">
+    
+      <span lang="en">Hyeon Woo Nam, Tae Woong Jeong, Gisu Park et al.</span>
+    
+  </p>
+  
+    <ul class="radar-topics">
+      
+        
+        <li>진입·착륙·열보호</li>
+      
+    </ul>
+  
+  
+</article>
+
+        
+      </div>
+    
+    
+      <ul class="radar-sources">
+        
+          <li>
+            <a href="https://arc.aiaa.org/journal/jgcd">Journal of Guidance, Control, and Dynamics <span aria-hidden="true">↗</span></a>
+            <span>최근 수집 2026.10.03 16:25 KST</span>
+          </li>
+        
+          <li>
+            <a href="https://arc.aiaa.org/journal/jsr">Journal of Spacecraft and Rockets <span aria-hidden="true">↗</span></a>
+            <span>최근 수집 2026.10.03 16:25 KST</span>
+          </li>
+        
+          <li>
+            <a href="https://www.sciencedirect.com/science/journal/00945765">Acta Astronautica <span aria-hidden="true">↗</span></a>
+            <span>최근 수집 2026.10.03 16:25 KST</span>
+          </li>
+        
+      </ul>
+    
+  
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+
+<footer class="background" style="--image: url('/images/footer-bar.jpg')" data-dark="true" data-size="wide">
+  <div class="footer-links">
+    <nav class="footer-institutions" aria-label="기관 홈페이지">
+      
+        
+        <a href="https://www.kari.re.kr/kor">
+          <span>한국항공우주연구원 (KARI)</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      
+        
+        <a href="https://www.ust.ac.kr/kor/">
+          <span>UST 과학기술연합대학원대학교</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      
+    </nav>
+    <div class="footer-socials">
+      
+        
+        
+        
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:jpark@ust.ac.kr" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+      
+        
+        
+        
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0001-6227-0442" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+      
+        
+        
+        
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/ust-search-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+      
+    </div>
+  </div>
+
+  <div>
+    © 2026
+    SEARCH Lab
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="다크 모드" aria-label="다크 모드 전환" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>

@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 12px;
-  margin: 28px 0 48px;
+  margin: 28px 0 var(--section-space);
   text-transform: none;
 }
 
@@ -17,7 +17,7 @@
   justify-content: space-between;
   gap: 10px;
   min-width: 0;
-  min-height: 46px;
+  min-height: var(--control-height);
   padding: 14px 18px;
   border: 1px solid var(--light-gray);
   border-radius: var(--radius-small);
@@ -50,7 +50,7 @@
 }
 
 .publication-category {
-  margin-top: 48px;
+  margin-top: var(--section-space);
 }
 
 .publication-category h2,
