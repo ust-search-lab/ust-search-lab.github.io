@@ -1,0 +1,56 @@
+{% assign radar_lang = page.lang | default: 'ko' %}
+{% assign radar_copy = site.data.radar-ui[radar_lang] %}
+{% assign radar_data = site.data.research-radar %}
+{% assign radar_entry_heading = 'h3' %}
+{% if radar_data.pinned.size > 0 %}{% assign radar_entry_heading = 'h4' %}{% endif %}
+<div class="research-radar{% if include.compact %} research-radar-compact{% endif %}" role="region" aria-labelledby="research-radar-title">
+  <div class="radar-heading">
+    <div>
+      {% if include.compact %}<p class="radar-eyebrow">{{ radar_copy.eyebrow }}</p>{% endif %}
+      <h2 id="research-radar-title">{% if include.compact %}{{ radar_copy.title }}{% else %}{{ radar_copy.latest }}{% endif %}</h2>
+    </div>
+    {% if include.compact %}
+      <a class="radar-all text-link" href="{{ radar_copy.path | relative_url }}">{{ radar_copy.all }} <span aria-hidden="true">→</span></a>
+    {% endif %}
+  </div>
+  {% if radar_data %}
+    <div class="radar-status">
+      <span>{{ radar_copy.updated }} <time datetime="{{ radar_data.updated_at | escape }}">{{ radar_data.updated_at | date: '%Y.%m.%d %H:%M' }}</time> KST</span>
+      <span>{{ radar_copy.source }}: <a href="https://www.crossref.org/">Crossref</a></span>
+    </div>
+    {% if radar_data.partial %}<p class="radar-notice">{{ radar_copy.partial }}</p>{% endif %}
+    {% if radar_data.missing_pins.size > 0 %}<p class="radar-notice">{{ radar_copy.missing_pins }}</p>{% endif %}
+    {% if radar_data.pinned.size > 0 %}
+      <h3 class="radar-group-title">{{ radar_copy.selected }}</h3>
+      <div class="radar-grid">
+        {% for paper in radar_data.pinned %}
+          {% include radar-entry.html paper=paper selected=true heading=radar_entry_heading %}
+        {% endfor %}
+      </div>
+      <p class="radar-footnote">{{ radar_copy.selection_note }}</p>
+      <h3 class="radar-group-title">{{ radar_copy.latest }}</h3>
+    {% endif %}
+    {% assign radar_limit = include.limit | default: 100 %}
+    {% if radar_data.items.size > 0 %}
+      <div class="radar-grid">
+        {% for paper in radar_data.items limit: radar_limit %}
+          {% include radar-entry.html paper=paper heading=radar_entry_heading %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="radar-notice">{{ radar_copy.empty }}</p>
+    {% endif %}
+    {% unless include.compact %}
+      <ul class="radar-sources">
+        {% for journal in radar_data.journals %}
+          <li>
+            <a href="{{ journal.url | escape }}">{{ journal.name | escape }} <span aria-hidden="true">↗</span></a>
+            {% if journal.last_success_at %}<span>{{ radar_copy.updated }} {{ journal.last_success_at | date: '%Y.%m.%d %H:%M' }} KST</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endunless %}
+  {% else %}
+    <p class="radar-notice">{{ radar_copy.no_snapshot }}</p>
+  {% endif %}
+</div>

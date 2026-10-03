@@ -5,24 +5,15 @@
 {% assign research_topics = site.data.research-topics %}
 
 <div class="home-intro">
-  <div>
-    <p class="home-eyebrow">{{ home_copy.identity }}</p>
-    <h1>{{ home_copy.headline }} <span>{{ home_copy.headline_accent }}</span></h1>
-  </div>
-  <div class="home-intro-copy">
-    <p>{{ home_copy.introduction }}</p>
-    <div class="home-actions">
-      <a class="home-button action-button" href="#research-areas">{{ home_copy.research_link }} <span aria-hidden="true">↗</span></a>
-      <a class="home-text-link" href="{{ home_copy.about_path | relative_url }}">{{ home_copy.about_link }} <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
+  <p class="home-eyebrow">{{ home_copy.identity }}</p>
+  <h1>{{ home_copy.headline }} <span>{{ home_copy.headline_accent }}</span></h1>
 </div>
 
 {% if home_news.size > 0 %}
 <div class="home-news" role="region" aria-labelledby="home-news-title">
   <div class="home-news-heading">
     <h2 id="home-news-title">{{ home_copy.news_title }}</h2>
-    <a class="home-text-link" href="{{ home_ui.news-page | relative_url }}">{{ home_copy.news_all }} <span aria-hidden="true">→</span></a>
+    <a class="home-text-link text-link" href="{{ home_ui.news-page | relative_url }}">{{ home_copy.news_all }} <span aria-hidden="true">→</span></a>
   </div>
   <div class="home-news-list">
     {% for news_post in home_news limit: 3 %}
@@ -30,7 +21,7 @@
       <article class="home-news-item">
         <time datetime="{{ news_post.date | date_to_xmlschema }}">{{ news_post.date | date: home_ui.post-date-format }}</time>
         <div class="home-news-copy">
-          <h3><a href="{{ news_post.url | relative_url }}">{{ news_post.title | escape }}</a></h3>
+          <h3><a href="{{ news_post.url | relative_url }}">{{ news_post.title | escape }}</a>{% include news-new-badge.html date=news_post.date %}</h3>
           {% if news_excerpt != "" %}<p>{{ news_excerpt | truncate: 240 }}</p>{% endif %}
         </div>
       </article>
@@ -46,7 +37,6 @@
     <p class="home-eyebrow">{{ home_copy.methods_eyebrow }}</p>
     <h2 id="research-methods">{{ home_copy.methods_title }}</h2>
   </div>
-  <p>{{ home_copy.methods_description }}</p>
 </div>
 <div class="home-method-grid">
   {% for method in research_topics.methods %}
@@ -55,7 +45,6 @@
     <a class="home-method" href="{{ method_url | relative_url }}">
       <div class="home-method-top"><span class="home-number">0{{ forloop.index }}</span><span aria-hidden="true">{% include icon.html icon=method.icon %}</span></div>
       <h3>{{ method_copy.title }}</h3>
-      <p>{{ method_copy.summary }}</p>
       <span class="home-method-arrow" aria-hidden="true">↗</span>
     </a>
   {% endfor %}
@@ -68,7 +57,6 @@
     <p class="home-eyebrow">{{ home_copy.applications_eyebrow }}</p>
     <h2 id="research-areas">{{ home_copy.applications_title }}</h2>
   </div>
-  <p>{{ home_copy.applications_description }}</p>
 </div>
 <div class="home-topic-grid">
   {% for topic in research_topics.applications %}
@@ -86,12 +74,15 @@
       </figure>
       <div class="home-topic-copy">
         <h3><a href="{{ topic_url | relative_url }}">{{ topic_copy.title }}</a></h3>
-        <p>{{ topic_copy.summary }}</p>
         <a class="home-topic-link" href="{{ topic_url | relative_url }}">{{ home_copy.topic_link }} <span aria-hidden="true">↗</span></a>
       </div>
     </article>
   {% endfor %}
 </div>
+
+{% include section.html %}
+
+{% include research-radar.html compact=true limit=6 %}
 
 {% include section.html %}
 
@@ -103,6 +94,6 @@
   </div>
   <div class="home-actions">
     <a class="home-button action-button" href="{{ home_copy.students_path | relative_url }}">{{ home_copy.students_link }} <span aria-hidden="true">↗</span></a>
-    <a class="home-text-link" href="{{ home_copy.contact_path | relative_url }}">{{ home_copy.contact_link }} <span aria-hidden="true">→</span></a>
+    <a class="home-text-link text-link" href="{{ home_copy.contact_path | relative_url }}">{{ home_copy.contact_link }} <span aria-hidden="true">→</span></a>
   </div>
 </div>

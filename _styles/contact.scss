@@ -43,12 +43,12 @@ main[data-page="contact"] {
 
   .contact-email-card {
     min-width: 0;
-    padding: 24px;
+    padding: var(--card-padding);
     border: 1px solid var(--light-gray);
     border-radius: var(--rounded);
     background: var(--background);
 
-    h3 { font-size: 1.05rem; }
+    h3 { font-size: var(--card-title-size); font-weight: var(--bold); }
     h3, p { text-align: center; }
   }
 
@@ -60,7 +60,7 @@ main[data-page="contact"] {
       display: block;
       margin-top: 8px;
       color: var(--dark-gray);
-      font-size: 0.85rem;
+      font-size: var(--meta-size);
     }
   }
 
@@ -83,7 +83,7 @@ main[data-page="contact"] {
 
   .contact-security {
     margin-top: 32px;
-    padding: 24px;
+    padding: var(--card-padding);
     border: 1px solid var(--light-gray);
     border-radius: var(--rounded);
     background: var(--background-alt);
@@ -92,7 +92,7 @@ main[data-page="contact"] {
       margin: 0;
       padding: 0;
       border: 0;
-      font-size: 1.05rem;
+      font-size: var(--card-title-size);
       font-weight: var(--bold);
     }
 
@@ -116,7 +116,7 @@ main[data-page="contact"] {
 
   .contact-location-info {
     min-width: 0;
-    padding: 24px;
+    padding: var(--card-padding);
 
     address { font-style: normal; line-height: var(--spacing); }
     .contact-links { margin-top: 8px; font-size: 0.9rem; }
@@ -156,18 +156,6 @@ main[data-page="contact"] {
     display: flex;
     flex-wrap: wrap;
     gap: 4px 28px;
-
-    a {
-      display: inline-flex;
-      align-items: center;
-      gap: 14px;
-      min-height: 44px;
-      color: var(--primary);
-      font-weight: var(--semi-bold);
-      text-decoration: none;
-    }
-
-    a:hover { text-decoration: underline; text-underline-offset: 4px; }
   }
 
   @media (max-width: 800px) {
@@ -178,8 +166,5 @@ main[data-page="contact"] {
 
   @media (max-width: 700px) {
     .contact-recruitment { padding: 24px 20px; }
-    .contact-email-card { padding: 20px; }
-    .contact-security { padding: 20px; }
-    .contact-location-info { padding: 20px; }
   }
 }

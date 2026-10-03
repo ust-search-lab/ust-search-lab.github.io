@@ -2,23 +2,17 @@ ko:
   identity: SEARCH LAB · UST
   headline: 달·행성과 심우주를 향한
   headline_accent: 우주탐사 임무설계
-  introduction: 궤도역학과 우주비행역학을 바탕으로 임무 아키텍처와 비행경로를 설계하고, 시스템 성능과 우주실증 방안을 연구합니다.
-  research_link: 연구분야 살펴보기
-  about_link: 연구실 소개
-  about_path: about/
   research_path: research/
   news_title: 공지사항
   news_all: 공지사항 전체 보기
   methods_eyebrow: OUR METHODS
   methods_title: 탐사 임무를 설계하는 네 가지 연구방법
-  methods_description: 임무의 목표와 제약조건을 이해하고, 궤도를 해석하며, 최적의 비행경로와 제어 전략을 탐색합니다.
   applications_eyebrow: RESEARCH AREAS
   applications_title: 다섯 분야로 이어지는 탐사 연구
-  applications_description: 공통 연구방법을 각 분야의 임무 환경과 기술 요구조건에 맞게 적용합니다.
   topic_link: 연구내용 보기
   join_eyebrow: JOIN SEARCH LAB
   join_title: 다음 탐사 임무를 함께 설계합니다
-  join_description: 우주탐사 임무설계와 기술실증을 연구하고 싶은 학생을 기다립니다. 연구 주제와 준비 과정을 확인해 보세요.
+  join_description: 우주탐사 연구에 함께할 석·박사과정 학생을 모집합니다.
   students_link: 학생 연구자 안내
   students_path: students/
   contact_link: 연락처
@@ -27,23 +21,17 @@ en:
   identity: SEARCH LAB · UST
   headline: Designing missions to the
   headline_accent: Moon, Mars, and beyond
-  introduction: We draw on orbital mechanics and astrodynamics to design mission architectures and trajectories, analyze system performance, and study approaches to in-space demonstration.
-  research_link: Explore our research
-  about_link: About the lab
-  about_path: en/about/
   research_path: en/research/
   news_title: Latest news
   news_all: View all news
   methods_eyebrow: OUR METHODS
   methods_title: Four methods for designing exploration missions
-  methods_description: We examine mission objectives and constraints, analyze orbits, and explore optimal trajectories and control strategies.
   applications_eyebrow: RESEARCH AREAS
   applications_title: Five areas of exploration research
-  applications_description: We apply our shared methods to the mission environments and technology requirements of each area.
   topic_link: Explore this area
   join_eyebrow: JOIN SEARCH LAB
   join_title: Help design the next exploration mission
-  join_description: We welcome students interested in space mission design and technology demonstration. Explore our research topics and how to prepare.
+  join_description: We welcome prospective master's and doctoral students interested in space exploration research.
   students_link: For students
   students_path: en/students/
   contact_link: Contact

@@ -20,3 +20,23 @@ a:hover {
 a:not([href]) {
   color: var(--text);
 }
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 100%;
+  min-height: 44px;
+  color: var(--primary);
+  font-weight: var(--bold);
+  line-height: var(--compact);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  > [aria-hidden] { flex-shrink: 0; }
+}

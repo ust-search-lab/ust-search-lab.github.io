@@ -10,6 +10,7 @@
   | uniq
 %}
 {% assign link = include.link | default: page.dir %}
+{% assign tag_lang = page.lang | default: 'ko' %}
 {% if tags.size > 0 or include.repo %}
   <div
     class="tags"
@@ -21,7 +22,7 @@
       <a
         href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+        data-tooltip="{{ site.data.i18n[tag_lang].tag-tooltip | replace: '$TAG', tag | escape }}"
       >
         {{ tag }}
       </a>

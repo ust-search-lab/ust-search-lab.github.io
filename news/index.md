@@ -19,6 +19,8 @@ SEARCH Lab의 소식을 전합니다.
 아직 등록된 소식이 없습니다.
 {: .page-empty }
 {% else %}
+## 최근 소식
+
 {% include search-box.html %}
 
 {% include search-info.html %}

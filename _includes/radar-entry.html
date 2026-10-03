@@ -1,0 +1,33 @@
+{% assign radar_paper = include.paper %}
+{% assign radar_source = radar_data.journals | where: 'id', radar_paper.journal_id | first %}
+{% assign radar_paper_heading = include.heading | default: 'h3' %}
+<article class="radar-entry{% if include.selected %} radar-entry-selected{% endif %}">
+  <div class="radar-meta">
+    <span class="radar-journal" title="{{ radar_paper.journal | escape }}">{{ radar_paper.journal_short | escape }}</span>
+    {% if include.selected %}<span class="radar-selected-label">{{ radar_copy.selected_badge }}</span>{% endif %}
+    {% if radar_source.status == 'stale' %}<span class="radar-stale">{{ radar_copy.stale }}</span>{% endif %}
+    <span class="radar-date">
+      {% if radar_paper.date_type == 'published-online' %}{{ radar_copy.online }}{% else %}{{ radar_copy.published }}{% endif %}
+      <time datetime="{{ radar_paper.date | escape }}">{{ radar_paper.date | escape }}</time>
+    </span>
+  </div>
+  <{{ radar_paper_heading }} class="radar-entry-title"><a href="{{ radar_paper.url | escape }}" lang="en">{{ radar_paper.title | escape }} <span aria-hidden="true">↗</span></a></{{ radar_paper_heading }}>
+  <p class="radar-authors">
+    {% if radar_paper.authors.size > 0 %}
+      <span lang="en">{{ radar_paper.authors | slice: 0, 3 | join: ', ' | escape }}{% if radar_paper.authors.size > 3 %} et al.{% endif %}</span>
+    {% else %}
+      {{ radar_copy.authors_missing }}
+    {% endif %}
+  </p>
+  {% if radar_paper.topics.size > 0 %}
+    <ul class="radar-topics">
+      {% for topic_id in radar_paper.topics limit: 3 %}
+        {% assign radar_topic = site.data.radar-settings.topics | where: 'id', topic_id | first %}
+        <li>{{ radar_topic[radar_lang] | escape }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% if include.selected and radar_paper.note[radar_lang] != '' %}
+    <p class="radar-selection-note">{{ radar_paper.note[radar_lang] | escape }}</p>
+  {% endif %}
+</article>

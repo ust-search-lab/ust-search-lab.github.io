@@ -1,0 +1,1488 @@
+{
+  "source": "Crossref",
+  "updated_at": "2026-10-03T16:25:27+09:00",
+  "lookback_days": 90,
+  "partial": false,
+  "missing_pins": [],
+  "journals": [
+    {
+      "id": "jgcd",
+      "short_name": "JGCD",
+      "name": "Journal of Guidance, Control, and Dynamics",
+      "issn": "1533-3884",
+      "issns": [
+        "1533-3884",
+        "0731-5090"
+      ],
+      "url": "https://arc.aiaa.org/journal/jgcd",
+      "last_success_at": "2026-10-03T16:25:27+09:00",
+      "status": "ok",
+      "items": [
+        {
+          "doi": "10.2514/1.g009818",
+          "url": "https://doi.org/10.2514/1.g009818",
+          "title": "Artificial Frozen Orbits Around Small Bodies via Solar Sailing",
+          "authors": [
+            "Yuki Takao",
+            "Shota Kikuchi"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-01",
+          "date_type": "published-online",
+          "topics": [
+            "planetary",
+            "sail"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009804",
+          "url": "https://doi.org/10.2514/1.g009804",
+          "title": "Orbital-Elements-Based Koopman Operator Applied to Investigating Invariant Manifolds Around Asteroids",
+          "authors": [
+            "Zihan Liu",
+            "Fanghua Jiang"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009759",
+          "url": "https://doi.org/10.2514/1.g009759",
+          "title": "Alternative Dilution of Precision Measure for Lunar Positioning Systems: Comparison and Sensitivities",
+          "authors": [
+            "Austin S. Gabhart",
+            "Bradford E. Robertson",
+            "Dimitri N. Mavris"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009727",
+          "url": "https://doi.org/10.2514/1.g009727",
+          "title": "Validating Online Guidance for Reusability Flight Experiment: Genetic Programming and Reinforcement Learning",
+          "authors": [
+            "Riccardo Cadamuro",
+            "Francesco Marchetti",
+            "Jose Luis Redondo Gutierrez",
+            "David Seelbinder"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "entry"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009647",
+          "url": "https://doi.org/10.2514/1.g009647",
+          "title": "Predicting, Avoiding, and Achieving Conjunctions on Spherical Manifolds",
+          "authors": [
+            "Animesh Chakravarthy",
+            "Debasish Ghose"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "control"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009586",
+          "url": "https://doi.org/10.2514/1.g009586",
+          "title": "Station-Keeping for Quasi-Periodic Orbits via Nondivergent Component Suppression",
+          "authors": [
+            "Bohao Du",
+            "Wenchi Zhao",
+            "Xue Bai",
+            "Ming Xu",
+            "Qian Wang",
+            "Xudong Gao",
+            "Jizhong Liu"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009455",
+          "url": "https://doi.org/10.2514/1.g009455",
+          "title": "Families of Two-Impulse Transfers to Sun–Earth Triangular Libration Points",
+          "authors": [
+            "Changchun Long",
+            "Di Wu",
+            "Yuming Peng",
+            "Wei Wang",
+            "Shengping Gong"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009344",
+          "url": "https://doi.org/10.2514/1.g009344",
+          "title": "Adaptive Atmospheric Entry Guidance via Neural Networks",
+          "authors": [
+            "Felipe Giraldo-Grueso",
+            "Andrey A. Popov",
+            "Jeremy R. Rea",
+            "Renato Zanetti"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "entry"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g008937",
+          "url": "https://doi.org/10.2514/1.g008937",
+          "title": "Universal Birkhoff Method for Computing Extremals in the Elliptic Restricted Three-Body Problem",
+          "authors": [
+            "Michael J. Dixon",
+            "Isaac M. Ross"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g010037",
+          "url": "https://doi.org/10.2514/1.g010037",
+          "title": "Orbital Maneuver Strategy for Multitarget Overflight with Field-of-View Capability",
+          "authors": [
+            "Yangyuxi Sun",
+            "Changxuan Wen",
+            "Zhengfan Zhu",
+            "Chen Zhang"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-09-23",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009814",
+          "url": "https://doi.org/10.2514/1.g009814",
+          "title": "Lunar Orbit Insertion Optimization Method Based on Retargeting Impulsive Controllable Set Features",
+          "authors": [
+            "Binyu Zhu",
+            "Haiyang Li",
+            "Zeyue Li",
+            "Jiyuan Lv"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-09-22",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g010096",
+          "url": "https://doi.org/10.2514/1.g010096",
+          "title": "Covariance Steering for Powered-Descent Guidance with Embedded Navigation and Tracking",
+          "authors": [
+            "Yizheng Xiao",
+            "Youmin Gong",
+            "Jie Mei",
+            "Guangfu Ma",
+            "Weiren Wu"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-09-12",
+          "date_type": "published-online",
+          "topics": [
+            "entry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jsr",
+      "short_name": "JSR",
+      "name": "Journal of Spacecraft and Rockets",
+      "issn": "1533-6794",
+      "issns": [
+        "1533-6794",
+        "0022-4650"
+      ],
+      "url": "https://arc.aiaa.org/journal/jsr",
+      "last_success_at": "2026-10-03T16:25:27+09:00",
+      "status": "ok",
+      "items": [
+        {
+          "doi": "10.2514/1.a36799",
+          "url": "https://doi.org/10.2514/1.a36799",
+          "title": "Optimal Split-Delivery Lunar Campaign with Resonance Orbits and Hybrid Propulsion",
+          "authors": [
+            "Euihyeon Choi",
+            "Jinsung Lee",
+            "Jaemyung Ahn"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-10-01",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36577",
+          "url": "https://doi.org/10.2514/1.a36577",
+          "title": "Influence of Attitude Errors on Angle-of-Arrival Receivers in Satellite Systems",
+          "authors": [
+            "Marcello Asciolla",
+            "Angela Cratere",
+            "Rodrigo Blázquez-García",
+            "Pedro Bossi-Núñez",
+            "Teresa Natale",
+            "Francesco Dell’Olio"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-10-01",
+          "date_type": "published-online",
+          "topics": [
+            "control"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36419",
+          "url": "https://doi.org/10.2514/1.a36419",
+          "title": "Long-Term Loitering Transfers in the Vicinity of a Near-Rectilinear Halo Orbit",
+          "authors": [
+            "Abram R. Aguilar",
+            "Brian P. McCarthy",
+            "Rohan Sood"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-10-01",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "control",
+            "planetary",
+            "cubesat"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36704",
+          "url": "https://doi.org/10.2514/1.a36704",
+          "title": "Robust Access to Uranus via Solar Electric Propulsion",
+          "authors": [
+            "Jacob A. Englander",
+            "Richard Anderson",
+            "Donald H. Ellison",
+            "Noble A. Hatten",
+            "Kyle M. Hughes",
+            "Taabish Rashied",
+            "Alec Mudek",
+            "Thomas Haas",
+            "Richard Saylor"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-27",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36553",
+          "url": "https://doi.org/10.2514/1.a36553",
+          "title": "Aerocapture Guidance, Navigation, and Control for Uranus Orbiter and Probe",
+          "authors": [
+            "Rohan G. Deshmukh",
+            "Soumyo Dutta",
+            "Daniel A. Matz",
+            "Sergio Sandoval",
+            "Pardha Sai Chadalavada"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-23",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "control",
+            "planetary",
+            "entry"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36026",
+          "url": "https://doi.org/10.2514/1.a36026",
+          "title": "Atmospheric Density Modeling for High-Precision Deorbit Prediction During Space Weather Events",
+          "authors": [
+            "Julia Briden",
+            "Peng Mun Siew",
+            "Richard Linares"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-22",
+          "date_type": "published-online",
+          "topics": [
+            "entry",
+            "cubesat"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36648",
+          "url": "https://doi.org/10.2514/1.a36648",
+          "title": "Quasi-Periodic Motion Around Short-Period Orbits for Cislunar Applications",
+          "authors": [
+            "Franco Criscola",
+            "David Canales",
+            "Ariadna Farres"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-12",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36612",
+          "url": "https://doi.org/10.2514/1.a36612",
+          "title": "Thermochromic Programmable Metamaterial Particle Ensembles",
+          "authors": [
+            "Joseph Ivarson",
+            "Luke Scharck",
+            "Ana Barona-Mejía",
+            "Luis Manuel Postigo",
+            "Kate Handel",
+            "Laith Bader",
+            "Allan David",
+            "John Mulvaney",
+            "Andrew Sais",
+            "Davide Guzzetti"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-12",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "sail"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36596",
+          "url": "https://doi.org/10.2514/1.a36596",
+          "title": "Simultaneous Magnetic Dipole and Inertia Estimation for Nano-Satellites Using Dual Filtering",
+          "authors": [
+            "Ruixin Wen",
+            "Jonathan Morgan",
+            "Jack McRobbie",
+            "Robert Mearns",
+            "Miguel Ortiz del Castillo",
+            "Michele Trenti",
+            "Airlie Chapman"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-12",
+          "date_type": "published-online",
+          "topics": [
+            "control",
+            "cubesat"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36664",
+          "url": "https://doi.org/10.2514/1.a36664",
+          "title": "Two Scenarios of a Two-Impulse Moon–Earth Transfer",
+          "authors": [
+            "Vladimir S. Aslanov"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-08",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36533",
+          "url": "https://doi.org/10.2514/1.a36533",
+          "title": "Operations-Driven Strategy for Safely Approaching the Lunar Gateway Throughout Its Orbit",
+          "authors": [
+            "Tyler F. Rhodes",
+            "Riley M. Fitzgerald"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-04",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "control",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36691",
+          "url": "https://doi.org/10.2514/1.a36691",
+          "title": "Euler–Lagrangian Multiphysics Coupling Framework for Particle-Laden High-Speed Flows",
+          "authors": [
+            "Hyeon Woo Nam",
+            "Tae Woong Jeong",
+            "Gisu Park",
+            "Sung Min Jo"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-09-03",
+          "date_type": "published-online",
+          "topics": [
+            "entry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acta-astronautica",
+      "short_name": "Acta Astronautica",
+      "name": "Acta Astronautica",
+      "issn": "0094-5765",
+      "issns": [
+        "0094-5765"
+      ],
+      "url": "https://www.sciencedirect.com/science/journal/00945765",
+      "last_success_at": "2026-10-03T16:25:27+09:00",
+      "status": "ok",
+      "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.09.022",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.09.022",
+          "title": "Mechanical Convergence of Lunar Regolith Minerals Revealed by Nanoindentation of Chang'e-5 Samples",
+          "authors": [
+            "Guozheng Zhang",
+            "Xiaoping Zhang",
+            "Xiaojia Zeng",
+            "Shaolin Li",
+            "Yifei Cui",
+            "Jiayan Nie",
+            "Wing-Huen Ip",
+            "Yi Xu",
+            "Lei Lei",
+            "Hong Gan",
+            "Cunhui Li",
+            "Xiao-Xi Kang",
+            "Yanxia Tan"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.05.055",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.05.055",
+          "title": "An overview of 3D printing Mars habitats using in-situ resources: materials, processing, structural challenges, and prospects",
+          "authors": [
+            "Marcelo Tramontin Souza"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.05.042",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.05.042",
+          "title": "Observability analysis and optimal beacon selection for angles-only orbit determination",
+          "authors": [
+            "Zuoxiu Zheng",
+            "Xiangyu Li",
+            "Dezhi Zheng"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.05.041",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.05.041",
+          "title": "Architecting CubeSat constellations for messaging service, Part III",
+          "authors": [
+            "Ksenia Osipova",
+            "Joan A. Ruiz-de-Azua",
+            "Luis Contreras-Benito",
+            "Hyuk Park",
+            "Adriano Camps"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "cubesat"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.05.039",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.05.039",
+          "title": "A comparative assessment of heliocentric and controlled lunar impact end-of-life disposal strategies for Near Rectilinear Halo Orbits",
+          "authors": [
+            "Mathilda Bolis",
+            "Elisa Maria Alessi",
+            "Camilla Colombo"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.05.018",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.05.018",
+          "title": "Evaluating passive surface technologies for lunar dust mitigation and tolerance",
+          "authors": [
+            "Ankush Sookram",
+            "Susan Holmes",
+            "Stuart Bateman",
+            "Tu Le",
+            "Ranya Simons"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.05.016",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.05.016",
+          "title": "Libration point orbits: A brief journey through fundamental dynamics and applications",
+          "authors": [
+            "Josep J. Masdemont"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.05.007",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.05.007",
+          "title": "Thermodynamic analysis of non-thermal plasma reduction of minerals relevant to lunar resource utilization",
+          "authors": [
+            "Daniel S. Ellis",
+            "Joel A. Olson",
+            "Kenneth Engeling",
+            "R. Mohan Sankaran"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.04.070",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.04.070",
+          "title": "Energy-efficient and trajectory-stabilizing bioinspired foot-end design for lunar jumping robots",
+          "authors": [
+            "GuiFen Zhou",
+            "Shengwen Fang",
+            "Yueyang Li",
+            "Wenbo Dou",
+            "Liangliang Zhao",
+            "Rui Zhang"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.04.069",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.04.069",
+          "title": "A study on students’ personality and motivation in the educational UCAnFly CubeSat project",
+          "authors": [
+            "Isabel Núñez-Vázquez",
+            "Antonia Morales-Garoffolo",
+            "Guillermo Pacheco-Ramos",
+            "Ignacio Mateos"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "cubesat"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.04.068",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
+          "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
+          "authors": [
+            "Saunab Ghosh",
+            "Francis M. McCubbin",
+            "Ardith D. Bravenec",
+            "Michael C. Huh",
+            "Cecilia L. Amick",
+            "Christopher L. Harris",
+            "Ernest K. Lewis",
+            "Kimberly K. Allums-Spencer",
+            "Juliane Gross",
+            "Ryan A. Zeigler",
+            "Timmons M. Erickson",
+            "Jemma Davidson",
+            "Jeremy W. Boyce"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.04.067",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.04.067",
+          "title": "Pontryagin–Bellman differential dynamic programming for low-thrust trajectory optimization with path constraints",
+          "authors": [
+            "Yanis Sidhoum",
+            "Kenshiro Oguri"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
+          ]
+        }
+      ]
+    }
+  ],
+  "pinned": [],
+  "items": [
+    {
+      "doi": "10.2514/1.g009818",
+      "url": "https://doi.org/10.2514/1.g009818",
+      "title": "Artificial Frozen Orbits Around Small Bodies via Solar Sailing",
+      "authors": [
+        "Yuki Takao",
+        "Shota Kikuchi"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-01",
+      "date_type": "published-online",
+      "topics": [
+        "planetary",
+        "sail"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36799",
+      "url": "https://doi.org/10.2514/1.a36799",
+      "title": "Optimal Split-Delivery Lunar Campaign with Resonance Orbits and Hybrid Propulsion",
+      "authors": [
+        "Euihyeon Choi",
+        "Jinsung Lee",
+        "Jaemyung Ahn"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-10-01",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36577",
+      "url": "https://doi.org/10.2514/1.a36577",
+      "title": "Influence of Attitude Errors on Angle-of-Arrival Receivers in Satellite Systems",
+      "authors": [
+        "Marcello Asciolla",
+        "Angela Cratere",
+        "Rodrigo Blázquez-García",
+        "Pedro Bossi-Núñez",
+        "Teresa Natale",
+        "Francesco Dell’Olio"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-10-01",
+      "date_type": "published-online",
+      "topics": [
+        "control"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36419",
+      "url": "https://doi.org/10.2514/1.a36419",
+      "title": "Long-Term Loitering Transfers in the Vicinity of a Near-Rectilinear Halo Orbit",
+      "authors": [
+        "Abram R. Aguilar",
+        "Brian P. McCarthy",
+        "Rohan Sood"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-10-01",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "control",
+        "planetary",
+        "cubesat"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009804",
+      "url": "https://doi.org/10.2514/1.g009804",
+      "title": "Orbital-Elements-Based Koopman Operator Applied to Investigating Invariant Manifolds Around Asteroids",
+      "authors": [
+        "Zihan Liu",
+        "Fanghua Jiang"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009759",
+      "url": "https://doi.org/10.2514/1.g009759",
+      "title": "Alternative Dilution of Precision Measure for Lunar Positioning Systems: Comparison and Sensitivities",
+      "authors": [
+        "Austin S. Gabhart",
+        "Bradford E. Robertson",
+        "Dimitri N. Mavris"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009727",
+      "url": "https://doi.org/10.2514/1.g009727",
+      "title": "Validating Online Guidance for Reusability Flight Experiment: Genetic Programming and Reinforcement Learning",
+      "authors": [
+        "Riccardo Cadamuro",
+        "Francesco Marchetti",
+        "Jose Luis Redondo Gutierrez",
+        "David Seelbinder"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009647",
+      "url": "https://doi.org/10.2514/1.g009647",
+      "title": "Predicting, Avoiding, and Achieving Conjunctions on Spherical Manifolds",
+      "authors": [
+        "Animesh Chakravarthy",
+        "Debasish Ghose"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "control"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009586",
+      "url": "https://doi.org/10.2514/1.g009586",
+      "title": "Station-Keeping for Quasi-Periodic Orbits via Nondivergent Component Suppression",
+      "authors": [
+        "Bohao Du",
+        "Wenchi Zhao",
+        "Xue Bai",
+        "Ming Xu",
+        "Qian Wang",
+        "Xudong Gao",
+        "Jizhong Liu"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009455",
+      "url": "https://doi.org/10.2514/1.g009455",
+      "title": "Families of Two-Impulse Transfers to Sun–Earth Triangular Libration Points",
+      "authors": [
+        "Changchun Long",
+        "Di Wu",
+        "Yuming Peng",
+        "Wei Wang",
+        "Shengping Gong"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009344",
+      "url": "https://doi.org/10.2514/1.g009344",
+      "title": "Adaptive Atmospheric Entry Guidance via Neural Networks",
+      "authors": [
+        "Felipe Giraldo-Grueso",
+        "Andrey A. Popov",
+        "Jeremy R. Rea",
+        "Renato Zanetti"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g008937",
+      "url": "https://doi.org/10.2514/1.g008937",
+      "title": "Universal Birkhoff Method for Computing Extremals in the Elliptic Restricted Three-Body Problem",
+      "authors": [
+        "Michael J. Dixon",
+        "Isaac M. Ross"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.09.022",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.09.022",
+      "title": "Mechanical Convergence of Lunar Regolith Minerals Revealed by Nanoindentation of Chang'e-5 Samples",
+      "authors": [
+        "Guozheng Zhang",
+        "Xiaoping Zhang",
+        "Xiaojia Zeng",
+        "Shaolin Li",
+        "Yifei Cui",
+        "Jiayan Nie",
+        "Wing-Huen Ip",
+        "Yi Xu",
+        "Lei Lei",
+        "Hong Gan",
+        "Cunhui Li",
+        "Xiao-Xi Kang",
+        "Yanxia Tan"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.05.055",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.05.055",
+      "title": "An overview of 3D printing Mars habitats using in-situ resources: materials, processing, structural challenges, and prospects",
+      "authors": [
+        "Marcelo Tramontin Souza"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.05.042",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.05.042",
+      "title": "Observability analysis and optimal beacon selection for angles-only orbit determination",
+      "authors": [
+        "Zuoxiu Zheng",
+        "Xiangyu Li",
+        "Dezhi Zheng"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.05.041",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.05.041",
+      "title": "Architecting CubeSat constellations for messaging service, Part III",
+      "authors": [
+        "Ksenia Osipova",
+        "Joan A. Ruiz-de-Azua",
+        "Luis Contreras-Benito",
+        "Hyuk Park",
+        "Adriano Camps"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "cubesat"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.05.039",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.05.039",
+      "title": "A comparative assessment of heliocentric and controlled lunar impact end-of-life disposal strategies for Near Rectilinear Halo Orbits",
+      "authors": [
+        "Mathilda Bolis",
+        "Elisa Maria Alessi",
+        "Camilla Colombo"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.05.018",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.05.018",
+      "title": "Evaluating passive surface technologies for lunar dust mitigation and tolerance",
+      "authors": [
+        "Ankush Sookram",
+        "Susan Holmes",
+        "Stuart Bateman",
+        "Tu Le",
+        "Ranya Simons"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.05.016",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.05.016",
+      "title": "Libration point orbits: A brief journey through fundamental dynamics and applications",
+      "authors": [
+        "Josep J. Masdemont"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.05.007",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.05.007",
+      "title": "Thermodynamic analysis of non-thermal plasma reduction of minerals relevant to lunar resource utilization",
+      "authors": [
+        "Daniel S. Ellis",
+        "Joel A. Olson",
+        "Kenneth Engeling",
+        "R. Mohan Sankaran"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.04.070",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.04.070",
+      "title": "Energy-efficient and trajectory-stabilizing bioinspired foot-end design for lunar jumping robots",
+      "authors": [
+        "GuiFen Zhou",
+        "Shengwen Fang",
+        "Yueyang Li",
+        "Wenbo Dou",
+        "Liangliang Zhao",
+        "Rui Zhang"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.04.069",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.04.069",
+      "title": "A study on students’ personality and motivation in the educational UCAnFly CubeSat project",
+      "authors": [
+        "Isabel Núñez-Vázquez",
+        "Antonia Morales-Garoffolo",
+        "Guillermo Pacheco-Ramos",
+        "Ignacio Mateos"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "cubesat"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.04.068",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
+      "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
+      "authors": [
+        "Saunab Ghosh",
+        "Francis M. McCubbin",
+        "Ardith D. Bravenec",
+        "Michael C. Huh",
+        "Cecilia L. Amick",
+        "Christopher L. Harris",
+        "Ernest K. Lewis",
+        "Kimberly K. Allums-Spencer",
+        "Juliane Gross",
+        "Ryan A. Zeigler",
+        "Timmons M. Erickson",
+        "Jemma Davidson",
+        "Jeremy W. Boyce"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.04.067",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.04.067",
+      "title": "Pontryagin–Bellman differential dynamic programming for low-thrust trajectory optimization with path constraints",
+      "authors": [
+        "Yanis Sidhoum",
+        "Kenshiro Oguri"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36704",
+      "url": "https://doi.org/10.2514/1.a36704",
+      "title": "Robust Access to Uranus via Solar Electric Propulsion",
+      "authors": [
+        "Jacob A. Englander",
+        "Richard Anderson",
+        "Donald H. Ellison",
+        "Noble A. Hatten",
+        "Kyle M. Hughes",
+        "Taabish Rashied",
+        "Alec Mudek",
+        "Thomas Haas",
+        "Richard Saylor"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-27",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g010037",
+      "url": "https://doi.org/10.2514/1.g010037",
+      "title": "Orbital Maneuver Strategy for Multitarget Overflight with Field-of-View Capability",
+      "authors": [
+        "Yangyuxi Sun",
+        "Changxuan Wen",
+        "Zhengfan Zhu",
+        "Chen Zhang"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-09-23",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36553",
+      "url": "https://doi.org/10.2514/1.a36553",
+      "title": "Aerocapture Guidance, Navigation, and Control for Uranus Orbiter and Probe",
+      "authors": [
+        "Rohan G. Deshmukh",
+        "Soumyo Dutta",
+        "Daniel A. Matz",
+        "Sergio Sandoval",
+        "Pardha Sai Chadalavada"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-23",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "control",
+        "planetary",
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009814",
+      "url": "https://doi.org/10.2514/1.g009814",
+      "title": "Lunar Orbit Insertion Optimization Method Based on Retargeting Impulsive Controllable Set Features",
+      "authors": [
+        "Binyu Zhu",
+        "Haiyang Li",
+        "Zeyue Li",
+        "Jiyuan Lv"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-09-22",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36026",
+      "url": "https://doi.org/10.2514/1.a36026",
+      "title": "Atmospheric Density Modeling for High-Precision Deorbit Prediction During Space Weather Events",
+      "authors": [
+        "Julia Briden",
+        "Peng Mun Siew",
+        "Richard Linares"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-22",
+      "date_type": "published-online",
+      "topics": [
+        "entry",
+        "cubesat"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g010096",
+      "url": "https://doi.org/10.2514/1.g010096",
+      "title": "Covariance Steering for Powered-Descent Guidance with Embedded Navigation and Tracking",
+      "authors": [
+        "Yizheng Xiao",
+        "Youmin Gong",
+        "Jie Mei",
+        "Guangfu Ma",
+        "Weiren Wu"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-09-12",
+      "date_type": "published-online",
+      "topics": [
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36648",
+      "url": "https://doi.org/10.2514/1.a36648",
+      "title": "Quasi-Periodic Motion Around Short-Period Orbits for Cislunar Applications",
+      "authors": [
+        "Franco Criscola",
+        "David Canales",
+        "Ariadna Farres"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-12",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36612",
+      "url": "https://doi.org/10.2514/1.a36612",
+      "title": "Thermochromic Programmable Metamaterial Particle Ensembles",
+      "authors": [
+        "Joseph Ivarson",
+        "Luke Scharck",
+        "Ana Barona-Mejía",
+        "Luis Manuel Postigo",
+        "Kate Handel",
+        "Laith Bader",
+        "Allan David",
+        "John Mulvaney",
+        "Andrew Sais",
+        "Davide Guzzetti"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-12",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "sail"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36596",
+      "url": "https://doi.org/10.2514/1.a36596",
+      "title": "Simultaneous Magnetic Dipole and Inertia Estimation for Nano-Satellites Using Dual Filtering",
+      "authors": [
+        "Ruixin Wen",
+        "Jonathan Morgan",
+        "Jack McRobbie",
+        "Robert Mearns",
+        "Miguel Ortiz del Castillo",
+        "Michele Trenti",
+        "Airlie Chapman"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-12",
+      "date_type": "published-online",
+      "topics": [
+        "control",
+        "cubesat"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36664",
+      "url": "https://doi.org/10.2514/1.a36664",
+      "title": "Two Scenarios of a Two-Impulse Moon–Earth Transfer",
+      "authors": [
+        "Vladimir S. Aslanov"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-08",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36533",
+      "url": "https://doi.org/10.2514/1.a36533",
+      "title": "Operations-Driven Strategy for Safely Approaching the Lunar Gateway Throughout Its Orbit",
+      "authors": [
+        "Tyler F. Rhodes",
+        "Riley M. Fitzgerald"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-04",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "control",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36691",
+      "url": "https://doi.org/10.2514/1.a36691",
+      "title": "Euler–Lagrangian Multiphysics Coupling Framework for Particle-Laden High-Speed Flows",
+      "authors": [
+        "Hyeon Woo Nam",
+        "Tae Woong Jeong",
+        "Gisu Park",
+        "Sung Min Jo"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-09-03",
+      "date_type": "published-online",
+      "topics": [
+        "entry"
+      ]
+    }
+  ]
+}

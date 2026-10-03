@@ -6,6 +6,7 @@ header: images/header-bar.jpg
 footer: images/footer-bar.jpg
 show-subtitle: false
 proofer: false
+news_new_days: 30
 
 # site social media and other links
 links:

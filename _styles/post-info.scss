@@ -11,9 +11,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 8px 20px;
   margin: 20px 0;
   color: var(--dark-gray);
+  font-size: var(--meta-size);
+  line-height: 1.65;
+  font-variant-numeric: tabular-nums;
 }
 
 .post-info .portrait {

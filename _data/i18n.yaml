@@ -19,12 +19,14 @@ ko:
   switch-tooltip: View this page in English
   search-placeholder: 이 페이지에서 검색
   search-clear: 검색어 지우기
+  tag-tooltip: '"$TAG" 태그의 글 보기'
   search-results: "검색 결과 $N건 중 $X건"
   publications-page: publications/
   member-papers: "Publications 페이지에서 $NAME의 연구성과 보기"
   news-page: /news/
   post-date-format: "%Y년 %-m월 %-d일"
   post-author: 작성자
+  post-new: 새 글
   post-published: 게시일
   post-updated: 수정일
   post-previous: 이전 글
@@ -50,12 +52,14 @@ en:
   switch-tooltip: 한국어로 보기
   search-placeholder: Search items on this page
   search-clear: Clear search
+  tag-tooltip: 'Show posts tagged "$TAG"'
   search-results: "Showing $X of $N results"
   publications-page: en/publications/
   member-papers: "View $NAME's research outputs on the Publications page"
   news-page: /en/news/
   post-date-format: "%B %-d, %Y"
   post-author: Author
+  post-new: New post
   post-published: Published on
   post-updated: Updated on
   post-previous: Previous post

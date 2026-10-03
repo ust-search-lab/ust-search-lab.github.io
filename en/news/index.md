@@ -19,6 +19,8 @@ News and updates from SEARCH Lab.
 No news yet.
 {: .page-empty }
 {% else %}
+## Latest News
+
 {% include search-box.html %}
 
 {% include search-info.html %}

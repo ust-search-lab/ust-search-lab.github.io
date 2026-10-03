@@ -4,12 +4,13 @@
 .research-methods {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
+  gap: var(--card-gap);
   margin: 28px 0;
 }
 
 .research-method {
-  padding: 24px;
+  min-width: 0;
+  padding: var(--card-padding);
   border: 1px solid var(--light-gray);
   border-top: 2px solid var(--primary);
   border-radius: var(--rounded);
@@ -17,8 +18,9 @@
 
   h3 {
     margin: 0;
-    font-size: 1.15rem;
-    line-height: 1.5;
+    font-size: var(--card-title-size);
+    font-weight: var(--bold);
+    line-height: 1.55;
   }
 
   p {
@@ -102,7 +104,7 @@
 .research-video-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
+  gap: var(--card-gap);
   max-width: 900px;
   margin: 24px auto 0;
 }
@@ -167,7 +169,6 @@
 @media (max-width: 800px) {
   .research-methods {
     grid-template-columns: 1fr;
-    gap: 16px;
   }
 }
 

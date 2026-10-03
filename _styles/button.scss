@@ -16,7 +16,7 @@ button {
   align-items: center;
   gap: 10px;
   max-width: 100%;
-  min-height: 46px;
+  min-height: var(--control-height);
   padding: 11px 18px;
   border: 1px solid transparent;
   border-radius: var(--radius-small);

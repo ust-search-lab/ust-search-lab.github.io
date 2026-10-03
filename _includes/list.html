@@ -13,9 +13,11 @@
 
 {% for year in years %}
   {% assign data = year.items %}
+  {% assign item_heading = 'h3' %}
 
   {% if years.size > 1 %}
     {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+    {% assign item_heading = 'h4' %}
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
@@ -34,6 +36,7 @@
       description=d.description
       excerpt=d.excerpt
       height=d.height
+      heading=item_heading
       icon=d.icon
       id=d.id
       image=d.image

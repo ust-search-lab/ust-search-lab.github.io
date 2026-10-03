@@ -1,0 +1,19 @@
+{
+  "lookback_days": 90,
+  "items_per_journal": 12,
+  "journals": [
+    {"id": "jgcd", "short_name": "JGCD", "name": "Journal of Guidance, Control, and Dynamics", "issn": "1533-3884", "issns": ["1533-3884", "0731-5090"], "url": "https://arc.aiaa.org/journal/jgcd"},
+    {"id": "jsr", "short_name": "JSR", "name": "Journal of Spacecraft and Rockets", "issn": "1533-6794", "issns": ["1533-6794", "0022-4650"], "url": "https://arc.aiaa.org/journal/jsr"},
+    {"id": "acta-astronautica", "short_name": "Acta Astronautica", "name": "Acta Astronautica", "issn": "0094-5765", "issns": ["0094-5765"], "url": "https://www.sciencedirect.com/science/journal/00945765"}
+  ],
+  "space_context": ["spacecraft", "satellite", "satellites", "space mission", "space exploration", "astrodynamics", "orbital", "cislunar", "lunar", "moon", "planetary", "interplanetary", "mars", "asteroid", "asteroids", "small bodies", "deep space", "solar sail", "cubesat"],
+  "topics": [
+    {"id": "astrodynamics", "ko": "궤도역학·임무설계", "en": "Astrodynamics & mission design", "keywords": ["astrodynamics", "orbital mechanics", "orbital dynamics", "orbital maneuver", "orbital transfer", "orbit design", "orbit determination", "orbit transfer", "orbit insertion", "mission design", "trajectory design", "station keeping", "halo orbit", "cislunar", "three body", "libration", "low thrust", "interplanetary"]},
+    {"id": "control", "ko": "최적화·유도제어", "en": "Optimization & control", "requires_space_context": true, "keywords": ["trajectory optimization", "optimal control", "convex optimization", "guidance", "attitude control", "attitude determination", "attitude dynamics", "rendezvous", "docking", "formation flying", "relative navigation", "model predictive control"]},
+    {"id": "planetary", "ko": "달·행성 탐사", "en": "Lunar & planetary exploration", "keywords": ["lunar", "moon", "planetary", "interplanetary", "mars", "asteroid", "asteroids", "small bodies"]},
+    {"id": "entry", "ko": "진입·착륙·열보호", "en": "Entry, landing & thermal protection", "keywords": ["entry descent", "powered descent", "aerocapture", "aerobraking", "thermal protection", "atmospheric entry", "reentry", "re entry", "planetary landing"]},
+    {"id": "sail", "ko": "태양돛", "en": "Solar sails", "keywords": ["solar sail", "solar sails", "solar sailing", "solar radiation pressure"]},
+    {"id": "optical", "ko": "우주 광통신", "en": "Space optical communications", "requires_space_context": true, "keywords": ["optical communication", "optical communications", "laser communication", "laser communications", "laser link"]},
+    {"id": "cubesat", "ko": "큐브샛·소형위성", "en": "CubeSats & small satellites", "keywords": ["cubesat", "cubesats", "small satellite", "small satellites", "nanosatellite", "nanosatellites"]}
+  ]
+}

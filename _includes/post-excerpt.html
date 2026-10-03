@@ -9,7 +9,7 @@
 {% endif %}
 
 <div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="post-excerpt">
     {% assign url = post.url | relative_url | uri_escape %}
     {% assign title = post.title %}
 
@@ -30,7 +30,8 @@
     {% endif %}
 
     <div class="post-excerpt-text">
-      <a href="{{ url }}">{{ title }}</a>
+      {% assign post_heading = include.heading | default: 'h3' %}
+      <{{ post_heading }} class="post-excerpt-title"><a href="{{ url }}">{{ title | escape }}</a>{% include news-new-badge.html date=post.date %}</{{ post_heading }}>
 
       {%
         include post-info.html
@@ -56,5 +57,5 @@
         {{ excerpt }}
       </p>
     </div>
-  </div>
+  </article>
 </div>

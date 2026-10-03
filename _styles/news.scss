@@ -1,0 +1,41 @@
+---
+---
+
+.news-new-badge {
+  display: inline-block;
+  margin-inline-start: 8px;
+  padding: 3px 6px;
+  border: 1px solid var(--primary);
+  border-radius: var(--radius-small);
+  background: var(--secondary);
+  color: var(--primary);
+  font-family: var(--heading);
+  font-size: 0.7rem;
+  font-weight: var(--bold);
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.news-new-badge[hidden] {
+  display: none;
+}
+
+// A brief pulse draws attention, then leaves a readable, still badge.
+@media (prefers-reduced-motion: no-preference) {
+  .news-new-badge {
+    animation: news-new-pulse 1.6s ease-in-out 3;
+  }
+}
+
+@keyframes news-new-pulse {
+  0%, 100% {
+    background: var(--secondary);
+    box-shadow: 0 0 0 0 transparent;
+  }
+  50% {
+    background: var(--background);
+    box-shadow: 0 0 0 3px var(--secondary);
+  }
+}

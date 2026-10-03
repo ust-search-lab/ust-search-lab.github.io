@@ -50,9 +50,9 @@
 
     <div class="profile-links">
       {% if profile_mode == "full" %}
-        <a class="profile-link profile-link--primary" href="{{ profile_publications_url | relative_url }}">{{ profile_publications_label }}</a>
+        <a class="action-button" href="{{ profile_publications_url | relative_url }}">{{ profile_publications_label }}</a>
       {% elsif profile_member.url %}
-        <a class="profile-link profile-link--primary" href="{{ profile_member.url | relative_url | uri_escape }}" aria-label="{{ profile_member.name | escape }} · {{ profile_detail_label }}">{{ profile_detail_label }}</a>
+        <a class="action-button" href="{{ profile_member.url | relative_url | uri_escape }}" aria-label="{{ profile_member.name | escape }} · {{ profile_detail_label }}">{{ profile_detail_label }}</a>
       {% endif %}
     </div>
   </div>

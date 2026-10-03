@@ -35,19 +35,37 @@ $wrap: 800px;
 
 .post-excerpt-text {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px 30px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 12px;
+  padding: var(--card-padding);
   text-align: left;
 }
 
-.post-excerpt-text > * {
-  margin: 0 !important;
+.post-excerpt .post-excerpt-text > * {
+  margin: 0;
 }
 
-.post-excerpt-text > a:first-child {
+.post-excerpt-title {
   width: 100%;
-  font-weight: var(--semi-bold);
+  padding: 0;
+  border: 0;
+  font-size: var(--card-title-size);
+  font-weight: var(--bold);
+  line-height: 1.55;
+}
+
+.post-excerpt-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.post-excerpt-title a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .post-excerpt-text > div {
@@ -56,6 +74,8 @@ $wrap: 800px;
 
 .post-excerpt-text > p {
   width: 100%;
+  color: var(--dark-gray);
+  font-size: 0.95rem;
 }
 
 @container (max-width: #{$wrap}) {

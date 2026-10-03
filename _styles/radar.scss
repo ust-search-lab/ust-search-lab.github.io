@@ -1,0 +1,42 @@
+---
+---
+
+.research-radar {
+  .radar-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px 32px; margin-bottom: 18px; }
+  .radar-heading > div { flex: 1; min-width: 0; }
+  .radar-heading h2 { margin: 0; }
+  &.research-radar-compact .radar-heading h2 { padding: 0; border: 0; }
+  .radar-eyebrow { margin: 0 0 12px; color: var(--primary); font-size: var(--label-size); font-weight: var(--bold); letter-spacing: 0.08em; }
+  .radar-all { flex-shrink: 0; font-size: 0.9rem; }
+  .radar-status { display: flex; flex-wrap: wrap; gap: 6px 24px; margin-bottom: 24px; color: var(--dark-gray); font-size: var(--meta-size); font-variant-numeric: tabular-nums; }
+  .radar-status a { text-decoration: underline; }
+  .radar-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--card-gap); }
+  .radar-entry { display: flex; flex-direction: column; min-width: 0; padding: var(--card-padding); border: 1px solid var(--light-gray); border-radius: var(--rounded); background: var(--background); }
+  .radar-entry-selected { border-top: 3px solid var(--primary); background: var(--background-alt); }
+  .radar-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 14px; color: var(--dark-gray); font-size: var(--meta-size); line-height: 1.65; }
+  .radar-journal { padding: 3px 9px; border-radius: var(--radius-small); color: var(--primary); background: var(--background-alt); font-weight: var(--bold); letter-spacing: 0.04em; }
+  .radar-selected-label { color: var(--primary); font-weight: var(--bold); }
+  .radar-stale { font-style: italic; }
+  .radar-date { margin-left: auto; font-variant-numeric: tabular-nums; }
+  .radar-entry-title { margin: 0; color: var(--ink); font-size: var(--card-title-size); font-weight: var(--bold); line-height: 1.55; word-break: normal; overflow-wrap: anywhere; }
+  .radar-entry-title a { color: inherit; text-decoration: none; }
+  .radar-entry-title a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 4px; }
+  .radar-entry-title span { color: var(--primary); white-space: nowrap; }
+  .radar-authors { margin: 12px 0 0; color: var(--dark-gray); font-size: var(--meta-size); line-height: 1.65; word-break: normal; }
+  .radar-topics { display: flex; flex-wrap: wrap; gap: 6px 12px; margin: auto 0 0; padding: 16px 0 0; list-style: none; }
+  .radar-topics li { margin: 0; padding: 0; color: var(--primary); font-size: var(--label-size); line-height: 1.65; }
+  .radar-footnote { margin: 20px 0 0; color: var(--dark-gray); font-size: var(--meta-size); line-height: 1.7; }
+  .radar-notice { margin: 0 0 20px; padding: var(--card-padding); border-left: 3px solid var(--primary); border-radius: 0 var(--rounded) var(--rounded) 0; background: var(--background); color: var(--dark-gray); }
+  .radar-group-title { margin: 28px 0 16px; font-size: var(--card-title-size); }
+  .radar-selection-note { margin: 16px 0 0; padding-top: 14px; border-top: 1px solid var(--light-gray); color: var(--ink); font-size: 0.9rem; }
+  .radar-sources { margin: 24px 0 0; padding: 20px 0 0; border-top: 1px solid var(--light-gray); list-style: none; }
+  .radar-sources li { margin: 12px 0; padding: 0; font-size: var(--meta-size); }
+  .radar-sources span:not([aria-hidden]) { display: block; margin-top: 4px; color: var(--dark-gray); font-size: var(--label-size); }
+
+  @media (max-width: 700px) {
+    .radar-heading { flex-direction: column; align-items: stretch; gap: 8px; }
+    .radar-all { align-self: flex-start; }
+    .radar-grid { grid-template-columns: minmax(0, 1fr); }
+    .radar-date { margin-left: 0; }
+  }
+}

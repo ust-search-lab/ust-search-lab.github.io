@@ -61,6 +61,12 @@
   --section-space: 48px;
   --title-size: clamp(1.35rem, 2.2vw, 1.75rem);
   --section-title-size: clamp(1.25rem, 2vw, 1.5rem);
+  --card-title-size: 1.1rem;
+  --meta-size: 0.85rem;
+  --label-size: 0.8rem;
+  --card-padding: 24px;
+  --card-gap: 24px;
+  --control-height: 46px;
   --radius-small: 6px;
 
   // effects
@@ -73,5 +79,7 @@
   :root {
     --page-gutter: 22px;
     --section-space: 36px;
+    --card-padding: 20px;
+    --card-gap: 16px;
   }
 }

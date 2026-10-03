@@ -1,0 +1,38 @@
+ko:
+  eyebrow: RESEARCH RADAR
+  title: 논문 동향
+  all: 전체 논문 보기
+  path: /radar/
+  latest: 최신 관련 논문
+  selected: 연구실 추천 논문
+  selected_badge: 연구실 추천
+  updated: 최근 수집
+  online: 온라인 게재
+  published: 게재일
+  source: 서지정보
+  selection_note: 연구실 추천 논문은 별도로 선별한 목록입니다.
+  partial: 일부 학술지의 갱신이 지연되어 마지막으로 수집한 목록을 표시합니다.
+  missing_pins: 일부 추천 논문의 서지정보를 확인 중입니다.
+  empty: 현재 조건에 맞는 최신 논문이 없습니다. 다음 갱신 때 다시 확인해 주세요.
+  no_snapshot: 논문 정보를 준비하고 있습니다.
+  stale: 갱신 지연
+  authors_missing: 저자 정보 미제공
+en:
+  eyebrow: RESEARCH RADAR
+  title: Research Radar
+  all: View all papers
+  path: /en/radar/
+  latest: Recent related papers
+  selected: Lab-selected papers
+  selected_badge: Lab selection
+  updated: Last retrieved
+  online: Published online
+  published: Published
+  source: Metadata
+  selection_note: Lab-selected papers are curated separately.
+  partial: Some journals could not be refreshed. Their last available results are shown.
+  missing_pins: Metadata for some selected papers is being checked.
+  empty: No recent papers currently match these topics. Please check again after the next refresh.
+  no_snapshot: Paper information is being prepared.
+  stale: Update delayed
+  authors_missing: Author information unavailable

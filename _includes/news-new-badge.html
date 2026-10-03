@@ -1,0 +1,9 @@
+{%- if include.date -%}
+  {%- assign badge_lang = page.lang | default: 'ko' -%}
+  {%- assign badge_days = site.news_new_days | default: 30 -%}
+  {%- assign badge_seconds = badge_days | times: 86400 -%}
+  {%- assign badge_now = site.time | date: '%s' | plus: 0 -%}
+  {%- assign badge_published = include.date | date: '%s' | plus: 0 -%}
+  {%- assign badge_age = badge_now | minus: badge_published -%}
+  <span class="news-new-badge" role="img" aria-label="{{ site.data.i18n[badge_lang].post-new | escape }}" data-published-at="{{ include.date | date_to_xmlschema }}" data-new-days="{{ badge_days }}"{% if badge_age < 0 or badge_age >= badge_seconds %} hidden{% endif %}>NEW</span>
+{%- endif -%}
