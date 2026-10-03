@@ -7,6 +7,8 @@ ko:
   about_link: 연구실 소개
   about_path: about/
   research_path: research/
+  news_title: 공지사항
+  news_all: 공지사항 전체 보기
   methods_eyebrow: OUR METHODS
   methods_title: 탐사 임무를 설계하는 네 가지 연구방법
   methods_description: 임무의 목표와 제약조건을 이해하고, 궤도를 해석하며, 최적의 비행경로와 제어 전략을 탐색합니다.
@@ -30,6 +32,8 @@ en:
   about_link: About the lab
   about_path: en/about/
   research_path: en/research/
+  news_title: Latest news
+  news_all: View all news
   methods_eyebrow: OUR METHODS
   methods_title: Four methods for designing exploration missions
   methods_description: We examine mission objectives and constraints, analyze orbits, and explore optimal trajectories and control strategies.

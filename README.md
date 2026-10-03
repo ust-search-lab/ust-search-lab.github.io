@@ -26,6 +26,9 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
   bilingual captions and alternative text, and links to the official image
   sources. Captions identify illustrations explicitly; provenance records the
   verified source and credit. The former concept SVGs are no longer used by the home page.
+  Below the introduction, each home page displays the three latest posts in
+  its language, including publication dates, titles, and excerpts linking to
+  the full announcements. Adding a post to `_posts/` updates this list automatically.
   The home page proceeds from research areas to the student invitation;
   KARI ground-test videos appear on the Research pages.
 - Publications combine citations generated from `_data/orcid.yaml` and

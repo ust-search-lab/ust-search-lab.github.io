@@ -1,5 +1,7 @@
 {% assign home_lang = page.lang | default: "ko" %}
 {% assign home_copy = site.data.home[home_lang] %}
+{% assign home_ui = site.data.i18n[home_lang] %}
+{% assign home_news = site.posts | where: "lang", home_lang | sort: "date" | reverse %}
 {% assign research_topics = site.data.research-topics %}
 
 <div class="home-intro">
@@ -15,6 +17,27 @@
     </div>
   </div>
 </div>
+
+{% if home_news.size > 0 %}
+<div class="home-news" role="region" aria-labelledby="home-news-title">
+  <div class="home-news-heading">
+    <h2 id="home-news-title">{{ home_copy.news_title }}</h2>
+    <a class="home-text-link" href="{{ home_ui.news-page | relative_url }}">{{ home_copy.news_all }} <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="home-news-list">
+    {% for news_post in home_news limit: 3 %}
+      {% assign news_excerpt = news_post.excerpt | default: news_post.description | markdownify | strip_html | strip_newlines | strip %}
+      <article class="home-news-item">
+        <time datetime="{{ news_post.date | date_to_xmlschema }}">{{ news_post.date | date: home_ui.post-date-format }}</time>
+        <div class="home-news-copy">
+          <h3><a href="{{ news_post.url | relative_url }}">{{ news_post.title | escape }}</a></h3>
+          {% if news_excerpt != "" %}<p>{{ news_excerpt | truncate: 240 }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 
 {% include section.html %}
 
