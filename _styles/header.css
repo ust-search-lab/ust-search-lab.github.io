@@ -35,6 +35,13 @@ header a {
   height: 100%;
 }
 
+.wordmark {
+  display: block;
+  width: clamp(190px, 22vw, 240px);
+  max-width: 100%;
+  height: auto;
+}
+
 .title-text {
   display: flex;
   justify-content: flex-start;
@@ -119,7 +126,11 @@ header.background:before {
   opacity: 1;
 }
 
-@media (max-width: 1000px) {
+header:not([data-big]).background:before {
+  background-image: linear-gradient(rgba(25, 44, 59, 0.62), rgba(17, 33, 46, 0.86)), var(--image);
+}
+
+@media (max-width: 1200px) {
   header:not([data-big]) {
     justify-content: flex-end;
   }
@@ -172,7 +183,7 @@ header[data-big] .site-nav {
 }
 
 header[data-big].background:before {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent 120px), var(--image);
+  background-image: linear-gradient(var(--header-shade, rgba(0, 0, 0, 0.5)), transparent 120px), var(--image);
 }
 
 /*# sourceMappingURL=header.css.map */

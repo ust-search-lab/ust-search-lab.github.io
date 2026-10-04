@@ -14,6 +14,10 @@ footer.background:before {
   opacity: 1;
 }
 
+footer:not([data-big]).background:before {
+  background-image: linear-gradient(rgba(17, 33, 46, 0.65), rgba(17, 33, 46, 0.92)), var(--image);
+}
+
 footer[data-big] {
   justify-content: flex-end;
   aspect-ratio: 1983/793;
@@ -27,7 +31,7 @@ footer[data-big] {
 }
 
 footer[data-big].background:before {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent 220px), var(--image);
+  background-image: linear-gradient(to top, var(--footer-shade, rgba(0, 0, 0, 0.6)), transparent var(--footer-shade-height, 220px)), var(--image);
 }
 @media (max-width: 1000px) {
   footer[data-big].background:before {
