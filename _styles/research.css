@@ -15,6 +15,7 @@
 }
 .research-method h3 {
   margin: 0;
+  padding-right: 28px;
   font-size: var(--card-title-size);
   font-weight: var(--bold);
   line-height: 1.55;
@@ -23,6 +24,14 @@
   margin: 14px 0 0;
   font-size: 0.95rem;
   line-height: 1.8;
+}
+
+.research-method-number {
+  margin-bottom: 18px;
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
 }
 
 .research-nav {
@@ -151,6 +160,11 @@
 @media (max-width: 800px) {
   .research-methods {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 420px) {
+  .research-method-number {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 700px) {

@@ -1,0 +1,65 @@
+main[data-page=links] .resource-group + .resource-group {
+  margin-top: var(--section-space);
+}
+main[data-page=links] .resource-group h2 {
+  margin: 0 0 20px;
+  padding-right: 28px;
+}
+main[data-page=links] .resource-group h2 .icon {
+  margin-right: 0.6em;
+  color: var(--primary);
+}
+main[data-page=links] .resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--card-gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main[data-page=links] .resource-card {
+  min-width: 0;
+  margin: 0;
+  padding: var(--card-padding);
+  border: 1px solid var(--light-gray);
+  border-top: 2px solid var(--primary);
+  border-radius: var(--rounded);
+  background: var(--background);
+}
+main[data-page=links] .resource-card h3 {
+  margin: 0;
+  font-size: var(--card-title-size);
+  line-height: 1.55;
+}
+main[data-page=links] .resource-card .text-link {
+  justify-content: space-between;
+  width: 100%;
+}
+main[data-page=links] .resource-card .text-link > span:first-child {
+  min-width: 0;
+}
+main[data-page=links] .resource-card .text-link > span:last-child {
+  flex-shrink: 0;
+}
+main[data-page=links] .resource-card p {
+  margin: 12px 0 0;
+  color: var(--dark-gray);
+  font-size: 0.95rem;
+  text-align: left;
+  line-height: 1.8;
+}
+main[data-page=links] .resource-related {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  margin-top: var(--section-space);
+  padding-top: 20px;
+  border-top: 1px solid var(--light-gray);
+}
+@media (max-width: 700px) {
+  main[data-page=links] .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=links.css.map */

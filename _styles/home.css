@@ -121,7 +121,7 @@ main[data-page=home] .home-news-copy p {
 }
 main[data-page=home] .home-method-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--card-gap);
 }
 main[data-page=home] .home-method {
