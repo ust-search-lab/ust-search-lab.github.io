@@ -48,6 +48,9 @@ main[data-page=home] .home-eyebrow {
   letter-spacing: 0.08em;
   line-height: 1.5;
 }
+main[data-page=home] .home-intro-description {
+  margin-top: 16px;
+}
 main[data-page=home] .home-actions {
   display: flex;
   flex-wrap: wrap;
