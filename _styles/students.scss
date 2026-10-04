@@ -1,6 +1,14 @@
 ---
 ---
 
+main[data-page="students"] {
+  h2,
+  h3 {
+    // Keep the heading permalink inside the content area on narrow screens.
+    padding-right: 28px;
+  }
+}
+
 .students-degrees {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

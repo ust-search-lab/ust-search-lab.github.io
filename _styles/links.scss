@@ -1,0 +1,80 @@
+---
+---
+
+main[data-page="links"] {
+  .resource-group + .resource-group {
+    margin-top: var(--section-space);
+  }
+
+  .resource-group h2 {
+    margin: 0 0 20px;
+    // Reserve room for the shared heading permalink on narrow screens.
+    padding-right: 28px;
+
+    .icon {
+      margin-right: 0.6em;
+      color: var(--primary);
+    }
+  }
+
+  .resource-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--card-gap);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .resource-card {
+    min-width: 0;
+    margin: 0;
+    padding: var(--card-padding);
+    border: 1px solid var(--light-gray);
+    border-top: 2px solid var(--primary);
+    border-radius: var(--rounded);
+    background: var(--background);
+
+    h3 {
+      margin: 0;
+      font-size: var(--card-title-size);
+      line-height: 1.55;
+    }
+
+    .text-link {
+      justify-content: space-between;
+      width: 100%;
+
+      > span:first-child {
+        min-width: 0;
+      }
+
+      > span:last-child {
+        flex-shrink: 0;
+      }
+    }
+
+    p {
+      margin: 12px 0 0;
+      color: var(--dark-gray);
+      font-size: 0.95rem;
+      text-align: left;
+      line-height: 1.8;
+    }
+  }
+
+  .resource-related {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    margin-top: var(--section-space);
+    padding-top: 20px;
+    border-top: 1px solid var(--light-gray);
+  }
+
+  @media (max-width: 700px) {
+    .resource-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

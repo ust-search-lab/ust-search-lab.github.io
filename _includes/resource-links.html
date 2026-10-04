@@ -1,0 +1,25 @@
+{% assign lang = page.lang | default: "ko" %}
+
+<div class="resource-links">
+  {% for group in site.data.resource-links %}
+    <div class="resource-group">
+      <h2 id="{{ group.id | escape }}"><span aria-hidden="true">{% include icon.html icon=group.icon %}</span>{{ group[lang].title | escape }}</h2>
+      <ul class="resource-grid" aria-labelledby="{{ group.id | escape }}" role="list">
+        {% for resource in group.items %}
+          {% assign label = resource[lang] %}
+          {% assign resource_name = label.name %}
+          {% assign resource_url = resource.url %}
+          {% if resource.institution %}
+            {% assign institution = site.data.institutions | where: "id", resource.institution | first %}
+            {% assign resource_name = institution[lang].name %}
+            {% assign resource_url = institution[lang].url %}
+          {% endif %}
+          <li class="resource-card">
+            <h3><a class="text-link" href="{{ resource_url | escape }}"><span>{{ resource_name | escape }}</span><span aria-hidden="true">↗</span></a></h3>
+            <p>{{ label.description | escape }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

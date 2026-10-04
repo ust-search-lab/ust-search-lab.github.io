@@ -1,0 +1,8 @@
+{%- assign topic_names_lang = page.lang | default: 'ko' -%}
+{%- assign topic_names_group = include.group | default: 'methods' -%}
+{%- assign topic_names_separator = ', ' -%}
+{%- if topic_names_lang == 'en' -%}{%- assign topic_names_separator = '; ' -%}{%- endif -%}
+{%- for topic_names_item in site.data.research-topics[topic_names_group] -%}
+  {%- unless forloop.first -%}{{- topic_names_separator -}}{%- endunless -%}
+  {{- topic_names_item[topic_names_lang].title -}}
+{%- endfor -%}

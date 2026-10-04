@@ -31,7 +31,7 @@ main[data-page="home"] {
   .home-news-copy h3 a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 4px; }
   .home-news-copy p { margin-top: 8px; font-size: 0.95rem; }
 
-  .home-method-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--card-gap); }
+  .home-method-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--card-gap); }
   .home-method { position: relative; display: flex; flex-direction: column; padding: 21px 0 32px; border-top: 2px solid var(--light-gray); color: var(--ink); transition: border-color 0.2s; }
   .home-method:hover { border-color: var(--primary); }
   .home-method-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; color: var(--primary); }

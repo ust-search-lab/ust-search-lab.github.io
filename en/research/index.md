@@ -9,7 +9,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-rocket" %}Research
 {: .page-title }
 
-SEARCH Lab builds on dynamical systems theory and astrodynamics to design **space mission architectures** spanning Earth-orbit missions and deep-space exploration. We integrate high-fidelity orbit and trajectory optimization, optimal control techniques, and comprehensive system-level analysis to assess the physical feasibility of missions and study in-orbit technology demonstration.
+SEARCH Lab builds on astrodynamics and dynamical systems theory to design **space mission architectures** spanning Earth orbit and deep-space exploration. We combine orbit and trajectory analysis, guidance and attitude control, numerical optimization, AI and machine learning, and systems analysis to assess mission feasibility and study approaches to in-space demonstration.
 {: .page-intro }
 
 <nav class="research-nav" aria-label="Research areas">
@@ -31,6 +31,10 @@ SEARCH Lab builds on dynamical systems theory and astrodynamics to design **spac
 {% for method in site.data.research-topics.methods %}
 <div class="research-method" markdown="1">
 
+{% for alias in method.aliases %}<div id="{{ alias }}" aria-hidden="true"></div>{% endfor %}
+
+<div class="research-method-number" aria-hidden="true">0{{ forloop.index }}</div>
+
 ### {{ method.en.title }} {#{{ method.id }}}
 
 {{ method.en.summary }}
@@ -46,7 +50,7 @@ SEARCH Lab builds on dynamical systems theory and astrodynamics to design **spac
 
 ## Research Applications {#applications}
 
-We apply these shared methods across six areas, addressing the mission environments and technology requirements specific to each.
+We apply these core theories and methods across six areas, addressing the mission environments and technology requirements specific to each.
 
 ### {% include icon.html icon="fa-solid fa-globe" %}{% include research-title.html id="earth-orbit" %} {#earth-orbit}
 
@@ -59,6 +63,8 @@ We design Earth-orbit missions for observation, communications, and technology d
 #### Satellite Constellation Design {#earth-constellation}
 
 For missions involving multiple satellites, we design satellite count, orbital plane configuration, and satellite phasing together. We optimize the constellation by analyzing trade-offs among observation and communications performance, propellant use, and operational effort, and assess long-term performance under orbital perturbations and orbit maintenance maneuvers.
+
+For formation flying that requires precise relative positioning, we extend this work to [guidance and control](#guidance-control) using relative orbit dynamics and accounting for navigation errors.
 
 {% include research-figure.html topic="earth-constellation" caption="Illustrative constellation with satellites distributed across three orbital planes. Colors distinguish the planes; satellite sizes and orbital altitudes are not to scale." alt="A schematic of satellites distributed across three circular orbits around Earth, with altitude, inclination, orbital planes, and satellite phasing identified as design variables." %}
 
@@ -114,6 +120,12 @@ Solar sails generate thrust from solar radiation pressure as sunlight transfers 
 
 {% include research-figure.html topic="solar-sail" caption="Sunlight transfers momentum to a sail, producing thrust. The right panel shows an ideal, perfectly reflecting sail in cross-section; sail orientation affects the magnitude and direction of thrust." alt="A deployed solar sail and a cross-section of an ideal reflective sail, showing incident and reflected light and thrust normal to the sail surface." %}
 
+#### Integrated Attitude and Orbit Control {#integrated-attitude-orbit-control}
+
+We aim to combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.
+
+Related prior work: [Indirect methods for deep-learning-based solar-sail optimal control (2025, Korean)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
+
 #### Solar Sail Deployment Mechanism: Development and Ground Tests {#solar-sail-ground-test}
 
 The Korea Aerospace Research Institute (KARI) developed a ground test model with a 10 m × 10 m (100 m²) sail to advance solar sail deployment technology for deep-space exploration. A motor extends four supporting booms to unfurl the stowed membrane. Ground tests identified deployment problems and opportunities for improvement. The videos show the test model deploying from overhead and side views.
@@ -159,5 +171,7 @@ We study how CubeSats can demonstrate mission concepts and technologies in space
 - Ground testing and qualification methods for the space environment
 - Satellite concepts of operations and in-orbit technology verification scenarios
 - In-space demonstration mission planning linked to national R&D programs
+
+For [attitude control](#attitude-dynamics-control) and autonomous control algorithms, we consider verification from numerical simulation to ground tests integrating onboard computers, sensors, and actuators, and assess opportunities for in-orbit demonstration according to project scope and resources.
 
 {% include research-figure.html topic="cubesat" caption="CubeSat development translates a mission concept into system requirements, progresses through design, fabrication, and ground testing, and verifies technologies during in-orbit operations." alt="A conceptual CubeSat development and verification sequence from mission concept through system design, fabrication, ground testing, and in-orbit operations and demonstration." %}

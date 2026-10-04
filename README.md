@@ -17,18 +17,29 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 - Each page and member profile has a `ref` key. The language switch in the header links to the page with the same `ref` in the other language.
 - Member profiles are in `_members/`, one file per language (`name.md` with `lang: ko`, `name-en.md` with `lang: en`).
 - Interface text for both languages is in `_data/i18n.yaml`.
+- Links pages (`/links/` and `/en/links/`) share `_data/resource-links.yaml`
+  and `_includes/resource-links.html`, with page styles in `_styles/links.scss`.
+  Keep descriptions in both languages and use official destination URLs.
+  Institution entries resolve their names and URLs from `_data/institutions.yaml`,
+  which is also used by the footer. Links appears between News and Contact.
 - Both home pages use `_includes/home.html`, with bilingual copy in
   `_data/home.yaml` and styles scoped to `main[data-page="home"]` in
-  `_styles/home.scss`. `_data/research-topics.yaml` provides the four core
+  `_styles/home.scss`. `_data/research-topics.yaml` provides the six core
   theories and methods in this presentation order: astrodynamics and orbit
-  analysis, dynamical systems, optimization and control, and mission
-  architecture and systems analysis. Home and Research render this same
-  ordered list; Research also uses its bilingual summaries. The six application
+  analysis, dynamical systems, guidance/control and numerical optimization,
+  attitude dynamics and control, AI/machine learning, and mission architecture
+  and systems analysis. Home and Research render this same
+  ordered list; Research uses its bilingual summaries, and For Students uses
+  the same titles with each method's bilingual `study` topics. About's inline
+  method/application lists use `_includes/research-topic-names.html` to keep
+  the names aligned. The six application
   areas start with Earth-Orbit Mission Design. Home cards, Research headings,
   and student research-area links share these application titles and ordering.
   `_includes/research-title.html` resolves application headings by topic ID
   rather than array position. Keep each topic ID aligned with its Research
-  anchor; constellation design is a subsection of `earth-orbit`.
+  anchor; optional method aliases preserve earlier anchors. Constellation design
+  is a subsection of `earth-orbit`, and integrated attitude/orbit control is
+  detailed within `solar-sail` as an application of the shared methods.
   `_data/home-images.yaml` supplies the cards' mission photographs and illustrations,
   bilingual captions and alternative text, and links to the official image
   sources. Captions identify illustrations explicitly; provenance records the

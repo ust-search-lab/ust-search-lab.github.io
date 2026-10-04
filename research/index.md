@@ -9,7 +9,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-rocket" %}Research
 {: .page-title }
 
-SEARCH Lab은 동역학계 이론과 우주비행역학을 기반으로 지구궤도 임무부터 심우주 탐사까지 아우르는 **우주임무 아키텍처**를 설계합니다. 정밀 궤도·궤적 최적화, 최적제어 기법, 시스템 레벨의 종합 분석을 유기적으로 결합하여 임무의 물리적 실현 가능성을 평가하고 궤도상 기술실증을 연구합니다.
+SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구궤도부터 심우주 탐사까지 아우르는 **우주임무 아키텍처**를 설계합니다. 궤도·궤적 해석, 유도·자세 제어, 수치최적화, AI·기계학습과 시스템 분석을 결합해 임무의 실현 가능성을 평가하고 우주실증 방안을 연구합니다.
 {: .page-intro }
 
 <nav class="research-nav" aria-label="연구분야 바로가기">
@@ -31,6 +31,10 @@ SEARCH Lab은 동역학계 이론과 우주비행역학을 기반으로 지구�
 {% for method in site.data.research-topics.methods %}
 <div class="research-method" markdown="1">
 
+{% for alias in method.aliases %}<div id="{{ alias }}" aria-hidden="true"></div>{% endfor %}
+
+<div class="research-method-number" aria-hidden="true">0{{ forloop.index }}</div>
+
 ### {{ method.ko.title }} {#{{ method.id }}}
 
 {{ method.ko.summary }}
@@ -46,7 +50,7 @@ SEARCH Lab은 동역학계 이론과 우주비행역학을 기반으로 지구�
 
 ## 적용 연구분야 {#applications}
 
-공통 연구방법을 다음 여섯 분야에 적용하며, 각 분야의 임무 환경과 기술 요구조건에 맞는 문제를 다룹니다.
+핵심 이론과 방법론을 다음 여섯 분야에 적용하며, 각 분야의 임무 환경과 기술 요구조건에 맞는 문제를 다룹니다.
 
 ### {% include icon.html icon="fa-solid fa-globe" %}{% include research-title.html id="earth-orbit" %} {#earth-orbit}
 
@@ -59,6 +63,8 @@ SEARCH Lab은 동역학계 이론과 우주비행역학을 기반으로 지구�
 #### 군집위성 궤도설계 {#earth-constellation}
 
 여러 위성이 함께 임무를 수행하는 군집위성에서는 위성 수, 궤도면 구성, 위성 간 위상 배치를 함께 설계합니다. 관측·통신 성능과 추진제 소모, 운용 부담의 상충관계를 분석해 배치를 최적화하고, 궤도섭동과 궤도유지 기동을 반영해 장기 임무 성능을 평가합니다.
+
+위성 간 상대 위치를 정밀하게 유지해야 하는 편대비행에서는 상대궤도 동역학과 항법 오차를 고려한 [유도·제어](#guidance-control) 문제로 확장합니다.
 
 {% include research-figure.html topic="earth-constellation" caption="세 궤도면에 위성을 나누어 배치한 군집위성 개념도. 색상은 서로 다른 궤도면을 구분합니다. 설명을 위한 예시로, 크기와 거리는 축척을 따르지 않습니다." alt="지구를 둘러싼 세 원궤도에 여러 위성을 배치하고, 궤도 고도·경사각·궤도면·위성 간 위상을 설계변수로 표시한 개념도." %}
 
@@ -114,6 +120,12 @@ SEARCH Lab은 동역학계 이론과 우주비행역학을 기반으로 지구�
 
 {% include research-figure.html topic="solar-sail" caption="태양광이 돛에 운동량을 전달해 추력을 만드는 원리. 오른쪽은 이상적인 완전 반사 돛의 단면으로, 돛의 방향에 따라 추력의 크기와 방향이 달라집니다." alt="펼쳐진 태양돛의 전체 형상과 이상적인 반사 돛의 단면. 입사광·반사광과 돛 표면에 수직으로 작용하는 추력을 나타낸 개념도." %}
 
+#### 자세·궤도 통합 제어 {#integrated-attitude-orbit-control}
+
+[유도·제어](#optimization)와 [자세 역학·자세 제어](#attitude-dynamics-control)를 결합해 태양돛의 궤도·자세 운동을 함께 해석하고 제어하는 방법을 연구하고자 합니다. 태양복사압에 의한 힘·토크와 질량중심·압력중심의 관계를 모델링하고, 구동기 한계와 관측·통신 지향 조건을 반영한 6자유도 시뮬레이션으로 임무 수행 가능성을 평가합니다. [AI·기계학습](#ai-machine-learning)을 활용한 제어 명령 예측과 자율비행의 적용 가능성도 검토합니다.
+
+관련 선행연구: [딥러닝 기반 태양돛 최적제어의 간접법 해석 (2025)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
+
 #### 태양돛 전개장치 개발 및 지상시험 {#solar-sail-ground-test}
 
 한국항공우주연구원(KARI)은 심우주 탐사에 활용할 태양돛 전개기술을 확보하기 위해 10 m × 10 m(100 m²) 규모의 지상 시험모델을 개발했습니다. 모터로 네 개의 지지대(붐)를 펼치면서 수납된 얇은 돛을 전개하는 구조로, 지상시험을 통해 붐과 돛의 전개 과정에서 발생하는 문제와 개선점을 확인했습니다. 아래 영상은 시험모델의 전개 과정을 상부와 측면에서 촬영한 것입니다.
@@ -159,5 +171,7 @@ SEARCH Lab은 동역학계 이론과 우주비행역학을 기반으로 지구�
 - 지상시험과 우주환경 적합성 검증 방법 연구
 - 위성 운용개념 수립과 궤도상 기술 검증 시나리오 설계
 - 국가연구개발사업과 연계한 우주실증 임무 기획
+
+[자세 제어](#attitude-dynamics-control)와 자율제어 알고리즘은 수치 시뮬레이션에서 시작해 탑재 컴퓨터·센서·구동기를 연계한 지상시험으로 검증 범위를 넓히고, 과제 여건에 맞춰 궤도상 실증 가능성을 검토합니다.
 
 {% include research-figure.html topic="cubesat" caption="큐브샛 임무 개념을 시스템 요구조건으로 구체화하고, 설계·제작과 지상시험을 거쳐 궤도상 운용에서 기술을 검증하는 개발 과정." alt="큐브샛 임무 개념, 시스템 설계와 제작, 지상시험, 궤도상 운용과 실증으로 이어지는 개발·검증 과정의 개념도." %}

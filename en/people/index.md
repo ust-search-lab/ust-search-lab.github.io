@@ -34,4 +34,4 @@ SEARCH Lab collaborates on space exploration architecture and mission design wit
 
 ## Student Researchers
 
-To learn about joining SEARCH Lab as a master's or doctoral student, visit our [student information page]({{ "en/students/" | relative_url }}).
+To learn about joining SEARCH Lab as a master's or doctoral student, visit [For Students]({{ "en/students/" | relative_url }}).

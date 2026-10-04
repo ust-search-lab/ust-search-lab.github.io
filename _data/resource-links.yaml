@@ -1,0 +1,171 @@
+- id: institutions
+  icon: fa-solid fa-building-columns
+  ko:
+    title: 소속기관·진학
+  en:
+    title: Institutions & admissions
+  items:
+    - id: ust
+      institution: ust
+      ko:
+        description: 전공·캠퍼스 소개와 대학원 입학 안내를 확인할 수 있습니다.
+      en:
+        description: Explore graduate programs, campuses, and admissions at UST.
+    - id: kari
+      institution: kari
+      ko:
+        description: 항공우주 연구개발과 주요 우주탐사 사업을 소개합니다.
+      en:
+        description: Explore KARI's aerospace research and space exploration programs.
+    - id: ust-kari-school
+      url: https://admission.ust.ac.kr/prog/campus/campus/sub33_01/33/campusInfo.do
+      ko:
+        name: UST 한국항공우주연구원 스쿨
+        description: UST 한국항공우주연구원 스쿨 소개와 전공 안내를 확인할 수 있습니다.
+      en:
+        name: UST KARI School
+        description: An introduction to the UST KARI School and its graduate programs (in Korean).
+    - id: ust-admissions
+      url: https://apply.ust.ac.kr/
+      ko:
+        name: UST 입학전형시스템
+        description: 모집 안내를 확인하고 대학원 입학을 지원하는 공식 사이트입니다.
+      en:
+        name: UST Admissions System
+        description: Find application information and apply for graduate study at UST.
+
+- id: tools
+  icon: fa-solid fa-compass-drafting
+  ko:
+    title: 임무설계·해석 도구
+  en:
+    title: Mission design & analysis tools
+  items:
+    - id: nasa-mission-design-tools
+      url: https://www.nasa.gov/smallsat-institute/space-mission-design-tools/
+      ko:
+        name: NASA Space Mission Design Tools
+        description: 궤적 설계·최적화, 군집위성 해석과 임무 운용에 활용할 도구를 모은 NASA의 안내 페이지입니다.
+      en:
+        name: NASA Space Mission Design Tools
+        description: NASA's directory of tools for trajectory design, optimization, constellation analysis, and mission operations.
+    - id: gmat
+      url: https://software.nasa.gov/software/GSC-19640-1
+      ko:
+        name: GMAT
+        description: 지구궤도부터 심우주까지 임무설계와 궤적 최적화를 지원하는 NASA의 오픈소스 도구입니다.
+      en:
+        name: GMAT
+        description: NASA's open-source tool for mission design and trajectory optimization, from Earth orbit to deep space.
+    - id: stk
+      url: https://ansys.synopsys.com/products/missions/ansys-stk
+      ko:
+        name: Ansys STK
+        description: 궤도·궤적, 관측 범위와 통신 성능을 임무 시나리오에서 분석하는 상용 소프트웨어입니다.
+      en:
+        name: Ansys STK
+        description: Commercial software for analyzing orbits, trajectories, coverage, and communications in mission scenarios.
+    - id: spice
+      url: https://naif.jpl.nasa.gov/naif/
+      ko:
+        name: NAIF / SPICE
+        description: 천체·탐사선의 위치와 자세, 관측 기하를 계산하는 NASA/JPL의 데이터와 도구를 제공합니다.
+      en:
+        name: NAIF / SPICE
+        description: NASA/JPL data and tools for computing spacecraft and solar system geometry, orientation, and observation conditions.
+    - id: horizons
+      url: https://ssd.jpl.nasa.gov/horizons/
+      ko:
+        name: JPL Horizons
+        description: 태양계 천체의 위치·속도와 관측 조건을 조회하는 천체력 서비스입니다.
+      en:
+        name: JPL Horizons
+        description: An ephemeris service for solar system positions, velocities, and observing conditions.
+
+- id: literature
+  icon: fa-regular fa-file-lines
+  ko:
+    title: 논문·기술자료
+  en:
+    title: Journals & technical reports
+  items:
+    - id: jgcd
+      url: https://arc.aiaa.org/journal/jgcd
+      ko:
+        name: Journal of Guidance, Control, and Dynamics
+        description: 유도·항법·제어와 비행 동역학 연구를 다루는 AIAA 학술지입니다.
+      en:
+        name: Journal of Guidance, Control, and Dynamics
+        description: The AIAA journal covering guidance, navigation, control, and flight dynamics.
+    - id: jsr
+      url: https://arc.aiaa.org/journal/jsr
+      ko:
+        name: Journal of Spacecraft and Rockets
+        description: 우주비행체와 로켓의 설계, 시스템 및 임무 관련 연구를 다루는 AIAA 학술지입니다.
+      en:
+        name: Journal of Spacecraft and Rockets
+        description: The AIAA journal covering spacecraft and rocket design, systems, and missions.
+    - id: acta-astronautica
+      url: https://www.sciencedirect.com/journal/acta-astronautica
+      ko:
+        name: Acta Astronautica
+        description: 우주탐사와 우주기술 전반의 연구를 다루는 국제우주항행학회(IAA) 학술지입니다.
+      en:
+        name: Acta Astronautica
+        description: The International Academy of Astronautics journal covering space exploration and space technology.
+    - id: astrodynamics
+      url: https://link.springer.com/journal/42064
+      ko:
+        name: Astrodynamics
+        description: 궤도역학, 궤적 최적화, 우주임무 설계와 군집위성·편대비행 연구를 다루는 학술지입니다.
+      en:
+        name: Astrodynamics
+        description: Research on orbital dynamics, trajectory optimization, space mission design, satellite constellations, and formation flying.
+    - id: advances-in-space-research
+      url: https://www.sciencedirect.com/journal/advances-in-space-research
+      ko:
+        name: Advances in Space Research
+        description: 궤도역학, 우주잔해와 행성탐사 등 우주과학·기술 전반의 연구를 다루는 COSPAR 학술지입니다.
+      en:
+        name: Advances in Space Research
+        description: The COSPAR journal covering orbital dynamics, space debris, planetary exploration, and broader space science and technology.
+    - id: aerospace-science-and-technology
+      url: https://www.sciencedirect.com/journal/aerospace-science-and-technology
+      ko:
+        name: Aerospace Science and Technology
+        description: 비행역학, 유도·항법·제어와 우주비행체·위성 시스템 연구를 다루는 학술지입니다.
+      en:
+        name: Aerospace Science and Technology
+        description: Research on flight mechanics, guidance, navigation, control, and spacecraft and satellite systems.
+    - id: chinese-journal-of-aeronautics
+      url: https://www.sciopen.com/journal/1000-9361
+      ko:
+        name: Chinese Journal of Aeronautics
+        description: 비행역학, 비행체 설계, 제어와 재료 등 항공우주공학 전반의 연구를 다루는 학술지입니다.
+      en:
+        name: Chinese Journal of Aeronautics
+        description: Aerospace engineering research spanning flight mechanics, vehicle design, control, and materials.
+    - id: ieee-taes
+      url: https://ieee-aess.org/publications/taes
+      ko:
+        name: IEEE Transactions on Aerospace and Electronic Systems
+        description: 군집위성, 항법과 우주시스템의 설계·통합·운용 연구를 다루는 IEEE 학술지입니다.
+      en:
+        name: IEEE Transactions on Aerospace and Electronic Systems
+        description: The IEEE journal covering satellite constellations, navigation, and the design, integration, and operation of space systems.
+    - id: ieee-tcom
+      url: https://www.comsoc.org/publications/journals/ieee-transactions-communications
+      ko:
+        name: IEEE Transactions on Communications
+        description: 위성통신과 광통신을 포함한 통신 이론, 시스템 설계와 성능 분석 연구를 다루는 IEEE 학술지입니다.
+      en:
+        name: IEEE Transactions on Communications
+        description: The IEEE journal covering communication theory, system design, and performance analysis, including satellite and optical communications.
+    - id: ntrs
+      url: https://ntrs.nasa.gov/
+      ko:
+        name: NASA Technical Reports Server
+        description: NASA의 기술보고서와 학술논문, 학술대회 발표자료를 검색할 수 있습니다.
+      en:
+        name: NASA Technical Reports Server
+        description: Search NASA technical reports, research publications, and conference papers.

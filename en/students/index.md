@@ -22,21 +22,23 @@ SEARCH Lab helps students develop the ability to define and solve space mission 
 
 Early study builds on each student's academic background and research interests. The main areas are listed below; specific topics and their sequence are adapted to the student's research.
 
-- **Orbital mechanics and astrodynamics**: the two-body problem, orbital elements, orbital transfers and perturbations, satellite orbit analysis, and spacecraft trajectory design
-- **Mission design and spacecraft systems**: mission architecture, satellite and exploration spacecraft systems, mission requirements analysis, and concepts of operations
-- **Numerical analysis and programming**: numerical integration, optimization and optimal control, and implementation of analytical models and simulation code
+{% for method in site.data.research-topics.methods -%}
+- **{{ method.en.title }}**: {{ method.en.study }}
+{% endfor %}
 
-Students use Python, MATLAB, STK, and GMAT as appropriate to the problem. Exercises in orbit propagation, orbital transfers, communications visibility, and orbit and trajectory optimization help students learn to assess model assumptions and check whether their results are valid.
+Students use Python, MATLAB, STK, and GMAT as appropriate to the problem, learning numerical integration and implementation of analytical models and simulation code. Exercises in orbit propagation, orbital transfers, communications visibility, trajectory optimization, and control simulation help students assess model assumptions and validate their results.
 
 ## Choosing and Developing a Research Topic
 
-Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. They draw on astrodynamics and high-fidelity orbit analysis, dynamical systems and multi-body astrodynamics, numerical optimization and optimal control, and mission architecture and systems analysis to develop specific questions in the following areas.
+Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. They draw on the lab's [core theories and methods]({{ '/en/research/' | relative_url }}#methods) to develop specific questions in the following areas.
 
 {% for topic in site.data.research-topics.applications -%}
 - [{{ topic.en.title }}]({{ '/en/research/' | relative_url }}#{{ topic.id }})
 {% endfor %}
 
 For example, a project might compare coverage and revisit intervals for different satellite counts and constellation configurations, or evaluate contact opportunities and data return for deep-space optical communications. Follow each link for details of the research area.
+
+Students interested in [attitude dynamics and control]({{ '/en/research/' | relative_url }}#attitude-dynamics-control) and [AI and machine learning applications]({{ '/en/research/' | relative_url }}#ai-machine-learning) might examine how solar-sail attitude errors affect trajectory tracking, or compare the accuracy and computation time of learning-based control and conventional optimal control.
 
 Once a topic is selected, students refine their objectives and performance metrics through literature review and preliminary analysis. They then build analytical and simulation models, examine how design variables affect performance, and document the validity and limitations of their results.
 
@@ -51,7 +53,7 @@ In CubeSat-class satellite development and in-space demonstration missions, stud
 The scope and depth of research reflect the degree being pursued, with the following goals.
 
 {: .students-degrees role="list" }
-- **Master's students** define a focused question in space mission design or orbit analysis, apply appropriate analytical methods, and obtain and validate results. They develop this work into a thesis and aim to present at conferences and submit journal articles during their studies.
+- **Master's students** define a focused question in areas such as space mission design, orbit analysis, or guidance and control, apply appropriate analytical methods, and obtain and validate results. They develop this work into a thesis and aim to present at conferences and submit journal articles during their studies.
 - **Doctoral students** identify an original research question based on limitations in existing work and pursue it independently. They aim to propose new mission design methods, analytical procedures, or system design concepts, and assess their contribution and applicability.
 
 Depending on the topic and type of work, results are documented in theses and dissertations, conference presentations, journal articles, technical reports, mission design documents, and simulation code. Students learn to explain their findings and record model assumptions, analytical procedures, and validation evidence so that others can review their work.

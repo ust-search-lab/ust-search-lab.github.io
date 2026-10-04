@@ -3,7 +3,7 @@ title: Contact
 ref: contact
 description: Contact SEARCH Lab about master's and doctoral study and student research opportunities.
 nav:
-  order: 7
+  order: 8
   tooltip: Prospective student inquiries
 ---
 
@@ -68,7 +68,7 @@ Campus access and research participation require compliance with applicable secu
 <div class="contact-explore">
   <p>Explore our research areas and how students learn and conduct research.</p>
   <div class="contact-links">
-    <a class="text-link" href="{{ '/en/students/' | relative_url }}">For students <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/en/students/' | relative_url }}">For Students <span aria-hidden="true">→</span></a>
     <a class="text-link" href="{{ '/en/research/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
   </div>
 </div>

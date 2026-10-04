@@ -2,7 +2,7 @@
 # Current team name is also listed in the PI's public ORCID record.
 name: Jae-ik Park
 # shown next to the photo on People/profile pages; `name` stays plain for titles and search
-display_name: Ph.D. Jae-ik Park
+display_name: Jae-ik Park, Ph.D.
 layout: principal-investigator
 ref: jae-ik-park
 lang: en
