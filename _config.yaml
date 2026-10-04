@@ -4,6 +4,7 @@ subtitle: Space Exploration ARCHitecture Laboratory, UST
 description: SEARCH Lab studies space mission design and technology demonstration, from Earth orbit to the Moon, planets, and deep space.
 header: images/header-bar.jpg
 footer: images/footer-bar.jpg
+navigation-logo: images/search-lab-wordmark.png
 show-subtitle: false
 proofer: false
 

@@ -25,6 +25,12 @@ footer.background:before {
   opacity: $image-opacity;
 }
 
+footer:not([data-big]).background:before {
+  background-image:
+    linear-gradient(rgba(17, 33, 46, 0.65), rgba(17, 33, 46, 0.92)),
+    var(--image);
+}
+
 // home page: footer shows the whole image, content at its bottom
 footer[data-big] {
   justify-content: flex-end;
@@ -40,7 +46,7 @@ footer[data-big] {
 
 footer[data-big].background:before {
   background-image:
-    linear-gradient(to top, $big-shade, transparent $big-shade-height),
+    linear-gradient(to top, var(--footer-shade, #{$big-shade}), transparent var(--footer-shade-height, #{$big-shade-height})),
     var(--image);
 
   @media (max-width: $compact-big) {

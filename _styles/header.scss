@@ -2,7 +2,7 @@
 ---
 
 $logo: 40px;
-$collapse: 1000px;
+$collapse: 1200px;
 $sticky: true;
 
 // header background image opacity (template default for backgrounds is 0.25)
@@ -70,6 +70,13 @@ header a {
 .logo > * {
   width: unset;
   height: 100%;
+}
+
+.wordmark {
+  display: block;
+  width: clamp(190px, 22vw, 240px);
+  max-width: 100%;
+  height: auto;
 }
 
 .title-text {
@@ -156,6 +163,13 @@ header.background:before {
   opacity: $image-opacity;
 }
 
+// Subpage bars share the main banners' softer slate navy.
+header:not([data-big]).background:before {
+  background-image:
+    linear-gradient(rgba(25, 44, 59, 0.62), rgba(17, 33, 46, 0.86)),
+    var(--image);
+}
+
 header:not([data-big]) {
   @media (max-width: $collapse) {
     @include collapse-nav;
@@ -194,6 +208,6 @@ header[data-big] {
 
 header[data-big].background:before {
   background-image:
-    linear-gradient($big-shade, transparent $big-shade-height),
+    linear-gradient(var(--header-shade, #{$big-shade}), transparent $big-shade-height),
     var(--image);
 }
