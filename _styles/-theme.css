@@ -30,6 +30,23 @@
   --button-text: #132c48;
 }
 
+html[data-dark=true],
+html[data-dark=true] [data-dark=true] {
+  --primary: #87b9f0;
+  --secondary: #172941;
+  --ink: #eef2f8;
+  --text: #d1d9e5;
+  --background: #070d17;
+  --background-alt: #0d1726;
+  --light-gray: #29384e;
+  --gray: #899ab3;
+  --dark-gray: #a8b6ca;
+  --overlay: #00000040;
+  --button-background: #87b9f0;
+  --button-hover: #b9d6f6;
+  --button-text: #07111e;
+}
+
 :root {
   --title: "Barlow", system-ui, sans-serif;
   --heading: "Barlow", system-ui, sans-serif;
