@@ -9,60 +9,62 @@ nav:
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}For Students
 {: .page-title }
 
-Learn about foundational study, the research process, and degree-level goals for students at SEARCH Lab.
+An overview of foundational study, the research process, and goals for each degree at SEARCH Lab.
 {: .page-intro }
 
 {% include section.html %}
 
 ## Research Goals and Supervision
 
-SEARCH Lab helps students develop the ability to define and solve space mission design problems independently. Starting with theory and practical analysis, students learn to interpret mission requirements, compare design alternatives, and use their results to assess mission feasibility.
+SEARCH Lab guides students in defining and solving space mission design problems independently. Students begin with theory and practical analysis, then compare designs against mission requirements and assess their feasibility.
 
 ## Foundational Study and Practical Analysis
 
-Early study builds on each student's academic background and research interests. The main areas are listed below; specific topics and their sequence are adapted to the student's research.
+Students begin with theory and analytical methods suited to their background and interests. Study covers the areas below, with topics and their sequence adjusted to the student's research.
 
 {% for method in site.data.research-topics.methods -%}
 - **{{ method.en.title }}**: {{ method.en.study }}
 {% endfor %}
 
-Students use Python, MATLAB, STK, and GMAT as appropriate to the problem, learning numerical integration and implementation of analytical models and simulation code. Exercises in orbit propagation, orbital transfers, communications visibility, trajectory optimization, and control simulation help students assess model assumptions and validate their results.
+Students use Python, MATLAB, STK, and GMAT as appropriate to the problem. They learn numerical integration and write analysis and simulation code, working through problems in orbit propagation, orbital transfers, communications visibility, trajectory optimization, and control simulation. They check both their results and the assumptions behind their models.
 
 ## Choosing and Developing a Research Topic
 
-Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. They draw on the lab's [core theories and methods]({{ '/en/research/' | relative_url }}#methods) to develop specific questions in the following areas.
+Students choose a topic with their advisor, considering their interests, preparation, the lab's research direction, and available projects. They draw on the lab's [core theories and methods]({{ '/en/research/' | relative_url }}#methods) to identify research questions in the areas below.
 
 {% for topic in site.data.research-topics.applications -%}
 - [{{ topic.en.title }}]({{ '/en/research/' | relative_url }}#{{ topic.id }})
 {% endfor %}
 
-For example, a project might compare coverage and revisit intervals for different satellite counts and constellation configurations, or evaluate contact opportunities and data return for deep-space optical communications. Follow each link for details of the research area.
+For example, a project might compare coverage and revisit intervals for different satellite counts and constellation configurations, or evaluate contact opportunities and data return for deep-space optical communications.
 
-Students interested in [attitude dynamics and control]({{ '/en/research/' | relative_url }}#attitude-dynamics-control) and [AI and machine learning applications]({{ '/en/research/' | relative_url }}#ai-machine-learning) might examine how solar-sail attitude errors affect trajectory tracking, or compare the accuracy and computation time of learning-based control and conventional optimal control.
+In [attitude dynamics and control]({{ '/en/research/' | relative_url }}#attitude-dynamics-control), a project might examine how solar-sail attitude errors affect trajectory tracking. In [AI and machine learning applications]({{ '/en/research/' | relative_url }}#ai-machine-learning), it might compare the accuracy and computation time of learning-based control and conventional optimal control.
 
-Once a topic is selected, students refine their objectives and performance metrics through literature review and preliminary analysis. They then build analytical and simulation models, examine how design variables affect performance, and document the validity and limitations of their results.
+Once a topic is selected, students review the literature and carry out preliminary analysis to set their objectives and performance metrics. They build analytical and simulation models, examine how design variables affect performance, and document their findings, including validation and limitations.
 
 ## Research Projects and In-Space Demonstration
 
-Student researchers conduct research linked to national R&D programs and deep-space exploration projects at the Korea Aerospace Research Institute (KARI). Their research topics and project schedules determine the scope of their involvement and responsibilities. Assigned work includes mission design, systems analysis, performance verification, development of flight operations concepts, simulation model development, and technical documentation.
+Student researchers work on topics linked to national R&D programs and deep-space exploration projects at the Korea Aerospace Research Institute (KARI). Depending on their research topic and the project schedule, they contribute to mission design, systems analysis, performance verification, flight operations concepts, simulation models, and technical documentation.
 
-In CubeSat-class satellite development and in-space demonstration missions, students gain experience in hardware fabrication, ground environmental testing, operational scenario development, and in-orbit performance verification according to the development stage and their assigned responsibilities. These activities help students understand how design and analysis lead to fabrication, testing, and operations.
+For CubeSat-class satellites and in-space demonstration missions, students take part in hardware fabrication, ground environmental testing, operational scenario development, and in-orbit performance verification. Their involvement depends on the development stage and their assigned work. They learn how design and analysis inform fabrication, testing, and operations.
 
 ## Research Goals by Degree
 
-The scope and depth of research reflect the degree being pursued, with the following goals.
+Research scope and depth vary by degree, with the following goals.
 
 {: .students-degrees role="list" }
-- **Master's students** define a focused question in areas such as space mission design, orbit analysis, or guidance and control, apply appropriate analytical methods, and obtain and validate results. They develop this work into a thesis and aim to present at conferences and submit journal articles during their studies.
-- **Doctoral students** identify an original research question based on limitations in existing work and pursue it independently. They aim to propose new mission design methods, analytical procedures, or system design concepts, and assess their contribution and applicability.
+- **Master's students** define a research question in space mission design, orbit analysis, guidance and control, or a related area. They apply appropriate analytical methods, validate their results, and write a thesis. They aim to present at conferences and submit journal articles during their studies.
+- **Doctoral students** identify an original question arising from limitations in existing work and pursue it independently. They propose new mission design methods, analytical procedures, or system design concepts, and assess their contribution and applicability.
 
-Depending on the topic and type of work, results are documented in theses and dissertations, conference presentations, journal articles, technical reports, mission design documents, and simulation code. Students learn to explain their findings and record model assumptions, analytical procedures, and validation evidence so that others can review their work.
+Depending on the topic and type of work, students document their results in theses and dissertations, conference presentations, journal articles, technical reports, mission design documents, and simulation code. They record model assumptions, analytical procedures, and validation evidence so that others can understand and review their findings.
+
+Writing guidance is grounded in research ethics, including proper citation and accurate reporting of results. Students learn how to structure and write a paper, working through drafts and revisions to explain their research objectives, methods, results, and limitations clearly.
 
 {% include section.html %}
 
 ## Textbooks and Reference Materials
 
-These resources support study from foundational theory to advanced research topics. Students select relevant textbooks and papers according to their academic background and research topic, and consult them as their study and research progress.
+The textbooks and papers below are references for foundational study and research. Students select readings according to their background and research topic.
 
 Textbooks include a print ISBN-13, a book information link, and an Amazon search link. Papers and online resources link to a DOI or the original source.
 
