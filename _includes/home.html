@@ -7,6 +7,9 @@
 <div class="home-intro">
   <p class="home-eyebrow">{{ home_copy.identity }}</p>
   <h1>{{ home_copy.headline }} <span>{{ home_copy.headline_accent }}</span></h1>
+  {% if home_copy.intro_description %}
+    <p class="home-intro-description">{{ home_copy.intro_description | escape }}</p>
+  {% endif %}
 </div>
 
 {% if home_news.size > 0 %}
@@ -34,7 +37,7 @@
 
 <div class="home-section-heading">
   <div>
-    <p class="home-eyebrow">{{ home_copy.methods_eyebrow }}</p>
+    <p class="home-eyebrow">{{ home_copy.methods_eyebrow | escape }}</p>
     <h2 id="research-methods">{{ home_copy.methods_title }}</h2>
   </div>
 </div>

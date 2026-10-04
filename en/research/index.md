@@ -9,11 +9,11 @@ nav:
 # {% include icon.html icon="fa-solid fa-rocket" %}Research
 {: .page-title }
 
-SEARCH Lab draws on orbital mechanics and astrodynamics to design missions from Earth orbit to the Moon, planets, and deep space. We study mission feasibility and technology demonstration through orbit and trajectory optimization, optimal control, and systems analysis.
+SEARCH Lab builds on dynamical systems theory and astrodynamics to design **space mission architectures** spanning Earth-orbit missions and deep-space exploration. We integrate high-fidelity orbit and trajectory optimization, optimal control techniques, and comprehensive system-level analysis to assess the physical feasibility of missions and study in-orbit technology demonstration.
 {: .page-intro }
 
 <nav class="research-nav" aria-label="Research areas">
-  <a href="#methods">Core methods</a>
+  <a href="#methods">Theories &amp; methods</a>
   <a href="#earth-orbit">Earth-orbit missions</a>
   <a href="#planetary">Lunar &amp; planetary missions</a>
   <a href="#entry-systems">Entry, landing &amp; thermal protection</a>
@@ -24,41 +24,19 @@ SEARCH Lab draws on orbital mechanics and astrodynamics to design missions from 
 
 {% include section.html %}
 
-## Core Research Methods {#methods}
+## Core Theories and Methods {#methods}
 
 <div class="research-methods" markdown="1">
 
+{% for method in site.data.research-topics.methods %}
 <div class="research-method" markdown="1">
 
-### {% include research-title.html group="methods" id="architecture" %} {#architecture}
+### {{ method.en.title }} {#{{ method.id }}}
 
-We translate mission objectives into system requirements and concepts of operations, then analyze the interactions between orbits, trajectories, spacecraft, and communications. Conceptual design and trade studies help us assess the feasibility of Earth-orbit and exploration mission scenarios.
-
-</div>
-
-<div class="research-method" markdown="1">
-
-### {% include research-title.html group="methods" id="dynamical-systems" %} {#dynamical-systems}
-
-We aim to compute phase-space structures, such as periodic orbits around the Lagrange points and their invariant manifolds, in multi-body models like the circular restricted three-body problem. These structures will help us systematically explore the design space of low-energy transfers and non-Keplerian orbits and provide initial guesses for high-fidelity orbit analysis.
+{{ method.en.summary }}
 
 </div>
-
-<div class="research-method" markdown="1">
-
-### {% include research-title.html group="methods" id="astrodynamics" %} {#astrodynamics}
-
-We propagate satellite and exploration spacecraft orbits using high-fidelity models of gravity and orbital perturbations. We assess the feasibility and performance of constellation deployment and orbit maintenance, lunar and planetary transfers, orbit insertion, and other maneuvers under mission-specific conditions.
-
-</div>
-
-<div class="research-method" markdown="1">
-
-### {% include research-title.html group="methods" id="optimization" %} {#optimization}
-
-We use numerical optimization, optimal control, and sensitivity analysis to examine trade-offs among mission performance, launch dates, flight time, propellant use, and operational constraints. We define design variables and objectives for problems such as constellation configuration, low-thrust and continuous-thrust transfers, landing guidance, and deceleration, and study suitable orbits, trajectories, and control strategies.
-
-</div>
+{% endfor %}
 
 </div>
 
@@ -103,7 +81,7 @@ We design lunar and planetary exploration missions, including lunar landers and 
 
 #### Planetary Entry, Descent, and Landing {#edl}
 
-We study how spacecraft enter an atmosphere, slow down, and land safely on planets such as Mars. Our work examines how atmospheric and aerothermodynamic conditions, parachute deployment, and guidance and control affect the flight path and landing accuracy.
+We study how spacecraft enter an atmosphere, slow down, and land safely on planets such as Mars. Our work examines how atmospheric and aerothermodynamic conditions, parachute deployment, and guidance and control affect the trajectory and landing accuracy.
 
 - Mars atmospheric entry trajectory and entry guidance analysis
 - Parachute deployment conditions and deceleration and landing scenarios
@@ -175,7 +153,7 @@ Deep-space optical communications uses lasers to exchange data between spacecraf
 
 ### {% include icon.html icon="fa-solid fa-satellite" %}{% include research-title.html id="cubesat" %} {#cubesat}
 
-We study how CubeSats can demonstrate mission concepts and technologies in space. Our interests span mission design, system requirements, ground testing, and in-orbit operations. Students may take part in these activities depending on the research project and its development schedule.
+We study how CubeSats can demonstrate mission concepts and technologies in space. Our interests span mission design, system requirements, ground testing, and in-orbit operations. Student researchers conduct research linked to relevant national R&D programs, with the scope of their involvement and responsibilities determined by research topics and project schedules.
 
 - CubeSat-class mission concepts and system requirements definition
 - Ground testing and qualification methods for the space environment

@@ -30,7 +30,7 @@ Students use Python, MATLAB, STK, and GMAT as appropriate to the problem. Exerci
 
 ## Choosing and Developing a Research Topic
 
-Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. They can use mission architecture, orbit analysis, numerical optimization, and optimal control to develop specific questions in the following areas.
+Students choose a topic in discussion with their advisor, considering their interests and preparation, the lab's research direction, and available projects. They draw on astrodynamics and high-fidelity orbit analysis, dynamical systems and multi-body astrodynamics, numerical optimization and optimal control, and mission architecture and systems analysis to develop specific questions in the following areas.
 
 {% for topic in site.data.research-topics.applications -%}
 - [{{ topic.en.title }}]({{ '/en/research/' | relative_url }}#{{ topic.id }})
@@ -42,9 +42,9 @@ Once a topic is selected, students refine their objectives and performance metri
 
 ## Research Projects and In-Space Demonstration
 
-Students may participate in national R&D programs at the Korea Aerospace Research Institute (KARI), depending on project availability and development schedules. Responsibilities reflect project requirements and the student's research topic, and may include mission design, systems analysis, performance verification, development of concepts of operations, simulation model development, and technical documentation.
+Student researchers conduct research linked to national R&D programs and deep-space exploration projects at the Korea Aerospace Research Institute (KARI). Their research topics and project schedules determine the scope of their involvement and responsibilities. Assigned work includes mission design, systems analysis, performance verification, development of flight operations concepts, simulation model development, and technical documentation.
 
-Students involved in CubeSat-class satellite development or in-space demonstration missions may gain experience in hardware development, ground testing, operational scenario development, and performance verification in space, depending on the development stage. These activities help students understand how design and analysis lead to fabrication, testing, and operations.
+In CubeSat-class satellite development and in-space demonstration missions, students gain experience in hardware fabrication, ground environmental testing, operational scenario development, and in-orbit performance verification according to the development stage and their assigned responsibilities. These activities help students understand how design and analysis lead to fabrication, testing, and operations.
 
 ## Research Goals by Degree
 

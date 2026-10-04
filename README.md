@@ -20,11 +20,15 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 - Both home pages use `_includes/home.html`, with bilingual copy in
   `_data/home.yaml` and styles scoped to `main[data-page="home"]` in
   `_styles/home.scss`. `_data/research-topics.yaml` provides the four core
-  methods and six application areas, starting with Earth-Orbit Mission Design.
-  The home cards, Research headings, and student research-area links share
-  these titles and ordering. `_includes/research-title.html` resolves headings
-  by topic ID rather than array position. Keep each topic ID aligned with its
-  Research anchor; constellation design is a subsection of `earth-orbit`.
+  theories and methods in this presentation order: astrodynamics and orbit
+  analysis, dynamical systems, optimization and control, and mission
+  architecture and systems analysis. Home and Research render this same
+  ordered list; Research also uses its bilingual summaries. The six application
+  areas start with Earth-Orbit Mission Design. Home cards, Research headings,
+  and student research-area links share these application titles and ordering.
+  `_includes/research-title.html` resolves application headings by topic ID
+  rather than array position. Keep each topic ID aligned with its Research
+  anchor; constellation design is a subsection of `earth-orbit`.
   `_data/home-images.yaml` supplies the cards' mission photographs and illustrations,
   bilingual captions and alternative text, and links to the official image
   sources. Captions identify illustrations explicitly; provenance records the
@@ -57,6 +61,13 @@ Use `SEARCH Lab` in running text. General introductions and recruitment copy
 cover space mission design and technology demonstration from Earth orbit to
 deep space. Keep the six application areas in the same order across both
 languages, with constellation design under Earth-Orbit Mission Design.
+
+In current Korean research copy, use `궤도·궤적`, `지구궤도`, `궤도해석`,
+`궤도삽입`, and `우주임무 설계` consistently. Preserve official titles and
+historical source wording. About, Research, and For Students describe research
+linked to national R&D programs, with participation scope and responsibilities
+determined by research topics and project schedules; keep this principle
+consistent in both languages.
 
 Primary actions use `.action-button`; arrow links use `.text-link`.
 Page-specific styles retain layout rules and intentional emphasis, such as the

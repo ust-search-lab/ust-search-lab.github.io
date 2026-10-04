@@ -1,12 +1,13 @@
 ko:
   identity: UST · 우주탐사 아키텍처 연구실
-  headline: SEARCH Lab에 오신 것을
-  headline_accent: 환영합니다.
+  headline: 우주비행역학에서
+  headline_accent: 심우주 아키텍처까지
+  intro_description: SEARCH Lab은 실현 가능한 우주임무를 설계하고 실증합니다.
   research_path: research/
   news_title: 공지사항
   news_all: 공지사항 전체 보기
-  methods_eyebrow: OUR METHODS
-  methods_title: 우주임무를 설계하는 네 가지 연구방법
+  methods_eyebrow: THEORY & METHODS
+  methods_title: 우주임무 설계를 뒷받침하는 핵심 이론과 방법론
   applications_eyebrow: RESEARCH AREAS
   applications_title: 우주임무 설계와 기술실증
   topic_link: 연구내용 보기
@@ -19,13 +20,14 @@ ko:
   contact_path: contact/
 en:
   identity: UST · SPACE EXPLORATION ARCHITECTURE LABORATORY
-  headline: Welcome to
-  headline_accent: SEARCH Lab
+  headline: From astrodynamics
+  headline_accent: to deep-space architecture
+  intro_description: SEARCH Lab designs feasible space missions and demonstrates enabling technologies.
   research_path: en/research/
   news_title: Latest news
   news_all: View all news
-  methods_eyebrow: OUR METHODS
-  methods_title: Four methods for designing space missions
+  methods_eyebrow: THEORY & METHODS
+  methods_title: Core theories and methods for space mission design
   applications_eyebrow: RESEARCH AREAS
   applications_title: Space mission design and technology demonstration
   topic_link: Explore this area
