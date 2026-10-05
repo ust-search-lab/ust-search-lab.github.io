@@ -292,6 +292,32 @@ The workflow tests the processor, commits the new snapshot, and explicitly calls
 the existing site-build workflow, because a `GITHUB_TOKEN` commit does not trigger
 another push workflow. Live deployments share a concurrency group.
 
+## Footer visitor counter
+
+The shared footer displays cumulative visitors and page views for both languages,
+using the accountless [Busuanzi public service](https://busuanzi.9420.ltd/)
+and its documented [JSON API](https://github.com/soxft/busuanzi/wiki/api).
+`visitor-counter` in `_config.yaml` controls visibility and the exact public host.
+Only HTTPS visits to that host send a request. Local and preview hosts display
+`—` with a preview notice and do not contact the service. Set `enabled: false`
+to remove the counter and stop requests; update `host` if the site domain changes.
+
+`_scripts/visitor-counter.js` sends one POST per page load, with only the site
+origin as `x-bsz-referer`; paths, query strings and incoming referrers are omitted.
+The service receives the visitor's IP/browser request information and returns a
+signed visitor identifier, stored locally as `search-lab-visitor-id` to reduce
+duplicate visitor counts. Third-party cookies are not sent. Visitor totals are
+estimates, not an exact count of people; storage resets, different browsers and
+network conditions can affect them. Page views include repeat page loads. Both
+languages contribute to the same site totals. History before activation is not
+recovered, and counts are stored by the external service, not in Git or Jekyll.
+
+The public service provides no uptime or data-retention guarantee. Failed,
+invalid or slow responses leave `—` and a localized status message, with no
+automatic retry that could double-count a visit. Interface text lives in
+`_data/i18n.yaml`, markup in `_includes/footer.html`, and styling in
+`_styles/footer.scss`.
+
 ## Local development
 
 Ruby version is pinned in `.ruby-version` (Ruby 3.4.10). GitHub Actions reads the same file.

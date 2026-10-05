@@ -12,6 +12,12 @@ ko:
   institution-links: 기관 홈페이지
   dark-mode: 다크 모드
   dark-toggle: 다크 모드 전환
+  visitor-counter: 누적 방문 통계
+  visitor-total: 누적 방문
+  view-total: 누적 조회
+  visitor-counter-note: 전체 페이지의 누적 통계입니다. 방문은 중복을 줄인 추정치이며, 조회는 페이지를 열 때마다 집계합니다.
+  visitor-counter-preview: 미리보기 · 집계 제외
+  visitor-counter-unavailable: 통계 연결 지연
   site-search-placeholder: Google로 사이트 검색
   site-search: 사이트 검색
   switch-lang: en
@@ -45,6 +51,12 @@ en:
   institution-links: Institution websites
   dark-mode: Dark mode
   dark-toggle: Toggle dark mode
+  visitor-counter: Cumulative site statistics
+  visitor-total: Visitors
+  view-total: Views
+  visitor-counter-note: Totals across all pages. Visitors are an estimate with repeat visits deduplicated; views count each page load.
+  visitor-counter-preview: Preview · not counted
+  visitor-counter-unavailable: Statistics temporarily unavailable
   site-search-placeholder: Search this site with Google
   site-search: Search this site
   switch-lang: ko
