@@ -1,0 +1,349 @@
+.student-guide-link {
+  display: grid;
+  gap: 10px;
+  margin: 28px 0;
+  padding: var(--card-padding);
+  border: 1px solid var(--light-gray);
+  border-left: 3px solid var(--primary);
+  border-radius: var(--rounded);
+  background: var(--background-alt);
+  color: var(--text);
+  text-decoration: none;
+}
+.student-guide-link strong {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  color: var(--primary);
+  font-size: var(--card-title-size);
+}
+.student-guide-link:hover {
+  border-color: var(--primary);
+}
+.student-guide-link:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
+
+.student-guide-label {
+  color: var(--dark-gray);
+  font-size: var(--label-size);
+  letter-spacing: 0.04em;
+}
+
+main[data-page=ai-coding-guide] h2, main[data-page=ai-coding-guide] h3 {
+  padding-right: 28px;
+}
+main[data-page=ai-coding-guide] h3 {
+  margin-top: 32px;
+}
+main[data-page=ai-coding-guide] p, main[data-page=ai-coding-guide] li {
+  overflow-wrap: break-word;
+}
+main[data-page=ai-coding-guide] .guide-breadcrumb {
+  margin-bottom: 16px;
+  color: var(--dark-gray);
+  font-size: var(--meta-size);
+}
+main[data-page=ai-coding-guide] .guide-breadcrumb span {
+  margin: 0 10px;
+}
+main[data-page=ai-coding-guide] .guide-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  color: var(--dark-gray);
+  font-size: var(--meta-size);
+}
+main[data-page=ai-coding-guide] .guide-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0;
+}
+main[data-page=ai-coding-guide] .guide-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid var(--button-background);
+  border-radius: var(--rounded);
+  background: var(--button-background);
+  color: var(--button-text);
+  font: inherit;
+  font-size: 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+main[data-page=ai-coding-guide] .guide-button:hover {
+  background: var(--button-hover);
+  border-color: var(--button-hover);
+}
+main[data-page=ai-coding-guide] .guide-button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+main[data-page=ai-coding-guide] .guide-button[hidden] {
+  display: none;
+}
+main[data-page=ai-coding-guide] .guide-button-secondary {
+  border-color: var(--light-gray);
+  background: var(--background);
+  color: var(--primary);
+}
+main[data-page=ai-coding-guide] .guide-button-secondary:hover {
+  background: var(--secondary);
+  border-color: var(--primary);
+}
+main[data-page=ai-coding-guide] .guide-toc {
+  margin-top: 32px;
+  padding: 20px 28px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background-alt);
+}
+main[data-page=ai-coding-guide] .guide-toc ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px 32px;
+  margin: 0;
+  padding-left: 24px;
+}
+main[data-page=ai-coding-guide] .guide-toc li {
+  margin: 0;
+}
+main[data-page=ai-coding-guide] .guide-toc a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+main[data-page=ai-coding-guide] .guide-os-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+main[data-page=ai-coding-guide] .guide-os-links a {
+  display: grid;
+  gap: 6px;
+  padding: 20px;
+  border: 1px solid var(--light-gray);
+  border-top: 2px solid var(--primary);
+  border-radius: var(--rounded);
+  color: var(--ink);
+  background: var(--background);
+  text-decoration: none;
+  font-weight: var(--bold);
+}
+main[data-page=ai-coding-guide] .guide-os-links a:hover, main[data-page=ai-coding-guide] .guide-os-links a:focus-visible {
+  border-color: var(--primary);
+}
+main[data-page=ai-coding-guide] .guide-os-links span {
+  color: var(--dark-gray);
+  font-size: var(--meta-size);
+  font-weight: var(--regular);
+}
+main[data-page=ai-coding-guide] details {
+  background: var(--background);
+}
+main[data-page=ai-coding-guide] details summary {
+  padding: 16px 20px;
+  color: var(--ink);
+  font-weight: var(--semi-bold);
+}
+main[data-page=ai-coding-guide] details summary:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -3px;
+}
+main[data-page=ai-coding-guide] details[open] > summary {
+  background: var(--secondary);
+}
+main[data-page=ai-coding-guide] details > :last-child {
+  margin-bottom: 24px;
+}
+main[data-page=ai-coding-guide] .guide-codeblock {
+  position: relative;
+  margin: 24px 0;
+  padding-top: 38px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: #2d2d2d;
+}
+main[data-page=ai-coding-guide] .guide-codeblock .highlighter-rouge {
+  margin: 0;
+  border-radius: 0 0 var(--rounded) var(--rounded);
+}
+main[data-page=ai-coding-guide] .guide-copy {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  min-height: 30px;
+  padding: 3px 12px;
+  border: 1px solid #767676;
+  border-radius: 4px;
+  background: #353535;
+  color: #fff;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+main[data-page=ai-coding-guide] .guide-copy:hover {
+  background: #505050;
+}
+main[data-page=ai-coding-guide] .guide-copy:focus-visible {
+  outline: 2px solid #9bc5e2;
+  outline-offset: 1px;
+}
+main[data-page=ai-coding-guide] pre {
+  font-size: 0.86rem;
+  line-height: 1.65;
+  tab-size: 4;
+}
+main[data-page=ai-coding-guide] table {
+  width: 100%;
+  text-align: left;
+}
+main[data-page=ai-coding-guide] th {
+  background: var(--secondary);
+  color: var(--ink);
+}
+
+@media (max-width: 850px) {
+  main[data-page=ai-coding-guide] .guide-toc ol {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  main[data-page=ai-coding-guide] .guide-toc ol, main[data-page=ai-coding-guide] .guide-os-links {
+    grid-template-columns: 1fr;
+  }
+  main[data-page=ai-coding-guide] .guide-os-links a {
+    padding: 14px 18px;
+  }
+  main[data-page=ai-coding-guide] .guide-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  main[data-page=ai-coding-guide] .guide-meta {
+    flex-direction: column;
+    gap: 4px;
+  }
+  main[data-page=ai-coding-guide] details {
+    padding: 0 14px;
+  }
+  main[data-page=ai-coding-guide] details summary {
+    margin: 0 -14px;
+    padding: 14px;
+  }
+  main[data-page=ai-coding-guide] table {
+    font-size: 0.92rem;
+  }
+  main[data-page=ai-coding-guide] th, main[data-page=ai-coding-guide] td {
+    padding: 10px;
+  }
+}
+@media print {
+  body:has(main[data-page=ai-coding-guide]) {
+    --primary: #17446c;
+    --ink: #000;
+    --text: #000;
+    --dark-gray: #333;
+    --background: #fff;
+    --background-alt: #fff;
+    --secondary: #f2f2f2;
+    --light-gray: #aaa;
+    color: #000;
+    background: #fff;
+    font-size: 10pt;
+    display: block;
+  }
+  body:has(main[data-page=ai-coding-guide]) *, body:has(main[data-page=ai-coding-guide]) *::before, body:has(main[data-page=ai-coding-guide]) *::after {
+    transition: none !important;
+  }
+  body:has(main[data-page=ai-coding-guide]) > header, body:has(main[data-page=ai-coding-guide]) > footer {
+    display: none;
+  }
+  main[data-page=ai-coding-guide] {
+    display: block;
+  }
+  main[data-page=ai-coding-guide] .guide-actions, main[data-page=ai-coding-guide] .guide-copy, main[data-page=ai-coding-guide] .guide-os-links, main[data-page=ai-coding-guide] .anchor, main[data-page=ai-coding-guide] .resource-related {
+    display: none;
+  }
+  main[data-page=ai-coding-guide] section {
+    padding: 16px 0;
+    background: #fff !important;
+  }
+  main[data-page=ai-coding-guide] .page-title {
+    font-size: 20pt;
+  }
+  main[data-page=ai-coding-guide] h2 {
+    font-size: 15pt;
+  }
+  main[data-page=ai-coding-guide] h3 {
+    font-size: 12pt;
+  }
+  main[data-page=ai-coding-guide] h2, main[data-page=ai-coding-guide] h3, main[data-page=ai-coding-guide] summary {
+    break-after: avoid;
+  }
+  main[data-page=ai-coding-guide] details {
+    overflow: visible;
+    border: 0;
+    padding: 0;
+  }
+  main[data-page=ai-coding-guide] summary {
+    margin: 0;
+    padding: 10px 0;
+    background: none !important;
+  }
+  main[data-page=ai-coding-guide] summary::before {
+    display: none;
+  }
+  main[data-page=ai-coding-guide] .guide-toc {
+    padding: 12px 20px;
+  }
+  main[data-page=ai-coding-guide] .guide-toc ol {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  main[data-page=ai-coding-guide] .guide-codeblock {
+    padding: 0;
+    background: #fff;
+    break-inside: auto;
+  }
+  main[data-page=ai-coding-guide] .highlight, main[data-page=ai-coding-guide] .highlight * {
+    color: #000 !important;
+    background: #fff !important;
+  }
+  main[data-page=ai-coding-guide] div.highlighter-rouge {
+    overflow: visible;
+    margin: 16px 0;
+    background: #fff;
+  }
+  main[data-page=ai-coding-guide] div.highlighter-rouge div.highlight pre.highlight {
+    width: auto;
+    min-width: 0;
+    padding: 12px;
+    font-size: 8pt;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    color: #000;
+    background: #fff;
+  }
+  main[data-page=ai-coding-guide] div.highlighter-rouge div.highlight pre.highlight span {
+    color: #000 !important;
+    background: none !important;
+  }
+  main[data-page=ai-coding-guide] table {
+    font-size: 9pt;
+    margin: 16px 0;
+  }
+  main[data-page=ai-coding-guide] tr {
+    break-inside: avoid;
+  }
+  main[data-page=ai-coding-guide] a {
+    color: #17446c;
+  }
+}
+
+/*# sourceMappingURL=guide.css.map */
