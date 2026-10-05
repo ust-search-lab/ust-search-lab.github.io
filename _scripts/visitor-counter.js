@@ -41,14 +41,12 @@ window.addEventListener("DOMContentLoaded", async () => {
     if (!response.ok) throw new Error("Counter request failed");
     const result = await response.json();
     const visitors = result.data?.site_uv;
-    const views = result.data?.site_pv;
-    if (!result.success || ![visitors, views].every((value) =>
-      Number.isSafeInteger(value) && value >= 0
-    )) throw new Error("Invalid counter response");
+    if (!result.success || !Number.isSafeInteger(visitors) || visitors < 0) {
+      throw new Error("Invalid counter response");
+    }
 
     const format = new Intl.NumberFormat(document.documentElement.lang || "ko");
     counter.querySelector("[data-counter-visitors]").textContent = format.format(visitors);
-    counter.querySelector("[data-counter-views]").textContent = format.format(views);
     try {
       const identity = response.headers.get("Set-Bsz-Identity");
       if (identity) localStorage.setItem(identityKey, identity);
