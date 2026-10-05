@@ -1,7 +1,7 @@
 ko:
   identity: UST · 우주탐사 아키텍처 연구실
   headline: 우주비행역학에서
-  headline_accent: 심우주 아키텍처까지
+  headline_accent: 우주탐사 아키텍처까지
   intro_description: SEARCH Lab은 실현 가능한 우주임무를 설계하고 실증합니다.
   research_path: research/
   news_title: 공지사항
@@ -21,7 +21,7 @@ ko:
 en:
   identity: UST · SPACE EXPLORATION ARCHITECTURE LABORATORY
   headline: From astrodynamics
-  headline_accent: to deep-space architecture
+  headline_accent: to space exploration architecture
   intro_description: SEARCH Lab designs feasible space missions and demonstrates enabling technologies.
   research_path: en/research/
   news_title: Latest news
