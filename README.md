@@ -223,6 +223,13 @@ import and updated output counts are in `_data/ip-publication-audit.yaml`.
 - Preserve original `citation` text when correcting displayed metadata. Add the
   evidence to the audit and update `checked_on` when verifying it again.
 
+Publications also has a daily public-source refresh for Crossref records, supported
+KSAS/SASE programs, public patent metadata, and CROS software registrations.
+Verified new records and metadata patches are stored in `_data/auto-publications.yaml`;
+uncertain identity/participation stays in the workflow review artifact, outside the website.
+See [`_publications/README.md`](_publications/README.md) for exact coverage, limitations,
+the 09:37 KST schedule, and local validation. This is separate from Research Radar.
+
 ## Research Radar
 
 The home page shows six recent papers; `/radar/` and `/en/radar/` show up to

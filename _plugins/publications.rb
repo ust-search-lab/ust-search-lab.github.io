@@ -4,11 +4,46 @@ module Jekyll
   module PublicationFilters
     # Keep the imported record in a separate, curated file so citation refreshes
     # cannot overwrite it. Merge only automatic entries into this source list.
-    def publication_records(citations, legacy)
+    def publication_records(citations, legacy, updates = [])
       curated_records = Array(legacy).map { |entry| normalize_publication(entry) }
       excluded, records = curated_records.partition { |entry| entry['exclude'] == true }
 
-      Array(citations).each do |entry|
+      Array(updates).select { |entry| entry['_target'] }.each do |update|
+        record = records.find { |entry| (entry['audit_key'] || entry['id']) == update['_target'] }
+        next unless record && record['category'] == update['category']
+
+        # Automatic refreshes may add verified metadata and advance status, while
+        # preserving the owner's title, author spelling, provenance and exclusions.
+        advancing = (record['status'] == 'accepted' && update['status'] == 'published') ||
+                    ([nil, 'unknown', 'application'].include?(record['status']) && update['status'] == 'registered')
+        software_enriched = record['category'] == 'software' &&
+                            (%w[registration_number registration_date].any? { |key| update[key] && !record[key] } ||
+                             (record['year_basis'] == 'internal_reference_year' && update['year_basis'] == 'registration_year'))
+        fillable = %w[doi date year publisher application_number application_date
+                      registration_number registration_date copyright_author contributor_role year_basis country]
+        fillable.each do |key|
+          record[key] = update[key] if update[key] && (record[key].nil? || record[key] == '')
+        end
+        if advancing || software_enriched
+          %w[status details details_en link].each { |key| record[key] = update[key] if update[key] }
+          if update['status'] == 'published'
+            %w[year date doi publisher].each { |key| record[key] = update[key] if update[key] }
+          end
+          if record['category'] == 'software' && update['year_basis'] == 'registration_year'
+            %w[year year_basis].each { |key| record[key] = update[key] if update[key] }
+          end
+        end
+        if update['doi'] && record['doi'] == update['doi']
+          record['id'] = "doi:#{record['doi']}"
+          record['link'] = "https://doi.org/#{record['doi']}"
+        end
+        if update['verification_source']
+          record['automatic_sources'] = (Array(record['automatic_sources']) + [update['verification_source']]).uniq
+        end
+      end
+
+      automatic_records = Array(citations) + Array(updates).reject { |entry| entry['_target'] }
+      automatic_records.each do |entry|
         automatic = normalize_publication(entry)
         next if excluded.any? { |record| excluded_publication?(record, automatic) }
 

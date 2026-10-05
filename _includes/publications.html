@@ -1,6 +1,6 @@
 {% assign publications_lang = page.lang | default: "ko" %}
 {% assign curated_publications = site.data.legacy-publications | concat: site.data.discovered-publications | concat: site.data.ip-publications | concat: site.data.accepted-publications %}
-{% assign publication_records = site.data.citations | publication_records: curated_publications %}
+{% assign publication_records = site.data.citations | publication_records: curated_publications, site.data.auto-publications %}
 {% assign publication_categories = "journal,conference,patent,software,intellectual-property" | split: "," %}
 {% assign publication_anchors = "journals,conferences,patents,software,trademarks-designs" | split: "," %}
 {% if publications_lang == "en" %}

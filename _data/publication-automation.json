@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "orcid": "0000-0001-6227-0442",
+    "names": ["Jae-ik Park", "Jae Ik Park", "Park Jae-ik", "박재익"],
+    "affiliations": ["Korea Aerospace Research Institute", "한국항공우주연구원"]
+  },
+  "lookback_years": 2,
+  "max_requests": 160,
+  "conference_sites": [
+    {"id": "ksas", "name": "한국항공우주학회", "home": "https://ksas.or.kr/", "listing": "https://ksas.or.kr/Conference/ConferenceList.asp?AC=99"},
+    {"id": "sase", "name": "항공우주시스템공학회", "home": "https://sase.or.kr/main/", "listing": "https://sase.or.kr/Conference/ConferenceList.asp?AC=99"}
+  ],
+  "software_keywords": ["궤도", "궤적", "달", "화성", "태양돛", "우주탐사", "열보호", "광통신", "KPLO", "GNSS", "GPS"],
+  "excluded_source_ids": [],
+  "approved_source_ids": []
+}

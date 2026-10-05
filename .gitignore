@@ -5,6 +5,7 @@ _site
 vendor
 debug.log
 __pycache__
+_publications/review.json
 .DS_STORE
 .env*
 package.json
