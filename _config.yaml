@@ -8,7 +8,7 @@ navigation-logo: images/search-lab-wordmark.png
 show-subtitle: false
 proofer: false
 
-# Accountless site-wide visitor/view totals. Only this public host is counted.
+# Accountless site-wide visitor total. Only this public host is counted.
 visitor-counter:
   enabled: true
   host: ust-search-lab.github.io

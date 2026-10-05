@@ -294,7 +294,7 @@ another push workflow. Live deployments share a concurrency group.
 
 ## Footer visitor counter
 
-The shared footer displays cumulative visitors and page views for both languages,
+The shared footer displays cumulative visitors for both languages,
 using the accountless [Busuanzi public service](https://busuanzi.9420.ltd/)
 and its documented [JSON API](https://github.com/soxft/busuanzi/wiki/api).
 `visitor-counter` in `_config.yaml` controls visibility and the exact public host.
@@ -308,7 +308,7 @@ The service receives the visitor's IP/browser request information and returns a
 signed visitor identifier, stored locally as `search-lab-visitor-id` to reduce
 duplicate visitor counts. Third-party cookies are not sent. Visitor totals are
 estimates, not an exact count of people; storage resets, different browsers and
-network conditions can affect them. Page views include repeat page loads. Both
+network conditions can affect them. Page-view totals are not displayed. Both
 languages contribute to the same site totals. History before activation is not
 recovered, and counts are stored by the external service, not in Git or Jekyll.
 
