@@ -12,6 +12,8 @@ nav:
 Announcements and news from SEARCH Lab.
 {: .page-intro }
 
+<p class="news-external-link"><a class="text-link" href="{{ '/en/space-news/' | relative_url }}">Space news from Korea and around the world <span aria-hidden="true">→</span></a></p>
+
 {% include section.html %}
 
 {% assign news = site.posts | where: "lang", "en" %}

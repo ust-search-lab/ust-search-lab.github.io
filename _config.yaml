@@ -78,6 +78,7 @@ include:
 
 # force jekyll to exclude certain files/folders
 exclude:
+  - _space_news
   - _guides
   - _publications
   - README.md

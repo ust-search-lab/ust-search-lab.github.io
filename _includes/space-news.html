@@ -1,0 +1,74 @@
+{% assign space_lang = page.lang | default: 'ko' %}
+{% assign space_copy = site.data.space-news-ui[space_lang] %}
+{% assign space_data = site.data.space-news %}
+{% assign space_regions = 'domestic,international' | split: ',' %}
+<div class="space-news{% if include.compact %} space-news-compact{% endif %}" role="region" aria-labelledby="space-news-title" data-space-news-updated="{{ space_data.updated_at | escape }}">
+  <div class="space-news-heading">
+    <div>
+      {% if include.compact %}<p class="space-news-eyebrow">{{ space_copy.eyebrow }}</p>{% endif %}
+      <h2 id="space-news-title">{% if include.compact %}{{ space_copy.title }}{% else %}{{ space_copy.latest }}{% endif %}</h2>
+    </div>
+    {% if include.compact %}
+      <a class="space-news-all text-link" href="{{ space_copy.path | relative_url }}">{{ space_copy.all }} <span aria-hidden="true">→</span></a>
+    {% else %}
+      <a class="space-news-all text-link" href="{{ space_copy.back_path | relative_url }}">{{ space_copy.back }} <span aria-hidden="true">→</span></a>
+    {% endif %}
+  </div>
+  {% if space_data %}
+    <p class="space-news-updated">{{ space_copy.updated }} <time datetime="{{ space_data.updated_at | escape }}">{{ space_data.updated_at | date: '%Y.%m.%d %H:%M' }}</time> KST</p>
+    {% if space_data.partial %}<p class="space-news-notice">{{ space_copy.partial }}</p>{% endif %}
+    <p class="space-news-notice" data-space-news-delayed hidden>{{ space_copy.delayed }}</p>
+    <div class="space-news-columns">
+      {% for region in space_regions %}
+        {% assign space_items = space_data.items | where: 'region', region %}
+        <section class="space-news-group" aria-labelledby="space-news-{{ region }}">
+          <div class="space-news-group-heading">
+            <h3 id="space-news-{{ region }}">{{ space_copy[region] }}</h3>
+            {% if region == 'domestic' %}
+              <a class="space-news-discover text-link" href="{{ site.data.space-news-settings.google_news_search_url | escape }}">{{ space_copy.google_news }} <span aria-hidden="true">↗</span></a>
+            {% endif %}
+          </div>
+          {% if space_items.size > 0 %}
+            <ul class="space-news-list">
+              {% assign space_limit = 100 %}
+              {% if include.compact %}{% assign space_limit = 3 %}{% endif %}
+              {% for item in space_items limit: space_limit %}
+                <li class="space-news-item">
+                  <div class="space-news-meta">
+                    <span class="space-news-source">{{ item.source | escape }}</span>
+                    <time datetime="{{ item.date | escape }}">{{ item.date | date: '%Y.%m.%d' }}</time>
+                    {% if item.stale %}<span class="space-news-stale">{{ space_copy.stale }}</span>{% endif %}
+                  </div>
+                  <h4><a href="{{ item.url | escape }}" lang="{{ item.language | escape }}">{{ item.title | escape }} <span aria-hidden="true">↗</span></a></h4>
+                  {% unless include.compact %}
+                    <ul class="space-news-topics" aria-label="{% if space_lang == 'ko' %}관련 주제{% else %}Related topics{% endif %}">
+                      {% for topic_id in item.topics %}
+                        {% assign topic = site.data.space-news-settings.topics | where: 'id', topic_id | first %}
+                        <li>{{ topic[space_lang] | escape }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endunless %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% else %}<p class="space-news-empty">{{ space_copy.empty }}</p>{% endif %}
+        </section>
+      {% endfor %}
+    </div>
+    {% unless include.compact %}
+      <details class="space-news-sources">
+        <summary>{{ space_copy.sources }}</summary>
+        <p>{{ space_copy.note }}</p>
+        <p>{{ space_copy.schedule }}</p>
+        <ul>
+          {% for source in space_data.sources %}
+            <li>
+              <a href="{{ source.url | escape }}">{% if source.id == 'kasa' %}{{ space_copy.kasa }}{% elsif source.id == 'jpl' %}{{ space_copy.jpl }}{% else %}{{ source.name | escape }}{% endif %} <span aria-hidden="true">↗</span></a>
+              <span>{% if source.last_success_at %}{{ space_copy.updated }} {{ source.last_success_at | date: '%Y.%m.%d %H:%M' }} KST{% else %}{{ space_copy.unavailable }}{% endif %}{% if source.status == 'stale' %} · {{ space_copy.stale }}{% endif %}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endunless %}
+  {% else %}<p class="space-news-empty">{{ space_copy.no_snapshot }}</p>{% endif %}
+</div>

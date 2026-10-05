@@ -1,0 +1,296 @@
+{
+  "lookback_days": 90,
+  "items_per_source": 12,
+  "sources": [
+    {
+      "id": "kari",
+      "name": "KARI",
+      "region": "domestic",
+      "language": "ko",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
+      "kind": "kari",
+      "pages": 3,
+      "hosts": [
+        "www.kari.re.kr"
+      ],
+      "feeds": [
+        "https://www.kari.re.kr/kor/article/ATCL87374b48c"
+      ]
+    },
+    {
+      "id": "kasa",
+      "name": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
+      "kind": "kasa",
+      "pages": 3,
+      "hosts": [
+        "www.korea.kr"
+      ],
+      "feeds": [
+        "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026"
+      ]
+    },
+    {
+      "id": "nasa",
+      "name": "NASA",
+      "region": "international",
+      "language": "en",
+      "url": "https://www.nasa.gov/rss-feeds/",
+      "kind": "rss",
+      "hosts": [
+        "www.nasa.gov",
+        "science.nasa.gov"
+      ],
+      "feeds": [
+        "https://www.nasa.gov/feed/",
+        "https://www.nasa.gov/technology/feed/",
+        "https://www.nasa.gov/missions/artemis/feed/"
+      ]
+    },
+    {
+      "id": "jpl",
+      "name": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
+      "kind": "rss",
+      "hosts": [
+        "www.nasa.gov",
+        "science.nasa.gov",
+        "www.jpl.nasa.gov"
+      ],
+      "feeds": [
+        "https://www.nasa.gov/centers-and-facilities/jpl/feed/"
+      ]
+    },
+    {
+      "id": "esa",
+      "name": "ESA",
+      "region": "international",
+      "language": "en",
+      "url": "https://www.esa.int/Services/RSS_Feeds",
+      "kind": "rss",
+      "hosts": [
+        "www.esa.int"
+      ],
+      "feeds": [
+        "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+        "https://www.esa.int/rssfeed/Our_Activities/Space_Engineering_Technology",
+        "https://www.esa.int/rssfeed/Our_Activities/Operations"
+      ]
+    },
+    {
+      "id": "jaxa",
+      "name": "JAXA",
+      "region": "international",
+      "language": "en",
+      "url": "https://global.jaxa.jp/press/",
+      "kind": "rss",
+      "hosts": [
+        "global.jaxa.jp",
+        "www.jaxa.jp"
+      ],
+      "feeds": [
+        "https://global.jaxa.jp/rss/press.rdf"
+      ]
+    }
+  ],
+  "excluded_title_phrases": [
+    "채용",
+    "인사(",
+    "구독자",
+    "토크콘서트",
+    "명절",
+    "추석",
+    "사회공헌",
+    "NFL",
+    "fans in",
+    "exhibition",
+    "jeans",
+    "cabbage",
+    "advertising",
+    "week in images",
+    "skywatching",
+    "night sky",
+    "photo of the day",
+    "APOD:",
+    "flight directors",
+    "medical model",
+    "galaxy",
+    "galaxies",
+    "biobank",
+    "space medicine",
+    "beer",
+    "win a trip",
+    "문화 행사",
+    "현장 방문",
+    "체험형 홍보관",
+    "스페이스 캠프",
+    "우주과학관",
+    "실물 그대로"
+  ],
+  "excluded_url_parts": [
+    "/earth-observatory/",
+    "/image-article/apod-",
+    "/ESA_Multimedia/Videos/"
+  ],
+  "excluded_urls": [],
+  "topics": [
+    {
+      "id": "mission",
+      "ko": "궤도·임무설계",
+      "en": "Orbits & mission design",
+      "keywords": [
+        "궤도",
+        "임무설계",
+        "운영개념",
+        "운용개념",
+        "시스템엔지니어링",
+        "orbit",
+        "orbits",
+        "orbital",
+        "trajectory",
+        "trajectories",
+        "mission design",
+        "mission control",
+        "gravity assist",
+        "flyby",
+        "flybys",
+        "rendezvous",
+        "docking"
+      ]
+    },
+    {
+      "id": "exploration",
+      "ko": "달·행성 탐사",
+      "en": "Lunar & planetary exploration",
+      "keywords": [
+        "달 탐사",
+        "달 착륙",
+        "달 궤도",
+        "달 기지",
+        "다누리",
+        "행성 탐사",
+        "화성",
+        "소행성",
+        "심우주",
+        "lunar",
+        "moon",
+        "mars",
+        "martian",
+        "planetary",
+        "asteroid",
+        "asteroids",
+        "deep space",
+        "artemis",
+        "bepicolombo",
+        "hayabusa",
+        "hayabusa2",
+        "MMX",
+        "perseverance",
+        "curiosity",
+        "europa",
+        "solar sail"
+      ]
+    },
+    {
+      "id": "satellites",
+      "ko": "위성·군집위성",
+      "en": "Satellites & constellations",
+      "keywords": [
+        "인공위성",
+        "군집위성",
+        "초소형위성",
+        "소형위성",
+        "위성항법",
+        "국가위성",
+        "다목적실용위성",
+        "차세대중형위성",
+        "satellite",
+        "satellites",
+        "constellation",
+        "constellations",
+        "formation flying",
+        "cubesat",
+        "cubesats",
+        "nanosatellite",
+        "GOSAT",
+        "MICHIBIKI"
+      ]
+    },
+    {
+      "id": "control",
+      "ko": "유도제어·자율운용",
+      "en": "Guidance & autonomy",
+      "keywords": [
+        "유도제어",
+        "자세제어",
+        "자율운용",
+        "자율항법",
+        "guidance",
+        "attitude control",
+        "autonomous navigation",
+        "autonomous spacecraft",
+        "space robotics",
+        "in orbit assembly",
+        "rendezvous",
+        "docking"
+      ]
+    },
+    {
+      "id": "communications",
+      "ko": "우주통신",
+      "en": "Space communications",
+      "keywords": [
+        "광통신",
+        "심우주통신",
+        "위성통신",
+        "우주통신",
+        "지상국",
+        "laser communication",
+        "laser communications",
+        "optical communication",
+        "optical communications",
+        "lunar communications",
+        "deep space network",
+        "satellite communications",
+        "ground station",
+        "ground stations"
+      ]
+    },
+    {
+      "id": "demonstration",
+      "ko": "우주실증·탐사기술",
+      "en": "Space technology & demonstrations",
+      "keywords": [
+        "우주실증",
+        "우주 실증",
+        "열보호",
+        "재진입",
+        "재사용 발사체",
+        "우주수송",
+        "우주기술",
+        "추진시스템",
+        "큐브샛",
+        "누리호",
+        "thermal protection",
+        "reentry",
+        "re entry",
+        "aerocapture",
+        "lander",
+        "landers",
+        "landing",
+        "propulsion",
+        "thruster",
+        "thrusters",
+        "technology demonstration",
+        "in space",
+        "reusable spacecraft",
+        "launch vehicle"
+      ]
+    }
+  ],
+  "google_news_search_url": "https://news.google.com/search?q=%28%EC%9A%B0%EC%A3%BC%ED%83%90%EC%82%AC+OR+%EB%8B%AC%ED%83%90%EC%82%AC+OR+%EB%8B%A4%EB%88%84%EB%A6%AC+OR+%EA%B5%B0%EC%A7%91%EC%9C%84%EC%84%B1+OR+%ED%81%90%EB%B8%8C%EC%83%9B+OR+%EC%8B%AC%EC%9A%B0%EC%A3%BC%29+when%3A30d&hl=ko&gl=KR&ceid=KR%3Ako"
+}

@@ -12,6 +12,8 @@ nav:
 SEARCH Lab의 공지사항과 연구실 소식을 전합니다.
 {: .page-intro }
 
+<p class="news-external-link"><a class="text-link" href="{{ '/space-news/' | relative_url }}">국내외 우주탐사 뉴스 <span aria-hidden="true">→</span></a></p>
+
 {% include section.html %}
 
 {% assign news = site.posts | where: "lang", "ko" %}

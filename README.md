@@ -55,7 +55,7 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
   moves to the next new post when the site is rebuilt, with no time-based expiry.
   It pulses three times, then stays still; reduced motion preferences disable
   the animation. NEW identifies the latest post, not a visitor's read status.
-  The home page proceeds from research areas to Research Radar and the student invitation;
+  The home page proceeds from research areas to Research Radar, Space News and the student invitation;
   KARI ground-test videos appear on the Research pages.
 - Publications combine citations generated from `_data/orcid.yaml` and
   `_data/sources.yaml` with the curated historical records described below.
@@ -291,6 +291,25 @@ scheduled jobs. To refresh on demand, run **update-research-radar** from Actions
 The workflow tests the processor, commits the new snapshot, and explicitly calls
 the existing site-build workflow, because a `GITHUB_TOKEN` commit does not trigger
 another push workflow. Live deployments share a concurrency group.
+
+## Space News
+
+`/space-news/` and `/en/space-news/` collect official news from KARI, KASA
+(via Korea Policy Briefing), NASA, NASA/JPL, ESA and JAXA. Home shows the three
+newest domestic and three newest international items. Both News pages link to
+the full list. This is separate from lab announcements and Research Radar.
+The domestic heading also links to a topic-filtered Korean Google News search
+for the last 30 days. Google News results are opened there, not collected into
+the site's snapshot; the RSS response limits reuse to personal feed readers.
+
+Titles, publication dates and source links are shown in their original language,
+with bilingual interface text. The collector filters recent news by research
+topic, removes duplicate URLs/titles, and retains cached items during source
+failures. `.github/workflows/update-space-news.yaml` updates the snapshot twice
+daily at **10:47 and 22:47 KST**, once pushed to `main`. Source details and last
+retrieval times appear on the full list; snapshots older than 36 hours are flagged.
+See [`_space_news/README.md`](_space_news/README.md) for source coverage, matching
+rules, limitations, exclusions and local checks.
 
 ## Footer visitor counter
 

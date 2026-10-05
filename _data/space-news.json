@@ -1,0 +1,1382 @@
+{
+  "updated_at": "2026-10-05T14:26:04+09:00",
+  "lookback_days": 90,
+  "partial": false,
+  "sources": [
+    {
+      "id": "kari",
+      "name": "KARI",
+      "region": "domestic",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
+      "status": "ok",
+      "last_success_at": "2026-10-05T14:26:04+09:00",
+      "items": [
+        {
+          "title": "항우연, 재사용 발사체 기술 개발 본격화",
+          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18724",
+          "date": "2026-09-29",
+          "source_id": "kari",
+          "source": "KARI",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "누리호 5차, 10월 7일 발사",
+          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18705",
+          "date": "2026-08-27",
+          "source_id": "kari",
+          "source": "KARI",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
+          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18698",
+          "date": "2026-08-06",
+          "source_id": "kari",
+          "source": "KARI",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission",
+            "exploration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kasa",
+      "name": "KASA",
+      "region": "domestic",
+      "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
+      "status": "ok",
+      "last_success_at": "2026-10-05T14:26:04+09:00",
+      "items": [
+        {
+          "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783475",
+          "date": "2026-09-29",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783455",
+          "date": "2026-09-29",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783300",
+          "date": "2026-09-28",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782878",
+          "date": "2026-09-22",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission",
+            "satellites"
+          ]
+        },
+        {
+          "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781821",
+          "date": "2026-09-15",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781732",
+          "date": "2026-09-15",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781457",
+          "date": "2026-09-11",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "누리호 5차 발사 대비 발사안전통제 종합훈련 실시",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156777852",
+          "date": "2026-09-02",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "대체불가 대한민국 실현을 위해 우주항공을 국가 주력산업으로 육성",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776389",
+          "date": "2026-09-01",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "인공위성 핵심부품개발 우주기업 분야 '제10차 SOS 간담회' 개최",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775743",
+          "date": "2026-08-27",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "누리호 5차, 10월 7일 발사",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775682",
+          "date": "2026-08-27",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "천리안위성 5호, 부품 국산화로 우주산업 패러다임 바꾼다",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775531",
+          "date": "2026-08-26",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission",
+            "satellites"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nasa",
+      "name": "NASA",
+      "region": "international",
+      "url": "https://www.nasa.gov/rss-feeds/",
+      "status": "ok",
+      "last_success_at": "2026-10-05T14:26:04+09:00",
+      "items": [
+        {
+          "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+          "url": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+          "date": "2026-10-04",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
+          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/",
+          "date": "2026-10-04",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Adds New Science Investigations for Moon Base",
+          "url": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
+          "date": "2026-09-30",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
+          "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
+          "date": "2026-09-29",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "communications",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
+          "date": "2026-09-28",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory",
+          "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
+          "date": "2026-09-21",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
+          "url": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
+          "date": "2026-09-15",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
+          "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
+          "date": "2026-09-14",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
+          "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
+          "date": "2026-09-11",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Calls for Proposals to Accelerate Lunar Surface Technologies",
+          "url": "https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/",
+          "date": "2026-09-08",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jpl",
+      "name": "NASA/JPL",
+      "region": "international",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
+      "status": "ok",
+      "last_success_at": "2026-10-05T14:26:04+09:00",
+      "items": [
+        {
+          "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
+          "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
+          "date": "2026-09-24",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
+          "url": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
+          "date": "2026-09-16",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
+          "url": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
+          "date": "2026-09-09",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+          "url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+          "date": "2026-08-30",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission"
+          ]
+        },
+        {
+          "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
+          "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
+          "date": "2026-08-25",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "communications"
+          ]
+        },
+        {
+          "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
+          "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/",
+          "date": "2026-08-05",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+          "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+          "date": "2026-08-04",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esa",
+      "name": "ESA",
+      "region": "international",
+      "url": "https://www.esa.int/Services/RSS_Feeds",
+      "status": "ok",
+      "last_success_at": "2026-10-05T14:26:04+09:00",
+      "items": [
+        {
+          "title": "Tiny thrusters 3D-printed in space",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Tiny_thrusters_3D-printed_in_space",
+          "date": "2026-10-01",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Science begins for Smile",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
+          "date": "2026-09-30",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Happy New Year on Mars",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Happy_New_Year_on_Mars",
+          "date": "2026-09-30",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration"
+          ]
+        },
+        {
+          "title": "Successful Earth flyby improves Juice’s course to Jupiter",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter",
+          "date": "2026-09-28",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission"
+          ]
+        },
+        {
+          "title": "MIRROR robot reflects future of in-orbit assembly",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/MIRROR_robot_reflects_future_of_in-orbit_assembly",
+          "date": "2026-09-25",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "control",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "New tests for rendezvous and docking interoperability",
+          "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/New_tests_for_rendezvous_and_docking_interoperability",
+          "date": "2026-09-24",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "satellites",
+            "control"
+          ]
+        },
+        {
+          "title": "Juice to fly past Earth for third gravity assist",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
+          "date": "2026-09-21",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission"
+          ]
+        },
+        {
+          "title": "Latest updates: BepiColombo's arrival at Mercury",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
+          "date": "2026-09-21",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
+          "url": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
+          "date": "2026-09-11",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "satellites"
+          ]
+        },
+        {
+          "title": "CubeSat for safer seas and cleaner orbits ready to launch",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/CubeSat_for_safer_seas_and_cleaner_orbits_ready_to_launch",
+          "date": "2026-09-10",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "satellites"
+          ]
+        },
+        {
+          "title": "BepiColombo begins Mercury arrival with MTM separation success",
+          "url": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
+          "date": "2026-09-07",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration"
+          ]
+        },
+        {
+          "title": "Hubble's superbubble scene",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Hubble_s_superbubble_scene",
+          "date": "2026-09-03",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "satellites"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jaxa",
+      "name": "JAXA",
+      "region": "international",
+      "url": "https://global.jaxa.jp/press/",
+      "status": "ok",
+      "last_success_at": "2026-10-05T14:26:04+09:00",
+      "items": [
+        {
+          "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
+          "url": "https://global.jaxa.jp/press/2026/09/20260902-1_e.html",
+          "date": "2026-09-02",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
+          "url": "https://global.jaxa.jp/press/2026/08/20260820-1_e.html",
+          "date": "2026-08-20",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
+          "url": "https://global.jaxa.jp/press/2026/08/20260811-1_e.html",
+          "date": "2026-08-11",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
+          "url": "https://global.jaxa.jp/press/2026/08/20260809-1_e.html",
+          "date": "2026-08-09",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
+          "url": "https://global.jaxa.jp/press/2026/08/20260808-1_e.html",
+          "date": "2026-08-08",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
+          "url": "https://global.jaxa.jp/press/2026/08/20260803-1_e.html",
+          "date": "2026-08-03",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
+          "url": "https://global.jaxa.jp/press/2026/07/20260730-2_e.html",
+          "date": "2026-07-30",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration"
+          ]
+        },
+        {
+          "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
+          "url": "https://global.jaxa.jp/press/2026/07/20260730-1_e.html",
+          "date": "2026-07-30",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration"
+          ]
+        },
+        {
+          "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle Flight No.9 (H3 F9) [Rescheduled]（Addition of Reserved Launch Period）",
+          "url": "https://global.jaxa.jp/press/2026/07/20260708-1_e.html",
+          "date": "2026-07-08",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+      "url": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+      "date": "2026-10-04",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/",
+      "date": "2026-10-04",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Tiny thrusters 3D-printed in space",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Tiny_thrusters_3D-printed_in_space",
+      "date": "2026-10-01",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA Adds New Science Investigations for Moon Base",
+      "url": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
+      "date": "2026-09-30",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Science begins for Smile",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
+      "date": "2026-09-30",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Happy New Year on Mars",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Happy_New_Year_on_Mars",
+      "date": "2026-09-30",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
+      "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
+      "date": "2026-09-29",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "communications",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783475",
+      "date": "2026-09-29",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783455",
+      "date": "2026-09-29",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "항우연, 재사용 발사체 기술 개발 본격화",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18724",
+      "date": "2026-09-29",
+      "source_id": "kari",
+      "source": "KARI",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
+      "date": "2026-09-28",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783300",
+      "date": "2026-09-28",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "Successful Earth flyby improves Juice’s course to Jupiter",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter",
+      "date": "2026-09-28",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission"
+      ]
+    },
+    {
+      "title": "MIRROR robot reflects future of in-orbit assembly",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/MIRROR_robot_reflects_future_of_in-orbit_assembly",
+      "date": "2026-09-25",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "control",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
+      "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
+      "date": "2026-09-24",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "New tests for rendezvous and docking interoperability",
+      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/New_tests_for_rendezvous_and_docking_interoperability",
+      "date": "2026-09-24",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "satellites",
+        "control"
+      ]
+    },
+    {
+      "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782878",
+      "date": "2026-09-22",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission",
+        "satellites"
+      ]
+    },
+    {
+      "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory",
+      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
+      "date": "2026-09-21",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Juice to fly past Earth for third gravity assist",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
+      "date": "2026-09-21",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission"
+      ]
+    },
+    {
+      "title": "Latest updates: BepiColombo's arrival at Mercury",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
+      "date": "2026-09-21",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
+      "url": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
+      "date": "2026-09-16",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
+      "date": "2026-09-15",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781821",
+      "date": "2026-09-15",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781732",
+      "date": "2026-09-15",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
+      "date": "2026-09-14",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
+      "date": "2026-09-11",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781457",
+      "date": "2026-09-11",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
+      "url": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
+      "date": "2026-09-11",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "satellites"
+      ]
+    },
+    {
+      "title": "CubeSat for safer seas and cleaner orbits ready to launch",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/CubeSat_for_safer_seas_and_cleaner_orbits_ready_to_launch",
+      "date": "2026-09-10",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "satellites"
+      ]
+    },
+    {
+      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
+      "url": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
+      "date": "2026-09-09",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "NASA Calls for Proposals to Accelerate Lunar Surface Technologies",
+      "url": "https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/",
+      "date": "2026-09-08",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "BepiColombo begins Mercury arrival with MTM separation success",
+      "url": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
+      "date": "2026-09-07",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration"
+      ]
+    },
+    {
+      "title": "Hubble's superbubble scene",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Hubble_s_superbubble_scene",
+      "date": "2026-09-03",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "satellites"
+      ]
+    },
+    {
+      "title": "누리호 5차 발사 대비 발사안전통제 종합훈련 실시",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156777852",
+      "date": "2026-09-02",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
+      "url": "https://global.jaxa.jp/press/2026/09/20260902-1_e.html",
+      "date": "2026-09-02",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "대체불가 대한민국 실현을 위해 우주항공을 국가 주력산업으로 육성",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776389",
+      "date": "2026-09-01",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+      "url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+      "date": "2026-08-30",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission"
+      ]
+    },
+    {
+      "title": "인공위성 핵심부품개발 우주기업 분야 '제10차 SOS 간담회' 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775743",
+      "date": "2026-08-27",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "누리호 5차, 10월 7일 발사",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18705",
+      "date": "2026-08-27",
+      "source_id": "kari",
+      "source": "KARI",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "천리안위성 5호, 부품 국산화로 우주산업 패러다임 바꾼다",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775531",
+      "date": "2026-08-26",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission",
+        "satellites"
+      ]
+    },
+    {
+      "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
+      "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
+      "date": "2026-08-25",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "communications"
+      ]
+    },
+    {
+      "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
+      "url": "https://global.jaxa.jp/press/2026/08/20260820-1_e.html",
+      "date": "2026-08-20",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
+      "url": "https://global.jaxa.jp/press/2026/08/20260811-1_e.html",
+      "date": "2026-08-11",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
+      "url": "https://global.jaxa.jp/press/2026/08/20260809-1_e.html",
+      "date": "2026-08-09",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
+      "url": "https://global.jaxa.jp/press/2026/08/20260808-1_e.html",
+      "date": "2026-08-08",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18698",
+      "date": "2026-08-06",
+      "source_id": "kari",
+      "source": "KARI",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission",
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/",
+      "date": "2026-08-05",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+      "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+      "date": "2026-08-04",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
+      "url": "https://global.jaxa.jp/press/2026/08/20260803-1_e.html",
+      "date": "2026-08-03",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
+      "url": "https://global.jaxa.jp/press/2026/07/20260730-2_e.html",
+      "date": "2026-07-30",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration"
+      ]
+    },
+    {
+      "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
+      "url": "https://global.jaxa.jp/press/2026/07/20260730-1_e.html",
+      "date": "2026-07-30",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration"
+      ]
+    },
+    {
+      "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle Flight No.9 (H3 F9) [Rescheduled]（Addition of Reserved Launch Period）",
+      "url": "https://global.jaxa.jp/press/2026/07/20260708-1_e.html",
+      "date": "2026-07-08",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+name: update-space-news
+run-name: Refresh Space News
+
+on:
+  schedule:
+    # 10:47 and 22:47 Korea Standard Time.
+    - cron: "47 1,13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-space-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository != 'greenelab/lab-website-template'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: _space_news/requirements.txt
+      - name: Install parser dependency
+        run: python -m pip install -r _space_news/requirements.txt
+      - name: Test news processing
+        run: python -m unittest discover -s _space_news -p 'test_*.py'
+      - name: Refresh official news
+        run: python _space_news/update.py
+      - name: Commit updated snapshot
+        id: commit
+        run: |
+          git add _data/space-news.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Update Space News"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  # GITHUB_TOKEN commits do not trigger on-push, so deploy explicitly.
+  build-site:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    uses: ./.github/workflows/build-site.yaml
