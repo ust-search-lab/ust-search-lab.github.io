@@ -10,8 +10,10 @@ nav:
 # {% include icon.html icon="fa-solid fa-link" %}Links
 {: .page-title }
 
-Official resources for graduate study and space mission design research.
+A practical study guide and official resources for graduate study and space mission design research.
 {: .page-intro }
+
+{% include ai-coding-guide-link.html %}
 
 {% include resource-links.html %}
 

@@ -69,6 +69,8 @@
         data-tooltip="{{ p.nav.tooltip | xml_escape }}"
         {% if page.ref == p.ref %}
           aria-current="page"
+        {% elsif page.parent_ref == p.ref %}
+          aria-current="location"
         {% elsif page.collection == 'members' and p.ref == 'people' %}
           aria-current="location"
         {% elsif page.collection == 'posts' and p.ref == 'news' %}

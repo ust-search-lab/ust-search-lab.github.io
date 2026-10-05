@@ -28,6 +28,8 @@ Students begin with theory and analytical methods suited to their background and
 
 Students use Python, MATLAB, STK, and GMAT as appropriate to the problem. They learn numerical integration and write analysis and simulation code, working through problems in orbit propagation, orbital transfers, communications visibility, trajectory optimization, and control simulation. They check both their results and the assumptions behind their models.
 
+{% include ai-coding-guide-link.html %}
+
 ## Choosing and Developing a Research Topic
 
 Students choose a topic with their advisor, considering their interests, preparation, the lab's research direction, and available projects. They draw on the lab's [core theories and methods]({{ '/en/research/' | relative_url }}#methods) to identify research questions in the areas below.

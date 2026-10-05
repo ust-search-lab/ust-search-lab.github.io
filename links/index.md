@@ -10,8 +10,10 @@ nav:
 # {% include icon.html icon="fa-solid fa-link" %}Links
 {: .page-title }
 
-진학 준비와 우주임무 설계 연구에 필요한 공식 자료를 모았습니다.
+진학 준비와 우주임무 설계 연구에 필요한 실습 가이드와 공식 자료를 모았습니다.
 {: .page-intro }
+
+{% include ai-coding-guide-link.html %}
 
 {% include resource-links.html %}
 
