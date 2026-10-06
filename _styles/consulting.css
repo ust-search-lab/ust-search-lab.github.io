@@ -1,0 +1,226 @@
+main[data-page=consulting] [id] {
+  scroll-margin-top: 110px;
+}
+
+.consulting-intro {
+  max-width: 860px;
+  text-align: left;
+}
+.consulting-intro h1 {
+  margin: 20px 0 12px;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: var(--bold);
+  text-align: left;
+  text-transform: none;
+  line-height: 1.35;
+}
+
+.consulting-status {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 11px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--radius-small);
+  background: var(--background-alt);
+  color: var(--primary);
+  font-size: var(--label-size);
+  font-weight: var(--bold);
+  line-height: 1.5;
+}
+
+.consulting-subtitle {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: var(--semi-bold);
+}
+
+.consulting-lead {
+  margin: 20px 0 0;
+  color: var(--dark-gray);
+}
+
+.consulting-heading h2 {
+  margin: 0;
+}
+.consulting-heading p {
+  margin: 16px 0 0;
+}
+
+.consulting-scopes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--card-gap);
+  margin-top: 28px;
+}
+
+.consulting-scope {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: var(--card-padding);
+  border: 1px solid var(--light-gray);
+  border-top: 3px solid var(--primary);
+  border-radius: var(--rounded);
+  background: var(--background);
+  text-align: left;
+}
+.consulting-scope h3 {
+  margin: 14px 0 0;
+  font-size: var(--card-title-size);
+  font-weight: var(--bold);
+}
+.consulting-scope p {
+  margin: 18px 0;
+  font-size: 0.94rem;
+  line-height: 1.8;
+}
+.consulting-scope .consulting-question {
+  margin: 20px 0 0;
+  color: var(--ink);
+  font-weight: var(--semi-bold);
+}
+.consulting-scope .consulting-question span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--dark-gray);
+  font-size: var(--label-size);
+  font-weight: var(--regular);
+}
+
+.consulting-number {
+  color: var(--primary);
+  font-size: var(--label-size);
+  font-weight: var(--bold);
+  letter-spacing: 0.08em;
+}
+
+.consulting-deliverable {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--light-gray);
+}
+.consulting-deliverable h4 {
+  margin: 0;
+  color: var(--primary);
+  font-size: var(--label-size);
+  font-weight: var(--bold);
+}
+.consulting-deliverable p {
+  margin: 6px 0 0;
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+}
+
+.consulting-experience {
+  display: grid;
+  grid-template-columns: 0.8fr 1.8fr;
+  gap: 24px 48px;
+  text-align: left;
+}
+.consulting-experience h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.consulting-experience p {
+  margin: 0 0 12px;
+}
+
+.consulting-workflow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--card-gap);
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: advisory-step;
+}
+.consulting-workflow li {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  counter-increment: advisory-step;
+}
+.consulting-workflow li::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 14px;
+  border: 1px solid var(--light-gray);
+  border-radius: 50%;
+  color: var(--primary);
+  font-size: var(--label-size);
+  font-weight: var(--bold);
+  content: counter(advisory-step);
+}
+.consulting-workflow h3 {
+  margin: 0;
+  font-size: var(--card-title-size);
+  font-weight: var(--bold);
+}
+.consulting-workflow p {
+  margin: 8px 0 0;
+  color: var(--dark-gray);
+  font-size: 0.94rem;
+  line-height: 1.8;
+}
+
+.consulting-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px 40px;
+  padding: 32px;
+  border-radius: var(--rounded);
+  background: var(--background);
+  color: var(--text);
+}
+.consulting-contact h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.consulting-contact p {
+  max-width: 660px;
+  margin: 14px 0 0;
+  font-size: 0.95rem;
+}
+.consulting-contact .action-button {
+  flex-shrink: 0;
+}
+
+.consulting-note {
+  margin: 20px 0 0;
+  color: var(--dark-gray);
+  font-size: 0.85rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .consulting-scopes {
+    grid-template-columns: 1fr;
+  }
+  .consulting-workflow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .consulting-contact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 600px) {
+  .consulting-experience {
+    grid-template-columns: 1fr;
+  }
+  .consulting-workflow {
+    grid-template-columns: 1fr;
+  }
+  .consulting-contact {
+    padding: var(--card-padding);
+  }
+}
+
+/*# sourceMappingURL=consulting.css.map */
