@@ -8,6 +8,10 @@ navigation-logo: images/search-lab-wordmark.png
 show-subtitle: false
 proofer: false
 
+# Keep the advisory concept hidden until publication is explicitly requested.
+# Its two page drafts also have published: false.
+consulting_enabled: false
+
 # Accountless site-wide visitor total. Only this public host is counted.
 visitor-counter:
   enabled: true

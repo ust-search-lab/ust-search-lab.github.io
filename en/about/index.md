@@ -22,3 +22,11 @@ Students use analysis and simulation tools, including Python, MATLAB, STK, and G
 
 We welcome students who want to design missions from Earth orbit to deep space and develop research ideas into technology demonstrations.
 {: .about-invitation }
+
+{% if site.consulting_enabled %}
+
+## Industry collaboration and advisory concept
+
+Building on his research and mission design experience, Jae-ik Park is exploring industry collaboration in mission concept and trajectory assessment, modeling and simulation review, and practical training. This initiative is at the concept stage. [Space Mission Advisory]({{ '/en/consulting/' | relative_url }}) introduces the areas of expertise and potential collaboration topics.
+
+{% endif %}

@@ -60,6 +60,25 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 - Publications combine citations generated from `_data/orcid.yaml` and
   `_data/sources.yaml` with the curated historical records described below.
 
+## Space mission advisory concept
+
+The advisory concept is **withheld from the website at the owner's request**
+(2026-10-06). `consulting_enabled: false` in `_config.yaml` hides its homepage
+entry and both About sections. `published: false` in `consulting/index.md` and
+`en/consulting/index.md` keeps the detail pages out of normal Jekyll builds,
+including the sitemap. Keep these settings until publication is requested;
+publishing requires enabling the flag and both pages. This is draft publication
+control, not authentication or protection of source files in a public repository.
+
+The retained draft would link the homepage and About to `/consulting/` and
+`/en/consulting/`, with no top-level navigation item. `_data/consulting.yaml`,
+`_includes/consulting.html`, and `_styles/consulting.scss` share their bilingual
+content and layout. The owner confirmed the **business concept stage** on
+2026-10-06: describe expertise, potential collaboration, and proposed outputs,
+not a launched company, commercial track record, or institutional endorsement.
+The research and business rationale is in `_guides/consulting-strategy.md`, which
+is excluded from the published site with the rest of `_guides/`.
+
 ## Shared visual styles
 
 `_styles/-theme.scss` defines the shared palette, heading sizes, card spacing,

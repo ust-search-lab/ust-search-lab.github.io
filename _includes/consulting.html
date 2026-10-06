@@ -1,0 +1,67 @@
+{% assign consulting_lang = page.lang | default: "ko" %}
+{% assign consulting_copy = site.data.consulting[consulting_lang] %}
+{% assign consulting_profile = site.members | where: "ref", "jae-ik-park" | where: "lang", consulting_lang | first %}
+{% assign consulting_subject = consulting_copy.contact_subject | uri_escape %}
+
+<div class="consulting-intro">
+  <p class="consulting-status">{{ consulting_copy.status | escape }}</p>
+  <h1>{{ consulting_copy.title | escape }}</h1>
+  <p class="consulting-subtitle">{{ consulting_copy.subtitle | escape }}</p>
+  <p class="consulting-lead">{{ consulting_copy.introduction | escape }}</p>
+</div>
+
+{% include section.html %}
+
+<div class="consulting-heading">
+  <h2 id="advisory-areas">{{ consulting_copy.scope_title | escape }}</h2>
+  <p>{{ consulting_copy.scope_intro | escape }}</p>
+</div>
+<div class="consulting-scopes">
+  {% for scope in consulting_copy.scopes %}
+    <article class="consulting-scope" aria-labelledby="advisory-area-{{ forloop.index }}">
+      <span class="consulting-number" aria-hidden="true">0{{ forloop.index }}</span>
+      <h3 id="advisory-area-{{ forloop.index }}">{{ scope.title | escape }}</h3>
+      <p class="consulting-question"><span>{{ consulting_copy.question_label | escape }}</span>{{ scope.question | escape }}</p>
+      <p>{{ scope.description | escape }}</p>
+      <div class="consulting-deliverable">
+        <h4>{{ consulting_copy.deliverable_label | escape }}</h4>
+        <p>{{ scope.deliverable | escape }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+{% include section.html %}
+
+<div class="consulting-experience">
+  <h2 id="advisory-experience">{{ consulting_copy.experience_title | escape }}</h2>
+  <div>
+    <p>{{ consulting_copy.experience_text | escape }}</p>
+    <a class="text-link" href="{{ consulting_profile.url | relative_url }}">{{ consulting_copy.experience_link | escape }} <span aria-hidden="true">→</span></a>
+  </div>
+</div>
+
+{% include section.html %}
+
+<div class="consulting-heading">
+  <h2 id="advisory-process">{{ consulting_copy.workflow_title | escape }}</h2>
+</div>
+<ol class="consulting-workflow">
+  {% for step in consulting_copy.workflow %}
+    <li>
+      <h3>{{ step.title | escape }}</h3>
+      <p>{{ step.detail | escape }}</p>
+    </li>
+  {% endfor %}
+</ol>
+
+{% include section.html %}
+
+<div class="consulting-contact" data-dark="true">
+  <div>
+    <h2 id="advisory-contact">{{ consulting_copy.contact_title | escape }}</h2>
+    <p>{{ consulting_copy.contact_text | escape }}</p>
+  </div>
+  <a class="action-button" href="mailto:{{ site.links.email | escape }}?subject={{ consulting_subject | escape }}">{{ consulting_copy.contact_link | escape }} <span aria-hidden="true">↗</span></a>
+</div>
+<p class="consulting-note">{{ consulting_copy.concept_note | escape }}</p>

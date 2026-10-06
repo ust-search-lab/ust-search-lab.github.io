@@ -85,6 +85,22 @@
 
 {% include section.html %}
 
+{% if site.consulting_enabled %}
+<aside class="home-advisory" aria-labelledby="home-advisory-title">
+  <div>
+    <p class="home-eyebrow">{{ home_copy.advisory_eyebrow | escape }}</p>
+    <h2 id="home-advisory-title">{{ home_copy.advisory_title | escape }}</h2>
+    <p>{{ home_copy.advisory_description | escape }}</p>
+  </div>
+  <div class="home-advisory-action">
+    <span class="home-advisory-status">{{ home_copy.advisory_status | escape }}</span>
+    <a class="text-link" href="{{ home_copy.advisory_path | relative_url }}">{{ home_copy.advisory_link | escape }} <span aria-hidden="true">→</span></a>
+  </div>
+</aside>
+
+{% include section.html %}
+{% endif %}
+
 {% include research-radar.html compact=true limit=6 %}
 
 {% include section.html %}

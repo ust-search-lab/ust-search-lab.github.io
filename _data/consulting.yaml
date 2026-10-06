@@ -1,0 +1,91 @@
+ko:
+  status: 사업 구상 단계
+  title: 우주임무 기술자문
+  subtitle: 박재익이 구상하는 우주임무 기술자문과 협력 분야
+  introduction: >-
+    임무 아이디어를 설계 의사결정으로 이어가려는 기업·연구팀을 위해,
+    궤도·궤적 분석과 시뮬레이션 경험을 활용한 기술자문을 구상하고 있습니다.
+    임무 목표와 제약조건을 함께 정리하고, 설계 대안의 근거와 다음에 확인할 문제를 구체화하는 협력을 지향합니다.
+  scope_title: 함께 검토할 수 있는 문제
+  scope_intro: 아래는 구상 중인 협력 범위와 산출물 예시입니다. 구체적인 범위는 주제와 준비된 자료에 따라 논의합니다.
+  question_label: 출발 질문
+  deliverable_label: 제안 산출물 예시
+  scopes:
+    - title: 임무 개념과 궤도·궤적 타당성
+      question: 목표 성능을 만족하는 임무 시나리오는 무엇이며, 어떤 대안을 먼저 검토해야 할까요?
+      description: 임무 목표, 궤도·궤적, 추진·통신·운용 제약을 연결해 초기 설계 대안을 비교하는 협력을 구상합니다.
+      deliverable: 가정·제약조건 목록, 궤도·궤적 후보와 성능 비교표, 후속 검토 항목
+    - title: 모델·시뮬레이션과 설계 검토
+      question: 해석 결과를 설계 판단에 쓰려면 어떤 가정과 검증 근거를 더 확인해야 할까요?
+      description: 모델의 적용 범위와 입력 가정, 수치해석 결과의 민감도를 살펴보고 설계 판단에 필요한 검증 근거를 정리하는 방안을 검토합니다.
+      deliverable: 모델·가정 검토 메모, 민감도 점검 결과, 부족한 검증 근거와 후속 분석 우선순위
+    - title: 임무설계 실무 워크숍
+      question: 우리 팀이 임무설계 문제를 직접 재현하고 대안을 비교하려면 무엇을 익혀야 할까요?
+      description: 팀의 경험과 학습 목표에 맞춰 궤도해석, 임무 시나리오 비교, 시뮬레이션 결과 해석을 함께 다루는 실습을 구상합니다.
+      deliverable: 합의된 학습 목표, 재현 가능한 예제와 실습 자료, 결과 검토를 위한 체크리스트
+  experience_title: 구상의 바탕이 되는 경험
+  experience_text: >-
+    박재익은 한국항공우주연구원 달탐사사업단에서 다누리(KPLO) 임무설계 책임엔지니어와
+    발사 및 초기운영 MSTL(Mission Support Team Lead)을 맡았습니다.
+    이 임무설계·운영 경험과 우주비행역학 연구를 바탕으로, 분석 결과가 실제 설계 판단으로 이어지는 자문 방식을 구상하고 있습니다.
+  experience_link: 박재익의 경력과 연구 보기
+  workflow_title: 구상 중인 협력 진행 방식
+  workflow:
+    - title: 주제 논의
+      detail: 임무 목표와 현재의 설계 고민을 공유합니다.
+    - title: 범위 정의
+      detail: 입력 자료, 가정, 검토 질문과 산출물을 정합니다.
+    - title: 분석·검토
+      detail: 합의한 범위에서 대안을 비교하고 근거를 점검합니다.
+    - title: 결과 논의
+      detail: 결과의 의미와 한계, 다음 검토 항목을 정리합니다.
+  contact_title: 협력 주제부터 이야기해 주세요
+  contact_text: 공개 가능한 임무 목표, 해결하고 싶은 문제, 예상 일정을 간단히 알려 주세요. 현재 단계에서 논의할 수 있는 주제를 함께 살펴보고자 합니다.
+  contact_link: 협력 주제 논의
+  contact_subject: 우주임무 기술자문 — 협력 주제 논의
+  concept_note: 자문 범위와 운영 방식은 검토 중입니다. 이 페이지는 개인의 사업 구상을 소개하며, 연구실 또는 소속기관의 공식 상용 서비스를 의미하지 않습니다.
+
+en:
+  status: Business concept in development
+  title: Space Mission Advisory
+  subtitle: Areas of technical advisory and collaboration being explored by Jae-ik Park
+  introduction: >-
+    This concept brings orbit and trajectory analysis and simulation experience to companies and research teams turning mission ideas into design decisions.
+    The aim is to clarify objectives and constraints, examine the evidence behind design alternatives, and identify the next questions to resolve.
+  scope_title: Questions we could explore together
+  scope_intro: These are proposed collaboration areas and example deliverables. The scope would depend on the topic and available information.
+  question_label: Starting question
+  deliverable_label: Proposed deliverables
+  scopes:
+    - title: Mission concepts and orbit / trajectory feasibility
+      question: Which mission scenarios could meet our objectives, and which alternatives should we examine first?
+      description: Explore early design alternatives by connecting mission objectives with orbits, trajectories, propulsion, communications, and operational constraints.
+      deliverable: Assumptions and constraints register, candidate orbit / trajectory trade matrix, and follow-up questions
+    - title: Models, simulation, and design review
+      question: What assumptions and verification evidence should we check before using these results in a design decision?
+      description: Examine model applicability, input assumptions, and sensitivity of numerical results to clarify the evidence needed for design decisions.
+      deliverable: Model and assumptions review notes, sensitivity checks, verification evidence gaps, and prioritized follow-up analysis
+    - title: Applied mission design workshops
+      question: What would help our team reproduce a mission analysis and compare alternatives independently?
+      description: Explore practical sessions in orbit analysis, mission scenario comparison, and interpretation of simulation results, shaped around the team's experience and learning goals.
+      deliverable: Agreed learning objectives, reproducible examples and exercises, and a results review checklist
+  experience_title: Experience informing this concept
+  experience_text: >-
+    Jae-ik Park served as Mission Design Lead Engineer for Danuri (KPLO) and as Mission Support Team Lead (MSTL) during launch and early operations at the Korea Aerospace Research Institute.
+    This mission design and operations experience, together with astrodynamics research, informs the proposed approach to connecting analysis with practical design decisions.
+  experience_link: View Jae-ik Park's experience and research
+  workflow_title: A proposed way to collaborate
+  workflow:
+    - title: Discuss the topic
+      detail: Share mission objectives and the current design question.
+    - title: Define the scope
+      detail: Agree on inputs, assumptions, review questions, and deliverables.
+    - title: Analyze and review
+      detail: Compare alternatives and examine evidence within the agreed scope.
+    - title: Discuss findings
+      detail: Clarify implications, limitations, and next steps.
+  contact_title: Start with a collaboration topic
+  contact_text: Share a brief, nonconfidential description of your mission objective, the problem you would like to address, and the expected schedule. This can help identify topics to explore at this stage.
+  contact_link: Discuss a collaboration topic
+  contact_subject: Space Mission Advisory — collaboration topic
+  concept_note: The advisory scope and operating arrangements are under consideration. This page presents a personal business concept; it does not represent an official commercial service of the laboratory or affiliated institutions.

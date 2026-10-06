@@ -11,6 +11,12 @@ ko:
   applications_eyebrow: RESEARCH AREAS
   applications_title: 우주임무 설계와 기술실증
   topic_link: 연구내용 보기
+  advisory_eyebrow: INDUSTRY COLLABORATION
+  advisory_title: 우주임무 기술자문 구상
+  advisory_description: 임무 개념과 궤적의 타당성 검토, 모델·시뮬레이션 검토, 실무교육을 중심으로 국내 우주개발팀과의 협력 가능성을 살펴보고 있습니다.
+  advisory_status: 사업 구상 단계
+  advisory_link: 전문 분야와 협력 구상 보기
+  advisory_path: consulting/
   join_eyebrow: JOIN SEARCH Lab
   join_title: 다음 우주임무를 함께 설계합니다
   join_description: 우주임무 설계와 기술실증 연구에 함께할 석·박사과정 학생을 모집합니다.
@@ -31,6 +37,12 @@ en:
   applications_eyebrow: RESEARCH AREAS
   applications_title: Space mission design and technology demonstration
   topic_link: Explore this area
+  advisory_eyebrow: INDUSTRY COLLABORATION
+  advisory_title: Space Mission Advisory Concept
+  advisory_description: Exploring collaboration with space development teams in Korea through mission concept and trajectory assessment, modeling and simulation review, and practical training.
+  advisory_status: Concept stage
+  advisory_link: Explore expertise and collaboration
+  advisory_path: en/consulting/
   join_eyebrow: JOIN SEARCH Lab
   join_title: Help design the next space mission
   join_description: We welcome prospective master's and doctoral students interested in space mission design and technology demonstration.
