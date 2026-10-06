@@ -102,8 +102,10 @@ seven trademark source records, and one design. The repeated KPLO class-38
 entry is displayed once, and the 2011 ambiguity-resolution patent is excluded
 at the owner's request, giving 25 additional displayed entries from these
 27 records. Four owner-reported accepted manuscripts are stored separately in
-`_data/accepted-publications.yaml`. The combined list displays 161 outputs:
-23 articles/features (19 published and four accepted, awaiting publication),
+`_data/accepted-publications.yaml`. Two owner-reported manuscripts undergoing
+peer review are stored in `_data/under-review-publications.yaml` (2026-10-06).
+The combined list displays 163 outputs:
+25 articles/features (19 published, four accepted awaiting publication, and two under review),
 99 conference contributions, 12 patent entries,
 20 software entries, and seven trademark/design entries (six trademarks and one design).
 The subsequent document review updates 16 existing entries using 13 copyright
@@ -146,12 +148,20 @@ is filed under its official title, `인공위성`, and its actual filing year, 2
   follow the owner's supplied information; `journal_source` verifies the venue
   name only. Once publication is confirmed, update the same record with the
   publication metadata and change `status` to `published`; do not add a duplicate.
+- Manuscripts undergoing peer review use `category: journal` and
+  `status: under_review` in `_data/under-review-publications.yaml`. They appear
+  in a separate group above published articles on both language pages. Leave
+  unprovided submission, acceptance, and publication metadata unspecified.
+  Update the same record when its status changes rather than adding a duplicate.
 - `_plugins/publications.rb` merges automatic citations by DOI or matching title
   and year, preserving curated details. The stored `_data/citations.yaml` remains
   generated data; do not edit it directly. ORCID refreshes preserve work categories
   for conferences, patents, and software.
-- Both languages share these records and retain publication titles in their source
-  language, with verified bibliographic corrections documented in the audit.
+- Both languages share these records. At the owner's request (2026-10-06), all
+  newly added papers must display English titles on both language pages. Use the
+  supplied or verified English title, preserving Korean titles in `title_aliases`
+  and `search` when available. Existing titles remain unchanged unless requested;
+  verified bibliographic corrections are documented in the audit.
   Search covers titles, authors, details, and Korean/English author aliases.
 - `_data/ip-publication-audit.yaml` maps all 43 inventory rows to the displayed
   entries and records title variations, duplicate decisions, missing identifiers,

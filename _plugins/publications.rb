@@ -14,7 +14,7 @@ module Jekyll
 
         # Automatic refreshes may add verified metadata and advance status, while
         # preserving the owner's title, author spelling, provenance and exclusions.
-        advancing = (record['status'] == 'accepted' && update['status'] == 'published') ||
+        advancing = (%w[accepted under_review].include?(record['status']) && update['status'] == 'published') ||
                     ([nil, 'unknown', 'application'].include?(record['status']) && update['status'] == 'registered')
         software_enriched = record['category'] == 'software' &&
                             (%w[registration_number registration_date].any? { |key| update[key] && !record[key] } ||

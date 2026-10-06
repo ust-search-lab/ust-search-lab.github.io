@@ -22,6 +22,12 @@ check(records[0]['link'] == 'https://doi.org/10.1234/test', 'DOI not applied')
 check(accepted['status'] == 'accepted', 'Input mutated')
 check(publication_records([], [accepted.merge('exclude' => true)], [update]).empty?, 'Excluded record reintroduced')
 
+under_review = accepted.merge('status' => 'under_review').reject { |key, _| key == 'accepted_date' }
+check(publication_records([], [under_review])[0]['status'] == 'under_review', 'Review status changed without publication evidence')
+records = publication_records([], [under_review], [update])
+check(records.length == 1 && records[0]['status'] == 'published', 'Under-review manuscript did not advance without duplication')
+check(records[0]['title'] == under_review['title'] && records[0]['authors'] == under_review['authors'], 'Under-review curation overwritten')
+
 patent = {'audit_key' => 'pat-1', 'category' => 'patent', 'title' => 'Patent', 'status' => 'registered', 'details' => 'Grant'}
 old = {'_target' => 'pat-1', 'category' => 'patent', 'status' => 'application', 'details' => 'Application'}
 result = publication_records([], [patent], [old])[0]

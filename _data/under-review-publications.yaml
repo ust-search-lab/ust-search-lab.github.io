@@ -1,0 +1,26 @@
+# Titles, authors, venues, and peer-review status supplied by the owner on
+# 2026-10-06. Submission and publication dates have not been supplied.
+---
+- id: under-review:mars-earth-optical-downlink-receiver-model-sensitivity
+  title: 'Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models'
+  authors:
+    - Jae-ik Park
+  category: journal
+  status: under_review
+  details: Optical and Quantum Electronics
+  source: Owner-provided manuscript and peer-review information, 2026-10-06
+  citation: 'Jae-ik Park. Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models. Optical and Quantum Electronics. Peer review in progress.'
+  search: 박재익 peer review under review 심사 중
+
+- id: under-review:mars-edl-integrated-simulation-systems-design
+  title: An Integrated Simulation-Based Systems Design Procedure for Mars Entry, Descent, and Landing Technology Development
+  title_aliases:
+    - 화성 대기 진입-감속-착륙 기술 개발을 위한 통합 시뮬레이션 기반 시스템 설계 절차
+  authors:
+    - Jae-ik Park
+  category: journal
+  status: under_review
+  details: Journal of Aerospace System Engineering (JASE)
+  source: Owner-provided manuscript and peer-review information, 2026-10-06
+  citation: Jae-ik Park. An Integrated Simulation-Based Systems Design Procedure for Mars Entry, Descent, and Landing Technology Development. Journal of Aerospace System Engineering. Peer review in progress.
+  search: 박재익 항공우주시스템공학회지 화성 대기 진입-감속-착륙 기술 개발을 위한 통합 시뮬레이션 기반 시스템 설계 절차 peer review under review 심사 중

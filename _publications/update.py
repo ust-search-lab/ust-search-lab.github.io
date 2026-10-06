@@ -21,7 +21,8 @@ from bs4 import BeautifulSoup
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-CURATED = ("legacy-publications", "discovered-publications", "ip-publications", "accepted-publications")
+CURATED = ("legacy-publications", "discovered-publications", "ip-publications", "accepted-publications",
+           "under-review-publications")
 CROSSREF = "https://api.crossref.org/works"
 CROS = "https://www.cros.or.kr/psnsys/cmmn/wisenut/search.do"
 PUBLIC_FIELDS = {
@@ -192,7 +193,7 @@ def collect_crossref(client, settings, known, today):
                {"query.author": '"Jae-ik Park"', "query.affiliation": "Korea Aerospace Research Institute",
                 "filter": "from-pub-date:" + start, "rows": 100}]
     queries += [{"query.title": r["title"], "query.author": "Jae-ik Park", "rows": 3}
-                for r in known if r.get("status") == "accepted"]
+                for r in known if r.get("status") in ("accepted", "under_review")]
     results, successes = {}, 0
     for query in queries:
         response = client.optional_json(CROSSREF + "?" + urlencode(query))
@@ -450,7 +451,7 @@ def update_patch(old, new):
     fields = ("doi", "date", "year", "publisher", "application_number", "application_date",
               "registration_number", "registration_date", "copyright_author", "year_basis", "country")
     patch = {k: new[k] for k in fields if new.get(k) and not old.get(k)}
-    published = old.get("status") == "accepted" and new.get("status") == "published"
+    published = old.get("status") in ("accepted", "under_review") and new.get("status") == "published"
     granted = old.get("status") in ("application", "unknown", None) and new.get("status") == "registered"
     if published or granted:
         patch.update({k: new[k] for k in ("status", "details", "details_en", "link") if new.get(k)})

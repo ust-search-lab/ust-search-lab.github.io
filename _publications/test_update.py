@@ -42,16 +42,19 @@ class IdentityTests(unittest.TestCase):
         work['published-online'] = {'date-parts': [[2027, 1, 1]]}
         self.assertIsNone(normalize_crossref(work, IDENTITY, TODAY, []))
 
-    def test_accepted_becomes_published_without_new_duplicate(self):
-        old = {'id': 'accepted:test', 'title': 'Trajectory design', 'authors': ['Jae-ik Park'], 'category': 'journal', 'status': 'accepted'}
-        work = article()
-        work['type'] = 'journal-article'
-        record = normalize_crossref(work, IDENTITY, TODAY, [old])
-        records, _ = reconcile([record], [old], [], SETTINGS)
-        self.assertEqual(len(records), 1)
-        self.assertEqual(records[0]['_target'], 'accepted:test')
-        self.assertEqual(records[0]['status'], 'published')
-        self.assertNotIn('authors', records[0])
+    def test_pending_manuscript_becomes_published_without_new_duplicate(self):
+        for status in ('accepted', 'under_review'):
+            with self.subTest(status=status):
+                old = {'id': 'manuscript:test', 'title': 'Trajectory design', 'authors': ['Jae-ik Park'],
+                       'category': 'journal', 'status': status}
+                work = article()
+                work['type'] = 'journal-article'
+                record = normalize_crossref(work, IDENTITY, TODAY, [old])
+                records, _ = reconcile([record], [old], [], SETTINGS)
+                self.assertEqual(len(records), 1)
+                self.assertEqual(records[0]['_target'], 'manuscript:test')
+                self.assertEqual(records[0]['status'], 'published')
+                self.assertNotIn('authors', records[0])
 
     def test_article_and_conference_with_same_title_are_distinct(self):
         a = {'title': 'Trajectory design', 'year': 2026, 'category': 'journal'}

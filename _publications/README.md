@@ -9,7 +9,7 @@ private-file, login, or API-key connections.
 
 | Source | Coverage | Automatic inclusion |
 | --- | --- | --- |
-| Crossref | DOI journal articles and conference papers; ORCID query, recent author/affiliation search, accepted-title checks | Matching ORCID, exact name plus KARI affiliation, or known title/DOI plus matching author |
+| Crossref | DOI journal articles and conference papers; ORCID query, recent author/affiliation search, accepted/under-review title checks | Matching ORCID, exact name plus KARI affiliation, or known title/DOI plus matching author |
 | KSAS / SASE | Public proceedings linked by the society home/event pages and existing verified records, current year and prior two years | Explicit Park/KARI attribution and past session date |
 | Google Patents | Public Korean/English inventor-and-assignee search, and existing patent publication pages | Exact inventor and KARI applicant; known application/registration numbers update existing records |
 | CROS | Existing software registrations and up to 400 recent KARI search records, topic-filtered for discovery | Known registration number or exact known title plus corporate author; new corporate-only records require confirmation of lab participation |
@@ -32,8 +32,8 @@ facts and are not an opinion about current legal validity or ownership.
 - The original weekly ORCID workflow and Research Radar remain separate.
 - The generated file contains new records and patches targeting curated `id` or
   `audit_key`. Curated titles, contributors, exclusions, and original provenance
-  remain authoritative. Accepted papers can advance to published; applications can
-  advance to registered. Missing dates stay missing, and grants never downgrade.
+  remain authoritative. Accepted and under-review papers can advance to published;
+  applications can advance to registered. Missing dates stay missing, and grants never downgrade.
 - A conference contribution and subsequent journal article remain distinct.
   Patent jurisdictions and corporate software authorship remain distinct.
 - Failed sources retain prior data. A wholly failed run writes no output. Partial
