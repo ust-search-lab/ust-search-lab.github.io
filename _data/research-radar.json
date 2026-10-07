@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-07T10:31:28+09:00",
+  "updated_at": "2026-10-07T22:34:42+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-07T10:31:28+09:00",
+      "last_success_at": "2026-10-07T22:34:42+09:00",
       "status": "ok",
       "items": [
         {
@@ -258,7 +258,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-07T10:31:28+09:00",
+      "last_success_at": "2026-10-07T22:34:42+09:00",
       "status": "ok",
       "items": [
         {
@@ -520,37 +520,9 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-07T10:31:28+09:00",
+      "last_success_at": "2026-10-07T22:34:42+09:00",
       "status": "ok",
       "items": [
-        {
-          "doi": "10.1016/j.actaastro.2026.09.022",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.09.022",
-          "title": "Mechanical Convergence of Lunar Regolith Minerals Revealed by Nanoindentation of Chang'e-5 Samples",
-          "authors": [
-            "Guozheng Zhang",
-            "Xiaoping Zhang",
-            "Xiaojia Zeng",
-            "Shaolin Li",
-            "Yifei Cui",
-            "Jiayan Nie",
-            "Wing-Huen Ip",
-            "Yi Xu",
-            "Lei Lei",
-            "Hong Gan",
-            "Cunhui Li",
-            "Xiao-Xi Kang",
-            "Yanxia Tan"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
         {
           "doi": "10.1016/j.actaastro.2026.05.055",
           "url": "https://doi.org/10.1016/j.actaastro.2026.05.055",
@@ -761,6 +733,26 @@
           "date_type": "published-print",
           "topics": [
             "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.04.066",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.04.066",
+          "title": "Comparative study on morphological and mechanical properties of lunar regolith simulants (LHS-1, LMS-1, and LSP-2) using micro-CT reconstruction and direct shear tests",
+          "authors": [
+            "Yating Yang",
+            "MD Razibur Rahman",
+            "Misandratr'Avo Andriamasinoro",
+            "Filippo Vatteroni",
+            "Lei Wang"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
           ]
         }
       ]
@@ -998,34 +990,6 @@
       ]
     },
     {
-      "doi": "10.1016/j.actaastro.2026.09.022",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.09.022",
-      "title": "Mechanical Convergence of Lunar Regolith Minerals Revealed by Nanoindentation of Chang'e-5 Samples",
-      "authors": [
-        "Guozheng Zhang",
-        "Xiaoping Zhang",
-        "Xiaojia Zeng",
-        "Shaolin Li",
-        "Yifei Cui",
-        "Jiayan Nie",
-        "Wing-Huen Ip",
-        "Yi Xu",
-        "Lei Lei",
-        "Hong Gan",
-        "Cunhui Li",
-        "Xiao-Xi Kang",
-        "Yanxia Tan"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
       "doi": "10.1016/j.actaastro.2026.05.055",
       "url": "https://doi.org/10.1016/j.actaastro.2026.05.055",
       "title": "An overview of 3D printing Mars habitats using in-situ resources: materials, processing, structural challenges, and prospects",
@@ -1235,6 +1199,26 @@
       "date_type": "published-print",
       "topics": [
         "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.04.066",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.04.066",
+      "title": "Comparative study on morphological and mechanical properties of lunar regolith simulants (LHS-1, LMS-1, and LSP-2) using micro-CT reconstruction and direct shear tests",
+      "authors": [
+        "Yating Yang",
+        "MD Razibur Rahman",
+        "Misandratr'Avo Andriamasinoro",
+        "Filippo Vatteroni",
+        "Lei Wang"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
       ]
     },
     {
