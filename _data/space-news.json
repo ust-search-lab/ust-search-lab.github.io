@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T10:55:34+09:00",
+  "updated_at": "2026-10-07T22:57:37+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,21 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_success_at": "2026-10-07T10:55:34+09:00",
+      "last_success_at": "2026-10-07T22:57:37+09:00",
       "items": [
+        {
+          "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공 new",
+          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18729",
+          "date": "2026-10-07",
+          "source_id": "kari",
+          "source": "KARI",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
         {
           "title": "누리호 5차, 발사 시각 확정 new",
           "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18728",
@@ -80,8 +93,36 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_success_at": "2026-10-07T10:55:34+09:00",
+      "last_success_at": "2026-10-07T22:57:37+09:00",
       "items": [
+        {
+          "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784594",
+          "date": "2026-10-07",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission",
+            "satellites",
+            "communications",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784534",
+          "date": "2026-10-07",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
         {
           "title": "누리호 5차, 발사 시각 확정",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784460",
@@ -204,30 +245,6 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
-        },
-        {
-          "title": "누리호 5차 발사 대비 발사안전통제 종합훈련 실시",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156777852",
-          "date": "2026-09-02",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "demonstration"
-          ]
-        },
-        {
-          "title": "대체불가 대한민국 실현을 위해 우주항공을 국가 주력산업으로 육성",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776389",
-          "date": "2026-09-01",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "exploration"
           ]
         }
       ]
@@ -380,7 +397,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-07T10:55:34+09:00",
+      "last_success_at": "2026-10-07T22:57:37+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -489,8 +506,34 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-07T10:55:34+09:00",
+      "last_success_at": "2026-10-07T22:57:37+09:00",
       "items": [
+        {
+          "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
+          "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_ESA_s_Flight_Dynamics_team_into_action",
+          "date": "2026-10-07",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
+          "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+          "date": "2026-10-07",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "Latest updates: BepiColombo's arrival at Mercury",
           "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
@@ -610,32 +653,6 @@
           "title": "CubeSat for safer seas and cleaner orbits ready to launch",
           "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/CubeSat_for_safer_seas_and_cleaner_orbits_ready_to_launch",
           "date": "2026-09-10",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "satellites"
-          ]
-        },
-        {
-          "title": "BepiColombo begins Mercury arrival with MTM separation success",
-          "url": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
-          "date": "2026-09-07",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "exploration"
-          ]
-        },
-        {
-          "title": "Hubble's superbubble scene",
-          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Hubble_s_superbubble_scene",
-          "date": "2026-09-03",
           "source_id": "esa",
           "source": "ESA",
           "region": "international",
@@ -771,6 +788,34 @@
   ],
   "items": [
     {
+      "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784594",
+      "date": "2026-10-07",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission",
+        "satellites",
+        "communications",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784534",
+      "date": "2026-10-07",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
       "title": "누리호 5차, 발사 시각 확정",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784460",
       "date": "2026-10-07",
@@ -785,6 +830,19 @@
       ]
     },
     {
+      "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공 new",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18729",
+      "date": "2026-10-07",
+      "source_id": "kari",
+      "source": "KARI",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
       "title": "누리호 5차, 발사 시각 확정 new",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18728",
       "date": "2026-10-07",
@@ -794,6 +852,32 @@
       "language": "ko",
       "topics": [
         "demonstration"
+      ]
+    },
+    {
+      "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
+      "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_ESA_s_Flight_Dynamics_team_into_action",
+      "date": "2026-10-07",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
+      "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+      "date": "2026-10-07",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
       ]
     },
     {
@@ -1239,44 +1323,6 @@
       "stale": true
     },
     {
-      "title": "BepiColombo begins Mercury arrival with MTM separation success",
-      "url": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
-      "date": "2026-09-07",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
-        "exploration"
-      ]
-    },
-    {
-      "title": "Hubble's superbubble scene",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Hubble_s_superbubble_scene",
-      "date": "2026-09-03",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
-        "satellites"
-      ]
-    },
-    {
-      "title": "누리호 5차 발사 대비 발사안전통제 종합훈련 실시",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156777852",
-      "date": "2026-09-02",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "demonstration"
-      ]
-    },
-    {
       "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
       "url": "https://global.jaxa.jp/press/2026/09/20260902-1_e.html",
       "date": "2026-09-02",
@@ -1288,18 +1334,6 @@
         "satellites"
       ],
       "stale": true
-    },
-    {
-      "title": "대체불가 대한민국 실현을 위해 우주항공을 국가 주력산업으로 육성",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776389",
-      "date": "2026-09-01",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "exploration"
-      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
