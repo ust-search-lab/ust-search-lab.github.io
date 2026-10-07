@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T22:57:18+09:00",
+  "updated_at": "2026-10-07T10:55:34+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,20 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_success_at": "2026-10-06T22:57:18+09:00",
+      "last_success_at": "2026-10-07T10:55:34+09:00",
       "items": [
+        {
+          "title": "누리호 5차, 발사 시각 확정 new",
+          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18728",
+          "date": "2026-10-07",
+          "source_id": "kari",
+          "source": "KARI",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "demonstration"
+          ]
+        },
         {
           "title": "누리호 5호기, 발사대로 이송 시작 new",
           "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18726",
@@ -68,8 +80,22 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_success_at": "2026-10-06T22:57:18+09:00",
+      "last_success_at": "2026-10-07T10:55:34+09:00",
       "items": [
+        {
+          "title": "누리호 5차, 발사 시각 확정",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784460",
+          "date": "2026-10-07",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission",
+            "satellites",
+            "demonstration"
+          ]
+        },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784408",
@@ -202,18 +228,6 @@
           "language": "ko",
           "topics": [
             "exploration"
-          ]
-        },
-        {
-          "title": "인공위성 핵심부품개발 우주기업 분야 '제10차 SOS 간담회' 개최",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775743",
-          "date": "2026-08-27",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "satellites"
           ]
         }
       ]
@@ -366,8 +380,20 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-06T22:57:18+09:00",
+      "last_success_at": "2026-10-07T10:55:34+09:00",
       "items": [
+        {
+          "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
+          "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+          "date": "2026-10-06",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
           "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
@@ -452,7 +478,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": false
         }
       ]
     },
@@ -462,7 +489,7 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-06T22:57:18+09:00",
+      "last_success_at": "2026-10-07T10:55:34+09:00",
       "items": [
         {
           "title": "Latest updates: BepiColombo's arrival at Mercury",
@@ -625,7 +652,7 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "ok",
+      "status": "stale",
       "last_success_at": "2026-10-06T22:57:18+09:00",
       "items": [
         {
@@ -638,7 +665,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -651,7 +679,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -664,7 +693,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -677,7 +707,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -690,7 +721,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -703,7 +735,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -716,7 +749,8 @@
           "topics": [
             "mission",
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -729,25 +763,51 @@
           "topics": [
             "mission",
             "exploration"
-          ]
-        },
-        {
-          "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle Flight No.9 (H3 F9) [Rescheduled]（Addition of Reserved Launch Period）",
-          "url": "https://global.jaxa.jp/press/2026/07/20260708-1_e.html",
-          "date": "2026-07-08",
-          "source_id": "jaxa",
-          "source": "JAXA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "satellites",
-            "demonstration"
-          ]
+          ],
+          "stale": true
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "누리호 5차, 발사 시각 확정",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784460",
+      "date": "2026-10-07",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission",
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "누리호 5차, 발사 시각 확정 new",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18728",
+      "date": "2026-10-07",
+      "source_id": "kari",
+      "source": "KARI",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+      "date": "2026-10-06",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
     {
       "title": "누리호 5호기, 발사대로 이송 시작",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784408",
@@ -1226,7 +1286,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "대체불가 대한민국 실현을 위해 우주항공을 국가 주력산업으로 육성",
@@ -1250,18 +1311,6 @@
       "language": "en",
       "topics": [
         "mission"
-      ]
-    },
-    {
-      "title": "인공위성 핵심부품개발 우주기업 분야 '제10차 SOS 간담회' 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775743",
-      "date": "2026-08-27",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "satellites"
       ]
     },
     {
@@ -1300,7 +1349,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1313,7 +1363,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1326,7 +1377,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1339,7 +1391,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1377,7 +1430,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1390,7 +1444,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1403,7 +1458,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1416,20 +1472,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
-    },
-    {
-      "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle Flight No.9 (H3 F9) [Rescheduled]（Addition of Reserved Launch Period）",
-      "url": "https://global.jaxa.jp/press/2026/07/20260708-1_e.html",
-      "date": "2026-07-08",
-      "source_id": "jaxa",
-      "source": "JAXA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "satellites",
-        "demonstration"
-      ]
+      ],
+      "stale": true
     }
   ]
 }
