@@ -67,6 +67,17 @@
   - jae-ik-park
 - year_basis: application_year
   country: KR
+  _target: legacy-076
+  _source_id: patent:KR101414146B1
+  _source: patents
+  verification_source: https://patents.google.com/patent/KR101414146B1/en
+  _identity: confirmed
+  category: patent
+  title: Antenna platform
+  researcher_ids:
+  - jae-ik-park
+- year_basis: application_year
+  country: KR
   _target: legacy-075
   _source_id: patent:KR102091031B1
   _source: patents
@@ -86,17 +97,6 @@
   _identity: confirmed
   category: patent
   title: Method for detecting error gps carrier phase measurements
-  researcher_ids:
-  - jae-ik-park
-- year_basis: application_year
-  country: KR
-  _target: legacy-076
-  _source_id: patent:KR20140058136A
-  _source: patents
-  verification_source: https://patents.google.com/patent/KR20140058136A/en
-  _identity: confirmed
-  category: patent
-  title: Antenna platform
   researcher_ids:
   - jae-ik-park
 - year_basis: application_year
