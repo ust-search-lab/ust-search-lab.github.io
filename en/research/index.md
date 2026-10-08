@@ -105,7 +105,7 @@ We analyze aerodynamic heating and deceleration loads as spacecraft and sample r
 - Thermal protection system concepts and thickness sizing, and thermal response analysis of ablative and reusable materials
 - Verification methods using ground tests, such as arc-jet testing, and flight tests
 
-{% include research-figure.html topic="reentry" caption="A conceptual cross-section of a return capsule with an ablative heat shield. The heat shield and insulation limit heat transfer to the interior; layer arrangements and thicknesses depend on the materials and mission conditions." alt="A return capsule facing hypersonic flow, with its bow shock, heated gas layer, ablative heat shield, insulation, and internal payload identified." %}
+{% include research-figure.html topic="reentry" caption="A conceptual cross-section of a sample-return capsule showing the detached bow shock, the hot shock layer, stagnation-point heating, and the forebody ablator and backshell thermal protection. The enlarged stack-up shows the temperature profile through the ablator and the bondline temperature limit that sizes its thickness. Shapes and thicknesses are not to scale." alt="A sample-return capsule facing hypersonic flow and a detached bow shock, with the stagnation point, forebody ablator, backshell thermal protection, structure, and sample canister identified. An enlarged stack-up shows the char, pyrolysis, and virgin ablator zones, the bondline, and the temperature profile, and a band below shows the analysis flow from entry trajectory to aerothermal environment, thermal protection sizing, and arc-jet and flight testing." %}
 
 {% include section.html %}
 
