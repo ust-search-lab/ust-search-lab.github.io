@@ -56,8 +56,5 @@
         <a class="action-button" href="{{ profile_publications_url | relative_url }}" aria-label="{{ profile_member.name | escape }} · {{ profile_publications_label }}">{{ profile_publications_label }}</a>
       {% endif %}
     </div>
-    {% if profile_mode == "full" %}
-      {% include publication-freshness.html researcher="jae-ik-park" lang=profile_lang %}
-    {% endif %}
   </div>
 </article>

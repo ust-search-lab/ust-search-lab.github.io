@@ -19,7 +19,6 @@
 {% endif %}
 
 <div class="publications">
-  {% include publication-freshness.html researcher=publication_researcher lang=publications_lang %}
   <nav class="publication-nav" aria-label="{% if publications_lang == 'en' %}Research output categories{% else %}연구성과 분류{% endif %}">
     {% for publication_category in publication_categories %}
       {% assign publication_category_records = publication_records | where: "category", publication_category %}
@@ -175,4 +174,5 @@
       {% endif %}
     </div>
   {% endfor %}
+  {% include publication-freshness.html researcher=publication_researcher lang=publications_lang %}
 </div>
