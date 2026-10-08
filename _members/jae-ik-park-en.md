@@ -15,9 +15,9 @@ appointments:
   - Associate Professor, Aerospace System Engineering, University of Science and Technology (UST)
   - Principal Researcher and Head of the Space Exploration Team, Korea Aerospace Research Institute (KARI)
 summary: >-
-  Jae-ik Park studies orbit analysis and space mission design for satellites and deep-space probes, grounded in orbital mechanics and astrodynamics.
-  Park served as the mission design lead engineer for Danuri (Korea Pathfinder Lunar Orbiter, KPLO) in KARI's Lunar Exploration Program Office, helping lead a national deep-space exploration mission.
-  Building on that practical experience, Park integrates mission objectives with orbital, propulsion, communications, and operational constraints to develop feasible mission scenarios and evaluates their performance using high-fidelity numerical simulation and optimization.
+  Dr. Park studies orbit analysis and space mission design for satellites and deep-space probes, grounded in orbital mechanics and astrodynamics.
+  Dr. Park served as the mission design lead engineer for Danuri (Korea Pathfinder Lunar Orbiter, KPLO) in KARI's Lunar Exploration Program Office, helping lead a national deep-space exploration mission.
+  Building on that practical experience, Dr. Park integrates mission objectives with orbital, propulsion, communications, and operational constraints to develop feasible mission scenarios and evaluates their performance using high-fidelity numerical simulation and optimization.
 aliases:
   - Jae-ik Park
 links:

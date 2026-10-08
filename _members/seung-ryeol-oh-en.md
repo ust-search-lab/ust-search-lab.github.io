@@ -13,7 +13,7 @@ appointments:
   - Senior Researcher, Korea Aerospace Research Institute (KARI)
   - Space Exploration Team
 summary: >-
-  His research applies orbital mechanics and optimal control theory to guidance, navigation, and control (GNC), trajectory design, and optimization for satellites and space exploration vehicles.
+  Dr. Oghim applies orbital mechanics and optimal control theory to guidance, navigation, and control (GNC), trajectory design, and optimization for satellites and space exploration vehicles.
 aliases:
   - Snyoll Oghim
   - Seung-ryeol Oh
@@ -22,7 +22,7 @@ aliases:
 
 ## Biography
 
-Dr. Snyoll Oghim applies orbital mechanics and optimal control theory to guidance, navigation, and control (GNC), trajectory design, and optimization for satellites and space exploration vehicles. His research experience includes optimal rendezvous trajectory design, low-thrust guidance, artificial intelligence-based attitude control, and vision-based relative navigation.
+Dr. Oghim applies orbital mechanics and optimal control theory to guidance, navigation, and control (GNC), trajectory design, and optimization for satellites and space exploration vehicles. His research experience includes optimal rendezvous trajectory design, low-thrust guidance, artificial intelligence-based attitude control, and vision-based relative navigation.
 
 He also has experience developing integrated operations software for control moment gyroscope clusters, as well as onboard computers and flight software for CubeSats.
 
