@@ -1,0 +1,11 @@
+Asset: images/members/seung-ryeol-oh-suit.png
+Created: 2026-10-08
+Mode: built-in image_gen image edit
+Source: user-provided 프로필사진.png; original preserved in Downloads.
+
+Final prompt:
+Use case: identity-preserve.
+Asset type: professional research laboratory website portrait.
+Input image: /Users/jpark/Downloads/프로필사진.png is the edit target, not a style reference.
+Primary request: Change only the subject's black crew-neck T-shirt into a well-fitted dark navy formal suit jacket, crisp white dress shirt, and understated solid dark navy tie.
+Constraints: Keep this exact person's face, eyes, nose, mouth, jaw, ears, black glasses, hairstyle, skin texture, expression, apparent age, head position, body proportions, framing, lighting, and plain white background unchanged as closely as possible. Do not beautify, reshape the face, smooth the skin, change hair, change the expression, or add any items other than the requested clothing. Keep the realistic photographic appearance and original portrait composition. Clothing must fit naturally around the existing neck and shoulders. No text, logos, insignia, watermark, or additional people.

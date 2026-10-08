@@ -7,7 +7,7 @@ ref: collaborator-02
 lang: ko
 image: images/members/placeholder.svg
 role: collaborator
-description: 공동연구원
+description: 협력 연구원
 ---
 
 **학력:** 인하대학교 박사  

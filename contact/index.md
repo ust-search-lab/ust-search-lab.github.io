@@ -14,7 +14,7 @@ nav:
 
 <div class="contact-recruitment">
   <div class="contact-intro">
-    <p class="contact-eyebrow">학생 연구자 모집</p>
+    <p class="contact-eyebrow">학생 연구원 모집</p>
     <h2>우주임무 설계와 기술실증을 연구할 학생을 모집합니다.</h2>
     <p>석·박사과정 진학에 관심이 있는 분은 관심 연구분야와 입학 희망 시기를 적어 이메일로 문의해 주세요.</p>
     <p class="contact-welcome"><strong>군위탁장교의 석·박사과정 진학도 환영합니다.</strong></p>
@@ -68,7 +68,7 @@ SEARCH Lab이 위치한 한국항공우주연구원은 [국가보안 ‘나’�
 <div class="contact-explore">
   <p>연구분야와 학생 안내도 함께 참고해 주세요.</p>
   <div class="contact-links">
-    <a class="text-link" href="{{ '/students/' | relative_url }}">학생 연구자 안내 <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/students/' | relative_url }}">학생 연구원 안내 <span aria-hidden="true">→</span></a>
     <a class="text-link" href="{{ '/research/' | relative_url }}">연구분야 살펴보기 <span aria-hidden="true">→</span></a>
   </div>
 </div>

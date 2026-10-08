@@ -18,6 +18,6 @@ nav:
 {% include resource-links.html %}
 
 <div class="resource-related">
-  <a class="text-link" href="{{ '/students/' | relative_url }}">학생 연구자 안내 <span aria-hidden="true">→</span></a>
+  <a class="text-link" href="{{ '/students/' | relative_url }}">학생 연구원 안내 <span aria-hidden="true">→</span></a>
   <a class="text-link" href="{{ '/radar/' | relative_url }}">Research Radar · 최근 논문 <span aria-hidden="true">→</span></a>
 </div>

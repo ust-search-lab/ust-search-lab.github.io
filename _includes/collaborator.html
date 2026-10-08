@@ -1,0 +1,53 @@
+{% assign collaborator = include.member %}
+{% assign collaborator_mode = include.mode | default: "summary" %}
+{% if collaborator.lang == "en" %}
+  {% assign collaborator_detail_label = "Full profile" %}
+{% else %}
+  {% assign collaborator_detail_label = "상세 프로필" %}
+{% endif %}
+
+<article class="profile-card{% unless collaborator.image %} profile-card--without-photo{% endunless %}" data-profile-mode="{{ collaborator_mode | escape }}" lang="{{ collaborator.lang | escape }}">
+  {% if collaborator.image %}
+    <div class="profile-photo-wrapper">
+      <img
+        class="profile-photo"
+        src="{{ collaborator.image | relative_url | uri_escape }}"
+        alt="{{ collaborator.name | escape }}"
+        {% if collaborator.image_position %}style="object-position: {{ collaborator.image_position | escape }};"{% endif %}
+        width="200"
+        height="200"
+        loading="{% if collaborator_mode == 'full' %}eager{% else %}lazy{% endif %}"
+        decoding="async"
+        {% include fallback.html %}
+      >
+    </div>
+  {% endif %}
+
+  <div class="profile-information">
+    {% if collaborator_mode == "full" %}
+      <h1 class="profile-name">{{ collaborator.display_name | default: collaborator.name | escape }}</h1>
+      <p class="profile-role">{{ collaborator.description | escape }}</p>
+    {% else %}
+      <h3 class="profile-name">{{ collaborator.display_name | default: collaborator.name | escape }}</h3>
+    {% endif %}
+
+    {% if collaborator.appointments and collaborator.appointments.size > 0 %}
+      <ul class="profile-appointments" role="list">
+        {% for appointment in collaborator.appointments %}
+          <li>{{ appointment | escape }}</li>
+        {% endfor %}
+      </ul>
+    {% elsif collaborator.affiliation %}
+      <p class="profile-affiliation">{{ collaborator.affiliation | escape }}</p>
+    {% endif %}
+
+    {% if collaborator_mode == "summary" %}
+      {% if collaborator.summary %}
+        <p class="profile-summary">{{ collaborator.summary | escape }}</p>
+      {% endif %}
+      <div class="profile-links">
+        <a class="action-button" href="{{ collaborator.url | relative_url | uri_escape }}" aria-label="{{ collaborator.name | escape }} · {{ collaborator_detail_label }}">{{ collaborator_detail_label }}</a>
+      </div>
+    {% endif %}
+  </div>
+</article>

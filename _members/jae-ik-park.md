@@ -21,7 +21,6 @@ aliases:
   - Jae-ik Park
 links:
   email: jpark@ust.ac.kr
-  orcid: 0000-0001-6227-0442
 ---
 
 ## 학력

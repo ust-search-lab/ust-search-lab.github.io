@@ -7,7 +7,7 @@ ref: collaborator-01
 lang: en
 image: images/members/placeholder.svg
 role: collaborator
-description: Collaborating Researcher
+description: Collaborator
 ---
 
 **Education:** Ph.D., Seoul National University  

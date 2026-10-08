@@ -7,7 +7,7 @@ ref: collaborator-02
 lang: en
 image: images/members/placeholder.svg
 role: collaborator
-description: Collaborating Researcher
+description: Collaborator
 ---
 
 **Education:** Ph.D., Inha University  

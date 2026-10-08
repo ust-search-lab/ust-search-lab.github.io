@@ -18,17 +18,14 @@ nav:
   {% include principal-investigator.html member=investigator mode="summary" %}
 {% endfor %}
 
-{% comment %} collaborating researchers: hidden for now
-
 {% include section.html %}
 
-## Collaborating Researchers
+## Collaborators
 
-SEARCH Lab collaborates on space exploration architecture and mission design with researchers in structures and deployable systems; satellite data processing; guidance, navigation, and control; and solar sail technology. These collaborations give students experience in designing, implementing, and verifying space missions.
-
-{% include list.html data="members" component="portrait" filter="role == 'collaborator' && lang == 'en'" %}
-
-{% endcomment %}
+{% assign collaborators = site.members | where: "role", "collaborator" | where: "lang", page.lang | where_exp: "member", "member.published != false" %}
+{% for collaborator in collaborators %}
+  {% include collaborator.html member=collaborator mode="summary" %}
+{% endfor %}
 
 {% include section.html %}
 

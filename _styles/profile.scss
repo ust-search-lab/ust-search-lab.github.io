@@ -71,6 +71,12 @@
     text-align: left;
   }
 
+  .profile-role {
+    margin: 0 0 12px;
+    color: var(--dark-gray);
+    font-weight: var(--semi-bold);
+  }
+
   .profile-summary {
     margin: 18px 0 0;
     line-height: 1.8;
@@ -92,7 +98,9 @@
   }
 }
 
-main[data-page="jae-ik-park"] {
+main[data-page="jae-ik-park"],
+main[data-page="seung-ryeol-oh"],
+main[data-page="jungju-bae"] {
   p,
   li {
     text-align: left;
@@ -106,7 +114,7 @@ main[data-page="jae-ik-park"] {
   }
 }
 
-/* education / career timeline on the PI profile */
+/* education / career timelines on researcher profiles */
 .profile-timeline {
   margin: 0;
   padding: 0;
