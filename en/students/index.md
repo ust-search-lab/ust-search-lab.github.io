@@ -96,5 +96,5 @@ Textbooks include a print ISBN-13, a book information link, and an Amazon search
 
 ### Space agency technical documents and research papers
 
-{:start="22"}
-22. Mission design documents, technical reports, system requirements documents, and related research papers from space agencies such as NASA, ESA, JAXA, and KARI.
+{:start="21"}
+21. Mission design documents, technical reports, system requirements documents, and related research papers from space agencies such as NASA, ESA, JAXA, and KARI.

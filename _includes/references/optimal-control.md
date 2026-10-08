@@ -1,4 +1,4 @@
-{:start="8"}
-8. Kirk, D. E., *Optimal Control Theory: An Introduction*, Dover Publications, 2004. {% include book-links.html isbn="9780486434841" url="https://store.doverpublications.com/products/9780486434841" %}
-9. Bryson, A. E., Jr., and Ho, Y.-C., *Applied Optimal Control: Optimization, Estimation, and Control*, revised printing, Hemisphere Publishing Corporation, 1975. {% include book-links.html isbn="9780891162285" url="https://www.routledge.com/Applied-Optimal-Control-Optimization-Estimation-and-Control/Bryson/p/book/9781315137667" %}
-10. Betts, J. T., *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming*, 2nd ed., Society for Industrial and Applied Mathematics, 2010. {% include book-links.html isbn="9780898716887" url="https://epubs.siam.org/doi/book/10.1137/1.9780898718577" %}
+{:start="7"}
+7. Kirk, D. E., *Optimal Control Theory: An Introduction*, Dover Publications, 2004. {% include book-links.html isbn="9780486434841" url="https://store.doverpublications.com/products/9780486434841" %}
+8. Bryson, A. E., Jr., and Ho, Y.-C., *Applied Optimal Control: Optimization, Estimation, and Control*, revised printing, Hemisphere Publishing Corporation, 1975. {% include book-links.html isbn="9780891162285" url="https://www.routledge.com/Applied-Optimal-Control-Optimization-Estimation-and-Control/Bryson/p/book/9781315137667" %}
+9. Betts, J. T., *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming*, 2nd ed., Society for Industrial and Applied Mathematics, 2010. {% include book-links.html isbn="9780898716887" url="https://epubs.siam.org/doi/book/10.1137/1.9780898718577" %}
