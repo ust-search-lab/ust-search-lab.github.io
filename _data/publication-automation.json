@@ -1,16 +1,128 @@
 {
-  "identity": {
-    "orcid": "0000-0001-6227-0442",
-    "names": ["Jae-ik Park", "Jae Ik Park", "Park Jae-ik", "박재익"],
-    "affiliations": ["Korea Aerospace Research Institute", "한국항공우주연구원"]
-  },
-  "lookback_years": 2,
-  "max_requests": 160,
-  "conference_sites": [
-    {"id": "ksas", "name": "한국항공우주학회", "home": "https://ksas.or.kr/", "listing": "https://ksas.or.kr/Conference/ConferenceList.asp?AC=99"},
-    {"id": "sase", "name": "항공우주시스템공학회", "home": "https://sase.or.kr/main/", "listing": "https://sase.or.kr/Conference/ConferenceList.asp?AC=99"}
+  "researchers": [
+    {
+      "orcid": "0000-0001-6227-0442",
+      "names": [
+        "Jae-ik Park",
+        "Jae Ik Park",
+        "Park Jae-ik",
+        "박재익"
+      ],
+      "affiliations": [
+        "Korea Aerospace Research Institute",
+        "한국항공우주연구원"
+      ],
+      "id": "jae-ik-park",
+      "query_name": "Jae-ik Park",
+      "query_names": [
+        "Jae-ik Park"
+      ],
+      "patent_names": [
+        "박재익",
+        "Jae Ik Park"
+      ],
+      "main_publications": true,
+      "allow_affiliation_match": true
+    },
+    {
+      "id": "seung-ryeol-oh",
+      "orcid": "0009-0000-5985-6143",
+      "names": [
+        "Snyoll Oghim",
+        "Seungryeol Oh",
+        "Seung-ryeol Oh",
+        "Seung Ryeol Oh",
+        "오승렬"
+      ],
+      "query_name": "Snyoll Oghim",
+      "query_names": [
+        "Snyoll Oghim",
+        "Seungryeol Oh"
+      ],
+      "patent_names": [
+        "오승렬",
+        "Snyoll Oghim",
+        "Seungryeol Oh"
+      ],
+      "affiliations": [
+        "Korea Aerospace Research Institute",
+        "한국항공우주연구원",
+        "KAIST",
+        "Korea Advanced Institute of Science and Technology",
+        "한국과학기술원",
+        "Chosun University",
+        "조선대학교"
+      ],
+      "main_publications": false,
+      "allow_affiliation_match": false
+    },
+    {
+      "id": "jungju-bae",
+      "orcid": "0000-0003-4397-5740",
+      "names": [
+        "Jungju Bae",
+        "Jung-Ju Bae",
+        "Jung Ju Bae",
+        "배정주"
+      ],
+      "query_name": "Jungju Bae",
+      "query_names": [
+        "Jungju Bae"
+      ],
+      "patent_names": [
+        "배정주",
+        "Jungju Bae"
+      ],
+      "affiliations": [
+        "Korea Aerospace Research Institute",
+        "한국항공우주연구원",
+        "Inha University",
+        "인하대학교",
+        "Korea Institute of Machinery and Materials",
+        "한국기계연구원"
+      ],
+      "main_publications": false,
+      "allow_affiliation_match": false
+    }
   ],
-  "software_keywords": ["궤도", "궤적", "달", "화성", "태양돛", "우주탐사", "열보호", "광통신", "KPLO", "GNSS", "GPS"],
+  "lookback_years": 2,
+  "max_requests": 480,
+  "conference_sites": [
+    {
+      "id": "ksas",
+      "name": "한국항공우주학회",
+      "home": "https://ksas.or.kr/",
+      "listing": "https://ksas.or.kr/Conference/ConferenceList.asp?AC=99"
+    },
+    {
+      "id": "sase",
+      "name": "항공우주시스템공학회",
+      "home": "https://sase.or.kr/main/",
+      "listing": "https://sase.or.kr/Conference/ConferenceList.asp?AC=99"
+    }
+  ],
+  "software_keywords": [
+    "궤도",
+    "궤적",
+    "달",
+    "화성",
+    "태양돛",
+    "우주탐사",
+    "열보호",
+    "광통신",
+    "KPLO",
+    "GNSS",
+    "GPS"
+  ],
   "excluded_source_ids": [],
-  "approved_source_ids": []
+  "approved_source_ids": [],
+  "backfill_start_year": 1990,
+  "source_budget_weights": {
+    "orcid": 3,
+    "crossref": 1,
+    "ksas": 2,
+    "sase": 2,
+    "patents": 2,
+    "cros": 4
+  }
 }

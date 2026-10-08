@@ -7,3 +7,18 @@ layout: default
 {% include section.html %}
 
 {{ content }}
+
+{% include section.html %}
+
+<h2 id="research-outputs">{% if page.lang == "en" %}Research Outputs{% else %}연구성과{% endif %}</h2>
+<p class="publication-note">
+  {% if page.lang == "en" %}
+    Verified personal research outputs, including work at previous affiliations. Outputs involving Dr. Park are also listed in <a href="{{ '/en/publications/' | relative_url }}">Publications</a>.
+  {% else %}
+    이전 소속에서 수행한 연구를 포함한 개인 연구성과입니다. 박재익 박사가 함께 참여한 실적은 <a href="{{ '/publications/' | relative_url }}">Publications</a>에도 표시됩니다.
+  {% endif %}
+</p>
+
+{% include search-box.html %}
+{% include search-info.html %}
+{% include publications.html researcher=page.ref %}

@@ -6,6 +6,11 @@ on:
     # Approximately 09:37 Korea Standard Time, once a day.
     - cron: "37 0 * * *"
   workflow_dispatch:
+    inputs:
+      backfill:
+        description: Search historical public works as well as the recent window
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -17,7 +22,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
     steps:
@@ -35,7 +40,14 @@ jobs:
       - name: Verify identity matching and source parsing
         run: python -m unittest discover -s _publications -p 'test_*.py'
       - name: Collect public records
-        run: python _publications/update.py
+        env:
+          BACKFILL: ${{ inputs.backfill }}
+        run: |
+          if [ "$BACKFILL" = 'true' ]; then
+            python _publications/update.py --backfill
+          else
+            python _publications/update.py
+          fi
       - name: Save source coverage and review candidates
         if: always()
         uses: actions/upload-artifact@v7
@@ -55,9 +67,9 @@ jobs:
               raise SystemExit(0)
           report = json.loads(path.read_text())
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
-              out.write('Public metadata refresh\n\n| Source | Result | Records |\n|---|---|---|\n')
+              out.write('Public metadata refresh\n\n| Source | Researcher | Result | Records |\n|---|---|---|---|\n')
               for row in report['coverage']:
-                  out.write(f"| {row['source']} | {row['status']} | {row.get('records', '—')} |\n")
+                  out.write(f"| {row['source']} | {row.get('researcher_id', 'shared')} | {row['status']} | {row.get('records', '—')} |\n")
               out.write(f"\nAutomatic records/patches: {report['automatic_records']}. Review candidates: {len(report['candidates'])}.\n")
               out.write('\nDownload the publication-review artifact for candidates, source errors, and coverage limits.\n')
           PY

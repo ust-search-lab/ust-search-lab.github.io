@@ -98,7 +98,8 @@
         const hasResults = [...group.querySelectorAll(".citation")].some(
           (citation) => citation.style.display !== "none"
         );
-        group.hidden = !hasResults;
+        const searching = parts.terms.length || parts.phrases.length || parts.tags.length;
+        group.hidden = Boolean(searching && !hasResults);
       });
 
     return [x, n, tags];
@@ -153,6 +154,9 @@
           .replace("$N", n.toLocaleString());
         const clear = el.dataset.clear || "Clear search";
         el.innerHTML = `${info}<br><a href='./'>${clear}</a>`;
+        const clearUrl = new URL(window.location.href);
+        clearUrl.search = "";
+        el.querySelector("a").href = clearUrl.toString();
       });
     }
     // if nothing searched

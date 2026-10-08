@@ -4,7 +4,7 @@
 {% if include.lang == "en" %}
   {% assign publication_entry_details = publication_entry.details_en | default: publication_entry.details %}
 {% endif %}
-<article class="citation publication-entry" data-search="{{ publication_entry.search | join: ' ' | escape }} {{ publication_entry.citation | escape }} {{ publication_entry.id | escape }} {{ publication_entry.category | escape }} {{ publication_entry.status | escape }} {% for publication_author in publication_entry_authors %}{{ publication_author.aliases | join: ' ' | escape }} {{ publication_author.orcid | escape }} {% endfor %}">
+<article class="citation publication-entry" data-search="{{ publication_entry.search | join: ' ' | escape }} {{ publication_entry.citation | escape }} {{ publication_entry.id | escape }} {{ publication_entry.category | escape }} {{ publication_entry.status | escape }} {% for publication_author in publication_entry_authors %}{{ publication_author.aliases | join: ' ' | escape }} {{ publication_author.orcid | escape }} {% endfor %}{% for researcher in site.data.publication-automation.researchers %}{% if publication_entry.researcher_ids contains researcher.id %} {{ researcher.names | join: ' ' | escape }}{% endif %}{% endfor %}">
   <div class="publication-entry-title">
     {% if publication_entry.link %}
       <a href="{{ publication_entry.link | escape }}">{{ publication_entry.title | escape }}</a>
@@ -16,11 +16,14 @@
     <div class="publication-entry-authors">
       {% if publication_entry.contributor_role == "research_contributor" %}<span>{% if include.lang == "en" %}Contributor: {% else %}기여자: {% endif %}</span>{% endif %}
       {%- for publication_author in publication_entry_authors -%}
-        <span class="publication-author">{{ publication_author.name | escape }}{% if publication_author.orcid %}<a class="publication-orcid" href="https://orcid.org/{{ publication_author.orcid | escape }}" title="{{ publication_author.name | escape }} · ORCID {{ publication_author.orcid | escape }}" aria-label="{{ publication_author.name | escape }} · ORCID {{ publication_author.orcid | escape }}">iD</a>{% endif %}</span>{% unless forloop.last %}, {% endunless %}
+        <span class="publication-author">{{ publication_author.name | escape }}{% if publication_author.orcid and include.researcher == nil %}<a class="publication-orcid" href="https://orcid.org/{{ publication_author.orcid | escape }}" title="{{ publication_author.name | escape }} · ORCID {{ publication_author.orcid | escape }}" aria-label="{{ publication_author.name | escape }} · ORCID {{ publication_author.orcid | escape }}">iD</a>{% endif %}</span>{% unless forloop.last %}, {% endunless %}
       {%- endfor -%}
     </div>
   {% endif %}
   <div class="publication-entry-details">
+    {% if include.researcher and publication_entry.researcher_affiliations[include.researcher] %}
+      <span>{% if include.lang == "en" %}Affiliation: {% else %}연구 당시 소속: {% endif %}{{ publication_entry.researcher_affiliations[include.researcher] | escape }}</span>
+    {% endif %}
     {% if publication_entry.subtype == "magazine" %}
       <span class="publication-scope">{% if include.lang == "en" %}Magazine feature{% else %}전문지 기고{% endif %}</span>
     {% elsif publication_entry.subtype == "trademark" %}

@@ -22,16 +22,21 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 CURATED = ("legacy-publications", "discovered-publications", "ip-publications", "accepted-publications",
-           "under-review-publications")
+           "under-review-publications", "collaborator-publications-oh", "collaborator-publications-bae")
 CROSSREF = "https://api.crossref.org/works"
+ORCID = "https://pub.orcid.org/v3.0"
 CROS = "https://www.cros.or.kr/psnsys/cmmn/wisenut/search.do"
 PUBLIC_FIELDS = {
     "id", "title", "authors", "category", "subtype", "doi", "link", "date", "year",
     "publisher", "details", "details_en", "status", "scope", "country",
     "application_number", "application_date", "registration_number", "registration_date",
     "copyright_author", "contributor_role", "applicant", "inventors", "year_basis", "publication_number",
-    "source", "verification_source", "_source", "_target", "_identity", "_source_id",
+    "source", "verification_source", "verification_sources", "researcher_ids", "_source", "_target", "_identity", "_source_id",
 }
+
+LEGACY_IDENTITY = {"id": "jae-ik-park", "names": ["Jae-ik Park", "Jae Ik Park", "박재익"],
+                   "orcid": "0000-0001-6227-0442",
+                   "affiliations": ["Korea Aerospace Research Institute", "한국항공우주연구원"]}
 
 
 def clean(value):
@@ -53,6 +58,30 @@ def load_yaml(path):
 
 def known_key(record):
     return record.get("audit_key") or record.get("id")
+
+
+def researcher_id(identity):
+    return identity.get("id", "jae-ik-park")
+
+
+def identity_on_record(record, identity):
+    """Curated participation is authoritative; a title alone proves no coauthorship."""
+    if record.get("researcher_ids"):
+        return researcher_id(identity) in record["researcher_ids"]
+    aliases = {norm(n) for n in identity["names"]}
+    return any(norm(n) in aliases for n in record.get("inventors", record.get("authors", [])))
+
+
+def merge_record(old, new):
+    ranks = {"registered": 2, "published": 2, "application": 1, "accepted": 1, "under_review": 0}
+    older_is_further = (old.get("status") and new.get("status") and
+                        ranks.get(old["status"], 0) > ranks.get(new["status"], 0))
+    result = {**new, **old} if older_is_further else {**old, **new}
+    for field in ("researcher_ids", "verification_sources"):
+        values = sorted(set(old.get(field, []) + new.get(field, [])))
+        if values:
+            result[field] = values
+    return result
 
 
 def doi(record):
@@ -81,11 +110,30 @@ def number(value):
     return re.sub(r"[^0-9]", "", value or "")
 
 
+def proceedings_roots(record):
+    urls = [record.get("link", ""), record.get("verification_source", ""), *record.get("verification_sources", [])]
+    roots = set()
+    for value in urls:
+        match = re.search(r"https?://(?:www\.)?([^/]+)(/proceedings/\d{4}[a-z]+/)", str(value), re.I)
+        if match:
+            roots.add((match[1] + match[2]).lower())
+    return roots
+
+
 def same_record(left, right):
     if left.get("category") != right.get("category"):
         return False
     if doi(left) and doi(right):
         return doi(left) == doi(right)
+    if left.get("category") == "conference":
+        lroots, rroots = proceedings_roots(left), proceedings_roots(right)
+        if lroots and rroots and lroots.isdisjoint(rroots):
+            return False
+        ldate, rdate = str(left.get("date", "")), str(right.get("date", ""))
+        if re.fullmatch(r"\d{4}(?:-\d{2}){0,2}", ldate) and re.fullmatch(r"\d{4}(?:-\d{2}){0,2}", rdate):
+            precision = min(len(ldate), len(rdate))
+            if ldate[:precision] != rdate[:precision]:
+                return False
     if left.get("category") in ("patent", "intellectual-property"):
         if not country(left) or country(left) != country(right):
             return False
@@ -101,20 +149,22 @@ def same_record(left, right):
 
 
 class Client:
-    def __init__(self, limit=160):
-        self.limit, self.count, self.cache = limit, 0, {}
+    def __init__(self, limit=160, cache=None):
+        self.limit, self.count, self.cache = limit, 0, {} if cache is None else cache
         self.warnings = []
 
     def get(self, url, body=None, post=False):
         key = (url, json.dumps(body, sort_keys=True), post)
         if key in self.cache:
             return self.cache[key]
-        self.count += 1
-        if self.count > self.limit:
+        if self.count >= self.limit:
             raise RuntimeError("Request budget reached")
+        self.count += 1
         args = ["curl", "--fail", "--silent", "--show-error", "--location", "--max-time", "30",
                 "--retry", "1", "--retry-all-errors", "--retry-delay", "2", "--retry-max-time", "35",
                 "--user-agent", "SEARCH-Lab-Publications/1.0 (+https://ust-search-lab.github.io)", url]
+        if url.startswith(ORCID + "/"):
+            args += ["-H", "Accept: application/json"]
         if body is not None:
             args += ["-H", "Content-Type: application/json", "--data", json.dumps(body)]
         elif post:
@@ -149,7 +199,7 @@ def date_parts(work, today):
     return None
 
 
-def normalize_crossref(work, identity, today, known):
+def normalize_crossref(work, identity, today, known, orcid_linked=False):
     kind = work.get("type")
     if kind not in ("journal-article", "proceedings-article"):
         return None
@@ -170,6 +220,7 @@ def normalize_crossref(work, identity, today, known):
     affiliations = {norm(n) for n in identity["affiliations"]}
     affiliated = any(any(term in norm(aff.get("name")) for term in affiliations)
                      for a in people for aff in a.get("affiliation", []))
+    affiliated = affiliated and identity.get("allow_affiliation_match", True)
     venue = clean(next(iter(work.get("container-title", [])), work.get("publisher", "")))
     category = "conference" if kind == "proceedings-article" else "journal"
     detail = ", ".join(filter(None, [venue, str(work.get("volume", "")),
@@ -181,19 +232,68 @@ def normalize_crossref(work, identity, today, known):
                   details=detail, details_en=detail, status="published", link="https://doi.org/" + identifier,
                   _source="crossref", _source_id="doi:" + identifier,
                   verification_source=CROSSREF + "/" + quote(identifier, safe=""))
-    known_match = any(same_record(r, record) for r in known if not r.get("exclude"))
-    record["_identity"] = "confirmed" if exact or affiliated or known_match else "review"
+    known_match = any(same_record(r, record) and identity_on_record(r, identity)
+                      for r in known if not r.get("exclude"))
+    correction = (re.match(r"^(correction|erratum|corrigendum|retraction)\b", title, re.I) or
+                  work.get("subtype") in ("correction", "erratum", "retraction") or
+                  work.get("relation", {}).get("is-correction-of") or
+                  any(u.get("type") in ("correction", "erratum", "corrigendum", "retraction")
+                      for u in work.get("update-to", [])))
+    record["_identity"] = "confirmed" if (exact or affiliated or known_match or orcid_linked) and not correction else "review"
+    record["researcher_ids"] = [researcher_id(identity)]
     return record
+
+
+def collect_orcid(client, settings, known, today):
+    """Resolve public career DOI works against Crossref; never invent missing authors."""
+    identity = settings["identity"]
+    url = ORCID + "/" + identity["orcid"] + "/works"
+    response = client.json(url)
+    if not isinstance(response.get("group"), list):
+        raise ValueError("ORCID works response schema changed")
+    identifiers = set()
+    unsupported = 0
+    for group in response["group"]:
+        for work in group.get("work-summary", []):
+            if str(work.get("visibility", "")).lower() != "public":
+                continue
+            if work.get("type") not in ("journal-article", "conference-paper", "conference-abstract", "conference-poster"):
+                continue
+            found = False
+            for external in (work.get("external-ids") or {}).get("external-id", []):
+                if external.get("external-id-type") != "doi" or external.get("external-id-relationship") != "self":
+                    continue
+                identifier = doi({"doi": external.get("external-id-value", "")})
+                if identifier:
+                    identifiers.add(identifier)
+                    found = True
+            if not found:
+                unsupported += 1
+    if unsupported:
+        client.warnings.append(f"{unsupported} public ORCID journal/conference entries have no self DOI; manual source verification required")
+    results = []
+    # Always read career DOI entries: ORCID records can gain an older work at any time.
+    for identifier in sorted(identifiers):
+        response = client.optional_json(CROSSREF + "/" + quote(identifier, safe=""))
+        if response is None:
+            continue
+        record = normalize_crossref(response.get("message", {}), identity, today, known, orcid_linked=True)
+        if record:
+            record["_source"] = "orcid-crossref"
+            record["verification_sources"] = [url, record["verification_source"]]
+            results.append(record)
+    return results
 
 
 def collect_crossref(client, settings, known, today):
     identity = settings["identity"]
-    start = f"{today.year - settings['lookback_years']}-01-01"
+    start = f"{settings.get('backfill_start_year', 1990) if settings.get('backfill') else today.year - settings['lookback_years']}-01-01"
+    query_names = identity.get("query_names", [identity.get("query_name", identity["names"][0])])
     queries = [dict(filter="orcid:" + identity["orcid"], rows=100),
-               {"query.author": '"Jae-ik Park"', "query.affiliation": "Korea Aerospace Research Institute",
-                "filter": "from-pub-date:" + start, "rows": 100}]
-    queries += [{"query.title": r["title"], "query.author": "Jae-ik Park", "rows": 3}
-                for r in known if r.get("status") in ("accepted", "under_review")]
+               *[{"query.author": '"' + name + '"', "filter": "from-pub-date:" + start, "rows": 100}
+                 for name in query_names]]
+    queries += [{"query.title": r["title"], "query.author": query_names[0], "rows": 3}
+                for r in known if r.get("status") in ("accepted", "under_review") and identity_on_record(r, identity)]
     results, successes = {}, 0
     for query in queries:
         response = client.optional_json(CROSSREF + "?" + urlencode(query))
@@ -203,10 +303,12 @@ def collect_crossref(client, settings, known, today):
         if not isinstance(message.get("items"), list):
             raise ValueError("Crossref response schema changed")
         successes += 1
+        if message.get("total-results", 0) > len(message["items"]):
+            client.warnings.append("Crossref query exceeds first-page coverage; use ORCID DOI discovery and curated backfill")
         for work in message["items"]:
             record = normalize_crossref(work, identity, today, known)
             if record:
-                results[record["id"]] = record
+                results[record["id"]] = merge_record(results.get(record["id"], {}), record)
     if not successes:
         raise RuntimeError("All Crossref queries failed")
     return list(results.values())
@@ -219,17 +321,20 @@ def soup_bytes(raw):
     return BeautifulSoup(raw.decode(encoding, errors="replace"), "html.parser")
 
 
-def normalize_program(card, root, venue, today, session):
+def normalize_program(card, root, venue, today, session, identity=None):
+    identity = identity or LEGACY_IDENTITY
     heading, people = card.select_one(".papertitle"), card.select_one(".authors")
     if not heading or not people:
         return None
     author_text = people.get_text(" ", strip=True)
     groups = re.findall(r"([^()]+)\(([^()]*)\)", author_text)
-    confirmed = any("박재익" in [x.strip() for x in names.split(",")] and
-                    "한국항공우주연구원" in affiliation for names, affiliation in groups)
-    if "박재익" not in author_text:
-        return None
     authors = [n.strip() for n in re.sub(r"\([^()]*\)", "", author_text).split(",") if n.strip()]
+    aliases = {norm(n) for n in identity["names"]}
+    if not any(norm(n) in aliases for n in authors):
+        return None
+    confirmed = any(any(norm(n.strip()) in aliases for n in names.split(",")) and
+                    any(norm(a) in norm(affiliation) for a in identity["affiliations"])
+                    for names, affiliation in groups)
     title = re.sub(r"^\[\d+\]\s*", "", heading.get_text(" ", strip=True)).strip()
     year = int(re.search(r"/proceedings/(\d{4})", root)[1])
     session_date = session.select_one(".s_date")
@@ -246,10 +351,12 @@ def normalize_program(card, root, venue, today, session):
                 date=published.isoformat(), year=year, publisher=venue,
                 details=f"{venue} 학술대회, {published.isoformat()}, {code} (공개 프로그램)",
                 details_en=f"{venue}, {published.isoformat()}, {code} (public conference program)",
+                researcher_ids=[researcher_id(identity)],
                 _source_id=uid, _identity="confirmed" if confirmed else "review")
 
 
 def collect_society(client, settings, known, today, site):
+    identity = settings["identity"]
     roots = set()
     host = urlsplit(site["home"]).netloc
     pattern = r"(?:https?://[^\s\"'<>]+)?/proceedings/(\d{4})[a-z]+/"
@@ -265,25 +372,30 @@ def collect_society(client, settings, known, today, site):
     for text in texts:
         for m in re.finditer(pattern, html.unescape(text)):
             root = urljoin(site["home"], m[0])
-            if urlsplit(root).netloc == host and today.year - settings["lookback_years"] <= int(m[1]) <= today.year:
+            start_year = settings.get("backfill_start_year", 1990) if settings.get("backfill") else today.year - settings["lookback_years"]
+            if urlsplit(root).netloc == host and start_year <= int(m[1]) <= today.year:
                 roots.add(root)
     if not roots:
         raise ValueError("No public proceedings links found")
     results = []
-    for root in sorted(roots):
-        page = soup_bytes(client.get(root + "SessionSearch.asp?" + urlencode({"SrchText": "박재익"}, encoding="cp949")))
-        if not page.select(".paperinfo") and "검색된 정보가 없습니다" not in page.get_text():
-            raise ValueError("Conference search response schema changed")
-        for card in page.select(".paperinfo"):
-            match = re.search(r"popSessionView\.asp\?code=(\d+)", str(card))
-            if not match:
-                continue
-            link = root + "SessionPaperList.asp?code=" + match[1]
-            session = soup_bytes(client.get(link))
-            record = normalize_program(card, root, site["name"], today, session)
-            if record:
-                record.update(link=link, verification_source=link, _source=site["id"])
-                results.append(record)
+    for root in sorted(roots, reverse=True):
+        try:
+            query = identity.get("conference_name", next(n for n in identity["names"] if re.search("[가-힣]", n)))
+            page = soup_bytes(client.get(root + "SessionSearch.asp?" + urlencode({"SrchText": query}, encoding="cp949")))
+            if not page.select(".paperinfo") and "검색된 정보가 없습니다" not in page.get_text():
+                raise ValueError("Conference search response schema changed")
+            for card in page.select(".paperinfo"):
+                match = re.search(r"popSessionView\.asp\?code=(\d+)", str(card))
+                if not match:
+                    continue
+                link = root + "SessionPaperList.asp?code=" + match[1]
+                session = soup_bytes(client.get(link))
+                record = normalize_program(card, root, site["name"], today, session, identity)
+                if record:
+                    record.update(link=link, verification_source=link, _source=site["id"])
+                    results.append(record)
+        except (RuntimeError, ValueError, subprocess.TimeoutExpired) as exc:
+            client.warnings.append(str(exc)[:180])
     return results
 
 
@@ -308,7 +420,7 @@ def normalize_patent(raw, identity, today):
     aliases = {norm(n) for n in identity["names"]}
     if not any(norm(n) in aliases for n in inventors):
         return None
-    confirmed = any(norm(n) in norm(applicant) for n in identity["affiliations"])
+    confirmed = identity.get("allow_affiliation_match", True) and any(norm(n) in norm(applicant) for n in identity["affiliations"])
     granted = patent_field(page, "kindCode").startswith("B")
     link = "https://patents.google.com/patent/" + publication + "/en"
     record = dict(id="patent:" + publication, title=patent_field(page, "title"), authors=inventors,
@@ -318,7 +430,7 @@ def normalize_patent(raw, identity, today):
                   status="registered" if granted else "application", link=link,
                   scope="domestic" if nation == "KR" else "international", _source="patents",
                   _source_id="patent:" + publication, _identity="confirmed" if confirmed else "review",
-                  verification_source=link)
+                  verification_source=link, researcher_ids=[researcher_id(identity)])
     if nation == "KR" and len(number(application)) == 13:
         n = number(application)
         record["application_number"] = f"{n[:2]}-{n[2:6]}-{n[6:]}"
@@ -344,39 +456,54 @@ def normalize_patent(raw, identity, today):
 
 
 def collect_patents(client, settings, known, today):
+    identity = settings["identity"]
     identifiers = set()
-    for inventor, applicant in [("박재익", "한국항공우주연구원"), ("Jae Ik Park", "Korea Aerospace Research Institute")]:
-        query = urlencode({"inventor": inventor, "assignee": applicant, "num": 100})
-        result = client.json("https://patents.google.com/xhr/query?" + urlencode({"url": query, "exp": ""})).get("results", {})
+    successes = 0
+    for inventor in identity.get("patent_names", identity["names"]):
+        query = urlencode({"inventor": inventor, "num": 100})
+        response = client.optional_json("https://patents.google.com/xhr/query?" + urlencode({"url": query, "exp": ""}))
+        if response is None:
+            continue
+        result = response.get("results", {})
         if "total_num_results" not in result:
-            raise ValueError("Patent search response schema changed")
+            client.warnings.append("Patent search response schema changed")
+            continue
+        successes += 1
         if int(result.get("total_num_pages", 1)) > 1:
-            raise ValueError("Patent search exceeds configured single-page coverage")
+            client.warnings.append("Patent search exceeds configured first-page coverage")
         for group in result.get("cluster", []):
             for item in group.get("result", []):
                 if item.get("patent", {}).get("publication_number"):
                     identifiers.add(item["patent"]["publication_number"])
     for record in known:
-        if record.get("category") == "patent" and not record.get("exclude"):
+        if record.get("category") == "patent" and not record.get("exclude") and identity_on_record(record, identity):
             m = re.search(r"patents\.google\.com/patent/([^/]+)", record.get("link", ""))
             if m:
                 identifiers.add(m[1])
     results = []
     for identifier in sorted(identifiers):
-        raw = client.get("https://patents.google.com/patent/" + quote(identifier, safe="") + "/en")
-        record = normalize_patent(raw, settings["identity"], today)
-        if record:
-            results.append(record)
-            # Search can still return the A publication after a B grant appears.
-            # Only follow direct same-country publications of the same application.
-            if record["status"] == "application":
-                page = soup_bytes(raw)
-                for node in page.select('[itemprop="directAssociations"] [itemprop="publicationNumber"]'):
-                    other = node.get_text(" ", strip=True)
-                    if re.fullmatch(re.escape(record["country"]) + r"\d+B\d?", other) and other not in identifiers:
-                        grant = normalize_patent(client.get("https://patents.google.com/patent/" + other + "/en"), settings["identity"], today)
-                        if grant and same_record(record, grant):
-                            results.append(grant)
+        try:
+            raw = client.get("https://patents.google.com/patent/" + quote(identifier, safe="") + "/en")
+            record = normalize_patent(raw, identity, today)
+            successes += 1
+            if record:
+                if any(not r.get("exclude") and same_record(r, record) and identity_on_record(r, identity) for r in known):
+                    record["_identity"] = "confirmed"
+                results.append(record)
+                # Search can still return the A publication after a B grant appears.
+                # Only follow direct same-country publications of the same application.
+                if record["status"] == "application":
+                    page = soup_bytes(raw)
+                    for node in page.select('[itemprop="directAssociations"] [itemprop="publicationNumber"]'):
+                        other = node.get_text(" ", strip=True)
+                        if re.fullmatch(re.escape(record["country"]) + r"\d+B\d?", other) and other not in identifiers:
+                            grant = normalize_patent(client.get("https://patents.google.com/patent/" + other + "/en"), identity, today)
+                            if grant and same_record(record, grant):
+                                results.append(grant)
+        except (RuntimeError, ValueError, subprocess.TimeoutExpired) as exc:
+            client.warnings.append(str(exc)[:180])
+    if not successes:
+        raise RuntimeError("All patent queries failed")
     return results
 
 
@@ -404,12 +531,18 @@ def normalize_software(document, detail, today):
 def collect_software(client, settings, known, today):
     # Institution-only new registrations remain candidates: corporate ownership
     # does not establish this lab's participation or individual authorship.
+    successful_requests = 0
     def search(query, start=1):
+        nonlocal successful_requests
         url = CROS + "?" + urlencode(dict(query=query, sort="SYS_ID", sortOrder="DESC", startCount=start,
                                          listCount=100, TOTALVIEWCOUNT=100, collection="reg_copyright"))
-        result = client.json(url, post=True)
+        result = client.optional_json(url, post=True)
+        if result is None:
+            return {"document": [], "TotalCount": 0}
         if not isinstance(result.get("document"), list):
-            raise ValueError("CROS search response schema changed")
+            client.warnings.append("CROS search response schema changed")
+            return {"document": [], "TotalCount": 0}
+        successful_requests += 1
         return result
     docs = {}
     for record in known:
@@ -433,9 +566,13 @@ def collect_software(client, settings, known, today):
         if doc.get("RGDC_KD_CD") != "S" or doc.get("isopenyn") != "Y":
             continue
         body = {"dm_regDtlSchMap": {"sysId": doc["SYS_ID"], "regId": doc["REG_ID"], "rgdcKdCd": "S"}}
-        data = client.json("https://www.cros.or.kr/req/reg/selectRegDtlList3.do", body=body)
+        data = client.optional_json("https://www.cros.or.kr/req/reg/selectRegDtlList3.do", body=body)
+        if data is None:
+            continue
         if not isinstance(data.get("dl_regDtlList"), list):
-            raise ValueError("CROS detail response schema changed")
+            client.warnings.append("CROS detail response schema changed")
+            continue
+        successful_requests += 1
         for item in data["dl_regDtlList"]:
             if item.get("regId") != doc["REG_ID"]:
                 continue
@@ -443,6 +580,8 @@ def collect_software(client, settings, known, today):
             if record:
                 results.append(record)
                 break
+    if not successful_requests:
+        raise RuntimeError("All CROS requests failed")
     return results
 
 
@@ -451,6 +590,9 @@ def update_patch(old, new):
     fields = ("doi", "date", "year", "publisher", "application_number", "application_date",
               "registration_number", "registration_date", "copyright_author", "year_basis", "country")
     patch = {k: new[k] for k in fields if new.get(k) and not old.get(k)}
+    people = sorted(set(old.get("researcher_ids", []) + new.get("researcher_ids", [])))
+    if people and people != sorted(old.get("researcher_ids", [])):
+        patch["researcher_ids"] = people
     published = old.get("status") in ("accepted", "under_review") and new.get("status") == "published"
     granted = old.get("status") in ("application", "unknown", None) and new.get("status") == "registered"
     if published or granted:
@@ -469,7 +611,7 @@ def update_patch(old, new):
 
 
 def reconcile(incoming, known, previous, settings):
-    updates = {r["_source_id"]: r for r in previous}
+    updates = {r["_source_id"]: dict(r) for r in previous}
     candidates = {}
     approved, excluded = set(settings["approved_source_ids"]), set(settings["excluded_source_ids"])
     for record in incoming:
@@ -479,23 +621,34 @@ def reconcile(incoming, known, previous, settings):
             updates.pop(uid, None)
             continue
         matches = [r for r in known if not r.get("exclude") and same_record(r, record)]
-        if len(matches) > 1:
+        if len(matches) > 1 and not (doi(record) and all(doi(r) == doi(record) for r in matches)):
             record["reason"] = "Multiple curated matches"
             candidates[uid] = record
             continue
         if matches:
             match = matches[0]
+            for other in matches[1:]:
+                match = merge_record(other, match)
             if record["category"] == "software" and norm(record.get("copyright_author")) != norm(match.get("copyright_author") or "한국항공우주연구원"):
                 record["reason"] = "Software owner differs"
                 candidates[uid] = record
                 continue
+            if record.get("_identity") != "confirmed" and uid not in approved:
+                # Matching a work does not confirm that another same-name researcher
+                # participated in it. Software can inherit previously curated people.
+                unknown_people = set(record.get("researcher_ids", [])) - set(match.get("researcher_ids", []))
+                if unknown_people:
+                    candidates[uid] = {**record, "reason": "Confirm additional participant identity"}
+                record["researcher_ids"] = match.get("researcher_ids", [])
             patch = update_patch(match, record)
             if not patch:
-                updates.pop(uid, None)
                 continue
             record = {**patch, "_target": known_key(match), "_source_id": uid,
                       "_source": record["_source"], "verification_source": record["verification_source"],
                       "_identity": "confirmed", "category": record["category"], "title": record["title"]}
+            people = sorted(set(match.get("researcher_ids", []) + record.get("researcher_ids", [])))
+            if people:
+                record["researcher_ids"] = people
         # A same-title foreign family member must not replace or expand a curated patent.
         elif record["category"] == "patent" and any(titles(r) & titles(record) for r in known):
             record["_identity"] = "review"
@@ -505,7 +658,10 @@ def reconcile(incoming, known, previous, settings):
             # ruled out by an English translation of its title alone.
             record["_identity"] = "review"
         if record.get("_identity") == "confirmed" or uid in approved:
-            updates[uid] = {**updates.get(uid, {}), **record}
+            if not record.get("researcher_ids") and settings.get("researchers"):
+                candidates[uid] = {**record, "reason": "Verified individual participant ids required"}
+                continue
+            updates[uid] = merge_record(updates.get(uid, {}), record)
         else:
             record["reason"] = "Confirm individual participation / author identity"
             candidates[uid] = record
@@ -517,14 +673,15 @@ def reconcile(incoming, known, previous, settings):
     combined = []
     ranks = {"registered": 2, "published": 2, "application": 1}
     for record in records:
-        index = next((i for i, other in enumerate(combined) if not other.get("_target") and
-                      not record.get("_target") and same_record(other, record)), None)
+        index = next((i for i, other in enumerate(combined)
+                      if (record.get("_target") and record.get("_target") == other.get("_target")) or
+                      (not other.get("_target") and not record.get("_target") and same_record(other, record))), None)
         if index is None:
             combined.append(record)
         else:
             old = combined[index]
             better = ranks.get(record.get("status"), 0) >= ranks.get(old.get("status"), 0)
-            combined[index] = {**old, **record} if better else {**record, **old}
+            combined[index] = merge_record(old, record) if better else merge_record(record, old)
     return sorted(combined, key=lambda r: r["_source_id"]), sorted(candidates.values(), key=lambda r: r["_source_id"])
 
 
@@ -535,45 +692,122 @@ def atomic_write(path, text):
     temp.replace(path)
 
 
+def prepare_known(settings):
+    identities = settings["researchers"]
+    known = [dict(r) for name in CURATED for r in load_yaml(ROOT / f"_data/{name}.yaml")]
+    for record in known:
+        if not record.get("researcher_ids"):
+            record["researcher_ids"] = sorted(researcher_id(i) for i in identities if identity_on_record(record, i))
+    return known
+
+
+def migrate_previous(previous, known):
+    """One-time attribution of the pre-multi-person, PI-only verified snapshot."""
+    targets = {known_key(r): r for r in known}
+    migrated = []
+    for old in previous:
+        record = dict(old)
+        if not record.get("researcher_ids") and record.get("_identity") == "confirmed":
+            target = targets.get(record.get("_target"), {})
+            record["researcher_ids"] = target.get("researcher_ids") or ["jae-ik-park"]
+        migrated.append(record)
+    return migrated
+
+
+def request_budgets(weights, maximum):
+    if maximum < len(weights):
+        raise ValueError("Request budget must reserve at least one request per collector")
+    available = maximum - len(weights)
+    budgets = [1 + available * weight // sum(weights) for weight in weights]
+    for i in range(maximum - sum(budgets)):
+        budgets[i % len(budgets)] += 1
+    return budgets
+
+
+def run_collectors(settings, known, today, researcher_filter=None, source_filter=None):
+    people = [r for r in settings["researchers"] if not researcher_filter or r["id"] in researcher_filter]
+    jobs = []
+    for source in ("orcid", "crossref", *[s["id"] for s in settings["conference_sites"]], "patents"):
+        if not source_filter or source in source_filter:
+            jobs.extend((source, person) for person in people)
+    if not source_filter or "cros" in source_filter:
+        jobs.append(("cros", None))
+    if not jobs:
+        raise ValueError("No collectors selected")
+    weights = settings.get("source_budget_weights", {})
+    budgets = request_budgets([weights.get(source, 1) for source, _ in jobs], settings["max_requests"])
+    incoming, coverage, cache = [], [], {}
+    unused = 0
+    for (source, person), budget in zip(jobs, budgets):
+        # Reuse earlier unused requests while protecting every later reserved share.
+        client = Client(budget + unused, cache)
+        scoped = {**settings, "identity": person} if person else settings
+        label = source + (" / " + person["id"] if person else "")
+        print(f"Collecting {label}...", flush=True)
+        row = dict(source=source, researcher_id=person["id"] if person else "shared", budget=budget,
+                   available_requests=client.limit)
+        try:
+            if source == "orcid":
+                records = collect_orcid(client, scoped, known, today)
+            elif source == "crossref":
+                records = collect_crossref(client, scoped, known, today)
+            elif source == "patents":
+                records = collect_patents(client, scoped, known, today)
+            elif source == "cros":
+                records = collect_software(client, scoped, known, today)
+            else:
+                site = next(s for s in settings["conference_sites"] if s["id"] == source)
+                records = collect_society(client, scoped, known, today, site)
+            incoming.extend(records)
+            row.update(status="partial" if client.warnings else "ok", records=len(records), warnings=client.warnings[:10])
+            print(f"  {len(records)} records", flush=True)
+        except Exception as exc:
+            row.update(status="failed", error=str(exc)[:180])
+            print(f"  Failed: {exc}", flush=True)
+        row["requests"] = client.count
+        row["warnings"] = client.warnings[:10]
+        unused += budget - client.count
+        coverage.append(row)
+    return incoming, coverage
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-dir", type=Path, default=ROOT)
+    parser.add_argument("--backfill", action="store_true", help="Search public historical records as well as recent works")
+    parser.add_argument("--researcher", action="append", help="Limit collection to a configured researcher id; may repeat")
+    parser.add_argument("--source", action="append", help="Limit collection to a source id; may repeat")
     args = parser.parse_args()
     settings = json.loads((ROOT / "_data/publication-automation.json").read_text())
-    known = [r for name in CURATED for r in load_yaml(ROOT / f"_data/{name}.yaml")]
-    previous = load_yaml(ROOT / "_data/auto-publications.yaml")
+    settings["backfill"] = args.backfill
+    if args.researcher and set(args.researcher) - {r["id"] for r in settings["researchers"]}:
+        parser.error("Unknown researcher id")
+    if args.source and set(args.source) - {"orcid", "crossref", "patents", "cros", *[s["id"] for s in settings["conference_sites"]]}:
+        parser.error("Unknown source id")
+    known = prepare_known(settings)
+    previous = migrate_previous(load_yaml(ROOT / "_data/auto-publications.yaml"), known)
+    # A previously verified discovery also anchors subsequent status updates,
+    # without turning automatic records into curated _target patches.
+    collection_known = known + [r for r in previous if not r.get("_target") and
+                               r.get("_identity") == "confirmed" and r.get("researcher_ids") and
+                               r.get("_source_id") not in settings["excluded_source_ids"]]
     today = datetime.now(ZoneInfo("Asia/Seoul")).date()
-    client = Client(settings["max_requests"])
-    collectors = [("crossref", lambda: collect_crossref(client, settings, known, today)),
-                  *[(s["id"], lambda s=s: collect_society(client, settings, known, today, s)) for s in settings["conference_sites"]],
-                  ("patents", lambda: collect_patents(client, settings, known, today)),
-                  ("cros", lambda: collect_software(client, settings, known, today))]
-    incoming, coverage = [], []
-    for name, collect in collectors:
-        print(f"Collecting {name}...", flush=True)
-        client.warnings = []
-        try:
-            records = collect()
-            incoming.extend(records)
-            coverage.append(dict(source=name, status="partial" if client.warnings else "ok",
-                                 records=len(records), warnings=client.warnings[:10]))
-            print(f"  {len(records)} records", flush=True)
-        except Exception as exc:
-            coverage.append(dict(source=name, status="failed", error=str(exc)[:180]))
-            print(f"  Failed: {exc}", flush=True)
-    if not any(c["status"] in ("ok", "partial") for c in coverage):
-        raise RuntimeError("All sources failed; previous files preserved")
+    incoming, coverage = run_collectors(settings, collection_known, today, args.researcher, args.source)
     records, candidates = reconcile(incoming, known, previous, settings)
-    report = dict(checked_at=datetime.now(timezone.utc).isoformat(), coverage=coverage,
-                  requests=client.count, automatic_records=len(records), candidates=candidates,
-                  limitations=["Public sources only; not an exhaustive inventory.",
+    report = dict(checked_at=datetime.now(timezone.utc).isoformat(), backfill=args.backfill, coverage=coverage,
+                  requests=sum(c["requests"] for c in coverage), automatic_records=len(records), candidates=candidates,
+                  limitations=["Public sources only; bounded searches are not an exhaustive inventory.",
+                               "ORCID discovery resolves public journal/conference DOIs through Crossref; unsupported records require manual verification.",
+                               "Collaborator name plus affiliation alone cannot confirm a Crossref author or patent inventor.",
                                "Conference programs verify listings, not attendance.",
                                "Google Patents bibliographic grant facts do not establish current legal validity.",
                                "Corporate software ownership does not establish individual participation.",
                                "Unpublished filings and login-only databases are not collected.",
                                "Trademark/design discovery is not connected; curated entries are retained."])
-    atomic_write(args.output_dir / "_data/auto-publications.yaml", "# Generated by _publications/update.py\n" + yaml.safe_dump(records, allow_unicode=True, sort_keys=False))
     atomic_write(args.output_dir / "_publications/review.json", json.dumps(report, ensure_ascii=False, indent=2) + "\n")
+    if not any(c["status"] in ("ok", "partial") for c in coverage):
+        raise RuntimeError("All sources failed; previous publication files preserved (see review.json)")
+    atomic_write(args.output_dir / "_data/auto-publications.yaml", "# Generated by _publications/update.py\n" + yaml.safe_dump(records, allow_unicode=True, sort_keys=False))
     print(f"Saved {len(records)} automatic records and {len(candidates)} review candidates", flush=True)
 
 

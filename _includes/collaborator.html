@@ -47,6 +47,7 @@
       {% endif %}
       <div class="profile-links">
         <a class="action-button" href="{{ collaborator.url | relative_url | uri_escape }}" aria-label="{{ collaborator.name | escape }} · {{ collaborator_detail_label }}">{{ collaborator_detail_label }}</a>
+        <a class="action-button" href="{{ collaborator.url | relative_url | uri_escape }}#research-outputs" aria-label="{{ collaborator.name | escape }} · {% if collaborator.lang == 'en' %}Research outputs{% else %}연구성과{% endif %}">{% if collaborator.lang == 'en' %}Research outputs{% else %}연구성과{% endif %}</a>
       </div>
     {% endif %}
   </div>

@@ -1,8 +1,17 @@
 {% assign publications_lang = page.lang | default: "ko" %}
-{% assign curated_publications = site.data.legacy-publications | concat: site.data.discovered-publications | concat: site.data.ip-publications | concat: site.data.accepted-publications | concat: site.data.under-review-publications %}
-{% assign publication_records = site.data.citations | publication_records: curated_publications, site.data.auto-publications %}
+{% assign curated_publications = site.data.legacy-publications | concat: site.data.discovered-publications | concat: site.data.ip-publications | concat: site.data.accepted-publications | concat: site.data.under-review-publications | concat: site.data.collaborator-publications-oh | concat: site.data.collaborator-publications-bae %}
+{% assign publication_records = site.data.citations | publication_records: curated_publications, site.data.auto-publications, site.data.publication-automation.researchers %}
+{% assign publication_researcher = include.researcher | default: "jae-ik-park" %}
+{% assign publication_records = publication_records | publications_for_researcher: publication_researcher %}
 {% assign publication_categories = "journal,conference,patent,software,intellectual-property" | split: "," %}
 {% assign publication_anchors = "journals,conferences,patents,software,trademarks-designs" | split: "," %}
+{% assign publication_category_heading = "h2" %}
+{% assign publication_subgroup_heading = "h3" %}
+{% if include.researcher %}
+  {% assign publication_categories = "journal,conference,patent,software" | split: "," %}
+  {% assign publication_category_heading = "h3" %}
+  {% assign publication_subgroup_heading = "h4" %}
+{% endif %}
 {% if publications_lang == "en" %}
   {% assign publication_labels = "Journal articles & features,Conference presentations,Patents,Software,Trademarks & designs" | split: "," %}
 {% else %}
@@ -25,21 +34,21 @@
     {% assign publication_category_total = publication_category_records.size %}
     {% assign publication_category_anchor = publication_anchors[forloop.index0] %}
     <div class="publication-category">
-      <h2 id="{{ publication_category_anchor }}">
+      <{{ publication_category_heading }} id="{{ publication_category_anchor }}">
         {{ publication_labels[forloop.index0] }}
         <span class="publication-count">{{ publication_category_records.size }}</span>
-      </h2>
+      </{{ publication_category_heading }}>
       {% if publication_category == "journal" %}
         {% assign publication_accepted = publication_category_records | where: "status", "accepted" | sort: "accepted_date" | reverse %}
         {% if publication_accepted.size > 0 %}
           <div class="publication-subgroup">
-            <h3 id="journals-accepted" class="publication-status-heading">
+            <{{ publication_subgroup_heading }} id="journals-accepted" class="publication-status-heading">
               {% if publications_lang == "en" %}Accepted · awaiting publication{% else %}게재 승인 · 출판 대기{% endif %}
               <span class="publication-count">{{ publication_accepted.size }}</span>
-            </h3>
+            </{{ publication_subgroup_heading }}>
             <div class="publication-list">
               {% for publication_record in publication_accepted %}
-                {% include publication-entry.html record=publication_record lang=publications_lang %}
+                {% include publication-entry.html record=publication_record lang=publications_lang researcher=include.researcher %}
               {% endfor %}
             </div>
           </div>
@@ -47,13 +56,13 @@
         {% assign publication_under_review = publication_category_records | where: "status", "under_review" %}
         {% if publication_under_review.size > 0 %}
           <div class="publication-subgroup">
-            <h3 id="journals-under-review" class="publication-status-heading">
+            <{{ publication_subgroup_heading }} id="journals-under-review" class="publication-status-heading">
               {% if publications_lang == "en" %}Peer review in progress{% else %}Peer Review 진행 중{% endif %}
               <span class="publication-count">{{ publication_under_review.size }}</span>
-            </h3>
+            </{{ publication_subgroup_heading }}>
             <div class="publication-list">
               {% for publication_record in publication_under_review %}
-                {% include publication-entry.html record=publication_record lang=publications_lang %}
+                {% include publication-entry.html record=publication_record lang=publications_lang researcher=include.researcher %}
               {% endfor %}
             </div>
           </div>
@@ -63,7 +72,11 @@
       {% endif %}
       {% if publication_category == "patent" %}
         <p class="publication-note">
-          {% if publications_lang == "en" %}
+          {% if include.researcher and publications_lang == "en" %}
+            Filing and grant details are shown where verified, grouped by filing year.
+          {% elsif include.researcher %}
+            확인된 출원·등록 정보를 출원연도순으로 표시합니다.
+          {% elsif publications_lang == "en" %}
             Entries are grouped by filing year when verified; otherwise, the receipt year in the supplied records is used. Grant dates are included only where verified.
           {% else %}
             출원연도를 우선하며, 확인되지 않은 경우 제공 현황의 접수연도를 기준으로 정리했습니다. 확인된 등록일만 함께 표기했습니다.
@@ -74,7 +87,11 @@
         {% assign publication_statuses = "all" | split: "," %}
         {% if publication_category == "software" %}
           <p class="publication-note">
-            {% if publications_lang == "en" %}
+            {% if include.researcher and publications_lang == "en" %}
+              Verified software outputs with registration details where available.
+            {% elsif include.researcher %}
+              참여가 확인된 소프트웨어 실적과 확인된 등록 정보를 표시합니다.
+            {% elsif publications_lang == "en" %}
               Entries are grouped by registration year where verified; otherwise, the receipt year in the inventory is used. Registration details are shown where confirmed.
             {% else %}
               등록연도가 확인된 항목은 등록연도순으로, 그 외 항목은 현황표의 접수연도순으로 정리했습니다. 확인된 등록번호와 등록일을 함께 표시합니다.
@@ -100,13 +117,13 @@
         {% if publication_status_records.size > 0 %}
           <div class="publication-subgroup">
             {% if publication_category == "journal" and publication_pending_count > 0 %}
-              <h3 id="journals-published" class="publication-status-heading">
+              <{{ publication_subgroup_heading }} id="journals-published" class="publication-status-heading">
                 {% if publications_lang == "en" %}Published articles &amp; features{% else %}게재 논문·기고{% endif %}
                 <span class="publication-count">{{ publication_status_records.size }}</span>
-              </h3>
+              </{{ publication_subgroup_heading }}>
             {% endif %}
             {% unless publication_status == "all" %}
-              <h3 id="{{ publication_category_anchor }}-{{ publication_status }}" class="publication-status-heading">
+              <{{ publication_subgroup_heading }} id="{{ publication_category_anchor }}-{{ publication_status }}" class="publication-status-heading">
                 {% if publications_lang == "en" %}
                   {% case publication_status %}
                     {% when "registered" %}Registered
@@ -123,15 +140,15 @@
                   {% endcase %}
                 {% endif %}
                 <span class="publication-count">{{ publication_status_records.size }}</span>
-              </h3>
+              </{{ publication_subgroup_heading }}>
             {% endunless %}
             {% assign publication_years = publication_status_records | group_by: "year" | sort: "name" | reverse %}
             {% for publication_year in publication_years %}
               <div class="publication-year-group">
                 {% if publication_category == "patent" or publication_category == "journal" and publication_pending_count > 0 %}
-                  {% assign publication_year_heading = "h4" %}
+                  {% if include.researcher %}{% assign publication_year_heading = "h5" %}{% else %}{% assign publication_year_heading = "h4" %}{% endif %}
                 {% else %}
-                  {% assign publication_year_heading = "h3" %}
+                  {% if include.researcher %}{% assign publication_year_heading = "h4" %}{% else %}{% assign publication_year_heading = "h3" %}{% endif %}
                 {% endif %}
                 <{{ publication_year_heading }} id="{{ publication_category_anchor }}-{{ publication_status }}-{{ publication_year.name | default: 'undated' }}" class="publication-year">
                   {% if publication_year.name != empty %}
@@ -144,7 +161,7 @@
                 </{{ publication_year_heading }}>
                 <div class="publication-list">
                   {% for publication_record in publication_year.items %}
-                    {% include publication-entry.html record=publication_record lang=publications_lang %}
+                    {% include publication-entry.html record=publication_record lang=publications_lang researcher=include.researcher %}
                   {% endfor %}
                 </div>
               </div>
@@ -153,7 +170,7 @@
         {% endif %}
       {% endfor %}
       {% if publication_category_total == 0 %}
-        <p class="publication-note">{% if publications_lang == "en" %}No entries yet.{% else %}등록된 실적이 없습니다.{% endif %}</p>
+        <p class="publication-note">{% if publications_lang == "en" %}No verified entries listed yet.{% else %}확인되어 등재된 실적이 아직 없습니다.{% endif %}</p>
       {% endif %}
     </div>
   {% endfor %}

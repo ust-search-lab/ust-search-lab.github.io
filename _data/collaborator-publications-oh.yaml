@@ -1,0 +1,567 @@
+# Verified public career outputs for Snyoll Oghim (오승렬).
+# Checked 2026-10-08; evidence and exclusions: _publications/research-oh.md.
+# Shared PI outputs already in discovered-publications.yaml are not duplicated.
+- title: 심우주탐사 궤적연구 시연기(STD 1.0)를 위한 궤도결정 연구
+  authors:
+  - 오승렬
+  - 강상욱
+  category: conference
+  year: 2026
+  date: '2026-06-24'
+  details: 한국항공우주학회 2026년도 우주학술대회, WC4-2
+  link: https://ksas.or.kr/proceedings/2026c/data/%EC%A0%84%EC%B2%B4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_V4.pdf
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Korea Aerospace Research Institute
+  verification_source: https://ksas.or.kr/proceedings/2026c/data/%EC%A0%84%EC%B2%B4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_V4.pdf
+  verification_sources:
+  - https://ksas.or.kr/proceedings/2026c/data/%EC%A0%84%EC%B2%B4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_V4.pdf
+  source: https://ksas.or.kr/proceedings/2026c/data/%EC%A0%84%EC%B2%B4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_V4.pdf
+  note: 공개 학회 자료의 저자·소속을 확인함. 프로그램 등재는 확인했으나 실제 발표 참석 여부를 별도로 단정하지 않음.
+  audit_key: collaborator-oh-001
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: Time-Optimal Guidance Laws Using a Frequency Domain Approach for Spacecraft Rendezvous
+  authors:
+  - Seungryeol Oh
+  - Hyochoong Bang
+  category: journal
+  year: 2025
+  date: 2025-07
+  publisher: International Journal of Aeronautical and Space Sciences
+  details: International Journal of Aeronautical and Space Sciences, 26(4), 1832-1844
+  doi: 10.1007/s42405-024-00846-x
+  id: doi:10.1007/s42405-024-00846-x
+  link: https://doi.org/10.1007/s42405-024-00846-x
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://api.crossref.org/works/10.1007/s42405-024-00846-x
+  verification_sources:
+  - https://api.crossref.org/works/10.1007/s42405-024-00846-x
+  - https://link.springer.com/article/10.1007/s42405-024-00846-x
+  - https://link.springer.com/article/10.1007/s42405-024-00871-w
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/works
+  source: https://api.crossref.org/works/10.1007/s42405-024-00846-x
+  note: 정식 권호(2025년 7월) 기준. 온라인 선공개는 2024-11-26. 2025년 정정(10.1007/s42405-024-00871-w)에서 Seungryeol Oh와 Snyoll Oghim이
+    같은 사람임을 명시. 정정은 원논문의 부속 기록으로 연결하고 별도 연구논문으로 중복 계수하지 않음.
+  audit_key: collaborator-oh-002
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 우리나라의 유인우주탐사 과학실험 소개
+  authors:
+  - 강상욱
+  - 이상률
+  - 오승렬
+  category: conference
+  year: 2025
+  date: '2025-06-27'
+  details: 한국항공우주학회 2025년도 우주학술대회, FA5-1
+  link: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Korea Aerospace Research Institute
+  verification_source: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  verification_sources:
+  - https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  source: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  note: 공개 학회 자료의 저자·소속을 확인함. 프로그램 등재는 확인했으나 실제 발표 참석 여부를 별도로 단정하지 않음.
+  audit_key: collaborator-oh-003
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 화성 EDL 비행체의 정밀착륙을 위한 항법 시스템에 대한 연구
+  authors:
+  - 김남수
+  - 박태윤
+  - 방효충
+  - 오승렬
+  - 강상욱
+  category: conference
+  year: 2025
+  date: '2025-06-26'
+  details: 한국항공우주학회 2025년도 우주학술대회, p. 230, TD5-3
+  link: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Korea Aerospace Research Institute
+  verification_source: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  verification_sources:
+  - https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12512151
+  source: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  note: 공개 학회 자료의 저자·소속을 확인함. 프로그램 등재는 확인했으나 실제 발표 참석 여부를 별도로 단정하지 않음.
+  audit_key: collaborator-oh-004
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 우리나라의 화성탐사를 위한 천이궤적 및 화성임무궤도 설계
+  authors:
+  - 강상욱
+  - 이상률
+  - 노웅래
+  - 오승렬
+  category: conference
+  year: 2025
+  date: '2025-06-26'
+  details: 한국항공우주학회 2025년도 우주학술대회, TC5-3
+  link: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Korea Aerospace Research Institute
+  verification_source: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  verification_sources:
+  - https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  source: https://ksas.or.kr/proceedings/2025c/data/1.%202025%20%EC%9A%B0%EC%A3%BC%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81_v4.pdf
+  note: 공개 학회 자료의 저자·소속을 확인함. 프로그램 등재는 확인했으나 실제 발표 참석 여부를 별도로 단정하지 않음.
+  audit_key: collaborator-oh-005
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 50-200kg급 소형 위성용 ‘제어 모멘트 자이로스코프’ 개발
+  authors:
+  - 이종국
+  - 송태성
+  - 김민영
+  - 송덕기
+  - 강정민
+  - 김경민
+  - 오승렬
+  - 박주형
+  - 방효충
+  - 김용복
+  - 석병석
+  category: journal
+  year: 2025
+  date: '2025-02-28'
+  publisher: 한국항공우주학회지
+  details: 한국항공우주학회지, 53(2), 163-174
+  doi: 10.5139/jksas.2025.53.2.163
+  id: doi:10.5139/jksas.2025.53.2.163
+  link: https://doi.org/10.5139/jksas.2025.53.2.163
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://api.crossref.org/works/10.5139/jksas.2025.53.2.163
+  verification_sources:
+  - https://api.crossref.org/works/10.5139/jksas.2025.53.2.163
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003169158
+  source: https://api.crossref.org/works/10.5139/jksas.2025.53.2.163
+  note: KCI의 저자순서와 KAIST 소속을 기준으로 확인. Crossref의 저자 배열 순서가 달라 KCI 서지 순서를 유지함. 박주형은 박재익과 다른 저자임.
+  details_en: Journal of the Korean Society for Aeronautical & Space Sciences, 53(2), 163-174
+  audit_key: collaborator-oh-006
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 4-클러스터 제어모멘트 자이로스코프의 토크 제어 로직 및 시험 결과
+  authors:
+  - 이종국
+  - 송태성
+  - 송덕기
+  - 김민영
+  - 김경민
+  - 오승렬
+  - 김용복
+  - 석병석
+  category: journal
+  year: 2025
+  date: 2025-02
+  publisher: 한국인터넷방송통신학회 논문지
+  details: 한국인터넷방송통신학회 논문지, 25(1), 241–251
+  details_en: The Journal of the Institute of Internet, Broadcasting and Communication, 25(1), 241–251
+  doi: 10.7236/jiibc.2025.25.1.241
+  id: doi:10.7236/jiibc.2025.25.1.241
+  link: https://doi.org/10.7236/JIIBC.2025.25.1.241
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://koasas.kaist.ac.kr/handle/10203/337637
+  verification_sources:
+  - https://koasas.kaist.ac.kr/handle/10203/337637
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003177608
+  - https://www.earticle.net/Article/A465087
+  source: https://koasas.kaist.ac.kr/handle/10203/337637
+  note: KAIST 공식 저장소와 KCI 저자별 소속(오승렬/Snyoll Oghim, KAIST)을 대조. 당시 간행물명을 사용하며 KCI의 현재 명칭은 지능정보논문지임.
+  audit_key: collaborator-oh-007
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: Deep reinforcement learning-based attitude control for spacecraft using control moment gyros
+  authors:
+  - Snyoll Oghim
+  - Junwoo Park
+  - Hyochoong Bang
+  - Henzeh Leeghim
+  category: journal
+  year: 2025
+  date: 2025-01
+  publisher: Advances in Space Research
+  details: Advances in Space Research, 75(1), 1129-1144
+  doi: 10.1016/j.asr.2024.07.078
+  id: doi:10.1016/j.asr.2024.07.078
+  link: https://doi.org/10.1016/j.asr.2024.07.078
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://api.crossref.org/works/10.1016/j.asr.2024.07.078
+  verification_sources:
+  - https://api.crossref.org/works/10.1016/j.asr.2024.07.078
+  - https://pure.kaist.ac.kr/en/publications/deep-reinforcement-learning-based-attitude-control-for-spacecraft/
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/works
+  source: https://api.crossref.org/works/10.1016/j.asr.2024.07.078
+  note: 저자별 서지정보 및 공개 ORCID/기관·학술지 자료를 대조하여 오승렬 박사의 참여를 확인함. 박재익 박사는 저자 목록에 없음.
+  audit_key: collaborator-oh-008
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: SAR Image Generation Method Using DH-GAN for Automatic Target Recognition
+  authors:
+  - Snyoll Oghim
+  - Youngjae Kim
+  - Hyochoong Bang
+  - Deoksu Lim
+  - Junyoung Ko
+  category: journal
+  year: 2024
+  date: '2024-01-20'
+  publisher: Sensors
+  details: Sensors, 24(2), 670
+  doi: 10.3390/s24020670
+  id: doi:10.3390/s24020670
+  link: https://doi.org/10.3390/s24020670
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://api.crossref.org/works/10.3390/s24020670
+  verification_sources:
+  - https://api.crossref.org/works/10.3390/s24020670
+  - https://www.mdpi.com/1424-8220/24/2/670
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/works
+  source: https://api.crossref.org/works/10.3390/s24020670
+  note: 저자별 서지정보 및 공개 ORCID/기관·학술지 자료를 대조하여 오승렬 박사의 참여를 확인함. 박재익 박사는 저자 목록에 없음.
+  audit_key: collaborator-oh-009
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: CMG를 탑재한 우주비행체의 강화학습 기반 다중 표적 지향 제어
+  authors:
+  - 오승렬
+  - 이현재
+  - 방효충
+  category: conference
+  year: 2023
+  date: '2023-04-21'
+  details: 한국항공우주학회 2023년도 춘계학술대회, pp. 254–255, FA3-2
+  link: https://ksas.or.kr/wp/2023a/SessionPaperList.asp?code=1712
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://ksas.or.kr/wp/2023a/SessionPaperList.asp?code=1712
+  verification_sources:
+  - https://ksas.or.kr/wp/2023a/SessionPaperList.asp?code=1712
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11439098
+  source: https://ksas.or.kr/wp/2023a/SessionPaperList.asp?code=1712
+  note: 공개 학회 자료의 저자·소속을 확인함. 프로그램 등재는 확인했으나 실제 발표 참석 여부를 별도로 단정하지 않음.
+  audit_key: collaborator-oh-010
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 듀얼 쿼터니언 기반 INS/영상 상대항법에 대한 연구
+  authors:
+  - 오승렬
+  - 김영재
+  - 방효충
+  category: conference
+  year: 2022
+  date: '2022-11-18'
+  details: 한국항공우주학회 2022년도 추계학술대회, pp. 875–876, FB9-7
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180871
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180871
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180871
+  - https://ksas.or.kr/wp/2022b/data/%28%EC%B2%A8%EB%B6%802%29%202022%20%EC%B6%94%EA%B3%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8.pdf
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11180871
+  note: 공개 학회 자료의 저자·소속을 확인함. 프로그램 등재는 확인했으나 실제 발표 참석 여부를 별도로 단정하지 않음.
+  audit_key: collaborator-oh-011
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 3U 큐브위성 RANDEV의 설계 및 개발
+  authors:
+  - 김태호
+  - Mikaël Marin
+  - 오승렬
+  - 김한익
+  - Jamal Ahmed
+  - Natnael Zewge
+  - 장유동
+  - 문민기
+  - 권혁준
+  - 이다현
+  - 한해윤
+  - Dinaol Zelalem
+  - Irfan Rashed
+  - 방효충
+  category: conference
+  year: 2022
+  date: 2022-04
+  details: 한국항공우주학회 2022년도 춘계학술대회, pp. 549–550
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076992
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076992
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076992
+  - https://ksas.or.kr/wp/2022a/data/%28%EC%B2%A8%EB%B6%803%29%202022%EB%85%84%EB%8F%84%20%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%28%EC%B5%9C%EC%A2%85%29.pdf
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076992
+  note: 공개 학회 자료의 저자·소속을 확인함. 프로그램 등재는 확인했으나 실제 발표 참석 여부를 별도로 단정하지 않음.
+  audit_key: collaborator-oh-012
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: Autonomous guidance for multi-revolution low-thrust orbit transfer via reinforcement learning
+  authors:
+  - Hyeokjoon Kwon
+  - Snyoll Oghim
+  - Hyochoong Bang
+  category: conference
+  year: 2021
+  date: '2021-02-01'
+  details: 31st AAS/AIAA Space Flight Mechanics Meeting, AAS 21-315
+  link: https://www.space-flight.org/docs/2021_winter/31stSFM_Program_FINAL.pdf
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://www.space-flight.org/docs/2021_winter/31stSFM_Program_FINAL.pdf
+  verification_sources:
+  - https://www.space-flight.org/docs/2021_winter/31stSFM_Program_FINAL.pdf
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/work/229106357
+  source: https://www.space-flight.org/docs/2021_winter/31stSFM_Program_FINAL.pdf
+  note: AAS/AIAA 공식 프로그램 Session 06(AAS 21-315)의 저자와 KAIST 소속을 확인. 프로그램 발표일 2021-02-01을 사용함. ORCID의 날짜 2021-02-03은
+    대회 종료일과 같아 발표일에 사용하지 않음.
+  audit_key: collaborator-oh-013
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: A scheduling optimization using greedy knapsack algorithm for RANDEV CubeSat communication and observation
+    missions analyzed with MBSE Activity Diagram
+  authors:
+  - Hanik Kim
+  - Snyoll Oghim
+  - Mingi Mun
+  - Hyochoong Bang
+  category: conference
+  year: 2020
+  date: '2020-11-16'
+  publisher: ASCEND 2020
+  details: ASCEND 2020
+  doi: 10.2514/6.2020-4097
+  id: doi:10.2514/6.2020-4097
+  link: https://doi.org/10.2514/6.2020-4097
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://api.crossref.org/works/10.2514/6.2020-4097
+  verification_sources:
+  - https://api.crossref.org/works/10.2514/6.2020-4097
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/works
+  source: https://api.crossref.org/works/10.2514/6.2020-4097
+  note: ORCID 및 AIAA/Crossref의 저자·KAIST 소속 확인. 학술대회 개최일 기준(ORCID 2020-11-16); Crossref 온라인 출판일은 2020-11-02.
+  audit_key: collaborator-oh-014
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: Real-time spacecraft intercept strategy on J2-perturbed orbits
+  authors:
+  - Snyoll Oghim
+  - Henzeh Leeghim
+  - Donghoon Kim
+  category: journal
+  year: 2019
+  date: 2019-01
+  publisher: Advances in Space Research
+  details: Advances in Space Research, 63(2), 1007-1016
+  doi: 10.1016/j.asr.2018.09.023
+  id: doi:10.1016/j.asr.2018.09.023
+  link: https://doi.org/10.1016/j.asr.2018.09.023
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  verification_source: https://api.crossref.org/works/10.1016/j.asr.2018.09.023
+  verification_sources:
+  - https://api.crossref.org/works/10.1016/j.asr.2018.09.023
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/works
+  source: https://api.crossref.org/works/10.1016/j.asr.2018.09.023
+  note: 저자별 서지정보 및 공개 ORCID/기관·학술지 자료를 대조하여 오승렬 박사의 참여를 확인함. 박재익 박사는 저자 목록에 없음.
+  audit_key: collaborator-oh-015
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: J2 섭동을 고려한 비공면 타원 궤도에서의 우주비행체 요격
+  authors:
+  - 오승렬
+  - 이현재
+  category: journal
+  year: 2018
+  date: '2018-11-30'
+  publisher: 한국항공우주학회지
+  details: 한국항공우주학회지, 46(11), 902-910
+  doi: 10.5139/jksas.2018.46.11.902
+  id: doi:10.5139/jksas.2018.46.11.902
+  link: https://doi.org/10.5139/jksas.2018.46.11.902
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Chosun University
+  verification_source: https://api.crossref.org/works/10.5139/jksas.2018.46.11.902
+  verification_sources:
+  - https://api.crossref.org/works/10.5139/jksas.2018.46.11.902
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002402157
+  source: https://api.crossref.org/works/10.5139/jksas.2018.46.11.902
+  note: 저자별 서지정보 및 공개 ORCID/기관·학술지 자료를 대조하여 오승렬 박사의 참여를 확인함. 박재익 박사는 저자 목록에 없음.
+  details_en: Journal of the Korean Society for Aeronautical & Space Sciences, 46(11), 902-910
+  audit_key: collaborator-oh-016
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: Minimum-Energy Spacecraft Intercept on Non-coplanar Elliptical Orbits Using Genetic Algorithms
+  authors:
+  - Snyoll Oghim
+  - Chang-Yull Lee
+  - Henzeh Leeghim
+  category: journal
+  year: 2017
+  date: '2017-12-31'
+  publisher: International Journal of Aeronautical and Space Sciences
+  details: International Journal of Aeronautical and Space Sciences, 18(4), 729-739
+  doi: 10.5139/ijass.2017.18.4.729
+  id: doi:10.5139/ijass.2017.18.4.729
+  link: https://doi.org/10.5139/ijass.2017.18.4.729
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Chosun University
+  verification_source: https://api.crossref.org/works/10.5139/ijass.2017.18.4.729
+  verification_sources:
+  - https://api.crossref.org/works/10.5139/ijass.2017.18.4.729
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/works
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07291477
+  source: https://api.crossref.org/works/10.5139/ijass.2017.18.4.729
+  note: 저자별 서지정보 및 공개 ORCID/기관·학술지 자료를 대조하여 오승렬 박사의 참여를 확인함. 박재익 박사는 저자 목록에 없음.
+  audit_key: collaborator-oh-017
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 에너지와 대기시간을 고려한 우주비행체 랑데부
+  authors:
+  - 오승렬
+  - 이현재
+  category: journal
+  year: 2017
+  date: '2017-09-30'
+  publisher: 한국항공우주학회지
+  details: 한국항공우주학회지, 45(9), 775-783
+  doi: 10.5139/jksas.2017.45.9.775
+  id: doi:10.5139/jksas.2017.45.9.775
+  link: https://doi.org/10.5139/jksas.2017.45.9.775
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Chosun University
+  verification_source: https://api.crossref.org/works/10.5139/jksas.2017.45.9.775
+  verification_sources:
+  - https://api.crossref.org/works/10.5139/jksas.2017.45.9.775
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002259434
+  source: https://api.crossref.org/works/10.5139/jksas.2017.45.9.775
+  note: 저자별 서지정보 및 공개 ORCID/기관·학술지 자료를 대조하여 오승렬 박사의 참여를 확인함. 박재익 박사는 저자 목록에 없음.
+  details_en: Journal of the Korean Society for Aeronautical & Space Sciences, 45(9), 775-783
+  audit_key: collaborator-oh-018
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: Optimal spacecraft rendezvous by minimum velocity change and wait time
+  authors:
+  - Snyoll Oghim
+  - Sung-Hoon Mok
+  - Henzeh Leeghim
+  category: journal
+  year: 2017
+  date: 2017-09
+  publisher: Advances in Space Research
+  details: Advances in Space Research, 60(6), 1188-1200
+  doi: 10.1016/j.asr.2017.06.025
+  id: doi:10.1016/j.asr.2017.06.025
+  link: https://doi.org/10.1016/j.asr.2017.06.025
+  scope: international
+  researcher_ids:
+  - seung-ryeol-oh
+  verification_source: https://api.crossref.org/works/10.1016/j.asr.2017.06.025
+  verification_sources:
+  - https://api.crossref.org/works/10.1016/j.asr.2017.06.025
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/works
+  source: https://api.crossref.org/works/10.1016/j.asr.2017.06.025
+  note: 저자별 서지정보 및 공개 ORCID/기관·학술지 자료를 대조하여 오승렬 박사의 참여를 확인함. 박재익 박사는 저자 목록에 없음.
+  audit_key: collaborator-oh-019
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 시간과 에너지를 고려한 최적 우주비행체 요격
+  authors:
+  - 오승렬
+  - 이현재
+  category: conference
+  year: 2016
+  date: 2016-11
+  details: 한국항공우주학회 2016년도 추계학술대회, pp. 1128–1129
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07090879
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: Chosun University
+  verification_source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07090879
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07090879
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07090879
+  note: 공개 논문별 저자·조선대학교 소속과 이후 영문 궤도역학 논문의 저자 연결을 대조.
+  audit_key: collaborator-oh-020
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- title: 캔 위성을 위한 웹 기반 지상국 구축
+  authors:
+  - 오승렬
+  - 이현재
+  - 윤형철
+  - 김다빈
+  - 양유영
+  category: conference
+  year: 2015
+  date: 2015-11
+  details: 항공우주시스템공학회 2015년도 추계학술대회 논문집, pp. 504–506
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11202055
+  scope: domestic
+  researcher_ids:
+  - seung-ryeol-oh
+  verification_source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11202055
+  verification_sources:
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11202055
+  source: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11202055
+  note: 공개 논문별 저자 목록과 같은 항공우주 분야의 오승렬·이현재 공저 연구경력을 대조. 공개 서지에 해당 항목의 저자별 소속은 없어 소속 필드는 비워 둠. 학술대회 논문으로만 등록하며 소프트웨어
+    등록으로 중복 분류하지 않음.
+  audit_key: collaborator-oh-021
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
+- id: doi:10.1007/s42405-024-00871-w
+  doi: 10.1007/s42405-024-00871-w
+  title: 'Correction: Time-Optimal Guidance Laws Using a Frequency Domain Approach for Spacecraft Rendezvous'
+  authors:
+  - Seungryeol Oh
+  - Hyochoong Bang
+  category: journal
+  year: 2025
+  date: '2025-01-20'
+  researcher_ids:
+  - seung-ryeol-oh
+  exclude: true
+  exclusion_reason: Correction to 10.1007/s42405-024-00846-x; linked to the original paper, not counted as an independent
+    research article.
+  link: https://link.springer.com/article/10.1007/s42405-024-00871-w
+  verification_source: https://link.springer.com/article/10.1007/s42405-024-00871-w
+  audit_key: collaborator-oh-correction-001

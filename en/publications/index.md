@@ -9,7 +9,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-book-open" %}Publications
 {: .page-title }
 
-Explore research outputs by the principal investigator and SEARCH Lab, organized into journal articles and features, conference presentations, patents, software, and trademarks and designs.
+Explore research outputs involving Dr. Park, organized into journal articles and features, conference presentations, patents, software, and trademarks and designs. Collaborators’ career research outputs are available through their individual profiles on [People]({{ '/en/people/#collaborators' | relative_url }}).
 {: .page-intro }
 
 {% include section.html %}

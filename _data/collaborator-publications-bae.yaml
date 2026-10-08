@@ -1,0 +1,203 @@
+# Public bibliographic records verified on 2026-10-08.
+# Career outputs; display scope follows researcher_ids, not current lab affiliation.
+# Search coverage and exclusions: _publications/research-bae.md.
+- audit_key: collaborator-bae-conference-001
+  title: 화성 궤도 진입 이후 태양돛 우주선의 궤도 유지 및 자세 안정화 가능성 분석
+  authors:
+  - 배정주
+  category: conference
+  scope: domestic
+  year: 2026
+  date: '2026-06-26'
+  details: 한국항공우주학회 2026년도 우주학술대회, P임무-34
+  link: https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2655
+  source: https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2655
+  verification_sources:
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2655
+  researcher_ids:
+  - jungju-bae
+  researcher_affiliations:
+    jungju-bae: 한국항공우주연구원
+  search: 배정주 Jungju Bae Jung-Ju Bae
+- audit_key: collaborator-bae-conference-002
+  title: 저궤도 PNT 군집위성 임무운영 기술 연구
+  authors:
+  - 임정흠
+  - 배정주
+  - 성재동
+  - 강우용
+  - 원대희
+  category: conference
+  scope: domestic
+  year: 2026
+  date: '2026-06-26'
+  details: 한국항공우주학회 2026년도 우주학술대회, P탐사-9
+  link: https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  source: https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  verification_sources:
+  - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
+  researcher_ids:
+  - jungju-bae
+  researcher_affiliations:
+    jungju-bae: 한국항공우주연구원
+  search: 배정주 Jungju Bae Jung-Ju Bae
+- id: doi:10.1016/j.ast.2026.111779
+  title: Solar sail-based energy-efficient architecture for long-term mars orbit operations
+  authors:
+  - Jungju Bae
+  - Jaeyoung Kang
+  category: journal
+  status: published
+  scope: international
+  year: 2026
+  date: 2026-06
+  publisher: Aerospace Science and Technology
+  details: Aerospace Science and Technology, 173, 111779
+  doi: 10.1016/j.ast.2026.111779
+  link: https://doi.org/10.1016/j.ast.2026.111779
+  source: https://api.crossref.org/works/10.1016/j.ast.2026.111779
+  verification_sources:
+  - https://api.crossref.org/works/10.1016/j.ast.2026.111779
+  - https://pub.orcid.org/v3.0/0000-0003-4397-5740/works
+  - https://www.sciencedirect.com/science/article/pii/S1270963826001604
+  - https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602235944791789
+  researcher_ids:
+  - jungju-bae
+  search: 배정주 Jungju Bae Jung-Ju Bae
+  researcher_affiliations:
+    jungju-bae: Korea Aerospace Research Institute
+- id: doi:10.3390/aerospace12020093
+  title: Quaternion-Based Robust Sliding-Mode Controller for Quadrotor Operation Under Wind Disturbance
+  authors:
+  - Jung-Ju Bae
+  - Jae-Young Kang
+  category: journal
+  status: published
+  scope: international
+  year: 2025
+  date: '2025-01-27'
+  publisher: Aerospace
+  details: Aerospace, 12(2), 93
+  doi: 10.3390/aerospace12020093
+  link: https://doi.org/10.3390/aerospace12020093
+  source: https://api.crossref.org/works/10.3390/aerospace12020093
+  verification_sources:
+  - https://api.crossref.org/works/10.3390/aerospace12020093
+  - https://www.mdpi.com/2226-4310/12/2/93
+  researcher_ids:
+  - jungju-bae
+  search: 배정주 Jungju Bae Jung-Ju Bae
+  researcher_affiliations:
+    jungju-bae: Inha University
+- id: doi:10.1007/s42405-024-00875-6
+  title: Novel Design and Validation Test of Rollable CFRP Blade for UAM
+  authors:
+  - Jungju Bae
+  - Sangki Kim
+  - Jaeyoung Kang
+  category: journal
+  status: published
+  scope: international
+  year: 2025
+  date: '2025-01-09'
+  publisher: International Journal of Aeronautical and Space Sciences
+  details: International Journal of Aeronautical and Space Sciences, 26(3), 912-925
+  doi: 10.1007/s42405-024-00875-6
+  link: https://doi.org/10.1007/s42405-024-00875-6
+  source: https://api.crossref.org/works/10.1007/s42405-024-00875-6
+  verification_sources:
+  - https://api.crossref.org/works/10.1007/s42405-024-00875-6
+  - https://link.springer.com/article/10.1007/s42405-024-00875-6
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003193028
+  researcher_ids:
+  - jungju-bae
+  search: 배정주 Jungju Bae Jung-Ju Bae
+  researcher_affiliations:
+    jungju-bae: Inha University
+- id: doi:10.1016/j.ast.2024.108994
+  title: Design concepts and control algorithm to minimize the control effort for earth-orbit-raising
+    solar sails
+  authors:
+  - Jungju Bae
+  - Jaeyoung Kang
+  category: journal
+  status: published
+  scope: international
+  year: 2024
+  date: 2024-03
+  publisher: Aerospace Science and Technology
+  details: Aerospace Science and Technology, 146, 108994
+  doi: 10.1016/j.ast.2024.108994
+  link: https://doi.org/10.1016/j.ast.2024.108994
+  source: https://api.crossref.org/works/10.1016/j.ast.2024.108994
+  verification_sources:
+  - https://api.crossref.org/works/10.1016/j.ast.2024.108994
+  - https://pub.orcid.org/v3.0/0000-0003-4397-5740/works
+  - https://www.sciencedirect.com/science/article/pii/S1270963824001275
+  researcher_ids:
+  - jungju-bae
+  search: 배정주 Jungju Bae Jung-Ju Bae
+- id: doi:10.1007/s12555-022-0017-8
+  title: New Design and Stability Analysis of Gravity Stabilized Solar Sail in Earth Orbit
+  authors:
+  - Jung-Ju Bae
+  - Jae-Young Kang
+  category: journal
+  status: published
+  scope: international
+  year: 2023
+  date: 2023-05
+  publisher: International Journal of Control, Automation and Systems
+  details: International Journal of Control, Automation and Systems, 21(5), 1394-1406
+  doi: 10.1007/s12555-022-0017-8
+  link: https://doi.org/10.1007/s12555-022-0017-8
+  source: https://api.crossref.org/works/10.1007/s12555-022-0017-8
+  verification_sources:
+  - https://api.crossref.org/works/10.1007/s12555-022-0017-8
+  - https://link.springer.com/article/10.1007/s12555-022-0017-8
+  researcher_ids:
+  - jungju-bae
+  search: 배정주 Jungju Bae Jung-Ju Bae
+  researcher_affiliations:
+    jungju-bae: Inha University
+- audit_key: collaborator-bae-conference-003
+  title: 쿼드로터용 쿼터니언 기반 강건 위치 및 자세 제어 알고리즘 연구
+  authors:
+  - 배정주
+  - 강재영
+  category: conference
+  scope: domestic
+  year: 2022
+  date: '2022-11-10'
+  details: 대한기계학회 2022년 학술대회, Th13A-2, p. 1165
+  link: https://ksme.or.kr/wp/2022a/SessionPaperList.asp?code=2391
+  source: https://ksme.or.kr/wp/2022a/SessionPaperList.asp?code=2391
+  verification_sources:
+  - https://ksme.or.kr/wp/2022a/SessionPaperList.asp?code=2391
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11182217
+  - https://ksme.or.kr/wp/2022a/TrackList.asp?ST_DATE=20221110&ST_TYPE=0
+  researcher_ids:
+  - jungju-bae
+  researcher_affiliations:
+    jungju-bae: 인하대학교
+  search: 배정주 Jungju Bae Jung-Ju Bae
+- audit_key: collaborator-bae-conference-004
+  title: 무동력원 태양광 우주선 궤도상승 미션 연구
+  authors:
+  - 배정주
+  - 강재영
+  category: conference
+  scope: domestic
+  year: 2021
+  date: '2021-11-04'
+  details: 대한기계학회 2021년 학술대회, Th11B003, p. 896
+  link: https://ksme.or.kr/wp/2021d/data/%28%EC%B5%9C%EC%A2%85%29%EB%8C%80%ED%95%9C%EA%B8%B0%EA%B3%84%ED%95%99%ED%9A%8C%202021%EB%85%84%20%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81.pdf
+  source: https://ksme.or.kr/wp/2021d/data/%28%EC%B5%9C%EC%A2%85%29%EB%8C%80%ED%95%9C%EA%B8%B0%EA%B3%84%ED%95%99%ED%9A%8C%202021%EB%85%84%20%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81.pdf
+  verification_sources:
+  - https://ksme.or.kr/wp/2021d/data/%28%EC%B5%9C%EC%A2%85%29%EB%8C%80%ED%95%9C%EA%B8%B0%EA%B3%84%ED%95%99%ED%9A%8C%202021%EB%85%84%20%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EB%B6%81.pdf
+  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10896491
+  researcher_ids:
+  - jungju-bae
+  researcher_affiliations:
+    jungju-bae: 인하대학교
+  search: 배정주 Jungju Bae Jung-Ju Bae
