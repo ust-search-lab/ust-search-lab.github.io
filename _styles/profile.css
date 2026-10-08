@@ -59,6 +59,11 @@
   line-height: 1.6;
   text-align: left;
 }
+.profile-card .profile-role {
+  margin: 0 0 12px;
+  color: var(--dark-gray);
+  font-weight: var(--semi-bold);
+}
 .profile-card .profile-summary {
   margin: 18px 0 0;
   line-height: 1.8;
@@ -78,17 +83,23 @@
 }
 
 main[data-page=jae-ik-park] p,
-main[data-page=jae-ik-park] li {
+main[data-page=jae-ik-park] li,
+main[data-page=seung-ryeol-oh] p,
+main[data-page=seung-ryeol-oh] li,
+main[data-page=jungju-bae] p,
+main[data-page=jungju-bae] li {
   text-align: left;
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-main[data-page=jae-ik-park] h2 {
+main[data-page=jae-ik-park] h2,
+main[data-page=seung-ryeol-oh] h2,
+main[data-page=jungju-bae] h2 {
   margin-top: 40px;
   margin-bottom: 16px;
 }
 
-/* education / career timeline on the PI profile */
+/* education / career timelines on researcher profiles */
 .profile-timeline {
   margin: 0;
   padding: 0;
