@@ -22,7 +22,7 @@ nav:
 
 ## Collaborators
 
-{% assign collaborators = site.members | where: "role", "collaborator" | where: "lang", page.lang | where_exp: "member", "member.published != false" %}
+{% assign collaborators = site.members | where: "role", "collaborator" | where: "lang", page.lang | where_exp: "member", "member.published != false" | sort: "order" %}
 {% for collaborator in collaborators %}
   {% include collaborator.html member=collaborator mode="summary" %}
 {% endfor %}

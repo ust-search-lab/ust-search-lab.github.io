@@ -6,6 +6,7 @@ ref: seung-ryeol-oh
 lang: en
 image: images/members/seung-ryeol-oh-suit.png
 role: collaborator
+order: 1
 description: Collaborator
 affiliation: Korea Aerospace Research Institute · Space Exploration Team
 appointments:

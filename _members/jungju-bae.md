@@ -7,6 +7,7 @@ lang: ko
 image: images/members/jungju-bae.jpg
 image_position: center 20%
 role: collaborator
+order: 2
 description: 협력 연구원
 affiliation: 한국항공우주연구원 · 우주탐사연구센터 우주탐사팀
 appointments:

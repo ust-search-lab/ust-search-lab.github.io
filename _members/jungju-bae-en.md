@@ -7,6 +7,7 @@ lang: en
 image: images/members/jungju-bae.jpg
 image_position: center 20%
 role: collaborator
+order: 2
 description: Collaborator
 affiliation: Korea Aerospace Research Institute · Space Exploration Center · Space Exploration Team
 appointments:

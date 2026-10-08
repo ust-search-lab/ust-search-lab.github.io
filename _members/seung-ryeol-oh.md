@@ -6,6 +6,7 @@ ref: seung-ryeol-oh
 lang: ko
 image: images/members/seung-ryeol-oh-suit.png
 role: collaborator
+order: 1
 description: 협력 연구원
 affiliation: 한국항공우주연구원 · 우주탐사팀
 appointments:
