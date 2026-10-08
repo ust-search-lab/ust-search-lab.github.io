@@ -29,7 +29,7 @@ aliases:
 ## 학력
 
 {:.profile-timeline}
-- <span class="timeline-period">2025.08</span> <span class="timeline-title">인하대학교 기계공학과</span> <span class="timeline-detail">공학박사 · 동역학 전공</span>
+- <span class="timeline-period">2025.08</span> <span class="timeline-title">인하대학교 기계공학과</span> <span class="timeline-detail">공학박사</span>
 
 ## 주요 경력
 

@@ -30,7 +30,7 @@ Doctoral research focused on the orbital and attitude dynamics, stability, and c
 ## Education
 
 {:.profile-timeline}
-- <span class="timeline-period">August 2025</span> <span class="timeline-title">Inha University · Department of Mechanical Engineering</span> <span class="timeline-detail">Ph.D. in Engineering · Specialization in Dynamics</span>
+- <span class="timeline-period">August 2025</span> <span class="timeline-title">Inha University · Department of Mechanical Engineering</span> <span class="timeline-detail">Ph.D. in Engineering</span>
 
 ## Selected Experience
 
