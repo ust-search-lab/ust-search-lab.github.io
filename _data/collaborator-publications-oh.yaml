@@ -1,6 +1,57 @@
 # Verified public career outputs for Snyoll Oghim (오승렬).
 # Checked 2026-10-08; evidence and exclusions: _publications/research-oh.md.
 # Shared PI outputs already in discovered-publications.yaml are not duplicated.
+- title: 광역 합성 개구 레이더 영상에서 자동으로 표적을 탐색, 추출 및 식별하기 위한 장치 및 방법
+  authors:
+  - 임덕수
+  - 고준영
+  - 오승렬
+  - 김영재
+  - 방효충
+  inventors:
+  - 임덕수
+  - 고준영
+  - 오승렬
+  - 김영재
+  - 방효충
+  category: patent
+  country: KR
+  scope: domestic
+  status: registered
+  year: 2023
+  year_basis: application_year
+  date: '2023-12-27'
+  application_number: 10-2023-0192768
+  application_date: '2023-12-27'
+  registration_number: 10-2685079
+  registration_date: '2024-07-10'
+  publication_number: KR102685079B1
+  applicant: 한화시스템 주식회사; 한국과학기술원
+  applicants:
+  - 한화시스템 주식회사
+  - 한국과학기술원
+  details: '한화시스템 주식회사·한국과학기술원; 출원 10-2023-0192768 (2023-12-27); 등록 10-2685079 (2024-07-10)'
+  details_en: 'Hanwha Systems Co., Ltd.; KAIST; Application 10-2023-0192768 (2023-12-27); Grant 10-2685079 (2024-07-10)'
+  id: patent:KR102685079B1
+  audit_key: collaborator-oh-patent-001
+  link: https://patents.google.com/patent/KR102685079B1/ko
+  document_link: https://patentimages.storage.googleapis.com/51/74/a2/a6698326ecbf56/KR102685079B1.pdf
+  researcher_ids:
+  - seung-ryeol-oh
+  researcher_affiliations:
+    seung-ryeol-oh: KAIST
+  verification_source: https://patentimages.storage.googleapis.com/51/74/a2/a6698326ecbf56/KR102685079B1.pdf
+  verification_sources:
+  - https://patentimages.storage.googleapis.com/51/74/a2/a6698326ecbf56/KR102685079B1.pdf
+  - https://patents.google.com/patent/KR102685079B1/ko
+  - https://www.mdpi.com/1424-8220/24/2/670
+  source: https://patentimages.storage.googleapis.com/51/74/a2/a6698326ecbf56/KR102685079B1.pdf
+  note: >-
+    특허청 등록공보 1–2쪽에서 출원·등록일, 공동 특허권자, 발명자 전원을 확인.
+    오승렬의 KAIST 소속 및 Sensors 논문 10.3390/s24020670의 동일한 5인 연구진을 대조하여 개인 참여를 확인함.
+    등록일은 특허청 원본 공보의 실제 등록일자를 사용함.
+    박재익은 발명자에 없음. 발명자 주소·연락처는 저장하지 않음.
+  search: 오승렬 Snyoll Oghim Seungryeol Oh Seung-ryeol Oh
 - title: 심우주탐사 궤적연구 시연기(STD 1.0)를 위한 궤도결정 연구
   authors:
   - 오승렬

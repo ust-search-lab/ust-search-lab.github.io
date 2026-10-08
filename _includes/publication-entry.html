@@ -59,4 +59,7 @@
   {% if publication_entry.doi %}
     <div class="publication-entry-identifiers"><a href="https://doi.org/{{ publication_entry.doi | escape }}">DOI: {{ publication_entry.doi | escape }}</a></div>
   {% endif %}
+  {% if publication_entry.document_link %}
+    <div class="publication-entry-identifiers"><a href="{{ publication_entry.document_link | escape }}">{% if include.lang == "en" %}Patent document{% else %}특허 공보{% endif %}</a></div>
+  {% endif %}
 </article>

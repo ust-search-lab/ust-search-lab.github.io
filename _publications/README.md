@@ -57,6 +57,12 @@ international conference papers can be found through Crossref. DBpia's author-li
 login gate is not bypassed. Unpublished applications, login-only indexes, other
 society formats, and trademark/design discovery are not connected. Google Patents
 is a public secondary index: grant facts do not establish current legal validity.
+All original co-applicants are retained. For Korean patents, Google's `granted`
+event can coincide with the grant-publication date rather than the actual
+registration date (KR102685079B1: publication 2024-07-17, registration 2024-07-10).
+The collector therefore omits Korean registration dates from that secondary
+event; registration dates require the primary patent PDF/register and are stored
+in curated data. The registered status and grant number can still update.
 
 ## Behavior
 

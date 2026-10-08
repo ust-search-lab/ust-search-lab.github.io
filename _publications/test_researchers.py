@@ -3,7 +3,7 @@ from datetime import date
 import unittest
 from unittest.mock import patch
 
-from update import (Client, collect_orcid, collect_software, migrate_previous, normalize_crossref,
+from update import (Client, collect_orcid, collect_software, migrate_previous, normalize_crossref, normalize_patent,
                     normalize_program, reconcile, request_budgets, run_collectors, same_record)
 from test_update import article, IDENTITY
 from bs4 import BeautifulSoup
@@ -190,6 +190,39 @@ class ResearcherAttributionTests(unittest.TestCase):
         self.assertEqual(len(results), 1)
         self.assertEqual(results[0]["registration_number"], "C-2026-000001")
         self.assertTrue(client.warnings)
+
+    def test_joint_patent_retains_all_five_inventors_and_both_original_applicants(self):
+        raw = '''<meta charset="utf-8"><span itemprop="publicationNumber">KR102685079B1</span>
+        <span itemprop="countryCode">KR</span><span itemprop="kindCode">B1</span>
+        <span itemprop="title">SAR image generation</span><span itemprop="applicationNumber">KR1020220000001A</span>
+        <span itemprop="inventor">오승렬</span><span itemprop="inventor">김영재</span>
+        <span itemprop="inventor">방효충</span><span itemprop="inventor">임덕수</span><span itemprop="inventor">고준영</span>
+        <span itemprop="assigneeOriginal">Hanwha Systems Co Ltd</span>
+        <span itemprop="assigneeOriginal">Korea Advanced Institute of Science and Technology</span>
+        <time itemprop="filingDate">2022-01-01</time><time itemprop="publicationDate">2024-07-17</time>'''.encode()
+        identity = {**OH, "allow_affiliation_match": True, "affiliations": ["Korea Advanced Institute of Science and Technology"]}
+        result = normalize_patent(raw, identity, TODAY)
+        self.assertEqual(result["inventors"], ["오승렬", "김영재", "방효충", "임덕수", "고준영"])
+        self.assertEqual(result["applicant"], "Hanwha Systems Co Ltd; Korea Advanced Institute of Science and Technology")
+        self.assertEqual(result["_identity"], "confirmed")
+
+    def test_korean_google_grant_event_is_not_primary_registration_date(self):
+        # KR102685079B1's primary PDF gives 2024-07-10; Google lists the grant
+        # event with the B-publication on 2024-07-17. Neither may overwrite curation.
+        raw = '''<meta charset="utf-8"><span itemprop="publicationNumber">KR102685079B1</span>
+        <span itemprop="countryCode">KR</span><span itemprop="kindCode">B1</span>
+        <span itemprop="title">SAR image generation</span><span itemprop="applicationNumber">KR1020220000001A</span>
+        <span itemprop="inventor">오승렬</span><span itemprop="assigneeOriginal">KAIST</span>
+        <time itemprop="filingDate">2022-01-01</time><time itemprop="publicationDate">2024-07-17</time>
+        <dd itemprop="events"><time itemprop="date">2024-07-17</time><span itemprop="type">granted</span></dd>'''.encode()
+        result = normalize_patent(raw, OH, TODAY)
+        self.assertEqual(result["status"], "registered")
+        self.assertEqual(result["registration_number"], "10-2685079")
+        self.assertNotIn("registration_date", result)
+        self.assertNotIn("2024-07-17", result["details"])
+        # For a non-KR bibliographic record an explicit grant event is still read.
+        nonkr = raw.replace(b'KR102685079B1', b'US12345678B1').replace(b'>KR<', b'>US<')
+        self.assertEqual(normalize_patent(nonkr, OH, TODAY)["registration_date"], "2024-07-17")
 
 
 if __name__ == "__main__":

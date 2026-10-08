@@ -84,7 +84,7 @@ class IdentityTests(unittest.TestCase):
         self.assertEqual(result[0]['status'], 'registered')
         self.assertEqual(result[0]['registration_number'], '10-2000000')
 
-    def test_grant_date_is_not_publication_date(self):
+    def test_korean_grant_number_does_not_assert_registration_date(self):
         raw = b'''<meta charset="utf-8"><span itemprop="publicationNumber">KR102091031B1</span>
         <span itemprop="countryCode">KR</span><span itemprop="kindCode">B1</span>
         <span itemprop="title">Lunar orbit</span><span itemprop="applicationNumber">KR1020180131171A</span>
@@ -92,7 +92,7 @@ class IdentityTests(unittest.TestCase):
         <time itemprop="filingDate">2018-10-30</time><time itemprop="publicationDate">2020-04-29</time>
         <dd itemprop="events"><time itemprop="date">2020-04-24</time><span itemprop="type">granted</span></dd>'''
         record = normalize_patent(raw, IDENTITY, TODAY)
-        self.assertEqual(record['registration_date'], '2020-04-24')
+        self.assertNotIn('registration_date', record)
         self.assertEqual(record['application_number'], '10-2018-0131171')
         self.assertEqual(record['registration_number'], '10-2091031')
 

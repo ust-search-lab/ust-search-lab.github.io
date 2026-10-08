@@ -412,7 +412,9 @@ def normalize_patent(raw, identity, today):
     filing = patent_field(page, "filingDate")
     published = patent_field(page, "publicationDate")
     inventors = [e.get_text(" ", strip=True) for e in page.select('[itemprop="inventor"]')]
-    applicant = patent_field(page, "assigneeOriginal")
+    applicants = list(dict.fromkeys(clean(e.get("content") or e.get_text(" ", strip=True))
+                                   for e in page.select('[itemprop="assigneeOriginal"]')))
+    applicant = "; ".join(a for a in applicants if a)
     if not publication or not application or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", filing):
         raise ValueError("Patent bibliographic fields missing")
     if not published or published > today.isoformat():
@@ -441,10 +443,13 @@ def normalize_patent(raw, identity, today):
             if match:
                 registration = match[1] + "-" + match[2]
         record["registration_number"] = registration
-        # Grant and publication dates may differ. Use the explicit grant event.
+        # KR Google "granted" events can report the B-publication date rather
+        # than the registry's actual registration date (e.g. KR102685079B1).
+        # Keep the grant number/status, but require primary-register/PDF curation
+        # for Korean registration dates. Non-KR explicit grant events stay usable.
         grant_dates = [patent_field(e, "date") for e in page.select('[itemprop="events"]')
                        if patent_field(e, "type") == "granted"]
-        if grant_dates and re.fullmatch(r"\d{4}-\d{2}-\d{2}", grant_dates[0]) and grant_dates[0] <= today.isoformat():
+        if nation != "KR" and grant_dates and re.fullmatch(r"\d{4}-\d{2}-\d{2}", grant_dates[0]) and grant_dates[0] <= today.isoformat():
             record["registration_date"] = grant_dates[0]
     record["details"] = f"출원 {record['application_number']} ({filing})"
     record["details_en"] = f"Application {record['application_number']} ({filing})"
