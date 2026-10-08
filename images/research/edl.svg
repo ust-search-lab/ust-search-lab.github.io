@@ -135,13 +135,13 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 <path d="M570 210V272" fill="none" stroke="#3478CE" stroke-width="3" marker-end="url(#edl-arrow-blue)"/>
 <text x="480" y="316" text-anchor="middle" font-size="20" fill="#183153">Parachute braking</text>
 <!-- Downward exhaust; the ellipse and points show a conceptual touchdown spread. -->
-<path d="M667 288Q788 278 909 288V300H667Z" fill="#FBEBD9"/>
-<ellipse cx="788" cy="289" rx="71" ry="12" fill="#E2F1EF" stroke="#008D96" stroke-width="2" stroke-dasharray="6 5"/>
-<g fill="#008D96"><circle cx="757" cy="286" r="3"/><circle cx="779" cy="294" r="3"/><circle cx="808" cy="285" r="3"/></g>
-<path d="M813 294H829M821 286V302" stroke="#008D96" stroke-width="2"/>
-<g transform="translate(779 218)"><path d="M-21-24H21L31 0H-31Z" fill="#E5EEF9" stroke="#183153" stroke-width="3"/><path d="M-22 0L-42 24H-53M22 0L42 24H53M0-24V-39" fill="none" stroke="#183153" stroke-width="3" stroke-linecap="round"/><circle cx="0" cy="-42" r="4" fill="#008D96"/><path d="M-16 4L-24 47L-8 28L0 56L8 28L24 47L16 4" fill="#F8D585" stroke="#A76112" stroke-width="2"/></g>
-<path d="M884 178V247" fill="none" stroke="#3478CE" stroke-width="3" marker-end="url(#edl-arrow-blue)"/>
-<text x="788" y="324" text-anchor="middle" font-size="20" fill="#183153">Thrust &amp; touchdown error</text>
+<path d="M667 280Q788 270 909 280V292H667Z" fill="#FBEBD9"/>
+<ellipse cx="788" cy="281" rx="71" ry="12" fill="#E2F1EF" stroke="#008D96" stroke-width="2" stroke-dasharray="6 5"/>
+<g fill="#008D96"><circle cx="757" cy="278" r="3"/><circle cx="779" cy="286" r="3"/><circle cx="808" cy="277" r="3"/></g>
+<path d="M813 286H829M821 278V294" stroke="#008D96" stroke-width="2"/>
+<g transform="translate(779 210)"><path d="M-21-24H21L31 0H-31Z" fill="#E5EEF9" stroke="#183153" stroke-width="3"/><path d="M-22 0L-42 24H-53M22 0L42 24H53M0-24V-39" fill="none" stroke="#183153" stroke-width="3" stroke-linecap="round"/><circle cx="0" cy="-42" r="4" fill="#008D96"/><path d="M-16 4L-24 47L-8 28L0 56L8 28L24 47L16 4" fill="#F8D585" stroke="#A76112" stroke-width="2"/></g>
+<path d="M884 170V239" fill="none" stroke="#3478CE" stroke-width="3" marker-end="url(#edl-arrow-blue)"/>
+<text x="788" y="316" text-anchor="middle" font-size="20" fill="#183153">Thrust &amp; touchdown error</text>
 <text x="32" y="368" font-size="21" font-weight="500" fill="#008D96">Evaluate speed reduction and the spread of touchdown positions</text>
 <text x="32" y="399" font-size="18" fill="#64748B">Parachute + propulsive landing example · Stages and sizes are not to scale</text>
 </g>
