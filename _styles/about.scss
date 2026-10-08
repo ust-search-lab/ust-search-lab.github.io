@@ -1,9 +1,131 @@
 ---
 ---
 
-main[data-page="about"] .about-invitation {
-  margin-top: 32px;
-  padding-top: 24px;
-  border-top: 1px solid var(--light-gray);
-  color: var(--ink);
+main[data-page="about"] {
+  --page-width: 800px;
+
+  .about-process {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 32px 0 44px;
+    padding: 0;
+    list-style: none;
+    color: var(--primary);
+    font-size: 0.85rem;
+
+    li {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      margin: 0;
+      padding: 0 8px;
+      text-align: center;
+      line-height: var(--compact);
+    }
+
+    li + li::before {
+      position: absolute;
+      top: 4px;
+      right: 50%;
+      width: 100%;
+      height: 1px;
+      background: var(--light-gray);
+      content: "";
+    }
+  }
+
+  .about-process-dot {
+    position: relative;
+    z-index: 1;
+    width: 9px;
+    height: 9px;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    background: var(--background);
+  }
+
+  .about-section + .about-section {
+    margin-top: 40px;
+  }
+
+  .about-section h2 {
+    margin: 0 0 14px;
+    padding: 0;
+    border: 0;
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: var(--regular);
+  }
+
+  .about-section p {
+    margin: 16px 0 0;
+  }
+
+  .about-invitation {
+    margin-top: var(--section-space);
+    padding: var(--card-padding);
+    border: 1px solid var(--light-gray);
+    border-radius: var(--rounded);
+    background: var(--background-alt);
+    color: var(--ink);
+
+    p {
+      margin: 0;
+      font-weight: var(--regular);
+    }
+  }
+
+  .about-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      min-height: var(--control-height);
+      padding: 8px 14px;
+      border: 1px solid var(--light-gray);
+      border-radius: var(--radius-small);
+      background: var(--background);
+      color: var(--primary);
+      font-size: 0.9rem;
+      font-weight: var(--regular);
+      line-height: var(--compact);
+      text-decoration: none;
+      transition: border-color var(--transition), background var(--transition);
+
+      &:hover {
+        border-color: var(--primary);
+        background: var(--secondary);
+      }
+
+      &:focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 3px;
+      }
+    }
+  }
+
+  @media (max-width: 520px) {
+    .about-process {
+      margin-bottom: 36px;
+      font-size: 0.78rem;
+    }
+
+    .about-section + .about-section {
+      margin-top: 32px;
+    }
+
+    .about-actions {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
 }
