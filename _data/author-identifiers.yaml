@@ -1046,11 +1046,15 @@
   name: Seung-ryeol Oh
   aliases:
   - Seung-ryeol Oh
+  - Seungryeol Oh
+  - Snyoll Oghim
   - 오승렬
-  orcid:
-  status: unconfirmed
-  checked_on: '2026-10-02'
+  orcid: 0009-0000-5985-6143
+  status: verified
+  checked_on: '2026-10-08'
   sources:
+  - https://pub.orcid.org/v3.0/0009-0000-5985-6143/record
+  - https://link.springer.com/article/10.1007/s42405-024-00871-w
   - https://pub.orcid.org/v3.0/expanded-search/?q=%22%EC%98%A4%EC%8A%B9%EB%A0%AC%22+OR+%22Seung-ryeol+Oh%22+OR+%22Seungryeol+Oh%22+OR+%22Seung-Ryul+Oh%22&rows=100
   - https://pub.orcid.org/v3.0/0000-0002-5710-3946/record
   - https://ksas.or.kr/proceedings/2026c/SessionPaperList.asp?code=2653
@@ -1058,7 +1062,9 @@
   - https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf
   - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12932292
   - https://www.riss.kr/link?id=A110452703
-  note: 공식 KSSS 및 DBpia 신규 화성 자료의 오승렬/Seung-ryeol Oh와 KARI 소속을 확인했다. ORCID 변형 이름 검색의 Seung Ryeol Oh 후보는 공개 소속·실적이 모두 없어 동일인으로 확정하지 않았다. 운동생리·중국경제 분야 동명이인은 별개이다.
+  note: >-
+    공식 KSSS 및 DBpia 화성 자료의 오승렬/Seung-ryeol Oh와 KARI 소속을 확인했다. 공개 ORCID 0009-0000-5985-6143의 Seungryeol Oh, credit name Snyoll Oghim 및 KARI 소속을 대조했으며,
+    Springer 공식 정정에서 Seungryeol Oh와 Snyoll Oghim이 같은 저자의 영문명임을 확인했다. 기존 후보 0000-0002-5710-3946은 소속·실적 근거가 없어 사용하지 않았다. 운동생리·중국경제 분야 동명이인은 별개이다.
   candidate_orcids:
   - 0000-0002-5710-3946
 - key: author-069
