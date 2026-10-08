@@ -8,7 +8,7 @@
     {% if radar_source.status == 'stale' %}<span class="radar-stale">{{ radar_copy.stale }}</span>{% endif %}
     <span class="radar-date">
       {% if radar_paper.date_type == 'published-online' %}{{ radar_copy.online }}{% else %}{{ radar_copy.published }}{% endif %}
-      <time datetime="{{ radar_paper.date | escape }}">{{ radar_paper.date | escape }}</time>
+      <time datetime="{{ radar_paper.date | escape }}">{{ radar_paper.date | date: '%Y.%m.%d' }}</time>
     </span>
   </div>
   <{{ radar_paper_heading }} class="radar-entry-title"><a href="{{ radar_paper.url | escape }}" lang="en">{{ radar_paper.title | escape }} <span aria-hidden="true">↗</span></a></{{ radar_paper_heading }}>

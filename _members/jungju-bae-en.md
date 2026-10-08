@@ -32,8 +32,8 @@ Doctoral research focused on the orbital and attitude dynamics, stability, and c
 {:.profile-timeline}
 - <span class="timeline-period">August 2025</span> <span class="timeline-title">Inha University · Department of Mechanical Engineering</span> <span class="timeline-detail">Ph.D. in Engineering</span>
 
-## Selected Experience
+## Selected experience
 
 {:.profile-timeline}
-- <span class="timeline-period">December 2025–Present</span> <span class="timeline-title">Senior Researcher, Korea Aerospace Research Institute (KARI)</span> <span class="timeline-detail">Space Exploration Team, Satellite and Space Exploration Research Directorate</span>
+- <span class="timeline-period">December 2025–present</span> <span class="timeline-title">Senior Researcher, Korea Aerospace Research Institute (KARI)</span> <span class="timeline-detail">Space Exploration Team, Satellite and Space Exploration Research Directorate</span>
 - <span class="timeline-period">August 2025–December 2025</span> <span class="timeline-title">Postdoctoral Researcher, Korea Institute of Machinery &amp; Materials (KIMM)</span> <span class="timeline-detail">Acoustics Team, AX Convergence Research Center</span>

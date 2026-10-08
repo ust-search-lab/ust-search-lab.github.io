@@ -53,7 +53,7 @@ Campus access and research participation require identity verification and other
   <h2 id="contact-location-title">Location &amp; directions</h2>
   <div class="contact-location-grid">
     <div class="contact-location-info">
-      <p class="contact-location-name">UST KARI Campus</p>
+      <p class="contact-location-name">UST KARI School</p>
       <address>Korea Aerospace Research Institute<br>169-84, Gwahak-ro, Yuseong-gu<br>Daejeon 34133, Republic of Korea</address>
       <p class="contact-visit-note">Please email us to arrange a visit. Entry to KARI requires advance registration.</p>
       <a class="action-button" href="https://map.kakao.com/link/to/KARI,36.37553137609033,127.35476898110238" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">{% include icon.html icon="fa-solid fa-map-location-dot" %}</span>Directions on Kakao Map</a>

@@ -38,7 +38,7 @@ links:
 - <span class="timeline-period">October 2016–March 2025</span> <span class="timeline-title">Lunar Exploration Program Office, KARI</span> <span class="timeline-detail">Mission Design Lead Engineer, Danuri (KPLO) · Mission Support Team Lead (MSTL), Launch and Early Operations</span>
 - <span class="timeline-period">February 2010–September 2016</span> <span class="timeline-title">Satellite Navigation Team, KARI</span> <span class="timeline-detail">Joined KARI as a Senior Researcher</span>
 
-## Honors and Recognition
+## Honors and recognition
 
 {:.profile-timeline}
 - <span class="timeline-period">December 31, 2024</span> <span class="timeline-title">Commendation from the Administrator of the Korea AeroSpace Administration</span> <span class="timeline-detail">Individual commendation for contributions to Danuri's successful mission through trajectory design.</span>
@@ -46,7 +46,7 @@ links:
 - <span class="timeline-period">2023</span> <span class="timeline-title">Project selected among Korea's 100 outstanding national R&amp;D achievements</span> <span class="timeline-detail">Contributing researcher on the successful development and launch of Danuri, Korea's lunar orbiter · Mechanical engineering and materials category.</span>
 - <span class="timeline-period">October 10, 2018</span> <span class="timeline-title">Outstanding Research Award, Korea Aerospace Research Institute (KARI)</span>
 
-## Professional Memberships
+## Professional memberships
 
 {:.profile-timeline}
 - <span class="timeline-period">2002–present</span> <span class="timeline-title"><a href="https://ksss.or.kr/">The Korean Space Science Society (KSSS)</a></span> <span class="timeline-detail">Regular Member</span>

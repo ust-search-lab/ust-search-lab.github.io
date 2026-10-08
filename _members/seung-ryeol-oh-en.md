@@ -36,7 +36,7 @@ Combining theoretical research with practical satellite systems development, he 
 ## Experience
 
 {:.profile-timeline}
-- <span class="timeline-period">July 2025–Present</span> <span class="timeline-title">Senior Researcher, Korea Aerospace Research Institute (KARI)</span> <span class="timeline-detail">Space Exploration Team</span>
+- <span class="timeline-period">July 2025–present</span> <span class="timeline-title">Senior Researcher, Korea Aerospace Research Institute (KARI)</span> <span class="timeline-detail">Space Exploration Team</span>
 
 ## Awards
 

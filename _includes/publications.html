@@ -57,7 +57,7 @@
         {% if publication_under_review.size > 0 %}
           <div class="publication-subgroup">
             <{{ publication_subgroup_heading }} id="journals-under-review" class="publication-status-heading">
-              {% if publications_lang == "en" %}Peer review in progress{% else %}Peer Review 진행 중{% endif %}
+              {% if publications_lang == "en" %}Under review{% else %}심사 중{% endif %}
               <span class="publication-count">{{ publication_under_review.size }}</span>
             </{{ publication_subgroup_heading }}>
             <div class="publication-list">

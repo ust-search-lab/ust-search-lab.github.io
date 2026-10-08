@@ -1,15 +1,15 @@
 ---
-title: UST Spring 2027 Admissions — First Round
+title: UST Spring 2027 Admissions — First Round (Applications Closed)
 ref: ust-2027-spring-admissions
 lang: en
 date: 2026-10-03 00:00:00 +0900
 permalink: /en/news/2026/10/03/ust-2027-spring-admissions/
 author: SEARCH Lab
 description: Application dates, official guidelines, online application, and SEARCH Lab inquiries for UST Spring 2027 first-round admissions.
-excerpt: UST Spring 2027 first-round applications run from September 16, 2026 at 10:00 to October 6 at 15:00 (KST). See the official guidelines and online application details.
+excerpt: UST Spring 2027 first-round applications closed on October 6, 2026 at 15:00 (KST). See the official guidelines for the remaining selection schedule.
 ---
 
-UST **Spring 2027 first-round applications** run from **September 16, 2026 at 10:00 to October 6 at 15:00 (KST)**.
+UST **Spring 2027 first-round applications closed on October 6, 2026 at 15:00 (KST)**. The application period ran from September 16 at 10:00 to October 6 at 15:00. The original application information is provided below.
 
 ## Application information
 

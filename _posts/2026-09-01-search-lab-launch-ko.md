@@ -5,11 +5,11 @@ lang: ko
 date: 2026-09-01 00:00:00 +0900
 permalink: /news/2026/09/01/search-lab-launch/
 author: SEARCH Lab
-description: 박재익 박사의 UST 항공우주시스템공학과 부교수 임용과 SEARCH Lab의 출범 및 홈페이지 오픈 소식을 전합니다.
-excerpt: 2026년 9월 1일자 박재익 박사의 UST 항공우주시스템공학과 부교수 임용을 계기로, SEARCH Lab의 출범과 홈페이지 오픈을 알립니다.
+description: 박재익 박사의 UST 항공우주시스템공학 전공 부교수 임용과 SEARCH Lab의 출범 및 홈페이지 오픈 소식을 전합니다.
+excerpt: 2026년 9월 1일자 박재익 박사의 UST 항공우주시스템공학 전공 부교수 임용을 계기로, SEARCH Lab의 출범과 홈페이지 오픈을 알립니다.
 ---
 
-박재익 박사가 **2026년 9월 1일자로 UST 항공우주시스템공학과 부교수로 임용**되었습니다. 이를 계기로 우주탐사 아키텍처 연구실 **SEARCH Lab (Space Exploration ARCHitecture Laboratory)**의 출범과 홈페이지 오픈 소식을 전합니다.
+박재익 박사가 **2026년 9월 1일자로 UST 항공우주시스템공학 전공 부교수로 임용**되었습니다. 이를 계기로 우주탐사 아키텍처 연구실 **SEARCH Lab (Space Exploration ARCHitecture Laboratory)**의 출범과 홈페이지 오픈 소식을 전합니다.
 
 SEARCH Lab은 궤도역학과 우주비행역학을 바탕으로 지구궤도부터 달·행성과 심우주까지 우주임무를 연구합니다. 임무 개념과 궤도·궤적을 설계하고, 최적화와 시스템 분석을 통해 임무의 실현 가능성을 검토하며, 연구 결과를 우주실증으로 이어가는 것을 목표로 합니다.
 

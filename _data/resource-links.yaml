@@ -8,9 +8,9 @@
     - id: ust
       institution: ust
       ko:
-        description: 전공·캠퍼스 소개와 대학원 입학 안내를 확인할 수 있습니다.
+        description: 전공·스쿨 소개와 대학원 입학 안내를 확인할 수 있습니다.
       en:
-        description: Explore graduate programs, campuses, and admissions at UST.
+        description: Explore graduate programs, schools, and admissions at UST.
     - id: kari
       institution: kari
       ko:

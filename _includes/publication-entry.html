@@ -45,7 +45,7 @@
       {% if publication_entry.id and publication_entry.doi == nil %}<span>{{ publication_entry.id | escape }}</span>{% endif %}
     {% endif %}
     {% if publication_entry.status == "under_review" %}
-      <span class="publication-scope">{% if include.lang == "en" %}Peer review in progress{% else %}Peer Review 진행 중{% endif %}</span>
+      <span class="publication-scope">{% if include.lang == "en" %}Under review{% else %}심사 중{% endif %}</span>
     {% elsif publication_entry.status == "accepted" %}
       <span class="publication-scope">{% if include.lang == "en" %}Accepted · awaiting publication{% else %}게재 승인 · 출판 대기{% endif %}</span>
       {% if publication_entry.accepted_date %}

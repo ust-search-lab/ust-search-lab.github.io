@@ -20,7 +20,7 @@ nav:
 
 {% include section.html %}
 
-## 협력 연구원
+## 협력 연구원 {#collaborators}
 
 {% assign collaborators = site.members | where: "role", "collaborator" | where: "lang", page.lang | where_exp: "member", "member.published != false" | sort: "order" %}
 {% for collaborator in collaborators %}

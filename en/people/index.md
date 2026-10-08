@@ -11,7 +11,7 @@ nav:
 
 {% include section.html %}
 
-## Principal Investigator
+## Principal investigator
 
 {% assign investigators = site.members | where: "role", "principal-investigator" | where: "lang", page.lang %}
 {% for investigator in investigators %}
@@ -20,7 +20,7 @@ nav:
 
 {% include section.html %}
 
-## Collaborators
+## Collaborators {#collaborators}
 
 {% assign collaborators = site.members | where: "role", "collaborator" | where: "lang", page.lang | where_exp: "member", "member.published != false" | sort: "order" %}
 {% for collaborator in collaborators %}
@@ -29,6 +29,6 @@ nav:
 
 {% include section.html %}
 
-## Student Researchers
+## Student researchers
 
 To learn about joining SEARCH Lab as a master's or doctoral student, visit [For Students]({{ "en/students/" | relative_url }}).

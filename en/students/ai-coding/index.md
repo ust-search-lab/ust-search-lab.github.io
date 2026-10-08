@@ -13,7 +13,7 @@ description: Set up AI-assisted coding on macOS, Linux or Windows, then build, v
 Set up your computer, build a small orbit calculation with an AI assistant, and learn to run, verify and save your work.
 {: .page-intro }
 
-<div class="guide-meta"><span>Beginner · Python</span><span>60–90 minutes + installation</span><span>Docs checked: 5 Oct 2026</span></div>
+<div class="guide-meta"><span>Beginner · Python</span><span>60–90 minutes + installation</span><span>Docs checked: October 5, 2026</span></div>
 <div class="guide-actions">
   <a class="guide-button" href="#setup">Choose your operating system <span aria-hidden="true">↓</span></a>
   <a class="guide-button guide-button-secondary" href="{{ '/downloads/search-lab-ai-coding-starter.zip' | relative_url }}" download>Reference code ZIP</a>
@@ -34,7 +34,7 @@ Set up your computer, build a small orbit calculation with an AI assistant, and 
 
 {% include section.html %}
 
-## 01. Tools and Workflow
+## 01. Tools and workflow
 {: #start }
 
 Here, **vibe coding** means describing a task in natural language and building code with AI assistance. For research, the workflow also includes understanding the assumptions and units and checking the results independently.
@@ -52,7 +52,7 @@ Enter commands in a **terminal** and requests to the assistant in its **chat pan
 
 {% include section.html %}
 
-## 02. Install for Your Operating System
+## 02. Install for your operating system
 {: #setup }
 
 Choose **one** route. If a tool is already installed, check its version and skip that installation.
@@ -210,7 +210,7 @@ Windows and WSL have separate Python environments and paths. Recreate `.venv` wi
 
 {% include section.html %}
 
-## 03. Create a Python Project
+## 03. Create a Python project
 {: #project }
 
 ### 3-1. Create an exercise folder
@@ -280,7 +280,7 @@ git commit -m "Set up orbit exercise"
 
 {% include section.html %}
 
-## 04. Connect One AI Assistant
+## 04. Connect one AI assistant
 {: #assistant }
 
 Choose one route. You do not need to install or subscribe to every service. If the interface differs, follow the current official guide.
@@ -363,7 +363,7 @@ In a new terminal, check `claude --version`, enter `orbit-lab`, run `claude`, an
 
 {% include section.html %}
 
-## 05. Calculate a Circular Orbit
+## 05. Calculate a circular orbit
 {: #exercise }
 
 Use a circular two-body model about Earth. The following are **fixed exercise constants**. The model assumes a spherical Earth and excludes drag, nonspherical gravity and third-body perturbations.
@@ -443,7 +443,7 @@ Save the following snippets under the indicated filenames if you get stuck. You 
 
 {% include section.html %}
 
-## 06. Verify and Extend
+## 06. Verify and extend
 {: #verify }
 
 Passing tests is one part of verification. Check the code and results against these questions:
@@ -470,7 +470,7 @@ For plots, run `uv add matplotlib`, then request labeled axes, units and model a
 
 {% include section.html %}
 
-## 07. Save and Reproduce
+## 07. Save and reproduce
 {: #share }
 
 ### 7-1. Record the exercise
@@ -531,7 +531,7 @@ When requesting help, include your **OS, exact command, complete error and expec
 
 {% include section.html %}
 
-## 09. Official Documentation
+## 09. Official documentation
 {: #references }
 
 This guide reorganizes the installation, project, execution and validation instructions below into a student exercise. It is not a verbatim translation. The orbit example was written for SEARCH Lab. Interfaces and commands may change; consult the relevant official guide when troubleshooting.

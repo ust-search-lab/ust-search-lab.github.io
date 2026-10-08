@@ -53,7 +53,7 @@ SEARCH Lab이 위치한 한국항공우주연구원은 [국가보안 ‘나’�
   <h2 id="contact-location-title">찾아오시는 길</h2>
   <div class="contact-location-grid">
     <div class="contact-location-info">
-      <p class="contact-location-name">UST 한국항공우주연구원 캠퍼스</p>
+      <p class="contact-location-name">UST 한국항공우주연구원 스쿨</p>
       <address>대전광역시 유성구 과학로 169-84<br>한국항공우주연구원 · 우편번호 34133</address>
       <p class="contact-visit-note">방문을 원하시면 먼저 이메일로 일정을 협의해 주세요. 연구원 출입은 사전 신청이 필요합니다.</p>
       <a class="action-button" href="https://map.kakao.com/link/to/한국항공우주연구원,36.37553137609033,127.35476898110238" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">{% include icon.html icon="fa-solid fa-map-location-dot" %}</span>카카오맵 길찾기</a>

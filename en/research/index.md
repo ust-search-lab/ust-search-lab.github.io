@@ -24,7 +24,7 @@ SEARCH Lab builds on astrodynamics and dynamical systems theory to design **spac
 
 {% include section.html %}
 
-## Core Theories and Methods {#methods}
+## Core theories and methods {#methods}
 
 <div class="research-methods" markdown="1">
 
@@ -48,7 +48,7 @@ SEARCH Lab builds on astrodynamics and dynamical systems theory to design **spac
 
 {% include section.html %}
 
-## Research Applications {#applications}
+## Research applications {#applications}
 
 We apply these core theories and methods across six areas, addressing the mission environments and technology requirements specific to each.
 
@@ -60,7 +60,7 @@ We design Earth-orbit missions for observation, communications, and technology d
 - Regional coverage, revisit intervals, and ground station contact opportunities
 - Long-term orbit propagation and maintenance strategies accounting for Earth's nonspherical gravity and atmospheric drag
 
-#### Satellite Constellation Design {#earth-constellation}
+#### Satellite constellation design {#earth-constellation}
 
 For missions involving multiple satellites, we design satellite count, orbital plane configuration, and satellite phasing together. We optimize the constellation by analyzing trade-offs among observation and communications performance, propellant use, and operational effort, and assess long-term performance under orbital perturbations and orbit maintenance maneuvers.
 
@@ -85,7 +85,7 @@ We design lunar and planetary exploration missions, including lunar landers and 
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
 
-#### Planetary Entry, Descent, and Landing {#edl}
+#### Planetary entry, descent, and landing {#edl}
 
 We study how spacecraft enter an atmosphere, slow down, and land safely on planets such as Mars. Our work examines how atmospheric and aerothermodynamic conditions, parachute deployment, and guidance and control affect the trajectory and landing accuracy.
 
@@ -96,7 +96,7 @@ We study how spacecraft enter an atmosphere, slow down, and land safely on plane
 
 {% include research-figure.html topic="edl" caption="Representative stages of Mars entry, descent, and landing. Atmospheric entry, parachute deceleration, final descent, and touchdown are designed together; the specific approach varies by mission." alt="A sequence showing atmospheric entry at Mars, parachute deceleration, final descent, and touchdown on the surface." %}
 
-#### Earth Re-entry and Thermal Protection Systems {#reentry}
+#### Earth re-entry and thermal protection systems {#reentry}
 
 We analyze aerodynamic heating and deceleration loads as spacecraft and sample return capsules enter Earth's atmosphere at high speed. We study how to design and verify heat shields and other thermal protection systems by considering re-entry trajectories and thermal environments together.
 
@@ -120,13 +120,13 @@ Solar sails generate thrust from solar radiation pressure as sunlight transfers 
 
 {% include research-figure.html topic="solar-sail" caption="Sunlight transfers momentum to a sail, producing thrust. The right panel shows an ideal, perfectly reflecting sail in cross-section; sail orientation affects the magnitude and direction of thrust." alt="A deployed solar sail and a cross-section of an ideal reflective sail, showing incident and reflected light and thrust normal to the sail surface." %}
 
-#### Integrated Attitude and Orbit Control {#integrated-attitude-orbit-control}
+#### Integrated attitude and orbit control {#integrated-attitude-orbit-control}
 
 We aim to combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.
 
 Related prior work: [Indirect methods for deep-learning-based solar-sail optimal control (2025, Korean)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
 
-#### Solar Sail Deployment Mechanism: Development and Ground Tests {#solar-sail-ground-test}
+#### Solar sail deployment mechanism: development and ground tests {#solar-sail-ground-test}
 
 The Korea Aerospace Research Institute (KARI) developed a ground test model with a 10 m × 10 m (100 m²) sail to advance solar sail deployment technology for deep-space exploration. A motor extends four supporting booms to unfurl the stowed membrane. Ground tests identified deployment problems and opportunities for improvement. The videos show the test model deploying from overhead and side views.
 
@@ -137,7 +137,7 @@ Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/articl
 {% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="Solar sail deployment · side view (22 s clip)" %}
 </div>
 
-#### Deorbiter for Space Debris Removal: Development and Ground Tests {#deorbiter-ground-test}
+#### Deorbiter for space debris removal: development and ground tests {#deorbiter-ground-test}
 
 KARI developed a ground test model of a deorbiter to investigate technologies for capturing and removing debris from low Earth orbit. It combines towing, capture, and deployment mechanisms. The concept uses a 5 m × 5 m (25 m²) drag sail to increase atmospheric drag and bring captured objects toward re-entry. The videos show ground tests of the drag-sail deployment function.
 

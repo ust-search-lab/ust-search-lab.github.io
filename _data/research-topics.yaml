@@ -8,7 +8,7 @@ methods:
         중력과 궤도섭동을 반영한 정밀 모델로 위성·탐사선의 운동을 예측하고 궤도를 전파합니다.
         지구궤도에서의 위성 배치와 궤도유지, 달·행성 전이와 궤도삽입 등 기동 전략의 실현 가능성과 성능을 임무 조건에 맞춰 평가합니다.
     en:
-      title: Astrodynamics and High-Fidelity Orbit Analysis
+      title: Astrodynamics and high-fidelity orbit analysis
       study: The two-body problem, orbital elements, orbital transfers and perturbations, satellite orbit analysis, and spacecraft trajectory design
       summary: >-
         We predict spacecraft motion and propagate orbits using high-fidelity models of gravity and orbital perturbations.
@@ -22,7 +22,7 @@ methods:
         원제한 삼체문제 등 다체계 모델의 주기궤도·불변다양체와 안정성에 주목합니다.
         이러한 동역학적 구조를 활용해 저에너지 전이와 비케플러 궤도의 설계공간을 탐색하고, 정밀 궤도모델을 이용한 후속 설계의 초기해를 구성하고자 합니다.
     en:
-      title: Dynamical Systems and Multi-Body Astrodynamics
+      title: Dynamical systems and multi-body astrodynamics
       study: The three-body problem, periodic orbits and stability, and low-energy transfers
       summary: >-
         We focus on periodic orbits, invariant manifolds, and stability in multi-body models such as the circular restricted three-body problem.
@@ -37,7 +37,7 @@ methods:
         수치최적화와 최적제어로 임무 제약을 만족하는 궤도·궤적과 유도 명령을 설계합니다.
         비선형·강인 피드백 제어의 적용을 검토하고, 편대비행·저추력 전이·행성 착륙의 추종 성능, 추진제 소모, 불확실성에 대한 강건성을 분석합니다.
     en:
-      title: Guidance, Control, and Numerical Optimization
+      title: Guidance, control, and numerical optimization
       study: Trajectory optimization, optimal control, feedback control, and performance analysis under uncertainty
       summary: >-
         We use numerical optimization and optimal control to design orbits, trajectories, and guidance commands within mission constraints.
@@ -51,7 +51,7 @@ methods:
         위성·탐사선의 회전 운동과 외란 토크를 모델링하고, 임무에 필요한 지향 정확도와 자세 안정성을 분석합니다.
         태양복사압·중력경사·공력과 구동기 제약을 고려해 자세 기동·안정화 방안을 검토하며, 궤도 운동과의 연성 해석으로 확장합니다.
     en:
-      title: Attitude Dynamics and Control
+      title: Attitude dynamics and control
       study: Rotational motion and attitude representations, disturbance torques and actuator constraints, and coupled orbit and attitude analysis
       summary: >-
         We model spacecraft rotational motion and disturbance torques, analyzing pointing accuracy and attitude stability for mission requirements.
@@ -65,7 +65,7 @@ methods:
         물리 모델·수치최적화와 딥러닝을 결합해 궤적·제어 명령의 예측과 계산 효율 개선을 연구합니다.
         최적제어 해를 기준으로 학습 모델의 정확도와 제약조건 만족 여부를 평가하고, 학습 범위 밖에서의 성능과 강화학습 등 자율제어 기법의 적용 가능성을 검토합니다.
     en:
-      title: AI and Machine Learning Applications
+      title: AI and machine learning applications
       study: Training data preparation, control command prediction, and validation of accuracy and generalization against physical models
       summary: >-
         We explore combining physical models and numerical optimization with deep learning to predict trajectories and control commands and improve computational efficiency.
@@ -79,7 +79,7 @@ methods:
         임무 목표를 시스템 요구조건과 운용개념으로 구체화하고, 궤도·자세·추진·통신·운용 조건을 통합해 임무 시나리오를 수립합니다.
         지구궤도 임무부터 심우주 탐사까지 설계 대안의 성능·자원·위험을 비교하고, 임무 전체의 실현 가능성과 기술실증 방안을 평가합니다.
     en:
-      title: Mission Architecture and Systems Analysis
+      title: Mission architecture and systems analysis
       study: Mission architecture, spacecraft systems, mission requirements analysis, and concepts of operations
       summary: >-
         We translate mission objectives into system requirements and concepts of operations, integrating orbital, attitude, propulsion, communications, and operational constraints.
@@ -90,40 +90,40 @@ applications:
       title: 지구궤도 임무설계
       summary: 지구관측·통신·기술실증을 위한 위성의 궤도와 운용 시나리오를 설계하고, 군집위성의 배치와 관측·통신 성능을 분석합니다.
     en:
-      title: Earth-Orbit Mission Design
+      title: Earth-orbit mission design
       summary: We design satellite orbits and operations for Earth observation, communications, and technology demonstration, including constellation configurations and observation and communications performance.
   - id: planetary
     ko:
       title: 달·행성 탐사 임무설계
       summary: 달·행성 탐사의 목표에 맞는 궤도와 착륙지를 검토하고 관측·통신 조건을 반영한 임무와 운용 시나리오를 설계합니다.
     en:
-      title: Lunar and Planetary Mission Design
+      title: Lunar and planetary mission design
       summary: We design lunar and planetary missions by assessing orbits, landing sites, observation opportunities, and communications geometry to develop operations scenarios.
   - id: entry-systems
     ko:
       title: 대기권 진입·착륙과 열보호
       summary: 행성의 진입·하강·착륙과 지구 재진입을 함께 다루며 궤적, 감속하중, 열환경과 열보호시스템을 연구합니다.
     en:
-      title: Atmospheric Entry, Landing, and Thermal Protection
+      title: Atmospheric entry, landing, and thermal protection
       summary: We study planetary entry, descent, and landing alongside Earth re-entry, examining trajectories, deceleration loads, thermal environments, and thermal protection systems.
   - id: solar-sail
     ko:
       title: 태양돛과 심우주 탐사
       summary: 태양복사압에 의한 추력과 돛 자세의 관계를 분석해 장기 궤적과 미래 심우주 탐사·우주실증 임무를 설계합니다.
     en:
-      title: Solar Sails and Deep-Space Exploration
+      title: Solar sails and deep-space exploration
       summary: We study solar radiation pressure and sail attitude to design long-duration trajectories and plan future deep-space exploration and in-space demonstration missions.
   - id: optical-communications
     ko:
       title: 심우주 광통신
       summary: 탐사선의 궤적·자세와 지상국 환경을 고려해 광통신 성능, 시스템 요구조건과 운용 방안을 연구하고자 합니다.
     en:
-      title: Deep-Space Optical Communications
+      title: Deep-space optical communications
       summary: We aim to study optical link performance, system requirements, and operations under spacecraft trajectory, attitude, and ground station environmental constraints.
   - id: cubesat
     ko:
       title: 큐브샛 개발과 우주실증
       summary: 임무설계부터 지상시험과 궤도상 운용까지의 개발 과정을 다루며 큐브샛을 통한 기술 검증 방법을 연구합니다.
     en:
-      title: CubeSat Development and In-Space Demonstration
+      title: CubeSat development and in-space demonstration
       summary: We study CubeSat technology demonstration methods across the development process, from mission design and ground testing to in-orbit operations.

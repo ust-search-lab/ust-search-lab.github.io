@@ -14,11 +14,11 @@ An overview of foundational study, the research process, and goals for each degr
 
 {% include section.html %}
 
-## Research Goals and Supervision
+## Research goals and supervision
 
 SEARCH Lab guides students in defining and solving space mission design problems independently. Students begin with theory and practical analysis, then compare designs against mission requirements and assess their feasibility.
 
-## Foundational Study and Practical Analysis
+## Foundational study and practical analysis
 
 Students begin with theory and analytical methods suited to their background and interests. Study covers the areas below, with topics and their sequence adjusted to the student's research.
 
@@ -30,7 +30,7 @@ Students use Python, MATLAB, STK, and GMAT as appropriate to the problem. They l
 
 {% include ai-coding-guide-link.html %}
 
-## Choosing and Developing a Research Topic
+## Choosing and developing a research topic
 
 Students choose a topic with their advisor, considering their interests, preparation, the lab's research direction, and available projects. They draw on the lab's [core theories and methods]({{ '/en/research/' | relative_url }}#methods) to identify research questions in the areas below.
 
@@ -44,13 +44,13 @@ In [attitude dynamics and control]({{ '/en/research/' | relative_url }}#attitude
 
 Once a topic is selected, students review the literature and carry out preliminary analysis to set their objectives and performance metrics. They build analytical and simulation models, examine how design variables affect performance, and document their findings, including validation and limitations.
 
-## Research Projects and In-Space Demonstration
+## Research projects and in-space demonstration
 
 Student researchers work on topics linked to national R&D programs and deep-space exploration projects at the Korea Aerospace Research Institute (KARI). Depending on their research topic and the project schedule, they contribute to mission design, systems analysis, performance verification, flight operations concepts, simulation models, and technical documentation.
 
 For CubeSat-class satellites and in-space demonstration missions, students take part in hardware fabrication, ground environmental testing, operational scenario development, and in-orbit performance verification. Their involvement depends on the development stage and their assigned work. They learn how design and analysis inform fabrication, testing, and operations.
 
-## Research Goals by Degree
+## Research goals by degree
 
 Research scope and depth vary by degree, with the following goals.
 
@@ -64,37 +64,37 @@ Writing guidance is grounded in research ethics, including proper citation and a
 
 {% include section.html %}
 
-## Textbooks and Reference Materials
+## Textbooks and reference materials
 
 The textbooks and papers below are references for foundational study and research. Students select readings according to their background and research topic.
 
 Textbooks include a print ISBN-13, a book information link, and an Amazon search link. Papers and online resources link to a DOI or the original source.
 
-### Orbital Mechanics and Astrodynamics
+### Orbital mechanics and astrodynamics
 
 {% include references/astrodynamics.md %}
 
-### Space Mission Design and Systems Engineering
+### Space mission design and systems engineering
 
 {% include references/mission-design.md %}
 
-### Optimization and Optimal Control
+### Optimization and optimal control
 
 {% include references/optimal-control.md %}
 
-### Planetary Entry, Descent, and Landing
+### Planetary entry, descent, and landing
 
 {% include references/edl.md %}
 
-### Solar Sails and Low-Thrust Deep-Space Missions
+### Solar sails and low-thrust deep-space missions
 
 {% include references/solar-sail.md %}
 
-### Deep-Space Optical Communications
+### Deep-space optical communications
 
 {% include references/optical-communications.md %}
 
-### Space Agency Technical Documents and Research Papers
+### Space agency technical documents and research papers
 
 {:start="22"}
 22. Mission design documents, technical reports, system requirements documents, and related research papers from space agencies such as NASA, ESA, JAXA, and KARI.

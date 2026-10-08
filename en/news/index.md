@@ -21,7 +21,7 @@ Announcements and news from SEARCH Lab.
 No news yet.
 {: .page-empty }
 {% else %}
-## Latest News
+## Latest news
 
 {% include search-box.html %}
 
