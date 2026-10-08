@@ -21,9 +21,6 @@
     </div>
   {% endif %}
   <div class="publication-entry-details">
-    {% if include.researcher and publication_entry.researcher_affiliations[include.researcher] %}
-      <span>{% if include.lang == "en" %}Affiliation: {% else %}연구 당시 소속: {% endif %}{{ publication_entry.researcher_affiliations[include.researcher] | escape }}</span>
-    {% endif %}
     {% if publication_entry.subtype == "magazine" %}
       <span class="publication-scope">{% if include.lang == "en" %}Magazine feature{% else %}전문지 기고{% endif %}</span>
     {% elsif publication_entry.subtype == "trademark" %}
