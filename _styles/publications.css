@@ -54,6 +54,7 @@
 }
 
 .publication-category h2,
+.publication-category > h3,
 .publication-status-heading {
   display: flex;
   align-items: center;
