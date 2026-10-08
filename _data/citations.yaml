@@ -1,10 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: doi:10.5140/JASS.2021.38.3.185
-  title: ''
-  authors: []
-  publisher: ''
-  date: ''
+  title: Practical Algorithms on Lunar Reference Frame Transformations for Korea Pathfinder
+    Lunar Orbiter Flight Operation
+  authors:
+  - Young-Joo Song
+  - Donghun Lee
+  - Young-Rok Kim
+  - Jonghee Bae
+  - Jae-ik Park
+  - SeungBum Hong
+  - Dae-Kwan Kim
+  - Sang-Ryool Lee
+  publisher: Journal of Astronomy and Space Sciences
+  date: '2021-09-01'
   link: https://doi.org/hcmd28
   category: journal
   orcid: 0000-0001-6227-0442
