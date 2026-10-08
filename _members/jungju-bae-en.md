@@ -9,10 +9,10 @@ image_position: center 20%
 role: collaborator
 order: 2
 description: Collaborator
-affiliation: Korea Aerospace Research Institute · Space Exploration Center · Space Exploration Team
+affiliation: Korea Aerospace Research Institute · Space Exploration Team
 appointments:
   - Senior Researcher, Korea Aerospace Research Institute (KARI)
-  - Space Exploration Team, Space Exploration Center
+  - Space Exploration Team
 summary: >-
   Dr. Bae studies spacecraft dynamics and space exploration mission and system design, grounded in dynamics and control in mechanical engineering.
 aliases:
@@ -35,5 +35,5 @@ Doctoral research focused on the orbital and attitude dynamics, stability, and c
 ## Selected Experience
 
 {:.profile-timeline}
-- <span class="timeline-period">December 2025–Present</span> <span class="timeline-title">Senior Researcher, Korea Aerospace Research Institute (KARI)</span> <span class="timeline-detail">Space Exploration Team, Space Exploration Center, Satellite and Space Exploration Research Directorate</span>
+- <span class="timeline-period">December 2025–Present</span> <span class="timeline-title">Senior Researcher, Korea Aerospace Research Institute (KARI)</span> <span class="timeline-detail">Space Exploration Team, Satellite and Space Exploration Research Directorate</span>
 - <span class="timeline-period">August 2025–December 2025</span> <span class="timeline-title">Postdoctoral Researcher, Korea Institute of Machinery &amp; Materials (KIMM)</span> <span class="timeline-detail">Acoustics Team, AX Convergence Research Center</span>

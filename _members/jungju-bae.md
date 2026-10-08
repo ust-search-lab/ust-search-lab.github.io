@@ -9,9 +9,9 @@ image_position: center 20%
 role: collaborator
 order: 2
 description: 협력 연구원
-affiliation: 한국항공우주연구원 · 우주탐사연구센터 우주탐사팀
+affiliation: 한국항공우주연구원 · 우주탐사팀
 appointments:
-  - 한국항공우주연구원 선임연구원 · 우주탐사연구센터 우주탐사팀
+  - 한국항공우주연구원 선임연구원 · 우주탐사팀
 summary: >-
   기계공학의 동역학 및 제어를 기반으로 우주비행체의 동적 거동과 우주탐사 임무 및 시스템 설계를 연구합니다.
 aliases:
@@ -34,5 +34,5 @@ aliases:
 ## 주요 경력
 
 {:.profile-timeline}
-- <span class="timeline-period">2025.12–현재</span> <span class="timeline-title">한국항공우주연구원 선임연구원</span> <span class="timeline-detail">위성우주탐사연구소 우주탐사연구센터 우주탐사팀</span>
+- <span class="timeline-period">2025.12–현재</span> <span class="timeline-title">한국항공우주연구원 선임연구원</span> <span class="timeline-detail">위성우주탐사연구소 우주탐사팀</span>
 - <span class="timeline-period">2025.08–2025.12</span> <span class="timeline-title">한국기계연구원 박사후연구원</span> <span class="timeline-detail">AX융합연구센터 음향팀</span>
