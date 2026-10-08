@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-07T22:34:42+09:00",
+  "updated_at": "2026-10-08T10:32:16+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,28 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-07T22:34:42+09:00",
+      "last_success_at": "2026-10-08T10:32:16+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g009769",
+          "url": "https://doi.org/10.2514/1.g009769",
+          "title": "Explainable Stability Certification of Reinforcement Learning Control Policies Using Sparse Dynamics Identification",
+          "authors": [
+            "Andrea Scorsoglio",
+            "Andrea D’Ambrosio",
+            "Roberto Furfaro"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-07",
+          "date_type": "published-online",
+          "topics": [
+            "control",
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.g009818",
           "url": "https://doi.org/10.2514/1.g009818",
@@ -225,26 +244,6 @@
             "astrodynamics",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.g010096",
-          "url": "https://doi.org/10.2514/1.g010096",
-          "title": "Covariance Steering for Powered-Descent Guidance with Embedded Navigation and Tracking",
-          "authors": [
-            "Yizheng Xiao",
-            "Youmin Gong",
-            "Jie Mei",
-            "Guangfu Ma",
-            "Weiren Wu"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-09-12",
-          "date_type": "published-online",
-          "topics": [
-            "entry"
-          ]
         }
       ]
     },
@@ -258,9 +257,29 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-07T22:34:42+09:00",
+      "last_success_at": "2026-10-08T10:32:16+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.a36819",
+          "url": "https://doi.org/10.2514/1.a36819",
+          "title": "Robust Angles-Only Tracking of Cislunar Noncooperative Maneuvering Targets with Observation Gaps",
+          "authors": [
+            "Wendi Luo",
+            "Hongwei Yang",
+            "Shuang Li",
+            "Xiaowen Duan"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-10-07",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.a36799",
           "url": "https://doi.org/10.2514/1.a36799",
@@ -489,25 +508,6 @@
             "control",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.a36691",
-          "url": "https://doi.org/10.2514/1.a36691",
-          "title": "Euler–Lagrangian Multiphysics Coupling Framework for Particle-Laden High-Speed Flows",
-          "authors": [
-            "Hyeon Woo Nam",
-            "Tae Woong Jeong",
-            "Gisu Park",
-            "Sung Min Jo"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-09-03",
-          "date_type": "published-online",
-          "topics": [
-            "entry"
-          ]
         }
       ]
     },
@@ -520,7 +520,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-07T22:34:42+09:00",
+      "last_success_at": "2026-10-08T10:32:16+09:00",
       "status": "ok",
       "items": [
         {
@@ -760,6 +760,45 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g009769",
+      "url": "https://doi.org/10.2514/1.g009769",
+      "title": "Explainable Stability Certification of Reinforcement Learning Control Policies Using Sparse Dynamics Identification",
+      "authors": [
+        "Andrea Scorsoglio",
+        "Andrea D’Ambrosio",
+        "Roberto Furfaro"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-07",
+      "date_type": "published-online",
+      "topics": [
+        "control",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36819",
+      "url": "https://doi.org/10.2514/1.a36819",
+      "title": "Robust Angles-Only Tracking of Cislunar Noncooperative Maneuvering Targets with Observation Gaps",
+      "authors": [
+        "Wendi Luo",
+        "Hongwei Yang",
+        "Shuang Li",
+        "Xiaowen Duan"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-10-07",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
     {
       "doi": "10.2514/1.g009818",
       "url": "https://doi.org/10.2514/1.g009818",
@@ -1327,26 +1366,6 @@
       ]
     },
     {
-      "doi": "10.2514/1.g010096",
-      "url": "https://doi.org/10.2514/1.g010096",
-      "title": "Covariance Steering for Powered-Descent Guidance with Embedded Navigation and Tracking",
-      "authors": [
-        "Yizheng Xiao",
-        "Youmin Gong",
-        "Jie Mei",
-        "Guangfu Ma",
-        "Weiren Wu"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-09-12",
-      "date_type": "published-online",
-      "topics": [
-        "entry"
-      ]
-    },
-    {
       "doi": "10.2514/1.a36648",
       "url": "https://doi.org/10.2514/1.a36648",
       "title": "Quasi-Periodic Motion Around Short-Period Orbits for Cislunar Applications",
@@ -1447,25 +1466,6 @@
         "astrodynamics",
         "control",
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36691",
-      "url": "https://doi.org/10.2514/1.a36691",
-      "title": "Euler–Lagrangian Multiphysics Coupling Framework for Particle-Laden High-Speed Flows",
-      "authors": [
-        "Hyeon Woo Nam",
-        "Tae Woong Jeong",
-        "Gisu Park",
-        "Sung Min Jo"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-09-03",
-      "date_type": "published-online",
-      "topics": [
-        "entry"
       ]
     }
   ]
