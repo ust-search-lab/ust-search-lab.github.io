@@ -76,7 +76,7 @@ jobs:
       - name: Commit verified metadata
         id: commit
         run: |
-          git add _data/auto-publications.yaml
+          git add _data/auto-publications.yaml _data/publication-refresh.json
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0

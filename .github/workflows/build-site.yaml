@@ -26,12 +26,18 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ".ruby-version"
           bundler-cache: true
+
+      - name: Verify publication rendering and update times
+        run: |
+          bundle exec ruby _publications/test_merge.rb
+          bundle exec ruby _publications/test_freshness.rb
 
       - name: Get Pages URL
         id: pages

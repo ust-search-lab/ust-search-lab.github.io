@@ -1,0 +1,16 @@
+{% assign freshness_lang = include.lang | default: page.lang | default: 'ko' %}
+{% assign freshness_id = include.researcher | default: 'jae-ik-park' %}
+{% assign freshness_check = site.data.publication-refresh[freshness_id] %}
+{% assign freshness_update = site.data.publication-update-times[freshness_id] %}
+<div class="publication-freshness">
+  <p>
+    <span>{% if freshness_lang == 'en' %}Last checked{% else %}최근 자동 확인{% endif %}: {% if freshness_check.last_checked_at %}<time datetime="{{ freshness_check.last_checked_at | escape }}">{{ freshness_check.last_checked_at | publication_time_kst }}</time>{% else %}{% if freshness_lang == 'en' %}Not yet checked{% else %}확인 이력 없음{% endif %}{% endif %}</span>
+    {% if freshness_update %}<span>{% if freshness_lang == 'en' %}Outputs last changed{% else %}최근 실적 변경{% endif %}: <time datetime="{{ freshness_update | escape }}">{{ freshness_update | publication_time_kst }}</time></span>{% endif %}
+  </p>
+  <p>{% if freshness_lang == 'en' %}Public sources are checked daily. The check time advances even when no new outputs are found.{% else %}공개 자료를 매일 자동 확인합니다. 새 실적이 없어도 확인 시각은 갱신됩니다.{% endif %}</p>
+  {% if freshness_check.status == 'failed' %}
+    <p>{% if freshness_lang == 'en' %}The latest check failed; previously verified outputs are retained.{% else %}최근 자동 확인에 실패하여 이전에 확인된 실적을 유지하고 있습니다.{% endif %}</p>
+  {% elsif freshness_check.status == 'partial' %}
+    <p>{% if freshness_lang == 'en' %}Some sources were unavailable during the latest check; existing outputs are retained.{% else %}최근 확인에서 일부 출처에 접근하지 못했습니다. 기존 실적은 유지됩니다.{% endif %}</p>
+  {% endif %}
+</div>

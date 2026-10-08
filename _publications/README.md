@@ -67,8 +67,9 @@ in curated data. The registered status and grant number can still update.
 ## Behavior
 
 - At approximately **09:37 KST daily**, the workflow tests collection, refreshes
-  metadata, uploads a review artifact, commits `_data/auto-publications.yaml`, and
-  invokes site deployment when records change. The original weekly PI ORCID
+  metadata, uploads a review artifact, commits `_data/auto-publications.yaml` and
+  `_data/publication-refresh.json`, and invokes site deployment. A successful check
+  updates the public check time even when no new records are found. The original weekly PI ORCID
   citation workflow and Research Radar remain separate.
 - Each researcher/source pair receives a reserved share of the total request
   budget. A prolific first researcher or unavailable source cannot consume later
@@ -94,12 +95,32 @@ in curated data. The registered status and grant number can still update.
   published. `_publications/review.json` is gitignored/excluded from Jekyll;
   `publication-review` artifacts retain candidates for 30 days.
 
+## Public freshness indicators
+
+Publications and personal research-output views show two separate times in KST:
+
+- **Last checked** comes from the collector's completed check, scoped by researcher.
+  At least one personal source must return successfully; empty results count as a
+  check, while a failed personal check retains the prior successful time. A shared
+  software search alone does not advance every researcher's time. Individual source
+  failures are disclosed. Bounded searches remain subject to the coverage limits above.
+- **Outputs last changed** is the commit time of the latest change to that person's
+  merged, displayed bibliography, calculated by `_plugins/publication_freshness.rb`.
+  This includes manually curated edits and the separate PI citation pipeline. Checks,
+  audit/provenance-only changes, page rebuilds, and other researchers' private-scope
+  changes do not advance it. Full Git history is fetched for production and previews;
+  missing history or uncommitted content is never replaced with the build time.
+
+The initial check-time snapshot was imported from the successful collector run
+`37732586999`, completed at `2026-10-08T05:32:52.138503+00:00`.
+
 ## Running and reviewing
 
 ```sh
 python -m pip install -r _publications/requirements.txt
 python -m unittest discover -s _publications -p 'test_*.py'
 bundle exec ruby _publications/test_merge.rb
+bundle exec ruby _publications/test_freshness.rb
 python _publications/update.py
 bundle exec jekyll build
 ```
