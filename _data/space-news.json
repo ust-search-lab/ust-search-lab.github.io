@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-07T22:57:37+09:00",
+  "updated_at": "2026-10-08T10:56:28+09:00",
   "lookback_days": 90,
-  "partial": true,
+  "partial": false,
   "sources": [
     {
       "id": "kari",
@@ -9,7 +9,7 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_success_at": "2026-10-07T22:57:37+09:00",
+      "last_success_at": "2026-10-08T10:56:28+09:00",
       "items": [
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공 new",
@@ -93,7 +93,7 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_success_at": "2026-10-07T22:57:37+09:00",
+      "last_success_at": "2026-10-08T10:56:28+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -254,9 +254,57 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "stale",
-      "last_success_at": "2026-10-05T22:59:53+09:00",
+      "status": "ok",
+      "last_success_at": "2026-10-08T10:56:28+09:00",
       "items": [
+        {
+          "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+          "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+          "date": "2026-10-07",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission"
+          ]
+        },
+        {
+          "title": "Artemis II Crew Moon Photo Annotations",
+          "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+          "date": "2026-10-07",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
+          "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+          "date": "2026-10-07",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+          "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+          "date": "2026-10-07",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
           "url": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
@@ -268,7 +316,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
@@ -281,7 +329,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA Adds New Science Investigations for Moon Base",
@@ -293,8 +341,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
@@ -308,8 +355,7 @@
             "exploration",
             "communications",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
@@ -321,8 +367,7 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory",
@@ -334,8 +379,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
@@ -347,8 +391,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
@@ -360,34 +403,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
-          "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
-          "date": "2026-09-11",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "NASA Calls for Proposals to Accelerate Lunar Surface Technologies",
-          "url": "https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/",
-          "date": "2026-09-08",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     },
@@ -397,7 +413,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-07T22:57:37+09:00",
+      "last_success_at": "2026-10-08T10:56:28+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -506,11 +522,11 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-07T22:57:37+09:00",
+      "last_success_at": "2026-10-08T10:56:28+09:00",
       "items": [
         {
-          "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
-          "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_ESA_s_Flight_Dynamics_team_into_action",
+          "title": "Finding Hera’s way: Flight Dynamics team in action",
+          "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_Flight_Dynamics_team_in_action",
           "date": "2026-10-07",
           "source_id": "esa",
           "source": "ESA",
@@ -523,8 +539,35 @@
           ]
         },
         {
+          "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
+          "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_ESA_s_Flight_Dynamics_team_into_action",
+          "date": "2026-10-07",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration",
+            "demonstration"
+          ],
+          "stale": false
+        },
+        {
           "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
           "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+          "date": "2026-10-07",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "Mars’s oddest cloud may be even odder than we thought",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
           "date": "2026-10-07",
           "source_id": "esa",
           "source": "ESA",
@@ -634,33 +677,8 @@
           "language": "en",
           "topics": [
             "mission"
-          ]
-        },
-        {
-          "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
-          "url": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
-          "date": "2026-09-11",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "satellites"
-          ]
-        },
-        {
-          "title": "CubeSat for safer seas and cleaner orbits ready to launch",
-          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/CubeSat_for_safer_seas_and_cleaner_orbits_ready_to_launch",
-          "date": "2026-09-10",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "satellites"
-          ]
+          ],
+          "stale": false
         }
       ]
     },
@@ -669,8 +687,8 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-10-06T22:57:18+09:00",
+      "status": "ok",
+      "last_success_at": "2026-10-08T10:56:28+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -682,8 +700,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -696,8 +713,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -710,8 +726,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -724,8 +739,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -738,8 +752,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -752,8 +765,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -766,8 +778,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -780,13 +791,36 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+      "date": "2026-10-07",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission"
+      ]
+    },
+    {
+      "title": "Artemis II Crew Moon Photo Annotations",
+      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+      "date": "2026-10-07",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784594",
@@ -855,8 +889,8 @@
       ]
     },
     {
-      "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
-      "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_ESA_s_Flight_Dynamics_team_into_action",
+      "title": "Finding Hera’s way: Flight Dynamics team in action",
+      "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_Flight_Dynamics_team_in_action",
       "date": "2026-10-07",
       "source_id": "esa",
       "source": "ESA",
@@ -869,11 +903,62 @@
       ]
     },
     {
+      "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
+      "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_ESA_s_Flight_Dynamics_team_into_action",
+      "date": "2026-10-07",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration",
+        "demonstration"
+      ],
+      "stale": false
+    },
+    {
       "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
       "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
       "date": "2026-10-07",
       "source_id": "esa",
       "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Mars’s oddest cloud may be even odder than we thought",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
+      "date": "2026-10-07",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+      "date": "2026-10-07",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+      "date": "2026-10-07",
+      "source_id": "nasa",
+      "source": "NASA",
       "region": "international",
       "language": "en",
       "topics": [
@@ -939,7 +1024,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
@@ -952,7 +1037,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -988,8 +1073,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Science begins for Smile",
@@ -1029,8 +1113,7 @@
         "exploration",
         "communications",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -1078,8 +1161,7 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -1168,8 +1250,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Juice to fly past Earth for third gravity assist",
@@ -1181,7 +1262,8 @@
       "language": "en",
       "topics": [
         "mission"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -1205,8 +1287,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -1243,21 +1324,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
-    },
-    {
-      "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
-      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
-      "date": "2026-09-11",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
@@ -1268,32 +1335,6 @@
       "region": "domestic",
       "language": "ko",
       "topics": [
-        "satellites"
-      ]
-    },
-    {
-      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
-      "url": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
-      "date": "2026-09-11",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
-        "satellites"
-      ]
-    },
-    {
-      "title": "CubeSat for safer seas and cleaner orbits ready to launch",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/CubeSat_for_safer_seas_and_cleaner_orbits_ready_to_launch",
-      "date": "2026-09-10",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
         "satellites"
       ]
     },
@@ -1310,19 +1351,6 @@
       ]
     },
     {
-      "title": "NASA Calls for Proposals to Accelerate Lunar Surface Technologies",
-      "url": "https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/",
-      "date": "2026-09-08",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": true
-    },
-    {
       "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
       "url": "https://global.jaxa.jp/press/2026/09/20260902-1_e.html",
       "date": "2026-09-02",
@@ -1332,8 +1360,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1383,8 +1410,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1397,8 +1423,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1411,8 +1436,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1425,8 +1449,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1478,8 +1501,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1492,8 +1514,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1506,8 +1527,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     }
   ]
 }
