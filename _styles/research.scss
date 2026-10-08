@@ -94,10 +94,6 @@
     text-align: left;
   }
 
-  figcaption a {
-    flex-shrink: 0;
-  }
-
   .research-figure-credit {
     display: block;
     margin-top: 2px;
@@ -167,11 +163,6 @@
   figcaption {
     display: block;
     margin-top: 0;
-  }
-
-  figcaption > a {
-    display: inline-block;
-    margin-top: 6px;
   }
 }
 
