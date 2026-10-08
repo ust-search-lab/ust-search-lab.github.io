@@ -147,9 +147,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       <path d="M-8-7L-15 0H-20 M8-7L15 0H20 M0-17V-25" fill="none" stroke="#183153" stroke-width="2" stroke-linecap="round"/>
       <circle cx="0" cy="-25" r="3" fill="#A76112"/>
     </g>
-    <path d="M661 161L703 133" fill="none" stroke="#A76112" stroke-width="1.8"/>
-    <rect x="708" y="108" width="179" height="26" rx="4" fill="#F7F9FC"/>
-    <text x="715" y="130" font-size="20" font-weight="600" fill="#A76112">Surface explorer</text>
+    <!-- Label sits above the orbit ellipse (top at y = 120) so the dashed orbit stays unbroken. -->
+    <path d="M661 161L716 106" fill="none" stroke="#A76112" stroke-width="1.8"/>
+    <text x="722" y="102" font-size="20" font-weight="600" fill="#A76112">Surface explorer</text>
     <path d="M647.0331 216.1919L622 261H442" fill="none" stroke="#008D96" stroke-width="1.8" stroke-linejoin="round"/>
     <rect x="436" y="264" width="217" height="28" rx="4" fill="#F7F9FC"/>
     <text x="442" y="285" font-size="20" font-weight="500" fill="#008D96">Observation footprint</text>
