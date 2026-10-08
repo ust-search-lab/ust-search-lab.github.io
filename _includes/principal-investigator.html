@@ -53,6 +53,7 @@
         <a class="action-button" href="{{ profile_publications_url | relative_url }}">{{ profile_publications_label }}</a>
       {% elsif profile_member.url %}
         <a class="action-button" href="{{ profile_member.url | relative_url | uri_escape }}" aria-label="{{ profile_member.name | escape }} · {{ profile_detail_label }}">{{ profile_detail_label }}</a>
+        <a class="action-button" href="{{ profile_publications_url | relative_url }}" aria-label="{{ profile_member.name | escape }} · {{ profile_publications_label }}">{{ profile_publications_label }}</a>
       {% endif %}
     </div>
   </div>
