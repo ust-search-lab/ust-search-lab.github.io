@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T22:58:25+09:00",
+  "updated_at": "2026-10-09T10:56:48+09:00",
   "lookback_days": 90,
-  "partial": false,
+  "partial": true,
   "sources": [
     {
       "id": "kari",
@@ -9,7 +9,7 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_success_at": "2026-10-08T22:58:25+09:00",
+      "last_success_at": "2026-10-09T10:56:48+09:00",
       "items": [
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공 new",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "title": "누리호 5호기, 발사대로 이송 시작 new",
+          "title": "누리호 5호기, 발사대로 이송 시작",
           "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18726",
           "date": "2026-10-06",
           "source_id": "kari",
@@ -93,7 +93,7 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_success_at": "2026-10-08T22:58:25+09:00",
+      "last_success_at": "2026-10-09T10:56:48+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -254,7 +254,7 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "ok",
+      "status": "stale",
       "last_success_at": "2026-10-08T22:58:25+09:00",
       "items": [
         {
@@ -267,7 +267,8 @@
           "language": "en",
           "topics": [
             "mission"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Artemis II Crew Moon Photo Annotations",
@@ -279,7 +280,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
@@ -291,7 +293,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
@@ -303,7 +306,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
@@ -316,7 +320,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
@@ -329,7 +333,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Adds New Science Investigations for Moon Base",
@@ -341,7 +345,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
@@ -355,7 +360,8 @@
             "exploration",
             "communications",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
@@ -367,7 +373,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory",
@@ -379,7 +386,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
@@ -391,7 +399,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
@@ -403,7 +412,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         }
       ]
     },
@@ -413,7 +423,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-08T22:58:25+09:00",
+      "last_success_at": "2026-10-09T10:56:48+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -498,7 +508,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
@@ -522,7 +533,7 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-08T22:58:25+09:00",
+      "last_success_at": "2026-10-09T10:56:48+09:00",
       "items": [
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -687,7 +698,7 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "ok",
+      "status": "stale",
       "last_success_at": "2026-10-08T22:58:25+09:00",
       "items": [
         {
@@ -700,7 +711,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -713,7 +725,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -726,7 +739,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -739,7 +753,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -752,7 +767,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -765,7 +781,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -778,7 +795,8 @@
           "topics": [
             "mission",
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -791,7 +809,8 @@
           "topics": [
             "mission",
             "exploration"
-          ]
+          ],
+          "stale": true
         }
       ]
     }
@@ -807,7 +826,8 @@
       "language": "en",
       "topics": [
         "mission"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Artemis II Crew Moon Photo Annotations",
@@ -819,7 +839,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -951,7 +972,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
@@ -963,7 +985,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -979,18 +1002,6 @@
     },
     {
       "title": "누리호 5호기, 발사대로 이송 시작",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784408",
-      "date": "2026-10-06",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "demonstration"
-      ]
-    },
-    {
-      "title": "누리호 5호기, 발사대로 이송 시작 new",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18726",
       "date": "2026-10-06",
       "source_id": "kari",
@@ -1024,7 +1035,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
@@ -1037,7 +1048,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -1073,7 +1084,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Science begins for Smile",
@@ -1113,7 +1125,8 @@
         "exploration",
         "communications",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -1161,7 +1174,8 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -1250,7 +1264,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Juice to fly past Earth for third gravity assist",
@@ -1287,7 +1302,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -1324,7 +1340,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
@@ -1360,7 +1377,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1410,7 +1428,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1423,7 +1442,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1436,7 +1456,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1449,7 +1470,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1474,7 +1496,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
@@ -1501,7 +1524,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1514,7 +1538,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1527,7 +1552,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
+      ],
+      "stale": true
     }
   ]
 }
