@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-10T10:55:45+09:00",
+  "updated_at": "2026-10-10T22:54:17+09:00",
   "lookback_days": 90,
-  "partial": true,
+  "partial": false,
   "sources": [
     {
       "id": "kari",
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "stale",
-      "last_success_at": "2026-10-09T22:58:54+09:00",
+      "status": "ok",
+      "last_success_at": "2026-10-10T22:54:17+09:00",
       "items": [
         {
-          "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공 new",
+          "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공",
           "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18729",
           "date": "2026-10-07",
           "source_id": "kari",
@@ -22,11 +22,10 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
-          "title": "누리호 5차, 발사 시각 확정 new",
+          "title": "누리호 5차, 발사 시각 확정",
           "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18728",
           "date": "2026-10-07",
           "source_id": "kari",
@@ -35,8 +34,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
@@ -48,8 +46,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "항우연, 재사용 발사체 기술 개발 본격화",
@@ -61,8 +58,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5차, 10월 7일 발사",
@@ -74,8 +70,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -88,8 +83,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     },
@@ -99,7 +93,7 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_success_at": "2026-10-10T10:55:45+09:00",
+      "last_success_at": "2026-10-10T22:54:17+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -261,7 +255,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_success_at": "2026-10-10T10:55:45+09:00",
+      "last_success_at": "2026-10-10T22:54:17+09:00",
       "items": [
         {
           "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
@@ -423,7 +417,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-10T10:55:45+09:00",
+      "last_success_at": "2026-10-10T22:54:17+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -533,7 +527,7 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-10T10:55:45+09:00",
+      "last_success_at": "2026-10-10T22:54:17+09:00",
       "items": [
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -699,7 +693,7 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_success_at": "2026-10-10T10:55:45+09:00",
+      "last_success_at": "2026-10-10T22:54:17+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -912,34 +906,7 @@
       ]
     },
     {
-      "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784534",
-      "date": "2026-10-07",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "satellites",
-        "demonstration"
-      ]
-    },
-    {
-      "title": "누리호 5차, 발사 시각 확정",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784460",
-      "date": "2026-10-07",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "mission",
-        "satellites",
-        "demonstration"
-      ]
-    },
-    {
-      "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공 new",
+      "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18729",
       "date": "2026-10-07",
       "source_id": "kari",
@@ -949,11 +916,10 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
-      "title": "누리호 5차, 발사 시각 확정 new",
+      "title": "누리호 5차, 발사 시각 확정",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18728",
       "date": "2026-10-07",
       "source_id": "kari",
@@ -962,8 +928,7 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -1058,10 +1023,10 @@
     },
     {
       "title": "누리호 5호기, 발사대로 이송 시작",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784408",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18726",
       "date": "2026-10-06",
-      "source_id": "kasa",
-      "source": "KASA",
+      "source_id": "kari",
+      "source": "KARI",
       "region": "domestic",
       "language": "ko",
       "topics": [
@@ -1202,8 +1167,7 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -1390,8 +1354,7 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
@@ -1469,8 +1432,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
