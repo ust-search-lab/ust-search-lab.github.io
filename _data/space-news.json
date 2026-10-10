@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T22:58:54+09:00",
+  "updated_at": "2026-10-10T10:55:45+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,7 +8,7 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "ok",
+      "status": "stale",
       "last_success_at": "2026-10-09T22:58:54+09:00",
       "items": [
         {
@@ -22,7 +22,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차, 발사 시각 확정 new",
@@ -34,7 +35,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
@@ -46,7 +48,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "항우연, 재사용 발사체 기술 개발 본격화",
@@ -58,7 +61,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차, 10월 7일 발사",
@@ -70,7 +74,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -83,7 +88,8 @@
           "topics": [
             "mission",
             "exploration"
-          ]
+          ],
+          "stale": true
         }
       ]
     },
@@ -92,8 +98,8 @@
       "name": "KASA",
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
-      "status": "stale",
-      "last_success_at": "2026-10-09T10:56:48+09:00",
+      "status": "ok",
+      "last_success_at": "2026-10-10T10:55:45+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -108,8 +114,7 @@
             "satellites",
             "communications",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
@@ -122,8 +127,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5차, 발사 시각 확정",
@@ -137,8 +141,7 @@
             "mission",
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
@@ -150,8 +153,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -163,8 +165,7 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -176,8 +177,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -189,8 +189,7 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -202,8 +201,7 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
@@ -216,8 +214,7 @@
           "topics": [
             "mission",
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -229,8 +226,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
@@ -243,8 +239,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
@@ -256,8 +251,7 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         }
       ]
     },
@@ -266,9 +260,72 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "stale",
-      "last_success_at": "2026-10-08T22:58:25+09:00",
+      "status": "ok",
+      "last_success_at": "2026-10-10T10:55:45+09:00",
       "items": [
+        {
+          "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+          "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+          "date": "2026-10-09",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+          "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+          "date": "2026-10-09",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
+          "url": "https://www.nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission/",
+          "date": "2026-10-08",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+          "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+          "date": "2026-10-08",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
+          "url": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
+          "date": "2026-10-08",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "satellites",
+            "demonstration"
+          ]
+        },
         {
           "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
           "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
@@ -280,7 +337,7 @@
           "topics": [
             "mission"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Artemis II Crew Moon Photo Annotations",
@@ -292,8 +349,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
@@ -306,7 +362,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
@@ -319,7 +375,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
@@ -332,7 +388,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
@@ -345,7 +401,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA Adds New Science Investigations for Moon Base",
@@ -357,75 +413,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
-          "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
-          "date": "2026-09-29",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "communications",
-            "demonstration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
-          "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
-          "date": "2026-09-28",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "demonstration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory",
-          "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
-          "date": "2026-09-21",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
-          "url": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
-          "date": "2026-09-15",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
-          "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
-          "date": "2026-09-14",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     },
@@ -435,7 +423,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-09T22:58:54+09:00",
+      "last_success_at": "2026-10-10T10:55:45+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -545,7 +533,7 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-09T22:58:54+09:00",
+      "last_success_at": "2026-10-10T10:55:45+09:00",
       "items": [
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -711,7 +699,7 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_success_at": "2026-10-09T22:58:54+09:00",
+      "last_success_at": "2026-10-10T10:55:45+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -821,6 +809,69 @@
   ],
   "items": [
     {
+      "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+      "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+      "date": "2026-10-09",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+      "date": "2026-10-09",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
+      "url": "https://www.nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission/",
+      "date": "2026-10-08",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+      "date": "2026-10-08",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
+      "date": "2026-10-08",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
       "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
       "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
       "date": "2026-10-07",
@@ -831,7 +882,7 @@
       "topics": [
         "mission"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Artemis II Crew Moon Photo Annotations",
@@ -843,8 +894,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -859,8 +909,7 @@
         "satellites",
         "communications",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
@@ -873,8 +922,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "누리호 5차, 발사 시각 확정",
@@ -888,8 +936,7 @@
         "mission",
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공 new",
@@ -902,7 +949,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "누리호 5차, 발사 시각 확정 new",
@@ -914,7 +962,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -980,7 +1029,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
@@ -993,7 +1042,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -1009,10 +1058,10 @@
     },
     {
       "title": "누리호 5호기, 발사대로 이송 시작",
-      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18726",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784408",
       "date": "2026-10-06",
-      "source_id": "kari",
-      "source": "KARI",
+      "source_id": "kasa",
+      "source": "KASA",
       "region": "domestic",
       "language": "ko",
       "topics": [
@@ -1042,7 +1091,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
@@ -1055,7 +1104,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -1067,8 +1116,7 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Tiny thrusters 3D-printed in space",
@@ -1092,8 +1140,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Science begins for Smile",
@@ -1122,21 +1169,6 @@
       ]
     },
     {
-      "title": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
-      "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
-      "date": "2026-09-29",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "communications",
-        "demonstration"
-      ],
-      "stale": true
-    },
-    {
       "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783475",
       "date": "2026-09-29",
@@ -1146,8 +1178,7 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -1159,8 +1190,7 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "항우연, 재사용 발사체 기술 개발 본격화",
@@ -1170,18 +1200,6 @@
       "source": "KARI",
       "region": "domestic",
       "language": "ko",
-      "topics": [
-        "demonstration"
-      ]
-    },
-    {
-      "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
-      "date": "2026-09-28",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
       "topics": [
         "demonstration"
       ],
@@ -1197,8 +1215,7 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Successful Earth flyby improves Juice’s course to Jupiter",
@@ -1263,21 +1280,7 @@
       "topics": [
         "mission",
         "satellites"
-      ],
-      "stale": true
-    },
-    {
-      "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory",
-      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
-      "date": "2026-09-21",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Juice to fly past Earth for third gravity assist",
@@ -1305,19 +1308,6 @@
       ]
     },
     {
-      "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
-      "url": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
-      "date": "2026-09-15",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": true
-    },
-    {
       "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781821",
       "date": "2026-09-15",
@@ -1327,8 +1317,7 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
@@ -1341,21 +1330,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
-    },
-    {
-      "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
-      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
-      "date": "2026-09-14",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
@@ -1367,8 +1342,7 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -1416,7 +1390,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
@@ -1494,7 +1469,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
