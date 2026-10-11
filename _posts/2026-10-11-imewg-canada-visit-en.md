@@ -1,5 +1,5 @@
 ---
-title: Upcoming Participation in the Annual IMEWG In-Person Meeting
+title: Participation in the Annual IMEWG In-Person Meeting
 ref: imewg-2026-canada-visit
 lang: en
 date: 2026-10-11 00:00:00 +0900
