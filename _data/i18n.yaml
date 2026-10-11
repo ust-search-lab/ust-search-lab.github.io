@@ -9,7 +9,6 @@ ko:
   home-tooltip: 홈
   nav-toggle: 메뉴 열기·닫기
   nav-label: 주 메뉴
-  institution-links: 기관 홈페이지
   dark-mode: 다크 모드
   dark-toggle: 다크 모드 전환
   visitor-counter: 누적 방문 통계
@@ -47,7 +46,6 @@ en:
   home-tooltip: Home
   nav-toggle: Show or hide navigation
   nav-label: Main navigation
-  institution-links: Institution websites
   dark-mode: Dark mode
   dark-toggle: Toggle dark mode
   visitor-counter: Cumulative site statistics

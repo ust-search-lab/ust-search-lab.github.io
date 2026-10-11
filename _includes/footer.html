@@ -14,17 +14,6 @@
   data-size="wide"
 >
   <div class="footer-links">
-    {% unless page.ref == 'home' %}
-    <nav class="footer-institutions" aria-label="{{ site.data.i18n[footer_lang].institution-links }}">
-      {% for institution in site.data.institutions %}
-        {% assign institution_copy = institution[footer_lang] | default: institution.ko %}
-        <a href="{{ institution_copy.url | escape }}">
-          <span>{{ institution_copy.name | escape }}</span>
-          <span aria-hidden="true">↗</span>
-        </a>
-      {% endfor %}
-    </nav>
-    {% endunless %}
     <div class="footer-socials">
       {% for link in site.links %}
         {% assign key = link[0] %}

@@ -20,9 +20,9 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 - Links pages (`/links/` and `/en/links/`) share `_data/resource-links.yaml`
   and `_includes/resource-links.html`, with page styles in `_styles/links.scss`.
   Keep descriptions in both languages and use official destination URLs.
-  Institution entries resolve their names and URLs from `_data/institutions.yaml`,
-  which is also used by the footer on non-home pages. Both home pages omit
-  the footer's institution links. Links appears between News and Contact.
+  Institution entries resolve their names and URLs from `_data/institutions.yaml`.
+  The shared footer omits institution links on all pages in both languages.
+  Links appears between News and Contact.
 - Both home pages use `_includes/home.html`, with bilingual copy in
   `_data/home.yaml` and styles scoped to `main[data-page="home"]` in
   `_styles/home.scss`. `_data/research-topics.yaml` provides the six core
