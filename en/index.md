@@ -1,6 +1,6 @@
 ---
 ref: home
-header: images/header-smooth-moon.webp
+header: images/header-moon-depth.webp
 footer: images/footer-earth-background.webp
 ---
 

@@ -49,6 +49,25 @@ footer[data-big].background:before {
   background-position: center;
 }
 
+// Separate decorative layers keep both distant worlds visible on narrow screens.
+footer[data-big].background:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("../images/footer-moon.webp"), url("../images/footer-mars.webp");
+  background-repeat: no-repeat;
+  background-size: clamp(64px, 5.5vw, 110px) auto, clamp(56px, 4.8vw, 96px) auto;
+  background-position: 18% 22%, 82% 20%;
+  opacity: 0.88;
+
+  @media (max-width: $compact-big) {
+    background-size: 56px auto, 49px auto;
+    background-position: 12% 24px, 88% 24px;
+  }
+}
+
 .footer-brand {
   display: block;
   width: min(420px, 78vw);
