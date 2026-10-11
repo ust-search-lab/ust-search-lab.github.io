@@ -38,6 +38,8 @@ footer[data-big].background:before {
 }
 
 footer[data-big].background:after {
+  --moon-diameter: clamp(64px, 5.5vw, 110px);
+  --mars-diameter: calc(var(--moon-diameter) * 0.0135021097);
   content: "";
   position: absolute;
   inset: 0;
@@ -45,13 +47,13 @@ footer[data-big].background:after {
   pointer-events: none;
   background-image: url("../images/footer-moon.webp"), url("../images/footer-mars.webp");
   background-repeat: no-repeat;
-  background-size: clamp(64px, 5.5vw, 110px) auto, clamp(56px, 4.8vw, 96px) auto;
+  background-size: var(--moon-diameter) auto, var(--mars-diameter) auto;
   background-position: 18% 22%, 82% 20%;
   opacity: 0.88;
 }
 @media (max-width: 1000px) {
   footer[data-big].background:after {
-    background-size: 56px auto, 49px auto;
+    --moon-diameter: 56px;
     background-position: 12% 24px, 88% 24px;
   }
 }
