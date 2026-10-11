@@ -66,4 +66,16 @@
     aria-label="{{ site.data.i18n[footer_lang].dark-toggle }}"
     oninput="onDarkToggleChange(event)"
   >
+
+  {% if page.url == "/" or page.url == "/en/" %}
+    <a class="footer-brand" href="{{ site.data.i18n[footer_lang].home | relative_url }}">
+      <img
+        src="{{ 'images/search-lab-wordmark.png' | relative_url }}"
+        alt="{{ site.title | escape }}"
+        width="2139"
+        height="441"
+        loading="lazy"
+      >
+    </a>
+  {% endif %}
 </footer>

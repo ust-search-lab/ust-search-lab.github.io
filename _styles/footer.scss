@@ -3,7 +3,7 @@
 
 // footer background image opacity (template default for backgrounds is 0.25)
 $image-opacity: 1;
-// home: compact spacing for the information below the banner
+// home: compact spacing for the information within the banner
 $compact-big: 1000px;
 
 footer {
@@ -28,22 +28,38 @@ footer:not([data-big]).background:before {
     var(--image);
 }
 
-// Home banner has only the lab logo. Keep site information below the image.
+// Let the background cover the entire footer, including links and counters.
 footer[data-big] {
   justify-content: flex-end;
-  // The 1983 x 793 banner occupies approximately 40% of the footer width.
-  padding-top: calc(40% + 28px);
+  min-height: clamp(480px, 40vw, 800px);
+  gap: 12px;
+  padding: 36px var(--page-gutter);
 
   @media (max-width: $compact-big) {
     gap: 10px;
-    padding: calc(40% + 20px) 20px 20px;
+    padding: 28px 20px;
   }
 }
 
 footer[data-big].background:before {
-  background-image: var(--image);
-  background-size: 100% auto;
-  background-position: 50% 0;
+  background-image:
+    linear-gradient(180deg, transparent 20%, rgba(6, 16, 28, 0.5) 60%, rgba(6, 16, 28, 0.8)),
+    var(--image);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-brand {
+  display: block;
+  width: min(420px, 78vw);
+  max-width: 100%;
+  margin-top: 8px;
+}
+
+.footer-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 footer a {

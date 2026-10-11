@@ -1,7 +1,7 @@
 ---
 ref: home
-header: images/header-search-logo.webp
-footer: images/footer-minimal-logo.webp
+header: images/header-smooth-moon.webp
+footer: images/footer-earth-background.webp
 ---
 
 {% include home.html %}
