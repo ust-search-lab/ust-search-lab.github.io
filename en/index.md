@@ -1,7 +1,7 @@
 ---
 ref: home
-header: images/header.jpg
-footer: images/footer.jpg
+header: images/header-search-logo.webp
+footer: images/footer-search-logo.webp
 ---
 
 {% include home.html %}
