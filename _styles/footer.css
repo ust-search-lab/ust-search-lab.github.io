@@ -20,25 +20,19 @@ footer:not([data-big]).background:before {
 
 footer[data-big] {
   justify-content: flex-end;
-  aspect-ratio: 1983/793;
+  padding-top: calc(40% + 28px);
 }
 @media (max-width: 1000px) {
   footer[data-big] {
     gap: 10px;
     padding: calc(40% + 20px) 20px 20px;
-    aspect-ratio: auto;
   }
 }
 
 footer[data-big].background:before {
-  background-image: linear-gradient(to top, var(--footer-shade, rgba(0, 0, 0, 0.6)), transparent var(--footer-shade-height, 220px)), var(--image);
-}
-@media (max-width: 1000px) {
-  footer[data-big].background:before {
-    background-image: var(--image);
-    background-size: 100% auto;
-    background-position: 50% 0;
-  }
+  background-image: var(--image);
+  background-size: 100% auto;
+  background-position: 50% 0;
 }
 
 footer a {
