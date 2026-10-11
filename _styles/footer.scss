@@ -51,6 +51,10 @@ footer[data-big].background:before {
 
 // Separate decorative layers keep both distant worlds visible on narrow screens.
 footer[data-big].background:after {
+  --moon-diameter: clamp(64px, 5.5vw, 110px);
+  // Reference angular diameters: Moon 1896 arcsec; Mars at maximum 25.6 arcsec.
+  // NASA NSSDCA factsheets: moonfact.html and marsfact.html (not a dated sky map).
+  --mars-diameter: calc(var(--moon-diameter) * 0.0135021097);
   content: "";
   position: absolute;
   inset: 0;
@@ -58,12 +62,12 @@ footer[data-big].background:after {
   pointer-events: none;
   background-image: url("../images/footer-moon.webp"), url("../images/footer-mars.webp");
   background-repeat: no-repeat;
-  background-size: clamp(64px, 5.5vw, 110px) auto, clamp(56px, 4.8vw, 96px) auto;
+  background-size: var(--moon-diameter) auto, var(--mars-diameter) auto;
   background-position: 18% 22%, 82% 20%;
   opacity: 0.88;
 
   @media (max-width: $compact-big) {
-    background-size: 56px auto, 49px auto;
+    --moon-diameter: 56px;
     background-position: 12% 24px, 88% 24px;
   }
 }
