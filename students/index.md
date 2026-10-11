@@ -12,6 +12,8 @@ nav:
 SEARCH Lab의 기초 학습, 연구 수행 과정, 학위과정별 목표를 소개합니다.
 {: .page-intro }
 
+{% include course-materials-link.html %}
+
 {% include section.html %}
 
 ## 연구 목표와 지도 방향

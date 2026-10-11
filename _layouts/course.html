@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% assign lang = page.lang | default: "ko" %}
+{% assign course_ui = site.data.course-ui[lang] %}
+{% assign course = site.data.courses.courses | where: 'id', page.course_id | first %}
+{% assign students_path = '/students/' %}
+{% if lang == 'en' %}{% assign students_path = '/en/students/' %}{% endif %}
+{% assign courses_path = students_path | append: 'courses/' %}
+
+<div class="course-materials">
+  <nav class="course-breadcrumb" aria-label="{{ course_ui.breadcrumb }}">
+    <ol role="list">
+      <li><a href="{{ students_path | relative_url }}">For Students</a></li>
+      <li><a href="{{ courses_path | relative_url }}">{{ course_ui.title }}</a></li>
+      <li aria-current="page">{{ page.title | escape }}</li>
+    </ol>
+  </nav>
+  {% if course %}
+    <h1 class="page-title">{{ course.title[lang] | escape }}</h1>
+    <p class="page-intro">{{ course.description[lang] | escape }}</p>
+    <p class="course-meta">
+      <span>{{ course.term[lang] | escape }}</span>
+      {% if course.updated %}<span>{{ course_ui.updated }} <time datetime="{{ course.updated | date: '%Y-%m-%d' }}">{{ course.updated | date: '%Y.%m.%d' }}</time></span>{% endif %}
+    </p>
+    {{ content }}
+
+    {% if course.overview.size > 0 %}
+      <h2 id="overview">{{ course_ui.overview }}</h2>
+      {% include course-resources.html resources=course.overview %}
+    {% endif %}
+
+    <h2 id="weeks">{{ course_ui.weeks }}</h2>
+    {% if course.weeks.size > 0 %}
+      {% assign weeks = course.weeks | sort: 'number' %}
+      {% for week in weeks %}
+        <article class="course-week" aria-labelledby="week-{{ week.number }}">
+          <h3 id="week-{{ week.number }}">{{ course_ui.week_prefix }}{{ week.number }}{{ course_ui.week_suffix }} · {{ week.title[lang] | escape }}</h3>
+          {% if week.updated %}<p class="course-meta">{{ course_ui.updated }} <time datetime="{{ week.updated | date: '%Y-%m-%d' }}">{{ week.updated | date: '%Y.%m.%d' }}</time></p>{% endif %}
+          {% if week.materials.size > 0 %}
+            {% include course-resources.html resources=week.materials %}
+          {% else %}
+            <p>{{ course_ui.no_materials }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    {% else %}
+      <div class="course-empty"><p>{{ course_ui.no_weeks }}</p></div>
+    {% endif %}
+  {% else %}
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+    <p>{{ course_ui.unavailable }}</p>
+  {% endif %}
+  <p class="course-back"><a class="text-link" href="{{ courses_path | relative_url }}">{{ course_ui.back }} <span aria-hidden="true">→</span></a></p>
+</div>

@@ -1,0 +1,9 @@
+{% assign course_lang = page.lang | default: "ko" %}
+{% assign course_ui = site.data.course-ui[course_lang] %}
+{% assign courses_path = '/students/courses/' %}
+{% if course_lang == 'en' %}{% assign courses_path = '/en/students/courses/' %}{% endif %}
+<a class="course-entry" href="{{ courses_path | relative_url }}">
+  <span class="course-eyebrow">{{ course_ui.entry_label }}</span>
+  <strong>{{ course_ui.title }} <span aria-hidden="true">→</span></strong>
+  <span>{{ course_ui.entry_description }}</span>
+</a>

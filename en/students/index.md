@@ -12,6 +12,8 @@ nav:
 An overview of foundational study, the research process, and goals for each degree at SEARCH Lab.
 {: .page-intro }
 
+{% include course-materials-link.html %}
+
 {% include section.html %}
 
 ## Research goals and supervision

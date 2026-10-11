@@ -1,0 +1,38 @@
+ko:
+  title: 수업자료
+  intro: 과목과 학기별로 강의계획서, 강의노트, 참고문헌과 과제 안내를 확인하세요.
+  entry_label: COURSE MATERIALS
+  entry_description: 강의계획서, 강의노트, 참고문헌과 과제를 과목·학기별로 모아 보는 자료실입니다.
+  breadcrumb: 수업자료 탐색
+  courses_heading: 과목별 자료
+  empty_title: 아직 등록된 과목이 없습니다
+  empty_description: 과목이 등록되면 이곳에서 강의계획서와 주차별 자료를 확인할 수 있습니다.
+  updated: 최근 업데이트
+  overview: 강의계획서와 안내
+  weeks: 주차별 자료
+  week_suffix: 주차
+  week_prefix: ""
+  no_weeks: 주차별 자료는 등록 후 이곳에 표시됩니다.
+  no_materials: 이 주차의 자료는 아직 등록되지 않았습니다.
+  back: 수업자료 목록으로
+  students_back: 학생 연구원 안내로
+  unavailable: 과목 정보를 준비 중입니다.
+en:
+  title: Course Materials
+  intro: Find syllabi, lecture notes, readings, and assignment instructions by course and semester.
+  entry_label: COURSE MATERIALS
+  entry_description: Browse syllabi, lecture notes, readings, and assignments by course and semester.
+  breadcrumb: Course materials navigation
+  courses_heading: Materials by course
+  empty_title: No courses listed yet
+  empty_description: When a course is added, its syllabus and weekly materials will be available here.
+  updated: Last updated
+  overview: Syllabus and course information
+  weeks: Weekly materials
+  week_suffix: ""
+  week_prefix: "Week "
+  no_weeks: Weekly materials will appear here once they are added.
+  no_materials: No materials have been added for this week yet.
+  back: Back to course materials
+  students_back: Back to For Students
+  unavailable: Course information is being prepared.

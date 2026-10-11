@@ -21,7 +21,8 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
   and `_includes/resource-links.html`, with page styles in `_styles/links.scss`.
   Keep descriptions in both languages and use official destination URLs.
   Institution entries resolve their names and URLs from `_data/institutions.yaml`,
-  which is also used by the footer. Links appears between News and Contact.
+  which is also used by the footer on non-home pages. Both home pages omit
+  the footer's institution links. Links appears between News and Contact.
 - Both home pages use `_includes/home.html`, with bilingual copy in
   `_data/home.yaml` and styles scoped to `main[data-page="home"]` in
   `_styles/home.scss`. `_data/research-topics.yaml` provides the six core
@@ -37,8 +38,9 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
   and student research-area links share these application titles and ordering.
   `_includes/research-title.html` resolves application headings by topic ID
   rather than array position. Keep each topic ID aligned with its Research
-  anchor; optional method aliases preserve earlier anchors. Constellation design
-  is a subsection of `earth-orbit`, and integrated attitude/orbit control is
+  anchor; optional method aliases preserve earlier anchors. Constellation design,
+  LEO PNT, multi-layer PNT, and Orbital Datacenter mission design are subsections
+  of `earth-orbit`, and integrated attitude/orbit control is
   detailed within `solar-sail` as an application of the shared methods.
   `_data/home-images.yaml` supplies the cards' mission photographs and illustrations,
   bilingual captions and alternative text, and links to the official image
@@ -78,6 +80,23 @@ content and layout. The owner confirmed the **business concept stage** on
 not a launched company, commercial track record, or institutional endorsement.
 The research and business rationale is in `_guides/consulting-strategy.md`, which
 is excluded from the published site with the rest of `_guides/`.
+
+## Course materials
+
+For Students links prominently to `/students/courses/` and
+`/en/students/courses/`. The library lists courses by semester, newest first,
+with an empty state until actual course materials are supplied. The AI coding
+guide remains under For Students as common onboarding material for incoming
+lab members; it is not part of the course library.
+
+Add offerings to `_data/courses.yaml` and create matching Korean/English page
+wrappers using `_layouts/course.html`. Each course supports syllabus links,
+weekly lecture notes, readings, assignment instructions, and explicit update
+dates. Code or practical exercises can be added when relevant to a course.
+`_data/course-ui.yaml` contains interface translations;
+`_styles/courses.scss` uses the shared theme tokens. See
+[`_guides/course-materials.md`](_guides/course-materials.md) for the data schema
+and step-by-step publishing instructions. No new top-level menu is added.
 
 ## Shared visual styles
 

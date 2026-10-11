@@ -1,0 +1,15 @@
+<ul class="course-resources" role="list">
+  {% for resource in include.resources %}
+    {% assign material_url = resource.url[page.lang] | default: resource.url %}
+    {% assign material_first_character = material_url | slice: 0 %}
+    {% if material_first_character == '/' %}
+      {% assign material_url = material_url | relative_url %}
+    {% endif %}
+    <li>
+      <a href="{{ material_url | escape }}">
+        <span>{{ resource.label[page.lang] | escape }}</span>
+        {% if resource.type %}<span class="course-file-type">{{ resource.type | escape }}</span>{% endif %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
