@@ -92,35 +92,6 @@ footer .icon {
   width: 100%;
 }
 
-.footer-institutions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px 24px;
-  max-width: 100%;
-}
-.footer-institutions a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 44px;
-  max-width: 100%;
-  padding: 6px 0;
-  text-align: left;
-  text-decoration: none;
-  word-break: keep-all;
-  overflow-wrap: break-word;
-}
-.footer-institutions a:hover {
-  text-decoration: underline;
-}
-.footer-institutions a > span:first-child {
-  min-width: 0;
-}
-.footer-institutions a > span[aria-hidden] {
-  flex-shrink: 0;
-}
-
 .footer-socials {
   display: flex;
   align-items: center;
