@@ -88,10 +88,10 @@ applications:
   - id: earth-orbit
     ko:
       title: 지구궤도 임무설계
-      summary: 지구관측·통신·기술실증, 저궤도 PNT·다층궤도 PNT, Orbital Datacenter의 궤도와 운용 시나리오를 설계하고, 군집위성 배치와 임무 성능을 분석합니다.
+      summary: 지구관측·통신 군집위성, 저궤도·다층궤도 PNT, 우주데이터센터의 궤도 구성과 운용개념을 연구합니다.
     en:
       title: Earth-orbit mission design
-      summary: We design orbits and operations for Earth observation, communications, technology demonstration, LEO and multi-layer PNT, and orbital datacenters, analyzing constellation configurations and mission performance.
+      summary: We study orbital configurations and concepts of operations for observation and communications constellations, LEO and multi-layer PNT, and orbital datacenters.
   - id: planetary
     ko:
       title: 달·행성 탐사 임무설계

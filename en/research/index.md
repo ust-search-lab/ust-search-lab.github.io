@@ -54,31 +54,28 @@ We apply these core theories and methods across six areas, addressing the missio
 
 ### {% include icon.html icon="fa-solid fa-globe" %}{% include research-title.html id="earth-orbit" %} {#earth-orbit}
 
-We design Earth-orbit missions for observation, communications, technology demonstration, LEO PNT, multi-layer PNT, and orbital datacenters. We assess orbits and operations scenarios against mission requirements and analyze coverage, revisit intervals, ground station visibility, and mission-specific performance.
-
-- Orbital altitude, inclination, and concepts of operations for observation, communications, and technology demonstration satellites
-- Regional coverage, revisit intervals, and ground station contact opportunities
-- Long-term orbit propagation and maintenance strategies accounting for Earth's nonspherical gravity and atmospheric drag
+We develop orbits and concepts of operations to meet mission objectives. We predict long-term orbital evolution under Earth's nonspherical gravity and atmospheric drag, and examine orbit maintenance strategies for the mission duration.
 
 #### Satellite constellation design {#earth-constellation}
 
-For missions involving multiple satellites, we design satellite count, orbital plane configuration, and satellite phasing together. We optimize the constellation by analyzing trade-offs among observation and communications performance, propellant use, and operational effort, and assess long-term performance under orbital perturbations and orbit maintenance maneuvers.
+For Earth observation, communications, and technology demonstration, we design satellite count, orbital altitude and inclination, orbital planes, and phasing. We compare coverage, revisit intervals, and contact opportunities alongside propellant use and operational effort to identify suitable configurations.
 
-For formation flying that requires precise relative positioning, we extend this work to [guidance and control](#guidance-control) using relative orbit dynamics and accounting for navigation errors.
+For formation flying that requires precise relative positioning, we address [guidance and control](#guidance-control) using relative orbit dynamics and accounting for navigation errors.
 
 {% include research-figure.html topic="earth-constellation" caption="Illustrative constellation with satellites distributed across three orbital planes. Colors distinguish the planes; satellite sizes and orbital altitudes are not to scale." alt="A schematic of satellites distributed across three circular orbits around Earth, with altitude, inclination, orbital planes, and satellite phasing identified as design variables." %}
 
-#### LEO PNT mission design {#leo-pnt}
+<div id="multi-layer-pnt" aria-hidden="true"></div>
 
-We design positioning, navigation, and timing (PNT) missions using low Earth orbit satellites. We analyze service coverage, visible satellite counts, and navigation geometry across different constellation sizes and configurations, and assess navigation performance and service continuity under orbit and timing errors and operational constraints.
+#### LEO and multi-layer PNT {#leo-pnt}
 
-#### Multi-layer PNT mission design {#multi-layer-pnt}
+We study satellite navigation architectures for positioning, navigation, and timing (PNT) services.
 
-We study PNT architectures that connect orbital layers at different altitudes. We examine the roles and configurations of LEO satellites alongside other layers, including medium Earth and geostationary orbits, and compare service availability, navigation performance, and system resilience across satellite configurations and integrated operations scenarios.
+- **LEO PNT**: Analyze how visible satellite counts, navigation geometry, and orbit and timing errors affect positioning accuracy and service continuity.
+- **Multi-layer PNT**: Define the roles of LEO and other orbital layers, including medium Earth and geostationary orbits, and assess service coverage and resilience under coordinated operations.
 
-#### Orbital Datacenter mission design {#orbital-datacenter}
+#### Orbital datacenters {#orbital-datacenter}
 
-We study mission concepts and feasibility for orbital datacenters that store and process data in space. We design orbital configurations and data processing and transfer operations by considering sunlight and eclipse conditions, power supply, thermal management, and inter-satellite and ground links together, then evaluate alternatives against system resources and operational constraints.
+We assess the feasibility of storing and processing data in space by integrating power, thermal management, and communications requirements. We compare candidate orbits and data processing and transfer plans against sunlight and eclipse periods and inter-satellite and ground contact opportunities.
 
 {% include section.html %}
 
