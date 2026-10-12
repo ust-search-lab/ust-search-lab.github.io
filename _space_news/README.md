@@ -49,8 +49,11 @@ for matching in memory; article bodies and publisher images are not stored.
   too. Use canonical article links in `excluded_urls` for manual removal.
 - Refresh six sources concurrently, with bounded sequential pagination within
   each source. Curl verifies TLS, bounds response size/time and retries once.
-- If any feed/page for a source fails, keep that source's last recent items and
-  original success timestamp, mark it delayed, and update the other sources.
+- If one feed/page fails, continue that source's remaining feeds/pages and merge
+  their fresh results with its cached recent items. Mark partial collection and
+  cached-only items delayed, retaining the last complete-success timestamp while
+  recording the latest partial retrieval separately. If the entire source fails,
+  retain its recent items and original success timestamp and update other sources.
   If all sources fail, exit nonzero without modifying the snapshot. Writes are
   atomic. The browser also flags a snapshot older than 36 hours; it sends no
   request to news sources. Source details show individual retrieval times.
@@ -83,5 +86,7 @@ calls the existing `build-site` workflow because `GITHUB_TOKEN` commits do not
 trigger `on-push`. Deployment shares the site's existing concurrency group.
 
 UI: `_includes/space-news.html`, `_data/space-news-ui.yaml`,
-`_styles/space-news.scss`, `_scripts/space-news.js`. The list is linked from both
+`_styles/space-news.scss`, `_scripts/feed-freshness.js`. The shared freshness
+script flags news and Research Radar snapshots older than 36 hours, and checks
+again when a browser tab is restored. The list is linked from both
 home pages and the two News pages, with News highlighted as its parent menu.

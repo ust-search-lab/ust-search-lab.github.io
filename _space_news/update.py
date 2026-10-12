@@ -144,18 +144,31 @@ def request_bytes(url):
     return result.stdout
 
 
+class SourceRecords(list):
+    """Retain successful feeds/pages together with partial collection warnings."""
+    def __init__(self):
+        super().__init__()
+        self.warnings = []
+
+
 def fetch_source(source, request=request_bytes):
     parser = {"rss": parse_feed, "kari": parse_kari, "kasa": parse_kasa}[source["kind"]]
-    records = []
+    records = SourceRecords()
     for feed in source["feeds"]:
         for page in range(1, source.get("pages", 1) + 1):
             url = feed
             if page > 1:
                 url += ("&" if "?" in feed else "?") + urlencode({"pageIndex": page})
-            batch = parser(request(url))
+            try:
+                batch = parser(request(url))
+            except (RuntimeError, ValueError, OSError, subprocess.SubprocessError, ET.ParseError) as error:
+                records.warnings.append(f"{url}: {error}")
+                continue
             for record in batch:
                 record["url"] = urljoin(feed, record["url"])
             records.extend(batch)
+    if not records:
+        raise RuntimeError("All feeds/pages failed: " + "; ".join(records.warnings))
     return records
 
 
@@ -226,7 +239,12 @@ def refresh(settings, previous, now, fetch=fetch_source):
                 if not raw:
                     raise ValueError("No source records")
                 items = [item for row in raw if (item := normalize_record(row, source, settings, today))]
-                record.update(status="ok", last_success_at=timestamp,
+                failures = getattr(raw, "warnings", [])
+                if failures:
+                    warnings.extend(f"{source['name']}: {warning}" for warning in failures)
+                    retained = [{**item, "stale": True} for item in retained]
+                record.update(status="partial" if failures else "ok", last_retrieved_at=timestamp,
+                              last_success_at=cached.get("last_success_at") if failures else timestamp,
                               items=newest_unique(items + retained)[:settings["items_per_source"]])
                 successes += 1
             except (RuntimeError, ValueError, OSError, subprocess.SubprocessError, ET.ParseError) as error:
@@ -240,7 +258,7 @@ def refresh(settings, previous, now, fetch=fetch_source):
     all_items = [item for s in sources for item in s["items"]]
     all_items.sort(key=lambda item: bool(item.get("stale")))
     return {"updated_at": timestamp, "lookback_days": settings["lookback_days"],
-            "partial": successes < len(sources), "sources": sources,
+            "partial": any(source["status"] != "ok" for source in sources), "sources": sources,
             "items": newest_unique(all_items)}, warnings
 
 
@@ -259,7 +277,8 @@ def main():
         temporary.replace(args.output)
         for warning in warnings:
             print(f"Warning: {warning}", file=sys.stderr)
-        print(f"Saved {len(snapshot['items'])} news items; {len(warnings)} delayed sources.")
+        delayed = sum(source["status"] != "ok" for source in snapshot["sources"])
+        print(f"Saved {len(snapshot['items'])} news items; {delayed} delayed sources.")
     except (OSError, ValueError, RuntimeError, KeyError) as error:
         print(f"Space News update failed: {error}", file=sys.stderr)
         return 1

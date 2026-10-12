@@ -2,14 +2,18 @@
 {% assign freshness_id = include.researcher | default: 'jae-ik-park' %}
 {% assign freshness_check = site.data.publication-refresh[freshness_id] %}
 {% assign freshness_update = site.data.publication-update-times[freshness_id] %}
-<div class="publication-freshness">
+<div class="publication-freshness" data-feed-updated="{{ freshness_check.last_checked_at | escape }}" data-feed-max-age="48">
   <p>
     <span>{% if freshness_lang == 'en' %}Last checked{% else %}최근 자동 확인{% endif %}: {% if freshness_check.last_checked_at %}<time datetime="{{ freshness_check.last_checked_at | escape }}">{{ freshness_check.last_checked_at | publication_time_kst }}</time>{% else %}{% if freshness_lang == 'en' %}Not yet checked{% else %}확인 이력 없음{% endif %}{% endif %}</span>
     {% if freshness_update %}<span>{% if freshness_lang == 'en' %}Outputs last changed{% else %}최근 실적 변경{% endif %}: <time datetime="{{ freshness_update | escape }}">{{ freshness_update | publication_time_kst }}</time></span>{% endif %}
   </p>
   {% if freshness_check.status == 'failed' %}
     <p>{% if freshness_lang == 'en' %}The latest check failed; previously verified outputs are retained.{% else %}최근 자동 확인에 실패하여 이전에 확인된 실적을 유지하고 있습니다.{% endif %}</p>
-  {% elsif freshness_check.status == 'partial' %}
+  {% elsif freshness_check.failed_sources > 0 %}
     <p>{% if freshness_lang == 'en' %}Some sources were unavailable during the latest check; existing outputs are retained.{% else %}최근 확인에서 일부 출처에 접근하지 못했습니다. 기존 실적은 유지됩니다.{% endif %}</p>
   {% endif %}
+  {% if freshness_check.limited_sources > 0 %}
+    <p>{% if freshness_lang == 'en' %}Some sources were only partially checked or require manual verification.{% else %}일부 출처는 부분적으로만 확인되었거나 수동 확인이 필요한 항목이 있습니다.{% endif %}</p>
+  {% endif %}
+  <p data-feed-delayed hidden>{% if freshness_lang == 'en' %}Automatic checks are delayed. Please check the last successful check time above.{% else %}자동 확인이 지연되고 있습니다. 위의 최근 자동 확인 시각을 확인해 주세요.{% endif %}</p>
 </div>

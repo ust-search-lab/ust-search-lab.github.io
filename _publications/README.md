@@ -90,6 +90,13 @@ in curated data. The registered status and grant number can still update.
   results do not delete publications. Bounded result sets, unsupported ORCID
   works, query failures, and exhausted budgets are reported rather than treated
   as proof of completeness.
+- Crossref pending-manuscript checks use the supported `query.bibliographic`
+  field with the original English titles and any curated title aliases. Discovery
+  checks both relevance and newest-publication order, with up to three 100-result
+  offset pages per query (`crossref_max_pages`). These bounded fuzzy author
+  searches still require the identity checks above; matching a name token alone
+  never establishes participation. Malformed dates or a failed later page do not
+  discard earlier verified results.
 - Only bibliographic fields are retained. CROS internal IDs, addresses, full
   registration responses, abstracts, claims, papers, and access codes are not
   published. `_publications/review.json` is gitignored/excluded from Jekyll;
@@ -97,13 +104,18 @@ in curated data. The registered status and grant number can still update.
 
 ## Public freshness indicators
 
-Publications and personal research-output views show two separate times in KST:
+Publications and personal research-output views show two separate times in KST
+above the category navigation, so a successful check remains visible even when
+the bibliography has not changed:
 
 - **Last checked** comes from the collector's completed check, scoped by researcher.
   At least one personal source must return successfully; empty results count as a
   check, while a failed personal check retains the prior successful time. A shared
   software search alone does not advance every researcher's time. Individual source
   failures are disclosed. Bounded searches remain subject to the coverage limits above.
+  Partial collection warnings also remain visible; coverage limits/manual-review
+  requirements are shown separately from unavailable sources. The browser flags
+  successful personal checks older than 48 hours, including after restoring a tab.
 - **Outputs last changed** is the commit time of the latest change to that person's
   merged, displayed bibliography, calculated by `_plugins/publication_freshness.rb`.
   This includes manually curated edits and the separate PI citation pipeline. Checks,

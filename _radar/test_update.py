@@ -106,6 +106,17 @@ class RadarTests(unittest.TestCase):
             compute(lambda *_: [], previous)
         self.assertEqual(previous, original)
 
+    def test_failed_journal_does_not_keep_expired_papers_in_recent_list(self):
+        previous, _ = compute(fetch_all)
+        previous['journals'][0]['items'][0]['date'] = '2025-01-01'
+        def fetch(journal, settings, today):
+            if journal['id'] == 'jgcd':
+                raise RuntimeError('HTTP 503')
+            return fetch_all(journal, settings, today)
+        snapshot, _ = compute(fetch, previous)
+        self.assertEqual(snapshot['journals'][0]['items'], [])
+        self.assertNotIn('2025-01-01', [item['date'] for item in snapshot['items']])
+
     def test_manual_pins_are_separate_and_exclusion_wins(self):
         curation = {"pinned": [{"doi": "https://doi.org/10.2514/1.TEST0", "note": {"ko": "세미나 추천"}}], "excluded_dois": []}
         snapshot, _ = compute(fetch_all, curation=curation)

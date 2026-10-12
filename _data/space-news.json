@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T10:57:47+09:00",
+  "updated_at": "2026-10-12T12:57:50+09:00",
   "lookback_days": 90,
   "partial": false,
   "sources": [
@@ -9,7 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_success_at": "2026-10-12T10:57:47+09:00",
+      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
+      "last_success_at": "2026-10-12T12:57:50+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -105,7 +106,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_success_at": "2026-10-12T10:57:47+09:00",
+      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
+      "last_success_at": "2026-10-12T12:57:50+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -267,7 +269,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_success_at": "2026-10-12T10:57:47+09:00",
+      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
+      "last_success_at": "2026-10-12T12:57:50+09:00",
       "items": [
         {
           "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
@@ -430,7 +433,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-12T10:57:47+09:00",
+      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
+      "last_success_at": "2026-10-12T12:57:50+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -540,7 +544,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-12T10:57:47+09:00",
+      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
+      "last_success_at": "2026-10-12T12:57:50+09:00",
       "items": [
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -706,7 +711,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_success_at": "2026-10-12T10:57:47+09:00",
+      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
+      "last_success_at": "2026-10-12T12:57:50+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",

@@ -188,8 +188,16 @@ class Client:
 
 def date_parts(work, today):
     for key in ("published-online", "published-print", "published"):
-        parts = work.get(key, {}).get("date-parts", [[]])[0]
-        if not parts:
+        value = work.get(key)
+        groups = value.get("date-parts") if isinstance(value, dict) else None
+        if not isinstance(groups, list) or not groups:
+            continue
+        parts = groups[0]
+        if not isinstance(parts, list) or not 1 <= len(parts) <= 3:
+            continue
+        try:
+            date(*(parts + [1] * (3 - len(parts))))
+        except (TypeError, ValueError):
             continue
         text = "-".join(str(n) if i == 0 else f"{n:02d}" for i, n in enumerate(parts))
         # Do not silently use a print date if the preferred online date is future.
@@ -289,26 +297,38 @@ def collect_crossref(client, settings, known, today):
     identity = settings["identity"]
     start = f"{settings.get('backfill_start_year', 1990) if settings.get('backfill') else today.year - settings['lookback_years']}-01-01"
     query_names = identity.get("query_names", [identity.get("query_name", identity["names"][0])])
-    queries = [dict(filter="orcid:" + identity["orcid"], rows=100),
-               *[{"query.author": '"' + name + '"', "filter": "from-pub-date:" + start, "rows": 100}
-                 for name in query_names]]
-    queries += [{"query.title": r["title"], "query.author": query_names[0], "rows": 3}
-                for r in known if r.get("status") in ("accepted", "under_review") and identity_on_record(r, identity)]
+    # query.title was retired by Crossref. Check pending titles first, using
+    # bibliographic relevance rather than a date sort, before broad discovery.
+    queries = [({"query.bibliographic": title + " " + query_names[0], "rows": 10}, 1)
+               for r in known if r.get("status") in ("accepted", "under_review") and identity_on_record(r, identity)
+               for title in dict.fromkeys([r["title"], *r.get("title_aliases", [])]) if title]
+    pages = settings.get("crossref_max_pages", 3)
+    queries.append((dict(filter="orcid:" + identity["orcid"], rows=100), pages))
+    for name in query_names:
+        query = {"query.author": name, "filter": f"from-pub-date:{start},until-pub-date:{today}", "rows": 100}
+        queries.extend([(query, pages), ({**query, "sort": "published", "order": "desc"}, pages)])
     results, successes = {}, 0
-    for query in queries:
-        response = client.optional_json(CROSSREF + "?" + urlencode(query))
-        if response is None:
-            continue
-        message = response.get("message", {})
-        if not isinstance(message.get("items"), list):
-            raise ValueError("Crossref response schema changed")
-        successes += 1
-        if message.get("total-results", 0) > len(message["items"]):
-            client.warnings.append("Crossref query exceeds first-page coverage; use ORCID DOI discovery and curated backfill")
-        for work in message["items"]:
-            record = normalize_crossref(work, identity, today, known)
-            if record:
-                results[record["id"]] = merge_record(results.get(record["id"], {}), record)
+    for query, max_pages in queries:
+        for page in range(max_pages):
+            # Offset pages support publication sorting; Crossref cursors do not.
+            response = client.optional_json(CROSSREF + "?" + urlencode({**query, "offset": page * query["rows"]}))
+            if response is None:
+                break
+            message = response.get("message", {})
+            if not isinstance(message.get("items"), list):
+                client.warnings.append("Crossref response schema changed")
+                break
+            successes += 1
+            items = message["items"]
+            for work in items:
+                record = normalize_crossref(work, identity, today, known)
+                if record:
+                    results[record["id"]] = merge_record(results.get(record["id"], {}), record)
+            retrieved = page * query["rows"] + len(items)
+            if len(items) < query["rows"] or retrieved >= message.get("total-results", retrieved):
+                break
+            if page + 1 == max_pages and "query.bibliographic" not in query:
+                client.warnings.append(f"Crossref discovery is limited to {retrieved} results per query; use ORCID DOI discovery and curated backfill")
     if not successes:
         raise RuntimeError("All Crossref queries failed")
     return list(results.values())
@@ -710,9 +730,11 @@ def refresh_status(previous, coverage, checked_at, researcher_ids):
         status = result.setdefault(researcher, {})
         status["last_attempt_at"] = checked_at
         failed = sum(row["status"] == "failed" for row in rows)
+        limited = sum(row["status"] == "partial" for row in rows)
         success = any(row["status"] in ("ok", "partial") for row in personal)
-        status["status"] = "failed" if not success else "partial" if failed else "ok"
+        status["status"] = "failed" if not success else "partial" if failed or limited else "ok"
         status["failed_sources"] = failed
+        status["limited_sources"] = limited
         if success:
             status["last_checked_at"] = checked_at
     return result

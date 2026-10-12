@@ -194,7 +194,8 @@ def refresh(settings, curation, previous, now, fetch=fetch_journal, lookup=reque
         except (RuntimeError, ValueError, subprocess.SubprocessError) as error:
             warnings.append(f"{journal['short_name']}: {error}")
             record = {**journal, **previous_journals.get(journal["id"], {}), "status": "stale"}
-            record["items"] = [item for item in record.get("items", []) if item["doi"] not in excluded]
+            record["items"] = [item for item in record.get("items", []) if item["doi"] not in excluded
+                               and (today - timedelta(days=settings["lookback_days"])).isoformat() <= item["date"] <= today.isoformat()]
         journals.append(record)
         for cached in record.get("items", []):
             if cached["doi"] in pin_ids:

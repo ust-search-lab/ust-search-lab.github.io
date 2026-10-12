@@ -3,7 +3,7 @@
 {% assign radar_data = site.data.research-radar %}
 {% assign radar_entry_heading = 'h3' %}
 {% if radar_data.pinned.size > 0 %}{% assign radar_entry_heading = 'h4' %}{% endif %}
-<div class="research-radar{% if include.compact %} research-radar-compact{% endif %}" role="region" aria-labelledby="research-radar-title">
+<div class="research-radar{% if include.compact %} research-radar-compact{% endif %}" role="region" aria-labelledby="research-radar-title" data-feed-updated="{{ radar_data.updated_at | escape }}">
   <div class="radar-heading">
     <div>
       {% if include.compact %}<p class="radar-eyebrow">{{ radar_copy.eyebrow }}</p>{% endif %}
@@ -19,6 +19,7 @@
       <span>{{ radar_copy.source }}: <a href="https://www.crossref.org/">Crossref</a></span>
     </div>
     {% if radar_data.partial %}<p class="radar-notice">{{ radar_copy.partial }}</p>{% endif %}
+    <p class="radar-notice" data-feed-delayed hidden>{{ radar_copy.delayed }}</p>
     {% if radar_data.missing_pins.size > 0 %}<p class="radar-notice">{{ radar_copy.missing_pins }}</p>{% endif %}
     {% if radar_data.pinned.size > 0 %}
       <h3 class="radar-group-title">{{ radar_copy.selected }}</h3>
@@ -46,6 +47,7 @@
           <li>
             <a href="{{ journal.url | escape }}">{{ journal.name | escape }} <span aria-hidden="true">↗</span></a>
             {% if journal.last_success_at %}<span>{{ radar_copy.updated }} {{ journal.last_success_at | date: '%Y.%m.%d %H:%M' }} KST</span>{% endif %}
+            {% if journal.status == 'stale' %}<span>{{ radar_copy.stale }}</span>{% endif %}
           </li>
         {% endfor %}
       </ul>

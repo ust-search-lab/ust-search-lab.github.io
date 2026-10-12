@@ -2,7 +2,7 @@
 {% assign space_copy = site.data.space-news-ui[space_lang] %}
 {% assign space_data = site.data.space-news %}
 {% assign space_regions = 'domestic,international' | split: ',' %}
-<div class="space-news{% if include.compact %} space-news-compact{% endif %}" role="region" aria-labelledby="space-news-title" data-space-news-updated="{{ space_data.updated_at | escape }}">
+<div class="space-news{% if include.compact %} space-news-compact{% endif %}" role="region" aria-labelledby="space-news-title" data-feed-updated="{{ space_data.updated_at | escape }}">
   <div class="space-news-heading">
     <div>
       {% if include.compact %}<p class="space-news-eyebrow">{{ space_copy.eyebrow }}</p>{% endif %}
@@ -17,7 +17,7 @@
   {% if space_data %}
     <p class="space-news-updated">{{ space_copy.updated }} <time datetime="{{ space_data.updated_at | escape }}">{{ space_data.updated_at | date: '%Y.%m.%d %H:%M' }}</time> KST</p>
     {% if space_data.partial %}<p class="space-news-notice">{{ space_copy.partial }}</p>{% endif %}
-    <p class="space-news-notice" data-space-news-delayed hidden>{{ space_copy.delayed }}</p>
+    <p class="space-news-notice" data-feed-delayed hidden>{{ space_copy.delayed }}</p>
     <div class="space-news-columns">
       {% for region in space_regions %}
         {% assign space_items = space_data.items | where: 'region', region %}
@@ -64,7 +64,8 @@
           {% for source in space_data.sources %}
             <li>
               <a href="{{ source.url | escape }}">{% if source.id == 'kasa' %}{{ space_copy.kasa }}{% elsif source.id == 'jpl' %}{{ space_copy.jpl }}{% else %}{{ source.name | escape }}{% endif %} <span aria-hidden="true">↗</span></a>
-              <span>{% if source.last_success_at %}{{ space_copy.updated }} {{ source.last_success_at | date: '%Y.%m.%d %H:%M' }} KST{% else %}{{ space_copy.unavailable }}{% endif %}{% if source.status == 'stale' %} · {{ space_copy.stale }}{% endif %}</span>
+              {% assign source_retrieved = source.last_retrieved_at | default: source.last_success_at %}
+              <span>{% if source_retrieved %}{{ space_copy.updated }} {{ source_retrieved | date: '%Y.%m.%d %H:%M' }} KST{% else %}{{ space_copy.unavailable }}{% endif %}{% if source.status == 'stale' or source.status == 'partial' %} · {{ space_copy.stale }}{% endif %}</span>
             </li>
           {% endfor %}
         </ul>

@@ -133,6 +133,43 @@ class NewsChecks(unittest.TestCase):
         self.assertEqual(len(urls), 3)
         self.assertTrue(urls[-1].endswith('?pageIndex=3'))
 
+    def test_one_failed_feed_keeps_fresh_news_and_cached_failed_feed_items(self):
+        source = {**SOURCE, 'feeds': ['https://www.nasa.gov/failed/', 'https://www.nasa.gov/ok/']}
+        def request(url):
+            if url.endswith('/failed/'):
+                raise RuntimeError('HTTP 503')
+            return b'<rss><channel><item><title>New lunar mission</title><link>https://www.nasa.gov/new/</link><pubDate>2026-10-04</pubDate></item></channel></rss>'
+        raw = update.fetch_source(source, request)
+        self.assertEqual(len(raw), 1)
+        self.assertEqual(len(raw.warnings), 1)
+        cached = update.normalize_record(article(), SOURCE, SETTINGS, NOW.date())
+        previous = {'sources': [{'id': SOURCE['id'], 'last_success_at': '2026-10-01T09:00:00+09:00', 'items': [cached]}]}
+        snapshot, warnings = update.refresh({**SETTINGS, 'sources': [source]}, previous, NOW, lambda _: raw)
+        self.assertTrue(snapshot['partial'])
+        self.assertEqual(snapshot['sources'][0]['status'], 'partial')
+        self.assertEqual(snapshot['sources'][0]['last_success_at'], '2026-10-01T09:00:00+09:00')
+        self.assertEqual(snapshot['sources'][0]['last_retrieved_at'], NOW.isoformat(timespec='seconds'))
+        self.assertEqual(len(warnings), 1)
+        self.assertEqual(len(snapshot['items']), 2)
+        self.assertFalse(snapshot['items'][0].get('stale', False))
+        self.assertTrue(snapshot['items'][1]['stale'])
+
+    def test_failed_middle_board_page_does_not_skip_later_pages(self):
+        urls = []
+        def request(url):
+            urls.append(url)
+            if url.endswith('pageIndex=2'):
+                raise RuntimeError('timeout')
+            return b'<div class="notice_list"><li><p class="subject"><a href="/kor/article/1">Lunar test</a></p><p class="date">2026-10-01</p></li></div>'
+        result = update.fetch_source(SETTINGS['sources'][0], request)
+        self.assertEqual(len(urls), 3)
+        self.assertEqual(len(result), 2)
+        self.assertEqual(len(result.warnings), 1)
+
+    def test_all_feeds_failed_raises_instead_of_returning_an_empty_success(self):
+        with self.assertRaisesRegex(RuntimeError, 'All feeds/pages failed'):
+            update.fetch_source(SOURCE, lambda _: (_ for _ in ()).throw(RuntimeError('offline')))
+
 
 if __name__ == '__main__':
     unittest.main()

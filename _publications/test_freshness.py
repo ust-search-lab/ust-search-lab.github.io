@@ -39,6 +39,14 @@ class FreshnessTests(unittest.TestCase):
         self.assertEqual(refresh_status(self.before, [{"researcher_id": "shared", "status": "ok"}],
                                         self.now, ["park", "oh"]), self.before)
 
+    def test_coverage_limits_are_disclosed_without_claiming_an_outage(self):
+        rows = [{"researcher_id": "oh", "status": "partial"}]
+        result = refresh_status(self.before, rows, self.now, ["oh"])
+        self.assertEqual(result["oh"]["status"], "partial")
+        self.assertEqual(result["oh"]["failed_sources"], 0)
+        self.assertEqual(result["oh"]["limited_sources"], 1)
+        self.assertEqual(result["oh"]["last_checked_at"], self.now)
+
 
 if __name__ == "__main__":
     unittest.main()
