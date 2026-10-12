@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T22:55:01+09:00",
+  "updated_at": "2026-10-12T10:57:47+09:00",
   "lookback_days": 90,
   "partial": false,
   "sources": [
@@ -9,8 +9,20 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_success_at": "2026-10-11T22:55:01+09:00",
+      "last_success_at": "2026-10-12T10:57:47+09:00",
       "items": [
+        {
+          "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
+          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18731",
+          "date": "2026-10-07",
+          "source_id": "kari",
+          "source": "KARI",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호, 5차 발사 성공",
           "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18729",
@@ -93,7 +105,7 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_success_at": "2026-10-11T22:55:01+09:00",
+      "last_success_at": "2026-10-12T10:57:47+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -255,7 +267,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_success_at": "2026-10-11T22:55:01+09:00",
+      "last_success_at": "2026-10-12T10:57:47+09:00",
       "items": [
         {
           "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
@@ -418,7 +430,7 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_success_at": "2026-10-11T22:55:01+09:00",
+      "last_success_at": "2026-10-12T10:57:47+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -528,7 +540,7 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_success_at": "2026-10-11T22:55:01+09:00",
+      "last_success_at": "2026-10-12T10:57:47+09:00",
       "items": [
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -694,7 +706,7 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_success_at": "2026-10-11T22:55:01+09:00",
+      "last_success_at": "2026-10-12T10:57:47+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -894,17 +906,14 @@
     },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784594",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18731",
       "date": "2026-10-07",
-      "source_id": "kasa",
-      "source": "KASA",
+      "source_id": "kari",
+      "source": "KARI",
       "region": "domestic",
       "language": "ko",
       "topics": [
-        "mission",
-        "satellites",
-        "communications",
-        "demonstration"
+        "satellites"
       ]
     },
     {
