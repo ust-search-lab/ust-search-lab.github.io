@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-12T12:57:50+09:00",
+  "updated_at": "2026-10-12T23:05:59+09:00",
   "lookback_days": 90,
-  "partial": false,
+  "partial": true,
   "sources": [
     {
       "id": "kari",
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
-      "last_success_at": "2026-10-12T12:57:50+09:00",
+      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
+      "last_success_at": "2026-10-12T23:05:59+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -106,8 +106,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
-      "last_success_at": "2026-10-12T12:57:50+09:00",
+      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
+      "last_success_at": "2026-10-12T23:05:59+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -269,8 +269,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
-      "last_success_at": "2026-10-12T12:57:50+09:00",
+      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
+      "last_success_at": "2026-10-12T23:05:59+09:00",
       "items": [
         {
           "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
@@ -307,7 +307,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
@@ -319,7 +320,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
@@ -433,8 +435,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
-      "last_success_at": "2026-10-12T12:57:50+09:00",
+      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
+      "last_success_at": "2026-10-12T23:05:59+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -544,8 +546,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
-      "last_success_at": "2026-10-12T12:57:50+09:00",
+      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
+      "last_success_at": "2026-10-12T23:05:59+09:00",
       "items": [
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -710,8 +712,7 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-12T12:57:50+09:00",
+      "status": "stale",
       "last_success_at": "2026-10-12T12:57:50+09:00",
       "items": [
         {
@@ -724,7 +725,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -737,7 +739,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -750,7 +753,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -763,7 +767,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -776,7 +781,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -789,7 +795,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -802,7 +809,8 @@
           "topics": [
             "mission",
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -815,7 +823,8 @@
           "topics": [
             "mission",
             "exploration"
-          ]
+          ],
+          "stale": true
         }
       ]
     }
@@ -856,7 +865,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
@@ -868,7 +878,8 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
@@ -1347,7 +1358,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1397,7 +1409,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1410,7 +1423,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1423,7 +1437,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1436,7 +1451,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1489,7 +1505,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1502,7 +1519,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1515,7 +1533,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
+      ],
+      "stale": true
     }
   ]
 }
