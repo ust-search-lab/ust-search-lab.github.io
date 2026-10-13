@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-13T10:35:13+09:00",
+  "updated_at": "2026-10-13T22:41:36+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,30 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-13T10:35:13+09:00",
+      "last_success_at": "2026-10-13T22:41:36+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g009613",
+          "url": "https://doi.org/10.2514/1.g009613",
+          "title": "Restricted Three-Body Problem Fixed-Point Identification via High-Order Transfer Maps",
+          "authors": [
+            "Xingyu Zhou",
+            "Lorenzo Anoè",
+            "Roberto Armellin",
+            "Dong Qiao",
+            "Xiangyu Li"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-13",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.g009928",
           "url": "https://doi.org/10.2514/1.g009928",
@@ -224,23 +245,6 @@
           "topics": [
             "entry"
           ]
-        },
-        {
-          "doi": "10.2514/1.g008937",
-          "url": "https://doi.org/10.2514/1.g008937",
-          "title": "Universal Birkhoff Method for Computing Extremals in the Elliptic Restricted Three-Body Problem",
-          "authors": [
-            "Michael J. Dixon",
-            "Isaac M. Ross"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
-          ]
         }
       ]
     },
@@ -254,7 +258,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-13T10:35:13+09:00",
+      "last_success_at": "2026-10-13T22:41:36+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,7 +521,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-13T10:35:13+09:00",
+      "last_success_at": "2026-10-13T22:41:36+09:00",
       "status": "ok",
       "items": [
         {
@@ -757,6 +761,27 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g009613",
+      "url": "https://doi.org/10.2514/1.g009613",
+      "title": "Restricted Three-Body Problem Fixed-Point Identification via High-Order Transfer Maps",
+      "authors": [
+        "Xingyu Zhou",
+        "Lorenzo Anoè",
+        "Roberto Armellin",
+        "Dong Qiao",
+        "Xiangyu Li"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-13",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
     {
       "doi": "10.2514/1.g009928",
       "url": "https://doi.org/10.2514/1.g009928",
@@ -1042,23 +1067,6 @@
       "date_type": "published-print",
       "topics": [
         "entry"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g008937",
-      "url": "https://doi.org/10.2514/1.g008937",
-      "title": "Universal Birkhoff Method for Computing Extremals in the Elliptic Restricted Three-Body Problem",
-      "authors": [
-        "Michael J. Dixon",
-        "Isaac M. Ross"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
       ]
     },
     {
