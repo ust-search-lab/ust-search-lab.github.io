@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T10:57:36+09:00",
+  "updated_at": "2026-10-13T23:04:34+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,8 +8,8 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
       "last_success_at": "2026-10-13T10:57:36+09:00",
       "items": [
         {
@@ -105,9 +105,23 @@
       "name": "KASA",
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
-      "status": "stale",
-      "last_success_at": "2026-10-12T23:05:59+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
+      "last_success_at": "2026-10-13T23:04:34+09:00",
       "items": [
+        {
+          "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784938",
+          "date": "2026-10-13",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784594",
@@ -121,8 +135,7 @@
             "satellites",
             "communications",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
@@ -135,8 +148,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5차, 발사 시각 확정",
@@ -150,8 +162,7 @@
             "mission",
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
@@ -163,8 +174,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -176,8 +186,7 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -189,8 +198,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -202,8 +210,7 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -215,8 +222,7 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
@@ -229,8 +235,7 @@
           "topics": [
             "mission",
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -242,8 +247,7 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
@@ -256,21 +260,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781457",
-          "date": "2026-09-11",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "satellites"
-          ],
-          "stale": true
+          ]
         }
       ]
     },
@@ -280,9 +270,22 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
-      "last_success_at": "2026-10-13T10:57:36+09:00",
+      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
+      "last_success_at": "2026-10-13T23:04:34+09:00",
       "items": [
+        {
+          "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+          "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+          "date": "2026-10-13",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
           "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
@@ -294,7 +297,8 @@
           "topics": [
             "mission",
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
@@ -306,7 +310,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
@@ -425,18 +430,6 @@
             "exploration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA Adds New Science Investigations for Moon Base",
-          "url": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
-          "date": "2026-09-30",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ]
         }
       ]
     },
@@ -446,9 +439,22 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
-      "last_success_at": "2026-10-13T10:57:36+09:00",
+      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
+      "last_success_at": "2026-10-13T23:04:34+09:00",
       "items": [
+        {
+          "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+          "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+          "date": "2026-10-13",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
           "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
@@ -557,9 +563,22 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
-      "last_success_at": "2026-10-13T10:57:36+09:00",
+      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
+      "last_success_at": "2026-10-13T23:04:34+09:00",
       "items": [
+        {
+          "title": "Mars moon lander set to launch on 19 October",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
+          "date": "2026-10-13",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
           "url": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_Flight_Dynamics_team_in_action",
@@ -673,7 +692,8 @@
           "language": "en",
           "topics": [
             "mission"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "MIRROR robot reflects future of in-orbit assembly",
@@ -702,19 +722,6 @@
             "satellites",
             "control"
           ]
-        },
-        {
-          "title": "Juice to fly past Earth for third gravity assist",
-          "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
-          "date": "2026-09-21",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission"
-          ],
-          "stale": false
         }
       ]
     },
@@ -724,8 +731,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
-      "last_success_at": "2026-10-13T10:57:36+09:00",
+      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
+      "last_success_at": "2026-10-13T23:04:34+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -835,6 +842,45 @@
   ],
   "items": [
     {
+      "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+      "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+      "date": "2026-10-13",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784938",
+      "date": "2026-10-13",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Mars moon lander set to launch on 19 October",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
+      "date": "2026-10-13",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
       "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
       "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
       "date": "2026-10-09",
@@ -845,7 +891,8 @@
       "topics": [
         "mission",
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
@@ -857,7 +904,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
@@ -1113,8 +1161,7 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Tiny thrusters 3D-printed in space",
@@ -1126,18 +1173,6 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
-    },
-    {
-      "title": "NASA Adds New Science Investigations for Moon Base",
-      "url": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
-      "date": "2026-09-30",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
       ]
     },
     {
@@ -1176,8 +1211,7 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -1189,8 +1223,7 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "항우연, 재사용 발사체 기술 개발 본격화",
@@ -1214,8 +1247,7 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Successful Earth flyby improves Juice’s course to Jupiter",
@@ -1227,7 +1259,8 @@
       "language": "en",
       "topics": [
         "mission"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "MIRROR robot reflects future of in-orbit assembly",
@@ -1280,21 +1313,7 @@
       "topics": [
         "mission",
         "satellites"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Juice to fly past Earth for third gravity assist",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
-      "date": "2026-09-21",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission"
-      ],
-      "stale": false
+      ]
     },
     {
       "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -1318,8 +1337,7 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
@@ -1332,21 +1350,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
-    },
-    {
-      "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781457",
-      "date": "2026-09-11",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
