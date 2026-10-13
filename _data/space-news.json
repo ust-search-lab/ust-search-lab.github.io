@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T23:05:59+09:00",
+  "updated_at": "2026-10-13T10:57:36+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
-      "last_success_at": "2026-10-12T23:05:59+09:00",
+      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
+      "last_success_at": "2026-10-13T10:57:36+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -105,8 +105,7 @@
       "name": "KASA",
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
+      "status": "stale",
       "last_success_at": "2026-10-12T23:05:59+09:00",
       "items": [
         {
@@ -122,7 +121,8 @@
             "satellites",
             "communications",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
@@ -135,7 +135,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차, 발사 시각 확정",
@@ -149,7 +150,8 @@
             "mission",
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
@@ -161,7 +163,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -173,7 +176,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -185,7 +189,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -197,7 +202,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -209,7 +215,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
@@ -222,7 +229,8 @@
           "topics": [
             "mission",
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -234,7 +242,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
@@ -247,7 +256,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
@@ -259,7 +269,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         }
       ]
     },
@@ -269,8 +280,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
-      "last_success_at": "2026-10-12T23:05:59+09:00",
+      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
+      "last_success_at": "2026-10-13T10:57:36+09:00",
       "items": [
         {
           "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
@@ -435,8 +446,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
-      "last_success_at": "2026-10-12T23:05:59+09:00",
+      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
+      "last_success_at": "2026-10-13T10:57:36+09:00",
       "items": [
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -546,8 +557,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-12T23:05:59+09:00",
-      "last_success_at": "2026-10-12T23:05:59+09:00",
+      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
+      "last_success_at": "2026-10-13T10:57:36+09:00",
       "items": [
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -712,8 +723,9 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-10-12T12:57:50+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-13T10:57:36+09:00",
+      "last_success_at": "2026-10-13T10:57:36+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -725,8 +737,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -739,8 +750,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -753,8 +763,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -767,8 +776,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -781,8 +789,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -795,8 +802,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -809,8 +815,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -823,8 +828,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
@@ -1109,7 +1113,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Tiny thrusters 3D-printed in space",
@@ -1171,7 +1176,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -1183,7 +1189,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "항우연, 재사용 발사체 기술 개발 본격화",
@@ -1207,7 +1214,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Successful Earth flyby improves Juice’s course to Jupiter",
@@ -1272,7 +1280,8 @@
       "topics": [
         "mission",
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Juice to fly past Earth for third gravity assist",
@@ -1309,7 +1318,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "누리호 5차 발사, 국내 최초 군집위성 시대 연다",
@@ -1322,7 +1332,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "캔(CAN) 크기 위성에 담은 우주 도전, 2026 캔위성 경연대회 성료",
@@ -1334,7 +1345,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -1358,8 +1370,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1409,8 +1420,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1423,8 +1433,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1437,8 +1446,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1451,8 +1459,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1505,8 +1512,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1519,8 +1525,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1533,8 +1538,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     }
   ]
 }
