@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-13T22:41:36+09:00",
+  "updated_at": "2026-10-14T10:41:57+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,27 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-13T22:41:36+09:00",
+      "last_success_at": "2026-10-14T10:41:57+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g009983",
+          "url": "https://doi.org/10.2514/1.g009983",
+          "title": "Embedding Performance Optimization and Constraint Enforcement into Heritage Powered Descent Guidance",
+          "authors": [
+            "Ping Lu"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-13",
+          "date_type": "published-online",
+          "topics": [
+            "control",
+            "planetary",
+            "entry"
+          ]
+        },
         {
           "doi": "10.2514/1.g009613",
           "url": "https://doi.org/10.2514/1.g009613",
@@ -226,25 +244,6 @@
           "topics": [
             "astrodynamics"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009344",
-          "url": "https://doi.org/10.2514/1.g009344",
-          "title": "Adaptive Atmospheric Entry Guidance via Neural Networks",
-          "authors": [
-            "Felipe Giraldo-Grueso",
-            "Andrey A. Popov",
-            "Jeremy R. Rea",
-            "Renato Zanetti"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "entry"
-          ]
         }
       ]
     },
@@ -258,7 +257,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-13T22:41:36+09:00",
+      "last_success_at": "2026-10-14T10:41:57+09:00",
       "status": "ok",
       "items": [
         {
@@ -521,7 +520,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-13T22:41:36+09:00",
+      "last_success_at": "2026-10-14T10:41:57+09:00",
       "status": "ok",
       "items": [
         {
@@ -761,6 +760,24 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g009983",
+      "url": "https://doi.org/10.2514/1.g009983",
+      "title": "Embedding Performance Optimization and Constraint Enforcement into Heritage Powered Descent Guidance",
+      "authors": [
+        "Ping Lu"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-13",
+      "date_type": "published-online",
+      "topics": [
+        "control",
+        "planetary",
+        "entry"
+      ]
+    },
     {
       "doi": "10.2514/1.g009613",
       "url": "https://doi.org/10.2514/1.g009613",
@@ -1048,25 +1065,6 @@
       "date_type": "published-print",
       "topics": [
         "astrodynamics"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009344",
-      "url": "https://doi.org/10.2514/1.g009344",
-      "title": "Adaptive Atmospheric Entry Guidance via Neural Networks",
-      "authors": [
-        "Felipe Giraldo-Grueso",
-        "Andrey A. Popov",
-        "Jeremy R. Rea",
-        "Renato Zanetti"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "entry"
       ]
     },
     {
