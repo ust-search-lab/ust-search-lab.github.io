@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14T11:07:14+09:00",
+  "updated_at": "2026-10-14T23:10:22+09:00",
   "lookback_days": 90,
-  "partial": false,
+  "partial": true,
   "sources": [
     {
       "id": "kari",
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-14T23:10:22+09:00",
       "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
@@ -106,8 +106,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
-      "last_success_at": "2026-10-14T11:07:14+09:00",
+      "last_retrieved_at": "2026-10-14T23:10:22+09:00",
+      "last_success_at": "2026-10-14T23:10:22+09:00",
       "items": [
         {
           "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
@@ -269,10 +269,22 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-14T23:10:22+09:00",
       "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
+        {
+          "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
+          "url": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+          "date": "2026-10-14",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
           "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
@@ -361,7 +373,7 @@
             "mission",
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
@@ -374,7 +386,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
@@ -387,7 +399,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
@@ -400,7 +412,7 @@
           "topics": [
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
@@ -415,20 +427,7 @@
             "satellites",
             "demonstration"
           ],
-          "stale": false
-        },
-        {
-          "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-          "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-          "date": "2026-10-07",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission"
-          ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -437,8 +436,7 @@
       "name": "NASA/JPL",
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "status": "stale",
       "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
@@ -452,7 +450,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -464,7 +463,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
@@ -476,7 +476,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -488,7 +489,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -500,7 +502,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -512,7 +515,8 @@
           "language": "en",
           "topics": [
             "mission"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
@@ -525,7 +529,8 @@
           "topics": [
             "exploration",
             "communications"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
@@ -538,7 +543,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
@@ -552,7 +557,7 @@
             "exploration",
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -562,9 +567,21 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
-      "last_success_at": "2026-10-14T11:07:14+09:00",
+      "last_retrieved_at": "2026-10-14T23:10:22+09:00",
+      "last_success_at": "2026-10-14T23:10:22+09:00",
       "items": [
+        {
+          "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
+          "url": "https://www.esa.int/Enabling_Support/Operations/Earth_today_Jupiter_tomorrow_An_insight_into_Juice_s_recent_Earth_flyby",
+          "date": "2026-10-14",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission"
+          ]
+        },
         {
           "title": "Mars moon lander set to launch on 19 October",
           "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
@@ -707,20 +724,6 @@
             "control",
             "demonstration"
           ]
-        },
-        {
-          "title": "New tests for rendezvous and docking interoperability",
-          "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/New_tests_for_rendezvous_and_docking_interoperability",
-          "date": "2026-09-24",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "satellites",
-            "control"
-          ]
         }
       ]
     },
@@ -730,8 +733,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
-      "last_success_at": "2026-10-14T11:07:14+09:00",
+      "last_retrieved_at": "2026-10-14T23:10:22+09:00",
+      "last_success_at": "2026-10-14T23:10:22+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -840,6 +843,30 @@
     }
   ],
   "items": [
+    {
+      "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
+      "url": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+      "date": "2026-10-14",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
+      "url": "https://www.esa.int/Enabling_Support/Operations/Earth_today_Jupiter_tomorrow_An_insight_into_Juice_s_recent_Earth_flyby",
+      "date": "2026-10-14",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission"
+      ]
+    },
     {
       "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
       "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
@@ -954,7 +981,7 @@
         "mission",
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
@@ -967,7 +994,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
@@ -980,7 +1007,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
@@ -993,7 +1020,7 @@
       "topics": [
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
@@ -1008,20 +1035,7 @@
         "satellites",
         "demonstration"
       ],
-      "stale": false
-    },
-    {
-      "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
-      "date": "2026-10-07",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission"
-      ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -1123,7 +1137,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "누리호 5호기, 발사대로 이송 시작",
@@ -1284,21 +1299,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
-    },
-    {
-      "title": "New tests for rendezvous and docking interoperability",
-      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/New_tests_for_rendezvous_and_docking_interoperability",
-      "date": "2026-09-24",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
-        "satellites",
-        "control"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
@@ -1323,7 +1325,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -1360,7 +1363,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -1384,7 +1388,8 @@
       "language": "en",
       "topics": [
         "mission"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "누리호 5차, 10월 7일 발사",
@@ -1409,7 +1414,8 @@
       "topics": [
         "exploration",
         "communications"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -1487,7 +1493,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
@@ -1501,7 +1507,7 @@
         "exploration",
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
