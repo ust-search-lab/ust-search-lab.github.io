@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-13T23:04:34+09:00",
+  "updated_at": "2026-10-14T11:07:14+09:00",
   "lookback_days": 90,
-  "partial": true,
+  "partial": false,
   "sources": [
     {
       "id": "kari",
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "partial",
-      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
-      "last_success_at": "2026-10-13T10:57:36+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -106,8 +106,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
-      "last_success_at": "2026-10-13T23:04:34+09:00",
+      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
           "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
@@ -270,8 +270,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
-      "last_success_at": "2026-10-13T23:04:34+09:00",
+      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -284,6 +284,69 @@
           "topics": [
             "exploration",
             "demonstration"
+          ]
+        },
+        {
+          "title": "Transporter-18 SmallSats Encapsulation",
+          "url": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
+          "date": "2026-10-13",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
+          "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+          "date": "2026-10-13",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Perseverance Navcam Image Marks Record Drive",
+          "url": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
+          "date": "2026-10-13",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA’s Record-Setting Perseverance Rover Team",
+          "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
+          "date": "2026-10-13",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Comparing Off-World Rover Driving Distances",
+          "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+          "date": "2026-10-13",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
           ]
         },
         {
@@ -366,70 +429,6 @@
             "mission"
           ],
           "stale": false
-        },
-        {
-          "title": "Artemis II Crew Moon Photo Annotations",
-          "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
-          "date": "2026-10-07",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ]
-        },
-        {
-          "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
-          "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
-          "date": "2026-10-07",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
-          "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
-          "date": "2026-10-07",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
-          "url": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
-          "date": "2026-10-04",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
-          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/",
-          "date": "2026-10-04",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
         }
       ]
     },
@@ -439,8 +438,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
-      "last_success_at": "2026-10-13T23:04:34+09:00",
+      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -563,8 +562,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
-      "last_success_at": "2026-10-13T23:04:34+09:00",
+      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
           "title": "Mars moon lander set to launch on 19 October",
@@ -731,8 +730,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-13T23:04:34+09:00",
-      "last_success_at": "2026-10-13T23:04:34+09:00",
+      "last_retrieved_at": "2026-10-14T11:07:14+09:00",
+      "last_success_at": "2026-10-14T11:07:14+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -855,6 +854,19 @@
       ]
     },
     {
+      "title": "Transporter-18 SmallSats Encapsulation",
+      "url": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
+      "date": "2026-10-13",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
       "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784938",
       "date": "2026-10-13",
@@ -878,6 +890,56 @@
       "topics": [
         "exploration",
         "demonstration"
+      ]
+    },
+    {
+      "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
+      "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+      "date": "2026-10-13",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Perseverance Navcam Image Marks Record Drive",
+      "url": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
+      "date": "2026-10-13",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA’s Record-Setting Perseverance Rover Team",
+      "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
+      "date": "2026-10-13",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Comparing Off-World Rover Driving Distances",
+      "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/",
+      "date": "2026-10-13",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
       ]
     },
     {
@@ -960,18 +1022,6 @@
         "mission"
       ],
       "stale": false
-    },
-    {
-      "title": "Artemis II Crew Moon Photo Annotations",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
-      "date": "2026-10-07",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ]
     },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -1064,32 +1114,6 @@
       ]
     },
     {
-      "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
-      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
-      "date": "2026-10-07",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
-      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
-      "date": "2026-10-07",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
       "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
       "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
       "date": "2026-10-06",
@@ -1124,32 +1148,6 @@
       "topics": [
         "exploration"
       ]
-    },
-    {
-      "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
-      "url": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
-      "date": "2026-10-04",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/",
-      "date": "2026-10-04",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
     },
     {
       "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
