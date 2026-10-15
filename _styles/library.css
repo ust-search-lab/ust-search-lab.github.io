@@ -1,0 +1,104 @@
+.library [hidden] {
+  display: none !important;
+}
+.library .library-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+}
+.library .library-controls label {
+  display: grid;
+  gap: 8px;
+  font-size: var(--meta-size);
+}
+.library .library-controls input, .library .library-controls select {
+  width: 100%;
+  min-width: 0;
+  min-height: var(--control-height);
+  padding: 10px 12px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background);
+  color: var(--text);
+  font: inherit;
+  font-size: 1rem;
+}
+.library .library-count, .library .library-meta {
+  color: var(--dark-gray);
+  font-size: var(--meta-size);
+}
+.library .library-count:empty {
+  display: none;
+}
+.library .library-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--card-gap);
+  padding: 0;
+  margin: 24px 0;
+  list-style: none;
+}
+.library .library-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0;
+  padding: var(--card-padding);
+  border: 1px solid var(--light-gray);
+  border-top: 2px solid var(--primary);
+  border-radius: var(--rounded);
+  background: var(--background);
+  overflow-wrap: anywhere;
+}
+.library .library-card h2 {
+  margin: 8px 0;
+  font-size: var(--card-title-size);
+}
+.library .library-card p {
+  margin: 8px 0;
+}
+.library .library-card .library-description {
+  flex-grow: 1;
+}
+.library .library-card > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  align-self: flex-start;
+}
+.library .library-empty {
+  margin: 28px 0;
+  padding: var(--card-padding);
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background-alt);
+}
+.library .library-empty h2 {
+  margin: 0;
+  font-size: var(--card-title-size);
+}
+.library .library-empty p {
+  margin: 12px 0 0;
+}
+.library .library-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.library :is(a, input, select):focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .library .library-controls, .library .library-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=library.css.map */

@@ -15,7 +15,7 @@ main[data-page=consulting] [id] {
   line-height: 1.35;
 }
 
-.consulting-status {
+.consulting-eyebrow {
   display: inline-block;
   margin: 0;
   padding: 5px 11px;
@@ -38,6 +38,17 @@ main[data-page=consulting] [id] {
 .consulting-lead {
   margin: 20px 0 0;
   color: var(--dark-gray);
+}
+
+.consulting-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 24px;
+  margin-top: 28px;
+}
+.consulting-actions .text-link {
+  white-space: normal;
 }
 
 .consulting-heading h2 {
@@ -75,12 +86,12 @@ main[data-page=consulting] [id] {
   font-size: 0.94rem;
   line-height: 1.8;
 }
-.consulting-scope .consulting-question {
+.consulting-scope .consulting-fit {
   margin: 20px 0 0;
   color: var(--ink);
   font-weight: var(--semi-bold);
 }
-.consulting-scope .consulting-question span {
+.consulting-scope .consulting-fit span {
   display: block;
   margin-bottom: 5px;
   color: var(--dark-gray);
@@ -95,21 +106,44 @@ main[data-page=consulting] [id] {
   letter-spacing: 0.08em;
 }
 
-.consulting-deliverable {
-  margin-top: auto;
+.consulting-deliverable,
+.consulting-inputs {
   padding-top: 16px;
   border-top: 1px solid var(--light-gray);
 }
-.consulting-deliverable h4 {
+.consulting-deliverable h4,
+.consulting-inputs h4 {
   margin: 0;
   color: var(--primary);
   font-size: var(--label-size);
   font-weight: var(--bold);
 }
-.consulting-deliverable p {
+.consulting-deliverable p,
+.consulting-inputs p {
   margin: 6px 0 0;
   color: var(--dark-gray);
   font-size: 0.9rem;
+}
+
+.consulting-deliverable {
+  margin-top: auto;
+}
+.consulting-deliverable ul {
+  margin: 10px 0 0;
+  padding-left: 1.2em;
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+.consulting-deliverable li {
+  margin: 6px 0;
+}
+
+.consulting-inputs {
+  margin-top: 18px;
+}
+.consulting-inputs h4 {
+  color: var(--dark-gray);
 }
 
 .consulting-experience {
