@@ -39,6 +39,11 @@ jobs:
           bundle exec ruby _publications/test_merge.rb
           bundle exec ruby _publications/test_freshness.rb
 
+      - name: Verify materials and CMS authentication
+        run: |
+          bundle exec ruby _cms/test_materials.rb
+          node --test _cms/oauth/worker.test.mjs
+
       - name: Get Pages URL
         id: pages
         uses: actions/configure-pages@v6

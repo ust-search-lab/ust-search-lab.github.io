@@ -1,0 +1,38 @@
+categories:
+  - id: lecture
+    ko: 강의자료
+    en: Lecture materials
+  - id: research
+    ko: 연구자료
+    en: Research materials
+  - id: code
+    ko: 코드·실습
+    en: Code & exercises
+ko:
+  title: 자료실
+  intro: 연구와 학습에 활용할 공개 문서, 발표자료와 예제 코드를 모았습니다.
+  search: 자료 검색
+  placeholder: 제목이나 설명으로 검색
+  category: 자료 분류
+  all: 전체 자료
+  updated: 최근 업데이트
+  open: 자료 열기
+  results: "$X개 자료"
+  empty_title: 아직 등록된 자료가 없습니다
+  empty_description: 자료가 등록되면 이곳에서 확인하고 다운로드할 수 있습니다.
+  no_results: 검색 조건에 맞는 자료가 없습니다.
+  courses: 과목·학기별 수업자료
+en:
+  title: Resources
+  intro: Public documents, presentations, and example code for research and study.
+  search: Search resources
+  placeholder: Search titles and descriptions
+  category: Resource category
+  all: All resources
+  updated: Last updated
+  open: Open resource
+  results: "$X resources"
+  empty_title: No resources listed yet
+  empty_description: Resources will be available to browse and download here once they are added.
+  no_results: No resources match your search.
+  courses: Course materials by semester

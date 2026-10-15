@@ -1,0 +1,46 @@
+{% assign lang = page.lang | default: 'ko' %}
+{% assign ui = site.data.library-ui[lang] %}
+{% assign items = site.data.library.items | sort: 'updated' | reverse %}
+{% assign courses_path = '/students/courses/' %}
+{% if lang == 'en' %}{% assign courses_path = '/en/students/courses/' %}{% endif %}
+
+<div class="library" data-library>
+  <h1 class="page-title">{% include icon.html icon="fa-solid fa-folder-open" %}{{ ui.title }}</h1>
+  <p class="page-intro">{{ ui.intro }}</p>
+  <p><a class="text-link" href="{{ courses_path | relative_url }}">{{ ui.courses }} <span aria-hidden="true">→</span></a></p>
+
+  {% if items.size > 0 %}
+    <div class="library-controls" hidden>
+      <label>{{ ui.search }}<input type="search" data-library-search placeholder="{{ ui.placeholder | escape }}" aria-controls="library-items"></label>
+      <label>{{ ui.category }}<select data-library-category aria-controls="library-items">
+        <option value="">{{ ui.all }}</option>
+        {% for category in site.data.library-ui.categories %}
+          <option value="{{ category.id }}">{{ category[lang] }}</option>
+        {% endfor %}
+      </select></label>
+    </div>
+    <p class="library-count" data-library-count data-template="{{ ui.results | escape }}" role="status" aria-live="polite" aria-atomic="true"></p>
+    <ul class="library-grid" id="library-items" role="list">
+      {% for item in items %}
+        {% assign category = site.data.library-ui.categories | where: 'id', item.category | first %}
+        {% assign resource_url = item.url %}
+        {% if lang == 'en' and item.url_en != empty and item.url_en %}{% assign resource_url = item.url_en %}{% endif %}
+        {% assign first_character = resource_url | slice: 0 %}
+        {% if first_character == '/' %}{% assign resource_url = resource_url | relative_url %}{% endif %}
+        <li class="library-card" data-library-item data-category="{{ item.category | escape }}" data-search="{{ item.title.ko | escape }} {{ item.title.en | escape }} {{ item.description.ko | escape }} {{ item.description.en | escape }} {{ category.ko | escape }} {{ category.en | escape }} {{ item.type | escape }}">
+          <p class="library-meta">{{ category[lang] }}{% if item.type %} · {{ item.type | escape }}{% endif %}</p>
+          <h2>{{ item.title[lang] | escape }}</h2>
+          <p class="library-description">{{ item.description[lang] | escape }}</p>
+          <p class="library-meta">{{ ui.updated }} <time datetime="{{ item.updated | escape }}">{{ item.updated | date: '%Y.%m.%d' }}</time></p>
+          <a class="text-link" href="{{ resource_url | uri_escape | escape }}">{{ ui.open }}<span class="library-sr-only">: {{ item.title[lang] | escape }}</span> <span aria-hidden="true">→</span></a>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="library-empty" data-library-no-results hidden>{{ ui.no_results }}</p>
+  {% else %}
+    <div class="library-empty">
+      <h2>{{ ui.empty_title }}</h2>
+      <p>{{ ui.empty_description }}</p>
+    </div>
+  {% endif %}
+</div>

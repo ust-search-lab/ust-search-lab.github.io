@@ -1,6 +1,6 @@
 ---
 title: Space Mission Advisory
-description: A business concept by Jae-ik Park exploring collaboration in mission feasibility, orbit and trajectory analysis, simulation review, and applied mission design workshops.
+description: Space mission advisory services by Jae-ik Park. Explore mission design and feasibility analysis, simulation and design review, and practical workshops, then discuss your project.
 ref: consulting
 parent_ref: about
 published: false

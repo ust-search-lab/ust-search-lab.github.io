@@ -56,8 +56,8 @@ Student researchers participate in the lab's research projects, contributing to 
 
 {% if site.consulting_enabled %}
 
-## Industry collaboration and advisory concept
+## Industry collaboration and technical advisory
 
-Building on his research and mission design experience, Jae-ik Park is exploring industry collaboration in mission concept and trajectory assessment, modeling and simulation review, and practical training. This initiative is at the concept stage. [Space Mission Advisory]({{ '/en/consulting/' | relative_url }}) introduces the areas of expertise and potential collaboration topics.
+Drawing on Danuri mission design and operations experience and astrodynamics research, Jae-ik Park provides mission design and feasibility analysis, modeling and simulation review, and practical workshops for companies and research organizations. [Space Mission Advisory]({{ '/en/consulting/' | relative_url }}) describes the service scope, key deliverables, and engagement process.
 
 {% endif %}

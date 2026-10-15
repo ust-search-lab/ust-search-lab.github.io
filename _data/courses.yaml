@@ -1,3 +1,4 @@
-# Add a course offering here, then create its Korean and English page wrappers.
+# Edit through /admin/ or add a course offering here.
+# Korean and English course pages are generated automatically at build time.
 # Schema and publishing instructions: _guides/course-materials.md
 courses: []

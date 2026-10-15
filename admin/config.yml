@@ -1,0 +1,146 @@
+backend:
+  name: github
+  repo: ust-search-lab/ust-search-lab.github.io
+  branch: main
+  # base_url is supplied by admin.js from _data/cms.yaml.
+  auth_endpoint: auth
+
+locale: ko
+site_url: https://ust-search-lab.github.io
+display_url: https://ust-search-lab.github.io/resources/
+logo_url: https://ust-search-lab.github.io/images/search-lab-wordmark.png
+publish_mode: simple
+media_folder: downloads/materials
+public_folder: /downloads/materials
+collections:
+  - name: materials
+    label: 자료 관리
+    editor:
+      preview: false
+    files:
+      - name: library
+        label: 공개 자료실
+        file: _data/library.yaml
+        fields:
+          - label: 자료 목록
+            name: items
+            widget: list
+            summary: "{{fields.title.ko}} · {{fields.updated}}"
+            fields:
+              - &id
+                label: 고유 ID
+                name: id
+                widget: string
+                hint: 영문 소문자·숫자·하이픈으로 입력하세요. 게시 후에는 유지하세요.
+                pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', '예: orbit-design-notes']
+              - &title
+                label: 제목
+                name: title
+                widget: object
+                fields:
+                  - {label: 한국어, name: ko, widget: string}
+                  - {label: English, name: en, widget: string}
+              - &description
+                label: 설명
+                name: description
+                widget: object
+                fields:
+                  - {label: 한국어, name: ko, widget: text}
+                  - {label: English, name: en, widget: text}
+              - label: 분류
+                name: category
+                widget: select
+                options:
+                  - {label: 강의자료, value: lecture}
+                  - {label: 연구자료, value: research}
+                  - {label: 코드·실습, value: code}
+              - &updated
+                label: 최근 수정일
+                name: updated
+                widget: datetime
+                format: YYYY-MM-DD
+                date_format: YYYY.MM.DD
+                time_format: false
+                hint: 자료를 수정할 때 실제 수정일로 변경하세요.
+              - &file
+                label: 파일 또는 외부 링크
+                name: url
+                widget: file
+                allow_multiple: false
+                media_library: &file_limit
+                  config:
+                    max_file_size: 20971520
+                hint: 파일을 업로드하거나 https:// 주소를 입력하세요. 업로드는 파일당 20 MiB까지 지원합니다.
+              - label: 영어판 파일 또는 외부 링크
+                name: url_en
+                widget: file
+                allow_multiple: false
+                required: false
+                media_library: *file_limit
+                hint: 비워 두면 공통 파일을 사용합니다.
+              - &type
+                label: 파일 형식
+                name: type
+                widget: string
+                default: PDF
+                hint: "예: PDF, ZIP, Code, Link"
+
+      - name: courses
+        label: 과목·학기별 수업자료
+        file: _data/courses.yaml
+        fields:
+          - label: 과목 목록
+            name: courses
+            widget: list
+            summary: "{{fields.title.ko}} · {{fields.term.ko}}"
+            fields:
+              - *id
+              - *title
+              - *description
+              - label: 학기 정렬 번호
+                name: term_order
+                widget: number
+                value_type: int
+                min: 200001
+                hint: "예: 202701 = 2027년 첫 학기, 202702 = 그다음 학기"
+              - label: 학기명
+                name: term
+                widget: object
+                fields:
+                  - {label: 한국어, name: ko, widget: string}
+                  - {label: English, name: en, widget: string}
+              - *updated
+              - label: 강의계획서와 공통자료
+                name: overview
+                widget: list
+                required: false
+                summary: "{{fields.label.ko}}"
+                fields: &materials
+                  - label: 자료명
+                    name: label
+                    widget: object
+                    fields:
+                      - {label: 한국어, name: ko, widget: string}
+                      - {label: English, name: en, widget: string}
+                  - label: 자료 파일 또는 외부 링크
+                    name: url
+                    widget: object
+                    fields:
+                      - {label: 공통·한국어, name: ko, widget: file, allow_multiple: false, media_library: *file_limit}
+                      - {label: 영어판, name: en, widget: file, allow_multiple: false, required: false, media_library: *file_limit, hint: 비워 두면 공통·한국어 자료를 사용합니다.}
+                  - *type
+              - label: 주차별 자료
+                name: weeks
+                widget: list
+                required: false
+                summary: "{{fields.number}}주차 · {{fields.title.ko}}"
+                fields:
+                  - {label: 주차, name: number, widget: number, value_type: int, min: 1}
+                  - *title
+                  - *updated
+                  - label: 자료 목록
+                    name: materials
+                    widget: list
+                    required: false
+                    summary: "{{fields.label.ko}}"
+                    fields: *materials

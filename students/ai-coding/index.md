@@ -13,7 +13,6 @@ description: 맥·리눅스·윈도에서 AI 코딩 환경을 구성하고, Pyth
 맥·리눅스·윈도에서 개발 환경을 만들고, AI와 함께 간단한 궤도 계산 프로그램을 작성합니다. 코드 실행, 결과 검증, 변경 이력 저장까지 한 번에 따라 해보세요.
 {: .page-intro }
 
-<div class="guide-meta"><span>입문 · Python 실습</span><span>예상 60–90분 · 설치 시간 별도</span><span>문서 확인 2026.10.05</span></div>
 <div class="guide-actions">
   <a class="guide-button" href="#setup">내 운영체제로 시작하기 <span aria-hidden="true">↓</span></a>
   <a class="guide-button guide-button-secondary" href="{{ '/downloads/search-lab-ai-coding-starter.zip' | relative_url }}" download>참고 코드 ZIP</a>

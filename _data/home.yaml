@@ -12,10 +12,10 @@ ko:
   applications_title: 우주임무 설계와 기술실증
   topic_link: 연구내용 보기
   advisory_eyebrow: INDUSTRY COLLABORATION
-  advisory_title: 우주임무 기술자문 구상
-  advisory_description: 임무 개념과 궤적의 타당성 검토, 모델·시뮬레이션 검토, 실무교육을 중심으로 국내 우주개발팀과의 협력 가능성을 살펴보고 있습니다.
-  advisory_status: 사업 구상 단계
-  advisory_link: 전문 분야와 협력 구상 보기
+  advisory_title: 우주임무 기술자문
+  advisory_description: 임무설계·타당성 분석, 모델·시뮬레이션 검토, 실무 워크숍을 통해 기업·연구기관의 설계 의사결정과 팀 역량 강화를 지원합니다.
+  advisory_status: 기술자문 서비스
+  advisory_link: 서비스와 진행 절차 보기
   advisory_path: consulting/
   join_eyebrow: JOIN SEARCH Lab
   join_title: 다음 우주임무를 함께 설계합니다
@@ -38,10 +38,10 @@ en:
   applications_title: Space mission design and technology demonstration
   topic_link: Explore this area
   advisory_eyebrow: INDUSTRY COLLABORATION
-  advisory_title: Space Mission Advisory Concept
-  advisory_description: Exploring collaboration with space development teams in Korea through mission concept and trajectory assessment, modeling and simulation review, and practical training.
-  advisory_status: Concept stage
-  advisory_link: Explore expertise and collaboration
+  advisory_title: Space Mission Advisory
+  advisory_description: Mission design and feasibility analysis, simulation review, and practical workshops to support engineering decisions and team development at companies and research organizations.
+  advisory_status: Technical advisory services
+  advisory_link: Explore services and the process
   advisory_path: en/consulting/
   join_eyebrow: JOIN SEARCH Lab
   join_title: Help design the next space mission

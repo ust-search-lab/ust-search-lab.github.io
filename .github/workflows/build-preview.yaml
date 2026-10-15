@@ -30,6 +30,12 @@ jobs:
           ruby-version: ".ruby-version"
           bundler-cache: true
 
+      - name: Verify materials and CMS authentication
+        if: github.event.action != 'closed'
+        run: |
+          bundle exec ruby _cms/test_materials.rb
+          node --test _cms/oauth/worker.test.mjs
+
       - name: Get Pages URL
         if: github.event.action != 'closed'
         id: pages

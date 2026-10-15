@@ -1,0 +1,12 @@
+name = "search-lab-cms-auth"
+main = "worker.mjs"
+compatibility_date = "2026-10-15"
+workers_dev = true
+
+[vars]
+SITE_ORIGIN = "https://ust-search-lab.github.io"
+GITHUB_REPO = "ust-search-lab/ust-search-lab.github.io"
+
+# Configure these through `wrangler secret put`, never in this file:
+# GITHUB_CLIENT_ID
+# GITHUB_CLIENT_SECRET

@@ -4,10 +4,14 @@
 {% assign consulting_subject = consulting_copy.contact_subject | uri_escape %}
 
 <div class="consulting-intro">
-  <p class="consulting-status">{{ consulting_copy.status | escape }}</p>
+  <p class="consulting-eyebrow">{{ consulting_copy.eyebrow | escape }}</p>
   <h1>{{ consulting_copy.title | escape }}</h1>
   <p class="consulting-subtitle">{{ consulting_copy.subtitle | escape }}</p>
   <p class="consulting-lead">{{ consulting_copy.introduction | escape }}</p>
+  <div class="consulting-actions">
+    <a class="action-button" href="#advisory-contact">{{ consulting_copy.contact_link | escape }} <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="#advisory-areas">{{ consulting_copy.services_link | escape }} <span aria-hidden="true">↓</span></a>
+  </div>
 </div>
 
 {% include section.html %}
@@ -21,11 +25,19 @@
     <article class="consulting-scope" aria-labelledby="advisory-area-{{ forloop.index }}">
       <span class="consulting-number" aria-hidden="true">0{{ forloop.index }}</span>
       <h3 id="advisory-area-{{ forloop.index }}">{{ scope.title | escape }}</h3>
-      <p class="consulting-question"><span>{{ consulting_copy.question_label | escape }}</span>{{ scope.question | escape }}</p>
+      <p class="consulting-fit"><span>{{ consulting_copy.fit_label | escape }}</span>{{ scope.fit | escape }}</p>
       <p>{{ scope.description | escape }}</p>
       <div class="consulting-deliverable">
         <h4>{{ consulting_copy.deliverable_label | escape }}</h4>
-        <p>{{ scope.deliverable | escape }}</p>
+        <ul>
+          {% for deliverable in scope.deliverables %}
+            <li>{{ deliverable | escape }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="consulting-inputs">
+        <h4>{{ consulting_copy.inputs_label | escape }}</h4>
+        <p>{{ scope.inputs | escape }}</p>
       </div>
     </article>
   {% endfor %}
@@ -64,4 +76,4 @@
   </div>
   <a class="action-button" href="mailto:{{ site.links.email | escape }}?subject={{ consulting_subject | escape }}">{{ consulting_copy.contact_link | escape }} <span aria-hidden="true">↗</span></a>
 </div>
-<p class="consulting-note">{{ consulting_copy.concept_note | escape }}</p>
+<p class="consulting-note">{{ consulting_copy.service_note | escape }}</p>

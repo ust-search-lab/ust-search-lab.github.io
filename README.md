@@ -62,9 +62,9 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 - Publications combine citations generated from `_data/orcid.yaml` and
   `_data/sources.yaml` with the curated historical records described below.
 
-## Space mission advisory concept
+## Space mission advisory services
 
-The advisory concept is **withheld from the website at the owner's request**
+The advisory page is **withheld from the website at the owner's request**
 (2026-10-06). `consulting_enabled: false` in `_config.yaml` hides its homepage
 entry and both About sections. `published: false` in `consulting/index.md` and
 `en/consulting/index.md` keeps the detail pages out of normal Jekyll builds,
@@ -75,11 +75,36 @@ control, not authentication or protection of source files in a public repository
 The retained draft would link the homepage and About to `/consulting/` and
 `/en/consulting/`, with no top-level navigation item. `_data/consulting.yaml`,
 `_includes/consulting.html`, and `_styles/consulting.scss` share their bilingual
-content and layout. The owner confirmed the **business concept stage** on
-2026-10-06: describe expertise, potential collaboration, and proposed outputs,
-not a launched company, commercial track record, or institutional endorsement.
+content and layout. The owner requested **a customer-facing service page** on
+2026-10-06: describe services, suitable clients, deliverables, scoping inputs,
+the consultation and quotation process, and a project inquiry action. This
+replaces the earlier concept-stage wording without changing publication status.
+Use the existing professional record without inventing clients, commercial
+results, prices, or institutional endorsement.
 The research and business rationale is in `_guides/consulting-strategy.md`, which
 is excluded from the published site with the rest of `_guides/`.
+
+## Content manager and public resources
+
+`/admin/` uses Decap CMS 3.17.1 to edit `_data/library.yaml` and
+`_data/courses.yaml`, with uploaded public files in `downloads/materials/`.
+`/resources/` and `/en/resources/` list the public resources with bilingual
+search, category filtering, and newest-update-first ordering. They appear
+between Links and Contact; course materials remain under For Students.
+Both lists are empty until actual materials are supplied.
+
+The site continues to deploy from `main` through the existing GitHub Actions.
+GitHub login requires deploying the separate OAuth Worker in `_cms/oauth/`,
+registering a GitHub OAuth App, and setting its public URL in `_data/cms.yaml`.
+Until then, `/admin/` displays setup guidance. The Worker requires repository
+write permission and uses state, PKCE, and a fixed-origin popup handshake.
+Keep its Client Secret in Cloudflare Secrets. See
+[`_guides/cms-setup.md`](_guides/cms-setup.md) for setup and daily operation.
+This is a public library with editor authentication; it does not make published
+files private. The CMS manages only these two material data files.
+
+Validate with `bundle exec ruby _cms/test_materials.rb`,
+`node --test _cms/oauth/worker.test.mjs`, and `bundle exec jekyll build`.
 
 ## Course materials
 
@@ -89,14 +114,15 @@ with an empty state until actual course materials are supplied. The AI coding
 guide remains under For Students as common onboarding material for incoming
 lab members; it is not part of the course library.
 
-Add offerings to `_data/courses.yaml` and create matching Korean/English page
-wrappers using `_layouts/course.html`. Each course supports syllabus links,
+Add offerings through `/admin/` or `_data/courses.yaml`.
+`_plugins/materials.rb` generates matching Korean/English course pages using
+`_layouts/course.html`; separate page wrappers are optional. Each course supports syllabus links,
 weekly lecture notes, readings, assignment instructions, and explicit update
 dates. Code or practical exercises can be added when relevant to a course.
 `_data/course-ui.yaml` contains interface translations;
 `_styles/courses.scss` uses the shared theme tokens. See
 [`_guides/course-materials.md`](_guides/course-materials.md) for the data schema
-and step-by-step publishing instructions. No new top-level menu is added.
+and step-by-step publishing instructions. Courses remain under For Students.
 
 ## Shared visual styles
 

@@ -8,7 +8,7 @@ navigation-logo: images/search-lab-wordmark.png
 show-subtitle: false
 proofer: false
 
-# Keep the advisory concept hidden until publication is explicitly requested.
+# Keep the advisory services hidden until publication is explicitly requested.
 # Its two page drafts also have published: false.
 consulting_enabled: false
 
@@ -82,6 +82,7 @@ include:
 
 # force jekyll to exclude certain files/folders
 exclude:
+  - _cms
   - _space_news
   - _guides
   - _publications

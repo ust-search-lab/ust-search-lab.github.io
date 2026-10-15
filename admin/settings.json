@@ -1,0 +1,5 @@
+---
+layout: null
+sitemap: false
+---
+{"auth_base_url": {{ site.data.cms.auth_base_url | jsonify }}}

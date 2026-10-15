@@ -1,0 +1,9 @@
+body { margin: 0; background: #f3f7fb; color: #283d51; font-family: system-ui, sans-serif; }
+#cms-status { max-width: 620px; margin: 10vh auto; padding: 32px; line-height: 1.8; }
+#cms-status[hidden], #cms-setup[hidden] { display: none; }
+#cms-status h1 { color: #132c48; font-size: 1.75rem; }
+#cms-status .eyebrow { color: #526578; font-size: .8rem; letter-spacing: .06em; }
+#cms-status a { color: #1761a3; display: inline-flex; align-items: center; min-height: 44px; }
+#cms-status .back { margin-top: 24px; }
+#cms-status a:focus-visible { outline: 2px solid #1761a3; outline-offset: 4px; }
+@media (max-width: 700px) { #cms-status { margin: 5vh 0; padding: 22px; } }

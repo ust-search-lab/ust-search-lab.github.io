@@ -13,7 +13,6 @@ description: Set up AI-assisted coding on macOS, Linux or Windows, then build, v
 Set up your computer, build a small orbit calculation with an AI assistant, and learn to run, verify and save your work.
 {: .page-intro }
 
-<div class="guide-meta"><span>Beginner · Python</span><span>60–90 minutes + installation</span><span>Docs checked: October 5, 2026</span></div>
 <div class="guide-actions">
   <a class="guide-button" href="#setup">Choose your operating system <span aria-hidden="true">↓</span></a>
   <a class="guide-button guide-button-secondary" href="{{ '/downloads/search-lab-ai-coding-starter.zip' | relative_url }}" download>Reference code ZIP</a>
