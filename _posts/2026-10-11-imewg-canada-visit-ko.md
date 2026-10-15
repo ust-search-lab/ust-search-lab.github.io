@@ -12,3 +12,19 @@ excerpt: 박재익 박사와 협력 연구원 김재인·배정주 박사가 202
 SEARCH Lab의 **박재익 박사**는 협력 연구원인 **김재인 박사, 배정주 박사**와 함께 **국제화성탐사실무그룹(IMEWG) 대면회의**에 참석하기 위해 **2026년 10월 12~18일 캐나다 몬트리올로 출장**을 떠납니다.
 
 매년 한 차례 열리는 IMEWG(International Mars Exploration Working Group) 대면회의는 올해 **캐나다우주청(CSA, Canadian Space Agency)**에서 개최됩니다.
+
+{%
+  include figure.html
+  image="/images/news/imewg-2026-canada/csa-canadarm-group.jpeg"
+  link="/images/news/imewg-2026-canada/csa-canadarm-group.jpeg"
+  caption="캐나다우주청의 캐나다암(Canadarm) 전시물 앞에서 촬영한 단체 사진."
+  width="100%"
+%}
+
+{%
+  include figure.html
+  image="/images/news/imewg-2026-canada/csa-space-adventure-group.jpeg"
+  link="/images/news/imewg-2026-canada/csa-space-adventure-group.jpeg"
+  caption="캐나다우주청의 우주비행사 소개 전시물 앞에서 촬영한 단체 사진."
+  width="540px"
+%}
