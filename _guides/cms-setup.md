@@ -2,7 +2,7 @@
 
 이 사이트는 Jekyll과 GitHub Pages 배포를 그대로 사용하고, `/admin/`의 Decap CMS로 공개 자료를 편집합니다. GitHub 로그인의 인증 코드 교환만 Cloudflare Workers에서 처리합니다.
 
-현재 저장소에는 관리자 화면·자료실·인증 Worker 코드가 준비되어 있습니다. 외부 계정은 아직 연결되지 않았으므로 아래 최초 설정을 마쳐야 실제 GitHub 로그인이 동작합니다. `_data/cms.yaml`의 인증 주소가 비어 있으면 `/admin/`은 최초 설정 안내를 표시합니다.
+현재 관리자 화면·자료실과 GitHub OAuth 인증 Worker가 연결되어 있습니다. `/admin/`에서 **Login with GitHub**로 로그인하세요. 인증 서비스 상태는 [Worker의 `/health`](https://search-lab-cms-auth.jpark-275.workers.dev/health)에서 확인할 수 있습니다. 아래 최초 설정 절차는 인증 서비스를 다시 구성할 때 참고하세요. `_data/cms.yaml`의 인증 주소를 비우면 `/admin/`은 최초 설정 안내를 표시합니다.
 
 ## 1. Cloudflare 계정과 인증 Worker 만들기
 
