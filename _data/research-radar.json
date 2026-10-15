@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-14T22:49:33+09:00",
+  "updated_at": "2026-10-15T10:44:03+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-14T22:49:33+09:00",
+      "last_success_at": "2026-10-15T10:44:03+09:00",
       "status": "ok",
       "items": [
         {
@@ -257,7 +257,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-14T22:49:33+09:00",
+      "last_success_at": "2026-10-15T10:44:03+09:00",
       "status": "ok",
       "items": [
         {
@@ -520,19 +520,19 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-14T22:49:33+09:00",
+      "last_success_at": "2026-10-15T10:44:03+09:00",
       "status": "ok",
       "items": [
         {
-          "doi": "10.1016/j.actaastro.2026.10.014",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.10.014",
-          "title": "A Meta Integral Reinforcement Learning-Based Cooperative Guidance Evasion Scheme against Noncooperative Spacecraft",
+          "doi": "10.1016/j.actaastro.2026.10.026",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.026",
+          "title": "Thermomechanical stability of graphene and multi-walled carbon nanotubes/epoxy nanocomposites under simulated lunar ultraviolet radiation",
           "authors": [
-            "Weilin Ni",
-            "Jianying Wang",
-            "Jinglan Zeng",
-            "Zhigang Wu",
-            "Haizhao Liang"
+            "Marta Balestra",
+            "Alessandro Settimi",
+            "Elisa Toto",
+            "Maria Gabriella Santonicola",
+            "Susanna Laurenzi"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -540,7 +540,7 @@
           "date": "2026-10",
           "date_type": "published-print",
           "topics": [
-            "control"
+            "planetary"
           ]
         },
         {
@@ -1068,15 +1068,15 @@
       ]
     },
     {
-      "doi": "10.1016/j.actaastro.2026.10.014",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.10.014",
-      "title": "A Meta Integral Reinforcement Learning-Based Cooperative Guidance Evasion Scheme against Noncooperative Spacecraft",
+      "doi": "10.1016/j.actaastro.2026.10.026",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.026",
+      "title": "Thermomechanical stability of graphene and multi-walled carbon nanotubes/epoxy nanocomposites under simulated lunar ultraviolet radiation",
       "authors": [
-        "Weilin Ni",
-        "Jianying Wang",
-        "Jinglan Zeng",
-        "Zhigang Wu",
-        "Haizhao Liang"
+        "Marta Balestra",
+        "Alessandro Settimi",
+        "Elisa Toto",
+        "Maria Gabriella Santonicola",
+        "Susanna Laurenzi"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
@@ -1084,7 +1084,7 @@
       "date": "2026-10",
       "date_type": "published-print",
       "topics": [
-        "control"
+        "planetary"
       ]
     },
     {
