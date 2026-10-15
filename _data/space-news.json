@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-15T11:09:55+09:00",
+  "updated_at": "2026-10-15T23:17:48+09:00",
   "lookback_days": 90,
-  "partial": false,
+  "partial": true,
   "sources": [
     {
       "id": "kari",
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-15T11:09:55+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-15T23:17:48+09:00",
       "last_success_at": "2026-10-15T11:09:55+09:00",
       "items": [
         {
@@ -106,8 +106,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-15T11:09:55+09:00",
-      "last_success_at": "2026-10-15T11:09:55+09:00",
+      "last_retrieved_at": "2026-10-15T23:17:48+09:00",
+      "last_success_at": "2026-10-15T23:17:48+09:00",
       "items": [
         {
           "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -271,8 +271,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-15T11:09:55+09:00",
-      "last_success_at": "2026-10-15T11:09:55+09:00",
+      "last_retrieved_at": "2026-10-15T23:17:48+09:00",
+      "last_success_at": "2026-10-15T23:17:48+09:00",
       "items": [
         {
           "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
@@ -376,7 +376,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
@@ -439,8 +440,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-15T11:09:55+09:00",
-      "last_success_at": "2026-10-15T11:09:55+09:00",
+      "last_retrieved_at": "2026-10-15T23:17:48+09:00",
+      "last_success_at": "2026-10-15T23:17:48+09:00",
       "items": [
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -563,8 +564,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-15T11:09:55+09:00",
-      "last_success_at": "2026-10-15T11:09:55+09:00",
+      "last_retrieved_at": "2026-10-15T23:17:48+09:00",
+      "last_success_at": "2026-10-15T23:17:48+09:00",
       "items": [
         {
           "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -729,8 +730,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-15T11:09:55+09:00",
-      "last_success_at": "2026-10-15T11:09:55+09:00",
+      "last_retrieved_at": "2026-10-15T23:17:48+09:00",
+      "last_success_at": "2026-10-15T23:17:48+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -993,7 +994,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
