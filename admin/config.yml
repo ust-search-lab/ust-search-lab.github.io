@@ -236,6 +236,7 @@ collections:
         name: photos
         widget: list
         required: false
+        default: []
         summary: "{{fields.alt}}"
         hint: 원하는 사진만 추가하고 순서를 바꿀 수 있습니다. 사진첩에 새 사진이 올라와도 여기에 선택한 사진만 표시됩니다.
         fields:
