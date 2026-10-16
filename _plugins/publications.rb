@@ -83,6 +83,13 @@ module Jekyll
       Array(records).select { |record| Array(record['researcher_ids']).include?(researcher_id) }
     end
 
+    # Filter after merging so curated author order remains authoritative and
+    # automatic citations cannot reintroduce a hidden work. Keep source data intact.
+    def public_publications(records, policy)
+      hidden = Array(policy.to_h['hidden_first_authors']).map { |name| publication_name(name) }.reject(&:empty?)
+      Array(records).reject { |record| hidden.include?(publication_name(Array(record['authors']).first)) }
+    end
+
     # Preserve the citation's author spelling. Only explicitly verified aliases
     # identify an ORCID; a newly collected or ambiguous author remains plain text.
     def publication_authors(authors, registry)

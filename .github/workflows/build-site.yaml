@@ -44,6 +44,7 @@ jobs:
           bundle exec ruby _cms/test_materials.rb
           bundle exec ruby _cms/test_gallery.rb
           node --test _cms/oauth/worker.test.mjs
+          node --test _cms/test_publication_archive.mjs
 
       - name: Get Pages URL
         id: pages

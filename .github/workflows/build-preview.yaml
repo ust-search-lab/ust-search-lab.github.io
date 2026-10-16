@@ -35,6 +35,7 @@ jobs:
         run: |
           bundle exec ruby _cms/test_materials.rb
           node --test _cms/oauth/worker.test.mjs
+          node --test _cms/test_publication_archive.mjs
 
       - name: Get Pages URL
         if: github.event.action != 'closed'

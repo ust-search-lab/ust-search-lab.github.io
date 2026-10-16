@@ -16,7 +16,7 @@ module Jekyll
     CURATED = %w[legacy-publications discovered-publications ip-publications
                  accepted-publications under-review-publications
                  collaborator-publications-oh collaborator-publications-bae].freeze
-    PATHS = (CURATED + %w[citations auto-publications]).map { |name| "_data/#{name}.yaml" }.push(
+    PATHS = (CURATED + %w[citations auto-publications publication-visibility]).map { |name| "_data/#{name}.yaml" }.push(
       '_data/publication-automation.json'
     ).freeze
     VISIBLE_FIELDS = %w[category year status title link authors contributor_role subtype scope
@@ -30,6 +30,7 @@ module Jekyll
     def fingerprints(data, researchers)
       records = publication_records(data['citations'], CURATED.flat_map { |name| Array(data[name]) },
                                     data['auto-publications'], data.dig('publication-automation', 'researchers') || researchers)
+      records = public_publications(records, data['publication-visibility'])
       researchers.to_h do |person|
         scoped = publications_for_researcher(records, person['id'])
         scoped = scoped.reject { |r| r['category'] == 'intellectual-property' } unless person['main_publications']

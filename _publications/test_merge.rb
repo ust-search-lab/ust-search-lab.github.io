@@ -91,3 +91,23 @@ check(publication_records([], [spring, fall.reject { |key, _| key == 'date' }]).
 check(publication_records([], [spring.reject { |key, _| key == 'link' }, fall.reject { |key, _| key == 'link' }]).size == 2,
       'Conflicting conference dates collapsed without event URLs')
 puts 'Researcher attribution, deduplication and page scope checks passed'
+
+policy = {'hidden_first_authors' => ['Young-Joo Song', '송영주']}
+hidden_work = {'id' => 'doi:10.1234/hidden', 'title' => 'Hidden first-author work',
+               'authors' => ['Young-Joo Song', 'Jae-ik Park'], 'category' => 'journal', 'year' => 2021}
+coauthored = hidden_work.merge('id' => 'doi:10.1234/coauthored', 'title' => 'Visible coauthored work',
+                              'authors' => ['Jae-ik Park', 'Young-Joo Song'])
+duplicate = hidden_work.merge('authors' => ['Young Joo Song', 'Jae-ik Park'])
+records = publication_records([duplicate], [hidden_work, coauthored], [], people)
+visible = public_publications(records, policy)
+check(visible.map { |r| r['title'] } == ['Visible coauthored work'], 'First-author rule must remove merged duplicates and preserve coauthorship')
+check(records.size == 2 && hidden_work['authors'].first == 'Young-Joo Song', 'Visibility filtering must preserve administrator source records')
+check(public_publications(records, nil) == records, 'Missing visibility policy must preserve historical output')
+['송영주', 'Young Joo Song', 'YOUNG–JOO SONG', '  Young-Joo Song  '].each do |name|
+  check(public_publications([hidden_work.merge('authors' => [name])], policy).empty?, "First-author spelling variant leaked: #{name}")
+end
+check(public_publications([hidden_work.merge('authors' => ['Young-Joo Song Kim'])], policy).size == 1, 'Partial author names must not match')
+check(public_publications([hidden_work.merge('authors' => [])], policy).size == 1, 'Unknown first authors must not be silently hidden')
+fresh = hidden_work.merge('id' => 'doi:10.1234/future', 'title' => 'Future collected work', 'researcher_ids' => ['jae-ik-park'])
+check(public_publications(publication_records([], [], [fresh], people), policy).empty?, 'Future automatic collection reintroduced a hidden first author')
+puts 'First-author public visibility checks passed'

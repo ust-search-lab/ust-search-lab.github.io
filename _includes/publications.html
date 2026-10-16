@@ -1,6 +1,7 @@
 {% assign publications_lang = page.lang | default: "ko" %}
 {% assign curated_publications = site.data.legacy-publications | concat: site.data.discovered-publications | concat: site.data.ip-publications | concat: site.data.accepted-publications | concat: site.data.under-review-publications | concat: site.data.collaborator-publications-oh | concat: site.data.collaborator-publications-bae %}
 {% assign publication_records = site.data.citations | publication_records: curated_publications, site.data.auto-publications, site.data.publication-automation.researchers %}
+{% assign publication_records = publication_records | public_publications: site.data.publication-visibility %}
 {% assign publication_researcher = include.researcher | default: "jae-ik-park" %}
 {% assign publication_records = publication_records | publications_for_researcher: publication_researcher %}
 {% assign publication_categories = "journal,conference,patent,software,intellectual-property" | split: "," %}

@@ -102,6 +102,25 @@ in curated data. The registered status and grant number can still update.
   published. `_publications/review.json` is gitignored/excluded from Jekyll;
   `publication-review` artifacts retain candidates for 30 days.
 
+## Public display and administrator lookup
+
+`_data/publication-visibility.yaml` lists first-author names hidden from public
+views. The rule is applied **after merging**, before researcher/category counts
+and HTML rendering, in both languages and personal profiles. NFKC normalization,
+case folding, and punctuation/space removal accommodate spelling variants without
+hiding works where the same person is only a coauthor. Bibliographic sources and
+automatic collection remain intact; future matching records are also hidden.
+
+After signing in at `/admin/`, **숨긴 실적 조회** provides read-only views of the
+curated and automatic source files. Decap's GitHub backend loads the originals;
+the formatter wraps root-level YAML arrays without migrating or saving them.
+Both serialization and the pre-save hook reject edits to this collection.
+Automatic source views can overlap the curated lists and are not aggregate counts.
+
+This is public-page curation, **not confidential storage**: the owner chose to
+retain the original bibliography in the public GitHub repository. There is no
+anonymous archive page or publication-data feed added to the public site.
+
 ## Public freshness indicators
 
 Publications and personal research-output views show two separate times in KST

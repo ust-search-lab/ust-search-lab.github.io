@@ -13,6 +13,8 @@ sitemap: false
     <link rel="stylesheet" href="{{ '/admin/admin.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <script>window.CMS_MANUAL_INIT = true;</script>
     <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.17.1/dist/decap-cms.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.1/dist/js-yaml.min.js" defer></script>
+    <script src="{{ '/admin/publication-archive.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
     <script src="{{ '/admin/admin.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   </head>
   <body>

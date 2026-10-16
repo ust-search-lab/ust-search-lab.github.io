@@ -67,6 +67,16 @@ Dir.mktmpdir('publication-history') do |root|
     git.call('clone', '-q', '--depth=1', "file://#{root}", clone)
     check(Jekyll::PublicationHistory.new(clone).updated_at(data).empty?, 'Shallow history must not fabricate old change dates')
   end
+
+  data['publication-visibility'] = {'hidden_first_authors' => ['Park']}
+  write.call('publication-visibility', data['publication-visibility'])
+  sixth = '2026-10-07T01:00:00Z'
+  commit.call(sixth)
+  check(history.updated_at(data) == {'park' => sixth, 'oh' => sixth}, 'Hiding a displayed shared work must advance both public dates')
+  data['legacy-publications'][0]['title'] = 'Changed hidden work'
+  write.call('legacy-publications', data['legacy-publications'])
+  commit.call('2026-10-08T01:00:00Z')
+  check(history.updated_at(data) == {'park' => sixth, 'oh' => sixth}, 'Hidden-only edits must not advance public content dates')
 end
 
 include Jekyll::PublicationTimeFilters

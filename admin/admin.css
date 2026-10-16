@@ -16,3 +16,9 @@ body { margin: 0; background: #f3f7fb; color: #283d51; font-family: system-ui, s
   background: #132c48;
 }
 @media (max-width: 700px) { #cms-status { margin: 5vh 0; padding: 22px; } }
+.publication-archive { padding: 20px; background: #fff; border: 1px solid #dbe3eb; border-radius: 6px; line-height: 1.65; }
+.publication-archive-note { padding: 12px; background: #edf4fa; color: #334d67; }
+.publication-archive article { padding: 20px 0; border-top: 1px solid #dbe3eb; }
+.publication-archive h3 { margin: 6px 0; color: #183c61; font-size: 17px; }
+.publication-archive-meta { color: #526578; font-size: 13px; }
+.publication-archive a { color: #1761a3; }

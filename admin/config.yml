@@ -13,6 +13,34 @@ publish_mode: simple
 media_folder: downloads/materials
 public_folder: /downloads/materials
 collections:
+  - name: publication_archive
+    label: 숨긴 실적 조회
+    description: 첫 저자가 Young-Joo Song 또는 송영주인 실적입니다. 논문·기존 목록과 학술대회·추가 목록에서 확인하세요. 자동 수집 목록에는 같은 실적이 중복될 수 있습니다.
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: legacy
+        label: 논문 · 기존 목록
+        file: _data/legacy-publications.yaml
+        format: publication-archive
+        fields: &publication_archive_fields
+          - {label: 공개 화면에서 숨긴 실적, name: records, widget: publication-archive, required: false}
+      - name: discovered
+        label: 학술대회 · 추가 목록
+        file: _data/discovered-publications.yaml
+        format: publication-archive
+        fields: *publication_archive_fields
+      - name: citations
+        label: ORCID 수집 목록 · 중복 포함
+        file: _data/citations.yaml
+        format: publication-archive
+        fields: *publication_archive_fields
+      - name: automatic
+        label: 자동 수집 목록 · 중복 포함
+        file: _data/auto-publications.yaml
+        format: publication-archive
+        fields: *publication_archive_fields
   - name: materials
     label: 자료 관리
     description: Resources의 일반 자료, 수업자료와 사진첩을 관리합니다. 사진첩을 게시한 뒤 공지사항에서 연결할 수 있습니다.
