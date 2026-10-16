@@ -115,6 +115,24 @@ Dir.mktmpdir('search-lab-gallery-') do |dir|
   selected = Nokogiri::HTML(File.read(File.join(refreshed.dest, 'news/2026/10/09/selected-photos/index.html')))
   check(selected.css('.figure img').map { |img| img['src'] } == ['/preview/images/first.jpeg', selected_photos[1]['image']], 'Album additions and replacements do not change individually selected NEWS photos')
 
+  # Decap serializes its date-only widget as an unquoted YAML date when publishing.
+  album['updated'] = Date.new(2026, 10, 17)
+  album['photos'].shift
+  write.call('_data/gallery.yaml', YAML.dump('albums' => [album]))
+  deleted = Jekyll::Site.new(config)
+  deleted.process
+  %w[ko en].each do |lang|
+    prefix = lang == 'en' ? 'en/' : ''
+    html = Nokogiri::HTML(File.read(File.join(deleted.dest, prefix, 'resources/albums', album['id'], 'index.html')))
+    check(html.css('.album-photo img').map { |img| img['src'] } == %w[/preview/images/second.jpeg /preview/images/replacement.jpeg], "#{lang}: CMS photo deletion publishes with an unquoted date")
+    check(html.at_css('.album-meta time')['datetime'] == '2026-10-17', "#{lang}: CMS album date renders correctly")
+    index = Nokogiri::HTML(File.read(File.join(deleted.dest, prefix, 'resources/index.html')))
+    check(index.at_css('.album-cover img')['src'] == '/preview/images/second.jpeg', "#{lang}: deleting the cover updates the Resources thumbnail")
+    check(index.at_css('.album-meta').text.include?(lang == 'ko' ? '사진 2장' : '2 photos'), "#{lang}: album photo count updates after deletion")
+    article = Nokogiri::HTML(File.read(File.join(deleted.dest, prefix, 'news/2026/10/09/selected-photos/index.html')))
+    check(article.css('.figure img').map { |img| img['src'] } == ['/preview/images/first.jpeg', selected_photos[1]['image']], "#{lang}: album deletion preserves independently selected NEWS photos")
+  end
+
   [
     ['Unknown photo album', ->(s) { s.data['gallery']['albums'] = [] }],
     ['Duplicate albums IDs', ->(s) { s.data['gallery']['albums'] << album }],

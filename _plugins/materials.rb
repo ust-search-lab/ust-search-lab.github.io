@@ -18,7 +18,7 @@ module Jekyll
       albums.each do |album|
         localized(album['title'], 'album title')
         localized(album['description'], 'album description')
-        date(album['updated'], 'album updated')
+        album['updated'] = date(album['updated'], 'album updated')
         photos = album['photos']
         fail_build('An album needs at least one photo') unless photos.is_a?(Array) && !photos.empty?
         photos.each do |photo|
@@ -47,7 +47,7 @@ module Jekyll
         localized(item['title'], 'library title')
         localized(item['description'], 'library description')
         fail_build('Unknown library category') unless %w[lecture research code].include?(item['category'])
-        date(item['updated'], 'library updated')
+        item['updated'] = date(item['updated'], 'library updated')
         resource_url(site, item['url'])
         resource_url(site, item['url_en']) unless item['url_en'].to_s.empty?
       end
@@ -56,14 +56,14 @@ module Jekyll
         localized(course['description'], 'course description')
         localized(course['term'], 'course term')
         fail_build('term_order must be a positive integer') unless course['term_order'].is_a?(Integer) && course['term_order'].positive?
-        date(course['updated'], 'course updated') if course['updated']
+        course['updated'] = date(course['updated'], 'course updated') if course['updated']
         materials(site, course['overview'])
         weeks = course['weeks'] || []
         fail_build('weeks must be a list') unless weeks.is_a?(Array)
         numbers = weeks.map do |week|
           fail_build('Each week needs a positive integer number') unless week.is_a?(Hash) && week['number'].is_a?(Integer) && week['number'].positive?
           localized(week['title'], 'week title')
-          date(week['updated'], 'week updated') if week['updated']
+          week['updated'] = date(week['updated'], 'week updated') if week['updated']
           materials(site, week['materials'])
           week['number']
         end
@@ -98,8 +98,11 @@ module Jekyll
     end
 
     def date(value, name)
-      fail_build("#{name} must be a YYYY-MM-DD string") unless value.is_a?(String) && value.match?(/\A\d{4}-\d{2}-\d{2}\z/)
-      Date.iso8601(value)
+      # CMS saves date-only values without quotes; YAML reads those as Date objects.
+      # Normalize both forms before Liquid sorts mixed CMS and hand-written records.
+      value = value.iso8601 if value.instance_of?(Date)
+      fail_build("#{name} must be a YYYY-MM-DD date") unless value.is_a?(String) && value.match?(/\A\d{4}-\d{2}-\d{2}\z/)
+      Date.iso8601(value).iso8601
     rescue Date::Error
       fail_build("Invalid #{name} date")
     end

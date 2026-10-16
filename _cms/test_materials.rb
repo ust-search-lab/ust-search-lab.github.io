@@ -30,10 +30,10 @@ def fixture_course
     'id' => 'orbital-mechanics-2027-spring', 'term_order' => 202701,
     'term' => bilingual('2027년 봄학기', 'Spring 2027'),
     'title' => bilingual('궤도역학 & 실습', 'Orbital Mechanics & Exercises'),
-    'description' => bilingual('과목 설명', 'Course description'), 'updated' => '2027-03-01',
+    'description' => bilingual('과목 설명', 'Course description'), 'updated' => Date.new(2027, 3, 1),
     'overview' => [{'label' => bilingual('계획서', 'Syllabus'), 'url' => '/downloads/shared.pdf', 'type' => 'PDF'}],
     'weeks' => [
-      {'number' => 2, 'title' => bilingual('두 번째', 'Second'), 'materials' => [
+      {'number' => 2, 'title' => bilingual('두 번째', 'Second'), 'updated' => Date.new(2027, 3, 8), 'materials' => [
         {'label' => bilingual('노트', 'Notes'), 'url' => {'ko' => '/downloads/notes.pdf', 'en' => ''}}
       ]},
       {'number' => 1, 'title' => bilingual('첫 번째', 'First'), 'materials' => [
@@ -71,7 +71,7 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
   course = fixture_course
   item = {'id' => 'research-notes', 'title' => bilingual('연구 <노트>', 'Research <notes>'),
           'description' => bilingual('궤도 & 해석', 'Orbit & analysis'), 'category' => 'research',
-          'updated' => '2027-03-02', 'url' => '/downloads/notes.pdf', 'url_en' => '/downloads/english.pdf', 'type' => 'PDF'}
+          'updated' => Date.new(2027, 3, 2), 'url' => '/downloads/notes.pdf', 'url_en' => '/downloads/english.pdf', 'type' => 'PDF'}
   older = Marshal.load(Marshal.dump(item)).merge('id' => 'older-code', 'updated' => '2026-12-01', 'category' => 'code', 'url' => 'https://example.org/code?a=1&b=2', 'url_en' => '')
   write.call('_data/courses.yaml', YAML.dump({'courses' => [course]}))
   write.call('_data/library.yaml', YAML.dump({'items' => [older, item]}))
@@ -91,6 +91,7 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     check(html.at_css('h1').text == course['title'][lang], "#{lang}: generated title and escaping")
     check(html.at_css('meta[name="modified"]')['content'].start_with?('2027-03-01'), "#{lang}: generated pages support last-modified metadata without a physical wrapper")
     check(html.css('.course-week h3').map { |h| h['id'] } == %w[week-1 week-2], "#{lang}: numerical weekly order")
+    check(html.at_css('.course-week time')['datetime'] == '2027-03-08', "#{lang}: unquoted CMS week dates render correctly")
     check(html.css('.course-resources a').map { |a| a['href'] } == ['/preview/downloads/shared.pdf', 'https://example.org/code?a=1&b=2', '/preview/downloads/notes.pdf'], "#{lang}: shared, external and fallback links")
     check(html.at_css('.course-back a')['href'] == "/preview/#{prefix}resources/#courses", "#{lang}: course returns to unified Resources list")
     index = Nokogiri::HTML(File.read(File.join(site.dest, prefix, 'students/courses/index.html')))
@@ -101,6 +102,7 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     check(library.css('h1').size == 1 && library.css('section').map { |section| section['id'] } == %w[general courses albums], "#{lang}: one Resources page contains all material sections")
     check(library.at_css('#courses .course-card a')['href'] == "/preview/#{prefix}students/courses/#{course['id']}/", "#{lang}: Resources links to the generated course")
     check(library.css('[data-library-item]').map { |el| el['data-category'] } == %w[research code], "#{lang}: newest first")
+    check(library.css('.library-card time').map { |time| time['datetime'] } == %w[2027-03-02 2026-12-01], "#{lang}: mixed quoted and unquoted dates sort and render correctly")
     check(library.at_css('.library-card h3').text == item['title'][lang], "#{lang}: library title is escaped")
     expected = lang == 'en' ? 'english.pdf' : 'notes.pdf'
     check(library.at_css('.library-card a')['href'] == "/preview/downloads/#{expected}", "#{lang}: localized library file")
@@ -122,6 +124,8 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     ['Missing or invalid local material', ->(s) { s.data['library']['items'][0]['url'] = '/../outside.pdf' }],
     ['External material links must use HTTPS', ->(s) { s.data['library']['items'][0]['url'] = 'javascript:alert(1)' }],
     ['Invalid library updated date', ->(s) { s.data['library']['items'][0]['updated'] = '2027-02-30' }],
+    ['library updated must be a YYYY-MM-DD', ->(s) { s.data['library']['items'][0]['updated'] = '03/02/2027' }],
+    ['library updated must be a YYYY-MM-DD', ->(s) { s.data['library']['items'][0]['updated'] = DateTime.new(2027, 3, 2) }],
     ['Unknown library category', ->(s) { s.data['library']['items'][0]['category'] = 'unknown' }],
     ['library title needs ko and en', ->(s) { s.data['library']['items'][0]['title'].delete('en') }]
   ]

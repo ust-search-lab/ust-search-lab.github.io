@@ -11,3 +11,58 @@ items:
     updated: "2026-10-16"
     url: "https://sma.nasa.gov/docs/default-source/sma-disciplines-and-programs/planetary-protection/mars-planetary-protection-primer_cat-iii_2026.pdf?sfvrsn=8a3ad3f8_0"
     type: "PDF"
+  - id: nasa-basics-of-space-flight
+    title:
+      ko: "우주비행·탐사임무 기초"
+      en: "Basics of Space Flight"
+    description:
+      ko: "좌표계, 궤적, 탐사선 시스템, 항법·통신·운용을 함께 소개하는 NASA의 입문 자료입니다. 우주탐사 임무의 전체 흐름을 익힐 신입생에게 권합니다. 영문 온라인 교재."
+      en: "NASA's introductory guide to reference systems, trajectories, spacecraft systems, navigation, communications, and operations. Recommended for new students learning how a space exploration mission fits together. Online textbook in English."
+    category: lecture
+    updated: "2026-10-16"
+    url: "https://science.nasa.gov/learn/basics-of-space-flight/"
+    type: "Link"
+  - id: nasa-systems-engineering-handbook
+    title:
+      ko: "우주임무 시스템공학 안내서"
+      en: "NASA Systems Engineering Handbook"
+    description:
+      ko: "임무 목표를 요구조건과 설계로 구체화하고 제품 구현·검증으로 연결하는 NASA의 시스템공학 안내서입니다. 임무 아키텍처와 큐브샛 개념설계의 공통 참고자료로 권합니다. 영문 웹·PDF 제공."
+      en: "NASA's guide to translating mission goals into requirements and designs, followed by product realization and verification. Recommended for mission architecture and CubeSat concept design. Available online and as a PDF in English."
+    category: lecture
+    updated: "2026-10-16"
+    url: "https://www.nasa.gov/reference/systems-engineering-handbook/"
+    type: "Link"
+  - id: spice-self-training
+    title:
+      ko: "SPICE 천체력·관측기하 실습"
+      en: "SPICE Self Training"
+    description:
+      ko: "NASA/JPL NAIF의 자율학습 튜토리얼과 프로그래밍 실습입니다. 시간계·좌표계·커널 사용법을 익히고 달·행성 탐사의 위치와 관측기하 해석에 활용할 수 있습니다. 영문 설명과 예제 제공."
+      en: "Self-study tutorials and programming lessons from NASA/JPL NAIF. Learn time systems, reference frames, and kernels for position and observation geometry calculations in lunar and planetary exploration. Instructions and examples in English."
+    category: code
+    updated: "2026-10-16"
+    url: "https://naif.jpl.nasa.gov/naif/self_training.html"
+    type: "Link"
+  - id: gmat-user-guide-r2026a
+    title:
+      ko: "GMAT 궤도·궤적 설계 실습"
+      en: "GMAT User Guide and Tutorials"
+    description:
+      ko: "NASA GMAT R2026a 공식 배포본의 사용자 안내서와 튜토리얼입니다. Getting Started와 Tour of GMAT부터 시작해 궤도·궤적 설계 실습으로 이어가세요. 안내서는 배포본의 doc 폴더에 영문 PDF·HTML로 포함됩니다."
+      en: "The user guide and tutorials included in the official NASA GMAT R2026a distribution. Start with Getting Started and Tour of GMAT, then work through the mission design tutorials. English PDF and HTML documentation is included in the distribution's doc folder."
+    category: code
+    updated: "2026-10-16"
+    url: "https://sourceforge.net/projects/gmat/files/GMAT/GMAT-R2026a/"
+    type: "Link"
+  - id: small-spacecraft-technology-2026
+    title:
+      ko: "소형위성 시스템 기술자료 · 2026"
+      en: "State-of-the-Art of Small Spacecraft Technology · 2026"
+    description:
+      ko: "전력·추진·유도항법제어·열·통신·운용 등 소형위성 기술 현황과 설계 고려사항을 정리한 NASA의 2026년 보고서입니다. 큐브샛과 우주실증 임무의 시스템 구성 비교에 권합니다. 영문 웹·PDF 제공."
+      en: "NASA's 2026 report on small spacecraft technologies and design considerations, including power, propulsion, guidance, navigation and control, thermal systems, communications, and operations. Useful for CubeSat and technology demonstration trade studies. Online and PDF versions in English."
+    category: research
+    updated: "2026-10-16"
+    url: "https://www.nasa.gov/smallsat-institute/sst-soa/"
+    type: "Link"
