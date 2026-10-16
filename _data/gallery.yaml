@@ -19,3 +19,23 @@ albums:
           ko: 캐나다우주청의 우주비행사 소개 전시물 앞에서 촬영한 단체 사진.
           en: Group photo in front of an astronaut exhibit at the Canadian Space Agency.
         width: "540px"
+      - image: /images/news/imewg-2026-canada/csa-canadarm-korea-group.jpg
+        alt:
+          ko: 캐나다우주청의 캐나다암 전시물 앞에서 촬영한 네 명의 참석자 단체 사진.
+          en: Four attendees posing in front of the Canadarm exhibit at the Canadian Space Agency.
+        width: "100%"
+      - image: /images/news/imewg-2026-canada/csa-astronaut-video-session.jpeg
+        alt:
+          ko: 캐나다우주청 행사장에서 우주비행사 영상과 무대 발표를 보고 있는 참석자들.
+          en: Attendees watching an astronaut video and an onstage presentation at the Canadian Space Agency.
+        width: "100%"
+      - image: /images/news/imewg-2026-canada/imewg-mars-missions-panel.jpeg
+        alt:
+          ko: 화성 탐사 임무 소개 화면을 배경으로 진행되는 IMEWG 패널 토론.
+          en: An IMEWG panel discussion in front of a presentation on Mars missions.
+        width: "100%"
+      - image: /images/news/imewg-2026-canada/imewg-meeting-panel.jpeg
+        alt:
+          ko: IMEWG 2026 대면회의 환영 화면 앞에서 진행되는 패널 토론.
+          en: A panel discussion in front of the IMEWG 2026 face-to-face meeting welcome screen.
+        width: "100%"
