@@ -1,2 +1,13 @@
 # Public downloadable resources, edited through /admin/.
-items: []
+items:
+  - id: mars-planetary-protection-primer-2026
+    title:
+      ko: "화성탐사 행성보호 입문"
+      en: "Mars Planetary Protection Primer"
+    description:
+      ko: "NASA/JPL의 화성 궤도선·근접비행 임무(Category III)를 위한 입문 안내서입니다. 궤적 설계, 미생물 오염량 평가와 필수 문서를 설명합니다. 2026년 3월 24일 발행, 영문 PDF 41쪽."
+      en: "A NASA/JPL quick-start guide for Category III Mars orbiters and flybys, covering trajectory design, bioburden assessment, and required documentation. Published March 24, 2026; 41-page PDF in English."
+    category: lecture
+    updated: "2026-10-16"
+    url: "https://sma.nasa.gov/docs/default-source/sma-disciplines-and-programs/planetary-protection/mars-planetary-protection-primer_cat-iii_2026.pdf?sfvrsn=8a3ad3f8_0"
+    type: "PDF"
