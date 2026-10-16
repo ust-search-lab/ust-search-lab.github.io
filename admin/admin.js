@@ -16,9 +16,14 @@
     }
     if (!window.CMS) throw new Error("Decap CMS를 불러오지 못했습니다. 인터넷 연결을 확인하고 새로고침해 주세요.");
 
+    window.registerPublicationArchive(settings.publication_visibility);
+
     CMS.registerEventListener({
       name: "preSave",
       handler: ({ entry }) => {
+        if (entry.get("collection") === "publication_archive") {
+          throw new Error("숨긴 실적은 조회 전용입니다. 원본 실적은 변경되지 않습니다.");
+        }
         const data = entry.get("data");
         const rows = (data.get("items") || data.get("courses") || data.get("albums"))?.toJS() || [];
         const ids = new Set();
