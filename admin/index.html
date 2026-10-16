@@ -9,7 +9,7 @@ sitemap: false
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
     <title>콘텐츠 관리 · SEARCH Lab</title>
-    <link rel="cms-config-url" type="text/yaml" href="{{ '/admin/config.yml' | relative_url }}">
+    <link rel="cms-config-url" type="text/yaml" href="{{ '/admin/config.yml' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/admin/admin.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <script>window.CMS_MANUAL_INIT = true;</script>
     <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.17.1/dist/decap-cms.js" defer></script>
