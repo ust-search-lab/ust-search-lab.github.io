@@ -19,7 +19,10 @@ window.registerPublicationArchive = function (policy) {
 
   const Archive = window.createClass({
     render() {
-      const records = this.props.value?.toJS?.() || [];
+      const records = this.props.value?.toJS?.();
+      if (!Array.isArray(records)) {
+        return h("p", { role: "alert" }, "실적 목록을 읽지 못했습니다. 새로고침한 뒤 다시 열어 주세요.");
+      }
       const matches = records.filter((record) => !record.exclude && hidden.has(normalize(record.authors?.[0])))
         .sort((a, b) => Number(b.year || String(b.date || "").slice(0, 4)) - Number(a.year || String(a.date || "").slice(0, 4)));
       return h("div", { id: this.props.forID, className: "publication-archive" },
