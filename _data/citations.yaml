@@ -1,20 +1,63 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.5140/JASS.2021.38.3.185
-  title: Practical Algorithms on Lunar Reference Frame Transformations for Korea Pathfinder
-    Lunar Orbiter Flight Operation
+- id: doi:10.5139/jksas.2018.46.5.402
+  title: Analysis of Optimal Landing Trajectory in Attitude Angular Velocity Influence
+    at Powered Descent Phase of Robotic Lunar Lander
   authors:
-  - Young-Joo Song
-  - Donghun Lee
-  - Young-Rok Kim
-  - Jonghee Bae
   - Jae-ik Park
-  - SeungBum Hong
-  - Dae-Kwan Kim
-  - Sang-Ryool Lee
+  - Dong-Young Rew
+  publisher: Journal of the Korean Society for Aeronautical &amp; Space Sciences
+  date: '2018-05-31'
+  link: https://doi.org/hcnztt
+  category: journal
+  orcid: 0000-0001-6227-0442
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.asr.2010.08.012
+  title: Hardware-in-the-loop simulations of GPS-based navigation and control for
+    satellite formation flying
+  authors:
+  - Jae-Ik Park
+  - Han-Earl Park
+  - Sang-Young Park
+  - Kyu-Hong Choi
+  publisher: Advances in Space Research
+  date: '2010-12-01'
+  link: https://doi.org/fj482b
+  category: journal
+  orcid: 0000-0001-6227-0442
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5140/jass.2009.26.1.099
+  title: A Preliminary Development of Real-Time Hardware-in-the-Loop Simulation Testbed
+    for the Satellite Formation Flying Navigation and Orbit Control
+  authors:
+  - Jae-Ik Park
+  - Han-Earl Park
+  - Sun-Hwa Shim
+  - Sang-Young Park
+  - Kyu-Hong Choi
   publisher: Journal of Astronomy and Space Sciences
-  date: '2021-09-01'
-  link: https://doi.org/hcmd28
+  date: '2009-03-15'
+  link: https://doi.org/c89kb2
+  category: journal
+  orcid: 0000-0001-6227-0442
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5140/jass.2005.22.3.263
+  title: PREDICTION OF THE SUN-GLINT LOCATIONS FOR THE COMMUNICATION, OCEAN AND METEOROLOGICAL
+    SATELLITE
+  authors:
+  - Jae-Ik Park
+  - Kyu-Hong Choil
+  - Sang-Young Payk
+  - Joo-Hyung Ryu
+  - Yu-Hwan Ahn
+  - Jae-Woo Park
+  - Byoung-Soo Kim
+  publisher: Journal of Astronomy and Space Sciences
+  date: '2005-09-01'
+  link: https://doi.org/bn7tqj
   category: journal
   orcid: 0000-0001-6227-0442
   plugin: orcid.py
