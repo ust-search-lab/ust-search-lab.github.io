@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-15T22:54:08+09:00",
+  "updated_at": "2026-10-16T10:43:20+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-15T22:54:08+09:00",
+      "last_success_at": "2026-10-16T10:43:20+09:00",
       "status": "ok",
       "items": [
         {
@@ -257,7 +257,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-15T22:54:08+09:00",
+      "last_success_at": "2026-10-16T10:43:20+09:00",
       "status": "ok",
       "items": [
         {
@@ -520,9 +520,26 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-15T22:54:08+09:00",
+      "last_success_at": "2026-10-16T10:43:20+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.10.033",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.033",
+          "title": "Thermal Property Engineering of Lunar Regolith via Spark Plasma Sintering",
+          "authors": [
+            "J.A. Foster",
+            "K.L. Yung"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.10.026",
           "url": "https://doi.org/10.1016/j.actaastro.2026.10.026",
@@ -541,6 +558,25 @@
           "date_type": "published-print",
           "topics": [
             "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.10.017",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.017",
+          "title": "Neural network based fast model predictive controller for spacecraft proximity maneuvering and rendezvous",
+          "authors": [
+            "Chenglei Yue",
+            "Zhiwei Hao",
+            "Xuechuan Wang",
+            "Xiaokui Yue"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "control"
           ]
         },
         {
@@ -708,51 +744,6 @@
           "date_type": "published-print",
           "topics": [
             "cubesat"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.04.068",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
-          "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
-          "authors": [
-            "Saunab Ghosh",
-            "Francis M. McCubbin",
-            "Ardith D. Bravenec",
-            "Michael C. Huh",
-            "Cecilia L. Amick",
-            "Christopher L. Harris",
-            "Ernest K. Lewis",
-            "Kimberly K. Allums-Spencer",
-            "Juliane Gross",
-            "Ryan A. Zeigler",
-            "Timmons M. Erickson",
-            "Jemma Davidson",
-            "Jeremy W. Boyce"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.04.067",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.04.067",
-          "title": "Pontryagin–Bellman differential dynamic programming for low-thrust trajectory optimization with path constraints",
-          "authors": [
-            "Yanis Sidhoum",
-            "Kenshiro Oguri"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
           ]
         }
       ]
@@ -1068,6 +1059,23 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.033",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.033",
+      "title": "Thermal Property Engineering of Lunar Regolith via Spark Plasma Sintering",
+      "authors": [
+        "J.A. Foster",
+        "K.L. Yung"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.026",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.026",
       "title": "Thermomechanical stability of graphene and multi-walled carbon nanotubes/epoxy nanocomposites under simulated lunar ultraviolet radiation",
@@ -1085,6 +1093,25 @@
       "date_type": "published-print",
       "topics": [
         "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.10.017",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.017",
+      "title": "Neural network based fast model predictive controller for spacecraft proximity maneuvering and rendezvous",
+      "authors": [
+        "Chenglei Yue",
+        "Zhiwei Hao",
+        "Xuechuan Wang",
+        "Xiaokui Yue"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "control"
       ]
     },
     {
@@ -1252,51 +1279,6 @@
       "date_type": "published-print",
       "topics": [
         "cubesat"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.04.068",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
-      "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
-      "authors": [
-        "Saunab Ghosh",
-        "Francis M. McCubbin",
-        "Ardith D. Bravenec",
-        "Michael C. Huh",
-        "Cecilia L. Amick",
-        "Christopher L. Harris",
-        "Ernest K. Lewis",
-        "Kimberly K. Allums-Spencer",
-        "Juliane Gross",
-        "Ryan A. Zeigler",
-        "Timmons M. Erickson",
-        "Jemma Davidson",
-        "Jeremy W. Boyce"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.04.067",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.04.067",
-      "title": "Pontryagin–Bellman differential dynamic programming for low-thrust trajectory optimization with path constraints",
-      "authors": [
-        "Yanis Sidhoum",
-        "Kenshiro Oguri"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
       ]
     },
     {
