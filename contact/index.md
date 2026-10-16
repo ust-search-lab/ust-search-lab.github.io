@@ -39,16 +39,6 @@ nav:
 
 </div>
 
-<div class="contact-security" markdown="1">
-
-## 연구원 출입·보안 안내
-
-SEARCH Lab이 위치한 한국항공우주연구원은 [국가보안 ‘나’급에 해당하는 국책연구보안시설](https://www.kari.re.kr/kor/contents/4)입니다.
-
-연구원 출입과 연구 참여를 위해서는 신원 확인 등 관련 보안 절차를 거쳐야 하며, 규정에 따른 결격사유가 없어야 합니다. 자세한 기준과 절차는 UST와 한국항공우주연구원의 안내를 따릅니다.
-
-</div>
-
 <div class="contact-location" aria-labelledby="contact-location-title">
   <h2 id="contact-location-title">찾아오시는 길</h2>
   <div class="contact-location-grid">
@@ -63,6 +53,16 @@ SEARCH Lab이 위치한 한국항공우주연구원은 [국가보안 ‘나’�
     </div>
     <iframe class="contact-map" title="한국항공우주연구원 대전 본원 위치 지도" src="https://www.openstreetmap.org/export/embed.html?bbox=127.34477%2C36.36953%2C127.36477%2C36.38153&amp;layer=mapnik&amp;marker=36.37553137609033%2C127.35476898110238" width="600" height="320" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
   </div>
+</div>
+
+<div class="contact-security" markdown="1">
+
+## 연구원 출입·보안 안내
+
+SEARCH Lab이 위치한 한국항공우주연구원은 [국가보안 ‘나’급에 해당하는 국책연구보안시설](https://www.kari.re.kr/kor/contents/4)입니다.
+
+연구원 출입과 연구 참여를 위해서는 신원 확인 등 관련 보안 절차를 거쳐야 하며, 규정에 따른 결격사유가 없어야 합니다. 자세한 기준과 절차는 UST와 한국항공우주연구원의 안내를 따릅니다.
+
 </div>
 
 <div class="contact-explore">

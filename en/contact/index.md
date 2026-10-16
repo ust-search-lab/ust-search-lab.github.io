@@ -39,16 +39,6 @@ Please briefly introduce yourself and include the following.
 
 </div>
 
-<div class="contact-security" markdown="1">
-
-## Campus access and security
-
-SEARCH Lab is based at the Korea Aerospace Research Institute, a [national security facility in the “Na” (나급) category](https://www.kari.re.kr/kor/contents/4).
-
-Campus access and research participation require identity verification and other security procedures under applicable regulations. You must meet the relevant requirements and have no grounds for disqualification. Please follow UST and KARI guidance for detailed requirements and procedures.
-
-</div>
-
 <div class="contact-location" aria-labelledby="contact-location-title">
   <h2 id="contact-location-title">Location &amp; directions</h2>
   <div class="contact-location-grid">
@@ -63,6 +53,16 @@ Campus access and research participation require identity verification and other
     </div>
     <iframe class="contact-map" title="Map of KARI headquarters in Daejeon" src="https://www.openstreetmap.org/export/embed.html?bbox=127.34477%2C36.36953%2C127.36477%2C36.38153&amp;layer=mapnik&amp;marker=36.37553137609033%2C127.35476898110238" width="600" height="320" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
   </div>
+</div>
+
+<div class="contact-security" markdown="1">
+
+## Campus access and security
+
+SEARCH Lab is based at the Korea Aerospace Research Institute, a [national security facility in the “Na” (나급) category](https://www.kari.re.kr/kor/contents/4).
+
+Campus access and research participation require identity verification and other security procedures under applicable regulations. You must meet the relevant requirements and have no grounds for disqualification. Please follow UST and KARI guidance for detailed requirements and procedures.
+
 </div>
 
 <div class="contact-explore">
