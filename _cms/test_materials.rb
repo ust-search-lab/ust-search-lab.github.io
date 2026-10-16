@@ -152,5 +152,8 @@ file_fields = lambda do |fields|
 end
 uploads = cms['collections'].flat_map { |collection| (collection['files'] || []).flat_map { |file| file_fields.call(file['fields']) } }
 check(uploads.size == 6 && uploads.all? { |field| field.dig('media_library', 'config', 'max_file_size') == 20 * 1024 * 1024 }, 'CMS file fields enforce the upload size limit')
-check(cms['collections'][0]['files'].map { |f| f['file'] } == %w[_data/library.yaml _data/courses.yaml _data/gallery.yaml], 'CMS manages all material sources together')
+materials = cms['collections'].find { |collection| collection['name'] == 'materials' }
+check(materials['files'].map { |f| f['file'] } == %w[_data/library.yaml _data/courses.yaml _data/gallery.yaml], 'CMS manages all material sources together')
+archive = cms['collections'].find { |collection| collection['name'] == 'publication_archive' }
+check(archive['delete'] == false && archive['files'].all? { |file| file['format'] == 'publication-archive' && file['fields'].all? { |field| field['widget'] == 'publication-archive' } }, 'CMS archive uses only read-only controls and disables deletion')
 puts "Materials rendering, generation and CMS configuration: #{$checks} checks passed"
