@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T11:09:45+09:00",
+  "updated_at": "2026-10-16T23:14:03+09:00",
   "lookback_days": 90,
-  "partial": true,
+  "partial": false,
   "sources": [
     {
       "id": "kari",
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T11:09:45+09:00",
-      "last_success_at": "2026-10-16T11:09:45+09:00",
+      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -106,8 +106,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T11:09:45+09:00",
-      "last_success_at": "2026-10-16T11:09:45+09:00",
+      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
         {
           "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -271,9 +271,21 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T11:09:45+09:00",
-      "last_success_at": "2026-10-16T11:09:45+09:00",
+      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
+        {
+          "title": "NASA’s Hubble Spies Spiral’s Edge",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+          "date": "2026-10-16",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites"
+          ]
+        },
         {
           "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
           "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
@@ -412,20 +424,6 @@
             "exploration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA’s Record-Setting Perseverance Rover Team",
-          "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
-          "date": "2026-10-13",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "demonstration"
-          ],
-          "stale": false
         }
       ]
     },
@@ -435,8 +433,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T11:09:45+09:00",
-      "last_success_at": "2026-10-16T11:09:45+09:00",
+      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -571,8 +569,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T11:09:45+09:00",
-      "last_success_at": "2026-10-16T11:09:45+09:00",
+      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
         {
           "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -629,6 +627,18 @@
           "stale": false
         },
         {
+          "title": "Braking news! Time for ESA’s Hera asteroid mission to go slow",
+          "url": "https://www.esa.int/Space_Safety/Hera/Braking_news!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+          "date": "2026-10-07",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
           "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
           "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
           "date": "2026-10-07",
@@ -638,7 +648,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Mars’s oddest cloud may be even odder than we thought",
@@ -714,20 +725,6 @@
             "mission"
           ],
           "stale": false
-        },
-        {
-          "title": "MIRROR robot reflects future of in-orbit assembly",
-          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/MIRROR_robot_reflects_future_of_in-orbit_assembly",
-          "date": "2026-09-25",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "control",
-            "demonstration"
-          ]
         }
       ]
     },
@@ -736,8 +733,9 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-10-15T23:17:48+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -749,8 +747,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -763,8 +760,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -777,8 +773,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -791,8 +786,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -805,8 +799,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -819,8 +812,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -833,8 +825,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -847,13 +838,24 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "NASA’s Hubble Spies Spiral’s Edge",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+      "date": "2026-10-16",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites"
+      ]
+    },
     {
       "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
       "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
@@ -1046,20 +1048,6 @@
       "stale": false
     },
     {
-      "title": "NASA’s Record-Setting Perseverance Rover Team",
-      "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
-      "date": "2026-10-13",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "demonstration"
-      ],
-      "stale": false
-    },
-    {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18731",
       "date": "2026-10-07",
@@ -1126,6 +1114,18 @@
       "stale": false
     },
     {
+      "title": "Braking news! Time for ESA’s Hera asteroid mission to go slow",
+      "url": "https://www.esa.int/Space_Safety/Hera/Braking_news!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+      "date": "2026-10-07",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
       "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
       "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
       "date": "2026-10-07",
@@ -1135,7 +1135,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Mars’s oddest cloud may be even odder than we thought",
@@ -1297,20 +1298,6 @@
       "stale": false
     },
     {
-      "title": "MIRROR robot reflects future of in-orbit assembly",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/MIRROR_robot_reflects_future_of_in-orbit_assembly",
-      "date": "2026-09-25",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
-        "control",
-        "demonstration"
-      ]
-    },
-    {
       "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
       "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
       "date": "2026-09-24",
@@ -1381,8 +1368,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1432,8 +1418,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1446,8 +1431,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1460,8 +1444,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1474,8 +1457,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1528,8 +1510,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1542,8 +1523,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1556,8 +1536,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     }
   ]
 }
