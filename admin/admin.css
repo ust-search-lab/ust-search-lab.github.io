@@ -6,4 +6,13 @@ body { margin: 0; background: #f3f7fb; color: #283d51; font-family: system-ui, s
 #cms-status a { color: #1761a3; display: inline-flex; align-items: center; min-height: 44px; }
 #cms-status .back { margin-top: 24px; }
 #cms-status a:focus-visible { outline: 2px solid #1761a3; outline-offset: 4px; }
+#nc-root img[alt="Logo"] {
+  box-sizing: border-box;
+  width: 340px;
+  max-width: calc(100vw - 48px);
+  height: auto;
+  padding: 24px;
+  border-radius: 12px;
+  background: #132c48;
+}
 @media (max-width: 700px) { #cms-status { margin: 5vh 0; padding: 22px; } }
