@@ -15,7 +15,7 @@ public_folder: /downloads/materials
 collections:
   - name: materials
     label: 자료 관리
-    description: Resources의 일반 자료와 수업자료를 이곳에서 관리합니다. 게시하면 사이트에 자동 반영됩니다.
+    description: Resources의 일반 자료, 수업자료와 사진첩을 관리합니다. 사진첩을 게시한 뒤 공지사항에서 연결할 수 있습니다.
     editor:
       preview: false
     files:
@@ -148,3 +148,102 @@ collections:
                     required: false
                     summary: "{{fields.label.ko}}"
                     fields: *materials
+
+      - name: gallery
+        label: 사진첩
+        file: _data/gallery.yaml
+        fields:
+          - label: 사진첩 목록
+            name: albums
+            widget: list
+            hint: 행사·출장별로 사진첩을 만드세요. 첫 사진이 표지로 표시되며, 사진 순서를 바꿀 수 있습니다. 공지사항에서는 게시된 사진첩을 선택해 연결합니다.
+            summary: "{{fields.title.ko}}"
+            fields:
+              - *id
+              - *title
+              - *description
+              - *updated
+              - label: 사진
+                name: photos
+                widget: list
+                min: 1
+                summary: "{{fields.alt.ko}}"
+                fields:
+                  - label: 사진 파일
+                    name: image
+                    widget: image
+                    allow_multiple: false
+                    media_library: *file_limit
+                    hint: 한 번 업로드한 사진은 기존 파일을 선택하거나 원본 주소로 재사용하세요. 사진당 20 MiB까지 지원합니다.
+                  - label: 대체 텍스트
+                    name: alt
+                    widget: object
+                    hint: 사진의 내용을 간단히 적으세요. 화면에는 사진 아래 설명으로 표시되지 않습니다.
+                    fields:
+                      - {label: 한국어, name: ko, widget: string}
+                      - {label: English, name: en, widget: string}
+                  - label: 공지사항에서 사진 크기
+                    name: width
+                    widget: select
+                    required: false
+                    options:
+                      - {label: 기본 너비, value: "100%"}
+                      - {label: 세로 사진용 너비, value: "540px"}
+
+  - name: news
+    label: 공지사항 · NEWS
+    label_singular: 공지사항
+    description: 공지사항을 작성하고, 자료 관리에서 게시한 사진첩을 선택해 연결하세요. 한·영 글은 같은 연결 ID를 사용합니다.
+    folder: _posts
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    identifier_field: ref
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}-{{lang}}"
+    summary: "{{title}} · {{lang}}"
+    editor:
+      preview: false
+    fields:
+      - {label: 제목, name: title, widget: string}
+      - label: 연결 ID
+        name: ref
+        widget: string
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', '영문 소문자·숫자·하이픈으로 입력하세요.']
+        hint: 예시 imewg-2026-canada-visit. 같은 소식의 한국어·영어 글에는 같은 ID를 사용하고, 게시 후 유지하세요.
+      - label: 언어
+        name: lang
+        widget: select
+        options:
+          - {label: 한국어, value: ko}
+          - {label: English, value: en}
+      - label: 게시일
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD HH:mm:ss ZZ"
+        date_format: YYYY.MM.DD
+        time_format: HH:mm
+      - {label: 게시 주소, name: permalink, widget: hidden, required: false}
+      - {label: 작성자, name: author, widget: string, default: SEARCH Lab}
+      - {label: 검색용 설명, name: description, widget: text}
+      - {label: 목록에 표시할 요약, name: excerpt, widget: text}
+      - label: 본문
+        name: body
+        widget: markdown
+        modes: [raw]
+        hint: 본문을 작성하세요. 사진첩을 연결하면 선택한 사진들이 본문 아래에 표시됩니다. 개별 사진만 넣으려면 사진첩의 사진 주소를 복사해 본문에 이미지로 삽입하세요.
+      - label: 연결할 사진첩
+        name: photo_album
+        widget: relation
+        required: false
+        collection: materials
+        file: gallery
+        search_fields: ["albums.*.title.ko", "albums.*.title.en", "albums.*.id"]
+        display_fields: ["albums.*.title.ko"]
+        value_field: "albums.*.id"
+      - label: 사진첩 표시 방식
+        name: photo_album_display
+        widget: select
+        default: photos
+        options:
+          - {label: 사진과 사진첩 링크, value: photos}
+          - {label: 사진첩 링크만, value: link}
