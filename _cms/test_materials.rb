@@ -155,5 +155,5 @@ check(uploads.size == 6 && uploads.all? { |field| field.dig('media_library', 'co
 materials = cms['collections'].find { |collection| collection['name'] == 'materials' }
 check(materials['files'].map { |f| f['file'] } == %w[_data/library.yaml _data/courses.yaml _data/gallery.yaml], 'CMS manages all material sources together')
 archive = cms['collections'].find { |collection| collection['name'] == 'publication_archive' }
-check(archive['delete'] == false && archive['files'].all? { |file| file['format'] == 'publication-archive' && file['fields'].all? { |field| field['widget'] == 'publication-archive' } }, 'CMS archive uses only read-only controls and disables deletion')
+check(archive['format'] == 'publication-archive' && archive['delete'] == false && archive['files'].all? { |file| file['fields'].all? { |field| field['widget'] == 'publication-archive' } }, 'CMS archive selects its collection-level format, uses read-only controls and disables deletion')
 puts "Materials rendering, generation and CMS configuration: #{$checks} checks passed"

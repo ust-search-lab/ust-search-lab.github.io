@@ -52,3 +52,10 @@ test("archive renders names as text and never creates an unsafe source link", ()
   assert.doesNotMatch(output, /dangerouslySetInnerHTML|javascript:|onChange/);
   assert.match(output, /<script>unsafe\(\)<\/script>/);
 });
+
+test("unreadable data is an error, not an empty archive", () => {
+  const { widget } = archive();
+  const output = JSON.stringify(widget.render.call({ props: {} }));
+  assert.match(output, /alert/);
+  assert.doesNotMatch(output, /0건/);
+});
