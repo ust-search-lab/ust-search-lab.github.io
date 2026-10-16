@@ -77,7 +77,7 @@
           aria-current="location"
         {% endif %}
       >
-        {{ p.title }}
+        {{ p.nav.label | default: p.title }}
       </a>
     {% endfor %}
 

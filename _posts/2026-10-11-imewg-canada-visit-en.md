@@ -17,7 +17,7 @@ This meeting is held once a year and will take place at the **Canadian Space Age
   include figure.html
   image="/images/news/imewg-2026-canada/csa-canadarm-group.jpeg"
   link="/images/news/imewg-2026-canada/csa-canadarm-group.jpeg"
-  caption="Group photo in front of the Canadarm exhibit at the Canadian Space Agency."
+  alt="Group photo in front of the Canadarm exhibit at the Canadian Space Agency."
   width="100%"
 %}
 
@@ -25,6 +25,6 @@ This meeting is held once a year and will take place at the **Canadian Space Age
   include figure.html
   image="/images/news/imewg-2026-canada/csa-space-adventure-group.jpeg"
   link="/images/news/imewg-2026-canada/csa-space-adventure-group.jpeg"
-  caption="Group photo in front of an astronaut exhibit at the Canadian Space Agency."
+  alt="Group photo in front of an astronaut exhibit at the Canadian Space Agency."
   width="540px"
 %}

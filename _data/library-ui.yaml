@@ -22,6 +22,7 @@ ko:
   empty_description: 자료가 등록되면 이곳에서 확인하고 다운로드할 수 있습니다.
   no_results: 검색 조건에 맞는 자료가 없습니다.
   courses: 과목·학기별 수업자료
+  admin: 관리자
 en:
   title: Resources
   intro: Public documents, presentations, and example code for research and study.
@@ -36,3 +37,4 @@ en:
   empty_description: Resources will be available to browse and download here once they are added.
   no_results: No resources match your search.
   courses: Course materials by semester
+  admin: Admin

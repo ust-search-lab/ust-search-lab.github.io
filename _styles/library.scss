@@ -4,6 +4,15 @@
 .library {
   [hidden] { display: none !important; }
 
+  .library-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
   .library-controls {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr);

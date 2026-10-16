@@ -17,7 +17,7 @@ SEARCH Lab의 **박재익 박사**는 협력 연구원인 **김재인 박사, �
   include figure.html
   image="/images/news/imewg-2026-canada/csa-canadarm-group.jpeg"
   link="/images/news/imewg-2026-canada/csa-canadarm-group.jpeg"
-  caption="캐나다우주청의 캐나다암(Canadarm) 전시물 앞에서 촬영한 단체 사진."
+  alt="캐나다우주청의 캐나다암(Canadarm) 전시물 앞에서 촬영한 단체 사진."
   width="100%"
 %}
 
@@ -25,6 +25,6 @@ SEARCH Lab의 **박재익 박사**는 협력 연구원인 **김재인 박사, �
   include figure.html
   image="/images/news/imewg-2026-canada/csa-space-adventure-group.jpeg"
   link="/images/news/imewg-2026-canada/csa-space-adventure-group.jpeg"
-  caption="캐나다우주청의 우주비행사 소개 전시물 앞에서 촬영한 단체 사진."
+  alt="캐나다우주청의 우주비행사 소개 전시물 앞에서 촬영한 단체 사진."
   width="540px"
 %}
