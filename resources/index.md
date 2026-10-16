@@ -1,7 +1,7 @@
 ---
 title: Resources
 ref: resources
-description: SEARCH Lab의 공개 문서, 발표자료와 예제 코드를 확인하세요.
+description: 연구·학습을 위한 일반 자료와 과목·학기별 수업자료를 한곳에서 확인하세요.
 nav:
   label: Resources
   order: 7.5

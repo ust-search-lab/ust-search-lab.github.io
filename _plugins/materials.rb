@@ -116,7 +116,7 @@ module Jekyll
       page.content = ''
       page.data.merge!(
         'layout' => 'course', 'lang' => lang, 'ref' => "course-#{course['id']}",
-        'parent_ref' => 'students', 'course_id' => course['id'],
+        'parent_ref' => 'resources', 'course_id' => course['id'],
         'title' => course['title'][lang], 'description' => course['description'][lang],
         # jekyll-last-modified-at otherwise tries to stat a non-existent wrapper.
         'last_modified_at' => course['updated'],

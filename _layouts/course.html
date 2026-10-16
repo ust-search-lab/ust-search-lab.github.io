@@ -5,14 +5,14 @@ layout: default
 {% assign lang = page.lang | default: "ko" %}
 {% assign course_ui = site.data.course-ui[lang] %}
 {% assign course = site.data.courses.courses | where: 'id', page.course_id | first %}
-{% assign students_path = '/students/' %}
-{% if lang == 'en' %}{% assign students_path = '/en/students/' %}{% endif %}
-{% assign courses_path = students_path | append: 'courses/' %}
+{% assign resources_path = '/resources/' %}
+{% if lang == 'en' %}{% assign resources_path = '/en/resources/' %}{% endif %}
+{% assign courses_path = resources_path | append: '#courses' %}
 
 <div class="course-materials">
   <nav class="course-breadcrumb" aria-label="{{ course_ui.breadcrumb }}">
     <ol role="list">
-      <li><a href="{{ students_path | relative_url }}">For Students</a></li>
+      <li><a href="{{ resources_path | relative_url }}">Resources</a></li>
       <li><a href="{{ courses_path | relative_url }}">{{ course_ui.title }}</a></li>
       <li aria-current="page">{{ page.title | escape }}</li>
     </ol>

@@ -15,16 +15,18 @@ public_folder: /downloads/materials
 collections:
   - name: materials
     label: 자료 관리
+    description: Resources의 일반 자료와 수업자료를 이곳에서 관리합니다. 게시하면 사이트에 자동 반영됩니다.
     editor:
       preview: false
     files:
       - name: library
-        label: 공개 자료실
+        label: 일반 자료
         file: _data/library.yaml
         fields:
           - label: 자료 목록
             name: items
             widget: list
+            hint: 연구 참고자료, 발표자료, 공통 학습자료와 예제 코드를 등록합니다. 특정 과목의 자료는 수업자료에 등록하세요.
             summary: "{{fields.title.ko}} · {{fields.updated}}"
             fields:
               - &id
@@ -51,7 +53,7 @@ collections:
                 name: category
                 widget: select
                 options:
-                  - {label: 강의자료, value: lecture}
+                  - {label: 공통 학습자료, value: lecture}
                   - {label: 연구자료, value: research}
                   - {label: 코드·실습, value: code}
               - &updated
@@ -70,7 +72,7 @@ collections:
                 media_library: &file_limit
                   config:
                     max_file_size: 20971520
-                hint: 파일을 업로드하거나 https:// 주소를 입력하세요. 업로드는 파일당 20 MiB까지 지원합니다.
+                hint: 파일을 업로드하거나 Insert from URL로 외부 링크를 입력하세요. 파일당 20 MiB까지 지원하며, 기존 자료는 같은 파일이나 링크를 재사용하세요.
               - label: 영어판 파일 또는 외부 링크
                 name: url_en
                 widget: file
@@ -86,12 +88,13 @@ collections:
                 hint: "예: PDF, ZIP, Code, Link"
 
       - name: courses
-        label: 과목·학기별 수업자료
+        label: 수업자료
         file: _data/courses.yaml
         fields:
           - label: 과목 목록
             name: courses
             widget: list
+            hint: 과목·학기별로 강의계획서와 주차별 자료를 등록합니다. Resources와 For Students에서 같은 수업자료로 연결되므로 한 번만 등록하세요.
             summary: "{{fields.title.ko}} · {{fields.term.ko}}"
             fields:
               - *id
@@ -125,6 +128,7 @@ collections:
                   - label: 자료 파일 또는 외부 링크
                     name: url
                     widget: object
+                    hint: 파일당 20 MiB까지 업로드할 수 있습니다. 큰 파일은 외부 링크로, 이미 등록한 자료는 기존 파일이나 링크로 연결하세요.
                     fields:
                       - {label: 공통·한국어, name: ko, widget: file, allow_multiple: false, media_library: *file_limit}
                       - {label: 영어판, name: en, widget: file, allow_multiple: false, required: false, media_library: *file_limit, hint: 비워 두면 공통·한국어 자료를 사용합니다.}

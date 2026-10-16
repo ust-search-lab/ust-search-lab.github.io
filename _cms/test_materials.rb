@@ -4,6 +4,7 @@ require 'fileutils'
 require 'yaml'
 require 'nokogiri'
 require 'jekyll-last-modified-at'
+require 'jekyll-redirect-from'
 require_relative '../_plugins/materials'
 
 ROOT = File.expand_path('..', __dir__)
@@ -50,7 +51,7 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     FileUtils.mkdir_p(File.dirname(target))
     File.write(target, value)
   end
-  %w[course-materials.html course-resources.html library.html].each do |name|
+  %w[course-materials.html course-materials-link.html course-resources.html library.html].each do |name|
     write.call("_includes/#{name}", File.read(File.join(ROOT, '_includes', name)))
   end
   write.call('_includes/icon.html', '<i aria-hidden="true"></i>')
@@ -63,7 +64,9 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
   %w[ko en].each do |lang|
     prefix = lang == 'en' ? 'en/' : ''
     write.call("#{prefix}resources/index.html", "---\nlayout: default\nlang: #{lang}\n---\n{% include library.html %}")
-    write.call("#{prefix}students/courses/index.html", "---\nlayout: default\nlang: #{lang}\n---\n{% include course-materials.html %}")
+    write.call("#{prefix}students/index.html", "---\nlayout: default\nlang: #{lang}\n---\n{% include course-materials-link.html %}")
+    legacy_index = File.read(File.join(ROOT, prefix, 'students/courses/index.md'))
+    write.call("#{prefix}students/courses/index.html", legacy_index.sub("---\n", "---\nlang: #{lang}\n"))
   end
   course = fixture_course
   item = {'id' => 'research-notes', 'title' => bilingual('연구 <노트>', 'Research <notes>'),
@@ -72,13 +75,14 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
   older = Marshal.load(Marshal.dump(item)).merge('id' => 'older-code', 'updated' => '2026-12-01', 'category' => 'code', 'url' => 'https://example.org/code?a=1&b=2', 'url_en' => '')
   write.call('_data/courses.yaml', YAML.dump({'courses' => [course]}))
   write.call('_data/library.yaml', YAML.dump({'items' => [older, item]}))
-  config = Jekyll.configuration('source' => source, 'destination' => File.join(dir, 'site'), 'baseurl' => '/preview', 'plugins' => [], 'quiet' => true)
+  config = Jekyll.configuration('source' => source, 'destination' => File.join(dir, 'site'), 'baseurl' => '/preview', 'url' => 'https://example.org', 'plugins' => ['jekyll-redirect-from'], 'quiet' => true)
   site = Jekyll::Site.new(config)
   site.process
   generated = site.pages.select { |page| page.data['course_id'] == course['id'] }
   check(generated.size == 2, 'A CMS course must generate exactly two language pages')
   check(generated.map { |page| page.data['lang'] }.sort == %w[en ko], 'Generated language metadata')
   check(generated.map { |page| page.data['ref'] }.uniq.size == 1, 'Language switch pairing')
+  check(generated.all? { |page| page.data['parent_ref'] == 'resources' }, 'Course pages belong to Resources navigation')
   %w[ko en].each do |lang|
     prefix = lang == 'en' ? 'en/' : ''
     path = "#{prefix}students/courses/#{course['id']}/index.html"
@@ -87,11 +91,16 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     check(html.at_css('meta[name="modified"]')['content'].start_with?('2027-03-01'), "#{lang}: generated pages support last-modified metadata without a physical wrapper")
     check(html.css('.course-week h3').map { |h| h['id'] } == %w[week-1 week-2], "#{lang}: numerical weekly order")
     check(html.css('.course-resources a').map { |a| a['href'] } == ['/preview/downloads/shared.pdf', 'https://example.org/code?a=1&b=2', '/preview/downloads/notes.pdf'], "#{lang}: shared, external and fallback links")
+    check(html.at_css('.course-back a')['href'] == "/preview/#{prefix}resources/#courses", "#{lang}: course returns to unified Resources list")
     index = Nokogiri::HTML(File.read(File.join(site.dest, prefix, 'students/courses/index.html')))
-    check(index.at_css('.course-card a')['href'] == "/preview/#{prefix}students/courses/#{course['id']}/", "#{lang}: generated course linked from list")
+    check(index.at_css('link[rel="canonical"]')['href'] == "https://example.org/preview/#{prefix}resources/#courses", "#{lang}: legacy list redirects to Resources course section")
+    students = Nokogiri::HTML(File.read(File.join(site.dest, prefix, 'students/index.html')))
+    check(students.at_css('.course-entry')['href'] == "/preview/#{prefix}resources/#courses", "#{lang}: For Students links to the same course section")
     library = Nokogiri::HTML(File.read(File.join(site.dest, prefix, 'resources/index.html')))
+    check(library.css('h1').size == 1 && library.css('section').map { |section| section['id'] } == %w[general courses], "#{lang}: one Resources page contains both sections")
+    check(library.at_css('#courses .course-card a')['href'] == "/preview/#{prefix}students/courses/#{course['id']}/", "#{lang}: Resources links to the generated course")
     check(library.css('[data-library-item]').map { |el| el['data-category'] } == %w[research code], "#{lang}: newest first")
-    check(library.at_css('.library-card h2').text == item['title'][lang], "#{lang}: library title is escaped")
+    check(library.at_css('.library-card h3').text == item['title'][lang], "#{lang}: library title is escaped")
     expected = lang == 'en' ? 'english.pdf' : 'notes.pdf'
     check(library.at_css('.library-card a')['href'] == "/preview/downloads/#{expected}", "#{lang}: localized library file")
     check(library.css('.library-card a')[1]['href'] == 'https://example.org/code?a=1&b=2', "#{lang}: English file fallback and external query")

@@ -1,7 +1,7 @@
 ---
 title: Resources
 ref: resources
-description: Public documents, presentations, and example code from SEARCH Lab.
+description: Find general resources for research and study alongside course materials organized by semester.
 nav:
   order: 7.5
   tooltip: Public resources for research and study

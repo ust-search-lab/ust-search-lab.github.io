@@ -1,7 +1,7 @@
 categories:
   - id: lecture
-    ko: 강의자료
-    en: Lecture materials
+    ko: 공통 학습자료
+    en: General study materials
   - id: research
     ko: 연구자료
     en: Research materials
@@ -11,6 +11,9 @@ categories:
 ko:
   title: Resources
   intro: 연구와 학습에 활용할 자료를 모았습니다.
+  navigation: 자료 바로가기
+  general: 일반 자료
+  general_intro: 연구 참고자료, 발표자료, 공통 학습자료와 예제 코드를 찾아보세요.
   search: 자료 검색
   placeholder: 제목이나 설명으로 검색
   category: 자료 분류
@@ -21,11 +24,14 @@ ko:
   empty_title: 아직 등록된 자료가 없습니다
   empty_description: 자료가 등록되면 이곳에서 확인하고 다운로드할 수 있습니다.
   no_results: 검색 조건에 맞는 자료가 없습니다.
-  courses: 과목·학기별 수업자료
+  courses: 수업자료
   admin: 관리자
 en:
   title: Resources
-  intro: Public documents, presentations, and example code for research and study.
+  intro: Resources for research and study.
+  navigation: Resource sections
+  general: General Resources
+  general_intro: Browse research references, presentations, general study materials, and example code.
   search: Search resources
   placeholder: Search titles and descriptions
   category: Resource category
@@ -36,5 +42,5 @@ en:
   empty_title: No resources listed yet
   empty_description: Resources will be available to browse and download here once they are added.
   no_results: No resources match your search.
-  courses: Course materials by semester
+  courses: Course Materials
   admin: Admin

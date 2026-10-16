@@ -1,10 +1,10 @@
 # 수업자료 게시 가이드
 
-수업자료 목록은 한국어 `/students/courses/`, 영어 `/en/students/courses/`에 표시됩니다. `For Students`에서 이 목록으로 이동할 수 있으며, 과목별 강의계획서·강의노트·참고문헌·과제를 게시합니다.
+수업자료 목록은 Resources의 한국어 `/resources/#courses`, 영어 `/en/resources/#courses`에 표시됩니다. `For Students`에서도 같은 목록으로 이동하며, 과목별 강의계획서·강의노트·참고문헌·과제를 게시합니다. 기존 `/students/courses/`와 `/en/students/courses/` 주소는 해당 언어의 Resources 수업자료 목록으로 이동합니다. 과목 상세 페이지의 기존 주소는 유지합니다.
 
 AI 코딩 가이드는 연구실에 들어온 학생들이 공통으로 사용하는 안내자료로, 기존 `For Students`에 둡니다. 교과목 수업자료와는 별도로 운영합니다.
 
-관리자는 `/admin/`의 **자료 관리 → 과목·학기별 수업자료**에서 파일과 과목 정보를 등록할 수 있습니다. 최초 GitHub 로그인 연결은 [CMS 설정 가이드](cms-setup.md)를 따르세요. CMS에 등록한 파일은 `downloads/materials/`에 저장되고, 과목 데이터로 한·영 페이지가 자동 생성됩니다. 아래는 저장소에서 직접 편집할 때의 방법입니다.
+관리자는 어느 컴퓨터에서든 `/admin/`에 로그인하여 **자료 관리 → 수업자료**에서 파일과 과목 정보를 등록할 수 있습니다. 최초 GitHub 로그인 연결은 [CMS 설정 가이드](cms-setup.md)를 따르세요. CMS에 등록한 파일은 `downloads/materials/`에 저장되고, 과목 데이터로 한·영 페이지가 자동 생성됩니다. 일반 자료 목록에 과목을 다시 등록할 필요가 없으며, 여러 과목에서 같은 파일을 쓰면 기존 파일이나 링크를 재사용합니다. 아래는 저장소에서 직접 편집할 때의 방법입니다.
 
 처음에는 `_data/courses.yaml`이 `courses: []`인 상태로 시작합니다. 실제 개설 정보와 자료가 준비되면 과목·학기별 항목을 추가하세요. 아래의 **예시 과목은 작성 방법 설명용이며 실제 개설 과목이 아닙니다.** 이 가이드가 있는 `_guides` 디렉터리는 사이트 빌드에서 제외됩니다.
 
@@ -88,7 +88,7 @@ courses:
 layout: course
 title: "예시 과목"
 ref: course-sample-course-2027-spring
-parent_ref: students
+parent_ref: resources
 course_id: sample-course-2027-spring
 ---
 
