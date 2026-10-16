@@ -1,0 +1,21 @@
+{% assign album_lang = page.lang | default: 'ko' %}
+{% assign gallery_ui = site.data.gallery-ui[album_lang] %}
+{% assign linked_album = site.data.gallery.albums | where: 'id', page.photo_album | first %}
+{% if linked_album %}
+  {% assign album_path = '/resources/albums/' %}
+  {% if album_lang == 'en' %}{% assign album_path = '/en/resources/albums/' %}{% endif %}
+  {% assign album_url = album_path | append: linked_album.id | append: '/' %}
+  <div class="post-album">
+    {% unless page.photo_album_display == 'link' %}
+      {% for photo in linked_album.photos %}
+        {% assign photo_alt = photo.alt[album_lang] %}
+        {% include figure.html image=photo.image link=photo.image alt=photo_alt width=photo.width %}
+      {% endfor %}
+    {% endunless %}
+    <a class="album-news-link" href="{{ album_url | relative_url }}">
+      {% include icon.html icon="fa-regular fa-images" %}
+      <span>{{ gallery_ui.open }} · {{ linked_album.title[album_lang] | escape }}</span>
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+{% endif %}

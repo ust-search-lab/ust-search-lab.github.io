@@ -11,8 +11,30 @@ module Jekyll
     def generate(site)
       courses = records(site, 'courses', 'courses')
       library = records(site, 'library', 'items')
+      albums = records(site, 'gallery', 'albums')
       validate_ids(courses, 'courses')
       validate_ids(library, 'library')
+      validate_ids(albums, 'albums')
+      albums.each do |album|
+        localized(album['title'], 'album title')
+        localized(album['description'], 'album description')
+        date(album['updated'], 'album updated')
+        photos = album['photos']
+        fail_build('An album needs at least one photo') unless photos.is_a?(Array) && !photos.empty?
+        photos.each do |photo|
+          fail_build('Each photo must be an object') unless photo.is_a?(Hash)
+          resource_url(site, photo['image'])
+          localized(photo['alt'], 'photo alt')
+          fail_build('Invalid photo width') unless [nil, '', '100%', '540px'].include?(photo['width'])
+        end
+        %w[ko en].each { |lang| generate_album(site, album, lang) }
+      end
+      site.posts.docs.each do |post|
+        album_id = post.data['photo_album']
+        next if album_id.to_s.empty?
+        fail_build("Unknown photo album: #{album_id}") unless albums.any? { |album| album['id'] == album_id }
+        fail_build('Invalid photo album display') unless [nil, 'photos', 'link'].include?(post.data['photo_album_display'])
+      end
       library.each do |item|
         localized(item['title'], 'library title')
         localized(item['description'], 'library description')
@@ -121,6 +143,21 @@ module Jekyll
         # jekyll-last-modified-at otherwise tries to stat a non-existent wrapper.
         'last_modified_at' => course['updated'],
         'permalink' => url
+      )
+      site.pages << page
+    end
+
+    def generate_album(site, album, lang)
+      dir = [lang == 'en' ? 'en' : nil, 'resources', 'albums', album['id']].compact.join('/')
+      url = "/#{dir}/"
+      fail_build("Album URL already used: #{url}") if site.pages.any? { |page| page.url == url }
+      page = PageWithoutAFile.new(site, site.source, dir, 'index.html')
+      page.content = ''
+      page.data.merge!(
+        'layout' => 'album', 'lang' => lang, 'ref' => "album-#{album['id']}",
+        'parent_ref' => 'resources', 'album_id' => album['id'],
+        'title' => album['title'][lang], 'description' => album['description'][lang],
+        'last_modified_at' => album['updated'], 'permalink' => url
       )
       site.pages << page
     end

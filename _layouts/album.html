@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% assign album_lang = page.lang | default: 'ko' %}
+{% assign gallery_ui = site.data.gallery-ui[album_lang] %}
+{% assign album = site.data.gallery.albums | where: 'id', page.album_id | first %}
+{% assign resources_path = '/resources/' %}
+{% if album_lang == 'en' %}{% assign resources_path = '/en/resources/' %}{% endif %}
+{% assign related_posts = site.posts | where: 'photo_album', album.id | where: 'lang', album_lang | sort: 'date' | reverse %}
+
+<div class="photo-album">
+  <nav class="album-breadcrumb" aria-label="{{ gallery_ui.breadcrumb }}">
+    <a href="{{ resources_path | relative_url }}">Resources</a><span aria-hidden="true">/</span>
+    <a href="{{ resources_path | relative_url }}#albums">{{ gallery_ui.title }}</a>
+  </nav>
+  <h1 class="page-title">{{ album.title[album_lang] | escape }}</h1>
+  <p class="page-intro">{{ album.description[album_lang] | escape }}</p>
+  <p class="album-meta">{{ gallery_ui.count | replace: '$X', album.photos.size }} · {{ site.data.library-ui[album_lang].updated }} <time datetime="{{ album.updated }}">{{ album.updated | date: '%Y.%m.%d' }}</time></p>
+
+  <div class="album-photos">
+    {% for photo in album.photos %}
+      <div class="album-photo" id="photo-{{ forloop.index }}" data-album-photo>
+        <a href="{{ photo.image | relative_url | uri_escape | escape }}" class="album-photo-image">
+          <img src="{{ photo.image | relative_url | uri_escape | escape }}" alt="{{ photo.alt[album_lang] | escape }}" loading="lazy">
+        </a>
+        <div class="album-photo-actions">
+          <a class="text-link" data-photo-original href="{{ photo.image | relative_url | uri_escape | escape }}">{{ gallery_ui.original }} <span aria-hidden="true">↗</span></a>
+          <button class="photo-copy" type="button" data-photo-copy hidden>{{ gallery_ui.copy }}</button>
+        </div>
+        <span class="photo-copy-status" role="status" data-photo-status data-success="{{ gallery_ui.copied }}" data-fallback="{{ gallery_ui.copy_fallback }}"></span>
+        <input class="photo-url" type="text" readonly hidden aria-label="{{ gallery_ui.photo_url }}" data-photo-url>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% if related_posts.size > 0 %}
+    <h2>{{ gallery_ui.related_news }}</h2>
+    <ul>{% for post in related_posts %}<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>{% endfor %}</ul>
+  {% endif %}
+  <p><a class="text-link" href="{{ resources_path | relative_url }}#albums">{{ gallery_ui.back }} <span aria-hidden="true">→</span></a></p>
+</div>

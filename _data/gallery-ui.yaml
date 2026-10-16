@@ -1,0 +1,30 @@
+ko:
+  title: 사진첩
+  intro: 연구실의 학회, 출장과 활동 사진을 모았습니다.
+  open: 사진첩 보기
+  count: 사진 $X장
+  empty_title: 아직 등록된 사진첩이 없습니다
+  empty_description: 사진첩이 등록되면 이곳에서 확인할 수 있습니다.
+  breadcrumb: 사진첩 탐색
+  back: 사진첩 목록으로
+  related_news: 관련 공지사항
+  original: 원본 보기
+  copy: 사진 주소 복사
+  copied: 사진 주소를 복사했습니다.
+  copy_fallback: 아래 주소를 선택해 복사하세요.
+  photo_url: 사진 원본 주소
+en:
+  title: Photo Albums
+  intro: Photos from our conferences, visits, and lab activities.
+  open: View album
+  count: $X photos
+  empty_title: No photo albums yet
+  empty_description: Photo albums will appear here once they are added.
+  breadcrumb: Photo album navigation
+  back: Back to photo albums
+  related_news: Related news
+  original: View original
+  copy: Copy photo URL
+  copied: Photo URL copied.
+  copy_fallback: Select and copy the URL below.
+  photo_url: Original photo URL

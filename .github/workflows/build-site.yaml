@@ -42,6 +42,7 @@ jobs:
       - name: Verify materials and CMS authentication
         run: |
           bundle exec ruby _cms/test_materials.rb
+          bundle exec ruby _cms/test_gallery.rb
           node --test _cms/oauth/worker.test.mjs
 
       - name: Get Pages URL

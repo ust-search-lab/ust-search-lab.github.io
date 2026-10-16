@@ -20,7 +20,7 @@
       name: "preSave",
       handler: ({ entry }) => {
         const data = entry.get("data");
-        const rows = (data.get("items") || data.get("courses"))?.toJS() || [];
+        const rows = (data.get("items") || data.get("courses") || data.get("albums"))?.toJS() || [];
         const ids = new Set();
         for (const row of rows) {
           if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(row.id) || ids.has(row.id)) {

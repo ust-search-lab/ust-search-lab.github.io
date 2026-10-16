@@ -9,6 +9,7 @@
     <nav class="library-sections" aria-label="{{ ui.navigation }}">
       <a href="#general">{% include icon.html icon="fa-solid fa-folder-open" %}{{ ui.general }} <span aria-hidden="true">↓</span></a>
       <a href="#courses">{% include icon.html icon="fa-solid fa-book-open" %}{{ ui.courses }} <span aria-hidden="true">↓</span></a>
+      <a href="#albums">{% include icon.html icon="fa-regular fa-images" %}{{ site.data.gallery-ui[lang].title }} <span aria-hidden="true">↓</span></a>
     </nav>
     <a class="action-button" href="{{ '/admin/' | relative_url }}">{% include icon.html icon="fa-solid fa-pen-to-square" %}{{ ui.admin }}</a>
   </div>
@@ -53,4 +54,5 @@
   </section>
 
   {% include course-materials.html %}
+  {% include gallery.html %}
 </div>

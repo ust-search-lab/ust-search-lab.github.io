@@ -1,0 +1,33 @@
+{% assign gallery_lang = page.lang | default: 'ko' %}
+{% assign gallery_ui = site.data.gallery-ui[gallery_lang] %}
+{% assign albums = site.data.gallery.albums | sort: 'updated' | reverse %}
+{% assign gallery_path = '/resources/albums/' %}
+{% if gallery_lang == 'en' %}{% assign gallery_path = '/en/resources/albums/' %}{% endif %}
+
+<section class="library-section gallery" id="albums" aria-labelledby="albums-title">
+  <h2 id="albums-title">{{ gallery_ui.title }}</h2>
+  <p>{{ gallery_ui.intro }}</p>
+  {% if albums.size > 0 %}
+    <ul class="album-grid" role="list">
+      {% for album in albums %}
+        {% assign album_url = gallery_path | append: album.id | append: '/' %}
+        {% assign cover = album.photos | first %}
+        <li class="album-card">
+          <a href="{{ album_url | relative_url }}" class="album-cover" aria-label="{{ album.title[gallery_lang] | escape }}">
+            <img src="{{ cover.image | relative_url | uri_escape | escape }}" alt="{{ cover.alt[gallery_lang] | escape }}" loading="lazy">
+          </a>
+          <div class="album-card-body">
+            <p class="album-meta">{{ gallery_ui.count | replace: '$X', album.photos.size }} · <time datetime="{{ album.updated }}">{{ album.updated | date: '%Y.%m.%d' }}</time></p>
+            <h3><a href="{{ album_url | relative_url }}">{{ album.title[gallery_lang] | escape }}</a></h3>
+            <p>{{ album.description[gallery_lang] | escape }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <div class="library-empty">
+      <h3>{{ gallery_ui.empty_title }}</h3>
+      <p>{{ gallery_ui.empty_description }}</p>
+    </div>
+  {% endif %}
+</section>
