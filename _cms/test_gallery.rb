@@ -26,12 +26,12 @@ Dir.mktmpdir('search-lab-gallery-') do |dir|
     FileUtils.mkdir_p(File.dirname(target))
     File.write(target, value)
   end
-  %w[gallery.html post-album.html figure.html fallback.html].each do |name|
+  %w[gallery.html post-album.html post-photos.html figure.html fallback.html].each do |name|
     write.call("_includes/#{name}", File.read(File.join(ROOT, '_includes', name)))
   end
   write.call('_includes/icon.html', '<i aria-hidden="true"></i>')
   write.call('_layouts/default.html', '<html lang="{{ page.lang }}">{{ content }}</html>')
-  write.call('_layouts/post.html', "---\nlayout: default\n---\n{{ content }}{% include post-album.html %}")
+  write.call('_layouts/post.html', "---\nlayout: default\n---\n{{ content }}{% include post-photos.html %}{% include post-album.html %}")
   write.call('_layouts/album.html', File.read(File.join(ROOT, '_layouts/album.html')))
   %w[gallery-ui library-ui].each do |name|
     write.call("_data/#{name}.yaml", File.read(File.join(ROOT, '_data', "#{name}.yaml")))
@@ -61,6 +61,18 @@ Dir.mktmpdir('search-lab-gallery-') do |dir|
     'photo_album' => album['id'], 'photo_album_display' => 'link'
   }
   write.call('_posts/2026-10-10-link-only.md', YAML.dump(link_post) + "---\n\nExisting news.\n")
+  selected_photos = [
+    { 'image' => '/images/first.jpeg', 'alt' => 'Selected <photo> & group', 'width' => '100%' },
+    { 'image' => 'https://example.org/photo.jpeg?size=large&view=original', 'alt' => 'External photo', 'width' => '540px' }
+  ]
+  %w[ko en].each do |lang|
+    selected_post = {
+      'layout' => 'post', 'title' => 'Selected photos', 'ref' => 'selected-photos', 'lang' => lang,
+      'date' => '2026-10-09 00:00:00 +0900', 'photo_album' => album['id'],
+      'photo_album_display' => 'link', 'photos' => selected_photos
+    }
+    write.call("_posts/2026-10-09-selected-photos-#{lang}.md", YAML.dump(selected_post) + "---\n\nOnline post.\n")
+  end
   config = Jekyll.configuration('source' => source, 'destination' => File.join(dir, 'site'),
                                 'baseurl' => '/preview', 'plugins' => [], 'quiet' => true)
   site = Jekyll::Site.new(config)
@@ -84,20 +96,36 @@ Dir.mktmpdir('search-lab-gallery-') do |dir|
   end
   link_only = Nokogiri::HTML(File.read(File.join(site.dest, 'news/existing-address/index.html')))
   check(link_only.css('.figure').empty? && link_only.at_css('.album-news-link'), 'Link-only mode preserves existing NEWS address and omits inline photos')
+  %w[ko en].each do |lang|
+    prefix = lang == 'en' ? 'en/' : ''
+    article = Nokogiri::HTML(File.read(File.join(site.dest, prefix, 'news/2026/10/09/selected-photos/index.html')))
+    check(article.css('.figure img').map { |img| img['src'] } == ['/preview/images/first.jpeg', selected_photos[1]['image']], "#{lang}: selected local and external photos render in order without album duplicates")
+    check(article.at_css('.figure img')['alt'] == 'Selected photo group', "#{lang}: selected photo alt text is rendered as plain text")
+    check(article.css('.figure img').last['style'].include?('540px'), "#{lang}: selected portrait retains its width")
+    check(article.css('figcaption').empty? && article.at_css('.album-news-link'), "#{lang}: selected photos have no captions and keep the album link")
+  end
 
   album['photos'][0]['image'] = '/images/replacement.jpeg'
+  album['photos'] << { 'image' => '/images/replacement.jpeg', 'alt' => localized('추가 사진', 'Added photo') }
   write.call('_data/gallery.yaml', YAML.dump('albums' => [album]))
   refreshed = Jekyll::Site.new(config)
   refreshed.process
   news = Nokogiri::HTML(File.read(File.join(refreshed.dest, 'news/2026/10/11/conference-visit/index.html')))
   check(news.at_css('.figure img')['src'] == '/preview/images/replacement.jpeg', 'Editing the album updates photos in linked NEWS')
+  selected = Nokogiri::HTML(File.read(File.join(refreshed.dest, 'news/2026/10/09/selected-photos/index.html')))
+  check(selected.css('.figure img').map { |img| img['src'] } == ['/preview/images/first.jpeg', selected_photos[1]['image']], 'Album additions and replacements do not change individually selected NEWS photos')
 
   [
     ['Unknown photo album', ->(s) { s.data['gallery']['albums'] = [] }],
     ['Duplicate albums IDs', ->(s) { s.data['gallery']['albums'] << album }],
     ['An album needs at least one photo', ->(s) { s.data['gallery']['albums'][0]['photos'] = [] }],
     ['Missing or invalid local material', ->(s) { s.data['gallery']['albums'][0]['photos'][0]['image'] = '/images/missing.jpeg' }],
-    ['Invalid photo width', ->(s) { s.data['gallery']['albums'][0]['photos'][0]['width'] = 'invalid' }]
+    ['Invalid photo width', ->(s) { s.data['gallery']['albums'][0]['photos'][0]['width'] = 'invalid' }],
+    ['NEWS photos must be a list', ->(s) { s.posts.docs.first.data['photos'] = 'invalid' }],
+    ['Each NEWS photo must be an object', ->(s) { s.posts.docs.first.data['photos'] = ['invalid'] }],
+    ['NEWS photos need alt text', ->(s) { s.posts.docs.first.data['photos'] = [{ 'image' => '/images/first.jpeg' }] }],
+    ['Invalid NEWS photo width', ->(s) { s.posts.docs.first.data['photos'] = [{ 'image' => '/images/first.jpeg', 'alt' => 'Photo', 'width' => 'invalid' }] }],
+    ['External material links must use HTTPS', ->(s) { s.posts.docs.first.data['photos'] = [{ 'image' => 'javascript:alert(1)', 'alt' => 'Photo' }] }]
   ].each do |expected, mutate|
     invalid = Jekyll::Site.new(config)
     invalid.read

@@ -30,6 +30,14 @@ module Jekyll
         %w[ko en].each { |lang| generate_album(site, album, lang) }
       end
       site.posts.docs.each do |post|
+        photos = post.data['photos'] || []
+        fail_build('NEWS photos must be a list') unless photos.is_a?(Array)
+        photos.each do |photo|
+          fail_build('Each NEWS photo must be an object') unless photo.is_a?(Hash)
+          resource_url(site, photo['image'])
+          fail_build('NEWS photos need alt text') unless photo['alt'].is_a?(String) && !photo['alt'].strip.empty?
+          fail_build('Invalid NEWS photo width') unless [nil, '', '100%', '540px'].include?(photo['width'])
+        end
         album_id = post.data['photo_album']
         next if album_id.to_s.empty?
         fail_build("Unknown photo album: #{album_id}") unless albums.any? { |album| album['id'] == album_id }

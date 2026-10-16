@@ -193,7 +193,7 @@ collections:
   - name: news
     label: 공지사항 · NEWS
     label_singular: 공지사항
-    description: 공지사항을 작성하고, 자료 관리에서 게시한 사진첩을 선택해 연결하세요. 한·영 글은 같은 연결 ID를 사용합니다.
+    description: 제목과 본문을 작성하고 게시하면 사이트에 등록됩니다. 사진은 업로드하거나 사진 주소로 연결하세요. 한·영 글은 같은 연결 ID를 사용합니다.
     folder: _posts
     create: true
     extension: md
@@ -213,6 +213,7 @@ collections:
       - label: 언어
         name: lang
         widget: select
+        default: ko
         options:
           - {label: 한국어, value: ko}
           - {label: English, value: en}
@@ -230,7 +231,32 @@ collections:
         name: body
         widget: markdown
         modes: [raw]
-        hint: 본문을 작성하세요. 사진첩을 연결하면 선택한 사진들이 본문 아래에 표시됩니다. 개별 사진만 넣으려면 사진첩의 사진 주소를 복사해 본문에 이미지로 삽입하세요.
+        hint: 글을 입력하세요. 사진은 아래 ‘본문 아래에 표시할 사진’에서 원하는 것만 추가하세요. 굵게 표시나 목록 등은 Markdown 문법을 사용할 수 있습니다.
+      - label: 본문 아래에 표시할 사진
+        name: photos
+        widget: list
+        required: false
+        summary: "{{fields.alt}}"
+        hint: 원하는 사진만 추가하고 순서를 바꿀 수 있습니다. 사진첩에 새 사진이 올라와도 여기에 선택한 사진만 표시됩니다.
+        fields:
+          - label: 사진 업로드 또는 주소
+            name: image
+            widget: image
+            allow_multiple: false
+            choose_url: true
+            media_library: *file_limit
+            hint: 파일을 업로드하거나 Insert from URL에 사진 주소를 붙여 넣으세요. 사진첩의 ‘사진 주소 복사’를 이용하면 같은 원본을 재사용할 수 있습니다. 외부 사진은 공개 HTTPS 이미지 주소를 사용하세요.
+          - label: 대체 텍스트
+            name: alt
+            widget: string
+            hint: 사진 내용을 간단히 적으세요. 사진 아래 캡션으로 표시되지 않습니다.
+          - label: 사진 크기
+            name: width
+            widget: select
+            default: "100%"
+            options:
+              - {label: 기본 너비, value: "100%"}
+              - {label: 세로 사진용 너비, value: "540px"}
       - label: 연결할 사진첩
         name: photo_album
         widget: relation
@@ -243,7 +269,8 @@ collections:
       - label: 사진첩 표시 방식
         name: photo_album_display
         widget: select
-        default: photos
+        default: link
+        hint: ‘사진첩 링크만’을 선택하면 위에서 고른 사진과 사진첩 링크만 표시합니다. ‘사진과 사진첩 링크’는 사진첩의 모든 사진을 추가하므로 중복에 주의하세요.
         options:
           - {label: 사진과 사진첩 링크, value: photos}
           - {label: 사진첩 링크만, value: link}

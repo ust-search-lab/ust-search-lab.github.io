@@ -1,0 +1,3 @@
+{% for photo in page.photos %}
+  {% include figure.html image=photo.image link=photo.image alt=photo.alt width=photo.width %}
+{% endfor %}
