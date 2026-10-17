@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-16T22:51:47+09:00",
+  "updated_at": "2026-10-17T10:42:04+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,26 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-16T22:51:47+09:00",
+      "last_success_at": "2026-10-17T10:42:04+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g010121",
+          "url": "https://doi.org/10.2514/1.g010121",
+          "title": "Chance-Constrained Autonomous Spacecraft Formation Reconfiguration and Rendezvous with Passive Abort Safety",
+          "authors": [
+            "Abdullah K. Alkhenani",
+            "Kenshiro Oguri"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-16",
+          "date_type": "published-online",
+          "topics": [
+            "control"
+          ]
+        },
         {
           "doi": "10.2514/1.g009983",
           "url": "https://doi.org/10.2514/1.g009983",
@@ -224,26 +241,6 @@
           "topics": [
             "astrodynamics"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009455",
-          "url": "https://doi.org/10.2514/1.g009455",
-          "title": "Families of Two-Impulse Transfers to Sun–Earth Triangular Libration Points",
-          "authors": [
-            "Changchun Long",
-            "Di Wu",
-            "Yuming Peng",
-            "Wei Wang",
-            "Shengping Gong"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
-          ]
         }
       ]
     },
@@ -257,9 +254,28 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-16T22:51:47+09:00",
+      "last_success_at": "2026-10-17T10:42:04+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.a36655",
+          "url": "https://doi.org/10.2514/1.a36655",
+          "title": "Adaptive Tracking Control for Underactuated Lunar Hopping Vehicles",
+          "authors": [
+            "Andrew J. Miller",
+            "Chris J. Busic",
+            "Wyatt Johnson",
+            "Maruthi R. Akella"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-10-16",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.a36819",
           "url": "https://doi.org/10.2514/1.a36819",
@@ -388,25 +404,6 @@
           ]
         },
         {
-          "doi": "10.2514/1.a36026",
-          "url": "https://doi.org/10.2514/1.a36026",
-          "title": "Atmospheric Density Modeling for High-Precision Deorbit Prediction During Space Weather Events",
-          "authors": [
-            "Julia Briden",
-            "Peng Mun Siew",
-            "Richard Linares"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-09-22",
-          "date_type": "published-online",
-          "topics": [
-            "entry",
-            "cubesat"
-          ]
-        },
-        {
           "doi": "10.2514/1.a36648",
           "url": "https://doi.org/10.2514/1.a36648",
           "title": "Quasi-Periodic Motion Around Short-Period Orbits for Cislunar Applications",
@@ -520,7 +517,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-16T22:51:47+09:00",
+      "last_success_at": "2026-10-17T10:42:04+09:00",
       "status": "ok",
       "items": [
         {
@@ -751,6 +748,42 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g010121",
+      "url": "https://doi.org/10.2514/1.g010121",
+      "title": "Chance-Constrained Autonomous Spacecraft Formation Reconfiguration and Rendezvous with Passive Abort Safety",
+      "authors": [
+        "Abdullah K. Alkhenani",
+        "Kenshiro Oguri"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-16",
+      "date_type": "published-online",
+      "topics": [
+        "control"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36655",
+      "url": "https://doi.org/10.2514/1.a36655",
+      "title": "Adaptive Tracking Control for Underactuated Lunar Hopping Vehicles",
+      "authors": [
+        "Andrew J. Miller",
+        "Chris J. Busic",
+        "Wyatt Johnson",
+        "Maruthi R. Akella"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-10-16",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
     {
       "doi": "10.2514/1.g009983",
       "url": "https://doi.org/10.2514/1.g009983",
@@ -1039,26 +1072,6 @@
       ]
     },
     {
-      "doi": "10.2514/1.g009455",
-      "url": "https://doi.org/10.2514/1.g009455",
-      "title": "Families of Two-Impulse Transfers to Sun–Earth Triangular Libration Points",
-      "authors": [
-        "Changchun Long",
-        "Di Wu",
-        "Yuming Peng",
-        "Wei Wang",
-        "Shengping Gong"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
-      ]
-    },
-    {
       "doi": "10.1016/j.actaastro.2026.10.033",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.033",
       "title": "Thermal Property Engineering of Lunar Regolith via Spark Plasma Sintering",
@@ -1326,25 +1339,6 @@
         "control",
         "planetary",
         "entry"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36026",
-      "url": "https://doi.org/10.2514/1.a36026",
-      "title": "Atmospheric Density Modeling for High-Precision Deorbit Prediction During Space Weather Events",
-      "authors": [
-        "Julia Briden",
-        "Peng Mun Siew",
-        "Richard Linares"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-09-22",
-      "date_type": "published-online",
-      "topics": [
-        "entry",
-        "cubesat"
       ]
     },
     {
