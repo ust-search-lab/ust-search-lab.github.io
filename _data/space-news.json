@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-16T23:14:03+09:00",
+  "updated_at": "2026-10-17T11:07:48+09:00",
   "lookback_days": 90,
-  "partial": false,
+  "partial": true,
   "sources": [
     {
       "id": "kari",
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-17T11:07:48+09:00",
       "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
         {
@@ -83,7 +83,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -96,7 +97,8 @@
           "topics": [
             "mission",
             "exploration"
-          ]
+          ],
+          "stale": true
         }
       ]
     },
@@ -106,8 +108,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
-      "last_success_at": "2026-10-16T23:14:03+09:00",
+      "last_retrieved_at": "2026-10-17T11:07:48+09:00",
+      "last_success_at": "2026-10-17T11:07:48+09:00",
       "items": [
         {
           "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -270,10 +272,35 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-17T11:07:48+09:00",
       "last_success_at": "2026-10-16T23:14:03+09:00",
       "items": [
+        {
+          "title": "I Am Artemis: Allison Mjoen",
+          "url": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+          "date": "2026-10-16",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "Artemis II Heat Shield After Splashdown",
+          "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+          "date": "2026-10-16",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "NASA’s Hubble Spies Spiral’s Edge",
           "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
@@ -321,7 +348,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -369,7 +397,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -396,34 +425,7 @@
             "satellites",
             "demonstration"
           ],
-          "stale": false
-        },
-        {
-          "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
-          "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
-          "date": "2026-10-13",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "demonstration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "Perseverance Navcam Image Marks Record Drive",
-          "url": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
-          "date": "2026-10-13",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -433,8 +435,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
-      "last_success_at": "2026-10-16T23:14:03+09:00",
+      "last_retrieved_at": "2026-10-17T11:07:48+09:00",
+      "last_success_at": "2026-10-17T11:07:48+09:00",
       "items": [
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -569,8 +571,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
-      "last_success_at": "2026-10-16T23:14:03+09:00",
+      "last_retrieved_at": "2026-10-17T11:07:48+09:00",
+      "last_success_at": "2026-10-17T11:07:48+09:00",
       "items": [
         {
           "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -734,8 +736,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-16T23:14:03+09:00",
-      "last_success_at": "2026-10-16T23:14:03+09:00",
+      "last_retrieved_at": "2026-10-17T11:07:48+09:00",
+      "last_success_at": "2026-10-17T11:07:48+09:00",
       "items": [
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -845,6 +847,31 @@
   ],
   "items": [
     {
+      "title": "I Am Artemis: Allison Mjoen",
+      "url": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+      "date": "2026-10-16",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Artemis II Heat Shield After Splashdown",
+      "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+      "date": "2026-10-16",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
       "title": "NASA’s Hubble Spies Spiral’s Edge",
       "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
       "date": "2026-10-16",
@@ -891,7 +918,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -953,7 +981,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -992,7 +1021,7 @@
         "satellites",
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
@@ -1019,33 +1048,6 @@
         "exploration",
         "demonstration"
       ]
-    },
-    {
-      "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
-      "url": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
-      "date": "2026-10-13",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "demonstration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "Perseverance Navcam Image Marks Record Drive",
-      "url": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
-      "date": "2026-10-13",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
     },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -1392,7 +1394,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
@@ -1470,7 +1473,8 @@
       "topics": [
         "mission",
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
