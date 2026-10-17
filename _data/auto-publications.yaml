@@ -2,7 +2,7 @@
 - publisher: Advances in Space Research
   _target: legacy-003
   _source_id: doi:10.1016/j.asr.2010.08.012
-  _source: crossref
+  _source: orcid-crossref
   verification_source: https://api.crossref.org/works/10.1016%2Fj.asr.2010.08.012
   _identity: confirmed
   category: journal
@@ -24,12 +24,34 @@
 - publisher: Journal of the Korean Society for Aeronautical & Space Sciences
   _target: legacy-009
   _source_id: doi:10.5139/jksas.2018.46.5.402
-  _source: crossref
+  _source: orcid-crossref
   verification_source: https://api.crossref.org/works/10.5139%2Fjksas.2018.46.5.402
   _identity: confirmed
   category: journal
   title: Analysis of Optimal Landing Trajectory in Attitude Angular Velocity Influence
     at Powered Descent Phase of Robotic Lunar Lander
+  researcher_ids:
+  - jae-ik-park
+- publisher: Journal of Astronomy and Space Sciences
+  _target: legacy-019
+  _source_id: doi:10.5140/jass.2005.22.3.263
+  _source: orcid-crossref
+  verification_source: https://api.crossref.org/works/10.5140%2Fjass.2005.22.3.263
+  _identity: confirmed
+  category: journal
+  title: PREDICTION OF THE SUN-GLINT LOCATIONS FOR THE COMMUNICATION, OCEAN AND METEOROLOGICAL
+    SATELLITE
+  researcher_ids:
+  - jae-ik-park
+- publisher: Journal of Astronomy and Space Sciences
+  _target: legacy-018
+  _source_id: doi:10.5140/jass.2009.26.1.099
+  _source: orcid-crossref
+  verification_source: https://api.crossref.org/works/10.5140%2Fjass.2009.26.1.099
+  _identity: confirmed
+  category: journal
+  title: A Preliminary Development of Real-Time Hardware-in-the-Loop Simulation Testbed
+    for the Satellite Formation Flying Navigation and Orbit Control
   researcher_ids:
   - jae-ik-park
 - publisher: Journal of Astronomy and Space Sciences
@@ -113,13 +135,13 @@
   - jae-ik-park
 - country: US
   _target: legacy-074
-  _source_id: patent:US20180143325A1
+  _source_id: patent:US10649091B2
   _source: patents
-  verification_source: https://patents.google.com/patent/US20180143325A1/en
+  verification_source: https://patents.google.com/patent/US10649091B2/en
   _identity: confirmed
   category: patent
-  title: Method and system for time to first fix (ttff) reduction of gps receivers
-    using satellite based augmentation system (sbas) signal
+  title: Method and system for time to first fix (TTFF) reduction of GPS receivers
+    using satellite based augmentation system (SBAS) signal
   researcher_ids:
   - jae-ik-park
 - publisher: 한국항공우주학회
