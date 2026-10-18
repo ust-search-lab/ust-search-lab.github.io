@@ -2,6 +2,14 @@
 window.addEventListener("DOMContentLoaded", () => {
   const library = document.querySelector("[data-library]");
   if (!library) return;
+  for (const image of library.querySelectorAll('[data-library-cover]')) {
+    const fallback = () => {
+      image.hidden = true;
+      image.parentElement.querySelector('.library-cover-fallback').hidden = false;
+    };
+    image.addEventListener('error', fallback, { once: true });
+    if (image.complete && image.naturalWidth === 0) fallback();
+  }
   const controls = library.querySelector(".library-controls");
   if (!controls) return;
   const search = library.querySelector("[data-library-search]");
