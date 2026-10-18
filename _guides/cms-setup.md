@@ -72,7 +72,10 @@ auth_base_url: "https://search-lab-cms-auth.YOUR-SUBDOMAIN.workers.dev"
 2. 고유 ID, 한·영 제목과 설명, 분류, 수정일을 입력합니다.
 3. 파일을 업로드하거나 **Insert from URL**로 외부 HTTPS 링크를 입력합니다.
 4. 영어판 파일이 따로 있으면 추가하고, 같은 파일이면 비워 둡니다.
-5. 파일 형식에 `PDF`, `ZIP`, `Code`, `Link` 등을 적고 게시합니다.
+5. **표지 이미지 (선택)**에 문서 표지나 스냅샷을 업로드하거나 이미지 HTTPS 주소를 입력합니다. 직접 업로드한 PDF는 이 항목을 비워 두어도 게시 후 첫 페이지가 표지로 생성됩니다. 외부 링크 자료의 표지는 직접 지정합니다.
+6. 파일 형식에 `PDF`, `ZIP`, `Code`, `Link` 등을 적고 게시합니다.
+
+표지는 PC에서 설명 왼쪽, 모바일에서 설명 위에 표시되고, 클릭하면 해당 자료가 열립니다. 직접 지정한 표지가 자동 표지보다 우선하며 한국어·영어 페이지에서 함께 사용됩니다. 자동 표지는 각 언어의 PDF에서 생성됩니다. Word·PowerPoint·ZIP·코드·웹 링크 등 표지가 없는 자료는 형식에 맞는 아이콘이 표시됩니다. 표지 이미지 용량은 5 MiB 이하이며, 자동 생성한 표지는 CMS 편집 중이 아닌 게시·배포 후 공개 페이지에서 확인합니다. PDF를 교체하면 표지도 다시 생성됩니다. 암호화되거나 손상된 PDF처럼 표지를 만들 수 없는 경우에도 자료 링크는 유지되고 아이콘이 표시됩니다.
 
 파일은 `downloads/materials/`, 목록은 `_data/library.yaml`에 저장됩니다. 관리자가 Git 명령을 실행할 필요는 없습니다. 게시 후 기존 GitHub Actions가 빌드·배포하므로 사이트 반영까지 잠시 기다려 주세요. GitHub의 Actions 화면에서 완료 여부를 확인할 수 있습니다.
 
@@ -96,10 +99,13 @@ auth_base_url: "https://search-lab-cms-auth.YOUR-SUBDOMAIN.workers.dev"
 
 ```sh
 bundle exec ruby _cms/test_materials.rb
+bundle exec ruby _cms/test_material_covers.rb
 bundle exec ruby _cms/test_gallery.rb
 node --test _cms/oauth/worker.test.mjs
 bundle exec jekyll build
 ```
+
+로컬에서 PDF 자동 표지를 만들려면 Poppler를 설치하세요 (`brew install poppler`, Ubuntu는 `sudo apt-get install poppler-utils`). GitHub Actions의 정식·미리보기 빌드에는 자동 설치됩니다. 표지 캐시는 `.jekyll-cache/material-covers/`에 저장하며, 생성 결과만 배포합니다. 외부 PDF는 빌드 중 다운로드하지 않습니다. 기존 자료에 추가한 표지의 출처는 [표지 출처 기록](resource-covers.md)에 있습니다.
 
 로그인 연결 후에는 다음을 실제 계정으로 확인하세요.
 

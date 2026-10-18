@@ -1,5 +1,6 @@
 require 'date'
 require 'uri'
+require_relative 'material_covers'
 
 module Jekyll
   # Keep the YAML edited by Decap as the source of truth for bilingual courses.
@@ -43,6 +44,7 @@ module Jekyll
         fail_build("Unknown photo album: #{album_id}") unless albums.any? { |album| album['id'] == album_id }
         fail_build('Invalid photo album display') unless [nil, 'photos', 'link'].include?(post.data['photo_album_display'])
       end
+      covers = MaterialCovers.new(site)
       library.each do |item|
         localized(item['title'], 'library title')
         localized(item['description'], 'library description')
@@ -50,6 +52,8 @@ module Jekyll
         item['updated'] = date(item['updated'], 'library updated')
         resource_url(site, item['url'])
         resource_url(site, item['url_en']) unless item['url_en'].to_s.empty?
+        resource_url(site, item['cover']) unless item['cover'].to_s.empty?
+        item['_covers'] = covers.for_item(item)
       end
       courses.each do |course|
         localized(course['title'], 'course title')

@@ -10,6 +10,7 @@ items:
     category: lecture
     updated: "2026-10-16"
     url: "https://sma.nasa.gov/docs/default-source/sma-disciplines-and-programs/planetary-protection/mars-planetary-protection-primer_cat-iii_2026.pdf?sfvrsn=8a3ad3f8_0"
+    cover: "/images/resources/covers/mars-planetary-protection-primer-2026.jpg"
     type: "PDF"
   - id: nasa-basics-of-space-flight
     title:
@@ -32,6 +33,7 @@ items:
     category: lecture
     updated: "2026-10-16"
     url: "https://www.nasa.gov/reference/systems-engineering-handbook/"
+    cover: "/images/resources/covers/systems-engineering-handbook.jpg"
     type: "Link"
   - id: spice-self-training
     title:
@@ -65,4 +67,5 @@ items:
     category: research
     updated: "2026-10-16"
     url: "https://www.nasa.gov/smallsat-institute/sst-soa/"
+    cover: "/images/resources/covers/small-spacecraft-2026.jpg"
     type: "Link"

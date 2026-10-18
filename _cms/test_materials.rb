@@ -61,6 +61,7 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     write.call("_data/#{name}.yaml", File.read(File.join(ROOT, '_data', "#{name}.yaml")))
   end
   %w[shared.pdf notes.pdf english.pdf].each { |name| write.call("downloads/#{name}", '%PDF fixture') }
+  write.call('images/cover.jpg', 'image fixture')
   %w[ko en].each do |lang|
     prefix = lang == 'en' ? 'en/' : ''
     write.call("#{prefix}resources/index.html", "---\nlayout: default\nlang: #{lang}\n---\n{% include library.html %}")
@@ -71,8 +72,8 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
   course = fixture_course
   item = {'id' => 'research-notes', 'title' => bilingual('연구 <노트>', 'Research <notes>'),
           'description' => bilingual('궤도 & 해석', 'Orbit & analysis'), 'category' => 'research',
-          'updated' => Date.new(2027, 3, 2), 'url' => '/downloads/notes.pdf', 'url_en' => '/downloads/english.pdf', 'type' => 'PDF'}
-  older = Marshal.load(Marshal.dump(item)).merge('id' => 'older-code', 'updated' => '2026-12-01', 'category' => 'code', 'url' => 'https://example.org/code?a=1&b=2', 'url_en' => '')
+          'updated' => Date.new(2027, 3, 2), 'url' => '/downloads/notes.pdf', 'url_en' => '/downloads/english.pdf', 'type' => 'PDF', 'cover' => '/images/cover.jpg'}
+  older = Marshal.load(Marshal.dump(item)).merge('id' => 'older-code', 'updated' => '2026-12-01', 'category' => 'code', 'url' => 'https://example.org/code?a=1&b=2', 'url_en' => '', 'cover' => '')
   write.call('_data/courses.yaml', YAML.dump({'courses' => [course]}))
   write.call('_data/library.yaml', YAML.dump({'items' => [older, item]}))
   write.call('_data/gallery.yaml', "albums: []\n")
@@ -105,8 +106,13 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     check(library.css('.library-card time').map { |time| time['datetime'] } == %w[2027-03-02 2026-12-01], "#{lang}: mixed quoted and unquoted dates sort and render correctly")
     check(library.at_css('.library-card h3').text == item['title'][lang], "#{lang}: library title is escaped")
     expected = lang == 'en' ? 'english.pdf' : 'notes.pdf'
-    check(library.at_css('.library-card a')['href'] == "/preview/downloads/#{expected}", "#{lang}: localized library file")
-    check(library.css('.library-card a')[1]['href'] == 'https://example.org/code?a=1&b=2', "#{lang}: English file fallback and external query")
+    check(library.at_css('.library-card .text-link')['href'] == "/preview/downloads/#{expected}", "#{lang}: localized library file")
+    check(library.css('.library-card .text-link')[1]['href'] == 'https://example.org/code?a=1&b=2', "#{lang}: English file fallback and external query")
+    cover = library.at_css('.library-cover')
+    check(cover['href'] == "/preview/downloads/#{expected}" && cover['aria-label'].include?(item['title'][lang]), "#{lang}: accessible cover opens the localized file")
+    check(cover.at_css('img')['src'] == '/preview/images/cover.jpg', "#{lang}: cover respects the preview base URL")
+    check(cover.at_css('.library-cover-fallback').key?('hidden'), "#{lang}: image and fallback are not shown together")
+    check(!library.css('.library-cover')[1].at_css('img') && !library.css('.library-cover')[1].at_css('.library-cover-fallback').key?('hidden'), "#{lang}: optional cover falls back to an icon")
     check(library.at_css('[data-library-item]')['data-search'].include?('Research <notes>'), "#{lang}: bilingual search text")
   end
   # Existing wrappers are preserved, and deleting CMS data removes generated pages.
@@ -123,6 +129,8 @@ Dir.mktmpdir('search-lab-materials-') do |dir|
     ['Missing or invalid local material', ->(s) { s.data['library']['items'][0]['url'] = '/downloads/missing.pdf' }],
     ['Missing or invalid local material', ->(s) { s.data['library']['items'][0]['url'] = '/../outside.pdf' }],
     ['External material links must use HTTPS', ->(s) { s.data['library']['items'][0]['url'] = 'javascript:alert(1)' }],
+    ['External material links must use HTTPS', ->(s) { s.data['library']['items'][0]['cover'] = 'javascript:alert(1)' }],
+    ['Missing or invalid local material', ->(s) { s.data['library']['items'][0]['cover'] = '/images/missing.jpg' }],
     ['Invalid library updated date', ->(s) { s.data['library']['items'][0]['updated'] = '2027-02-30' }],
     ['library updated must be a YYYY-MM-DD', ->(s) { s.data['library']['items'][0]['updated'] = '03/02/2027' }],
     ['library updated must be a YYYY-MM-DD', ->(s) { s.data['library']['items'][0]['updated'] = DateTime.new(2027, 3, 2) }],
@@ -154,6 +162,8 @@ uploads = cms['collections'].flat_map { |collection| (collection['files'] || [])
 check(uploads.size == 6 && uploads.all? { |field| field.dig('media_library', 'config', 'max_file_size') == 20 * 1024 * 1024 }, 'CMS file fields enforce the upload size limit')
 materials = cms['collections'].find { |collection| collection['name'] == 'materials' }
 check(materials['files'].map { |f| f['file'] } == %w[_data/library.yaml _data/courses.yaml _data/gallery.yaml], 'CMS manages all material sources together')
+cover = materials['files'].find { |file| file['name'] == 'library' }['fields'][0]['fields'].find { |field| field['name'] == 'cover' }
+check(cover['widget'] == 'image' && cover['required'] == false && cover.dig('media_library', 'config', 'max_file_size') == 5 * 1024 * 1024, 'CMS offers an optional cover image with a 5 MiB limit')
 archive = cms['collections'].find { |collection| collection['name'] == 'publication_archive' }
 check(archive['format'] == 'publication-archive' && archive['delete'] == false && archive['files'].all? { |file| file['fields'].all? { |field| field['widget'] == 'publication-archive' } }, 'CMS archive selects its collection-level format, uses read-only controls and disables deletion')
 puts "Materials rendering, generation and CMS configuration: #{$checks} checks passed"

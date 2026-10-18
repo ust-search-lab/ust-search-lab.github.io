@@ -30,10 +30,15 @@ jobs:
           ruby-version: ".ruby-version"
           bundler-cache: true
 
+      - name: Install PDF cover renderer
+        if: github.event.action != 'closed'
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Verify materials and CMS authentication
         if: github.event.action != 'closed'
         run: |
           bundle exec ruby _cms/test_materials.rb
+          bundle exec ruby _cms/test_material_covers.rb
           node --test _cms/oauth/worker.test.mjs
           node --test _cms/test_publication_archive.mjs
 
