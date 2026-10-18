@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T11:07:53+09:00",
+  "updated_at": "2026-10-18T23:03:14+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,8 +8,8 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-18T11:07:53+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
       "last_success_at": "2026-10-18T11:07:53+09:00",
       "items": [
         {
@@ -106,8 +106,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T11:07:53+09:00",
-      "last_success_at": "2026-10-18T11:07:53+09:00",
+      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
+      "last_success_at": "2026-10-18T23:03:14+09:00",
       "items": [
         {
           "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -270,9 +270,9 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "partial",
-      "last_retrieved_at": "2026-10-18T11:07:53+09:00",
-      "last_success_at": "2026-10-16T23:14:03+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
+      "last_success_at": "2026-10-18T23:03:14+09:00",
       "items": [
         {
           "title": "I Am Artemis: Allison Mjoen",
@@ -321,7 +321,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
@@ -347,7 +348,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -395,8 +396,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -423,7 +423,7 @@
             "satellites",
             "demonstration"
           ],
-          "stale": true
+          "stale": false
         }
       ]
     },
@@ -433,8 +433,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T11:07:53+09:00",
-      "last_success_at": "2026-10-18T11:07:53+09:00",
+      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
+      "last_success_at": "2026-10-18T23:03:14+09:00",
       "items": [
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -569,8 +569,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T11:07:53+09:00",
-      "last_success_at": "2026-10-18T11:07:53+09:00",
+      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
+      "last_success_at": "2026-10-18T23:03:14+09:00",
       "items": [
         {
           "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -734,9 +734,22 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T11:07:53+09:00",
-      "last_success_at": "2026-10-18T11:07:53+09:00",
+      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
+      "last_success_at": "2026-10-18T23:03:14+09:00",
       "items": [
+        {
+          "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
+          "url": "https://global.jaxa.jp/press/2026/10/20261018-1_e.html",
+          "date": "2026-10-18",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
           "url": "https://global.jaxa.jp/press/2026/09/20260902-1_e.html",
@@ -845,6 +858,19 @@
   ],
   "items": [
     {
+      "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
+      "url": "https://global.jaxa.jp/press/2026/10/20261018-1_e.html",
+      "date": "2026-10-18",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
       "title": "I Am Artemis: Allison Mjoen",
       "url": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
       "date": "2026-10-16",
@@ -891,7 +917,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
@@ -917,7 +944,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -979,8 +1006,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -1019,7 +1045,7 @@
         "satellites",
         "demonstration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
