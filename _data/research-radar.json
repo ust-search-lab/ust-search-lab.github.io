@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-18T10:42:12+09:00",
+  "updated_at": "2026-10-18T22:41:14+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-18T10:42:12+09:00",
+      "last_success_at": "2026-10-18T22:41:14+09:00",
       "status": "ok",
       "items": [
         {
@@ -254,7 +254,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-18T10:42:12+09:00",
+      "last_success_at": "2026-10-18T22:41:14+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,9 +517,30 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-18T10:42:12+09:00",
+      "last_success_at": "2026-10-18T22:41:14+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.10.034",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.034",
+          "title": "Coupling dynamics and attitude control of flexible variable-topology spacecraft during on-orbit assembly",
+          "authors": [
+            "Jingrui Zhang",
+            "Zelin Zhang",
+            "Keying Yang",
+            "Anrui Shi",
+            "Chao Sheng",
+            "Yurun Yuan"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "control"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.10.033",
           "url": "https://doi.org/10.1016/j.actaastro.2026.10.033",
@@ -722,25 +743,6 @@
           "date_type": "published-print",
           "topics": [
             "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.04.069",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.04.069",
-          "title": "A study on students’ personality and motivation in the educational UCAnFly CubeSat project",
-          "authors": [
-            "Isabel Núñez-Vázquez",
-            "Antonia Morales-Garoffolo",
-            "Guillermo Pacheco-Ramos",
-            "Ignacio Mateos"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "cubesat"
           ]
         }
       ]
@@ -1072,6 +1074,27 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.034",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.034",
+      "title": "Coupling dynamics and attitude control of flexible variable-topology spacecraft during on-orbit assembly",
+      "authors": [
+        "Jingrui Zhang",
+        "Zelin Zhang",
+        "Keying Yang",
+        "Anrui Shi",
+        "Chao Sheng",
+        "Yurun Yuan"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "control"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.033",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.033",
       "title": "Thermal Property Engineering of Lunar Regolith via Spark Plasma Sintering",
@@ -1273,25 +1296,6 @@
       "date_type": "published-print",
       "topics": [
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.04.069",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.04.069",
-      "title": "A study on students’ personality and motivation in the educational UCAnFly CubeSat project",
-      "authors": [
-        "Isabel Núñez-Vázquez",
-        "Antonia Morales-Garoffolo",
-        "Guillermo Pacheco-Ramos",
-        "Ignacio Mateos"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "cubesat"
       ]
     },
     {
