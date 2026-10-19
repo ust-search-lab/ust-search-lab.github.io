@@ -1,8 +1,22 @@
 # Titles, author order/spelling, acceptance dates, and pending-publication status
-# were supplied by the owner on 2026-10-03. Journal sources identify the venues
+# were supplied by the owner; each entry records its source date. Journal sources identify the venues
 # only; they do not independently verify acceptance of these manuscripts.
 # Do not use acceptance dates as publication dates or publication years.
 ---
+- id: accepted:mars-edl-integrated-simulation-systems-design
+  title: An Integrated Simulation-Based Systems Design Procedure for Mars Entry, Descent, and Landing Technology Development
+  title_aliases:
+    - 화성 대기 진입-감속-착륙 기술 개발을 위한 통합 시뮬레이션 기반 시스템 설계 절차
+  authors:
+    - Jae-ik Park
+  category: journal
+  status: accepted
+  accepted_date: '2026-10-19'
+  details: Journal of Aerospace System Engineering (JASE)
+  source: Owner-provided acceptance information, 2026-10-19
+  citation: Jae-ik Park. An Integrated Simulation-Based Systems Design Procedure for Mars Entry, Descent, and Landing Technology Development. Journal of Aerospace System Engineering. Accepted 2026-10-19; awaiting publication.
+  search: 박재익 JASE 항공우주시스템공학회지 화성 대기 진입-감속-착륙 기술 개발을 위한 통합 시뮬레이션 기반 시스템 설계 절차 게재 승인 출판 대기 accepted awaiting publication
+
 - id: accepted:martian-edl-communication-architecture
   title: Comparative Analysis of Mars EDL Communication Architecture
   authors:
