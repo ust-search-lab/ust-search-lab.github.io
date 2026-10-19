@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T23:03:14+09:00",
+  "updated_at": "2026-10-19T11:10:50+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,9 +8,9 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "partial",
-      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
-      "last_success_at": "2026-10-18T11:07:53+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-19T11:10:50+09:00",
+      "last_success_at": "2026-10-19T11:10:50+09:00",
       "items": [
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -105,8 +105,7 @@
       "name": "KASA",
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
+      "status": "stale",
       "last_success_at": "2026-10-18T23:03:14+09:00",
       "items": [
         {
@@ -121,7 +120,8 @@
             "satellites",
             "communications",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
@@ -134,7 +134,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -149,7 +150,8 @@
             "satellites",
             "communications",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
@@ -162,7 +164,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차, 발사 시각 확정",
@@ -176,7 +179,8 @@
             "mission",
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
@@ -188,7 +192,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -200,7 +205,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -212,7 +218,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -224,7 +231,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -236,7 +244,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
@@ -249,7 +258,8 @@
           "topics": [
             "mission",
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -261,7 +271,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         }
       ]
     },
@@ -271,8 +282,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
-      "last_success_at": "2026-10-18T23:03:14+09:00",
+      "last_retrieved_at": "2026-10-19T11:10:50+09:00",
+      "last_success_at": "2026-10-19T11:10:50+09:00",
       "items": [
         {
           "title": "I Am Artemis: Allison Mjoen",
@@ -433,8 +444,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
-      "last_success_at": "2026-10-18T23:03:14+09:00",
+      "last_retrieved_at": "2026-10-19T11:10:50+09:00",
+      "last_success_at": "2026-10-19T11:10:50+09:00",
       "items": [
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -569,8 +580,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
-      "last_success_at": "2026-10-18T23:03:14+09:00",
+      "last_retrieved_at": "2026-10-19T11:10:50+09:00",
+      "last_success_at": "2026-10-19T11:10:50+09:00",
       "items": [
         {
           "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -734,8 +745,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-18T23:03:14+09:00",
-      "last_success_at": "2026-10-18T23:03:14+09:00",
+      "last_retrieved_at": "2026-10-19T11:10:50+09:00",
+      "last_success_at": "2026-10-19T11:10:50+09:00",
       "items": [
         {
           "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -958,7 +969,8 @@
         "satellites",
         "communications",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -1058,7 +1070,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Mars moon lander set to launch on 19 October",
@@ -1222,7 +1235,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Tiny thrusters 3D-printed in space",
@@ -1272,7 +1286,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -1284,7 +1299,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "항우연, 재사용 발사체 기술 개발 본격화",
@@ -1308,7 +1324,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Successful Earth flyby improves Juice’s course to Jupiter",
@@ -1346,7 +1363,8 @@
       "topics": [
         "mission",
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -1370,7 +1388,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
