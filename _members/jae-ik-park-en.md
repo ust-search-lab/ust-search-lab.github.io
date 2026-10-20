@@ -16,8 +16,8 @@ appointments:
   - Principal Researcher and Head of the Space Exploration Team, Korea Aerospace Research Institute (KARI)
 summary: >-
   Dr. Park studies orbit analysis and mission design for satellites and deep-space probes using orbital mechanics and astrodynamics.
-  He served as the mission design lead engineer for Danuri (Korea Pathfinder Lunar Orbiter, KPLO) in KARI's Lunar Exploration Program Office.
-  He designs mission scenarios within orbital, propulsion, communications, and operational constraints and analyzes their performance using high-fidelity numerical simulation and optimization.
+  He designs mission scenarios that account for orbital, propulsion, communications, and operational constraints, analyzes their performance with high-fidelity numerical simulation, and refines the designs through optimization.
+  He currently heads the Space Exploration Team at KARI, and previously served as mission design lead engineer for Danuri (Korea Pathfinder Lunar Orbiter, KPLO) and as Mission Support Team Lead (MSTL) during launch and early operations.
 aliases:
   - Jae-ik Park
 links:
