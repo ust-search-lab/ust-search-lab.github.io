@@ -16,7 +16,7 @@ Set up your computer, build a small orbit calculation with an AI assistant, and 
 <div class="guide-actions">
   <a class="guide-button" href="#setup">Choose your operating system <span aria-hidden="true">↓</span></a>
   <a class="guide-button guide-button-secondary" href="{{ '/downloads/search-lab-ai-coding-starter.zip' | relative_url }}" download>Reference code ZIP</a>
-  <button class="guide-button guide-button-secondary" type="button" data-guide-print hidden>Print · Save as PDF</button>
+  <button class="guide-button guide-button-secondary" type="button" data-guide-print hidden>Print / Save as PDF</button>
 </div>
 
 <nav class="guide-toc" aria-label="Guide contents" markdown="1">
@@ -45,7 +45,7 @@ Here, **vibe coding** means describing a task in natural language and building c
 | Python + uv | Run calculations and manage project environments | Python 3.12 series |
 | AI assistant | Explain, write and improve code | Choose Codex, Claude Code, Copilot or Cursor |
 
-Start with **VS Code + Git + uv**, then choose one assistant that your account supports. If you choose Cursor, use it as your editor instead. The file and terminal exercises work in either editor. You need a GitHub account only for the optional online sharing step. AI access, allowances and costs depend on your service and account; check them when signing in. Node.js, Docker and a GPU are not needed for the basic exercise.
+Start with **VS Code + Git + uv**, then choose one assistant that your account supports. If you choose Cursor, use it as your editor instead. The file and terminal exercises work in either editor. You need a GitHub account to use Copilot or share your work on GitHub. AI access, allowances and costs depend on your service and account; check them when signing in. Node.js, Docker and a GPU are not needed for the basic exercise.
 
 Enter commands in a **terminal** and requests to the assistant in its **chat panel**. Run commands one line at a time, resolving any error before continuing. This exercise uses public numerical values and a purpose-written example.
 
@@ -58,12 +58,12 @@ Choose **one** route. If a tool is already installed, check its version and skip
 
 <div class="guide-os-links">
   <a href="#macos">macOS <span>Terminal</span></a>
-  <a href="#linux">Linux <span>Ubuntu · Debian · Fedora</span></a>
+  <a href="#linux">Linux <span>Ubuntu / Debian / Fedora</span></a>
   <a href="#windows">Windows <span>PowerShell</span></a>
 </div>
 
 <details class="guide-os" id="macos" markdown="1">
-<summary>macOS · Install on a Mac</summary>
+<summary>macOS / Install on a Mac</summary>
 
 ### 2A-1. Install your editor
 
@@ -87,7 +87,7 @@ If a version appears, continue. If prompted to install developer tools, complete
 xcode-select --install
 ```
 
-If you already use Homebrew, `brew install git` is an alternative. Choose one installation method. [Git on macOS](https://git-scm.com/install/mac) · [Homebrew](https://brew.sh/)
+If you already use Homebrew, `brew install git` is an alternative. Choose one installation method. [Git on macOS](https://git-scm.com/install/mac) / [Homebrew](https://brew.sh/)
 
 ### 2A-3. Install uv and check
 
@@ -105,13 +105,13 @@ uv --version
 code --version
 ```
 
-**Checkpoint:** Git and uv report versions, and your editor opens. If `code` is unavailable, use **File → Open Folder**. [VS Code macOS setup](https://code.visualstudio.com/docs/setup/mac) · [uv installation](https://docs.astral.sh/uv/getting-started/installation/)
+**Checkpoint:** Git and uv report versions, and your editor opens. If `code` is unavailable, use **File → Open Folder**. [VS Code macOS setup](https://code.visualstudio.com/docs/setup/mac) / [uv installation](https://docs.astral.sh/uv/getting-started/installation/)
 
 [Continue to 03. Create a Python project](#project)
 </details>
 
 <details class="guide-os" id="linux" markdown="1">
-<summary>Linux · Install on your distribution</summary>
+<summary>Linux / Install on your distribution</summary>
 
 ### 2B-1. Install Git and curl
 
@@ -154,7 +154,7 @@ code --version
 </details>
 
 <details class="guide-os" id="windows" markdown="1">
-<summary>Windows · Install with PowerShell</summary>
+<summary>Windows / Install with PowerShell</summary>
 
 ### 2C-1. Open PowerShell
 
@@ -187,7 +187,7 @@ code --version
 </details>
 
 <details class="guide-os" id="windows-wsl" markdown="1">
-<summary>Optional · Linux tools on Windows with WSL 2</summary>
+<summary>Optional / Linux tools on Windows with WSL 2</summary>
 
 Choose this route when your research code requires Linux tools. Finish one exercise in one environment rather than switching between native Windows and WSL.
 
@@ -204,7 +204,7 @@ wsl --install
 
 Windows and WSL have separate Python environments and paths. Recreate `.venv` with `uv sync` instead of copying it between systems.
 
-[Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install) · [Development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment) · [VS Code in WSL](https://code.visualstudio.com/docs/remote/wsl)
+[Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install) / [Development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment) / [VS Code in WSL](https://code.visualstudio.com/docs/remote/wsl)
 </details>
 
 {% include section.html %}
@@ -246,7 +246,7 @@ uv sync
 uv run python --version
 ```
 
-Expect `Python 3.12.x`. This is the exercise baseline, not a claim about the latest release. `pyproject.toml` holds settings, `uv.lock` records dependencies, `.python-version` selects Python, and `.venv` contains the environment. `uv run` avoids manual activation. [Install Python](https://docs.astral.sh/uv/guides/install-python/) · [Create a uv project](https://docs.astral.sh/uv/concepts/projects/init/)
+Expect `Python 3.12.x`. This is the exercise baseline, not a claim about the latest release. `pyproject.toml` holds settings, `uv.lock` records dependencies, `.python-version` selects Python, and `.venv` contains the environment. `uv run` avoids manual activation. [Install Python](https://docs.astral.sh/uv/guides/install-python/) / [Create a uv project](https://docs.astral.sh/uv/concepts/projects/init/)
 
 ### 3-3. Open the folder in your editor
 
@@ -275,7 +275,7 @@ git add .gitignore .python-version pyproject.toml uv.lock README.md
 git commit -m "Set up orbit exercise"
 ```
 
-**Checkpoint:** `git status` reports a clean working tree. A commit records work locally; it does not upload to GitHub. [Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) · [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+**Checkpoint:** `git status` reports a clean working tree. A commit records work locally; it does not upload to GitHub. [Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) / [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 
 {% include section.html %}
 
@@ -327,17 +327,17 @@ Choose one route. You do not need to install or subscribe to every service. If t
 </details>
 
 <details class="guide-tool" markdown="1">
-<summary>Optional · Use Codex or Claude Code in a terminal</summary>
+<summary>Optional / Use Codex or Claude Code in a terminal</summary>
 
 Use this route if you prefer a CLI. Choose one tool. These commands run the providers' official installers.
 
-**Codex — macOS/Linux/WSL:**
+**Codex (macOS/Linux/WSL):**
 
 ```bash
 curl -fsSL https://chatgpt.com/codex/install.sh | sh
 ```
 
-**Codex — Windows PowerShell:**
+**Codex (Windows PowerShell):**
 
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
@@ -345,13 +345,13 @@ powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1
 
 Reopen your terminal, enter `orbit-lab`, run `codex`, and sign in. [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)
 
-**Claude Code — macOS/Linux/WSL:**
+**Claude Code (macOS/Linux/WSL):**
 
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-**Claude Code — Windows PowerShell:**
+**Claude Code (Windows PowerShell):**
 
 ```powershell
 irm https://claude.ai/install.ps1 | iex
@@ -425,7 +425,7 @@ h=800 km | v=7.451831 km/s | T=100.873559 min
 Save the following snippets under the indicated filenames if you get stuck. You can also use them to check Python before connecting an AI account. The [reference ZIP]({{ '/downloads/search-lab-ai-coding-starter.zip' | relative_url }}) is a completed example: extract it into a **separate folder** and follow its README. Do not run `uv init` inside the completed example.
 
 <details class="guide-code" markdown="1">
-<summary>orbit.py · Reference calculation</summary>
+<summary>orbit.py / Reference calculation</summary>
 
 ```python
 {% include guides/orbit.py %}
@@ -433,7 +433,7 @@ Save the following snippets under the indicated filenames if you get stuck. You 
 </details>
 
 <details class="guide-code" markdown="1">
-<summary>test_orbit.py · Reference checks</summary>
+<summary>test_orbit.py / Reference checks</summary>
 
 ```python
 {% include guides/test_orbit.py %}
@@ -537,18 +537,18 @@ This guide reorganizes the installation, project, execution and validation instr
 
 | Topic | Official references |
 |---|---|
-| VS Code | [macOS](https://code.visualstudio.com/docs/setup/mac) · [Linux](https://code.visualstudio.com/docs/setup/linux) · [Windows](https://code.visualstudio.com/docs/setup/windows) |
+| VS Code | [macOS](https://code.visualstudio.com/docs/setup/mac) / [Linux](https://code.visualstudio.com/docs/setup/linux) / [Windows](https://code.visualstudio.com/docs/setup/windows) |
 | Python editor | [Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) |
-| Git | [Install](https://git-scm.com/install/) · [Initial setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) |
-| uv | [Install](https://docs.astral.sh/uv/getting-started/installation/) · [Python](https://docs.astral.sh/uv/guides/install-python/) · [Projects](https://docs.astral.sh/uv/guides/projects/) · [Locking and syncing](https://docs.astral.sh/uv/concepts/projects/sync/) |
+| Git | [Install](https://git-scm.com/install/) / [Initial setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) |
+| uv | [Install](https://docs.astral.sh/uv/getting-started/installation/) / [Python](https://docs.astral.sh/uv/guides/install-python/) / [Projects](https://docs.astral.sh/uv/guides/projects/) / [Locking and syncing](https://docs.astral.sh/uv/concepts/projects/sync/) |
 | macOS packages | [Homebrew](https://brew.sh/) |
-| WSL | [Install](https://learn.microsoft.com/en-us/windows/wsl/install) · [Environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment) · [VS Code](https://code.visualstudio.com/docs/remote/wsl) |
-| OpenAI Codex | [IDE extension](https://learn.chatgpt.com/docs/codex/ide) · [CLI](https://learn.chatgpt.com/docs/codex/cli) |
-| Claude Code | [Quickstart](https://code.claude.com/docs/en/quickstart) · [Setup](https://code.claude.com/docs/en/setup) · [VS Code](https://code.claude.com/docs/en/vs-code) |
-| GitHub Copilot | [Setup](https://code.visualstudio.com/docs/setup/copilot) · [Agent quickstart](https://code.visualstudio.com/docs/agents/quickstart) |
+| WSL | [Install](https://learn.microsoft.com/en-us/windows/wsl/install) / [Environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment) / [VS Code](https://code.visualstudio.com/docs/remote/wsl) |
+| OpenAI Codex | [IDE extension](https://learn.chatgpt.com/docs/codex/ide) / [CLI](https://learn.chatgpt.com/docs/codex/cli) |
+| Claude Code | [Quickstart](https://code.claude.com/docs/en/quickstart) / [Setup](https://code.claude.com/docs/en/setup) / [VS Code](https://code.claude.com/docs/en/vs-code) |
+| GitHub Copilot | [Setup](https://code.visualstudio.com/docs/setup/copilot) / [Agent quickstart](https://code.visualstudio.com/docs/agents/quickstart) |
 | Cursor | [Install and first task](https://cursor.com/docs/get-started/quickstart) |
 | Tests | [Python unittest](https://docs.python.org/3.12/library/unittest.html) |
-| GitHub | [Create a repository](https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github) · [Push commits](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) |
+| GitHub | [Create a repository](https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github) / [Push commits](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) |
 
 <div class="resource-related">
   <a class="text-link" href="{{ '/en/students/' | relative_url }}">Back to For Students <span aria-hidden="true">→</span></a>

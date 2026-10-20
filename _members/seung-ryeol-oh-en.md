@@ -8,7 +8,7 @@ image: images/members/seung-ryeol-oh-suit.png
 role: collaborator
 order: 1
 description: Collaborator
-affiliation: Korea Aerospace Research Institute · Space Exploration Team
+affiliation: Korea Aerospace Research Institute, Space Exploration Team
 appointments:
   - Senior Researcher, Korea Aerospace Research Institute (KARI)
   - Space Exploration Team
@@ -31,7 +31,7 @@ Combining theoretical research with practical satellite systems development, he 
 ## Education
 
 {:.profile-timeline}
-- <span class="timeline-period">February 2025</span> <span class="timeline-title">KAIST · Department of Aerospace Engineering</span> <span class="timeline-detail">Ph.D. in Engineering</span>
+- <span class="timeline-period">February 2025</span> <span class="timeline-title">KAIST, Department of Aerospace Engineering</span> <span class="timeline-detail">Ph.D. in Engineering</span>
 
 ## Experience
 

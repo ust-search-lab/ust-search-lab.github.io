@@ -20,7 +20,7 @@ nav:
 
 {% include section.html %}
 
-## 협력 연구원 {#collaborators}
+## 협력연구원 {#collaborators}
 
 {% assign collaborators = site.members | where: "role", "collaborator" | where: "lang", page.lang | where_exp: "member", "member.published != false" | sort: "order" %}
 {% for collaborator in collaborators %}
@@ -29,6 +29,6 @@ nav:
 
 {% include section.html %}
 
-## 학생 연구원
+## 학생연구원
 
-SEARCH Lab에서 석·박사과정 연구에 참여하려면 [학생 연구원 안내]({{ "students/" | relative_url }}) 페이지를 참고하세요.
+SEARCH Lab에서 석사 및 박사과정 연구에 참여하려면 [학생연구원 안내]({{ "students/" | relative_url }}) 페이지를 참고하세요.

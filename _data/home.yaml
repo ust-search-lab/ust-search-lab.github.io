@@ -1,5 +1,5 @@
 ko:
-  identity: UST · 우주탐사 아키텍처 연구실
+  identity: UST 우주탐사 아키텍처 연구실
   headline: 우주비행역학에서
   headline_accent: 우주탐사 아키텍처까지
   intro_description: SEARCH Lab은 실현 가능한 우주임무를 설계하고 실증합니다.
@@ -7,25 +7,25 @@ ko:
   news_title: 공지사항
   news_all: 공지사항 전체 보기
   methods_eyebrow: THEORY & METHODS
-  methods_title: 우주임무 설계를 뒷받침하는 핵심 이론과 방법론
+  methods_title: 우주임무 설계의 이론과 방법
   applications_eyebrow: RESEARCH AREAS
   applications_title: 우주임무 설계와 기술실증
   topic_link: 연구내용 보기
   advisory_eyebrow: INDUSTRY COLLABORATION
   advisory_title: 우주임무 기술자문
-  advisory_description: 임무설계·타당성 분석, 모델·시뮬레이션 검토, 실무 워크숍을 통해 기업·연구기관의 설계 의사결정과 팀 역량 강화를 지원합니다.
+  advisory_description: 임무설계와 타당성 분석, 모델과 시뮬레이션 검토, 실무 워크숍을 통해 기업과 연구기관의 설계 의사결정과 팀 역량 강화를 지원합니다.
   advisory_status: 기술자문 서비스
   advisory_link: 서비스와 진행 절차 보기
   advisory_path: consulting/
   join_eyebrow: JOIN SEARCH Lab
-  join_title: 다음 우주임무를 함께 설계합니다
-  join_description: 우주임무 설계와 기술실증 연구에 함께할 석·박사과정 학생을 모집합니다.
-  students_link: 학생 연구원 안내
+  join_title: 우주임무 설계를 함께 연구할 학생연구원을 모집합니다
+  join_description: 우주임무 설계와 기술실증에 관심이 있는 석사 및 박사과정 학생을 기다립니다.
+  students_link: 학생연구원 안내
   students_path: students/
   contact_link: 연락처
   contact_path: contact/
 en:
-  identity: UST · SPACE EXPLORATION ARCHITECTURE LABORATORY
+  identity: UST SPACE EXPLORATION ARCHITECTURE LABORATORY
   headline: From astrodynamics
   headline_accent: to space exploration architecture
   intro_description: SEARCH Lab designs feasible space missions and demonstrates enabling technologies.
@@ -33,7 +33,7 @@ en:
   news_title: Latest news
   news_all: View all news
   methods_eyebrow: THEORY & METHODS
-  methods_title: Core theories and methods for space mission design
+  methods_title: Theories and methods for space mission design
   applications_eyebrow: RESEARCH AREAS
   applications_title: Space mission design and technology demonstration
   topic_link: Explore this area
@@ -44,7 +44,7 @@ en:
   advisory_link: Explore services and the process
   advisory_path: en/consulting/
   join_eyebrow: JOIN SEARCH Lab
-  join_title: Help design the next space mission
+  join_title: Join us in space mission design research
   join_description: We welcome prospective master's and doctoral students interested in space mission design and technology demonstration.
   students_link: For Students
   students_path: en/students/

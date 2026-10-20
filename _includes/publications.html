@@ -16,7 +16,7 @@
 {% if publications_lang == "en" %}
   {% assign publication_labels = "Journal articles & features,Conference presentations,Patents,Software,Trademarks & designs" | split: "," %}
 {% else %}
-  {% assign publication_labels = "논문·기고,학술대회 발표,특허,소프트웨어,상표·디자인" | split: "," %}
+  {% assign publication_labels = "논문 및 기고,학술대회 발표,특허,소프트웨어,상표 및 디자인" | split: "," %}
 {% endif %}
 
 <div class="publications">
@@ -120,7 +120,7 @@
           <div class="publication-subgroup">
             {% if publication_category == "journal" and publication_pending_count > 0 %}
               <{{ publication_subgroup_heading }} id="journals-published" class="publication-status-heading">
-                {% if publications_lang == "en" %}Published articles &amp; features{% else %}게재 논문·기고{% endif %}
+                {% if publications_lang == "en" %}Published articles &amp; features{% else %}게재 논문 및 기고{% endif %}
                 <span class="publication-count">{{ publication_status_records.size }}</span>
               </{{ publication_subgroup_heading }}>
             {% endif %}

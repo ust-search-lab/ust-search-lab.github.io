@@ -42,7 +42,7 @@ We assess assumptions in physical models and the validity of numerical results, 
 
 ## Student research participation
 
-Student researchers participate in the lab's research projects, contributing to mission design, systems analysis, performance verification, and the development of operational concepts according to their research topics and the stage of each project. CubeSat demonstration projects can provide opportunities to verify designs through hardware fabrication, ground environmental testing, and in-orbit operations. Through this work, students develop engineering skills that connect analysis and simulation results with actual design, testing, and operations.
+Student researchers participate in the lab's research projects, contributing to mission design, systems analysis, performance verification, and the development of operational concepts according to their research topics and the stage of each project. CubeSat demonstration projects can provide opportunities to verify designs through hardware fabrication, ground environmental testing, and in-orbit operations. Students learn how to apply analysis and simulation results to design, testing, and operations.
 
 </div>
 

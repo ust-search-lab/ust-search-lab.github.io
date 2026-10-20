@@ -2,21 +2,21 @@
 title: AI Coding Guide
 ref: ai-coding-guide
 parent_ref: students
-description: 맥·리눅스·윈도에서 AI 코딩 환경을 구성하고, Python 궤도 계산을 구현·검증·기록하는 SEARCH Lab 학생용 따라하기 가이드입니다.
+description: 맥, 리눅스, 윈도에서 AI 코딩 환경을 구성하고, Python 궤도 계산을 구현하고 검증한 뒤 기록하는 SEARCH Lab 학생용 따라하기 가이드입니다.
 ---
 
 <p class="guide-breadcrumb"><a href="{{ '/students/' | relative_url }}">For Students</a> <span aria-hidden="true">/</span> 실습 가이드</p>
 
-# 학생 연구원을 위한 AI 코딩 가이드
+# 학생연구원을 위한 AI 코딩 가이드
 {: .page-title }
 
-맥·리눅스·윈도에서 개발 환경을 만들고, AI와 함께 간단한 궤도 계산 프로그램을 작성합니다. 코드 실행, 결과 검증, 변경 이력 저장까지 한 번에 따라 해보세요.
+맥, 리눅스, 윈도에서 개발 환경을 만들고, AI와 함께 간단한 궤도 계산 프로그램을 작성합니다. 코드 실행, 결과 검증, 변경 이력 저장까지 한 번에 따라 해보세요.
 {: .page-intro }
 
 <div class="guide-actions">
   <a class="guide-button" href="#setup">내 운영체제로 시작하기 <span aria-hidden="true">↓</span></a>
   <a class="guide-button guide-button-secondary" href="{{ '/downloads/search-lab-ai-coding-starter.zip' | relative_url }}" download>참고 코드 ZIP</a>
-  <button class="guide-button guide-button-secondary" type="button" data-guide-print hidden>인쇄 · PDF로 저장</button>
+  <button class="guide-button guide-button-secondary" type="button" data-guide-print hidden>인쇄 / PDF로 저장</button>
 </div>
 
 <nav class="guide-toc" aria-label="가이드 목차" markdown="1">
@@ -43,11 +43,11 @@ description: 맥·리눅스·윈도에서 AI 코딩 환경을 구성하고, Pyth
 | 편집기 | 파일을 열고 수정하는 작업 공간 | VS Code 또는 Cursor |
 | Git | 변경 이력과 돌아갈 지점 저장 | 모든 운영체제에서 사용 |
 | Python + uv | 계산 실행, 프로젝트별 Python 환경 관리 | Python 3.12 계열로 실습 |
-| AI 코딩 도구 | 코드 설명·작성·수정 지원 | Codex, Claude Code, Copilot, Cursor 중 하나 |
+| AI 코딩 도구 | 코드 설명, 작성과 수정 지원 | Codex, Claude Code, Copilot, Cursor 중 하나 |
 
-**처음이라면 VS Code + Git + uv를 설치하고, 사용 가능한 계정에 맞춰 AI 도구 하나를 선택하세요.** Cursor를 선택하면 편집기로 Cursor를 사용해도 됩니다. 아래의 파일 만들기·터미널 실습은 두 편집기에서 같은 방식으로 진행할 수 있습니다.
+**처음이라면 VS Code + Git + uv를 설치하고, 사용 가능한 계정에 맞춰 AI 도구 하나를 선택하세요.** Cursor를 선택하면 편집기로 Cursor를 사용해도 됩니다. 아래의 파일 만들기와 터미널 실습은 두 편집기에서 같은 방식으로 진행할 수 있습니다.
 
-GitHub 계정은 마지막 온라인 공유 단계에서만 필요합니다. AI 기능의 이용 가능 여부·사용량·비용은 선택한 서비스와 계정에 따라 달라지므로 로그인 화면에서 확인합니다. 기본 Python 실습에는 Node.js, Docker, GPU가 필요하지 않습니다.
+GitHub 계정은 Copilot을 사용하거나 실습 결과를 GitHub에 공유할 때 필요합니다. AI 기능의 이용 가능 여부, 사용량과 비용은 선택한 서비스와 계정에 따라 달라지므로 로그인 화면에서 확인합니다. 기본 Python 실습에는 Node.js, Docker, GPU가 필요하지 않습니다.
 
 명령어는 **터미널**에, AI에게 할 요청은 **AI 채팅창**에 입력합니다. 코드 블록은 위에서부터 한 줄씩 실행하고, 오류가 나면 그 줄에서 해결한 뒤 진행하세요. 이 실습에는 공개된 수치와 자체 작성한 예제만 사용합니다.
 
@@ -60,12 +60,12 @@ GitHub 계정은 마지막 온라인 공유 단계에서만 필요합니다. AI 
 
 <div class="guide-os-links">
   <a href="#macos">macOS <span>맥</span></a>
-  <a href="#linux">Linux <span>Ubuntu · Debian · Fedora</span></a>
+  <a href="#linux">Linux <span>Ubuntu / Debian / Fedora</span></a>
   <a href="#windows">Windows <span>PowerShell</span></a>
 </div>
 
 <details class="guide-os" id="macos" markdown="1">
-<summary>macOS · 맥에서 설치</summary>
+<summary>macOS / 맥에서 설치</summary>
 
 ### 2A-1. 편집기 설치
 
@@ -89,7 +89,7 @@ git --version
 xcode-select --install
 ```
 
-이미 Homebrew를 사용한다면 `brew install git`도 가능합니다. 두 방법을 모두 사용할 필요는 없습니다. [Git 맥 설치](https://git-scm.com/install/mac) · [Homebrew 안내](https://brew.sh/ko/)
+이미 Homebrew를 사용한다면 `brew install git`도 가능합니다. 두 방법을 모두 사용할 필요는 없습니다. [Git 맥 설치](https://git-scm.com/install/mac) / [Homebrew 안내](https://brew.sh/ko/)
 
 ### 2A-3. uv 설치와 확인
 
@@ -107,17 +107,17 @@ uv --version
 code --version
 ```
 
-**완료 기준:** Git·uv 버전이 출력되고 편집기가 열립니다. `code` 명령이 없어도 **File → Open Folder**로 진행할 수 있습니다. [VS Code 맥 설정](https://code.visualstudio.com/docs/setup/mac) · [uv 설치](https://docs.astral.sh/uv/getting-started/installation/)
+**완료 기준:** Git과 uv 버전이 출력되고 편집기가 열립니다. `code` 명령이 없어도 **File → Open Folder**로 진행할 수 있습니다. [VS Code 맥 설정](https://code.visualstudio.com/docs/setup/mac) / [uv 설치](https://docs.astral.sh/uv/getting-started/installation/)
 
 [03. Python 프로젝트 만들기로 이동](#project)
 </details>
 
 <details class="guide-os" id="linux" markdown="1">
-<summary>Linux · 리눅스에서 설치</summary>
+<summary>Linux / 리눅스에서 설치</summary>
 
 ### 2B-1. Git과 다운로드 도구 설치
 
-Ubuntu·Debian에서는 다음을 실행합니다.
+Ubuntu와 Debian에서는 다음을 실행합니다.
 
 ```bash
 sudo apt update
@@ -134,7 +134,7 @@ sudo dnf install git curl
 
 ### 2B-2. 편집기 설치
 
-[VS Code 리눅스 설치](https://code.visualstudio.com/docs/setup/linux)에서 배포판과 CPU에 맞는 패키지를 받습니다. Ubuntu·Debian은 `.deb`, Fedora 계열은 `.rpm` 패키지를 소프트웨어 설치 앱으로 엽니다. Cursor를 선택했다면 [공식 Linux 설치 절차](https://cursor.com/docs/get-started/quickstart)를 사용합니다.
+[VS Code 리눅스 설치](https://code.visualstudio.com/docs/setup/linux)에서 배포판과 CPU에 맞는 패키지를 받습니다. Ubuntu와 Debian은 `.deb`, Fedora 계열은 `.rpm` 패키지를 소프트웨어 설치 앱으로 엽니다. Cursor를 선택했다면 [공식 Linux 설치 절차](https://cursor.com/docs/get-started/quickstart)를 사용합니다.
 
 ### 2B-3. uv 설치와 확인
 
@@ -150,19 +150,19 @@ uv --version
 code --version
 ```
 
-**완료 기준:** Git·uv 버전이 출력되고 편집기가 열립니다. GUI가 없는 원격 서버에서는 편집기의 원격 연결 구성이 별도로 필요합니다. 이 가이드는 데스크톱 환경을 기준으로 합니다. [uv 설치](https://docs.astral.sh/uv/getting-started/installation/)
+**완료 기준:** Git과 uv 버전이 출력되고 편집기가 열립니다. GUI가 없는 원격 서버에서는 편집기의 원격 연결 구성이 별도로 필요합니다. 이 가이드는 데스크톱 환경을 기준으로 합니다. [uv 설치](https://docs.astral.sh/uv/getting-started/installation/)
 
 [03. Python 프로젝트 만들기로 이동](#project)
 </details>
 
 <details class="guide-os" id="windows" markdown="1">
-<summary>Windows · 윈도에서 설치</summary>
+<summary>Windows / 윈도에서 설치</summary>
 
 ### 2C-1. PowerShell 열기
 
 이 가이드의 기본 경로는 **윈도에 직접 설치하는 방식**입니다. 시작 메뉴에서 **PowerShell**을 검색해 실행합니다. `PS C:\...>` 형태의 입력 줄을 확인합니다. WSL은 이 기본 실습의 필수 요소가 아닙니다.
 
-### 2C-2. VS Code·Git·uv 설치
+### 2C-2. VS Code, Git과 uv 설치
 
 [VS Code 윈도 설치](https://code.visualstudio.com/docs/setup/windows)에 따라 설치 파일을 실행합니다. 다음은 PowerShell에서 실행합니다.
 
@@ -183,13 +183,13 @@ uv --version
 code --version
 ```
 
-**완료 기준:** Git·uv 버전이 출력되고 편집기가 열립니다. Cursor 사용자는 `code` 명령 대신 **File → Open Folder**를 이용합니다.
+**완료 기준:** Git과 uv 버전이 출력되고 편집기가 열립니다. Cursor 사용자는 `code` 명령 대신 **File → Open Folder**를 이용합니다.
 
 [03. Python 프로젝트 만들기로 이동](#project)
 </details>
 
 <details class="guide-os" id="windows-wsl" markdown="1">
-<summary>선택 사항 · 윈도에서 리눅스 환경이 필요한 경우(WSL 2)</summary>
+<summary>선택 사항 / 윈도에서 리눅스 환경이 필요한 경우(WSL 2)</summary>
 
 연구 코드가 Linux 도구를 요구할 때 선택합니다. 처음부터 Windows 기본 경로와 WSL을 번갈아 사용하지 말고, 한 실습은 한 환경에서 끝내세요.
 
@@ -201,12 +201,12 @@ wsl --install
 
 2. 설치된 Ubuntu를 열어 리눅스 사용자명과 암호를 정합니다. `wsl --list --verbose`로 버전이 `2`인지 확인합니다.
 3. **윈도 쪽에 VS Code**, VS Code에 Microsoft의 **WSL 확장**을 설치합니다. Ubuntu 안에 데스크톱 VS Code를 다시 설치하지 않습니다.
-4. **Ubuntu 터미널**에서 위 Linux 절차의 Git·curl·uv만 설치합니다. 프로젝트는 `~/projects` 아래에 만들고 `code .`로 엽니다. 편집기 왼쪽 아래에 WSL 연결 상태가 표시되는지 확인합니다.
-5. 이후 Python·uv 명령은 WSL에 연결된 편집기의 터미널에서 실행합니다. AI 확장은 해당 확장의 WSL 안내와 **Install in WSL** 표시를 따릅니다. CLI 도구는 Ubuntu 쪽에 설치합니다.
+4. **Ubuntu 터미널**에서 위 Linux 절차의 Git, curl과 uv만 설치합니다. 프로젝트는 `~/projects` 아래에 만들고 `code .`로 엽니다. 편집기 왼쪽 아래에 WSL 연결 상태가 표시되는지 확인합니다.
+5. 이후 Python과 uv 명령은 WSL에 연결된 편집기의 터미널에서 실행합니다. AI 확장은 해당 확장의 WSL 안내와 **Install in WSL** 표시를 따릅니다. CLI 도구는 Ubuntu 쪽에 설치합니다.
 
-윈도와 WSL의 Python·가상환경·경로는 서로 다릅니다. Windows에서 만든 `.venv`를 WSL에 복사하지 말고, 해당 환경에서 `uv sync`로 다시 만듭니다.
+윈도와 WSL의 Python, 가상환경과 경로는 서로 다릅니다. Windows에서 만든 `.venv`를 WSL에 복사하지 말고, 해당 환경에서 `uv sync`로 다시 만듭니다.
 
-공식 안내: [WSL 설치](https://learn.microsoft.com/ko-kr/windows/wsl/install) · [WSL 개발 환경](https://learn.microsoft.com/ko-kr/windows/wsl/setup/environment) · [VS Code와 WSL](https://code.visualstudio.com/docs/remote/wsl)
+공식 안내: [WSL 설치](https://learn.microsoft.com/ko-kr/windows/wsl/install) / [WSL 개발 환경](https://learn.microsoft.com/ko-kr/windows/wsl/setup/environment) / [VS Code와 WSL](https://code.visualstudio.com/docs/remote/wsl)
 </details>
 
 {% include section.html %}
@@ -216,7 +216,7 @@ wsl --install
 
 ### 3-1. 실습 폴더 만들기
 
-**macOS·Linux·WSL 터미널:**
+**macOS, Linux, WSL 터미널:**
 
 ```bash
 mkdir -p ~/projects
@@ -248,13 +248,13 @@ uv sync
 uv run python --version
 ```
 
-마지막에 `Python 3.12.x`가 표시되면 정상입니다. `3.12`는 이 문서의 실습 기준이며 최신 버전을 뜻하지 않습니다. `pyproject.toml`은 프로젝트 설정, `uv.lock`은 의존성 기록, `.python-version`은 Python 선택, `.venv`는 실행 환경입니다. `uv run`을 쓰므로 가상환경을 수동으로 활성화할 필요가 없습니다. [Python 설치](https://docs.astral.sh/uv/guides/install-python/) · [uv 프로젝트 만들기](https://docs.astral.sh/uv/concepts/projects/init/)
+마지막에 `Python 3.12.x`가 표시되면 정상입니다. `3.12`는 이 문서의 실습 기준이며 최신 버전을 뜻하지 않습니다. `pyproject.toml`은 프로젝트 설정, `uv.lock`은 의존성 기록, `.python-version`은 Python 선택, `.venv`는 실행 환경입니다. `uv run`을 쓰므로 가상환경을 수동으로 활성화할 필요가 없습니다. [Python 설치](https://docs.astral.sh/uv/guides/install-python/) / [uv 프로젝트 만들기](https://docs.astral.sh/uv/concepts/projects/init/)
 
 ### 3-3. 편집기에서 폴더 열기
 
 `code .`를 실행하거나 **File → Open Folder**에서 `orbit-lab`을 선택합니다. Microsoft의 **Python 확장**을 설치하고, 명령 팔레트에서 **Python: Select Interpreter**를 실행해 이 폴더의 `.venv`를 선택합니다.
 
-- macOS·Linux·WSL: `.venv/bin/python`
+- macOS, Linux, WSL: `.venv/bin/python`
 - Windows: `.venv\Scripts\python.exe`
 
 편집기 메뉴 **Terminal → New Terminal**에서 `uv run python --version`을 다시 실행합니다. 앞으로 명령은 이 터미널에 입력하세요. [VS Code Python 시작하기](https://code.visualstudio.com/docs/python/python-tutorial)
@@ -267,7 +267,7 @@ uv run python --version
 {% include guides/gitignore.txt %}
 ```
 
-`README.md`도 만들고 `# Orbit Lab`이라는 제목을 저장합니다. 아래 이름·이메일은 **본인 정보로 바꾼 뒤** 실행합니다. 이 설정은 현재 실습 저장소에 적용됩니다.
+`README.md`도 만들고 `# Orbit Lab`이라는 제목을 저장합니다. 아래 이름과 이메일은 **본인 정보로 바꾼 뒤** 실행합니다. 이 설정은 현재 실습 저장소에 적용됩니다.
 
 ```bash
 git init -b main
@@ -277,7 +277,7 @@ git add .gitignore .python-version pyproject.toml uv.lock README.md
 git commit -m "Set up orbit exercise"
 ```
 
-**완료 기준:** `git status`에 저장할 변경사항이 없다고 표시됩니다. Git 커밋은 내 컴퓨터의 기록이며, GitHub 업로드와는 별도입니다. [Git 사용자 설정](https://git-scm.com/book/ko/v2/시작하기-Git-최초-설정) · [.gitignore 안내](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+**완료 기준:** `git status`에 저장할 변경사항이 없다고 표시됩니다. Git 커밋은 내 컴퓨터의 기록이며, GitHub 업로드와는 별도입니다. [Git 사용자 설정](https://git-scm.com/book/ko/v2/시작하기-Git-최초-설정) / [.gitignore 안내](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 
 {% include section.html %}
 
@@ -329,17 +329,17 @@ git commit -m "Set up orbit exercise"
 </details>
 
 <details class="guide-tool" markdown="1">
-<summary>선택 사항 · 터미널에서 Codex 또는 Claude Code 사용</summary>
+<summary>선택 사항 / 터미널에서 Codex 또는 Claude Code 사용</summary>
 
 편집기 확장 대신 CLI를 쓰고 싶을 때만 설치합니다. 다음 명령은 각 회사의 공식 설치 스크립트를 실행합니다. 두 도구 중 사용할 도구만 고르세요.
 
-**Codex — macOS·Linux·WSL:**
+**Codex (macOS, Linux, WSL):**
 
 ```bash
 curl -fsSL https://chatgpt.com/codex/install.sh | sh
 ```
 
-**Codex — Windows PowerShell:**
+**Codex (Windows PowerShell):**
 
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
@@ -347,13 +347,13 @@ powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1
 
 새 터미널의 `orbit-lab` 폴더에서 `codex`를 실행하고 로그인합니다. [OpenAI 공식 Codex CLI 안내](https://learn.chatgpt.com/docs/codex/cli)
 
-**Claude Code — macOS·Linux·WSL:**
+**Claude Code (macOS, Linux, WSL):**
 
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-**Claude Code — Windows PowerShell:**
+**Claude Code (Windows PowerShell):**
 
 ```powershell
 irm https://claude.ai/install.ps1 | iex
@@ -367,9 +367,9 @@ irm https://claude.ai/install.ps1 | iex
 ## 05. 첫 실습: 원궤도 속도와 주기 계산
 {: #exercise }
 
-지구 중심의 원궤도를 가정하고 고도에 따른 속도와 주기를 계산합니다. 아래 상수는 **실습을 위해 고정한 값**입니다. 구형 지구의 2체 문제로 단순화하며, 대기저항·지구 비구형 중력·제3체 섭동은 포함하지 않습니다.
+지구 중심의 원궤도를 가정하고 고도에 따른 속도와 주기를 계산합니다. 아래 상수는 **실습을 위해 고정한 값**입니다. 구형 지구의 2체 문제로 단순화하며, 대기저항, 지구 비구형 중력과 제3체 섭동은 포함하지 않습니다.
 
-| 입력·출력 | 정의 |
+| 입력과 출력 | 정의 |
 |---|---|
 | `mu = 398600.4418` | 중력상수와 지구 질량의 곱, km³/s² |
 | `R = 6378.137` | 이 실습에서 사용하는 기준 지구 반지름, km |
@@ -384,7 +384,7 @@ irm https://claude.ai/install.ps1 | iex
 
 ```text
 이 폴더에서 Python 원궤도 계산 실습을 하려고 합니다.
-먼저 파일 구성, 사용할 식, 입력·출력 단위와 검증 방법을 설명하세요.
+먼저 파일 구성, 사용할 식, 입력과 출력 단위와 검증 방법을 설명하세요.
 아직 파일은 수정하지 마세요.
 
 실습 조건:
@@ -402,7 +402,7 @@ irm https://claude.ai/install.ps1 | iex
 ```text
 위 조건으로 orbit.py와 test_orbit.py를 작성하세요.
 circular_orbit(altitude_km) 함수는 (속도 km/s, 주기 min)을 반환해야 합니다.
-음수·NaN·무한대 고도는 ValueError로 처리하세요.
+음수, NaN, 무한대 고도는 ValueError로 처리하세요.
 orbit.py를 직접 실행하면 400 km와 800 km 결과를 소수점 6자리로 출력하세요.
 unittest로 기준 수치, 고도에 따른 변화, 잘못된 입력을 검증하세요.
 uv run python orbit.py와 uv run python -m unittest -v로 실행하고,
@@ -428,7 +428,7 @@ h=800 km | v=7.451831 km/s | T=100.873559 min
 막히면 아래 코드를 같은 이름의 파일에 저장해 비교합니다. AI를 아직 연결하지 못했다면 이 코드로 먼저 Python 환경을 확인할 수 있습니다. [참고 코드 ZIP]({{ '/downloads/search-lab-ai-coding-starter.zip' | relative_url }})은 **별도 폴더에 압축을 풀어** 실행하는 완성 예제입니다. ZIP 안에서는 `uv init`을 다시 실행하지 않습니다.
 
 <details class="guide-code" markdown="1">
-<summary>orbit.py · 참고 구현 보기</summary>
+<summary>orbit.py / 참고 구현 보기</summary>
 
 ```python
 {% include guides/orbit.py %}
@@ -436,7 +436,7 @@ h=800 km | v=7.451831 km/s | T=100.873559 min
 </details>
 
 <details class="guide-code" markdown="1">
-<summary>test_orbit.py · 검증 코드 보기</summary>
+<summary>test_orbit.py / 검증 코드 보기</summary>
 
 ```python
 {% include guides/test_orbit.py %}
@@ -453,7 +453,7 @@ h=800 km | v=7.451831 km/s | T=100.873559 min
 1. **단위:** 거리 km와 중력상수 km³/s²를 일관되게 썼는가? 주기는 초에서 분으로 변환했는가?
 2. **기준값:** 400 km에서 약 7.668558 km/s, 92.560405분이 나오는가? 반올림 기준값과 비교할 때 허용 오차를 두었는가?
 3. **경향:** 800 km에서는 속도가 줄고 주기가 늘어나는가?
-4. **입력 검사:** 음수·NaN·무한대를 거부하는가? 0 km는 수학적 경계 사례일 뿐 실제 운용 가능한 궤도를 뜻하지 않음을 이해했는가?
+4. **입력 검사:** 음수, NaN, 무한대를 거부하는가? 0 km는 수학적 경계 사례일 뿐 실제 운용 가능한 궤도를 뜻하지 않음을 이해했는가?
 5. **모델 범위:** 실제 위성의 정밀 궤도 예측과 이 원궤도 예제의 차이를 설명할 수 있는가?
 
 참고 검증 코드를 사용하면 **4개 테스트가 통과하고 `OK`**가 표시됩니다. AI가 만든 테스트는 개수가 다를 수 있으므로 검사 내용도 읽습니다. 테스트에서 구현의 식을 그대로 반복하는 것만으로 만족하지 말고, 계산기나 별도 계산으로 얻은 기준값과 비교합니다. [Python unittest 안내](https://docs.python.org/3.12/library/unittest.html)
@@ -463,11 +463,11 @@ h=800 km | v=7.451831 km/s | T=100.873559 min
 ```text
 기존 계산 함수와 테스트를 유지하세요.
 200~2000 km 고도를 100 km 간격으로 계산하는 별도 스크립트를 만들고,
-고도·속도·주기를 CSV로 저장하세요. 열 이름에 단위를 포함하세요.
+고도, 속도와 주기를 CSV로 저장하세요. 열 이름에 단위를 포함하세요.
 기존 테스트를 다시 실행하고, CSV의 400 km 행을 기준값과 비교하세요.
 ```
 
-그래프를 그리고 싶다면 `uv add matplotlib`으로 의존성을 기록한 뒤, AI에게 축 이름·단위·모델 가정을 표시하도록 요청합니다. `pyproject.toml`과 `uv.lock`도 함께 변경되는지 확인하세요. [uv 프로젝트와 의존성 관리](https://docs.astral.sh/uv/guides/projects/)
+그래프를 그리고 싶다면 `uv add matplotlib`으로 의존성을 기록한 뒤, AI에게 축 이름, 단위와 모델 가정을 표시하도록 요청합니다. `pyproject.toml`과 `uv.lock`도 함께 변경되는지 확인하세요. [uv 프로젝트와 의존성 관리](https://docs.astral.sh/uv/guides/projects/)
 
 {% include section.html %}
 
@@ -476,7 +476,7 @@ h=800 km | v=7.451831 km/s | T=100.873559 min
 
 ### 7-1. README에 실습 기록 남기기
 
-`README.md`에 목적, 가정과 상수, 실행 명령, 기준 결과, 테스트 결과, 사용한 AI 도구·주요 요청·직접 수정한 내용을 적습니다. `uv --version`과 `uv run python --version`의 출력도 기록하면 이후 환경 차이를 비교하기 쉽습니다.
+`README.md`에 목적, 가정과 상수, 실행 명령, 기준 결과, 테스트 결과, 사용한 AI 도구, 주요 요청과 직접 수정한 내용을 적습니다. `uv --version`과 `uv run python --version`의 출력도 기록하면 이후 환경 차이를 비교하기 쉽습니다.
 
 ### 7-2. 변경 내역 확인 후 커밋
 
@@ -515,7 +515,7 @@ uv run python -m unittest -v
 
 | 증상 | 먼저 확인할 내용 |
 |---|---|
-| `uv` 또는 `git`을 찾을 수 없음 | 설치가 완료됐는지 확인하고 터미널·편집기를 완전히 재시작합니다. 계속 안 되면 해당 공식 설치 문서의 PATH 안내를 확인합니다. |
+| `uv` 또는 `git`을 찾을 수 없음 | 설치가 완료됐는지 확인하고 터미널과 편집기를 완전히 재시작합니다. 계속 안 되면 해당 공식 설치 문서의 PATH 안내를 확인합니다. |
 | `code` 명령이 없음 | 맥은 명령 팔레트에서 PATH 등록을 실행합니다. 우선 File → Open Folder로 폴더를 열어도 됩니다. |
 | Windows에서 명령 문법 오류 | 현재 창이 PowerShell인지 확인합니다. bash 명령과 PowerShell 명령을 섞지 않습니다. |
 | 이미 `pyproject.toml`이 있다고 표시됨 | 기존 프로젝트 또는 ZIP 예제입니다. `uv init`을 생략하고 `uv sync`를 실행합니다. |
@@ -523,10 +523,10 @@ uv run python -m unittest -v
 | `orbit.py`를 찾을 수 없음 | 파일을 저장했는지, 터미널의 현재 위치가 `orbit-lab`인지 확인합니다. 윈도의 숨겨진 확장자 때문에 `.py.txt`가 되지 않았는지도 봅니다. |
 | `ModuleNotFoundError` | `uv run`으로 실행하고 있는지 확인합니다. 추가 라이브러리는 `uv add 패키지명`으로 현재 프로젝트에 설치합니다. |
 | AI가 다른 프로젝트를 설명함 | 편집기와 AI가 참조하는 작업 폴더를 `orbit-lab`으로 맞춥니다. |
-| AI 로그인·사용량 오류 | 계정·선택 모델·이용 한도를 확인합니다. 기본 실습은 참고 코드로 계속할 수 있습니다. |
+| AI 로그인 또는 사용량 오류 | 계정, 선택 모델과 이용 한도를 확인합니다. 기본 실습은 참고 코드로 계속할 수 있습니다. |
 | 테스트가 `Ran 0 tests`라고 나옴 | 파일명을 `test_orbit.py`, 메서드명을 `test_`로 시작하도록 확인합니다. 0개 통과는 검증 완료가 아닙니다. |
 | Git에서 작성자 정보 오류 | 현재 저장소의 `git config user.name`과 `git config user.email`을 설정합니다. |
-| WSL에서만 도구를 찾지 못함 | 윈도에 설치한 도구와 WSL 안의 도구를 구분합니다. Ubuntu 터미널에서 Git·uv·Python을 다시 확인합니다. |
+| WSL에서만 도구를 찾지 못함 | 윈도에 설치한 도구와 WSL 안의 도구를 구분합니다. Ubuntu 터미널에서 Git, uv와 Python을 다시 확인합니다. |
 
 오류를 AI에게 물을 때에는 **운영체제, 실행한 명령, 오류 전문, 기대한 결과**를 함께 전달하세요. 예를 들어 “Windows PowerShell에서 `uv run python orbit.py`를 실행했는데 다음 오류가 발생했다”처럼 적으면 원인을 좁힐 수 있습니다.
 
@@ -535,24 +535,24 @@ uv run python -m unittest -v
 ## 09. 공식 문서 모음
 {: #references }
 
-이 가이드는 아래 문서의 설치·프로젝트·실행·검증 관련 내용을 참고해 학생 실습 순서로 재구성했습니다. 공식 문서를 그대로 번역한 문서는 아니며, 궤도 계산과 검증 코드는 SEARCH Lab용으로 작성한 교육 예제입니다. 설치 화면과 명령은 바뀔 수 있으므로 문제가 생기면 해당 공식 안내를 확인하세요.
+이 가이드는 아래 문서의 설치, 프로젝트, 실행과 검증 관련 내용을 참고해 학생 실습 순서로 재구성했습니다. 공식 문서를 그대로 번역한 문서는 아니며, 궤도 계산과 검증 코드는 SEARCH Lab용으로 작성한 교육 예제입니다. 설치 화면과 명령은 바뀔 수 있으므로 문제가 생기면 해당 공식 안내를 확인하세요.
 
 | 구분 | 공식 자료 |
 |---|---|
-| VS Code 설치 | [macOS](https://code.visualstudio.com/docs/setup/mac) · [Linux](https://code.visualstudio.com/docs/setup/linux) · [Windows](https://code.visualstudio.com/docs/setup/windows) |
+| VS Code 설치 | [macOS](https://code.visualstudio.com/docs/setup/mac) / [Linux](https://code.visualstudio.com/docs/setup/linux) / [Windows](https://code.visualstudio.com/docs/setup/windows) |
 | Python 편집 환경 | [Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial) |
-| Git | [운영체제별 설치](https://git-scm.com/install/) · [최초 설정](https://git-scm.com/book/ko/v2/시작하기-Git-최초-설정) |
-| uv | [설치](https://docs.astral.sh/uv/getting-started/installation/) · [Python 관리](https://docs.astral.sh/uv/guides/install-python/) · [프로젝트](https://docs.astral.sh/uv/guides/projects/) · [잠금·동기화](https://docs.astral.sh/uv/concepts/projects/sync/) |
+| Git | [운영체제별 설치](https://git-scm.com/install/) / [최초 설정](https://git-scm.com/book/ko/v2/시작하기-Git-최초-설정) |
+| uv | [설치](https://docs.astral.sh/uv/getting-started/installation/) / [Python 관리](https://docs.astral.sh/uv/guides/install-python/) / [프로젝트](https://docs.astral.sh/uv/guides/projects/) / [잠금과 동기화](https://docs.astral.sh/uv/concepts/projects/sync/) |
 | macOS 패키지 관리 | [Homebrew 한국어 안내](https://brew.sh/ko/) |
-| WSL | [설치](https://learn.microsoft.com/ko-kr/windows/wsl/install) · [개발 환경](https://learn.microsoft.com/ko-kr/windows/wsl/setup/environment) · [VS Code 연결](https://code.visualstudio.com/docs/remote/wsl) |
-| OpenAI Codex | [편집기 확장](https://learn.chatgpt.com/docs/codex/ide) · [CLI](https://learn.chatgpt.com/docs/codex/cli) |
-| Claude Code | [한국어 빠른 시작](https://code.claude.com/docs/ko/quickstart) · [상세 설정](https://code.claude.com/docs/ko/setup) · [VS Code 확장](https://code.claude.com/docs/ko/vs-code) |
-| GitHub Copilot | [설정](https://code.visualstudio.com/docs/setup/copilot) · [Agent 실습](https://code.visualstudio.com/docs/agents/quickstart) |
+| WSL | [설치](https://learn.microsoft.com/ko-kr/windows/wsl/install) / [개발 환경](https://learn.microsoft.com/ko-kr/windows/wsl/setup/environment) / [VS Code 연결](https://code.visualstudio.com/docs/remote/wsl) |
+| OpenAI Codex | [편집기 확장](https://learn.chatgpt.com/docs/codex/ide) / [CLI](https://learn.chatgpt.com/docs/codex/cli) |
+| Claude Code | [한국어 빠른 시작](https://code.claude.com/docs/ko/quickstart) / [상세 설정](https://code.claude.com/docs/ko/setup) / [VS Code 확장](https://code.claude.com/docs/ko/vs-code) |
+| GitHub Copilot | [설정](https://code.visualstudio.com/docs/setup/copilot) / [Agent 실습](https://code.visualstudio.com/docs/agents/quickstart) |
 | Cursor | [설치와 첫 작업](https://cursor.com/docs/get-started/quickstart) |
 | 테스트 | [Python unittest](https://docs.python.org/3.12/library/unittest.html) |
-| GitHub 공유 | [저장소 만들기](https://docs.github.com/ko/get-started/start-your-journey/creating-a-repository-for-your-project-on-github) · [원격 저장소에 push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) |
+| GitHub 공유 | [저장소 만들기](https://docs.github.com/ko/get-started/start-your-journey/creating-a-repository-for-your-project-on-github) / [원격 저장소에 push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) |
 
 <div class="resource-related">
-  <a class="text-link" href="{{ '/students/' | relative_url }}">학생 연구원 안내로 돌아가기 <span aria-hidden="true">→</span></a>
-  <a class="text-link" href="{{ '/links/' | relative_url }}">진학·연구 자료 더 보기 <span aria-hidden="true">→</span></a>
+  <a class="text-link" href="{{ '/students/' | relative_url }}">학생연구원 안내로 돌아가기 <span aria-hidden="true">→</span></a>
+  <a class="text-link" href="{{ '/links/' | relative_url }}">진학과 연구 자료 더 보기 <span aria-hidden="true">→</span></a>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: UST Spring 2027 Admissions — First Round (Applications Closed)
+title: UST Spring 2027 First-Round Admissions (Applications Closed)
 ref: ust-2027-spring-admissions
 lang: en
 date: 2026-10-03 00:00:00 +0900

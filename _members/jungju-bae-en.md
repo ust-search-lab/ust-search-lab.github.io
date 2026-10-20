@@ -9,7 +9,7 @@ image_position: center 20%
 role: collaborator
 order: 2
 description: Collaborator
-affiliation: Korea Aerospace Research Institute · Space Exploration Team
+affiliation: Korea Aerospace Research Institute, Space Exploration Team
 appointments:
   - Senior Researcher, Korea Aerospace Research Institute (KARI)
   - Space Exploration Team
@@ -30,7 +30,7 @@ Doctoral research focused on the orbital and attitude dynamics, stability, and c
 ## Education
 
 {:.profile-timeline}
-- <span class="timeline-period">August 2025</span> <span class="timeline-title">Inha University · Department of Mechanical Engineering</span> <span class="timeline-detail">Ph.D. in Engineering</span>
+- <span class="timeline-period">August 2025</span> <span class="timeline-title">Inha University, Department of Mechanical Engineering</span> <span class="timeline-detail">Ph.D. in Engineering</span>
 
 ## Selected experience
 

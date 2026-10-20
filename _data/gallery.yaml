@@ -1,12 +1,12 @@
 albums:
   - id: imewg-2026-canada
     title:
-      ko: IMEWG 2026 · 캐나다우주청
-      en: IMEWG 2026 · Canadian Space Agency
+      ko: IMEWG 2026 (캐나다우주청)
+      en: IMEWG 2026 (Canadian Space Agency)
     description:
-      ko: 캐나다우주청에서 열리는 IMEWG 연례 대면회의 참석 사진입니다.
-      en: Photos from the annual IMEWG Face to Face meeting at the Canadian Space
-        Agency.
+      ko: 캐나다우주청에서 개최된 IMEWG 2026 연례 대면회의 참석 사진입니다.
+      en: Photos from the IMEWG 2026 annual in-person meeting held at the Canadian
+        Space Agency.
     updated: 2026-10-16
     photos:
       - image: /images/news/imewg-2026-canada/csa-canadarm-group-20261016.jpeg

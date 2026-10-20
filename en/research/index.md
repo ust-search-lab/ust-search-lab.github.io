@@ -81,7 +81,7 @@ We assess the feasibility of storing and processing data in space by integrating
 
 ### {% include icon.html icon="fa-solid fa-moon" %}{% include research-title.html id="planetary" %} {#planetary}
 
-We design lunar and planetary exploration missions, including lunar landers and Mars orbiters and landers. We assess orbits and landing sites against exploration objectives, then examine how the relative positions of spacecraft, observation targets, and Earth affect observations, communications, and operations.
+We design lunar and planetary exploration missions, including lunar landers and Mars orbiters and landers.
 
 - Conceptual design of lunar exploration and landing missions and Mars orbiter and lander missions
 - Orbit and landing site assessment against exploration objectives
@@ -131,7 +131,7 @@ Solar sails generate thrust from solar radiation pressure as sunlight transfers 
 
 #### Integrated attitude and orbit control {#integrated-attitude-orbit-control}
 
-We aim to combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.
+We combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.
 
 Related prior work: [Indirect methods for deep-learning-based solar-sail optimal control (2025, Korean)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
 
@@ -139,29 +139,29 @@ Related prior work: [Indirect methods for deep-learning-based solar-sail optimal
 
 The Korea Aerospace Research Institute (KARI) developed a ground test model with a 10 m × 10 m (100 m²) sail to advance solar sail deployment technology for deep-space exploration. A motor extends four supporting booms to unfurl the stowed membrane. Ground tests identified deployment problems and opportunities for improvement. The videos show the test model deploying from overhead and side views.
 
-Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228) · [Tests and Lessons Learned of Solar Sail Deployment](https://doi.org/10.52912/jsta.2026.6.3.293)
+Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228), [Tests and Lessons Learned of Solar Sail Deployment](https://doi.org/10.52912/jsta.2026.6.3.293)
 
 <div class="research-video-grid">
-{% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="Solar sail deployment · overhead view (23 s clip)" %}
-{% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="Solar sail deployment · side view (22 s clip)" %}
+{% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="Solar sail deployment, overhead view (23 s clip)" %}
+{% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="Solar sail deployment, side view (22 s clip)" %}
 </div>
 
 #### Deorbiter for space debris removal: development and ground tests {#deorbiter-ground-test}
 
 KARI developed a ground test model of a deorbiter to investigate technologies for capturing and removing debris from low Earth orbit. It combines towing, capture, and deployment mechanisms. The concept uses a 5 m × 5 m (25 m²) drag sail to increase atmospheric drag and bring captured objects toward re-entry. The videos show ground tests of the drag-sail deployment function.
 
-Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417) · [Deorbiter development and tests](https://doi.org/10.52912/jsta.2026.6.2.196)
+Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417), [Deorbiter development and tests](https://doi.org/10.52912/jsta.2026.6.2.196)
 
 <div class="research-video-grid">
-{% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="Drag-sail deployment · wide view (2.4 s clip)" %}
-{% include research-video.html id="deorbiter-test-overhead" file="kari-deorbiter-drag-sail-overhead.mp4" poster="kari-deorbiter-drag-sail-overhead.jpg" title="Drag-sail deployment · overhead view (12.9 s clip)" %}
+{% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="Drag-sail deployment, wide view (2.4 s clip)" %}
+{% include research-video.html id="deorbiter-test-overhead" file="kari-deorbiter-drag-sail-overhead.mp4" poster="kari-deorbiter-drag-sail-overhead.jpg" title="Drag-sail deployment, overhead view (12.9 s clip)" %}
 </div>
 
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-satellite-dish" %}{% include research-title.html id="optical-communications" %} {#optical-communications}
 
-Deep-space optical communications uses lasers to exchange data between spacecraft and Earth. Our interests focus on how trajectories, spacecraft attitude, distance from Earth, and ground station weather and atmospheric conditions affect link performance. We aim to evaluate contact opportunities and data return, and to develop system requirements, operations plans, and technology demonstration scenarios within mass, power, and thermal limits.
+Deep-space optical communications uses lasers to exchange data between spacecraft and Earth. We study how trajectories, spacecraft attitude, distance from Earth, and ground station weather and atmospheric conditions affect link performance. We evaluate contact opportunities and data return, and develop system requirements, operations plans, and technology demonstration scenarios within mass, power, and thermal limits.
 
 - Link budgets and data transmission performance under range, optics, power, and loss constraints
 - Pointing, acquisition, and tracking (PAT) requirements and spacecraft attitude stability

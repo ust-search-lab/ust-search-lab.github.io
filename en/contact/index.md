@@ -21,7 +21,7 @@ nav:
   </div>
   <div class="contact-email-card">
     <h3>Graduate study &amp; research inquiries</h3>
-    <p class="contact-person">Professor Jae-ik Park<span>UST · Korea Aerospace Research Institute (KARI)</span></p>
+    <p class="contact-person">Professor Jae-ik Park<span>UST KARI School</span></p>
     <a class="contact-button action-button" href="mailto:{{ site.links.email | escape }}?subject={{ inquiry_subject }}"><span aria-hidden="true">{% include icon.html icon="fa-regular fa-envelope" %}</span>Email Professor Park</a>
   </div>
 </div>
@@ -33,9 +33,9 @@ nav:
 Please briefly introduce yourself and include the following.
 
 {: .contact-checklist }
-- **Study plans** — Your intended degree and preferred start date
-- **Academic background** — Your field of study, whether you are currently studying or have graduated, and relevant coursework
-- **Research interests** — Topics you would like to study. If you have relevant research or project experience, please describe it briefly.
+- **Study plans**: Your intended degree and preferred start date
+- **Academic background**: Your field of study, whether you are currently studying or have graduated, and relevant coursework
+- **Research interests**: Topics you would like to study. If you have relevant research or project experience, please describe it briefly.
 
 </div>
 

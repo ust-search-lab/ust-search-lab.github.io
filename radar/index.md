@@ -1,7 +1,7 @@
 ---
 title: Research Radar
 ref: radar
-description: JGCD·JSR·Acta Astronautica에서 SEARCH Lab의 연구분야와 관련된 최근 논문을 모아 소개합니다.
+description: JGCD, JSR, Acta Astronautica에서 SEARCH Lab의 연구분야와 관련된 최근 논문을 모아 소개합니다.
 ---
 
 # {% include icon.html icon="fa-solid fa-satellite" %}Research Radar

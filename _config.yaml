@@ -70,6 +70,7 @@ highlighter: rouge
 
 # jekyll theme
 theme: null
+timezone: Asia/Seoul
 
 # sass settings
 sass:
