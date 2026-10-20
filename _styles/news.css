@@ -1,3 +1,22 @@
+.news-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  margin: 20px 0;
+}
+
+.news-edit-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+}
+
+.news-edit-help {
+  font-size: 0.9rem;
+}
+
 .news-new-badge {
   display: inline-block;
   margin-inline-start: 8px;
