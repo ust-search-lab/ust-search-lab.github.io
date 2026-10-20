@@ -32,5 +32,5 @@ SEARCH Lab의 공지사항과 연구실 소식을 전합니다.
 
 <div class="news-actions news-board-actions">
   <a class="text-link" href="{{ '/admin/' | relative_url }}#/collections/news">공지사항 관리</a>
-  <a class="action-button" href="{{ '/admin/' | relative_url }}#/collections/news/new">{% include icon.html icon="fa-solid fa-pen-to-square" %}공지사항 작성</a>
+  <a class="text-link" href="{{ '/admin/' | relative_url }}#/collections/news/new">공지사항 작성</a>
 </div>

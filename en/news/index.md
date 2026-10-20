@@ -32,5 +32,5 @@ No news yet.
 
 <div class="news-actions news-board-actions">
   <a class="text-link" href="{{ '/admin/' | relative_url }}#/collections/news">Manage news</a>
-  <a class="action-button" href="{{ '/admin/' | relative_url }}#/collections/news/new">{% include icon.html icon="fa-solid fa-pen-to-square" %}Write a news post</a>
+  <a class="text-link" href="{{ '/admin/' | relative_url }}#/collections/news/new">Write a news post</a>
 </div>
