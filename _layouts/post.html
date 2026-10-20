@@ -13,6 +13,11 @@ layout: default
   tags=page.tags
 %}
 
+<div class="news-actions">
+  {% include news-edit-link.html post=page %}
+  <a class="text-link" href="{{ '/admin/' | relative_url }}#/collections/news">{% if page.lang == "en" %}Manage news{% else %}공지사항 관리{% endif %}</a>
+</div>
+
 {% include section.html %}
 
 {{ content }}

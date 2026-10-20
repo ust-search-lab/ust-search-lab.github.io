@@ -1,0 +1,7 @@
+{% assign news_entry = include.post.path | split: "/" | last | remove: ".md" %}
+{% if news_entry and news_entry != "" %}
+<a class="text-link news-edit-link" href="{{ '/admin/' | relative_url }}#/collections/news/entries/{{ news_entry | uri_escape }}" aria-label="{% if include.post.lang == 'en' %}Edit: {% else %}수정: {% endif %}{{ include.post.title | escape }}">
+  {% include icon.html icon="fa-solid fa-pen-to-square" %}
+  {% if include.post.lang == "en" %}Edit post{% else %}글 수정{% endif %}
+</a>
+{% endif %}
