@@ -13,8 +13,8 @@
   min-height: 44px;
 }
 
-.news-edit-help {
-  font-size: 0.9rem;
+.news-board-actions {
+  justify-content: flex-end;
 }
 
 .news-new-badge {
