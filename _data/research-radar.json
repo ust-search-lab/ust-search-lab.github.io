@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-20T10:46:29+09:00",
+  "updated_at": "2026-10-20T22:53:52+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,69 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-20T10:46:29+09:00",
+      "last_success_at": "2026-10-20T22:53:52+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g009961",
+          "url": "https://doi.org/10.2514/1.g009961",
+          "title": "Analytical Optimality Criteria for Low-Energy Capture via the Weak Stability Boundary",
+          "authors": [
+            "Zhenyu Li",
+            "Dong Qiao",
+            "Xiangyu Li"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-20",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009796",
+          "url": "https://doi.org/10.2514/1.g009796",
+          "title": "Time-Regularized Explicit Symplectic Integrators for Multibody Astrodynamics",
+          "authors": [
+            "Anabel Soria-Carro",
+            "Maruthi R. Akella"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-20",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009481",
+          "url": "https://doi.org/10.2514/1.g009481",
+          "title": "Deep-Learning-Based Optical Navigation Framework Using Direction of Motion Measurements",
+          "authors": [
+            "Anna Maria Gargiulo",
+            "Shyam Bhaskaran",
+            "Nicholas Bradley",
+            "Andrew T. Vaughan",
+            "Daniel P. Lubey",
+            "Declan M. Mages",
+            "Simone Andolfo",
+            "Maria Antonietta Marsella",
+            "Antonio Genova"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-20",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.g010121",
           "url": "https://doi.org/10.2514/1.g010121",
@@ -183,64 +243,6 @@
             "astrodynamics",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009727",
-          "url": "https://doi.org/10.2514/1.g009727",
-          "title": "Validating Online Guidance for Reusability Flight Experiment: Genetic Programming and Reinforcement Learning",
-          "authors": [
-            "Riccardo Cadamuro",
-            "Francesco Marchetti",
-            "Jose Luis Redondo Gutierrez",
-            "David Seelbinder"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "entry"
-          ]
-        },
-        {
-          "doi": "10.2514/1.g009647",
-          "url": "https://doi.org/10.2514/1.g009647",
-          "title": "Predicting, Avoiding, and Achieving Conjunctions on Spherical Manifolds",
-          "authors": [
-            "Animesh Chakravarthy",
-            "Debasish Ghose"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "control"
-          ]
-        },
-        {
-          "doi": "10.2514/1.g009586",
-          "url": "https://doi.org/10.2514/1.g009586",
-          "title": "Station-Keeping for Quasi-Periodic Orbits via Nondivergent Component Suppression",
-          "authors": [
-            "Bohao Du",
-            "Wenchi Zhao",
-            "Xue Bai",
-            "Ming Xu",
-            "Qian Wang",
-            "Xudong Gao",
-            "Jizhong Liu"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
-          ]
         }
       ]
     },
@@ -254,7 +256,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-20T10:46:29+09:00",
+      "last_success_at": "2026-10-20T22:53:52+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,7 +519,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-20T10:46:29+09:00",
+      "last_success_at": "2026-10-20T22:53:52+09:00",
       "status": "ok",
       "items": [
         {
@@ -752,6 +754,66 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g009961",
+      "url": "https://doi.org/10.2514/1.g009961",
+      "title": "Analytical Optimality Criteria for Low-Energy Capture via the Weak Stability Boundary",
+      "authors": [
+        "Zhenyu Li",
+        "Dong Qiao",
+        "Xiangyu Li"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-20",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009796",
+      "url": "https://doi.org/10.2514/1.g009796",
+      "title": "Time-Regularized Explicit Symplectic Integrators for Multibody Astrodynamics",
+      "authors": [
+        "Anabel Soria-Carro",
+        "Maruthi R. Akella"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-20",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009481",
+      "url": "https://doi.org/10.2514/1.g009481",
+      "title": "Deep-Learning-Based Optical Navigation Framework Using Direction of Motion Measurements",
+      "authors": [
+        "Anna Maria Gargiulo",
+        "Shyam Bhaskaran",
+        "Nicholas Bradley",
+        "Andrew T. Vaughan",
+        "Daniel P. Lubey",
+        "Declan M. Mages",
+        "Simone Andolfo",
+        "Maria Antonietta Marsella",
+        "Antonio Genova"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-20",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
     {
       "doi": "10.2514/1.g010121",
       "url": "https://doi.org/10.2514/1.g010121",
@@ -1015,64 +1077,6 @@
       "topics": [
         "astrodynamics",
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009727",
-      "url": "https://doi.org/10.2514/1.g009727",
-      "title": "Validating Online Guidance for Reusability Flight Experiment: Genetic Programming and Reinforcement Learning",
-      "authors": [
-        "Riccardo Cadamuro",
-        "Francesco Marchetti",
-        "Jose Luis Redondo Gutierrez",
-        "David Seelbinder"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "entry"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009647",
-      "url": "https://doi.org/10.2514/1.g009647",
-      "title": "Predicting, Avoiding, and Achieving Conjunctions on Spherical Manifolds",
-      "authors": [
-        "Animesh Chakravarthy",
-        "Debasish Ghose"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "control"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009586",
-      "url": "https://doi.org/10.2514/1.g009586",
-      "title": "Station-Keeping for Quasi-Periodic Orbits via Nondivergent Component Suppression",
-      "authors": [
-        "Bohao Du",
-        "Wenchi Zhao",
-        "Xue Bai",
-        "Ming Xu",
-        "Qian Wang",
-        "Xudong Gao",
-        "Jizhong Liu"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
       ]
     },
     {
