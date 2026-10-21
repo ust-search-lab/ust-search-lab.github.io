@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-21T10:47:28+09:00",
+  "updated_at": "2026-10-21T22:53:02+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,27 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-21T10:47:28+09:00",
+      "last_success_at": "2026-10-21T22:53:02+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g009862",
+          "url": "https://doi.org/10.2514/1.g009862",
+          "title": "Enhanced Energy-Saving Capture via Short-Term Stays and Planetary Moon Flybys",
+          "authors": [
+            "Zhenyu Li",
+            "Xiangyu Li",
+            "Dong Qiao"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10-21",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.g009961",
           "url": "https://doi.org/10.2514/1.g009961",
@@ -224,25 +242,6 @@
             "astrodynamics",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009759",
-          "url": "https://doi.org/10.2514/1.g009759",
-          "title": "Alternative Dilution of Precision Measure for Lunar Positioning Systems: Comparison and Sensitivities",
-          "authors": [
-            "Austin S. Gabhart",
-            "Bradford E. Robertson",
-            "Dimitri N. Mavris"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics",
-            "planetary"
-          ]
         }
       ]
     },
@@ -256,7 +255,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-21T10:47:28+09:00",
+      "last_success_at": "2026-10-21T22:53:02+09:00",
       "status": "ok",
       "items": [
         {
@@ -519,7 +518,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-21T10:47:28+09:00",
+      "last_success_at": "2026-10-21T22:53:02+09:00",
       "status": "ok",
       "items": [
         {
@@ -541,26 +540,6 @@
           "date_type": "published-print",
           "topics": [
             "control"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.10.026",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.10.026",
-          "title": "Thermomechanical stability of graphene and multi-walled carbon nanotubes/epoxy nanocomposites under simulated lunar ultraviolet radiation",
-          "authors": [
-            "Marta Balestra",
-            "Alessandro Settimi",
-            "Elisa Toto",
-            "Maria Gabriella Santonicola",
-            "Susanna Laurenzi"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
           ]
         },
         {
@@ -748,12 +727,58 @@
           "topics": [
             "cubesat"
           ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.04.068",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
+          "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
+          "authors": [
+            "Saunab Ghosh",
+            "Francis M. McCubbin",
+            "Ardith D. Bravenec",
+            "Michael C. Huh",
+            "Cecilia L. Amick",
+            "Christopher L. Harris",
+            "Ernest K. Lewis",
+            "Kimberly K. Allums-Spencer",
+            "Juliane Gross",
+            "Ryan A. Zeigler",
+            "Timmons M. Erickson",
+            "Jemma Davidson",
+            "Jeremy W. Boyce"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
         }
       ]
     }
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g009862",
+      "url": "https://doi.org/10.2514/1.g009862",
+      "title": "Enhanced Energy-Saving Capture via Short-Term Stays and Planetary Moon Flybys",
+      "authors": [
+        "Zhenyu Li",
+        "Xiangyu Li",
+        "Dong Qiao"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10-21",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
     {
       "doi": "10.2514/1.g009961",
       "url": "https://doi.org/10.2514/1.g009961",
@@ -1061,25 +1086,6 @@
       ]
     },
     {
-      "doi": "10.2514/1.g009759",
-      "url": "https://doi.org/10.2514/1.g009759",
-      "title": "Alternative Dilution of Precision Measure for Lunar Positioning Systems: Comparison and Sensitivities",
-      "authors": [
-        "Austin S. Gabhart",
-        "Bradford E. Robertson",
-        "Dimitri N. Mavris"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics",
-        "planetary"
-      ]
-    },
-    {
       "doi": "10.1016/j.actaastro.2026.10.034",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.034",
       "title": "Coupling dynamics and attitude control of flexible variable-topology spacecraft during on-orbit assembly",
@@ -1098,26 +1104,6 @@
       "date_type": "published-print",
       "topics": [
         "control"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.10.026",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.10.026",
-      "title": "Thermomechanical stability of graphene and multi-walled carbon nanotubes/epoxy nanocomposites under simulated lunar ultraviolet radiation",
-      "authors": [
-        "Marta Balestra",
-        "Alessandro Settimi",
-        "Elisa Toto",
-        "Maria Gabriella Santonicola",
-        "Susanna Laurenzi"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
       ]
     },
     {
@@ -1304,6 +1290,34 @@
       "date_type": "published-print",
       "topics": [
         "cubesat"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.04.068",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
+      "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
+      "authors": [
+        "Saunab Ghosh",
+        "Francis M. McCubbin",
+        "Ardith D. Bravenec",
+        "Michael C. Huh",
+        "Cecilia L. Amick",
+        "Christopher L. Harris",
+        "Ernest K. Lewis",
+        "Kimberly K. Allums-Spencer",
+        "Juliane Gross",
+        "Ryan A. Zeigler",
+        "Timmons M. Erickson",
+        "Jemma Davidson",
+        "Jeremy W. Boyce"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
       ]
     },
     {
