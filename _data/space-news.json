@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T23:16:47+09:00",
+  "updated_at": "2026-10-21T11:11:53+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,8 +8,8 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-20T23:16:47+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
       "last_success_at": "2026-10-20T23:16:47+09:00",
       "items": [
         {
@@ -130,8 +130,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-20T23:16:47+09:00",
-      "last_success_at": "2026-10-20T23:16:47+09:00",
+      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
+      "last_success_at": "2026-10-21T11:11:53+09:00",
       "items": [
         {
           "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -295,9 +295,59 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-20T23:16:47+09:00",
-      "last_success_at": "2026-10-20T23:16:47+09:00",
+      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
+      "last_success_at": "2026-10-21T11:11:53+09:00",
       "items": [
+        {
+          "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
+          "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
+          "date": "2026-10-20",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
+          "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+          "date": "2026-10-20",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA Provides Progress Update on Moon Base Rovers",
+          "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
+          "date": "2026-10-20",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+          "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+          "date": "2026-10-20",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By",
           "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/",
@@ -320,7 +370,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
@@ -332,7 +383,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Software",
@@ -344,7 +396,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Experimental Facilities",
@@ -356,7 +409,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "I Am Artemis: Allison Mjoen",
@@ -395,58 +449,6 @@
             "satellites"
           ],
           "stale": false
-        },
-        {
-          "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
-          "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
-          "date": "2026-10-15",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
-          "url": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
-          "date": "2026-10-15",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "demonstration"
-          ]
-        },
-        {
-          "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-          "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-          "date": "2026-10-15",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "NASA Satellites Observe Historic 2026 El Niño",
-          "url": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
-          "date": "2026-10-15",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "satellites"
-          ],
-          "stale": false
         }
       ]
     },
@@ -456,8 +458,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-20T23:16:47+09:00",
-      "last_success_at": "2026-10-20T23:16:47+09:00",
+      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
+      "last_success_at": "2026-10-21T11:11:53+09:00",
       "items": [
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -592,8 +594,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-20T23:16:47+09:00",
-      "last_success_at": "2026-10-20T23:16:47+09:00",
+      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
+      "last_success_at": "2026-10-21T11:11:53+09:00",
       "items": [
         {
           "title": "MMX lifts off to Mars’s moon Phobos",
@@ -754,8 +756,9 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-10-20T11:08:51+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
+      "last_success_at": "2026-10-21T11:11:53+09:00",
       "items": [
         {
           "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -768,8 +771,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -782,8 +784,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -795,8 +796,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -809,8 +809,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -823,8 +822,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -837,8 +835,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -851,8 +848,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -865,8 +861,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -879,8 +874,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -893,13 +887,62 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
+      "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
+      "date": "2026-10-20",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+      "date": "2026-10-20",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA Provides Progress Update on Moon Base Rovers",
+      "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
+      "date": "2026-10-20",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+      "date": "2026-10-20",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration",
+        "demonstration"
+      ]
+    },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos",
@@ -935,8 +978,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Martian Dawn",
@@ -948,7 +990,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
@@ -960,7 +1003,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Software",
@@ -972,7 +1016,8 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Experimental Facilities",
@@ -984,7 +1029,8 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화 new",
@@ -1021,8 +1067,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "I Am Artemis: Allison Mjoen",
@@ -1063,45 +1108,6 @@
       "stale": false
     },
     {
-      "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
-      "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
-      "date": "2026-10-15",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
-      "url": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
-      "date": "2026-10-15",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "demonstration"
-      ]
-    },
-    {
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "date": "2026-10-15",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785247",
       "date": "2026-10-15",
@@ -1119,14 +1125,13 @@
       "title": "NASA Satellites Observe Historic 2026 El Niño",
       "url": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
       "date": "2026-10-15",
-      "source_id": "nasa",
-      "source": "NASA",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
       "region": "international",
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": false
+      ]
     },
     {
       "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -1473,8 +1478,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1524,8 +1528,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1538,8 +1541,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1552,8 +1554,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1566,8 +1567,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1620,8 +1620,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1634,8 +1633,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1648,8 +1646,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     }
   ]
 }
