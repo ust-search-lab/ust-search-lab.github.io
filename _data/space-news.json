@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T11:11:53+09:00",
+  "updated_at": "2026-10-21T23:17:52+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,9 +8,9 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "partial",
-      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
-      "last_success_at": "2026-10-20T23:16:47+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-21T23:17:52+09:00",
+      "last_success_at": "2026-10-21T23:17:52+09:00",
       "items": [
         {
           "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화 new",
@@ -129,8 +129,7 @@
       "name": "KASA",
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
+      "status": "stale",
       "last_success_at": "2026-10-21T11:11:53+09:00",
       "items": [
         {
@@ -145,7 +144,8 @@
             "satellites",
             "communications",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
@@ -158,7 +158,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -173,7 +174,8 @@
             "satellites",
             "communications",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "국내 최초 초소형군집위성 2~6호 실은 누리호 5차 발사 성공",
@@ -186,7 +188,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5차, 발사 시각 확정",
@@ -200,7 +203,8 @@
             "mission",
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "누리호 5호기, 발사대로 이송 시작",
@@ -212,7 +216,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -224,7 +229,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -236,7 +242,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -248,7 +255,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "한국형 위성항법시스템(KPS) 위성 1호기 탑재체 설계 최종 점검, 제작·시험 단계 준비 돌입",
@@ -260,7 +268,8 @@
           "language": "ko",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "인공위성 운영의 종합 안내서 '운영개념서' 발간을 통해 민간기술경쟁력 제고",
@@ -273,7 +282,8 @@
           "topics": [
             "mission",
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
@@ -285,7 +295,8 @@
           "language": "ko",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         }
       ]
     },
@@ -295,9 +306,21 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
-      "last_success_at": "2026-10-21T11:11:53+09:00",
+      "last_retrieved_at": "2026-10-21T23:17:52+09:00",
+      "last_success_at": "2026-10-21T23:17:52+09:00",
       "items": [
+        {
+          "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
+          "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+          "date": "2026-10-21",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission"
+          ]
+        },
         {
           "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
           "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
@@ -358,7 +381,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Martian Dawn",
@@ -436,19 +460,6 @@
             "exploration",
             "demonstration"
           ]
-        },
-        {
-          "title": "NASA’s Hubble Spies Spiral’s Edge",
-          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
-          "date": "2026-10-16",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "satellites"
-          ],
-          "stale": false
         }
       ]
     },
@@ -458,8 +469,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
-      "last_success_at": "2026-10-21T11:11:53+09:00",
+      "last_retrieved_at": "2026-10-21T23:17:52+09:00",
+      "last_success_at": "2026-10-21T23:17:52+09:00",
       "items": [
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -593,8 +604,7 @@
       "name": "ESA",
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
+      "status": "stale",
       "last_success_at": "2026-10-21T11:11:53+09:00",
       "items": [
         {
@@ -607,7 +617,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "A Mars-velous decade: Celebrating ten years of TGO",
@@ -619,7 +630,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -631,7 +643,8 @@
           "language": "en",
           "topics": [
             "mission"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Mars moon lander set to launch on 19 October",
@@ -644,7 +657,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Finding Hera’s way: Flight Dynamics team in action",
@@ -658,7 +672,8 @@
             "mission",
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
@@ -673,7 +688,7 @@
             "exploration",
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Braking news! Time for ESA’s Hera asteroid mission to go slow",
@@ -685,7 +700,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
@@ -698,7 +714,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Mars’s oddest cloud may be even odder than we thought",
@@ -710,7 +726,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Latest updates: BepiColombo's arrival at Mercury",
@@ -722,7 +739,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Tiny thrusters 3D-printed in space",
@@ -734,7 +752,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Science begins for Smile",
@@ -747,7 +766,8 @@
           "topics": [
             "mission",
             "demonstration"
-          ]
+          ],
+          "stale": true
         }
       ]
     },
@@ -757,9 +777,21 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-21T11:11:53+09:00",
-      "last_success_at": "2026-10-21T11:11:53+09:00",
+      "last_retrieved_at": "2026-10-21T23:17:52+09:00",
+      "last_success_at": "2026-10-21T23:17:52+09:00",
       "items": [
+        {
+          "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
+          "url": "https://global.jaxa.jp/press/2026/10/20261021-1_e.html",
+          "date": "2026-10-21",
+          "source_id": "jaxa",
+          "source": "JAXA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
           "url": "https://global.jaxa.jp/press/2026/10/20261020-1_e.html",
@@ -894,6 +926,30 @@
   ],
   "items": [
     {
+      "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+      "date": "2026-10-21",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission"
+      ]
+    },
+    {
+      "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
+      "url": "https://global.jaxa.jp/press/2026/10/20261021-1_e.html",
+      "date": "2026-10-21",
+      "source_id": "jaxa",
+      "source": "JAXA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
       "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
       "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
       "date": "2026-10-20",
@@ -953,7 +1009,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By",
@@ -965,7 +1022,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -1054,7 +1112,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -1095,19 +1154,6 @@
       ]
     },
     {
-      "title": "NASA’s Hubble Spies Spiral’s Edge",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
-      "date": "2026-10-16",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "satellites"
-      ],
-      "stale": false
-    },
-    {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785247",
       "date": "2026-10-15",
@@ -1119,7 +1165,8 @@
         "satellites",
         "communications",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -1143,7 +1190,8 @@
       "language": "en",
       "topics": [
         "mission"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -1181,7 +1229,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "초소형군집위성 양산기 5기 모두 초기 교신 성공",
@@ -1232,7 +1281,8 @@
         "mission",
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Finding Hera’s way: ESA’s Flight Dynamics team into action",
@@ -1247,7 +1297,7 @@
         "exploration",
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Braking news! Time for ESA’s Hera asteroid mission to go slow",
@@ -1259,7 +1309,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
@@ -1272,7 +1323,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Mars’s oddest cloud may be even odder than we thought",
@@ -1284,7 +1335,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -1320,7 +1372,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "차세대중형위성 2호(국토위성2호)·4호(농림위성) 초기운영 성과 공개",
@@ -1332,7 +1385,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Tiny thrusters 3D-printed in space",
@@ -1344,7 +1398,8 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Science begins for Smile",
@@ -1357,7 +1412,8 @@
       "topics": [
         "mission",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
@@ -1369,7 +1425,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
@@ -1381,7 +1438,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "항우연, 재사용 발사체 기술 개발 본격화",
@@ -1405,7 +1463,8 @@
       "language": "ko",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
@@ -1430,7 +1489,8 @@
       "topics": [
         "mission",
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -1454,7 +1514,8 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
