@@ -112,6 +112,10 @@
   gap: var(--card-gap);
   max-width: 900px;
   margin: 24px auto 0;
+
+  &--single {
+    grid-template-columns: 1fr;
+  }
 }
 
 .research-video {

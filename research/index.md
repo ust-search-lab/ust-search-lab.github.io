@@ -105,6 +105,10 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 {% include research-figure.html topic="edl" caption="화성 탐사선의 대표적인 진입, 하강 및 착륙 단계. 대기권 진입, 낙하산 감속, 최종 하강과 착륙을 이어 설계하며, 구체적인 방식은 임무에 따라 달라집니다." alt="화성 대기권 진입부터 낙하산을 이용한 감속, 최종 하강, 표면 착륙까지 이어지는 단계별 개념도." %}
 
+<div class="research-video-grid research-video-grid--single">
+{% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="화성 대기권 진입 개념 영상 (7.8초)" %}
+</div>
+
 #### 지구 재진입과 열보호시스템 {#reentry}
 
 지구로 귀환하는 우주선과 시료귀환 캡슐이 고속으로 대기권에 진입할 때의 공력가열과 감속하중을 분석합니다. 재진입 궤적과 열환경을 함께 고려해 열차폐체 등 열보호시스템을 설계하고 검증하는 방법을 연구합니다.

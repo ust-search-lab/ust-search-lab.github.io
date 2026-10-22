@@ -105,6 +105,10 @@ We study how spacecraft enter an atmosphere, slow down, and land safely on plane
 
 {% include research-figure.html topic="edl" caption="Representative stages of Mars entry, descent, and landing. Atmospheric entry, parachute deceleration, final descent, and touchdown are designed together; the specific approach varies by mission." alt="A sequence showing atmospheric entry at Mars, parachute deceleration, final descent, and touchdown on the surface." %}
 
+<div class="research-video-grid research-video-grid--single">
+{% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="Mars atmospheric entry concept visualization (7.8 seconds)" %}
+</div>
+
 #### Earth re-entry and thermal protection systems {#reentry}
 
 We analyze aerodynamic heating and deceleration loads as spacecraft and sample return capsules enter Earth's atmosphere at high speed. We study how to design and verify heat shields and other thermal protection systems by considering re-entry trajectories and thermal environments together.
