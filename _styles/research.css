@@ -102,6 +102,9 @@
   max-width: 900px;
   margin: 24px auto 0;
 }
+.research-video-grid--single {
+  grid-template-columns: 1fr;
+}
 
 .research-video {
   min-width: 0;
