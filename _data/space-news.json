@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T11:11:17+09:00",
+  "updated_at": "2026-10-22T23:17:41+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,9 +9,21 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T11:11:17+09:00",
-      "last_success_at": "2026-10-22T11:11:17+09:00",
+      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
+      "last_success_at": "2026-10-22T23:17:41+09:00",
       "items": [
+        {
+          "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정 new",
+          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18746",
+          "date": "2026-10-22",
+          "source_id": "kari",
+          "source": "KARI",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
         {
           "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화",
           "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18740",
@@ -130,9 +142,21 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T11:11:17+09:00",
-      "last_success_at": "2026-10-22T11:11:17+09:00",
+      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
+      "last_success_at": "2026-10-22T23:17:41+09:00",
       "items": [
+        {
+          "title": "한국형 위성항법시스템(KPS) 위성 1호기 시스템 상세설계 종합 점검 완료",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786122",
+          "date": "2026-10-22",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
         {
           "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785247",
@@ -274,18 +298,6 @@
             "mission",
             "satellites"
           ]
-        },
-        {
-          "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781821",
-          "date": "2026-09-15",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "demonstration"
-          ]
         }
       ]
     },
@@ -294,8 +306,8 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-22T11:11:17+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
       "last_success_at": "2026-10-22T11:11:17+09:00",
       "items": [
         {
@@ -359,7 +371,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
@@ -372,7 +384,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Provides Progress Update on Moon Base Rovers",
@@ -398,7 +410,8 @@
             "mission",
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By",
@@ -411,7 +424,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Martian Dawn",
@@ -424,7 +437,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
@@ -437,7 +450,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Software",
@@ -450,7 +463,7 @@
           "topics": [
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -460,8 +473,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T11:11:17+09:00",
-      "last_success_at": "2026-10-22T11:11:17+09:00",
+      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
+      "last_success_at": "2026-10-22T23:17:41+09:00",
       "items": [
         {
           "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
@@ -610,9 +623,34 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T11:11:17+09:00",
-      "last_success_at": "2026-10-22T11:11:17+09:00",
+      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
+      "last_success_at": "2026-10-22T23:17:41+09:00",
       "items": [
+        {
+          "title": "Help a lost lunar rover find its way in new ESA competition",
+          "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Help_a_lost_lunar_rover_find_its_way_in_new_ESA_competition",
+          "date": "2026-10-22",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "Moon crane to take a load off lunar landers",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Moon_crane_to_take_a_load_off_lunar_landers",
+          "date": "2026-10-22",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "MMX lifts off to Mars’s moon Phobos",
           "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos",
@@ -739,31 +777,6 @@
           "topics": [
             "exploration"
           ]
-        },
-        {
-          "title": "Tiny thrusters 3D-printed in space",
-          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Tiny_thrusters_3D-printed_in_space",
-          "date": "2026-10-01",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "demonstration"
-          ]
-        },
-        {
-          "title": "Science begins for Smile",
-          "url": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
-          "date": "2026-09-30",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "demonstration"
-          ]
         }
       ]
     },
@@ -772,8 +785,9 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-10-21T23:17:52+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
+      "last_success_at": "2026-10-22T23:17:41+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -785,8 +799,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -799,8 +812,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -813,8 +825,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -826,8 +837,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -840,8 +850,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -854,8 +863,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -868,8 +876,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -882,8 +889,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -896,8 +902,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -910,8 +915,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -924,13 +928,61 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "한국형 위성항법시스템(KPS) 위성 1호기 시스템 상세설계 종합 점검 완료",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786122",
+      "date": "2026-10-22",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정 new",
+      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18746",
+      "date": "2026-10-22",
+      "source_id": "kari",
+      "source": "KARI",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "Help a lost lunar rover find its way in new ESA competition",
+      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Help_a_lost_lunar_rover_find_its_way_in_new_ESA_competition",
+      "date": "2026-10-22",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Moon crane to take a load off lunar landers",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Moon_crane_to_take_a_load_off_lunar_landers",
+      "date": "2026-10-22",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
     {
       "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
       "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
@@ -991,8 +1043,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
@@ -1005,7 +1056,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
@@ -1018,7 +1069,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Provides Progress Update on Moon Base Rovers",
@@ -1044,7 +1095,8 @@
         "mission",
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
@@ -1069,7 +1121,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -1082,8 +1134,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Martian Dawn",
@@ -1096,7 +1147,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
@@ -1109,7 +1160,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Software",
@@ -1122,7 +1173,7 @@
       "topics": [
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화",
@@ -1159,8 +1210,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -1390,31 +1440,6 @@
       ]
     },
     {
-      "title": "Tiny thrusters 3D-printed in space",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Tiny_thrusters_3D-printed_in_space",
-      "date": "2026-10-01",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "demonstration"
-      ]
-    },
-    {
-      "title": "Science begins for Smile",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
-      "date": "2026-09-30",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
-        "demonstration"
-      ]
-    },
-    {
       "title": "우주항공청-국방부, 우주산업과 국방우주의 접점 넓힌다",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783475",
       "date": "2026-09-29",
@@ -1500,18 +1525,6 @@
       ]
     },
     {
-      "title": "차세대발사체 개발사업은 정상 추진 중입니다.",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781821",
-      "date": "2026-09-15",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "demonstration"
-      ]
-    },
-    {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
       "url": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
       "date": "2026-09-09",
@@ -1533,8 +1546,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1585,8 +1597,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1599,8 +1610,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1613,8 +1623,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1627,8 +1636,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1681,8 +1689,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1695,8 +1702,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1709,8 +1715,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     }
   ]
 }
