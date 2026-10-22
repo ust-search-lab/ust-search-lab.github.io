@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-21T22:53:02+09:00",
+  "updated_at": "2026-10-22T10:46:58+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-21T22:53:02+09:00",
+      "last_success_at": "2026-10-22T10:46:58+09:00",
       "status": "ok",
       "items": [
         {
@@ -255,7 +255,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-21T22:53:02+09:00",
+      "last_success_at": "2026-10-22T10:46:58+09:00",
       "status": "ok",
       "items": [
         {
@@ -518,9 +518,27 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-21T22:53:02+09:00",
+      "last_success_at": "2026-10-22T10:46:58+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.10.038",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.038",
+          "title": "Hierarchical optimal spacecraft attitude control under pointing constraints via successive Galerkin approximation",
+          "authors": [
+            "Xinyi Li",
+            "Xiaoyi Wang",
+            "Ming Xu"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "control"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.10.034",
           "url": "https://doi.org/10.1016/j.actaastro.2026.10.034",
@@ -543,6 +561,25 @@
           ]
         },
         {
+          "doi": "10.1016/j.actaastro.2026.10.027",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.027",
+          "title": "An MBSE framework for the feasibility assessment of a modular Planetary Sunshade System",
+          "authors": [
+            "Marina Coco",
+            "Bruce Chesley",
+            "Marcello Romano",
+            "Chantal Cappelletti"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
           "doi": "10.1016/j.actaastro.2026.10.017",
           "url": "https://doi.org/10.1016/j.actaastro.2026.10.017",
           "title": "Neural network based fast model predictive controller for spacecraft proximity maneuvering and rendezvous",
@@ -559,6 +596,24 @@
           "date_type": "published-print",
           "topics": [
             "control"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.10.012",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.012",
+          "title": "New families of periodic orbits for solar-sail satellites about photo-gravitational equilibrium points in the restricted two body problem and circular restricted three body problem",
+          "authors": [
+            "Catello Leonardo Matonti",
+            "Marcello Romano"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics",
+            "sail"
           ]
         },
         {
@@ -678,74 +733,6 @@
             "Joel A. Olson",
             "Kenneth Engeling",
             "R. Mohan Sankaran"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.04.070",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.04.070",
-          "title": "Energy-efficient and trajectory-stabilizing bioinspired foot-end design for lunar jumping robots",
-          "authors": [
-            "GuiFen Zhou",
-            "Shengwen Fang",
-            "Yueyang Li",
-            "Wenbo Dou",
-            "Liangliang Zhao",
-            "Rui Zhang"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.04.069",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.04.069",
-          "title": "A study on students’ personality and motivation in the educational UCAnFly CubeSat project",
-          "authors": [
-            "Isabel Núñez-Vázquez",
-            "Antonia Morales-Garoffolo",
-            "Guillermo Pacheco-Ramos",
-            "Ignacio Mateos"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "cubesat"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.04.068",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
-          "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
-          "authors": [
-            "Saunab Ghosh",
-            "Francis M. McCubbin",
-            "Ardith D. Bravenec",
-            "Michael C. Huh",
-            "Cecilia L. Amick",
-            "Christopher L. Harris",
-            "Ernest K. Lewis",
-            "Kimberly K. Allums-Spencer",
-            "Juliane Gross",
-            "Ryan A. Zeigler",
-            "Timmons M. Erickson",
-            "Jemma Davidson",
-            "Jeremy W. Boyce"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1086,6 +1073,24 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.038",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.038",
+      "title": "Hierarchical optimal spacecraft attitude control under pointing constraints via successive Galerkin approximation",
+      "authors": [
+        "Xinyi Li",
+        "Xiaoyi Wang",
+        "Ming Xu"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "control"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.034",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.034",
       "title": "Coupling dynamics and attitude control of flexible variable-topology spacecraft during on-orbit assembly",
@@ -1107,6 +1112,25 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.027",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.027",
+      "title": "An MBSE framework for the feasibility assessment of a modular Planetary Sunshade System",
+      "authors": [
+        "Marina Coco",
+        "Bruce Chesley",
+        "Marcello Romano",
+        "Chantal Cappelletti"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.017",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.017",
       "title": "Neural network based fast model predictive controller for spacecraft proximity maneuvering and rendezvous",
@@ -1123,6 +1147,24 @@
       "date_type": "published-print",
       "topics": [
         "control"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.10.012",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.012",
+      "title": "New families of periodic orbits for solar-sail satellites about photo-gravitational equilibrium points in the restricted two body problem and circular restricted three body problem",
+      "authors": [
+        "Catello Leonardo Matonti",
+        "Marcello Romano"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics",
+        "sail"
       ]
     },
     {
@@ -1242,74 +1284,6 @@
         "Joel A. Olson",
         "Kenneth Engeling",
         "R. Mohan Sankaran"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.04.070",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.04.070",
-      "title": "Energy-efficient and trajectory-stabilizing bioinspired foot-end design for lunar jumping robots",
-      "authors": [
-        "GuiFen Zhou",
-        "Shengwen Fang",
-        "Yueyang Li",
-        "Wenbo Dou",
-        "Liangliang Zhao",
-        "Rui Zhang"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.04.069",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.04.069",
-      "title": "A study on students’ personality and motivation in the educational UCAnFly CubeSat project",
-      "authors": [
-        "Isabel Núñez-Vázquez",
-        "Antonia Morales-Garoffolo",
-        "Guillermo Pacheco-Ramos",
-        "Ignacio Mateos"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "cubesat"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.04.068",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.04.068",
-      "title": "Gas-phase infrared spectroscopy as a reconnaissance tool for the preliminary examination of H2O abundances in icy regolith samples returned from the Moon and beyond",
-      "authors": [
-        "Saunab Ghosh",
-        "Francis M. McCubbin",
-        "Ardith D. Bravenec",
-        "Michael C. Huh",
-        "Cecilia L. Amick",
-        "Christopher L. Harris",
-        "Ernest K. Lewis",
-        "Kimberly K. Allums-Spencer",
-        "Juliane Gross",
-        "Ryan A. Zeigler",
-        "Timmons M. Erickson",
-        "Jemma Davidson",
-        "Jeremy W. Boyce"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
