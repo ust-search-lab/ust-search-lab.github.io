@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-22T23:17:41+09:00",
+  "updated_at": "2026-10-23T11:12:49+09:00",
   "lookback_days": 90,
-  "partial": true,
+  "partial": false,
   "sources": [
     {
       "id": "kari",
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
-      "last_success_at": "2026-10-22T23:17:41+09:00",
+      "last_retrieved_at": "2026-10-23T11:12:49+09:00",
+      "last_success_at": "2026-10-23T11:12:49+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정 new",
@@ -142,8 +142,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
-      "last_success_at": "2026-10-22T23:17:41+09:00",
+      "last_retrieved_at": "2026-10-23T11:12:49+09:00",
+      "last_success_at": "2026-10-23T11:12:49+09:00",
       "items": [
         {
           "title": "한국형 위성항법시스템(KPS) 위성 1호기 시스템 상세설계 종합 점검 완료",
@@ -306,10 +306,35 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "partial",
-      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
-      "last_success_at": "2026-10-22T11:11:17+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-23T11:12:49+09:00",
+      "last_success_at": "2026-10-23T11:12:49+09:00",
       "items": [
+        {
+          "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+          "date": "2026-10-22",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "Spiral’s Edge",
+          "url": "https://www.nasa.gov/image-article/spirals-edge/",
+          "date": "2026-10-22",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites"
+          ]
+        },
         {
           "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
           "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
@@ -371,7 +396,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
@@ -384,7 +409,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA Provides Progress Update on Moon Base Rovers",
@@ -410,8 +435,7 @@
             "mission",
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By",
@@ -424,7 +448,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Martian Dawn",
@@ -437,33 +461,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
-        },
-        {
-          "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
-          "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
-          "date": "2026-10-19",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": true
-        },
-        {
-          "title": "Software",
-          "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
-          "date": "2026-10-19",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "demonstration"
-          ],
-          "stale": true
+          "stale": false
         }
       ]
     },
@@ -473,8 +471,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
-      "last_success_at": "2026-10-22T23:17:41+09:00",
+      "last_retrieved_at": "2026-10-23T11:12:49+09:00",
+      "last_success_at": "2026-10-23T11:12:49+09:00",
       "items": [
         {
           "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
@@ -623,8 +621,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
-      "last_success_at": "2026-10-22T23:17:41+09:00",
+      "last_retrieved_at": "2026-10-23T11:12:49+09:00",
+      "last_success_at": "2026-10-23T11:12:49+09:00",
       "items": [
         {
           "title": "Help a lost lunar rover find its way in new ESA competition",
@@ -786,8 +784,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-22T23:17:41+09:00",
-      "last_success_at": "2026-10-22T23:17:41+09:00",
+      "last_retrieved_at": "2026-10-23T11:12:49+09:00",
+      "last_success_at": "2026-10-23T11:12:49+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -935,6 +933,31 @@
   ],
   "items": [
     {
+      "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+      "date": "2026-10-22",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "Spiral’s Edge",
+      "url": "https://www.nasa.gov/image-article/spirals-edge/",
+      "date": "2026-10-22",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
       "title": "한국형 위성항법시스템(KPS) 위성 1호기 시스템 상세설계 종합 점검 완료",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786122",
       "date": "2026-10-22",
@@ -1056,7 +1079,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
@@ -1069,7 +1092,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA Provides Progress Update on Moon Base Rovers",
@@ -1095,8 +1118,7 @@
         "mission",
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
@@ -1121,7 +1143,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -1147,33 +1169,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
-    },
-    {
-      "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
-      "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
-      "date": "2026-10-19",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Software",
-      "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
-      "date": "2026-10-19",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "demonstration"
-      ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화",
