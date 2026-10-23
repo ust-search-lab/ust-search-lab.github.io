@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-22T22:55:40+09:00",
+  "updated_at": "2026-10-23T10:49:34+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-22T22:55:40+09:00",
+      "last_success_at": "2026-10-23T10:49:34+09:00",
       "status": "ok",
       "items": [
         {
@@ -255,7 +255,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-22T22:55:40+09:00",
+      "last_success_at": "2026-10-23T10:49:34+09:00",
       "status": "ok",
       "items": [
         {
@@ -518,7 +518,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-22T22:55:40+09:00",
+      "last_success_at": "2026-10-23T10:49:34+09:00",
       "status": "ok",
       "items": [
         {
@@ -569,6 +569,23 @@
             "Bruce Chesley",
             "Marcello Romano",
             "Chantal Cappelletti"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.10.023",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.023",
+          "title": "Composition-dependent Albedo radiation environment on the lunar surface and its implications for COTS electronics single-event effect rates",
+          "authors": [
+            "Sang Woo Kim",
+            "Kyeong Ja Kim"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -722,25 +739,6 @@
           "date_type": "published-print",
           "topics": [
             "astrodynamics"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.05.007",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.05.007",
-          "title": "Thermodynamic analysis of non-thermal plasma reduction of minerals relevant to lunar resource utilization",
-          "authors": [
-            "Daniel S. Ellis",
-            "Joel A. Olson",
-            "Kenneth Engeling",
-            "R. Mohan Sankaran"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
           ]
         }
       ]
@@ -1131,6 +1129,23 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.023",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.023",
+      "title": "Composition-dependent Albedo radiation environment on the lunar surface and its implications for COTS electronics single-event effect rates",
+      "authors": [
+        "Sang Woo Kim",
+        "Kyeong Ja Kim"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.017",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.017",
       "title": "Neural network based fast model predictive controller for spacecraft proximity maneuvering and rendezvous",
@@ -1273,25 +1288,6 @@
       "date_type": "published-print",
       "topics": [
         "astrodynamics"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.05.007",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.05.007",
-      "title": "Thermodynamic analysis of non-thermal plasma reduction of minerals relevant to lunar resource utilization",
-      "authors": [
-        "Daniel S. Ellis",
-        "Joel A. Olson",
-        "Kenneth Engeling",
-        "R. Mohan Sankaran"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
       ]
     },
     {
