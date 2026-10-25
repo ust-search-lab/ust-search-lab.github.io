@@ -31,4 +31,6 @@ nav:
 
 ## Student researchers
 
+{% include student-researchers.html %}
+
 To learn about joining SEARCH Lab as a master's or doctoral student, visit [For Students]({{ "en/students/" | relative_url }}).

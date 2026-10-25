@@ -31,4 +31,6 @@ nav:
 
 ## 학생연구원
 
+{% include student-researchers.html %}
+
 SEARCH Lab에서 석사 및 박사과정 연구에 참여하려면 [학생연구원 안내]({{ "students/" | relative_url }}) 페이지를 참고하세요.

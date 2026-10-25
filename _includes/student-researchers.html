@@ -1,0 +1,27 @@
+{% if page.lang == "en" %}
+  {% assign student_label = "Student researcher" %}
+  {% assign student_status = "To be determined" %}
+{% else %}
+  {% assign student_label = "학생연구원" %}
+  {% assign student_status = "미정" %}
+{% endif %}
+
+{% for slot in (1..2) %}
+  <article class="profile-card" data-profile-mode="summary">
+    <div class="profile-photo-wrapper">
+      <img
+        class="profile-photo"
+        src="{{ 'images/members/placeholder.svg' | relative_url }}"
+        alt=""
+        width="200"
+        height="200"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+    <div class="profile-information">
+      <h3 class="profile-name">{{ student_label }} {{ slot }}</h3>
+      <p class="profile-role">{{ student_status }}</p>
+    </div>
+  </article>
+{% endfor %}

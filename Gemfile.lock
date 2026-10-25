@@ -28,6 +28,7 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     ffi (1.17.4)
+    ffi (1.17.4-arm64-darwin)
     fiber-annotation (0.2.0)
     fiber-local (1.1.0)
       fiber-storage
@@ -179,6 +180,7 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin-25
+  arm64-darwin-27
   linux
   universal-darwin-21
   universal-darwin-22
