@@ -22,10 +22,4 @@ UST Spring 2027 first-round applications closed on October 6, 2026 at 15:00 (KST
 
 All times are Korea Standard Time (KST). The [official Korean-language announcement and attached admissions guidelines](https://www.ust.ac.kr/bbs/BBSMSTR_000000000757/view.do?nttId=B000000012830Yz5kH2&mno=sub06_01_01) provide details on eligibility, available majors and degrees, required documents, and the full selection schedule.
 
-## Graduate study and research inquiries
-
-Prospective students can submit [inquiries about research topics and master's or doctoral study at SEARCH Lab]({{ '/en/contact/' | relative_url }}), including a brief description of research interests, academic background, and the intended degree.
-
-Questions about admissions and application procedures are handled by the UST Admissions Office at [k_adm@ust.ac.kr](mailto:k_adm@ust.ac.kr) or +82-42-865-2424.
-
 *Source: UST Admissions Office announcement, published August 28, 2026. Admissions details follow the official announcement and guidelines.*
