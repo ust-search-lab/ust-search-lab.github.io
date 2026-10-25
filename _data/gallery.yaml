@@ -1,4 +1,43 @@
 albums:
+  - id: korea-space-rover-challenge-2026
+    title:
+      ko: 2026 대한민국 우주로버 챌린지 대회
+      en: 2026 Korea Space Rover Challenge
+    description:
+      ko: 2026년 10월 23~24일 사천공항 에어쇼 행사장에서 열린 대한민국 우주로버 챌린지 대회의 현장과 시상식 사진입니다.
+      en: Photos from the 2026 Korea Space Rover Challenge, held on October 23–24 at the Sacheon Airshow venue at Sacheon Airport, including the event and award ceremony.
+    updated: 2026-10-25
+    photos:
+      - image: /images/news/korea-space-rover-challenge-2026/01-event-banner.jpg
+        alt:
+          ko: 2026년 10월 23~24일 사천공항 에어쇼 행사장에서 열린 대한민국 우주로버 챌린지 대회의 안내 배너.
+          en: Event banner for the 2026 Korea Space Rover Challenge, held on October 23–24 at the Sacheon Airshow venue at Sacheon Airport.
+        width: 100%
+      - image: /images/news/korea-space-rover-challenge-2026/02-fair-play-declaration.jpg
+        alt:
+          ko: 대한민국 우주로버 챌린지 대회 페어플레이 선언 무대에 나란히 선 참가자들.
+          en: Participants lined up on stage for the fair-play declaration at the Korea Space Rover Challenge.
+        width: 100%
+      - image: /images/news/korea-space-rover-challenge-2026/03-rover-exhibition.jpg
+        alt:
+          ko: 행사장에서 전시된 참가 로버를 살펴보는 참석자들.
+          en: Attendees looking at the participating rovers on display at the event.
+        width: 100%
+      - image: /images/news/korea-space-rover-challenge-2026/04-lunar-lander-course.jpg
+        alt:
+          ko: 모의 달 표면과 암석지대에 설치된 달착륙선 모형.
+          en: A lunar lander model on a simulated lunar surface and rocky course.
+        width: 100%
+      - image: /images/news/korea-space-rover-challenge-2026/05-team-star-grand-prize.jpg
+        alt:
+          ko: 대상인 우주항공청장상 상장과 꽃다발을 들고 기념촬영하는 KAIST Team STAR 수상자들.
+          en: KAIST Team STAR award recipients posing with the Grand Prize, the KASA Administrator's Award, and a bouquet.
+        width: 100%
+      - image: /images/news/korea-space-rover-challenge-2026/06-award-winners.jpg
+        alt:
+          ko: 대한민국 우주로버 챌린지 대회 수상팀과 관계자들의 단체 기념사진.
+          en: A group photo of the award-winning teams and event representatives at the Korea Space Rover Challenge.
+        width: 100%
   - id: imewg-2026-canada
     title:
       ko: IMEWG 2026 (캐나다우주청)
