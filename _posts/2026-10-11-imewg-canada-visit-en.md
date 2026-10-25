@@ -1,5 +1,5 @@
 ---
-title: Participation in the Annual IMEWG In-Person Meeting
+title: Participation in the IMEWG 2026 Annual In-Person Meeting
 ref: imewg-2026-canada-visit
 lang: en
 date: 2026-10-11 00:00:00 +0900
@@ -15,6 +15,6 @@ description: SEARCH Lab's Dr. Jae-ik Park and collaborators Dr. Jae-In Kim and D
 excerpt: SEARCH Lab's Dr. Jae-ik Park visited Montréal, Canada, from October 12 to 18, 2026, with collaborators Dr. Jae-In Kim and Dr. Jungju Bae. They attended the International Mars Exploration Working Group (IMEWG) 2026 annual in-person meeting as members of the Korean delegation.
 ---
 
-SEARCH Lab's Dr. Jae-ik Park visited Montréal, Canada, from October 12 to 18, 2026, with collaborators Dr. Jae-In Kim and Dr. Jungju Bae to attend the **International Mars Exploration Working Group (IMEWG) 2026 annual in-person meeting** as members of the Korean delegation.
+SEARCH Lab's Dr. Jae-ik Park visited Montréal, Canada, from October 12 to 18, 2026, with collaborators Dr. Jae-In Kim and Dr. Jungju Bae. They attended the International Mars Exploration Working Group (IMEWG) 2026 annual in-person meeting, hosted by the Canadian Space Agency (CSA), as members of the Korean delegation.
 
-This year's meeting was hosted by the Canadian Space Agency (CSA). The annual IMEWG in-person meeting brings together representatives of major space agencies to share updates on their Mars exploration programs and discuss future international cooperation.
+The annual IMEWG in-person meeting brings together representatives of major space agencies to share updates on their Mars exploration programs and discuss international cooperation.

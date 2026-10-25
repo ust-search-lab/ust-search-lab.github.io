@@ -1,5 +1,5 @@
 ---
-title: Judging at the 2026 Korea Space Rover Challenge
+title: Participation as a Judge at the 2026 Korea Space Rover Challenge
 ref: korea-space-rover-challenge-2026
 lang: en
 date: 2026-10-25 00:00:00 +0900
@@ -22,4 +22,4 @@ SEARCH Lab's Dr. Jae-ik Park served as a judge at the 2026 Korea Space Rover Cha
 
 KAIST's Team STAR took first place and received the Grand Prize, the KASA Administrator's Award.
 
-Student teams presented rovers incorporating a range of design ideas. The teams remained actively involved despite persistent rain and cold conditions throughout the day.
+Student teams presented a range of rover designs despite rain throughout the day and cold conditions.

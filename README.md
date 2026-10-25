@@ -62,6 +62,29 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 - Publications combine citations generated from `_data/orcid.yaml` and
   `_data/sources.yaml` with the curated historical records described below.
 
+## News editorial style
+
+All `_posts/` articles, including their titles, `description` and `excerpt`, use
+concise, factual news reporting in both languages. This applies to launch news,
+admissions notices, meeting reports and event participation.
+
+- Korean uses third-person `했다/한다` prose; English uses third-person reporting.
+  Report completed activities in the past tense and ongoing research or standing
+  information in the present tense.
+- Titles identify the event or main development. Lead with who did what, when
+  and where, then give the result and relevant context.
+- Keep personal impressions, greetings, congratulations, invitations and
+  promotional appeals out of the reporting. Practical application and contact
+  information remains available as neutral information.
+- Use only supplied or verified facts. Do not invent quotations, personal
+  reactions, outcomes or plans to make a story sound more natural.
+- Keep Korean and English facts aligned. A wording-only edit preserves dates,
+  `ref`, language pairs, permalinks, sources, contact details and photo links.
+  The home page and NEWS lists reuse `excerpt`, so update it with the article.
+
+The NEWS fields in `admin/config.yml` and `_guides/photo-albums.md` describe the
+same writing standard for subsequent edits.
+
 ## Space mission advisory services
 
 The advisory page is **withheld from the website at the owner's request**
