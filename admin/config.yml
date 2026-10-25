@@ -213,7 +213,10 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: 제목, name: title, widget: string}
+      - label: 제목
+        name: title
+        widget: string
+        hint: 행사·활동과 핵심 소식을 간결하게 적으세요.
       - label: 연결 ID
         name: ref
         widget: string
@@ -234,13 +237,19 @@ collections:
         time_format: HH:mm
       - {label: 게시 주소, name: permalink, widget: hidden, required: false}
       - {label: 작성자, name: author, widget: string, default: SEARCH Lab}
-      - {label: 검색용 설명, name: description, widget: text}
-      - {label: 목록에 표시할 요약, name: excerpt, widget: text}
+      - label: 검색용 설명
+        name: description
+        widget: text
+        hint: 본문과 같은 뉴스 문체로 핵심 사실을 간결하게 적으세요.
+      - label: 목록에 표시할 요약
+        name: excerpt
+        widget: text
+        hint: 홈·NEWS 목록에 표시됩니다. 핵심 사실을 한두 문장으로 요약하세요. 한국어는 ‘했다/한다’체, 영어는 3인칭 서술을 사용하세요.
       - label: 본문
         name: body
         widget: markdown
         modes: [raw, rich_text]
-        hint: 본문 영역을 클릭해 수정하세요. 서식 버튼을 쓰려면 Rich Text 모드로 전환하세요. 기존 표나 삽입 코드가 있는 글은 Markdown 모드에서 편집하세요. 수정 후 상단의 ‘게시 → 지금 게시’를 누르면 반영됩니다.
+        hint: 한국어는 ‘했다/한다’체, 영어는 3인칭 뉴스 문체로 작성하세요. 첫 문단에 누가·언제·어디서·무엇을 했는지 담고, 개인적인 감상·인사·홍보 문구는 제외하세요. 서식 버튼은 Rich Text 모드에서 사용하고, 표·삽입 코드가 있는 글은 Markdown 모드에서 편집하세요. 수정 후 ‘게시 → 지금 게시’를 누르면 반영됩니다.
       - label: 본문 아래에 표시할 사진
         name: photos
         widget: list
