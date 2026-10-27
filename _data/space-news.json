@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T00:19:50+09:00",
+  "updated_at": "2026-10-27T11:15:42+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T00:19:50+09:00",
-      "last_success_at": "2026-10-27T00:19:50+09:00",
+      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
+      "last_success_at": "2026-10-27T11:15:42+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -142,8 +142,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T00:19:50+09:00",
-      "last_success_at": "2026-10-27T00:19:50+09:00",
+      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
+      "last_success_at": "2026-10-27T11:15:42+09:00",
       "items": [
         {
           "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
@@ -307,9 +307,58 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T00:19:50+09:00",
-      "last_success_at": "2026-10-27T00:19:50+09:00",
+      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
+      "last_success_at": "2026-10-27T11:15:42+09:00",
       "items": [
+        {
+          "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
+          "date": "2026-10-26",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+          "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+          "date": "2026-10-26",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+          "url": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+          "date": "2026-10-26",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
+          "url": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
+          "date": "2026-10-26",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
           "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
@@ -347,7 +396,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
@@ -414,58 +464,6 @@
           "topics": [
             "mission"
           ]
-        },
-        {
-          "title": "Tracks Along the Longest Drive on Another World",
-          "url": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
-          "date": "2026-10-21",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "demonstration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
-          "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
-          "date": "2026-10-20",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
-          "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
-          "date": "2026-10-20",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "NASA Provides Progress Update on Moon Base Rovers",
-          "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
-          "date": "2026-10-20",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ]
         }
       ]
     },
@@ -475,9 +473,21 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T00:19:50+09:00",
-      "last_success_at": "2026-10-27T00:19:50+09:00",
+      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
+      "last_success_at": "2026-10-27T11:15:42+09:00",
       "items": [
+        {
+          "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+          "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+          "date": "2026-10-26",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
           "url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/",
@@ -574,7 +584,8 @@
           "language": "en",
           "topics": [
             "mission"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
@@ -625,8 +636,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T00:19:50+09:00",
-      "last_success_at": "2026-10-27T00:19:50+09:00",
+      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
+      "last_success_at": "2026-10-27T11:15:42+09:00",
       "items": [
         {
           "title": "Help a lost lunar rover find its way in new ESA competition",
@@ -947,6 +958,31 @@
   ],
   "items": [
     {
+      "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
+      "date": "2026-10-26",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+      "date": "2026-10-26",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
       "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786544",
       "date": "2026-10-26",
@@ -968,6 +1004,30 @@
       "language": "ko",
       "topics": [
         "demonstration"
+      ]
+    },
+    {
+      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+      "url": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+      "date": "2026-10-26",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
+      "date": "2026-10-26",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
       ]
     },
     {
@@ -1020,7 +1080,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
@@ -1138,20 +1199,6 @@
       ]
     },
     {
-      "title": "Tracks Along the Longest Drive on Another World",
-      "url": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
-      "date": "2026-10-21",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "demonstration"
-      ],
-      "stale": false
-    },
-    {
       "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
       "url": "https://global.jaxa.jp/press/2026/10/20261021-1_e.html",
       "date": "2026-10-21",
@@ -1163,44 +1210,6 @@
         "exploration"
       ],
       "stale": true
-    },
-    {
-      "title": "NASA Experimental Mars Helicopter Blade Designs Target Longer Flights",
-      "url": "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
-      "date": "2026-10-20",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
-      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
-      "date": "2026-10-20",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA Provides Progress Update on Moon Base Rovers",
-      "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
-      "date": "2026-10-20",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ]
     },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
@@ -1576,7 +1585,8 @@
       "language": "en",
       "topics": [
         "mission"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "누리호 5차, 10월 7일 발사",
