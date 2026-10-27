@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T11:15:42+09:00",
+  "updated_at": "2026-10-27T23:30:33+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
-      "last_success_at": "2026-10-27T11:15:42+09:00",
+      "last_retrieved_at": "2026-10-27T23:30:33+09:00",
+      "last_success_at": "2026-10-27T23:30:33+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -142,8 +142,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
-      "last_success_at": "2026-10-27T11:15:42+09:00",
+      "last_retrieved_at": "2026-10-27T23:30:33+09:00",
+      "last_success_at": "2026-10-27T23:30:33+09:00",
       "items": [
         {
           "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
@@ -307,9 +307,21 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
-      "last_success_at": "2026-10-27T11:15:42+09:00",
+      "last_retrieved_at": "2026-10-27T23:30:33+09:00",
+      "last_success_at": "2026-10-27T23:30:33+09:00",
       "items": [
+        {
+          "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+          "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
+          "date": "2026-10-27",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "control"
+          ]
+        },
         {
           "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
           "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
@@ -452,18 +464,6 @@
             "demonstration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-          "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-          "date": "2026-10-21",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission"
-          ]
         }
       ]
     },
@@ -472,8 +472,7 @@
       "name": "NASA/JPL",
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
-      "status": "ok",
-      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
+      "status": "stale",
       "last_success_at": "2026-10-27T11:15:42+09:00",
       "items": [
         {
@@ -486,7 +485,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
@@ -499,7 +499,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -511,7 +512,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -524,7 +526,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -536,7 +539,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
@@ -548,7 +552,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -560,7 +565,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -572,7 +578,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -585,7 +592,7 @@
           "topics": [
             "mission"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
@@ -599,7 +606,7 @@
             "exploration",
             "communications"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
@@ -612,7 +619,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
@@ -626,7 +633,7 @@
             "exploration",
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -636,9 +643,21 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-27T11:15:42+09:00",
-      "last_success_at": "2026-10-27T11:15:42+09:00",
+      "last_retrieved_at": "2026-10-27T23:30:33+09:00",
+      "last_success_at": "2026-10-27T23:30:33+09:00",
       "items": [
+        {
+          "title": "First light: Hera resolves two asteroids instead of one",
+          "url": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+          "date": "2026-10-27",
+          "source_id": "esa",
+          "source": "ESA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "Help a lost lunar rover find its way in new ESA competition",
           "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Help_a_lost_lunar_rover_find_its_way_in_new_ESA_competition",
@@ -778,18 +797,6 @@
           "topics": [
             "exploration"
           ]
-        },
-        {
-          "title": "Latest updates: BepiColombo's arrival at Mercury",
-          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
-          "date": "2026-10-06",
-          "source_id": "esa",
-          "source": "ESA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ]
         }
       ]
     },
@@ -798,8 +805,9 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-10-25T23:06:07+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-27T23:30:33+09:00",
+      "last_success_at": "2026-10-27T23:30:33+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -811,8 +819,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -825,8 +832,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -839,8 +845,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -852,8 +857,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -866,8 +870,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -880,8 +883,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -894,8 +896,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -908,8 +909,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -922,8 +922,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -936,8 +935,7 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -950,13 +948,36 @@
           "topics": [
             "mission",
             "exploration"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+      "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
+      "date": "2026-10-27",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "control"
+      ]
+    },
+    {
+      "title": "First light: Hera resolves two asteroids instead of one",
+      "url": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+      "date": "2026-10-27",
+      "source_id": "esa",
+      "source": "ESA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
     {
       "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
       "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
@@ -1187,18 +1208,6 @@
       "stale": false
     },
     {
-      "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-      "date": "2026-10-21",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission"
-      ]
-    },
-    {
       "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
       "url": "https://global.jaxa.jp/press/2026/10/20261021-1_e.html",
       "date": "2026-10-21",
@@ -1208,8 +1217,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
@@ -1234,8 +1242,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화",
@@ -1272,8 +1279,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -1299,7 +1305,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -1324,7 +1331,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
@@ -1464,7 +1472,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "누리호 5호기, 발사대로 이송 시작",
@@ -1476,18 +1485,6 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
-    },
-    {
-      "title": "Latest updates: BepiColombo's arrival at Mercury",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
-      "date": "2026-10-06",
-      "source_id": "esa",
-      "source": "ESA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
       ]
     },
     {
@@ -1536,7 +1533,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -1548,7 +1546,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -1560,7 +1559,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -1572,8 +1572,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1586,7 +1585,7 @@
       "topics": [
         "mission"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "누리호 5차, 10월 7일 발사",
@@ -1612,7 +1611,7 @@
         "exploration",
         "communications"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -1625,8 +1624,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1639,8 +1637,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1653,8 +1650,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1667,8 +1663,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1694,7 +1689,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
@@ -1708,7 +1703,7 @@
         "exploration",
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1721,8 +1716,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid explorer Hayabusa2 achieves world-first laser ranging during asteroid flyby",
@@ -1735,8 +1729,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Asteroid Explorer Hayabusa2 sets a new record for closest approach during a Solar System body flyby mission",
@@ -1749,8 +1742,7 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": true
+      ]
     }
   ]
 }
