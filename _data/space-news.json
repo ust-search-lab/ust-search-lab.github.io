@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T11:24:30+09:00",
+  "updated_at": "2026-10-28T23:31:54+09:00",
   "lookback_days": 90,
   "partial": false,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-28T11:24:30+09:00",
-      "last_success_at": "2026-10-28T11:24:30+09:00",
+      "last_retrieved_at": "2026-10-28T23:31:54+09:00",
+      "last_success_at": "2026-10-28T23:31:54+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -142,8 +142,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-28T11:24:30+09:00",
-      "last_success_at": "2026-10-28T11:24:30+09:00",
+      "last_retrieved_at": "2026-10-28T23:31:54+09:00",
+      "last_success_at": "2026-10-28T23:31:54+09:00",
       "items": [
         {
           "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
@@ -307,9 +307,21 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-28T11:24:30+09:00",
-      "last_success_at": "2026-10-28T11:24:30+09:00",
+      "last_retrieved_at": "2026-10-28T23:31:54+09:00",
+      "last_success_at": "2026-10-28T23:31:54+09:00",
       "items": [
+        {
+          "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+          "date": "2026-10-28",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
           "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
@@ -393,7 +405,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
@@ -448,19 +461,6 @@
             "demonstration"
           ],
           "stale": false
-        },
-        {
-          "title": "Spiral’s Edge",
-          "url": "https://www.nasa.gov/image-article/spirals-edge/",
-          "date": "2026-10-22",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "satellites"
-          ],
-          "stale": false
         }
       ]
     },
@@ -470,8 +470,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-28T11:24:30+09:00",
-      "last_success_at": "2026-10-28T11:24:30+09:00",
+      "last_retrieved_at": "2026-10-28T23:31:54+09:00",
+      "last_success_at": "2026-10-28T23:31:54+09:00",
       "items": [
         {
           "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
@@ -633,8 +633,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-28T11:24:30+09:00",
-      "last_success_at": "2026-10-28T11:24:30+09:00",
+      "last_retrieved_at": "2026-10-28T23:31:54+09:00",
+      "last_success_at": "2026-10-28T23:31:54+09:00",
       "items": [
         {
           "title": "First light: Hera resolves two asteroids instead of one",
@@ -796,8 +796,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-28T11:24:30+09:00",
-      "last_success_at": "2026-10-28T11:24:30+09:00",
+      "last_retrieved_at": "2026-10-28T23:31:54+09:00",
+      "last_success_at": "2026-10-28T23:31:54+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -945,6 +945,18 @@
   ],
   "items": [
     {
+      "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+      "date": "2026-10-28",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
       "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
       "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
       "date": "2026-10-27",
@@ -1063,7 +1075,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
@@ -1129,19 +1142,6 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "Spiral’s Edge",
-      "url": "https://www.nasa.gov/image-article/spirals-edge/",
-      "date": "2026-10-22",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "satellites"
       ],
       "stale": false
     },
