@@ -1,23 +1,23 @@
 {
   "jae-ik-park": {
-    "last_attempt_at": "2026-10-27T01:24:21.212963+00:00",
+    "last_attempt_at": "2026-10-28T01:37:39.201562+00:00",
     "status": "partial",
-    "failed_sources": 1,
-    "last_checked_at": "2026-10-27T01:24:21.212963+00:00",
+    "failed_sources": 0,
+    "last_checked_at": "2026-10-28T01:37:39.201562+00:00",
     "limited_sources": 1
   },
   "seung-ryeol-oh": {
-    "last_attempt_at": "2026-10-27T01:24:21.212963+00:00",
+    "last_attempt_at": "2026-10-28T01:37:39.201562+00:00",
     "status": "partial",
-    "failed_sources": 1,
-    "last_checked_at": "2026-10-27T01:24:21.212963+00:00",
+    "failed_sources": 0,
+    "last_checked_at": "2026-10-28T01:37:39.201562+00:00",
     "limited_sources": 2
   },
   "jungju-bae": {
-    "last_attempt_at": "2026-10-27T01:24:21.212963+00:00",
+    "last_attempt_at": "2026-10-28T01:37:39.201562+00:00",
     "status": "partial",
-    "failed_sources": 1,
-    "last_checked_at": "2026-10-27T01:24:21.212963+00:00",
+    "failed_sources": 0,
+    "last_checked_at": "2026-10-28T01:37:39.201562+00:00",
     "limited_sources": 1
   }
 }
