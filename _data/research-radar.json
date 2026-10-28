@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-27T23:01:21+09:00",
+  "updated_at": "2026-10-28T11:04:36+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-27T23:01:21+09:00",
+      "last_success_at": "2026-10-28T11:04:36+09:00",
       "status": "ok",
       "items": [
         {
@@ -171,24 +171,6 @@
           ]
         },
         {
-          "doi": "10.2514/1.g009514",
-          "url": "https://doi.org/10.2514/1.g009514",
-          "title": "epsilon-Propellant Optimality in Powered Descent Guidance with Continuous Thrust",
-          "authors": [
-            "Ping Lu"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10-12",
-          "date_type": "published-online",
-          "topics": [
-            "control",
-            "planetary",
-            "entry"
-          ]
-        },
-        {
           "doi": "10.2514/1.g009769",
           "url": "https://doi.org/10.2514/1.g009769",
           "title": "Explainable Stability Certification of Reinforcement Learning Control Policies Using Sparse Dynamics Identification",
@@ -242,6 +224,25 @@
             "astrodynamics",
             "planetary"
           ]
+        },
+        {
+          "doi": "10.2514/1.g009759",
+          "url": "https://doi.org/10.2514/1.g009759",
+          "title": "Alternative Dilution of Precision Measure for Lunar Positioning Systems: Comparison and Sensitivities",
+          "authors": [
+            "Austin S. Gabhart",
+            "Bradford E. Robertson",
+            "Dimitri N. Mavris"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
         }
       ]
     },
@@ -255,7 +256,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-27T23:01:21+09:00",
+      "last_success_at": "2026-10-28T11:04:36+09:00",
       "status": "ok",
       "items": [
         {
@@ -522,7 +523,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-27T23:01:21+09:00",
+      "last_success_at": "2026-10-28T11:04:36+09:00",
       "status": "ok",
       "items": [
         {
@@ -961,24 +962,6 @@
       ]
     },
     {
-      "doi": "10.2514/1.g009514",
-      "url": "https://doi.org/10.2514/1.g009514",
-      "title": "epsilon-Propellant Optimality in Powered Descent Guidance with Continuous Thrust",
-      "authors": [
-        "Ping Lu"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10-12",
-      "date_type": "published-online",
-      "topics": [
-        "control",
-        "planetary",
-        "entry"
-      ]
-    },
-    {
       "doi": "10.2514/1.g009769",
       "url": "https://doi.org/10.2514/1.g009769",
       "title": "Explainable Stability Certification of Reinforcement Learning Control Policies Using Sparse Dynamics Identification",
@@ -1102,6 +1085,25 @@
       "authors": [
         "Zihan Liu",
         "Fanghua Jiang"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009759",
+      "url": "https://doi.org/10.2514/1.g009759",
+      "title": "Alternative Dilution of Precision Measure for Lunar Positioning Systems: Comparison and Sensitivities",
+      "authors": [
+        "Austin S. Gabhart",
+        "Bradford E. Robertson",
+        "Dimitri N. Mavris"
       ],
       "journal_id": "jgcd",
       "journal": "Journal of Guidance, Control, and Dynamics",
