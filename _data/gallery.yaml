@@ -1,4 +1,28 @@
 albums:
+  - id: ksss-2026-fall-conference
+    title:
+      ko: 한국우주과학회 2026년 가을 학술대회
+      en: KSSS 2026 Fall Conference
+    description:
+      ko: 2026년 10월 28일 쉐라톤 제주 호텔 볼룸 III에서 열린 화성 대기 EDL 핵심기술 개발과제 특별세션 사진입니다.
+      en: Photos from the special session for the Mars atmospheric EDL core technology development project, held on October 28, 2026, in Ballroom III at the Sheraton Jeju Hotel during the KSSS 2026 Fall Conference.
+    updated: 2026-10-29
+    photos:
+      - image: /images/news/ksss-2026-fall-conference/01-session-room.jpg
+        alt:
+          ko: 쉐라톤 제주 호텔 볼룸 III에서 열린 특별세션에서 화성 중계궤도 진입 과정을 다룬 발표를 듣는 참석자들.
+          en: Attendees listening to a presentation on Mars relay orbit insertion during the special session in Ballroom III at the Sheraton Jeju Hotel.
+        width: 100%
+      - image: /images/news/ksss-2026-fall-conference/02-presentation.jpg
+        alt:
+          ko: 한국우주과학회 2026년 가을 학술대회 연단에서 화성 중계궤도 진입 과정과 궤도투입 오차를 발표하는 연구자.
+          en: A researcher at the KSSS 2026 Fall Conference podium presenting on Mars relay orbit insertion and orbit insertion errors.
+        width: 100%
+      - image: /images/news/ksss-2026-fall-conference/03-audience.jpg
+        alt:
+          ko: 좌장석에서 바라본 특별세션 참석자들.
+          en: Special session attendees seen from the session chair's seat.
+        width: 100%
   - id: korea-space-rover-challenge-2026
     title:
       ko: 2026 대한민국 우주로버 챌린지 대회
