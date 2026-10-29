@@ -17,4 +17,4 @@ The official website will continue to share the lab's [vision]({{ '/en/about/' |
 
 ## Graduate study and research participation
 
-SEARCH Lab recruits master's and doctoral student researchers with a passion for space mission design and in-space demonstration research on a rolling basis. Research roadmaps for each degree program and further details are available on the [For Students]({{ '/en/students/' | relative_url }}) page. Those who would like to discuss graduate study or research participation can get in touch through the [Contact]({{ '/en/contact/' | relative_url }}) page, including their research interests and plans for graduate study.
+SEARCH Lab recruits master's and doctoral student researchers with a passion for space mission design and in-space demonstration research on a rolling basis. Research roadmaps for each degree program and further details are available on the [For Students]({{ '/en/students/' | relative_url }}) page. Those who would like to discuss graduate study or research participation can get in touch by [email]({{ '/en/contact/' | relative_url }}), including their research interests and plans for graduate study.

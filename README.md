@@ -64,23 +64,28 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 
 ## News editorial style
 
-All `_posts/` articles, including their titles, `description` and `excerpt`, use
-concise, factual news reporting in both languages. This applies to launch news,
+All `_posts/` articles, including their titles, `description` and `excerpt`, are
+factual announcements in both languages. This applies to launch news,
 admissions notices, meeting reports and event participation.
 
-- Korean uses third-person `했다/한다` prose; English uses third-person reporting.
-  Report completed activities in the past tense and ongoing research or standing
+- Korean uses the polite `합니다` style (`참석했습니다`, `개최되었습니다`), as the
+  owner decided on 2026-10-29; English uses third-person reporting. Report
+  completed activities in the past tense and ongoing research or standing
   information in the present tense.
 - Titles identify the event or main development. Lead with who did what, when
-  and where, then give the result and relevant context.
-- Keep personal impressions, greetings, congratulations, invitations and
-  promotional appeals out of the reporting. Practical application and contact
-  information remains available as neutral information.
+  and where, then give the result and relevant context. For a multi-day event,
+  give the event's own dates rather than the lab's travel dates.
+- When the owner supplies Korean text, use it as written and keep existing links
+  on matching phrases. A short closing remark on an activity's significance and
+  recruitment or contact guidance come from the owner's wording; do not add
+  impressions, greetings, congratulations or promotional appeals on your own.
 - Use only supplied or verified facts. Do not invent quotations, personal
   reactions, outcomes or plans to make a story sound more natural.
-- Keep Korean and English facts aligned. A wording-only edit preserves dates,
-  `ref`, language pairs, permalinks, sources, contact details and photo links.
-  The home page and NEWS lists reuse `excerpt`, so update it with the article.
+- Keep Korean and English facts aligned: after a Korean edit, update that post's
+  `description`, `excerpt` and English version. A wording-only edit preserves
+  dates, `ref`, language pairs, permalinks, sources, contact details and photo
+  links. The home page and NEWS lists reuse `excerpt`; home cards truncate it at
+  240 characters.
 
 The NEWS fields in `admin/config.yml` and `_guides/photo-albums.md` describe the
 same writing standard for subsequent edits.
