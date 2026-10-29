@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-29T11:27:04+09:00",
+  "updated_at": "2026-10-29T23:33:15+09:00",
   "lookback_days": 90,
-  "partial": true,
+  "partial": false,
   "sources": [
     {
       "id": "kari",
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-10-29T11:27:04+09:00",
-      "last_success_at": "2026-10-29T11:27:04+09:00",
+      "last_retrieved_at": "2026-10-29T23:33:15+09:00",
+      "last_success_at": "2026-10-29T23:33:15+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -142,8 +142,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-10-29T11:27:04+09:00",
-      "last_success_at": "2026-10-29T11:27:04+09:00",
+      "last_retrieved_at": "2026-10-29T23:33:15+09:00",
+      "last_success_at": "2026-10-29T23:33:15+09:00",
       "items": [
         {
           "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
@@ -307,9 +307,22 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-29T11:27:04+09:00",
-      "last_success_at": "2026-10-29T11:27:04+09:00",
+      "last_retrieved_at": "2026-10-29T23:33:15+09:00",
+      "last_success_at": "2026-10-29T23:33:15+09:00",
       "items": [
+        {
+          "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+          "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+          "date": "2026-10-29",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
           "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
@@ -380,7 +393,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA’s Neo Surveyor Sunshade",
@@ -392,7 +406,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
@@ -445,19 +460,6 @@
             "exploration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
-          "url": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
-          "date": "2026-10-26",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
         }
       ]
     },
@@ -467,9 +469,22 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-10-29T11:27:04+09:00",
-      "last_success_at": "2026-10-29T11:27:04+09:00",
+      "last_retrieved_at": "2026-10-29T23:33:15+09:00",
+      "last_success_at": "2026-10-29T23:33:15+09:00",
       "items": [
+        {
+          "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+          "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+          "date": "2026-10-29",
+          "source_id": "jpl",
+          "source": "NASA/JPL",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
           "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
@@ -566,7 +581,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -607,20 +623,6 @@
             "exploration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-          "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-          "date": "2026-08-04",
-          "source_id": "jpl",
-          "source": "NASA/JPL",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "demonstration"
-          ],
-          "stale": false
         }
       ]
     },
@@ -630,8 +632,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-10-29T11:27:04+09:00",
-      "last_success_at": "2026-10-29T11:27:04+09:00",
+      "last_retrieved_at": "2026-10-29T23:33:15+09:00",
+      "last_success_at": "2026-10-29T23:33:15+09:00",
       "items": [
         {
           "title": "First light: Hera resolves two asteroids instead of one",
@@ -792,8 +794,9 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-10-28T23:31:54+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-10-29T23:33:15+09:00",
+      "last_success_at": "2026-10-29T23:33:15+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -805,8 +808,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -819,8 +821,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -833,8 +834,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -846,8 +846,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -860,8 +859,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -874,8 +872,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -888,8 +885,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -902,8 +898,7 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -916,13 +911,25 @@
           "topics": [
             "satellites",
             "demonstration"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+      "date": "2026-10-29",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
     {
       "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
       "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
@@ -993,7 +1000,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA’s Neo Surveyor Sunshade",
@@ -1005,7 +1013,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
@@ -1085,19 +1094,6 @@
     {
       "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
       "url": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-      "date": "2026-10-26",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
-      "url": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
       "date": "2026-10-26",
       "source_id": "nasa",
       "source": "NASA",
@@ -1193,8 +1189,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
@@ -1219,8 +1214,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화",
@@ -1257,8 +1251,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -1533,7 +1526,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -1545,8 +1539,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1598,8 +1591,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1612,8 +1604,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1626,8 +1617,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1640,8 +1630,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
@@ -1670,20 +1659,6 @@
       "stale": false
     },
     {
-      "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-      "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-      "date": "2026-08-04",
-      "source_id": "jpl",
-      "source": "NASA/JPL",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "demonstration"
-      ],
-      "stale": false
-    },
-    {
       "title": "Launch Postponement of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
       "url": "https://global.jaxa.jp/press/2026/08/20260803-1_e.html",
       "date": "2026-08-03",
@@ -1694,8 +1669,7 @@
       "topics": [
         "satellites",
         "demonstration"
-      ],
-      "stale": true
+      ]
     }
   ]
 }
