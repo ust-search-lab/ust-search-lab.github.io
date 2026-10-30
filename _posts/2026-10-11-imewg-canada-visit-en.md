@@ -12,10 +12,10 @@ photos:
     alt: "Group photo in front of the Canadarm exhibit at the Canadian Space Agency."
     width: "100%"
 description: Dr. Jae-ik Park and collaborators Dr. Jae-In Kim and Dr. Jungju Bae attended the IMEWG 2026 annual in-person meeting, hosted by the Canadian Space Agency, as members of the Korean delegation.
-excerpt: Dr. Jae-ik Park and collaborators Dr. Jae-In Kim and Dr. Jungju Bae attended the IMEWG 2026 annual in-person meeting in Montréal, Canada, from October 12 to 18 as members of the Korean delegation, sharing Korea's Mars exploration research.
+excerpt: Dr. Jae-ik Park and collaborators Dr. Jae-In Kim and Dr. Jungju Bae attended the IMEWG 2026 annual in-person meeting in Montréal, Canada, from October 13 to 16 as members of the Korean delegation, sharing Korea's Mars exploration research.
 ---
 
-Dr. Jae-ik Park, together with collaborators Dr. Jae-In Kim and Dr. Jungju Bae, visited Montréal, Canada, from October 12 to 18, 2026, to attend the International Mars Exploration Working Group (IMEWG) 2026 annual in-person meeting as members of the Korean delegation.
+Dr. Jae-ik Park, together with collaborators Dr. Jae-In Kim and Dr. Jungju Bae, attended the International Mars Exploration Working Group (IMEWG) 2026 annual in-person meeting, held in Montréal, Canada, from October 13 to 16, 2026, as members of the Korean delegation.
 
 Hosted by the Canadian Space Agency (CSA), the meeting brought together representatives of major space agencies from around the world to share updates on their Mars exploration programs and explore future international cooperation.
 
