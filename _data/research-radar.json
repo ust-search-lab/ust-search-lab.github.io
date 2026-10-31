@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-10-31T11:05:48+09:00",
+  "updated_at": "2026-10-31T22:53:03+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-10-31T11:05:48+09:00",
+      "last_success_at": "2026-10-31T22:53:03+09:00",
       "status": "ok",
       "items": [
         {
@@ -256,7 +256,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-10-31T11:05:48+09:00",
+      "last_success_at": "2026-10-31T22:53:03+09:00",
       "status": "ok",
       "items": [
         {
@@ -523,9 +523,29 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-10-31T11:05:48+09:00",
+      "last_success_at": "2026-10-31T22:53:03+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.10.059",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.059",
+          "title": "Multi-Agent Cooperative Exploration Scheme Construction and Cluster Intelligent Path Planning for Asteroid Surface Roving",
+          "authors": [
+            "Boyang Sun",
+            "Hongda Ge",
+            "Yiyang Qin",
+            "Yonglong Zhang",
+            "Junfeng Li"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-10",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.10.012",
           "url": "https://doi.org/10.1016/j.actaastro.2026.10.012",
@@ -737,23 +757,6 @@
           "date_type": "published-print",
           "topics": [
             "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.04.067",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.04.067",
-          "title": "Pontryagin–Bellman differential dynamic programming for low-thrust trajectory optimization with path constraints",
-          "authors": [
-            "Yanis Sidhoum",
-            "Kenshiro Oguri"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-10",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
           ]
         }
       ]
@@ -1126,6 +1129,26 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.059",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.059",
+      "title": "Multi-Agent Cooperative Exploration Scheme Construction and Cluster Intelligent Path Planning for Asteroid Surface Roving",
+      "authors": [
+        "Boyang Sun",
+        "Hongda Ge",
+        "Yiyang Qin",
+        "Yonglong Zhang",
+        "Junfeng Li"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-10",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.012",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.012",
       "title": "New families of periodic orbits for solar-sail satellites about photo-gravitational equilibrium points in the restricted two body problem and circular restricted three body problem",
@@ -1336,23 +1359,6 @@
       "date_type": "published-print",
       "topics": [
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.04.067",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.04.067",
-      "title": "Pontryagin–Bellman differential dynamic programming for low-thrust trajectory optimization with path constraints",
-      "authors": [
-        "Yanis Sidhoum",
-        "Kenshiro Oguri"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-10",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
       ]
     },
     {
