@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T17:19:12+09:00",
+  "updated_at": "2026-11-03T07:28:43+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,9 +8,9 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "partial",
-      "last_retrieved_at": "2026-11-02T17:19:12+09:00",
-      "last_success_at": "2026-11-01T23:20:32+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-11-03T07:28:43+09:00",
+      "last_success_at": "2026-11-03T07:28:43+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -142,8 +142,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-02T17:19:12+09:00",
-      "last_success_at": "2026-11-02T17:19:12+09:00",
+      "last_retrieved_at": "2026-11-03T07:28:43+09:00",
+      "last_success_at": "2026-11-03T07:28:43+09:00",
       "items": [
         {
           "title": "국제 행성탐사 전문가와 미래 우주과학탐사 전략 논의",
@@ -306,8 +306,8 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "ok",
-      "last_retrieved_at": "2026-11-02T17:19:12+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-11-03T07:28:43+09:00",
       "last_success_at": "2026-11-02T17:19:12+09:00",
       "items": [
         {
@@ -321,7 +321,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
@@ -333,7 +333,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -346,7 +347,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
@@ -359,7 +360,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
@@ -372,7 +373,7 @@
           "topics": [
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
@@ -398,7 +399,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
@@ -411,7 +412,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Webb Sees Turbulent Star Nursery",
@@ -424,7 +425,7 @@
           "topics": [
             "satellites"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
@@ -449,7 +450,7 @@
           "topics": [
             "mission"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
@@ -462,7 +463,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -472,8 +473,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-02T17:19:12+09:00",
-      "last_success_at": "2026-11-02T17:19:12+09:00",
+      "last_retrieved_at": "2026-11-03T07:28:43+09:00",
+      "last_success_at": "2026-11-03T07:28:43+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -635,8 +636,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-11-02T17:19:12+09:00",
-      "last_success_at": "2026-11-02T17:19:12+09:00",
+      "last_retrieved_at": "2026-11-03T07:28:43+09:00",
+      "last_success_at": "2026-11-03T07:28:43+09:00",
       "items": [
         {
           "title": "First light: Hera resolves two asteroids instead of one",
@@ -949,7 +950,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
@@ -961,20 +962,20 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
       "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
       "date": "2026-10-29",
-      "source_id": "nasa",
-      "source": "NASA",
+      "source_id": "jpl",
+      "source": "NASA/JPL",
       "region": "international",
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": false
+      ]
     },
     {
       "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
@@ -987,7 +988,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
@@ -1000,7 +1001,7 @@
       "topics": [
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
@@ -1026,7 +1027,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
@@ -1039,7 +1040,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Webb Sees Turbulent Star Nursery",
@@ -1052,7 +1053,7 @@
       "topics": [
         "satellites"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
@@ -1077,7 +1078,7 @@
       "topics": [
         "mission"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
@@ -1090,7 +1091,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "First light: Hera resolves two asteroids instead of one",
