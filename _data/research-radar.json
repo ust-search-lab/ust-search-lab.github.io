@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-02T16:42:07+09:00",
+  "updated_at": "2026-11-03T07:20:16+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,47 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-02T16:42:07+09:00",
+      "last_success_at": "2026-11-03T07:20:16+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g010294",
+          "url": "https://doi.org/10.2514/1.g010294",
+          "title": "Station-Keeping Approach for Extremely Low Lunar Orbits with Solar Sailing",
+          "authors": [
+            "Jack Yarndley",
+            "Gregory Lantoine",
+            "Roberto Armellin"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-02",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "planetary",
+            "sail"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g010081",
+          "url": "https://doi.org/10.2514/1.g010081",
+          "title": "Low-Thrust Optimization for Lengthy Cislunar Transfers Using Nested B-Spline Control",
+          "authors": [
+            "Adrian Arustei",
+            "Atri Dutta"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-02",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "control"
+          ]
+        },
         {
           "doi": "10.2514/1.g010096",
           "url": "https://doi.org/10.2514/1.g010096",
@@ -209,43 +247,6 @@
             "astrodynamics",
             "control"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009862",
-          "url": "https://doi.org/10.2514/1.g009862",
-          "title": "Enhanced Energy-Saving Capture via Short-Term Stays and Planetary Moon Flybys",
-          "authors": [
-            "Zhenyu Li",
-            "Xiangyu Li",
-            "Dong Qiao"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10-21",
-          "date_type": "published-online",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.2514/1.g009961",
-          "url": "https://doi.org/10.2514/1.g009961",
-          "title": "Analytical Optimality Criteria for Low-Energy Capture via the Weak Stability Boundary",
-          "authors": [
-            "Zhenyu Li",
-            "Dong Qiao",
-            "Xiangyu Li"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-10-20",
-          "date_type": "published-online",
-          "topics": [
-            "astrodynamics",
-            "planetary"
-          ]
         }
       ]
     },
@@ -259,9 +260,46 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-02T16:42:07+09:00",
+      "last_success_at": "2026-11-03T07:20:16+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.a36792",
+          "url": "https://doi.org/10.2514/1.a36792",
+          "title": "Reduced-Order Model for Multijet Supersonic Retropropulsion",
+          "authors": [
+            "David D. Wu",
+            "Karl Töpperwien",
+            "Matthias Ihme"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-02",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36754",
+          "url": "https://doi.org/10.2514/1.a36754",
+          "title": "Assessment of Radiation Scattering by Dust in Mars Entry",
+          "authors": [
+            "Andrew Hinkle",
+            "Christopher Johnston",
+            "Kyle Thompson",
+            "Serhat Hosder"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-02",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.a36830",
           "url": "https://doi.org/10.2514/1.a36830",
@@ -465,55 +503,6 @@
             "astrodynamics",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.a36612",
-          "url": "https://doi.org/10.2514/1.a36612",
-          "title": "Thermochromic Programmable Metamaterial Particle Ensembles",
-          "authors": [
-            "Joseph Ivarson",
-            "Luke Scharck",
-            "Ana Barona-Mejía",
-            "Luis Manuel Postigo",
-            "Kate Handel",
-            "Laith Bader",
-            "Allan David",
-            "John Mulvaney",
-            "Andrew Sais",
-            "Davide Guzzetti"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-09-12",
-          "date_type": "published-online",
-          "topics": [
-            "astrodynamics",
-            "sail"
-          ]
-        },
-        {
-          "doi": "10.2514/1.a36596",
-          "url": "https://doi.org/10.2514/1.a36596",
-          "title": "Simultaneous Magnetic Dipole and Inertia Estimation for Nano-Satellites Using Dual Filtering",
-          "authors": [
-            "Ruixin Wen",
-            "Jonathan Morgan",
-            "Jack McRobbie",
-            "Robert Mearns",
-            "Miguel Ortiz del Castillo",
-            "Michele Trenti",
-            "Airlie Chapman"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-09-12",
-          "date_type": "published-online",
-          "topics": [
-            "control",
-            "cubesat"
-          ]
         }
       ]
     },
@@ -526,7 +515,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-02T16:42:07+09:00",
+      "last_success_at": "2026-11-03T07:20:16+09:00",
       "status": "ok",
       "items": [
         {
@@ -767,6 +756,81 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g010294",
+      "url": "https://doi.org/10.2514/1.g010294",
+      "title": "Station-Keeping Approach for Extremely Low Lunar Orbits with Solar Sailing",
+      "authors": [
+        "Jack Yarndley",
+        "Gregory Lantoine",
+        "Roberto Armellin"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-02",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "planetary",
+        "sail"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g010081",
+      "url": "https://doi.org/10.2514/1.g010081",
+      "title": "Low-Thrust Optimization for Lengthy Cislunar Transfers Using Nested B-Spline Control",
+      "authors": [
+        "Adrian Arustei",
+        "Atri Dutta"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-02",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "control"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36792",
+      "url": "https://doi.org/10.2514/1.a36792",
+      "title": "Reduced-Order Model for Multijet Supersonic Retropropulsion",
+      "authors": [
+        "David D. Wu",
+        "Karl Töpperwien",
+        "Matthias Ihme"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-02",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36754",
+      "url": "https://doi.org/10.2514/1.a36754",
+      "title": "Assessment of Radiation Scattering by Dust in Mars Entry",
+      "authors": [
+        "Andrew Hinkle",
+        "Christopher Johnston",
+        "Kyle Thompson",
+        "Serhat Hosder"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-02",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
     {
       "doi": "10.2514/1.g010096",
       "url": "https://doi.org/10.2514/1.g010096",
@@ -1232,43 +1296,6 @@
       ]
     },
     {
-      "doi": "10.2514/1.g009862",
-      "url": "https://doi.org/10.2514/1.g009862",
-      "title": "Enhanced Energy-Saving Capture via Short-Term Stays and Planetary Moon Flybys",
-      "authors": [
-        "Zhenyu Li",
-        "Xiangyu Li",
-        "Dong Qiao"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10-21",
-      "date_type": "published-online",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009961",
-      "url": "https://doi.org/10.2514/1.g009961",
-      "title": "Analytical Optimality Criteria for Low-Energy Capture via the Weak Stability Boundary",
-      "authors": [
-        "Zhenyu Li",
-        "Dong Qiao",
-        "Xiangyu Li"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-10-20",
-      "date_type": "published-online",
-      "topics": [
-        "astrodynamics",
-        "planetary"
-      ]
-    },
-    {
       "doi": "10.2514/1.a36655",
       "url": "https://doi.org/10.2514/1.a36655",
       "title": "Adaptive Tracking Control for Underactuated Lunar Hopping Vehicles",
@@ -1431,55 +1458,6 @@
       "topics": [
         "astrodynamics",
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36612",
-      "url": "https://doi.org/10.2514/1.a36612",
-      "title": "Thermochromic Programmable Metamaterial Particle Ensembles",
-      "authors": [
-        "Joseph Ivarson",
-        "Luke Scharck",
-        "Ana Barona-Mejía",
-        "Luis Manuel Postigo",
-        "Kate Handel",
-        "Laith Bader",
-        "Allan David",
-        "John Mulvaney",
-        "Andrew Sais",
-        "Davide Guzzetti"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-09-12",
-      "date_type": "published-online",
-      "topics": [
-        "astrodynamics",
-        "sail"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36596",
-      "url": "https://doi.org/10.2514/1.a36596",
-      "title": "Simultaneous Magnetic Dipole and Inertia Estimation for Nano-Satellites Using Dual Filtering",
-      "authors": [
-        "Ruixin Wen",
-        "Jonathan Morgan",
-        "Jack McRobbie",
-        "Robert Mearns",
-        "Miguel Ortiz del Castillo",
-        "Michele Trenti",
-        "Airlie Chapman"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-09-12",
-      "date_type": "published-online",
-      "topics": [
-        "control",
-        "cubesat"
       ]
     }
   ]
