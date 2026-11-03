@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-03T17:34:28+09:00",
+  "updated_at": "2026-11-04T05:18:07+09:00",
   "lookback_days": 90,
-  "partial": true,
+  "partial": false,
   "sources": [
     {
       "id": "kari",
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "partial",
-      "last_retrieved_at": "2026-11-03T17:34:28+09:00",
-      "last_success_at": "2026-11-03T07:28:43+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-11-04T05:18:07+09:00",
+      "last_success_at": "2026-11-04T05:18:07+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -142,8 +142,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-03T17:34:28+09:00",
-      "last_success_at": "2026-11-03T17:34:28+09:00",
+      "last_retrieved_at": "2026-11-04T05:18:07+09:00",
+      "last_success_at": "2026-11-04T05:18:07+09:00",
       "items": [
         {
           "title": "국제 행성탐사 전문가와 미래 우주과학탐사 전략 논의",
@@ -306,10 +306,46 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "partial",
-      "last_retrieved_at": "2026-11-03T17:34:28+09:00",
-      "last_success_at": "2026-11-02T17:19:12+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-11-04T05:18:07+09:00",
+      "last_success_at": "2026-11-04T05:18:07+09:00",
       "items": [
+        {
+          "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
+          "date": "2026-11-02",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission"
+          ]
+        },
+        {
+          "title": "NASA’s CHAPEA Crew “Returns” to Earth",
+          "url": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+          "date": "2026-11-02",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
+        {
+          "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+          "date": "2026-11-02",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
           "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
@@ -321,7 +357,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
@@ -334,7 +370,7 @@
           "topics": [
             "demonstration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -347,7 +383,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
@@ -360,7 +396,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
@@ -373,7 +409,7 @@
           "topics": [
             "demonstration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
@@ -399,7 +435,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
@@ -412,7 +448,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "Webb Sees Turbulent Star Nursery",
@@ -425,45 +461,7 @@
           "topics": [
             "satellites"
           ],
-          "stale": true
-        },
-        {
-          "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-          "url": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-          "date": "2026-10-28",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ]
-        },
-        {
-          "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
-          "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
-          "date": "2026-10-28",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission"
-          ],
-          "stale": true
-        },
-        {
-          "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
-          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-          "date": "2026-10-28",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": true
+          "stale": false
         }
       ]
     },
@@ -473,8 +471,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-03T17:34:28+09:00",
-      "last_success_at": "2026-11-03T17:34:28+09:00",
+      "last_retrieved_at": "2026-11-04T05:18:07+09:00",
+      "last_success_at": "2026-11-04T05:18:07+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -636,8 +634,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-11-03T17:34:28+09:00",
-      "last_success_at": "2026-11-03T17:34:28+09:00",
+      "last_retrieved_at": "2026-11-04T05:18:07+09:00",
+      "last_success_at": "2026-11-04T05:18:07+09:00",
       "items": [
         {
           "title": "First light: Hera resolves two asteroids instead of one",
@@ -799,8 +797,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-03T17:34:28+09:00",
-      "last_success_at": "2026-11-03T17:34:28+09:00",
+      "last_retrieved_at": "2026-11-04T05:18:07+09:00",
+      "last_success_at": "2026-11-04T05:18:07+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -909,6 +907,42 @@
   ],
   "items": [
     {
+      "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
+      "date": "2026-11-02",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission"
+      ]
+    },
+    {
+      "title": "NASA’s CHAPEA Crew “Returns” to Earth",
+      "url": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+      "date": "2026-11-02",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
+      "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+      "date": "2026-11-02",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
       "title": "국제 행성탐사 전문가와 미래 우주과학탐사 전략 논의",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787552",
       "date": "2026-11-02",
@@ -943,7 +977,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
@@ -956,19 +990,20 @@
       "topics": [
         "demonstration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
       "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
       "date": "2026-10-29",
-      "source_id": "jpl",
-      "source": "NASA/JPL",
+      "source_id": "nasa",
+      "source": "NASA",
       "region": "international",
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
@@ -981,7 +1016,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
@@ -994,7 +1029,7 @@
       "topics": [
         "demonstration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
@@ -1020,7 +1055,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
@@ -1033,7 +1068,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Webb Sees Turbulent Star Nursery",
@@ -1046,45 +1081,7 @@
       "topics": [
         "satellites"
       ],
-      "stale": true
-    },
-    {
-      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-      "url": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-      "date": "2026-10-28",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ]
-    },
-    {
-      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
-      "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
-      "date": "2026-10-28",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-      "date": "2026-10-28",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "First light: Hera resolves two asteroids instead of one",
