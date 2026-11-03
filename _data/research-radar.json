@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-03T16:56:36+09:00",
+  "updated_at": "2026-11-04T05:07:27+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-03T16:56:36+09:00",
+      "last_success_at": "2026-11-04T05:07:27+09:00",
       "status": "ok",
       "items": [
         {
@@ -260,7 +260,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-03T16:56:36+09:00",
+      "last_success_at": "2026-11-04T05:07:27+09:00",
       "status": "ok",
       "items": [
         {
@@ -515,9 +515,30 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-03T16:56:36+09:00",
+      "last_success_at": "2026-11-04T05:07:27+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.10.071",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.071",
+          "title": "Sustained Agglomerate Flow and Low-Gravity Prediction of Chang’e-6 Lunar Regolith",
+          "authors": [
+            "Charun Bao",
+            "Qinyu Wang",
+            "Daobo Zhang",
+            "Yifei Cui",
+            "Guodong Wang",
+            "Peng Feng"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.07.008",
           "url": "https://doi.org/10.1016/j.actaastro.2026.07.008",
@@ -732,23 +753,6 @@
           "date_type": "published-print",
           "topics": [
             "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.042",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.042",
-          "title": "Advanced electro-optical analysis and adhesion angle optimization of curved secondary mirror holders in small satellites",
-          "authors": [
-            "Alper Şanlı",
-            "Alim Rüstem Aslan"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "cubesat"
           ]
         }
       ]
@@ -1024,6 +1028,27 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.071",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.071",
+      "title": "Sustained Agglomerate Flow and Low-Gravity Prediction of Chang’e-6 Lunar Regolith",
+      "authors": [
+        "Charun Bao",
+        "Qinyu Wang",
+        "Daobo Zhang",
+        "Yifei Cui",
+        "Guodong Wang",
+        "Peng Feng"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.07.008",
       "url": "https://doi.org/10.1016/j.actaastro.2026.07.008",
       "title": "Vibration-induced friction reduction in lunar regolith simulant: Mechanisms and key parameters",
@@ -1237,23 +1262,6 @@
       "date_type": "published-print",
       "topics": [
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.06.042",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.042",
-      "title": "Advanced electro-optical analysis and adhesion angle optimization of curved secondary mirror holders in small satellites",
-      "authors": [
-        "Alper Şanlı",
-        "Alim Rüstem Aslan"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "cubesat"
       ]
     },
     {
