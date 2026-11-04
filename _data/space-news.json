@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-04T17:01:35+09:00",
+  "updated_at": "2026-11-05T05:32:47+09:00",
   "lookback_days": 90,
-  "partial": false,
+  "partial": true,
   "sources": [
     {
       "id": "kari",
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-04T17:01:35+09:00",
-      "last_success_at": "2026-11-04T17:01:35+09:00",
+      "last_retrieved_at": "2026-11-05T05:32:47+09:00",
+      "last_success_at": "2026-11-05T05:32:47+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -120,19 +120,6 @@
           "topics": [
             "demonstration"
           ]
-        },
-        {
-          "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
-          "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18698",
-          "date": "2026-08-06",
-          "source_id": "kari",
-          "source": "KARI",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "mission",
-            "exploration"
-          ]
         }
       ]
     },
@@ -142,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-04T17:01:35+09:00",
-      "last_success_at": "2026-11-04T17:01:35+09:00",
+      "last_retrieved_at": "2026-11-05T05:32:47+09:00",
+      "last_success_at": "2026-11-05T05:32:47+09:00",
       "items": [
         {
           "title": "미국 스위프트(SWIFT) 우주망원경 4일 저녁 대기권 재진입 예상 한반도 영향 없어",
@@ -307,9 +294,48 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-04T17:01:35+09:00",
-      "last_success_at": "2026-11-04T17:01:35+09:00",
+      "last_retrieved_at": "2026-11-05T05:32:47+09:00",
+      "last_success_at": "2026-11-05T05:32:47+09:00",
       "items": [
+        {
+          "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+          "url": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+          "date": "2026-11-04",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "satellites",
+            "demonstration"
+          ]
+        },
+        {
+          "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
+          "url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+          "date": "2026-11-04",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+          "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+          "date": "2026-11-04",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "control",
+            "demonstration"
+          ]
+        },
         {
           "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
           "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
@@ -333,7 +359,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
@@ -345,7 +372,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
@@ -424,45 +452,6 @@
             "exploration",
             "demonstration"
           ]
-        },
-        {
-          "title": "Slice of Martian Meteorite Teghaza 001",
-          "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
-          "date": "2026-10-29",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
-          "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
-          "date": "2026-10-28",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "Webb Sees Turbulent Star Nursery",
-          "url": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
-          "date": "2026-10-28",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "satellites"
-          ],
-          "stale": false
         }
       ]
     },
@@ -472,8 +461,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-04T17:01:35+09:00",
-      "last_success_at": "2026-11-04T17:01:35+09:00",
+      "last_retrieved_at": "2026-11-05T05:32:47+09:00",
+      "last_success_at": "2026-11-05T05:32:47+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -635,8 +624,8 @@
       "region": "international",
       "url": "https://www.esa.int/Services/RSS_Feeds",
       "status": "ok",
-      "last_retrieved_at": "2026-11-04T17:01:35+09:00",
-      "last_success_at": "2026-11-04T17:01:35+09:00",
+      "last_retrieved_at": "2026-11-05T05:32:47+09:00",
+      "last_success_at": "2026-11-05T05:32:47+09:00",
       "items": [
         {
           "title": "First light: Hera resolves two asteroids instead of one",
@@ -797,8 +786,7 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "ok",
-      "last_retrieved_at": "2026-11-04T17:01:35+09:00",
+      "status": "stale",
       "last_success_at": "2026-11-04T17:01:35+09:00",
       "items": [
         {
@@ -811,7 +799,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -824,7 +813,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -837,7 +827,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -849,7 +840,8 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
@@ -862,7 +854,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -875,7 +868,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -888,7 +882,8 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -901,12 +896,52 @@
           "topics": [
             "satellites",
             "demonstration"
-          ]
+          ],
+          "stale": true
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+      "date": "2026-11-04",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "satellites",
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
+      "url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+      "date": "2026-11-04",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+      "date": "2026-11-04",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "control",
+        "demonstration"
+      ]
+    },
     {
       "title": "미국 스위프트(SWIFT) 우주망원경 4일 저녁 대기권 재진입 예상 한반도 영향 없어",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787921",
@@ -942,7 +977,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
@@ -954,7 +990,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "국제 행성탐사 전문가와 미래 우주과학탐사 전략 논의",
@@ -1057,45 +1094,6 @@
         "exploration",
         "demonstration"
       ]
-    },
-    {
-      "title": "Slice of Martian Meteorite Teghaza 001",
-      "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
-      "date": "2026-10-29",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
-      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
-      "date": "2026-10-28",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "Webb Sees Turbulent Star Nursery",
-      "url": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
-      "date": "2026-10-28",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "satellites"
-      ],
-      "stale": false
     },
     {
       "title": "First light: Hera resolves two asteroids instead of one",
@@ -1230,7 +1228,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
@@ -1255,7 +1254,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화",
@@ -1292,7 +1292,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "초소형군집위성, 발사 약 14시간 만에 첫 지상 관측 영상 획득 성공",
@@ -1557,7 +1558,8 @@
       "language": "en",
       "topics": [
         "satellites"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -1609,7 +1611,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch result of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1622,7 +1625,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch time and Launch window of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9",
@@ -1635,7 +1639,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Launch Schedule of MICHIBIKI No. 7, Quasi-Zenith Satellite System (QZS-7) aboard H3 Launch Vehicle flight No.9 [Rescheduled]",
@@ -1648,20 +1653,8 @@
       "topics": [
         "satellites",
         "demonstration"
-      ]
-    },
-    {
-      "title": "다누리, 달 궤도에서 인공물 충돌 전후 포착",
-      "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c/18698",
-      "date": "2026-08-06",
-      "source_id": "kari",
-      "source": "KARI",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "mission",
-        "exploration"
-      ]
+      ],
+      "stale": true
     }
   ]
 }
