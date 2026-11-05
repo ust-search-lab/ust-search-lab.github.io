@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-05T16:55:31+09:00",
+  "updated_at": "2026-11-06T05:41:03+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-05T16:55:31+09:00",
+      "last_success_at": "2026-11-06T05:41:03+09:00",
       "status": "ok",
       "items": [
         {
@@ -260,7 +260,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-05T16:55:31+09:00",
+      "last_success_at": "2026-11-06T05:41:03+09:00",
       "status": "ok",
       "items": [
         {
@@ -515,9 +515,28 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-05T16:55:31+09:00",
+      "last_success_at": "2026-11-06T05:41:03+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.11.004",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.004",
+          "title": "Numerical Investigation on Drag Reduction and Thermal Protection Characteristics of Dual-Jet Combustion in a Supersonic Turbulent Boundary Layer",
+          "authors": [
+            "Hongpeng Liu",
+            "Rui Xia",
+            "Wei Liu",
+            "Xiaogang Deng"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "entry"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.10.071",
           "url": "https://doi.org/10.1016/j.actaastro.2026.10.071",
@@ -727,24 +746,6 @@
             "Bin Zhao",
             "Ken Chen",
             "Gang Pei"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.043",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.043",
-          "title": "Enabling planetary defense: Science, law, ethics",
-          "authors": [
-            "Evie Kendal",
-            "Madison Kujawa",
-            "Philip Lubin"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1028,6 +1029,25 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.004",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.004",
+      "title": "Numerical Investigation on Drag Reduction and Thermal Protection Characteristics of Dual-Jet Combustion in a Supersonic Turbulent Boundary Layer",
+      "authors": [
+        "Hongpeng Liu",
+        "Rui Xia",
+        "Wei Liu",
+        "Xiaogang Deng"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "entry"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.071",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.071",
       "title": "Sustained Agglomerate Flow and Low-Gravity Prediction of Chang’e-6 Lunar Regolith",
@@ -1236,24 +1256,6 @@
         "Bin Zhao",
         "Ken Chen",
         "Gang Pei"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.06.043",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.043",
-      "title": "Enabling planetary defense: Science, law, ethics",
-      "authors": [
-        "Evie Kendal",
-        "Madison Kujawa",
-        "Philip Lubin"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
