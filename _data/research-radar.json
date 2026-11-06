@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-06T16:56:35+09:00",
+  "updated_at": "2026-11-07T04:57:41+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-06T16:56:35+09:00",
+      "last_success_at": "2026-11-07T04:57:41+09:00",
       "status": "ok",
       "items": [
         {
@@ -260,7 +260,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-06T16:56:35+09:00",
+      "last_success_at": "2026-11-07T04:57:41+09:00",
       "status": "ok",
       "items": [
         {
@@ -515,7 +515,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-06T16:56:35+09:00",
+      "last_success_at": "2026-11-07T04:57:41+09:00",
       "status": "ok",
       "items": [
         {
@@ -548,6 +548,75 @@
             "Yifei Cui",
             "Guodong Wang",
             "Peng Feng"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.10.062",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.062",
+          "title": "Topology-based screening of radio-frequency blockage in reentry plasma using flight-test data",
+          "authors": [
+            "Zikai Yong",
+            "Wu Dong-Yi"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "entry"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.10.060",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.060",
+          "title": "A virtual blueprint-based guidance framework for autonomous lunar construction",
+          "authors": [
+            "Ziyue Feng",
+            "Yang Gao",
+            "Shuai Yuan"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "control",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.10.058",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.058",
+          "title": "All-directional optimal Glideslope approach for rendezvous of satellites in proximity",
+          "authors": [
+            "Abhisek Mishra",
+            "Satadal Ghosh"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "control"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.10.057",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.10.057",
+          "title": "RoverDevKit: An open, physics-grounded tradespace toolkit for conceptual design of lunar micro-rovers",
+          "authors": [
+            "Jon Reifschneider"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -670,82 +739,6 @@
             "Jie Yang",
             "Wei Xiao",
             "Kaixuan Zhao"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.050",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.050",
-          "title": "Coupled Eulerian-Lagrangian finite element models of static and percussive excavation mechanics of lunar regolith and simulants",
-          "authors": [
-            "Jared M. Long-Fox",
-            "Robert P. Mueller",
-            "Kris A. Zacny",
-            "Daniel T. Britt"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.047",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.047",
-          "title": "Defining admissible control regions using invariant manifolds in the circular restricted three-body problem",
-          "authors": [
-            "David Schwab",
-            "Puneet Singla",
-            "Roshan Eapen"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.045",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.045",
-          "title": "Bayesian game-theoretic framework for cislunar space domain awareness architectures across Earth–Moon Lagrange points",
-          "authors": [
-            "John Boh",
-            "Zachary Funke",
-            "Maruthi Akella"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics",
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.044",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.044",
-          "title": "Thermal and solar constraints on water ice prospecting at the lunar south pole",
-          "authors": [
-            "Junke Zhang",
-            "Wengan Sun",
-            "Bin Zhao",
-            "Ken Chen",
-            "Gang Pei"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1069,6 +1062,75 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.10.062",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.062",
+      "title": "Topology-based screening of radio-frequency blockage in reentry plasma using flight-test data",
+      "authors": [
+        "Zikai Yong",
+        "Wu Dong-Yi"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.10.060",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.060",
+      "title": "A virtual blueprint-based guidance framework for autonomous lunar construction",
+      "authors": [
+        "Ziyue Feng",
+        "Yang Gao",
+        "Shuai Yuan"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "control",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.10.058",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.058",
+      "title": "All-directional optimal Glideslope approach for rendezvous of satellites in proximity",
+      "authors": [
+        "Abhisek Mishra",
+        "Satadal Ghosh"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "control"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.10.057",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.10.057",
+      "title": "RoverDevKit: An open, physics-grounded tradespace toolkit for conceptual design of lunar micro-rovers",
+      "authors": [
+        "Jon Reifschneider"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.07.008",
       "url": "https://doi.org/10.1016/j.actaastro.2026.07.008",
       "title": "Vibration-induced friction reduction in lunar regolith simulant: Mechanisms and key parameters",
@@ -1180,82 +1242,6 @@
         "Jie Yang",
         "Wei Xiao",
         "Kaixuan Zhao"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.06.050",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.050",
-      "title": "Coupled Eulerian-Lagrangian finite element models of static and percussive excavation mechanics of lunar regolith and simulants",
-      "authors": [
-        "Jared M. Long-Fox",
-        "Robert P. Mueller",
-        "Kris A. Zacny",
-        "Daniel T. Britt"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.06.047",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.047",
-      "title": "Defining admissible control regions using invariant manifolds in the circular restricted three-body problem",
-      "authors": [
-        "David Schwab",
-        "Puneet Singla",
-        "Roshan Eapen"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.06.045",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.045",
-      "title": "Bayesian game-theoretic framework for cislunar space domain awareness architectures across Earth–Moon Lagrange points",
-      "authors": [
-        "John Boh",
-        "Zachary Funke",
-        "Maruthi Akella"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics",
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.06.044",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.044",
-      "title": "Thermal and solar constraints on water ice prospecting at the lunar south pole",
-      "authors": [
-        "Junke Zhang",
-        "Wengan Sun",
-        "Bin Zhao",
-        "Ken Chen",
-        "Gang Pei"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
