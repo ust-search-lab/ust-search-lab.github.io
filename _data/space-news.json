@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:49:56+09:00",
+  "updated_at": "2026-11-06T17:30:06+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-06T05:49:56+09:00",
-      "last_success_at": "2026-11-06T05:49:56+09:00",
+      "last_retrieved_at": "2026-11-06T17:30:06+09:00",
+      "last_success_at": "2026-11-06T17:30:06+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-06T05:49:56+09:00",
-      "last_success_at": "2026-11-06T05:49:56+09:00",
+      "last_retrieved_at": "2026-11-06T17:30:06+09:00",
+      "last_success_at": "2026-11-06T17:30:06+09:00",
       "items": [
         {
           "title": "미국 스위프트(SWIFT) 우주망원경 4일 저녁 대기권 재진입 예상 한반도 영향 없어",
@@ -294,8 +294,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-06T05:49:56+09:00",
-      "last_success_at": "2026-11-06T05:49:56+09:00",
+      "last_retrieved_at": "2026-11-06T17:30:06+09:00",
+      "last_success_at": "2026-11-06T17:30:06+09:00",
       "items": [
         {
           "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
@@ -332,7 +332,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
@@ -346,7 +347,8 @@
             "exploration",
             "control",
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
@@ -460,8 +462,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-06T05:49:56+09:00",
-      "last_success_at": "2026-11-06T05:49:56+09:00",
+      "last_retrieved_at": "2026-11-06T17:30:06+09:00",
+      "last_success_at": "2026-11-06T17:30:06+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -795,8 +797,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-06T05:49:56+09:00",
-      "last_success_at": "2026-11-06T05:49:56+09:00",
+      "last_retrieved_at": "2026-11-06T17:30:06+09:00",
+      "last_success_at": "2026-11-06T17:30:06+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -939,7 +941,8 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
@@ -953,7 +956,8 @@
         "exploration",
         "control",
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "미국 스위프트(SWIFT) 우주망원경 4일 저녁 대기권 재진입 예상 한반도 영향 없어",
