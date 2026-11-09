@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T03:30:01+09:00",
+  "updated_at": "2026-11-09T17:40:22+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-09T03:30:01+09:00",
-      "last_success_at": "2026-11-09T03:30:01+09:00",
+      "last_retrieved_at": "2026-11-09T17:40:22+09:00",
+      "last_success_at": "2026-11-09T17:40:22+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-09T03:30:01+09:00",
-      "last_success_at": "2026-11-09T03:30:01+09:00",
+      "last_retrieved_at": "2026-11-09T17:40:22+09:00",
+      "last_success_at": "2026-11-09T17:40:22+09:00",
       "items": [
         {
           "title": "미국 스위프트(SWIFT) 우주망원경 4일 저녁 대기권 재진입 예상 한반도 영향 없어",
@@ -294,8 +294,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-09T03:30:01+09:00",
-      "last_success_at": "2026-11-09T03:30:01+09:00",
+      "last_retrieved_at": "2026-11-09T17:40:22+09:00",
+      "last_success_at": "2026-11-09T17:40:22+09:00",
       "items": [
         {
           "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
@@ -459,8 +459,9 @@
       "name": "NASA/JPL",
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
-      "status": "stale",
-      "last_success_at": "2026-11-08T16:58:47+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-11-09T17:40:22+09:00",
+      "last_success_at": "2026-11-09T17:40:22+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -472,8 +473,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
@@ -486,8 +486,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
@@ -499,8 +498,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
@@ -513,8 +511,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -526,8 +523,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -540,8 +536,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
@@ -553,8 +548,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
@@ -566,8 +560,7 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -580,7 +573,7 @@
           "topics": [
             "satellites"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -593,7 +586,7 @@
           "topics": [
             "satellites"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
@@ -606,7 +599,7 @@
           "topics": [
             "mission"
           ],
-          "stale": true
+          "stale": false
         },
         {
           "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
@@ -620,7 +613,7 @@
             "exploration",
             "communications"
           ],
-          "stale": true
+          "stale": false
         }
       ]
     },
@@ -802,8 +795,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-09T03:30:01+09:00",
-      "last_success_at": "2026-11-09T03:30:01+09:00",
+      "last_retrieved_at": "2026-11-09T17:40:22+09:00",
+      "last_success_at": "2026-11-09T17:40:22+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -1086,8 +1079,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
@@ -1100,8 +1092,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "First light: Hera resolves two asteroids instead of one",
@@ -1126,8 +1117,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
@@ -1228,8 +1218,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -1331,8 +1320,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Earth today, Jupiter tomorrow: An insight into Juice’s recent Earth flyby",
@@ -1358,8 +1346,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
@@ -1503,8 +1490,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "누리호 5호기, 발사대로 이송 시작",
@@ -1540,8 +1526,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
@@ -1554,7 +1539,7 @@
       "topics": [
         "satellites"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -1567,7 +1552,7 @@
       "topics": [
         "satellites"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -1592,7 +1577,7 @@
       "topics": [
         "mission"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "누리호 5차, 10월 7일 발사",
@@ -1618,7 +1603,7 @@
         "exploration",
         "communications"
       ],
-      "stale": true
+      "stale": false
     },
     {
       "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
