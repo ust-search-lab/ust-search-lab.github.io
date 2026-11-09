@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-09T16:59:38+09:00",
+  "updated_at": "2026-11-10T07:59:33+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,68 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-09T16:59:38+09:00",
+      "last_success_at": "2026-11-10T07:59:33+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g010126",
+          "url": "https://doi.org/10.2514/1.g010126",
+          "title": "Analytical Solution for Low-Thrust Transfers Between Elliptical Orbits under J2 Perturbation",
+          "authors": [
+            "Zhengqing Fang",
+            "Roberto Armellin",
+            "Yingkai Cai",
+            "Zhaokui Wang"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-09",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009942",
+          "url": "https://doi.org/10.2514/1.g009942",
+          "title": "Polynomial Updates for the Unscented Kalman Filter",
+          "authors": [
+            "Chiran Binnu Cherian",
+            "Simone Servadio"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-09",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g009357",
+          "url": "https://doi.org/10.2514/1.g009357",
+          "title": "Successive Convexification for Passively Safe Spacecraft Rendezvous on Near-Rectilinear Halo Orbit",
+          "authors": [
+            "Purnanand Elango",
+            "Abraham P. Vinod",
+            "Kenji Kitamura",
+            "Behçet Açıkmeşe",
+            "Stefano Di Cairano",
+            "Avishai Weiss"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-09",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics",
+            "control",
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.g010294",
           "url": "https://doi.org/10.2514/1.g010294",
@@ -194,59 +253,6 @@
           "topics": [
             "astrodynamics"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009763",
-          "url": "https://doi.org/10.2514/1.g009763",
-          "title": "Station-Keeping for Periodic Orbit Manifolds in Cislunar Space via a Polynomial Approach",
-          "authors": [
-            "Mohammed Atallah",
-            "Simone Servadio"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics",
-            "control"
-          ]
-        },
-        {
-          "doi": "10.2514/1.g009514",
-          "url": "https://doi.org/10.2514/1.g009514",
-          "title": "epsilon-Propellant Optimality in Powered Descent Guidance with Continuous Thrust",
-          "authors": [
-            "Ping Lu"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "control",
-            "planetary",
-            "entry"
-          ]
-        },
-        {
-          "doi": "10.2514/1.g009272",
-          "url": "https://doi.org/10.2514/1.g009272",
-          "title": "Structural Controllability-Based Control-Oriented Modeling of Relative Orbits Considering Continuous Controllability",
-          "authors": [
-            "Takahiro Sasaki"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics",
-            "control"
-          ]
         }
       ]
     },
@@ -260,9 +266,47 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-09T16:59:38+09:00",
+      "last_success_at": "2026-11-10T07:59:33+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.a36758",
+          "url": "https://doi.org/10.2514/1.a36758",
+          "title": "Trajectory-Scale Fluid–Thermal Analysis of a High-Speed Control Surface Gap",
+          "authors": [
+            "Jon A. Willems",
+            "Jack J. McNamara",
+            "Daniel A. Reasor",
+            "Thomas A. Mason",
+            "Christopher S. Weston",
+            "Carlos E. S. Cesnik"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-09",
+          "date_type": "published-online",
+          "topics": [
+            "entry"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36747",
+          "url": "https://doi.org/10.2514/1.a36747",
+          "title": "Dragonfly Entry Vehicle Dynamic Stability During the Preparation for Powered Flight Phase",
+          "authors": [
+            "D. Bruce Owens"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-09",
+          "date_type": "published-online",
+          "topics": [
+            "planetary",
+            "entry"
+          ]
+        },
         {
           "doi": "10.2514/1.a36792",
           "url": "https://doi.org/10.2514/1.a36792",
@@ -461,48 +505,6 @@
           "topics": [
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.a36553",
-          "url": "https://doi.org/10.2514/1.a36553",
-          "title": "Aerocapture Guidance, Navigation, and Control for Uranus Orbiter and Probe",
-          "authors": [
-            "Rohan G. Deshmukh",
-            "Soumyo Dutta",
-            "Daniel A. Matz",
-            "Sergio Sandoval",
-            "Pardha Sai Chadalavada"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-09-23",
-          "date_type": "published-online",
-          "topics": [
-            "astrodynamics",
-            "control",
-            "planetary",
-            "entry"
-          ]
-        },
-        {
-          "doi": "10.2514/1.a36648",
-          "url": "https://doi.org/10.2514/1.a36648",
-          "title": "Quasi-Periodic Motion Around Short-Period Orbits for Cislunar Applications",
-          "authors": [
-            "Franco Criscola",
-            "David Canales",
-            "Ariadna Farres"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-09-12",
-          "date_type": "published-online",
-          "topics": [
-            "astrodynamics",
-            "planetary"
-          ]
         }
       ]
     },
@@ -515,7 +517,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-09T16:59:38+09:00",
+      "last_success_at": "2026-11-10T07:59:33+09:00",
       "status": "ok",
       "items": [
         {
@@ -751,6 +753,103 @@
   "pinned": [],
   "items": [
     {
+      "doi": "10.2514/1.g010126",
+      "url": "https://doi.org/10.2514/1.g010126",
+      "title": "Analytical Solution for Low-Thrust Transfers Between Elliptical Orbits under J2 Perturbation",
+      "authors": [
+        "Zhengqing Fang",
+        "Roberto Armellin",
+        "Yingkai Cai",
+        "Zhaokui Wang"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-09",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009942",
+      "url": "https://doi.org/10.2514/1.g009942",
+      "title": "Polynomial Updates for the Unscented Kalman Filter",
+      "authors": [
+        "Chiran Binnu Cherian",
+        "Simone Servadio"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-09",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g009357",
+      "url": "https://doi.org/10.2514/1.g009357",
+      "title": "Successive Convexification for Passively Safe Spacecraft Rendezvous on Near-Rectilinear Halo Orbit",
+      "authors": [
+        "Purnanand Elango",
+        "Abraham P. Vinod",
+        "Kenji Kitamura",
+        "Behçet Açıkmeşe",
+        "Stefano Di Cairano",
+        "Avishai Weiss"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-09",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics",
+        "control",
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36758",
+      "url": "https://doi.org/10.2514/1.a36758",
+      "title": "Trajectory-Scale Fluid–Thermal Analysis of a High-Speed Control Surface Gap",
+      "authors": [
+        "Jon A. Willems",
+        "Jack J. McNamara",
+        "Daniel A. Reasor",
+        "Thomas A. Mason",
+        "Christopher S. Weston",
+        "Carlos E. S. Cesnik"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-09",
+      "date_type": "published-online",
+      "topics": [
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36747",
+      "url": "https://doi.org/10.2514/1.a36747",
+      "title": "Dragonfly Entry Vehicle Dynamic Stability During the Preparation for Powered Flight Phase",
+      "authors": [
+        "D. Bruce Owens"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-09",
+      "date_type": "published-online",
+      "topics": [
+        "planetary",
+        "entry"
+      ]
+    },
+    {
       "doi": "10.2514/1.g010294",
       "url": "https://doi.org/10.2514/1.g010294",
       "title": "Station-Keeping Approach for Extremely Low Lunar Orbits with Solar Sailing",
@@ -962,59 +1061,6 @@
       "date_type": "published-print",
       "topics": [
         "astrodynamics"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009763",
-      "url": "https://doi.org/10.2514/1.g009763",
-      "title": "Station-Keeping for Periodic Orbit Manifolds in Cislunar Space via a Polynomial Approach",
-      "authors": [
-        "Mohammed Atallah",
-        "Simone Servadio"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics",
-        "control"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009514",
-      "url": "https://doi.org/10.2514/1.g009514",
-      "title": "epsilon-Propellant Optimality in Powered Descent Guidance with Continuous Thrust",
-      "authors": [
-        "Ping Lu"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "control",
-        "planetary",
-        "entry"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009272",
-      "url": "https://doi.org/10.2514/1.g009272",
-      "title": "Structural Controllability-Based Control-Oriented Modeling of Relative Orbits Considering Continuous Controllability",
-      "authors": [
-        "Takahiro Sasaki"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics",
-        "control"
       ]
     },
     {
@@ -1403,48 +1449,6 @@
       "date": "2026-09-27",
       "date_type": "published-online",
       "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36553",
-      "url": "https://doi.org/10.2514/1.a36553",
-      "title": "Aerocapture Guidance, Navigation, and Control for Uranus Orbiter and Probe",
-      "authors": [
-        "Rohan G. Deshmukh",
-        "Soumyo Dutta",
-        "Daniel A. Matz",
-        "Sergio Sandoval",
-        "Pardha Sai Chadalavada"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-09-23",
-      "date_type": "published-online",
-      "topics": [
-        "astrodynamics",
-        "control",
-        "planetary",
-        "entry"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36648",
-      "url": "https://doi.org/10.2514/1.a36648",
-      "title": "Quasi-Periodic Motion Around Short-Period Orbits for Cislunar Applications",
-      "authors": [
-        "Franco Criscola",
-        "David Canales",
-        "Ariadna Farres"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-09-12",
-      "date_type": "published-online",
-      "topics": [
-        "astrodynamics",
         "planetary"
       ]
     }
