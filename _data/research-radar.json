@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-10T17:26:57+09:00",
+  "updated_at": "2026-11-11T05:28:28+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-10T17:26:57+09:00",
+      "last_success_at": "2026-11-11T05:28:28+09:00",
       "status": "ok",
       "items": [
         {
@@ -266,7 +266,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-10T17:26:57+09:00",
+      "last_success_at": "2026-11-11T05:28:28+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,7 +517,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-10T17:26:57+09:00",
+      "last_success_at": "2026-11-11T05:28:28+09:00",
       "status": "ok",
       "items": [
         {
@@ -537,6 +537,26 @@
           "date_type": "published-print",
           "topics": [
             "entry"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.11.003",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.003",
+          "title": "Hierarchical conflict resolution for orbital transfer scheduling in LEO constellations under partial satellite failures",
+          "authors": [
+            "Tianhang Song",
+            "Xianghong Xue",
+            "Chi Li",
+            "Youmin Zhang",
+            "Lingxia Mu"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
           ]
         },
         {
@@ -718,25 +738,6 @@
             "J. Gómez-Elvira",
             "M. Marín",
             "J.A. Rodríguez-Manfredi"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.056",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.056",
-          "title": "Data-driven surrogate modeling for fast reachability envelope prediction of direct abort orbits for manned lunar exploration missions",
-          "authors": [
-            "Zhenjiang Du",
-            "Heng Jing",
-            "Haiyang Li",
-            "Xiang Guo"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1083,6 +1084,26 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.003",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.003",
+      "title": "Hierarchical conflict resolution for orbital transfer scheduling in LEO constellations under partial satellite failures",
+      "authors": [
+        "Tianhang Song",
+        "Xianghong Xue",
+        "Chi Li",
+        "Youmin Zhang",
+        "Lingxia Mu"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.10.072",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.072",
       "title": "Feasibility study for a Planetary Sunshade Power Plant",
@@ -1261,25 +1282,6 @@
         "J. Gómez-Elvira",
         "M. Marín",
         "J.A. Rodríguez-Manfredi"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.06.056",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.056",
-      "title": "Data-driven surrogate modeling for fast reachability envelope prediction of direct abort orbits for manned lunar exploration missions",
-      "authors": [
-        "Zhenjiang Du",
-        "Heng Jing",
-        "Haiyang Li",
-        "Xiang Guo"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
