@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:50:41+09:00",
+  "updated_at": "2026-11-13T06:06:20+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-12T17:50:41+09:00",
-      "last_success_at": "2026-11-12T17:50:41+09:00",
+      "last_retrieved_at": "2026-11-13T06:06:20+09:00",
+      "last_success_at": "2026-11-13T06:06:20+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-12T17:50:41+09:00",
-      "last_success_at": "2026-11-12T17:50:41+09:00",
+      "last_retrieved_at": "2026-11-13T06:06:20+09:00",
+      "last_success_at": "2026-11-13T06:06:20+09:00",
       "items": [
         {
           "title": "정지궤도 환경·해양위성(천리안위성 6호)의 청사진 공개 산·학·연 참여의 장 열어",
@@ -292,9 +292,22 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-12T17:50:41+09:00",
-      "last_success_at": "2026-11-12T17:50:41+09:00",
+      "last_retrieved_at": "2026-11-13T06:06:20+09:00",
+      "last_success_at": "2026-11-13T06:06:20+09:00",
       "items": [
+        {
+          "title": "I Am Artemis Katie Spicer",
+          "url": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
+          "date": "2026-11-12",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration",
+            "demonstration"
+          ]
+        },
         {
           "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
           "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
@@ -317,7 +330,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
@@ -329,7 +343,8 @@
           "language": "en",
           "topics": [
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
@@ -435,19 +450,6 @@
             "exploration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
-          "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
-          "date": "2026-11-09",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission"
-          ],
-          "stale": false
         }
       ]
     },
@@ -457,8 +459,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-12T17:50:41+09:00",
-      "last_success_at": "2026-11-12T17:50:41+09:00",
+      "last_retrieved_at": "2026-11-13T06:06:20+09:00",
+      "last_success_at": "2026-11-13T06:06:20+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -792,8 +794,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-12T17:50:41+09:00",
-      "last_success_at": "2026-11-12T17:50:41+09:00",
+      "last_retrieved_at": "2026-11-13T06:06:20+09:00",
+      "last_success_at": "2026-11-13T06:06:20+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -863,6 +865,19 @@
   ],
   "items": [
     {
+      "title": "I Am Artemis Katie Spicer",
+      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
+      "date": "2026-11-12",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration",
+        "demonstration"
+      ]
+    },
+    {
       "title": "정지궤도 환경·해양위성(천리안위성 6호)의 청사진 공개 산·학·연 참여의 장 열어",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788900",
       "date": "2026-11-12",
@@ -909,7 +924,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
@@ -921,7 +937,8 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
@@ -1025,19 +1042,6 @@
       "topics": [
         "mission",
         "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
-      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
-      "date": "2026-11-09",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission"
       ],
       "stale": false
     },
