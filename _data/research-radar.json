@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-12T17:22:06+09:00",
+  "updated_at": "2026-11-13T05:50:12+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-12T17:22:06+09:00",
+      "last_success_at": "2026-11-13T05:50:12+09:00",
       "status": "ok",
       "items": [
         {
@@ -266,7 +266,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-12T17:22:06+09:00",
+      "last_success_at": "2026-11-13T05:50:12+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,9 +517,30 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-12T17:22:06+09:00",
+      "last_success_at": "2026-11-13T05:50:12+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.11.010",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.010",
+          "title": "Three-body earth-moon transfers with different departure/arrival orbital altitudes: New phenomenon and diffusion model-augmented construction",
+          "authors": [
+            "Shuyue Fu",
+            "Wenxuan Zhang",
+            "Di Wu",
+            "Shengping Gong",
+            "Peng Shi"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics",
+            "planetary"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.11.007",
           "url": "https://doi.org/10.1016/j.actaastro.2026.11.007",
@@ -717,23 +738,6 @@
             "Lianbin He",
             "Yingchun Qi",
             "Meng Zou"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.07.001",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.07.001",
-          "title": "Strength assessment of testing samples produced from lunar regolith simulant by selective laser melting",
-          "authors": [
-            "Artem Lysenko",
-            "Tatiana Tomilina"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1061,6 +1065,27 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.010",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.010",
+      "title": "Three-body earth-moon transfers with different departure/arrival orbital altitudes: New phenomenon and diffusion model-augmented construction",
+      "authors": [
+        "Shuyue Fu",
+        "Wenxuan Zhang",
+        "Di Wu",
+        "Shengping Gong",
+        "Peng Shi"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics",
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.11.007",
       "url": "https://doi.org/10.1016/j.actaastro.2026.11.007",
       "title": "Converging conclusions in planetary sunshade literature",
@@ -1257,23 +1282,6 @@
         "Lianbin He",
         "Yingchun Qi",
         "Meng Zou"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.07.001",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.07.001",
-      "title": "Strength assessment of testing samples produced from lunar regolith simulant by selective laser melting",
-      "authors": [
-        "Artem Lysenko",
-        "Tatiana Tomilina"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
