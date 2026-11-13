@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-13T05:50:12+09:00",
+  "updated_at": "2026-11-13T17:01:20+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-13T05:50:12+09:00",
+      "last_success_at": "2026-11-13T17:01:20+09:00",
       "status": "ok",
       "items": [
         {
@@ -266,7 +266,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-13T05:50:12+09:00",
+      "last_success_at": "2026-11-13T17:01:20+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,7 +517,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-13T05:50:12+09:00",
+      "last_success_at": "2026-11-13T17:01:20+09:00",
       "status": "ok",
       "items": [
         {
@@ -538,6 +538,28 @@
           "date_type": "published-print",
           "topics": [
             "astrodynamics",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.11.008",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.008",
+          "title": "A framework for standardised characterisation of bulk material handling properties of planetary regolith simulants",
+          "authors": [
+            "Marko Pratnekar",
+            "Vivek Garg",
+            "Christopher Ogunlesi",
+            "May Martin",
+            "Danielle Frances Vosper",
+            "Michael S.A. Bradley",
+            "David C. Cullen"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
             "planetary"
           ]
         },
@@ -634,23 +656,6 @@
           "date_type": "published-print",
           "topics": [
             "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.10.062",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.10.062",
-          "title": "Topology-based screening of radio-frequency blockage in reentry plasma using flight-test data",
-          "authors": [
-            "Zikai Yong",
-            "Wu Dong-Yi"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "entry"
           ]
         },
         {
@@ -1086,6 +1091,28 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.008",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.008",
+      "title": "A framework for standardised characterisation of bulk material handling properties of planetary regolith simulants",
+      "authors": [
+        "Marko Pratnekar",
+        "Vivek Garg",
+        "Christopher Ogunlesi",
+        "May Martin",
+        "Danielle Frances Vosper",
+        "Michael S.A. Bradley",
+        "David C. Cullen"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.11.007",
       "url": "https://doi.org/10.1016/j.actaastro.2026.11.007",
       "title": "Converging conclusions in planetary sunshade literature",
@@ -1178,23 +1205,6 @@
       "date_type": "published-print",
       "topics": [
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.10.062",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.10.062",
-      "title": "Topology-based screening of radio-frequency blockage in reentry plasma using flight-test data",
-      "authors": [
-        "Zikai Yong",
-        "Wu Dong-Yi"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "entry"
       ]
     },
     {
