@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-13T17:01:20+09:00",
+  "updated_at": "2026-11-14T05:29:37+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-13T17:01:20+09:00",
+      "last_success_at": "2026-11-14T05:29:37+09:00",
       "status": "ok",
       "items": [
         {
@@ -266,7 +266,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-13T17:01:20+09:00",
+      "last_success_at": "2026-11-14T05:29:37+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,7 +517,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-13T17:01:20+09:00",
+      "last_success_at": "2026-11-14T05:29:37+09:00",
       "status": "ok",
       "items": [
         {
@@ -538,6 +538,24 @@
           "date_type": "published-print",
           "topics": [
             "astrodynamics",
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.11.009",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.009",
+          "title": "Multi-temperature simulations of shock-heated CO2 flows under Mars entry conditions",
+          "authors": [
+            "Denis Kravchenko",
+            "Andrey Isakov",
+            "Elena Kustova"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
             "planetary"
           ]
         },
@@ -601,26 +619,6 @@
           ]
         },
         {
-          "doi": "10.1016/j.actaastro.2026.11.003",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.11.003",
-          "title": "Hierarchical conflict resolution for orbital transfer scheduling in LEO constellations under partial satellite failures",
-          "authors": [
-            "Tianhang Song",
-            "Xianghong Xue",
-            "Chi Li",
-            "Youmin Zhang",
-            "Lingxia Mu"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
-          ]
-        },
-        {
           "doi": "10.1016/j.actaastro.2026.10.072",
           "url": "https://doi.org/10.1016/j.actaastro.2026.10.072",
           "title": "Feasibility study for a Planetary Sunshade Power Plant",
@@ -648,58 +646,6 @@
             "Yifei Cui",
             "Guodong Wang",
             "Peng Feng"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.10.060",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.10.060",
-          "title": "A virtual blueprint-based guidance framework for autonomous lunar construction",
-          "authors": [
-            "Ziyue Feng",
-            "Yang Gao",
-            "Shuai Yuan"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "control",
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.10.058",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.10.058",
-          "title": "All-directional optimal Glideslope approach for rendezvous of satellites in proximity",
-          "authors": [
-            "Abhisek Mishra",
-            "Satadal Ghosh"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "control"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.10.057",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.10.057",
-          "title": "RoverDevKit: An open, physics-grounded tradespace toolkit for conceptual design of lunar micro-rovers",
-          "authors": [
-            "Jon Reifschneider"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -743,6 +689,64 @@
             "Lianbin He",
             "Yingchun Qi",
             "Meng Zou"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.07.001",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.07.001",
+          "title": "Strength assessment of testing samples produced from lunar regolith simulant by selective laser melting",
+          "authors": [
+            "Artem Lysenko",
+            "Tatiana Tomilina"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.06.058",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.06.058",
+          "title": "A model for the estimation of freestream wind speeds and directions for Mars Environmental Dynamics Analyzer wind sensors in NASA-JPL Mars 2020 mission. Part II: A deep learning algorithm based on Computational Fluid Dynamics data",
+          "authors": [
+            "G. Martínez-Esteve",
+            "J. Torres",
+            "S. Navarro",
+            "C. Martín-Rubio",
+            "J. Gómez-Elvira",
+            "M. Marín",
+            "J.A. Rodríguez-Manfredi"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.06.056",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.06.056",
+          "title": "Data-driven surrogate modeling for fast reachability envelope prediction of direct abort orbits for manned lunar exploration missions",
+          "authors": [
+            "Zhenjiang Du",
+            "Heng Jing",
+            "Haiyang Li",
+            "Xiang Guo"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1091,6 +1095,24 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.009",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.009",
+      "title": "Multi-temperature simulations of shock-heated CO2 flows under Mars entry conditions",
+      "authors": [
+        "Denis Kravchenko",
+        "Andrey Isakov",
+        "Elena Kustova"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.11.008",
       "url": "https://doi.org/10.1016/j.actaastro.2026.11.008",
       "title": "A framework for standardised characterisation of bulk material handling properties of planetary regolith simulants",
@@ -1150,26 +1172,6 @@
       ]
     },
     {
-      "doi": "10.1016/j.actaastro.2026.11.003",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.11.003",
-      "title": "Hierarchical conflict resolution for orbital transfer scheduling in LEO constellations under partial satellite failures",
-      "authors": [
-        "Tianhang Song",
-        "Xianghong Xue",
-        "Chi Li",
-        "Youmin Zhang",
-        "Lingxia Mu"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
-      ]
-    },
-    {
       "doi": "10.1016/j.actaastro.2026.10.072",
       "url": "https://doi.org/10.1016/j.actaastro.2026.10.072",
       "title": "Feasibility study for a Planetary Sunshade Power Plant",
@@ -1197,58 +1199,6 @@
         "Yifei Cui",
         "Guodong Wang",
         "Peng Feng"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.10.060",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.10.060",
-      "title": "A virtual blueprint-based guidance framework for autonomous lunar construction",
-      "authors": [
-        "Ziyue Feng",
-        "Yang Gao",
-        "Shuai Yuan"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "control",
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.10.058",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.10.058",
-      "title": "All-directional optimal Glideslope approach for rendezvous of satellites in proximity",
-      "authors": [
-        "Abhisek Mishra",
-        "Satadal Ghosh"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "control"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.10.057",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.10.057",
-      "title": "RoverDevKit: An open, physics-grounded tradespace toolkit for conceptual design of lunar micro-rovers",
-      "authors": [
-        "Jon Reifschneider"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
@@ -1292,6 +1242,64 @@
         "Lianbin He",
         "Yingchun Qi",
         "Meng Zou"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.07.001",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.07.001",
+      "title": "Strength assessment of testing samples produced from lunar regolith simulant by selective laser melting",
+      "authors": [
+        "Artem Lysenko",
+        "Tatiana Tomilina"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.06.058",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.06.058",
+      "title": "A model for the estimation of freestream wind speeds and directions for Mars Environmental Dynamics Analyzer wind sensors in NASA-JPL Mars 2020 mission. Part II: A deep learning algorithm based on Computational Fluid Dynamics data",
+      "authors": [
+        "G. Martínez-Esteve",
+        "J. Torres",
+        "S. Navarro",
+        "C. Martín-Rubio",
+        "J. Gómez-Elvira",
+        "M. Marín",
+        "J.A. Rodríguez-Manfredi"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.06.056",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.06.056",
+      "title": "Data-driven surrogate modeling for fast reachability envelope prediction of direct abort orbits for manned lunar exploration missions",
+      "authors": [
+        "Zhenjiang Du",
+        "Heng Jing",
+        "Haiyang Li",
+        "Xiang Guo"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
