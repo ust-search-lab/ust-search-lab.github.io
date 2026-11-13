@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:46:16+09:00",
+  "updated_at": "2026-11-14T05:40:05+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -8,9 +8,9 @@
       "name": "KARI",
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
-      "status": "partial",
-      "last_retrieved_at": "2026-11-13T17:46:16+09:00",
-      "last_success_at": "2026-11-13T06:06:20+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-11-14T05:40:05+09:00",
+      "last_success_at": "2026-11-14T05:40:05+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-13T17:46:16+09:00",
-      "last_success_at": "2026-11-13T17:46:16+09:00",
+      "last_retrieved_at": "2026-11-14T05:40:05+09:00",
+      "last_success_at": "2026-11-14T05:40:05+09:00",
       "items": [
         {
           "title": "달 기지(Moon_Base) 건설 참여 확대를 위한 국내 산학연 역량 결집",
@@ -289,9 +289,23 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-13T17:46:16+09:00",
-      "last_success_at": "2026-11-13T17:46:16+09:00",
+      "last_retrieved_at": "2026-11-14T05:40:05+09:00",
+      "last_success_at": "2026-11-14T05:40:05+09:00",
       "items": [
+        {
+          "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+          "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+          "date": "2026-11-13",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "exploration",
+            "control"
+          ]
+        },
         {
           "title": "I Am Artemis Katie Spicer",
           "url": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
@@ -315,7 +329,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "CHAPEA Crew Leaves a Mark",
@@ -433,20 +448,6 @@
             "exploration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
-          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
-          "date": "2026-11-09",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "exploration"
-          ],
-          "stale": false
         }
       ]
     },
@@ -456,8 +457,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-13T17:46:16+09:00",
-      "last_success_at": "2026-11-13T17:46:16+09:00",
+      "last_retrieved_at": "2026-11-14T05:40:05+09:00",
+      "last_success_at": "2026-11-14T05:40:05+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -791,8 +792,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-13T17:46:16+09:00",
-      "last_success_at": "2026-11-13T17:46:16+09:00",
+      "last_retrieved_at": "2026-11-14T05:40:05+09:00",
+      "last_success_at": "2026-11-14T05:40:05+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -862,6 +863,20 @@
   ],
   "items": [
     {
+      "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+      "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+      "date": "2026-11-13",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "exploration",
+        "control"
+      ]
+    },
+    {
       "title": "달 기지(Moon_Base) 건설 참여 확대를 위한 국내 산학연 역량 결집",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789168",
       "date": "2026-11-13",
@@ -908,7 +923,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "'우주기술 연구실에서 시장으로' 전국 5개 우주기술 실용화센터 한자리에",
@@ -1036,20 +1052,6 @@
       "region": "international",
       "language": "en",
       "topics": [
-        "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
-      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
-      "date": "2026-11-09",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
         "exploration"
       ],
       "stale": false
