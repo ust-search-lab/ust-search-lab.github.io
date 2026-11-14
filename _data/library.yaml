@@ -1,5 +1,17 @@
 # Public downloadable resources, edited through /admin/.
 items:
+  - id: three-body-problem-mission-design-2022
+    title:
+      ko: "동역학계, 삼체문제와 우주임무 설계"
+      en: "Dynamical Systems, the Three-Body Problem and Space Mission Design"
+    description:
+      ko: "Koon, Lo, Marsden, Ross가 쓴 교재입니다. 원형제한삼체문제와 칭동점 주변 운동, 불변다양체를 이용한 저에너지 궤적 설계를 다루며 Genesis 임무와 달·목성 위성 전이 사례를 포함합니다. 2022년 개정판(v1.3), 영문 PDF 약 330쪽, 저자 웹사이트에서 무료 제공."
+      en: "A textbook by Koon, Lo, Marsden, and Ross on the circular restricted three-body problem, motion near libration points, and low-energy trajectory design using invariant manifolds, with examples from the Genesis mission and lunar and Jovian moon transfers. 2022 revision (v1.3); about 330-page PDF in English, freely available from the authors' website."
+    category: research
+    updated: "2026-11-14"
+    url: "https://ross.aoe.vt.edu/books/Ross_3BodyProblem_Book_2022.pdf"
+    cover: "/images/resources/covers/three-body-problem-mission-design-2022.jpg"
+    type: "PDF"
   - id: mars-planetary-protection-primer-2026
     title:
       ko: "화성탐사 행성보호 입문"
