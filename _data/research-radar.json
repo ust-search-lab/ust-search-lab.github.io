@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-15T16:52:59+09:00",
+  "updated_at": "2026-11-16T04:23:18+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,45 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-15T16:52:59+09:00",
+      "last_success_at": "2026-11-16T04:23:18+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g010259",
+          "url": "https://doi.org/10.2514/1.g010259",
+          "title": "Approximating Anisotropic Solar Radiation Pressure",
+          "authors": [
+            "Yasuhiro Yoshimura",
+            "Toshiya Hanada"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-15",
+          "date_type": "published-online",
+          "topics": [
+            "sail"
+          ]
+        },
+        {
+          "doi": "10.2514/1.g010075",
+          "url": "https://doi.org/10.2514/1.g010075",
+          "title": "Establishing a Well-Posed Parameterization for Solar-Sail In-Flight Calibration",
+          "authors": [
+            "Andrea Minervino Amodio",
+            "Daniel J. Scheeres",
+            "Dominic Dirkx",
+            "Jeannette Heiligers"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-15",
+          "date_type": "published-online",
+          "topics": [
+            "sail"
+          ]
+        },
         {
           "doi": "10.2514/1.g010126",
           "url": "https://doi.org/10.2514/1.g010126",
@@ -214,45 +250,6 @@
             "astrodynamics",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009814",
-          "url": "https://doi.org/10.2514/1.g009814",
-          "title": "Lunar Orbit Insertion Optimization Method Based on Retargeting Impulsive Controllable Set Features",
-          "authors": [
-            "Binyu Zhu",
-            "Haiyang Li",
-            "Zeyue Li",
-            "Jiyuan Lv"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics",
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.2514/1.g009798",
-          "url": "https://doi.org/10.2514/1.g009798",
-          "title": "Orbit Determination for Spacecraft with Dual Maneuver Modes via Tanh-Smoothed Parameterization",
-          "authors": [
-            "Jiawei Wu",
-            "Haibin Shang",
-            "Ai Gao",
-            "Yue Dong"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
-          ]
         }
       ]
     },
@@ -266,7 +263,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-15T16:52:59+09:00",
+      "last_success_at": "2026-11-16T04:23:18+09:00",
       "status": "ok",
       "items": [
         {
@@ -517,7 +514,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-15T16:52:59+09:00",
+      "last_success_at": "2026-11-16T04:23:18+09:00",
       "status": "ok",
       "items": [
         {
@@ -766,6 +763,42 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g010259",
+      "url": "https://doi.org/10.2514/1.g010259",
+      "title": "Approximating Anisotropic Solar Radiation Pressure",
+      "authors": [
+        "Yasuhiro Yoshimura",
+        "Toshiya Hanada"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-15",
+      "date_type": "published-online",
+      "topics": [
+        "sail"
+      ]
+    },
+    {
+      "doi": "10.2514/1.g010075",
+      "url": "https://doi.org/10.2514/1.g010075",
+      "title": "Establishing a Well-Posed Parameterization for Solar-Sail In-Flight Calibration",
+      "authors": [
+        "Andrea Minervino Amodio",
+        "Daniel J. Scheeres",
+        "Dominic Dirkx",
+        "Jeannette Heiligers"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-15",
+      "date_type": "published-online",
+      "topics": [
+        "sail"
+      ]
+    },
     {
       "doi": "10.2514/1.g010126",
       "url": "https://doi.org/10.2514/1.g010126",
@@ -1036,45 +1069,6 @@
       "topics": [
         "astrodynamics",
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009814",
-      "url": "https://doi.org/10.2514/1.g009814",
-      "title": "Lunar Orbit Insertion Optimization Method Based on Retargeting Impulsive Controllable Set Features",
-      "authors": [
-        "Binyu Zhu",
-        "Haiyang Li",
-        "Zeyue Li",
-        "Jiyuan Lv"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics",
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009798",
-      "url": "https://doi.org/10.2514/1.g009798",
-      "title": "Orbit Determination for Spacecraft with Dual Maneuver Modes via Tanh-Smoothed Parameterization",
-      "authors": [
-        "Jiawei Wu",
-        "Haibin Shang",
-        "Ai Gao",
-        "Yue Dong"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
       ]
     },
     {
