@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T04:27:56+09:00",
+  "updated_at": "2026-11-16T17:36:25+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T04:27:56+09:00",
-      "last_success_at": "2026-11-16T04:27:56+09:00",
+      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
+      "last_success_at": "2026-11-16T17:36:25+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,9 +129,21 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T04:27:56+09:00",
-      "last_success_at": "2026-11-16T04:27:56+09:00",
+      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
+      "last_success_at": "2026-11-16T17:36:25+09:00",
       "items": [
+        {
+          "title": "민간 위성기업 현장 맞춤형 '시스템엔지니어링 교육' 마쳐",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789389",
+          "date": "2026-11-16",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission"
+          ]
+        },
         {
           "title": "달 기지(Moon_Base) 건설 참여 확대를 위한 국내 산학연 역량 결집",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789168",
@@ -267,19 +279,6 @@
             "communications",
             "demonstration"
           ]
-        },
-        {
-          "title": "누리호 5차 발사 부탑재위성 9기 모두 교신 성공",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784938",
-          "date": "2026-10-13",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "exploration",
-            "demonstration"
-          ]
         }
       ]
     },
@@ -289,8 +288,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T04:27:56+09:00",
-      "last_success_at": "2026-11-16T04:27:56+09:00",
+      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
+      "last_success_at": "2026-11-16T17:36:25+09:00",
       "items": [
         {
           "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
@@ -457,8 +456,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T04:27:56+09:00",
-      "last_success_at": "2026-11-16T04:27:56+09:00",
+      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
+      "last_success_at": "2026-11-16T17:36:25+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -792,8 +791,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T04:27:56+09:00",
-      "last_success_at": "2026-11-16T04:27:56+09:00",
+      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
+      "last_success_at": "2026-11-16T17:36:25+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -862,6 +861,18 @@
     }
   ],
   "items": [
+    {
+      "title": "민간 위성기업 현장 맞춤형 '시스템엔지니어링 교육' 마쳐",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789389",
+      "date": "2026-11-16",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission"
+      ]
+    },
     {
       "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
       "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
