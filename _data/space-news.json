@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T17:36:25+09:00",
+  "updated_at": "2026-11-17T08:01:57+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
-      "last_success_at": "2026-11-16T17:36:25+09:00",
+      "last_retrieved_at": "2026-11-17T08:01:57+09:00",
+      "last_success_at": "2026-11-17T08:01:57+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
-      "last_success_at": "2026-11-16T17:36:25+09:00",
+      "last_retrieved_at": "2026-11-17T08:01:57+09:00",
+      "last_success_at": "2026-11-17T08:01:57+09:00",
       "items": [
         {
           "title": "민간 위성기업 현장 맞춤형 '시스템엔지니어링 교육' 마쳐",
@@ -288,9 +288,34 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
-      "last_success_at": "2026-11-16T17:36:25+09:00",
+      "last_retrieved_at": "2026-11-17T08:01:57+09:00",
+      "last_success_at": "2026-11-17T08:01:57+09:00",
       "items": [
+        {
+          "title": "Sentinel-6B in Orbit Around Earth",
+          "url": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+          "date": "2026-11-16",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "satellites"
+          ]
+        },
+        {
+          "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
+          "url": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
+          "date": "2026-11-16",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
           "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
@@ -420,33 +445,6 @@
             "demonstration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
-          "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
-          "date": "2026-11-09",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "satellites",
-            "demonstration"
-          ],
-          "stale": false
-        },
-        {
-          "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
-          "url": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
-          "date": "2026-11-09",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
         }
       ]
     },
@@ -456,8 +454,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
-      "last_success_at": "2026-11-16T17:36:25+09:00",
+      "last_retrieved_at": "2026-11-17T08:01:57+09:00",
+      "last_success_at": "2026-11-17T08:01:57+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -791,8 +789,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-16T17:36:25+09:00",
-      "last_success_at": "2026-11-16T17:36:25+09:00",
+      "last_retrieved_at": "2026-11-17T08:01:57+09:00",
+      "last_success_at": "2026-11-17T08:01:57+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -871,6 +869,31 @@
       "language": "ko",
       "topics": [
         "mission"
+      ]
+    },
+    {
+      "title": "Sentinel-6B in Orbit Around Earth",
+      "url": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+      "date": "2026-11-16",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "satellites"
+      ]
+    },
+    {
+      "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
+      "url": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
+      "date": "2026-11-16",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
       ]
     },
     {
@@ -1037,33 +1060,6 @@
       "language": "en",
       "topics": [
         "demonstration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
-      "date": "2026-11-09",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "satellites",
-        "demonstration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
-      "date": "2026-11-09",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
       ],
       "stale": false
     },
