@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-16T17:00:32+09:00",
+  "updated_at": "2026-11-17T07:54:05+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,27 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-16T17:00:32+09:00",
+      "last_success_at": "2026-11-17T07:54:05+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g010314",
+          "url": "https://doi.org/10.2514/1.g010314",
+          "title": "Integrated Identification of Atmospheric Density and Aerodynamic Parameters via Morphing",
+          "authors": [
+            "Qian Pan",
+            "Dong Qiao",
+            "Hongwei Han"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-16",
+          "date_type": "published-online",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
         {
           "doi": "10.2514/1.g010259",
           "url": "https://doi.org/10.2514/1.g010259",
@@ -230,26 +248,6 @@
             "control",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009868",
-          "url": "https://doi.org/10.2514/1.g009868",
-          "title": "Preliminary Contingency Trajectory Design for Multi-Moon Tours: Application to Europa Clipper",
-          "authors": [
-            "Yuji Takubo",
-            "Stefano Campagnola",
-            "Etienne Pellegrini",
-            "Brian D. Anderson"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics",
-            "planetary"
-          ]
         }
       ]
     },
@@ -263,9 +261,70 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-16T17:00:32+09:00",
+      "last_success_at": "2026-11-17T07:54:05+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.a36809",
+          "url": "https://doi.org/10.2514/1.a36809",
+          "title": "Model Predictive Guidance Applied to Planetary Entry and Powered Descent",
+          "authors": [
+            "Christopher Davami",
+            "Ping Lu",
+            "Aaron J. Rosengren"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-16",
+          "date_type": "published-online",
+          "topics": [
+            "control",
+            "planetary",
+            "entry"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36752",
+          "url": "https://doi.org/10.2514/1.a36752",
+          "title": "Multifidelity Dust Erosion Analysis of Mars Entry Vehicles",
+          "authors": [
+            "Adam Boland",
+            "Dominic Zanti",
+            "Serhat Hosder",
+            "Andrew Hinkle"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-16",
+          "date_type": "published-online",
+          "topics": [
+            "planetary",
+            "entry"
+          ]
+        },
+        {
+          "doi": "10.2514/1.a36509",
+          "url": "https://doi.org/10.2514/1.a36509",
+          "title": "Alpha-Beta and Bank-Angle Steering Performance for Future Mars Entry Vehicles",
+          "authors": [
+            "Daniel L. Engel",
+            "Zachary R. Putnam",
+            "Robyn M. Woollands",
+            "Soumyo Dutta",
+            "Brandon P. Smith"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-16",
+          "date_type": "published-online",
+          "topics": [
+            "control",
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.a36758",
           "url": "https://doi.org/10.2514/1.a36758",
@@ -436,72 +495,6 @@
           "topics": [
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.a36577",
-          "url": "https://doi.org/10.2514/1.a36577",
-          "title": "Influence of Attitude Errors on Angle-of-Arrival Receivers in Satellite Systems",
-          "authors": [
-            "Marcello Asciolla",
-            "Angela Cratere",
-            "Rodrigo Blázquez-García",
-            "Pedro Bossi-Núñez",
-            "Teresa Natale",
-            "Francesco Dell’Olio"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-10-01",
-          "date_type": "published-online",
-          "topics": [
-            "control"
-          ]
-        },
-        {
-          "doi": "10.2514/1.a36419",
-          "url": "https://doi.org/10.2514/1.a36419",
-          "title": "Long-Term Loitering Transfers in the Vicinity of a Near-Rectilinear Halo Orbit",
-          "authors": [
-            "Abram R. Aguilar",
-            "Brian P. McCarthy",
-            "Rohan Sood"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-10-01",
-          "date_type": "published-online",
-          "topics": [
-            "astrodynamics",
-            "control",
-            "planetary",
-            "cubesat"
-          ]
-        },
-        {
-          "doi": "10.2514/1.a36704",
-          "url": "https://doi.org/10.2514/1.a36704",
-          "title": "Robust Access to Uranus via Solar Electric Propulsion",
-          "authors": [
-            "Jacob A. Englander",
-            "Richard Anderson",
-            "Donald H. Ellison",
-            "Noble A. Hatten",
-            "Kyle M. Hughes",
-            "Taabish Rashied",
-            "Alec Mudek",
-            "Thomas Haas",
-            "Richard Saylor"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-09-27",
-          "date_type": "published-online",
-          "topics": [
-            "planetary"
-          ]
         }
       ]
     },
@@ -514,9 +507,28 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-16T17:00:32+09:00",
+      "last_success_at": "2026-11-17T07:54:05+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.11.027",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.027",
+          "title": "Physics-informed reconstruction time-varying MPBM for model predictive attitude control of on-orbit refueling spacecraft",
+          "authors": [
+            "Bailong Hao",
+            "Baozeng Yue",
+            "Yu Lu",
+            "Bole Ma"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "control"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.11.022",
           "url": "https://doi.org/10.1016/j.actaastro.2026.11.022",
@@ -735,34 +747,91 @@
           "topics": [
             "planetary"
           ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.06.058",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.06.058",
-          "title": "A model for the estimation of freestream wind speeds and directions for Mars Environmental Dynamics Analyzer wind sensors in NASA-JPL Mars 2020 mission. Part II: A deep learning algorithm based on Computational Fluid Dynamics data",
-          "authors": [
-            "G. Martínez-Esteve",
-            "J. Torres",
-            "S. Navarro",
-            "C. Martín-Rubio",
-            "J. Gómez-Elvira",
-            "M. Marín",
-            "J.A. Rodríguez-Manfredi"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
         }
       ]
     }
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g010314",
+      "url": "https://doi.org/10.2514/1.g010314",
+      "title": "Integrated Identification of Atmospheric Density and Aerodynamic Parameters via Morphing",
+      "authors": [
+        "Qian Pan",
+        "Dong Qiao",
+        "Hongwei Han"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-16",
+      "date_type": "published-online",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36809",
+      "url": "https://doi.org/10.2514/1.a36809",
+      "title": "Model Predictive Guidance Applied to Planetary Entry and Powered Descent",
+      "authors": [
+        "Christopher Davami",
+        "Ping Lu",
+        "Aaron J. Rosengren"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-16",
+      "date_type": "published-online",
+      "topics": [
+        "control",
+        "planetary",
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36752",
+      "url": "https://doi.org/10.2514/1.a36752",
+      "title": "Multifidelity Dust Erosion Analysis of Mars Entry Vehicles",
+      "authors": [
+        "Adam Boland",
+        "Dominic Zanti",
+        "Serhat Hosder",
+        "Andrew Hinkle"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-16",
+      "date_type": "published-online",
+      "topics": [
+        "planetary",
+        "entry"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36509",
+      "url": "https://doi.org/10.2514/1.a36509",
+      "title": "Alpha-Beta and Bank-Angle Steering Performance for Future Mars Entry Vehicles",
+      "authors": [
+        "Daniel L. Engel",
+        "Zachary R. Putnam",
+        "Robyn M. Woollands",
+        "Soumyo Dutta",
+        "Brandon P. Smith"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-16",
+      "date_type": "published-online",
+      "topics": [
+        "control",
+        "planetary"
+      ]
+    },
     {
       "doi": "10.2514/1.g010259",
       "url": "https://doi.org/10.2514/1.g010259",
@@ -1052,23 +1121,22 @@
       ]
     },
     {
-      "doi": "10.2514/1.g009868",
-      "url": "https://doi.org/10.2514/1.g009868",
-      "title": "Preliminary Contingency Trajectory Design for Multi-Moon Tours: Application to Europa Clipper",
+      "doi": "10.1016/j.actaastro.2026.11.027",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.027",
+      "title": "Physics-informed reconstruction time-varying MPBM for model predictive attitude control of on-orbit refueling spacecraft",
       "authors": [
-        "Yuji Takubo",
-        "Stefano Campagnola",
-        "Etienne Pellegrini",
-        "Brian D. Anderson"
+        "Bailong Hao",
+        "Baozeng Yue",
+        "Yu Lu",
+        "Bole Ma"
       ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
       "date": "2026-11",
       "date_type": "published-print",
       "topics": [
-        "astrodynamics",
-        "planetary"
+        "control"
       ]
     },
     {
@@ -1291,28 +1359,6 @@
       ]
     },
     {
-      "doi": "10.1016/j.actaastro.2026.06.058",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.06.058",
-      "title": "A model for the estimation of freestream wind speeds and directions for Mars Environmental Dynamics Analyzer wind sensors in NASA-JPL Mars 2020 mission. Part II: A deep learning algorithm based on Computational Fluid Dynamics data",
-      "authors": [
-        "G. Martínez-Esteve",
-        "J. Torres",
-        "S. Navarro",
-        "C. Martín-Rubio",
-        "J. Gómez-Elvira",
-        "M. Marín",
-        "J.A. Rodríguez-Manfredi"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
       "doi": "10.2514/1.a36830",
       "url": "https://doi.org/10.2514/1.a36830",
       "title": "Switching-Curve Guidance Strategies for Two-Stage Discrete-Event Drag-Modulated Aerocapture",
@@ -1403,72 +1449,6 @@
       "journal": "Journal of Spacecraft and Rockets",
       "journal_short": "JSR",
       "date": "2026-10-01",
-      "date_type": "published-online",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36577",
-      "url": "https://doi.org/10.2514/1.a36577",
-      "title": "Influence of Attitude Errors on Angle-of-Arrival Receivers in Satellite Systems",
-      "authors": [
-        "Marcello Asciolla",
-        "Angela Cratere",
-        "Rodrigo Blázquez-García",
-        "Pedro Bossi-Núñez",
-        "Teresa Natale",
-        "Francesco Dell’Olio"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-10-01",
-      "date_type": "published-online",
-      "topics": [
-        "control"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36419",
-      "url": "https://doi.org/10.2514/1.a36419",
-      "title": "Long-Term Loitering Transfers in the Vicinity of a Near-Rectilinear Halo Orbit",
-      "authors": [
-        "Abram R. Aguilar",
-        "Brian P. McCarthy",
-        "Rohan Sood"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-10-01",
-      "date_type": "published-online",
-      "topics": [
-        "astrodynamics",
-        "control",
-        "planetary",
-        "cubesat"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36704",
-      "url": "https://doi.org/10.2514/1.a36704",
-      "title": "Robust Access to Uranus via Solar Electric Propulsion",
-      "authors": [
-        "Jacob A. Englander",
-        "Richard Anderson",
-        "Donald H. Ellison",
-        "Noble A. Hatten",
-        "Kyle M. Hughes",
-        "Taabish Rashied",
-        "Alec Mudek",
-        "Thomas Haas",
-        "Richard Saylor"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-09-27",
       "date_type": "published-online",
       "topics": [
         "planetary"
