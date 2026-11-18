@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-18T06:46:40+09:00",
+  "updated_at": "2026-11-18T17:34:04+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,26 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-18T06:46:40+09:00",
+      "last_success_at": "2026-11-18T17:34:04+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g009773",
+          "url": "https://doi.org/10.2514/1.g009773",
+          "title": "Achieving Subarcsecond Pointing on a CubeSat: Frequency-Domain Analysis and Error Budgeting",
+          "authors": [
+            "Christopher M. Pong"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-17",
+          "date_type": "published-online",
+          "topics": [
+            "control",
+            "cubesat"
+          ]
+        },
         {
           "doi": "10.2514/1.g010314",
           "url": "https://doi.org/10.2514/1.g010314",
@@ -229,25 +246,6 @@
           "topics": [
             "astrodynamics"
           ]
-        },
-        {
-          "doi": "10.2514/1.g009889",
-          "url": "https://doi.org/10.2514/1.g009889",
-          "title": "Autoencoder Neural Networks for Representations of Periodic Orbit Families",
-          "authors": [
-            "Thomas H. Clark",
-            "Daniel J. Scheeres"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics",
-            "control",
-            "planetary"
-          ]
         }
       ]
     },
@@ -261,9 +259,29 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-18T06:46:40+09:00",
+      "last_success_at": "2026-11-18T17:34:04+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.a36801",
+          "url": "https://doi.org/10.2514/1.a36801",
+          "title": "Conceptual Framework for Aerothermodynamic Optimization of Space Vehicles",
+          "authors": [
+            "Iara Figueiras",
+            "Girolamo Musso",
+            "Alain de Souza",
+            "Frederico Afonso",
+            "Fernando Lau"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-17",
+          "date_type": "published-online",
+          "topics": [
+            "entry"
+          ]
+        },
         {
           "doi": "10.2514/1.a36809",
           "url": "https://doi.org/10.2514/1.a36809",
@@ -477,24 +495,6 @@
             "astrodynamics",
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.a36799",
-          "url": "https://doi.org/10.2514/1.a36799",
-          "title": "Optimal Split-Delivery Lunar Campaign with Resonance Orbits and Hybrid Propulsion",
-          "authors": [
-            "Euihyeon Choi",
-            "Jinsung Lee",
-            "Jaemyung Ahn"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-10-01",
-          "date_type": "published-online",
-          "topics": [
-            "planetary"
-          ]
         }
       ]
     },
@@ -507,7 +507,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-18T06:46:40+09:00",
+      "last_success_at": "2026-11-18T17:34:04+09:00",
       "status": "ok",
       "items": [
         {
@@ -751,6 +751,43 @@
   ],
   "pinned": [],
   "items": [
+    {
+      "doi": "10.2514/1.g009773",
+      "url": "https://doi.org/10.2514/1.g009773",
+      "title": "Achieving Subarcsecond Pointing on a CubeSat: Frequency-Domain Analysis and Error Budgeting",
+      "authors": [
+        "Christopher M. Pong"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-17",
+      "date_type": "published-online",
+      "topics": [
+        "control",
+        "cubesat"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36801",
+      "url": "https://doi.org/10.2514/1.a36801",
+      "title": "Conceptual Framework for Aerothermodynamic Optimization of Space Vehicles",
+      "authors": [
+        "Iara Figueiras",
+        "Girolamo Musso",
+        "Alain de Souza",
+        "Frederico Afonso",
+        "Fernando Lau"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-17",
+      "date_type": "published-online",
+      "topics": [
+        "entry"
+      ]
+    },
     {
       "doi": "10.2514/1.g010314",
       "url": "https://doi.org/10.2514/1.g010314",
@@ -1100,25 +1137,6 @@
       ]
     },
     {
-      "doi": "10.2514/1.g009889",
-      "url": "https://doi.org/10.2514/1.g009889",
-      "title": "Autoencoder Neural Networks for Representations of Periodic Orbit Families",
-      "authors": [
-        "Thomas H. Clark",
-        "Daniel J. Scheeres"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics",
-        "control",
-        "planetary"
-      ]
-    },
-    {
       "doi": "10.1016/j.actaastro.2026.11.022",
       "url": "https://doi.org/10.1016/j.actaastro.2026.11.022",
       "title": "Dual-response calibration of DEM parameters for a planetary regolith simulant based on angle of repose and flow time with wheel-terrain validation",
@@ -1429,24 +1447,6 @@
       "date_type": "published-online",
       "topics": [
         "astrodynamics",
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36799",
-      "url": "https://doi.org/10.2514/1.a36799",
-      "title": "Optimal Split-Delivery Lunar Campaign with Resonance Orbits and Hybrid Propulsion",
-      "authors": [
-        "Euihyeon Choi",
-        "Jinsung Lee",
-        "Jaemyung Ahn"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-10-01",
-      "date_type": "published-online",
-      "topics": [
         "planetary"
       ]
     }
