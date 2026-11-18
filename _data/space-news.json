@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T18:09:38+09:00",
+  "updated_at": "2026-11-19T06:36:14+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-18T18:09:38+09:00",
-      "last_success_at": "2026-11-18T18:09:38+09:00",
+      "last_retrieved_at": "2026-11-19T06:36:14+09:00",
+      "last_success_at": "2026-11-19T06:36:14+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-18T18:09:38+09:00",
-      "last_success_at": "2026-11-18T18:09:38+09:00",
+      "last_retrieved_at": "2026-11-19T06:36:14+09:00",
+      "last_success_at": "2026-11-19T06:36:14+09:00",
       "items": [
         {
           "title": "누리호 5차 발사 결과 검토회의 개최",
@@ -285,8 +285,8 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "ok",
-      "last_retrieved_at": "2026-11-18T18:09:38+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-11-19T06:36:14+09:00",
       "last_success_at": "2026-11-18T18:09:38+09:00",
       "items": [
         {
@@ -312,7 +312,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Sentinel-6B in Orbit Around Earth",
@@ -326,7 +327,7 @@
             "mission",
             "satellites"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
@@ -339,7 +340,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
@@ -352,7 +353,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
@@ -367,7 +368,7 @@
             "exploration",
             "control"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "I Am Artemis: Katie Spicer",
@@ -393,7 +394,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "CHAPEA Crew Leaves a Mark",
@@ -406,7 +407,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
@@ -419,7 +420,7 @@
           "topics": [
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
@@ -432,7 +433,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
@@ -445,7 +446,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -455,8 +456,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-18T18:09:38+09:00",
-      "last_success_at": "2026-11-18T18:09:38+09:00",
+      "last_retrieved_at": "2026-11-19T06:36:14+09:00",
+      "last_success_at": "2026-11-19T06:36:14+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -790,8 +791,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-18T18:09:38+09:00",
-      "last_success_at": "2026-11-18T18:09:38+09:00",
+      "last_retrieved_at": "2026-11-19T06:36:14+09:00",
+      "last_success_at": "2026-11-19T06:36:14+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -841,19 +842,6 @@
           "language": "en",
           "topics": [
             "satellites"
-          ]
-        },
-        {
-          "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
-          "url": "https://global.jaxa.jp/press/2026/08/20260820-1_e.html",
-          "date": "2026-08-20",
-          "source_id": "jaxa",
-          "source": "JAXA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "demonstration"
           ]
         }
       ]
@@ -907,7 +895,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "민간 위성기업 현장 맞춤형 '시스템엔지니어링 교육' 마쳐",
@@ -933,7 +922,7 @@
         "mission",
         "satellites"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
@@ -946,7 +935,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
@@ -959,7 +948,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
@@ -974,7 +963,7 @@
         "exploration",
         "control"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "달 기지(Moon_Base) 건설 참여 확대를 위한 국내 산학연 역량 결집",
@@ -1024,7 +1013,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "'우주기술 연구실에서 시장으로' 전국 5개 우주기술 실용화센터 한자리에",
@@ -1050,7 +1039,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
@@ -1063,7 +1052,7 @@
       "topics": [
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
@@ -1076,7 +1065,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
@@ -1089,7 +1078,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "미국 스위프트(SWIFT) 우주망원경 4일 저녁 대기권 재진입 예상 한반도 영향 없어",
@@ -1636,19 +1625,6 @@
         "communications"
       ],
       "stale": false
-    },
-    {
-      "title": "Launch schedule of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10)",
-      "url": "https://global.jaxa.jp/press/2026/08/20260820-1_e.html",
-      "date": "2026-08-20",
-      "source_id": "jaxa",
-      "source": "JAXA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "demonstration"
-      ]
     }
   ]
 }
