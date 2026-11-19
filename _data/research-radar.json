@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-19T17:50:11+09:00",
+  "updated_at": "2026-11-20T06:37:11+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-19T17:50:11+09:00",
+      "last_success_at": "2026-11-20T06:37:11+09:00",
       "status": "ok",
       "items": [
         {
@@ -259,7 +259,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-19T17:50:11+09:00",
+      "last_success_at": "2026-11-20T06:37:11+09:00",
       "status": "ok",
       "items": [
         {
@@ -507,7 +507,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-19T17:50:11+09:00",
+      "last_success_at": "2026-11-20T06:37:11+09:00",
       "status": "ok",
       "items": [
         {
@@ -550,6 +550,25 @@
           ]
         },
         {
+          "doi": "10.1016/j.actaastro.2026.11.014",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.014",
+          "title": "Emissivity of oxidizing titanium in simulated atmospheric entry flows",
+          "authors": [
+            "Andrea Fagnani",
+            "Bernd Helber",
+            "Annick Hubin",
+            "Olivier Chazot"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "entry"
+          ]
+        },
+        {
           "doi": "10.1016/j.actaastro.2026.11.010",
           "url": "https://doi.org/10.1016/j.actaastro.2026.11.010",
           "title": "Three-body earth-moon transfers with different departure/arrival orbital altitudes: New phenomenon and diffusion model-augmented construction",
@@ -567,24 +586,6 @@
           "date_type": "published-print",
           "topics": [
             "astrodynamics",
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.11.007",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.11.007",
-          "title": "Converging conclusions in planetary sunshade literature",
-          "authors": [
-            "Ross Centers",
-            "Morgan Goodwin",
-            "Daniele Visioni"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
             "planetary"
           ]
         },
@@ -1176,6 +1177,25 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.014",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.014",
+      "title": "Emissivity of oxidizing titanium in simulated atmospheric entry flows",
+      "authors": [
+        "Andrea Fagnani",
+        "Bernd Helber",
+        "Annick Hubin",
+        "Olivier Chazot"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "entry"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.11.010",
       "url": "https://doi.org/10.1016/j.actaastro.2026.11.010",
       "title": "Three-body earth-moon transfers with different departure/arrival orbital altitudes: New phenomenon and diffusion model-augmented construction",
@@ -1193,24 +1213,6 @@
       "date_type": "published-print",
       "topics": [
         "astrodynamics",
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.11.007",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.11.007",
-      "title": "Converging conclusions in planetary sunshade literature",
-      "authors": [
-        "Ross Centers",
-        "Morgan Goodwin",
-        "Daniele Visioni"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
         "planetary"
       ]
     },
