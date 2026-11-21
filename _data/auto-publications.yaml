@@ -135,13 +135,13 @@
   - jae-ik-park
 - country: US
   _target: legacy-074
-  _source_id: patent:US10649091B2
+  _source_id: patent:US20180143325A1
   _source: patents
-  verification_source: https://patents.google.com/patent/US10649091B2/en
+  verification_source: https://patents.google.com/patent/US20180143325A1/en
   _identity: confirmed
   category: patent
-  title: Method and system for time to first fix (TTFF) reduction of GPS receivers
-    using satellite based augmentation system (SBAS) signal
+  title: Method and system for time to first fix (ttff) reduction of gps receivers
+    using satellite based augmentation system (sbas) signal
   researcher_ids:
   - jae-ik-park
 - publisher: 한국항공우주학회
