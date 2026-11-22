@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:50:39+09:00",
+  "updated_at": "2026-11-23T05:29:01+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-22T17:50:39+09:00",
-      "last_success_at": "2026-11-22T17:50:39+09:00",
+      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
+      "last_success_at": "2026-11-23T05:29:01+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,8 +129,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-22T17:50:39+09:00",
-      "last_success_at": "2026-11-22T17:50:39+09:00",
+      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
+      "last_success_at": "2026-11-23T05:29:01+09:00",
       "items": [
         {
           "title": "누리호 5차 발사 결과 검토회의 개최",
@@ -286,9 +286,22 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-22T17:50:39+09:00",
-      "last_success_at": "2026-11-22T17:50:39+09:00",
+      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
+      "last_success_at": "2026-11-23T05:29:01+09:00",
       "items": [
+        {
+          "title": "65 Years of Human Spaceflight at NASA Johnson",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+          "date": "2026-11-22",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "mission",
+            "control"
+          ]
+        },
         {
           "title": "NASA’s Curiosity Mars Rover Collects Samples",
           "url": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
@@ -429,21 +442,6 @@
             "exploration"
           ],
           "stale": false
-        },
-        {
-          "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
-          "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
-          "date": "2026-11-13",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "mission",
-            "exploration",
-            "control"
-          ],
-          "stale": false
         }
       ]
     },
@@ -453,8 +451,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-22T17:50:39+09:00",
-      "last_success_at": "2026-11-22T17:50:39+09:00",
+      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
+      "last_success_at": "2026-11-23T05:29:01+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -788,8 +786,9 @@
       "name": "JAXA",
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
-      "status": "stale",
-      "last_success_at": "2026-11-22T05:14:56+09:00",
+      "status": "ok",
+      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
+      "last_success_at": "2026-11-23T05:29:01+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -801,8 +800,7 @@
           "language": "en",
           "topics": [
             "exploration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
@@ -815,8 +813,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Launch time of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle Flight No.10",
@@ -829,8 +826,7 @@
           "topics": [
             "exploration",
             "demonstration"
-          ],
-          "stale": true
+          ]
         },
         {
           "title": "Japan Meteorological Agency Begins Operational Use of Data from AMSR3, the Latest Sensor aboard \"IBUKI GW\" (GOSAT-GW)",
@@ -842,13 +838,25 @@
           "language": "en",
           "topics": [
             "satellites"
-          ],
-          "stale": true
+          ]
         }
       ]
     }
   ],
   "items": [
+    {
+      "title": "65 Years of Human Spaceflight at NASA Johnson",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+      "date": "2026-11-22",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "mission",
+        "control"
+      ]
+    },
     {
       "title": "NASA’s Curiosity Mars Rover Collects Samples",
       "url": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
@@ -1023,21 +1031,6 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": false
-    },
-    {
-      "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
-      "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
-      "date": "2026-11-13",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "mission",
-        "exploration",
-        "control"
       ],
       "stale": false
     },
@@ -1263,8 +1256,7 @@
       "language": "en",
       "topics": [
         "exploration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "MMX lifts off to Mars’s moon Phobos",
@@ -1290,8 +1282,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "항우연, 누리호 단조립 치공구 대여... 체계종합기업 지원 본격화",
@@ -1329,8 +1320,7 @@
       "topics": [
         "exploration",
         "demonstration"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA Satellites Observe Historic 2026 El Niño",
@@ -1587,8 +1577,7 @@
       "language": "en",
       "topics": [
         "satellites"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
