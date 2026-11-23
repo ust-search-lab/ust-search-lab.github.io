@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T05:29:01+09:00",
+  "updated_at": "2026-11-23T18:47:54+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
-      "last_success_at": "2026-11-23T05:29:01+09:00",
+      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
+      "last_success_at": "2026-11-23T18:47:54+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,9 +129,33 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
-      "last_success_at": "2026-11-23T05:29:01+09:00",
+      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
+      "last_success_at": "2026-11-23T18:47:54+09:00",
       "items": [
+        {
+          "title": "한반도 해양영역인식 역량 강화를 위한 초소형위성체계 활용 협력",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790344",
+          "date": "2026-11-23",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
+        {
+          "title": "한국형 위성항법시스템(KPS), 본격 제작·조립·시험 절차 돌입",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790342",
+          "date": "2026-11-23",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "satellites"
+          ]
+        },
         {
           "title": "누리호 5차 발사 결과 검토회의 개최",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789790",
@@ -252,31 +276,6 @@
           "topics": [
             "satellites"
           ]
-        },
-        {
-          "title": "학교로 찾아가는 우주항공 교육 본격 추진",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786454",
-          "date": "2026-10-26",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "demonstration"
-          ]
-        },
-        {
-          "title": "우주항공청은 K-라드큐브 임무 결과를 검토하고 후속 임무 개선에 노력하고 있습니다.",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786287",
-          "date": "2026-10-23",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "mission",
-            "satellites"
-          ]
         }
       ]
     },
@@ -286,8 +285,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
-      "last_success_at": "2026-11-23T05:29:01+09:00",
+      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
+      "last_success_at": "2026-11-23T18:47:54+09:00",
       "items": [
         {
           "title": "65 Years of Human Spaceflight at NASA Johnson",
@@ -451,8 +450,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
-      "last_success_at": "2026-11-23T05:29:01+09:00",
+      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
+      "last_success_at": "2026-11-23T18:47:54+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -787,8 +786,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T05:29:01+09:00",
-      "last_success_at": "2026-11-23T05:29:01+09:00",
+      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
+      "last_success_at": "2026-11-23T18:47:54+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -844,6 +843,30 @@
     }
   ],
   "items": [
+    {
+      "title": "한반도 해양영역인식 역량 강화를 위한 초소형위성체계 활용 협력",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790344",
+      "date": "2026-11-23",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
+    {
+      "title": "한국형 위성항법시스템(KPS), 본격 제작·조립·시험 절차 돌입",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790342",
+      "date": "2026-11-23",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "satellites"
+      ]
+    },
     {
       "title": "65 Years of Human Spaceflight at NASA Johnson",
       "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
@@ -1166,31 +1189,6 @@
       "region": "domestic",
       "language": "ko",
       "topics": [
-        "satellites"
-      ]
-    },
-    {
-      "title": "학교로 찾아가는 우주항공 교육 본격 추진",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786454",
-      "date": "2026-10-26",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "demonstration"
-      ]
-    },
-    {
-      "title": "우주항공청은 K-라드큐브 임무 결과를 검토하고 후속 임무 개선에 노력하고 있습니다.",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786287",
-      "date": "2026-10-23",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "mission",
         "satellites"
       ]
     },
