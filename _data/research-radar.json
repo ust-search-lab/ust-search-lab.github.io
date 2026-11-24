@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-24T09:53:58+09:00",
+  "updated_at": "2026-11-24T19:57:33+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,9 +15,26 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-24T09:53:58+09:00",
+      "last_success_at": "2026-11-24T19:57:33+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.g009999",
+          "url": "https://doi.org/10.2514/1.g009999",
+          "title": "Automated Planetary Moon Tour Design with Multi-Objective Graph Search",
+          "authors": [
+            "Fabrizio Maccari",
+            "Michelle Lavagna"
+          ],
+          "journal_id": "jgcd",
+          "journal": "Journal of Guidance, Control, and Dynamics",
+          "journal_short": "JGCD",
+          "date": "2026-11-23",
+          "date_type": "published-online",
+          "topics": [
+            "planetary"
+          ]
+        },
         {
           "doi": "10.2514/1.g009773",
           "url": "https://doi.org/10.2514/1.g009773",
@@ -123,29 +140,6 @@
           "date_type": "published-online",
           "topics": [
             "astrodynamics"
-          ]
-        },
-        {
-          "doi": "10.2514/1.g009357",
-          "url": "https://doi.org/10.2514/1.g009357",
-          "title": "Successive Convexification for Passively Safe Spacecraft Rendezvous on Near-Rectilinear Halo Orbit",
-          "authors": [
-            "Purnanand Elango",
-            "Abraham P. Vinod",
-            "Kenji Kitamura",
-            "Behçet Açıkmeşe",
-            "Stefano Di Cairano",
-            "Avishai Weiss"
-          ],
-          "journal_id": "jgcd",
-          "journal": "Journal of Guidance, Control, and Dynamics",
-          "journal_short": "JGCD",
-          "date": "2026-11-09",
-          "date_type": "published-online",
-          "topics": [
-            "astrodynamics",
-            "control",
-            "planetary"
           ]
         },
         {
@@ -259,9 +253,26 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-24T09:53:58+09:00",
+      "last_success_at": "2026-11-24T19:57:33+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.2514/1.a36820",
+          "url": "https://doi.org/10.2514/1.a36820",
+          "title": "Design-Metric Bias Assessment of Atmospheric Representations for Mars Entry, Descent, and Landing",
+          "authors": [
+            "Jae-ik Park"
+          ],
+          "journal_id": "jsr",
+          "journal": "Journal of Spacecraft and Rockets",
+          "journal_short": "JSR",
+          "date": "2026-11-23",
+          "date_type": "published-online",
+          "topics": [
+            "planetary",
+            "entry"
+          ]
+        },
         {
           "doi": "10.2514/1.a36801",
           "url": "https://doi.org/10.2514/1.a36801",
@@ -475,26 +486,6 @@
           "topics": [
             "planetary"
           ]
-        },
-        {
-          "doi": "10.2514/1.a36819",
-          "url": "https://doi.org/10.2514/1.a36819",
-          "title": "Robust Angles-Only Tracking of Cislunar Noncooperative Maneuvering Targets with Observation Gaps",
-          "authors": [
-            "Wendi Luo",
-            "Hongwei Yang",
-            "Shuang Li",
-            "Xiaowen Duan"
-          ],
-          "journal_id": "jsr",
-          "journal": "Journal of Spacecraft and Rockets",
-          "journal_short": "JSR",
-          "date": "2026-10-07",
-          "date_type": "published-online",
-          "topics": [
-            "astrodynamics",
-            "planetary"
-          ]
         }
       ]
     },
@@ -507,7 +498,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-24T09:53:58+09:00",
+      "last_success_at": "2026-11-24T19:57:33+09:00",
       "status": "ok",
       "items": [
         {
@@ -747,6 +738,40 @@
   "pinned": [],
   "items": [
     {
+      "doi": "10.2514/1.g009999",
+      "url": "https://doi.org/10.2514/1.g009999",
+      "title": "Automated Planetary Moon Tour Design with Multi-Objective Graph Search",
+      "authors": [
+        "Fabrizio Maccari",
+        "Michelle Lavagna"
+      ],
+      "journal_id": "jgcd",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "journal_short": "JGCD",
+      "date": "2026-11-23",
+      "date_type": "published-online",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.2514/1.a36820",
+      "url": "https://doi.org/10.2514/1.a36820",
+      "title": "Design-Metric Bias Assessment of Atmospheric Representations for Mars Entry, Descent, and Landing",
+      "authors": [
+        "Jae-ik Park"
+      ],
+      "journal_id": "jsr",
+      "journal": "Journal of Spacecraft and Rockets",
+      "journal_short": "JSR",
+      "date": "2026-11-23",
+      "date_type": "published-online",
+      "topics": [
+        "planetary",
+        "entry"
+      ]
+    },
+    {
       "doi": "10.2514/1.g009773",
       "url": "https://doi.org/10.2514/1.g009773",
       "title": "Achieving Subarcsecond Pointing on a CubeSat: Frequency-Domain Analysis and Error Budgeting",
@@ -932,29 +957,6 @@
       "date_type": "published-online",
       "topics": [
         "astrodynamics"
-      ]
-    },
-    {
-      "doi": "10.2514/1.g009357",
-      "url": "https://doi.org/10.2514/1.g009357",
-      "title": "Successive Convexification for Passively Safe Spacecraft Rendezvous on Near-Rectilinear Halo Orbit",
-      "authors": [
-        "Purnanand Elango",
-        "Abraham P. Vinod",
-        "Kenji Kitamura",
-        "Behçet Açıkmeşe",
-        "Stefano Di Cairano",
-        "Avishai Weiss"
-      ],
-      "journal_id": "jgcd",
-      "journal": "Journal of Guidance, Control, and Dynamics",
-      "journal_short": "JGCD",
-      "date": "2026-11-09",
-      "date_type": "published-online",
-      "topics": [
-        "astrodynamics",
-        "control",
-        "planetary"
       ]
     },
     {
@@ -1417,26 +1419,6 @@
       "date": "2026-10-16",
       "date_type": "published-online",
       "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.2514/1.a36819",
-      "url": "https://doi.org/10.2514/1.a36819",
-      "title": "Robust Angles-Only Tracking of Cislunar Noncooperative Maneuvering Targets with Observation Gaps",
-      "authors": [
-        "Wendi Luo",
-        "Hongwei Yang",
-        "Shuang Li",
-        "Xiaowen Duan"
-      ],
-      "journal_id": "jsr",
-      "journal": "Journal of Spacecraft and Rockets",
-      "journal_short": "JSR",
-      "date": "2026-10-07",
-      "date_type": "published-online",
-      "topics": [
-        "astrodynamics",
         "planetary"
       ]
     }
