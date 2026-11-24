@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-23T18:08:11+09:00",
+  "updated_at": "2026-11-24T09:53:58+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-23T18:08:11+09:00",
+      "last_success_at": "2026-11-24T09:53:58+09:00",
       "status": "ok",
       "items": [
         {
@@ -259,7 +259,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-23T18:08:11+09:00",
+      "last_success_at": "2026-11-24T09:53:58+09:00",
       "status": "ok",
       "items": [
         {
@@ -507,7 +507,7 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-23T18:08:11+09:00",
+      "last_success_at": "2026-11-24T09:53:58+09:00",
       "status": "ok",
       "items": [
         {
@@ -546,6 +546,25 @@
           ]
         },
         {
+          "doi": "10.1016/j.actaastro.2026.11.024",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.024",
+          "title": "Real-time safe reconfiguration of satellite swarms via model predictive control approximation and sequential convex method",
+          "authors": [
+            "Zijian Wang",
+            "Zhongcheng Mu",
+            "Shufan Wu",
+            "Fucheng Liu"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "control"
+          ]
+        },
+        {
           "doi": "10.1016/j.actaastro.2026.11.022",
           "url": "https://doi.org/10.1016/j.actaastro.2026.11.022",
           "title": "Dual-response calibration of DEM parameters for a planetary regolith simulant based on angle of repose and flow time with wheel-terrain validation",
@@ -566,6 +585,48 @@
           "date_type": "published-print",
           "topics": [
             "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.11.021",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.021",
+          "title": "Influence of lunar regolith simulant type on Plume-regolith ejecta kinematics under hypersonic jet impingement in near vacuum",
+          "authors": [
+            "Bradley Craig",
+            "Konstantinos Kontis",
+            "Jannis Petersen",
+            "Theodor Heutling",
+            "Christian Bach",
+            "Tobias Lamping",
+            "Jeroen Van den Eynde",
+            "Advenit Makaya"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.11.020",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.020",
+          "title": "Event-triggered control for libration point orbit station-keeping based on floquet theory",
+          "authors": [
+            "Jiawei Li",
+            "Chongrui Du",
+            "Honghua Dai",
+            "Xiaokui Yue"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
           ]
         },
         {
@@ -670,70 +731,6 @@
           "authors": [
             "A. Rose",
             "C. Cappelletti"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.10.071",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.10.071",
-          "title": "Sustained Agglomerate Flow and Low-Gravity Prediction of Chang’e-6 Lunar Regolith",
-          "authors": [
-            "Charun Bao",
-            "Qinyu Wang",
-            "Daobo Zhang",
-            "Yifei Cui",
-            "Guodong Wang",
-            "Peng Feng"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.07.008",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.07.008",
-          "title": "Vibration-induced friction reduction in lunar regolith simulant: Mechanisms and key parameters",
-          "authors": [
-            "Shiyue Zou",
-            "Keyan Huo",
-            "Zihao Yuan",
-            "Tianyue Gan",
-            "Haifeng Zhao"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.07.005",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.07.005",
-          "title": "Design of crewed lunar rover wheel with high anti partial load performance based on deformation mechanism analysis of leaf-spring tread",
-          "authors": [
-            "Xinju Dong",
-            "Jingfu Jin",
-            "Zhicheng Jia",
-            "Wenkai Yan",
-            "Lezi Hu",
-            "Lianbin He",
-            "Yingchun Qi",
-            "Meng Zou"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1170,6 +1167,25 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.024",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.024",
+      "title": "Real-time safe reconfiguration of satellite swarms via model predictive control approximation and sequential convex method",
+      "authors": [
+        "Zijian Wang",
+        "Zhongcheng Mu",
+        "Shufan Wu",
+        "Fucheng Liu"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "control"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.11.022",
       "url": "https://doi.org/10.1016/j.actaastro.2026.11.022",
       "title": "Dual-response calibration of DEM parameters for a planetary regolith simulant based on angle of repose and flow time with wheel-terrain validation",
@@ -1190,6 +1206,48 @@
       "date_type": "published-print",
       "topics": [
         "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.11.021",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.021",
+      "title": "Influence of lunar regolith simulant type on Plume-regolith ejecta kinematics under hypersonic jet impingement in near vacuum",
+      "authors": [
+        "Bradley Craig",
+        "Konstantinos Kontis",
+        "Jannis Petersen",
+        "Theodor Heutling",
+        "Christian Bach",
+        "Tobias Lamping",
+        "Jeroen Van den Eynde",
+        "Advenit Makaya"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.11.020",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.020",
+      "title": "Event-triggered control for libration point orbit station-keeping based on floquet theory",
+      "authors": [
+        "Jiawei Li",
+        "Chongrui Du",
+        "Honghua Dai",
+        "Xiaokui Yue"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
       ]
     },
     {
@@ -1294,70 +1352,6 @@
       "authors": [
         "A. Rose",
         "C. Cappelletti"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.10.071",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.10.071",
-      "title": "Sustained Agglomerate Flow and Low-Gravity Prediction of Chang’e-6 Lunar Regolith",
-      "authors": [
-        "Charun Bao",
-        "Qinyu Wang",
-        "Daobo Zhang",
-        "Yifei Cui",
-        "Guodong Wang",
-        "Peng Feng"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.07.008",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.07.008",
-      "title": "Vibration-induced friction reduction in lunar regolith simulant: Mechanisms and key parameters",
-      "authors": [
-        "Shiyue Zou",
-        "Keyan Huo",
-        "Zihao Yuan",
-        "Tianyue Gan",
-        "Haifeng Zhao"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.07.005",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.07.005",
-      "title": "Design of crewed lunar rover wheel with high anti partial load performance based on deformation mechanism analysis of leaf-spring tread",
-      "authors": [
-        "Xinju Dong",
-        "Jingfu Jin",
-        "Zhicheng Jia",
-        "Wenkai Yan",
-        "Lezi Hu",
-        "Lianbin He",
-        "Yingchun Qi",
-        "Meng Zou"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
