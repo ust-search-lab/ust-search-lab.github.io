@@ -10,6 +10,25 @@
     satellite formation flying
   researcher_ids:
   - jae-ik-park
+- doi: 10.2514/1.a36820
+  date: '2026-11-23'
+  year: 2026
+  publisher: Journal of Spacecraft and Rockets
+  status: published
+  details: Journal of Spacecraft and Rockets, 1-16, 2026-11-23
+  details_en: Journal of Spacecraft and Rockets, 1-16, 2026-11-23
+  link: https://doi.org/10.2514/1.a36820
+  id: doi:10.2514/1.a36820
+  _target: accepted:mars-edl-atmospheric-representations
+  _source_id: doi:10.2514/1.a36820
+  _source: crossref
+  verification_source: https://api.crossref.org/works/10.2514%2F1.a36820
+  _identity: confirmed
+  category: journal
+  title: Design-Metric Bias Assessment of Atmospheric Representations for Mars Entry,
+    Descent, and Landing
+  researcher_ids:
+  - jae-ik-park
 - publisher: Journal of the Korean Society for Aeronautical & Space Sciences
   _target: legacy-013
   _source_id: doi:10.5139/jksas.2012.40.12.1032
@@ -135,13 +154,13 @@
   - jae-ik-park
 - country: US
   _target: legacy-074
-  _source_id: patent:US20180143325A1
+  _source_id: patent:US10649091B2
   _source: patents
-  verification_source: https://patents.google.com/patent/US20180143325A1/en
+  verification_source: https://patents.google.com/patent/US10649091B2/en
   _identity: confirmed
   category: patent
-  title: Method and system for time to first fix (ttff) reduction of gps receivers
-    using satellite based augmentation system (sbas) signal
+  title: Method and system for time to first fix (TTFF) reduction of GPS receivers
+    using satellite based augmentation system (SBAS) signal
   researcher_ids:
   - jae-ik-park
 - publisher: 한국항공우주학회
