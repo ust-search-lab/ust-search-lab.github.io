@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T18:47:54+09:00",
+  "updated_at": "2026-11-24T10:13:42+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
-      "last_success_at": "2026-11-23T18:47:54+09:00",
+      "last_retrieved_at": "2026-11-24T10:13:42+09:00",
+      "last_success_at": "2026-11-24T10:13:42+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -129,9 +129,23 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
-      "last_success_at": "2026-11-23T18:47:54+09:00",
+      "last_retrieved_at": "2026-11-24T10:13:42+09:00",
+      "last_success_at": "2026-11-24T10:13:42+09:00",
       "items": [
+        {
+          "title": "'지구 저궤도에서 심우주까지' 우주 광통신 워크숍 개최",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790478",
+          "date": "2026-11-24",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission",
+            "exploration",
+            "communications"
+          ]
+        },
         {
           "title": "한반도 해양영역인식 역량 강화를 위한 초소형위성체계 활용 협력",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790344",
@@ -264,18 +278,6 @@
           "topics": [
             "exploration"
           ]
-        },
-        {
-          "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786544",
-          "date": "2026-10-26",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "satellites"
-          ]
         }
       ]
     },
@@ -284,10 +286,22 @@
       "name": "NASA",
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
-      "status": "ok",
-      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
+      "status": "partial",
+      "last_retrieved_at": "2026-11-24T10:13:42+09:00",
       "last_success_at": "2026-11-23T18:47:54+09:00",
       "items": [
+        {
+          "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+          "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+          "date": "2026-11-23",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "65 Years of Human Spaceflight at NASA Johnson",
           "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
@@ -299,7 +313,8 @@
           "topics": [
             "mission",
             "control"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA’s Curiosity Mars Rover Collects Samples",
@@ -311,7 +326,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
@@ -323,7 +339,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
@@ -335,7 +352,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "Curiosity Spots Drifting Twilight Clouds",
@@ -347,7 +365,8 @@
           "language": "en",
           "topics": [
             "exploration"
-          ]
+          ],
+          "stale": true
         },
         {
           "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
@@ -360,7 +379,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
@@ -374,7 +393,7 @@
             "satellites",
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "NASA Launches Nuclear Power Systems Student Contest",
@@ -400,7 +419,7 @@
             "exploration",
             "demonstration"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "Sentinel-6B in Orbit Around Earth",
@@ -414,7 +433,7 @@
             "mission",
             "satellites"
           ],
-          "stale": false
+          "stale": true
         },
         {
           "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
@@ -427,20 +446,7 @@
           "topics": [
             "exploration"
           ],
-          "stale": false
-        },
-        {
-          "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
-          "url": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
-          "date": "2026-11-16",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ],
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -450,8 +456,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
-      "last_success_at": "2026-11-23T18:47:54+09:00",
+      "last_retrieved_at": "2026-11-24T10:13:42+09:00",
+      "last_success_at": "2026-11-24T10:13:42+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -589,20 +595,6 @@
           "language": "en",
           "topics": [
             "mission"
-          ],
-          "stale": false
-        },
-        {
-          "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
-          "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
-          "date": "2026-08-25",
-          "source_id": "jpl",
-          "source": "NASA/JPL",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration",
-            "communications"
           ],
           "stale": false
         }
@@ -786,8 +778,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-23T18:47:54+09:00",
-      "last_success_at": "2026-11-23T18:47:54+09:00",
+      "last_retrieved_at": "2026-11-24T10:13:42+09:00",
+      "last_success_at": "2026-11-24T10:13:42+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -844,6 +836,32 @@
   ],
   "items": [
     {
+      "title": "'지구 저궤도에서 심우주까지' 우주 광통신 워크숍 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790478",
+      "date": "2026-11-24",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission",
+        "exploration",
+        "communications"
+      ]
+    },
+    {
+      "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+      "date": "2026-11-23",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
+    {
       "title": "한반도 해양영역인식 역량 강화를 위한 초소형위성체계 활용 협력",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790344",
       "date": "2026-11-23",
@@ -878,7 +896,8 @@
       "topics": [
         "mission",
         "control"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA’s Curiosity Mars Rover Collects Samples",
@@ -890,7 +909,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
@@ -902,7 +922,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
@@ -914,7 +935,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Curiosity Spots Drifting Twilight Clouds",
@@ -926,7 +948,8 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
@@ -939,7 +962,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
@@ -953,7 +976,7 @@
         "satellites",
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "누리호 5차 발사 결과 검토회의 개최",
@@ -1003,7 +1026,7 @@
         "exploration",
         "demonstration"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "민간 위성기업 현장 맞춤형 '시스템엔지니어링 교육' 마쳐",
@@ -1029,7 +1052,7 @@
         "mission",
         "satellites"
       ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
@@ -1042,20 +1065,7 @@
       "topics": [
         "exploration"
       ],
-      "stale": false
-    },
-    {
-      "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
-      "url": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
-      "date": "2026-11-16",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
-      ],
-      "stale": false
+      "stale": true
     },
     {
       "title": "달 기지(Moon_Base) 건설 참여 확대를 위한 국내 산학연 역량 결집",
@@ -1178,18 +1188,6 @@
       "language": "en",
       "topics": [
         "exploration"
-      ]
-    },
-    {
-      "title": "'우주쓰레기 청소선 '승리호'가 현실로' 우주물체 능동제어 위성 조립 전 최종상태 점검",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786544",
-      "date": "2026-10-26",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "satellites"
       ]
     },
     {
@@ -1601,20 +1599,6 @@
       "topics": [
         "demonstration"
       ]
-    },
-    {
-      "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
-      "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
-      "date": "2026-08-25",
-      "source_id": "jpl",
-      "source": "NASA/JPL",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration",
-        "communications"
-      ],
-      "stale": false
     }
   ]
 }
