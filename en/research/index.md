@@ -103,7 +103,7 @@ SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a M
 
 <p class="research-video-credit">Video: KARI</p>
 
-#### Thermal protection materials for Mars atmospheric entry: development and testing {#mars-tps}
+##### Thermal protection materials for Mars atmospheric entry: development and testing {#mars-tps}
 
 Compared with Earth re-entry, Mars entry involves lower entry speeds and heat fluxes, but heating lasts longer. For this environment, we develop lightweight, low-density ablative thermal protection materials that can be produced domestically.
 
