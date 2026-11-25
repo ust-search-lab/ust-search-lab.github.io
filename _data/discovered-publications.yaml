@@ -1,4 +1,5 @@
-# Additional outputs verified through 2026-10-02.
+# Additional outputs verified through 2026-10-02; KSSS 2026 fall EDL special-session
+# records (discovered-047 onward) verified from the official program book on 2026-11-25.
 # Evidence and search coverage: publication-discovery-audit.yaml.
 ---
 - title: Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering
@@ -1063,3 +1064,129 @@
     부분종합 학술대회, 2011.5, pp. 1331-1336
   search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik
   audit_key: discovered-046
+- title: Flight-Data Validation of a Mars Entry-Descent-Landing Design and Analysis Framework
+  authors:
+  - Jae-ik Park
+  - Dae Yeong Kim
+  - Jae-In Kim
+  - Snyoll Oghim
+  - Jung-Ju Bae
+  - Min Ki Kim
+  - Jeongheum Im
+  category: conference
+  year: 2026
+  date: '2026-10-28'
+  details: 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅰ, 발표 III-3-1
+  link: https://sites.google.com/view/2026ksssfall/home
+  scope: domestic
+  source: https://sites.google.com/view/2026ksssfall/home
+  verification_sources:
+  - https://sites.google.com/view/2026ksssfall/home
+  - https://ksss.or.kr/conference/202610
+  citation: Jae-ik Park, Dae Yeong Kim, Jae-In Kim, Snyoll Oghim, Jung-Ju Bae, Min Ki Kim,
+    Jeongheum Im. Flight-Data Validation of a Mars Entry-Descent-Landing Design and Analysis
+    Framework. 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅰ, 발표 III-3-1
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik 화성탐사 EDL 특별세션
+  audit_key: discovered-047
+- title: Rapid Multi-Impulse Replanning for Mars Orbit-Insertion Dispersions Using Universal-Variable
+    Propagation
+  authors:
+  - Snyoll Oghim
+  - Jae-ik Park
+  - Dae Yeong Kim
+  - Jae-in Kim
+  - Jung-ju Bae
+  - Min Ki Kim
+  - Jeong Heum Im
+  category: conference
+  year: 2026
+  date: '2026-10-28'
+  details: 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅰ, 발표 III-3-2
+  link: https://sites.google.com/view/2026ksssfall/home
+  scope: domestic
+  source: https://sites.google.com/view/2026ksssfall/home
+  verification_sources:
+  - https://sites.google.com/view/2026ksssfall/home
+  - https://ksss.or.kr/conference/202610
+  citation: Snyoll Oghim, Jae-ik Park, Dae Yeong Kim, Jae-in Kim, Jung-ju Bae, Min Ki Kim,
+    Jeong Heum Im. Rapid Multi-Impulse Replanning for Mars Orbit-Insertion Dispersions Using
+    Universal-Variable Propagation. 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술
+    Ⅰ, 발표 III-3-2
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik 화성탐사 EDL 특별세션
+  audit_key: discovered-048
+- title: Analysis of Ablation Characteristics of Thermal Protection Materials for Mars Atmospheric
+    Aeroshell Design
+  authors:
+  - Dae Yeong Kim
+  - Jae-ik Park
+  - Min Ki Kim
+  - Jae In Kim
+  - Snyoll Oghim
+  - Jung-Ju Bae
+  category: conference
+  year: 2026
+  date: '2026-10-28'
+  details: 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅰ, 발표 III-3-7
+  link: https://sites.google.com/view/2026ksssfall/home
+  scope: domestic
+  source: https://sites.google.com/view/2026ksssfall/home
+  verification_sources:
+  - https://sites.google.com/view/2026ksssfall/home
+  - https://ksss.or.kr/conference/202610
+  citation: Dae Yeong Kim, Jae-ik Park, Min Ki Kim, Jae In Kim, Snyoll Oghim, Jung-Ju Bae.
+    Analysis of Ablation Characteristics of Thermal Protection Materials for Mars Atmospheric
+    Aeroshell Design. 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅰ, 발표 III-3-7
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik 화성탐사 EDL 특별세션
+  audit_key: discovered-049
+- title: Similarity Requirements for Subscale Wind Tunnel Testing of a Fully Inflated Mars
+    EDL DGB Parachute
+  authors:
+  - Jung-Ju Bae
+  - Jae-ik Park
+  - Dae Yeong Kim
+  - Jae In Kim
+  - Snyoll Oghim
+  - Min Ki Kim
+  - Jeong Heum Im
+  category: conference
+  year: 2026
+  date: '2026-10-28'
+  details: 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅱ, 발표 IV-3-5
+  link: https://sites.google.com/view/2026ksssfall/home
+  scope: domestic
+  source: https://sites.google.com/view/2026ksssfall/home
+  verification_sources:
+  - https://sites.google.com/view/2026ksssfall/home
+  - https://ksss.or.kr/conference/202610
+  citation: Jung-Ju Bae, Jae-ik Park, Dae Yeong Kim, Jae In Kim, Snyoll Oghim, Min Ki Kim,
+    Jeong Heum Im. Similarity Requirements for Subscale Wind Tunnel Testing of a Fully Inflated
+    Mars EDL DGB Parachute. 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅱ, 발표
+    IV-3-5
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik 화성탐사 EDL 특별세션
+  audit_key: discovered-050
+- title: Comparative Analysis of Hazard Detection and Avoidance Technologies and Hazard Map
+    Generation for Mars Landers
+  authors:
+  - Jae-In Kim
+  - Jae-ik Park
+  - Dae-Yeong Kim
+  - Snyoll Oghim
+  - Jung-Ju Bae
+  - Min-Ki Kim
+  - Jeong-Heum Im
+  category: conference
+  year: 2026
+  date: '2026-10-28'
+  details: 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사 EDL 기술 Ⅱ, 발표 IV-3-6
+  link: https://sites.google.com/view/2026ksssfall/home
+  scope: domestic
+  source: https://sites.google.com/view/2026ksssfall/home
+  verification_sources:
+  - https://sites.google.com/view/2026ksssfall/home
+  - https://ksss.or.kr/conference/202610
+  citation: Jae-In Kim, Jae-ik Park, Dae-Yeong Kim, Snyoll Oghim, Jung-Ju Bae, Min-Ki Kim,
+    Jeong-Heum Im. Comparative Analysis of Hazard Detection and Avoidance Technologies and
+    Hazard Map Generation for Mars Landers. 한국우주과학회 2026년 가을 학술대회, 제주, 2026.10.28, 특별세션 화성탐사
+    EDL 기술 Ⅱ, 발표 IV-3-6
+  search: 박재익 Jae-ik Park Jae-Ik Park Park Jae-ik 화성탐사 EDL 특별세션
+  audit_key: discovered-051
