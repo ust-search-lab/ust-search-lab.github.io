@@ -103,6 +103,26 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 
 <p class="research-video-credit">영상: 한국항공우주연구원</p>
 
+#### 화성 대기 진입을 위한 열방호 소재 개발 및 시험 {#mars-tps}
+
+화성 진입은 지구 재진입보다 진입 속도와 열유속이 낮지만 가열이 길게 이어집니다. 이러한 환경에 맞춰 가볍고 국산화할 수 있는 저밀도 삭마형 열방호 소재를 개발합니다. 열유속이 높은 전면부를 위한 PICA 계열(탄소섬유 프리폼과 페놀 수지)과 복잡한 형상부를 위한 SIRCA 계열(세라믹섬유 프리폼과 실리콘 수지)을 함께 개발하며, (주)데크카본이 프리폼과 시제품 제조를, 한국세라믹기술원이 함침 조성 설계와 분석·평가를 맡아 소재 공정 전 과정을 국내에서 수행합니다.
+
+- 화성 진입 환경에 맞춘 저밀도 삭마형 열방호 소재 설계
+- 니들펀칭 탄소섬유 프리폼 제작과 진공 함침·경화 공정 개발
+- 미세구조 분석과 밀도·내열 성능 평가
+- 아크젯 시험과 열응답 해석을 통한 열방호 성능 검증
+
+2026년 11월 10일 한국항공우주연구원, 한국세라믹기술원과 (주)데크카본은 비츠로넥스텍의 300 kW급 아크젯 시험설비에서 열방호 소재 공동시험을 수행했습니다. 열유속 1,500 W/cm²의 공기 유동에 시편을 60초 동안 노출하고, 2색 파이로미터와 적외선 카메라로 표면온도를 계측하며 DSLR 카메라로 유동을 촬영했습니다.
+
+<div class="research-video-grid">
+{% include research-video.html id="mars-tps-arcjet-flow" file="mars-tps-arcjet-flow.mp4" poster="mars-tps-arcjet-flow.jpg" title="아크젯 플라즈마 유동과 시편 가열 (32초)" %}
+{% include research-video.html id="mars-tps-arcjet-infrared" file="mars-tps-arcjet-infrared.mp4" poster="mars-tps-arcjet-infrared.jpg" title="적외선 카메라 표면온도 계측 (21초)" %}
+{% include research-video.html id="mars-tps-arcjet-side" file="mars-tps-arcjet-side.mp4" poster="mars-tps-arcjet-side.jpg" title="시편 측면 가열 장면 (32초)" %}
+{% include research-video.html id="mars-tps-arcjet-front" file="mars-tps-arcjet-front.mp4" poster="mars-tps-arcjet-front.jpg" title="시편 표면 가열 장면 (32초)" %}
+</div>
+
+<p class="research-video-credit">영상: 한국항공우주연구원·한국세라믹기술원·(주)데크카본 아크젯 공동시험 (비츠로넥스텍, 2026년 11월 10일)</p>
+
 #### 지구 재진입과 열방호시스템 {#reentry}
 
 지구로 귀환하는 우주선과 시료귀환 캡슐이 고속으로 대기권에 진입할 때의 공력가열과 감속하중을 분석합니다. 재진입 궤적과 열환경을 함께 고려해 열차폐체 등 열방호시스템을 설계하고 검증하는 방법을 연구합니다.
@@ -110,7 +130,7 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 - 재진입 궤적과 진입 회랑 및 시료귀환 캡슐 회수 시나리오 설계
 - 공력가열과 감속하중 등 재진입 환경 예측
 - 열방호시스템 개념설계와 두께 산정, 삭마형 및 재사용형 열방호재의 열응답 해석
-- 아크제트 등 지상시험과 비행시험을 활용한 검증 방법 연구
+- 아크젯 등 지상시험과 비행시험을 활용한 검증 방법 연구
 
 {% include research-figure.html topic="reentry" caption="시료귀환 캡슐의 단면 개념도. 이탈 충격파와 고온 충격층, 정체점 가열, 전방동체 삭마재와 후방동체 열방호재의 구성을 나타내며, 오른쪽 확대도는 삭마재 내부의 온도 분포와 두께 산정 기준인 접합면 온도 한계를 보여줍니다. 형상과 두께는 축척을 따르지 않습니다." alt="극초음속 유동과 이탈 충격파를 마주한 시료귀환 캡슐의 단면. 정체점, 전방동체 삭마재, 후방동체 열방호재, 구조체, 시료 용기를 구분하고, 확대도에 탄화층, 열분해층, 미반응층, 접합층과 구조체의 적층과 온도 분포를, 아래에 재진입 궤적부터 공력가열 환경, 열방호시스템 두께 산정, 아크제트 시험과 비행시험까지의 해석 흐름을 나타낸 개념도." %}
 

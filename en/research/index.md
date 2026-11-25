@@ -103,6 +103,26 @@ SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a M
 
 <p class="research-video-credit">Video: KARI</p>
 
+#### Thermal protection materials for Mars atmospheric entry: development and testing {#mars-tps}
+
+Compared with Earth re-entry, Mars entry involves lower entry speeds and heat fluxes, but heating lasts longer. For this environment, we develop lightweight, low-density ablative thermal protection materials that can be produced domestically. We develop two families together: PICA-type materials (carbon-fiber preform with phenolic resin) for the high-heat-flux forebody and SIRCA-type materials (ceramic-fiber preform with silicone resin) for complex shapes. DACC Carbon manufactures the preforms and prototypes, and the Korea Institute of Ceramic Engineering and Technology (KICET) designs the impregnation compositions and performs analysis and evaluation, so the entire material process is carried out in Korea.
+
+- Design of low-density ablative thermal protection materials for the Mars entry environment
+- Needle-punched carbon-fiber preforms and vacuum impregnation and curing processes
+- Microstructure analysis and evaluation of density and heat resistance
+- Verification of thermal protection performance through arc-jet testing and thermal response analysis
+
+On November 10, 2026, KARI, KICET, and DACC Carbon jointly tested thermal protection materials in the 300 kW-class arc-jet facility at Vitzro Nextech. Specimens were exposed to an air flow with a heat flux of 1,500 W/cm² for 60 seconds while two-color pyrometers and an infrared camera measured surface temperature and a DSLR camera recorded the flow.
+
+<div class="research-video-grid">
+{% include research-video.html id="mars-tps-arcjet-flow" file="mars-tps-arcjet-flow.mp4" poster="mars-tps-arcjet-flow.jpg" title="Arc-jet plasma flow heating a specimen (32 s)" %}
+{% include research-video.html id="mars-tps-arcjet-infrared" file="mars-tps-arcjet-infrared.mp4" poster="mars-tps-arcjet-infrared.jpg" title="Surface temperature measured with an infrared camera (21 s)" %}
+{% include research-video.html id="mars-tps-arcjet-side" file="mars-tps-arcjet-side.mp4" poster="mars-tps-arcjet-side.jpg" title="Side view of a heated specimen (32 s)" %}
+{% include research-video.html id="mars-tps-arcjet-front" file="mars-tps-arcjet-front.mp4" poster="mars-tps-arcjet-front.jpg" title="Surface of a heated specimen (32 s)" %}
+</div>
+
+<p class="research-video-credit">Videos: joint arc-jet test by KARI, KICET, and DACC Carbon (Vitzro Nextech, November 10, 2026)</p>
+
 #### Earth re-entry and thermal protection systems {#reentry}
 
 We analyze aerodynamic heating and deceleration loads as spacecraft and sample return capsules enter Earth's atmosphere at high speed. We study how to design and verify heat shields and other thermal protection systems by considering re-entry trajectories and thermal environments together.
