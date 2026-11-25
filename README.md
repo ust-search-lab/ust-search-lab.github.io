@@ -38,8 +38,8 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
   and student research-area links share these application titles and ordering.
   `_includes/research-title.html` resolves application headings by topic ID
   rather than array position. Keep each topic ID aligned with its Research
-  anchor; optional method aliases preserve earlier anchors. Constellation design,
-  LEO and multi-layer PNT, and orbital datacenters are subsections
+  anchor; optional method aliases preserve earlier anchors. Constellation design
+  and orbital datacenters are subsections
   of `earth-orbit`, and integrated attitude/orbit control is
   detailed within `solar-sail` as an application of the shared methods.
   `_data/home-images.yaml` supplies the cards' mission photographs and illustrations,

@@ -64,15 +64,6 @@ For formation flying that requires precise relative positioning, we address [gui
 
 {% include research-figure.html topic="earth-constellation" caption="Illustrative constellation with satellites distributed across three orbital planes. Colors distinguish the planes; satellite sizes and orbital altitudes are not to scale." alt="A schematic of satellites distributed across three circular orbits around Earth, with altitude, inclination, orbital planes, and satellite phasing identified as design variables." %}
 
-<div id="multi-layer-pnt" aria-hidden="true"></div>
-
-#### LEO and multi-layer PNT {#leo-pnt}
-
-We study satellite navigation architectures for positioning, navigation, and timing (PNT) services.
-
-- **LEO PNT**: Analyze how visible satellite counts, navigation geometry, and orbit and timing errors affect positioning accuracy and service continuity.
-- **Multi-layer PNT**: Define the roles of LEO and other orbital layers, including medium Earth and geostationary orbits, and assess service coverage and resilience under coordinated operations.
-
 #### Orbital datacenters {#orbital-datacenter}
 
 We assess the feasibility of storing and processing data in space by integrating power, thermal management, and communications requirements. We compare candidate orbits and data processing and transfer plans against sunlight and eclipse periods and inter-satellite and ground contact opportunities.
