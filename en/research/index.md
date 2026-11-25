@@ -215,6 +215,14 @@ Deep-space optical communications uses lasers to exchange data between spacecraf
 
 {% include research-figure.html topic="optical-communications" caption="A conceptual laser downlink from a spacecraft to a ground telescope. Distance, pointing error, atmospheric conditions, and contact time affect data transmission performance." alt="A laser downlink from a spacecraft terminal through the atmosphere to a ground telescope, showing range, beam spread, pointing loss, power and optics, weather and link availability, and contact time and data return." %}
 
+#### Receiver-model analysis of Mars–Earth optical links {#mars-optical-downlink}
+
+In a Mars–Earth optical downlink, very few photons arrive per pulse, so the statistical model chosen for the receiver can change the conclusions of the link budget. For a Mars–Earth downlink using M-ary pulse-position modulation (M-PPM), SEARCH Lab fixed the optical link conditions and compared an avalanche photodiode (APD) Gaussian model with an ideal Poisson photon-counting model. Under the same conditions, the required number of signal photons differed by a factor of 4.7–6.2 depending on the model, and the difference came from the detector noise model rather than the shape of the probability distribution. This factor is a sensitivity to the choice of model, not a performance difference between real detectors.
+
+{% include research-figure.html image="mars-optical-receiver-models.png" width="2000" height="1428" caption="Uncoded bit-error rate versus signal photons per pulse. Solid lines are the APD Gaussian receiver model, dashed lines are the ideal Poisson photon-counting model, and M is the PPM order. The number of photons required for the same error rate depends on the receiver model." alt="A log-log plot of uncoded bit-error rate against signal photons per pulse. Three solid curves for the APD Gaussian model and three dashed curves for the ideal Poisson model are drawn for PPM orders 16, 64, and 256; the dashed curves fall at fewer photons than the solid ones." credit="Jae-ik Park, paper accepted in Optical and Quantum Electronics (2026)" %}
+
+Related paper: Jae-ik Park, "Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models," *Optical and Quantum Electronics*, accepted (2026). [Publications]({{ '/en/publications/' | relative_url }})
+
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-satellite" %}{% include research-title.html id="cubesat" %} {#cubesat}

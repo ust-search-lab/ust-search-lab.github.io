@@ -215,6 +215,14 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 
 {% include research-figure.html topic="optical-communications" caption="탐사선에서 지상 망원경으로 보내는 레이저 링크의 개념도. 거리, 지향 오차, 대기 조건, 통신 가능 시간이 데이터 전송 성능에 영향을 미칩니다." alt="탐사선 레이저 터미널에서 대기를 거쳐 지상 망원경으로 이어지는 하향 링크와 거리, 빔 확산과 지향 손실, 전력과 광학계, 기상 조건과 통신 가용성, 통신 시간과 데이터 전송량의 관계를 나타낸 개념도." %}
 
+#### 화성–지구 광통신 링크의 수신기 모델 분석 {#mars-optical-downlink}
+
+화성과 지구 사이의 광통신 하향링크는 펄스 하나에 도달하는 광자가 매우 적어, 수신기를 어떤 통계 모델로 나타내는지에 따라 링크 버짓의 결론이 달라질 수 있습니다. SEARCH Lab은 펄스위치변조(M-PPM)를 쓰는 화성–지구 하향링크에서 광학 링크 조건을 고정하고, 애벌란시 광다이오드(APD) 가우시안 모델과 이상적인 포아송 광자계수 모델을 비교했습니다. 같은 조건에서 필요한 신호 광자 수는 모델에 따라 4.7~6.2배 달라졌고, 그 차이는 확률분포의 모양보다 검출기 잡음 모델에서 비롯했습니다. 이 값은 모델 선택에 따른 민감도이며, 실제 검출기의 성능 차이를 뜻하지 않습니다.
+
+{% include research-figure.html image="mars-optical-receiver-models.png" width="2000" height="1428" caption="펄스당 신호 광자 수에 따른 부호화 전 비트오류율. 실선은 APD 가우시안 수신기 모델, 점선은 이상적인 포아송 광자계수 모델이고 M은 PPM 차수입니다. 같은 오류율에 필요한 광자 수가 수신기 모델에 따라 달라집니다." alt="가로축은 펄스당 신호 광자 수, 세로축은 부호화 전 비트오류율인 로그 그래프. PPM 차수 16, 64, 256에 대해 APD 가우시안 모델의 실선 세 개와 이상적인 포아송 모델의 점선 세 개가 그려져 있으며, 점선이 실선보다 더 적은 광자 수에서 오류율이 떨어집니다." credit="박재익, Optical and Quantum Electronics 게재 승인 논문 (2026)" %}
+
+관련 논문: Jae-ik Park, "Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models," *Optical and Quantum Electronics*, 게재 승인 (2026). [Publications]({{ '/publications/' | relative_url }})
+
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-satellite" %}{% include research-title.html id="cubesat" %} {#cubesat}
