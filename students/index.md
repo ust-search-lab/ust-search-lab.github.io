@@ -82,7 +82,7 @@ SEARCH Lab은 학생이 우주임무 설계 문제를 스스로 정의하고 해
 
 {% include references/optimal-control.md %}
 
-### 행성 진입, 하강 및 착륙 및 대기권 진입
+### 행성 진입·하강·착륙 및 대기권 진입
 
 {% include references/edl.md %}
 

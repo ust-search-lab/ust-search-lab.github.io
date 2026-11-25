@@ -95,7 +95,7 @@ SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a M
 - Navigation, hazard avoidance, and landing control technologies for precise and safe landing
 - Integrated simulation linking every phase from entry to landing, and mission performance analysis
 
-{% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="2058" height="1138" caption="EDL sequence for a Korean Mars landing mission concept. From the entry interface point, the vehicle passes peak heating and peak deceleration and flies a hypersonic guided trajectory before deploying its parachute. After heat shield separation with free-fall probe release, landing leg deployment, and radar acquisition with terrain relative navigation, it separates the backshell, performs powered descent with hazard avoidance, and touches down at a safe site; on the surface, a radiosonde balloon collects atmospheric measurements." alt="A labeled 15-step sequence: 01 entry interface point, 02 peak heating, 03 peak deceleration, 04 hypersonic guided flight, 05 parachute deployment, 06 heat shield separation with 06A release of ten free-fall probes, 07 landing leg deployment, 08 radar acquisition and TRN, 09 backshell separation and powered descent, 10 hazard avoidance, 11 vertical descent, 12 touchdown and engine cutoff, 13 balloon inflation, 14 balloon release, and 15 radiosonde science." credit="KARI, KASA Space Challenge Program Mars EDL key technology project" %}
+{% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="2058" height="1138" caption="EDL sequence for a Korean Mars landing mission concept, from atmospheric entry through parachute deployment, powered descent, and touchdown to atmospheric observations on the surface." alt="A labeled 15-step sequence: 01 entry interface point, 02 peak heating, 03 peak deceleration, 04 hypersonic guided flight, 05 parachute deployment, 06 heat shield separation with 06A release of ten free-fall probes, 07 landing leg deployment, 08 radar acquisition and TRN, 09 backshell separation and powered descent, 10 hazard avoidance, 11 vertical descent, 12 touchdown and engine cutoff, 13 balloon inflation, 14 balloon release, and 15 radiosonde science." credit="KARI, KASA Space Challenge Program Mars EDL key technology project" %}
 
 <div class="research-video-grid research-video-grid--single">
 {% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="Concept of operations for a Korean Mars landing mission, from atmospheric entry to surface operations (3× speed, 63 s; Korean labels)" %}
@@ -153,8 +153,6 @@ Solar sails generate thrust from solar radiation pressure as sunlight transfers 
 - Non-Keplerian and other special orbits and future exploration mission concepts
 - Solar sail in-space demonstration mission planning
 
-{% include research-figure.html topic="solar-sail" caption="Sunlight transfers momentum to a sail, producing thrust. The right panel shows an ideal, perfectly reflecting sail in cross-section; sail orientation affects the magnitude and direction of thrust." alt="A deployed solar sail and a cross-section of an ideal reflective sail, showing incident and reflected light and thrust normal to the sail surface." %}
-
 #### Integrated attitude and orbit control {#integrated-attitude-orbit-control}
 
 We combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.
@@ -168,8 +166,8 @@ The Korea Aerospace Research Institute (KARI) developed a ground test model with
 Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228), [Tests and Lessons Learned of Solar Sail Deployment](https://doi.org/10.52912/jsta.2026.6.3.293)
 
 <div class="research-video-grid">
-{% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="Solar sail deployment, overhead view (23 s clip)" %}
-{% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="Solar sail deployment, side view (22 s clip)" %}
+{% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="Solar sail deployment, overhead view (23 s)" %}
+{% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="Solar sail deployment, side view (22 s)" %}
 </div>
 
 #### Deorbiter for space debris removal: development and ground tests {#deorbiter-ground-test}
@@ -179,8 +177,8 @@ KARI developed a ground test model of a deorbiter to investigate technologies fo
 Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417), [Deorbiter development and tests](https://doi.org/10.52912/jsta.2026.6.2.196)
 
 <div class="research-video-grid">
-{% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="Drag-sail deployment, wide view (2.4 s clip)" %}
-{% include research-video.html id="deorbiter-test-overhead" file="kari-deorbiter-drag-sail-overhead.mp4" poster="kari-deorbiter-drag-sail-overhead.jpg" title="Drag-sail deployment, overhead view (12.9 s clip)" %}
+{% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="Drag-sail deployment, wide view (2.4 s)" %}
+{% include research-video.html id="deorbiter-test-overhead" file="kari-deorbiter-drag-sail-overhead.mp4" poster="kari-deorbiter-drag-sail-overhead.jpg" title="Drag-sail deployment, overhead view (12.9 s)" %}
 </div>
 
 {% include section.html %}

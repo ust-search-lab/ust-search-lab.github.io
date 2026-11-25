@@ -44,7 +44,7 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 </div>
 
-{% include research-figure.html topic="architecture" caption="임무 목표와 제약조건을 바탕으로 궤도와 궤적, 시스템, 통신 운용을 연계해 분석하고 최적화하며, 실현 가능성을 평가해 설계를 다듬습니다." alt="임무 목표와 제약조건에서 출발해 궤도, 궤적과 기동, 위성, 탐사선과 탑재체, 통신과 운용의 연계 모델을 구성하고, 성능, 실현 가능성, 민감도와 위험 평가를 설계에 반영하는 개념도." %}
+{% include research-figure.html topic="architecture" caption="임무 목표와 제약조건을 바탕으로 궤도와 궤적, 시스템, 통신 운용을 연계해 분석하고 최적화하며, 실현 가능성을 평가해 설계를 다듬습니다." alt="임무 목표와 제약조건에서 출발해 궤도·궤적과 기동, 위성·탐사선과 탑재체, 통신과 운용의 연계 모델을 구성하고, 성능, 실현 가능성, 민감도, 위험 평가를 설계에 반영하는 개념도." %}
 
 {% include section.html %}
 
@@ -58,7 +58,7 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 #### 군집위성 궤도설계 {#earth-constellation}
 
-지구관측, 통신과 기술실증을 위한 위성 수, 궤도 고도와 경사각, 궤도면과 위상 배치를 설계합니다. 관측 범위와 재방문 주기, 통신 가능 시간, 추진제 소모, 운용 부담을 비교해 임무에 적합한 구성을 찾습니다.
+지구관측, 통신, 기술실증을 위한 위성 수, 궤도 고도와 경사각, 궤도면과 위상 배치를 설계합니다. 관측 범위와 재방문 주기, 통신 가능 시간, 추진제 소모, 운용 부담을 비교해 임무에 적합한 구성을 찾습니다.
 
 정밀한 상대 위치 유지가 필요한 편대비행에서는 상대궤도 동역학과 항법 오차를 반영한 [유도 및 제어](#guidance-control)를 다룹니다.
 
@@ -66,7 +66,7 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 #### 우주데이터센터 {#orbital-datacenter}
 
-궤도상 데이터 저장과 처리에 필요한 전력, 열관리와 통신 조건을 통합해 실현 가능성을 검토합니다. 일조 구간과 식 구간, 위성 간 통신 및 지상 통신 기회를 바탕으로 후보 궤도와 데이터 처리 및 전송 계획을 비교합니다.
+궤도상 데이터 저장과 처리에 필요한 전력, 열관리, 통신 조건을 통합해 실현 가능성을 검토합니다. 일조 구간과 식 구간, 위성 간 통신 및 지상 통신 기회를 바탕으로 후보 궤도와 데이터 처리 및 전송 계획을 비교합니다.
 
 {% include section.html %}
 
@@ -76,16 +76,16 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 - 달 탐사 및 착륙 임무, 화성 궤도선과 착륙선의 임무 개념설계
 - 탐사 목표에 따른 궤도와 착륙지 검토
-- 탐사선, 표면 관측 대상과 지구 사이의 관측과 통신 기하 분석
+- 탐사선, 표면 관측 대상, 지구 사이의 관측과 통신 기하 분석
 - 관측과 통신 가능 시간을 고려한 탐사선 운용 시나리오 설계
 
-{% include research-figure.html image="mars-transfer-porkchop-trajectory.jpg" width="2600" height="1167" caption="2035년 지구–화성 전이궤도 설계 예. (a) 출발일과 비행시간에 따른 발사에너지(C3) 분포와 나로우주센터 발사 가능 범위를 나타낸 porkchop 도표, (b) 2035년 5월 출발해 12월 화성 대기권에 진입하는 전이궤도와 궤적 보정 기동(TCM)." alt="(a) 2035년 출발일을 가로축, 비행시간을 세로축으로 한 발사에너지 C3 등고선 도표에 기준 해, 최소 C3 대안, 나로우주센터 발사 가능 범위와 진입 속도 조건을 만족하는 해를 표시한 그림. (b) 태양을 중심으로 지구와 화성 궤도, 2035년 5월 26일 지구 출발부터 12월 12일 화성 진입까지의 200일 전이궤도와 네 차례의 궤적 보정 기동 지점을 표시한 그림." credit="한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제" %}
+{% include research-figure.html image="mars-transfer-porkchop-trajectory.jpg" width="2600" height="1167" caption="2035년 지구–화성 전이궤도 설계 예. (a) 출발일과 비행시간에 따른 발사에너지(C3) 분포와 나로우주센터 발사 가능 범위를 나타낸 포크찹 플롯, (b) 2035년 5월 출발해 12월 화성 대기권에 진입하는 전이궤도와 궤적 보정 기동(TCM)." alt="(a) 2035년 출발일을 가로축, 비행시간을 세로축으로 한 발사에너지 C3 등고선 도표에 기준 해, 최소 C3 대안, 나로우주센터 발사 가능 범위, 진입 속도 조건을 만족하는 해를 표시한 그림. (b) 태양을 중심으로 지구와 화성 궤도, 2035년 5월 26일 지구 출발부터 12월 12일 화성 진입까지의 200일 전이궤도와 네 차례의 궤적 보정 기동 지점을 표시한 그림." credit="한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제" %}
 
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
 
-#### 화성 진입, 하강 및 착륙 {#edl}
+#### 화성 진입·하강·착륙 {#edl}
 
 SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지표면에 안전하게 착륙하기 위한 진입·하강·착륙(Entry, Descent, and Landing, EDL) 기술을 연구합니다. 대기 진입부터 감속과 착륙까지 단계별 핵심기술을 개발하고, 통합 시뮬레이션을 통해 전 과정의 성능을 검증하며 미래 화성 탐사를 위한 기술 기반을 마련하고 있습니다.
 
@@ -95,19 +95,19 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 - 정밀하고 안전한 착륙을 위한 항법·위험 회피·착륙 제어 기술 연구
 - 진입부터 착륙까지 전 과정을 연계한 통합 시뮬레이션과 임무 성능 분석
 
-{% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="2058" height="1138" caption="한국형 화성 착륙 임무안의 EDL 시퀀스. 진입 경계점에서 대기권에 진입해 최대 가열과 최대 감속, 극초음속 유도 비행을 거친 뒤 낙하산을 전개합니다. 열방호막 분리와 자유낙하 탐침 방출, 착륙 다리 전개, 레이더와 지형상대항법을 거쳐 후방덮개를 분리하고 동력 하강과 위험 회피로 안전 지점에 착지하며, 표면에서는 라디오존데 풍선을 띄워 대기를 관측합니다." alt="01 진입 경계점부터 02 최대 가열, 03 최대 감속, 04 극초음속 유도 비행, 05 낙하산 전개, 06 열방호막 분리와 06A 자유낙하 탐침 10개 방출, 07 착륙 다리 전개, 08 레이더 포착과 지형상대항법, 09 후방덮개 분리와 동력 하강, 10 위험 회피, 11 수직 하강, 12 착지와 엔진 정지, 13 풍선 팽창, 14 풍선 방출, 15 라디오존데 관측으로 이어지는 15단계를 영문 라벨로 표시한 그림." credit="한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제" %}
+{% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="2058" height="1138" caption="한국형 화성 착륙 임무안의 EDL 시퀀스. 대기 진입부터 낙하산 전개, 동력 하강, 착지, 표면 대기 관측까지의 단계를 나타냅니다." alt="01 진입 경계점부터 02 최대 가열, 03 최대 감속, 04 극초음속 유도 비행, 05 낙하산 전개, 06 열차폐체 분리와 06A 자유낙하 탐침 10개 방출, 07 착륙 다리 전개, 08 레이더 포착과 지형상대항법, 09 후방덮개 분리와 동력 하강, 10 위험 회피, 11 수직 하강, 12 착지와 엔진 정지, 13 풍선 팽창, 14 풍선 방출, 15 라디오존데 관측으로 이어지는 15단계를 영문 라벨로 표시한 그림." credit="한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제" %}
 
 <div class="research-video-grid research-video-grid--single">
-{% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="한국형 화성 착륙 임무의 운용 개념, 대기진입부터 표면 임무까지 (3배속, 63초)" %}
+{% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="한국형 화성 착륙 임무의 운용 개념, 대기 진입부터 표면 임무까지 (3배속, 63초)" %}
 </div>
 
 <p class="research-video-credit">영상: 한국항공우주연구원</p>
 
 ##### 화성 대기 진입을 위한 열방호 소재 개발 및 시험 {#mars-tps}
 
-화성 진입은 지구 재진입보다 진입 속도와 열유속이 낮지만 가열이 길게 이어집니다. 이러한 환경에 맞춰 가볍고 국산화할 수 있는 저밀도 삭마형 열방호 소재를 개발합니다.
+화성 진입은 지구 재진입보다 진입 속도와 열유속이 낮지만 가열이 길게 이어집니다. 이러한 환경에 맞는 저밀도 삭마형 열방호 소재를 국내 기술로 개발합니다.
 
-2026년 11월 10일 한국항공우주연구원, 한국세라믹기술원과 (주)데크카본은 비츠로넥스텍의 300 kW급 아크젯 시험설비에서 열방호 소재 공동시험을 수행했습니다.
+2026년 11월 10일 한국항공우주연구원, 한국세라믹기술원, (주)데크카본은 비츠로넥스텍의 300 kW급 아크젯 시험설비에서 열방호 소재 공동시험을 수행했습니다.
 
 <div class="research-video-grid">
 {% include research-video.html id="mars-tps-arcjet-flow" file="mars-tps-arcjet-flow.mp4" poster="mars-tps-arcjet-flow.jpg" title="아크젯 플라즈마 유동과 시편 가열 (32초)" %}
@@ -120,7 +120,7 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 
 ##### 낙하산 감속 기술 연구 {#mars-parachute}
 
-화성의 희박한 대기에서 초음속으로 낙하산을 전개해 탐사선을 감속하는 기술을 연구합니다. 연세대학교와 한국항공우주연구원은 낙하산 전개 과정에서 캐노피의 구조 응답과 주변 유동을 함께 해석하는 유체-구조 연성 해석을 수행했습니다.
+화성의 희박한 대기에서 초음속으로 낙하산을 전개해 탐사선을 감속하는 기술을 연구합니다. 연세대학교와 한국항공우주연구원은 낙하산 전개 과정에서 캐노피의 구조 응답과 주변 유동을 함께 계산하는 유체-구조 연성 해석을 수행했습니다.
 
 <div class="research-video-grid">
 {% include research-video.html id="mars-parachute-canopy-stress" file="mars-parachute-canopy-stress.mp4" poster="mars-parachute-canopy-stress.jpg" title="캐노피 응력 (16초)" %}
@@ -135,12 +135,12 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 
 지구로 귀환하는 우주선과 시료귀환 캡슐이 고속으로 대기권에 진입할 때의 공력가열과 감속하중을 분석합니다. 재진입 궤적과 열환경을 함께 고려해 열차폐체 등 열방호시스템을 설계하고 검증하는 방법을 연구합니다.
 
-- 재진입 궤적과 진입 회랑 및 시료귀환 캡슐 회수 시나리오 설계
+- 재진입 궤적, 진입 회랑, 시료귀환 캡슐 회수 시나리오 설계
 - 공력가열과 감속하중 등 재진입 환경 예측
 - 열방호시스템 개념설계와 두께 산정, 삭마형 및 재사용형 열방호재의 열응답 해석
 - 아크젯 등 지상시험과 비행시험을 활용한 검증 방법 연구
 
-{% include research-figure.html topic="reentry" caption="시료귀환 캡슐의 단면 개념도. 이탈 충격파와 고온 충격층, 정체점 가열, 전방동체 삭마재와 후방동체 열방호재의 구성을 나타내며, 오른쪽 확대도는 삭마재 내부의 온도 분포와 두께 산정 기준인 접합면 온도 한계를 보여줍니다. 형상과 두께는 축척을 따르지 않습니다." alt="극초음속 유동과 이탈 충격파를 마주한 시료귀환 캡슐의 단면. 정체점, 전방동체 삭마재, 후방동체 열방호재, 구조체, 시료 용기를 구분하고, 확대도에 탄화층, 열분해층, 미반응층, 접합층과 구조체의 적층과 온도 분포를, 아래에 재진입 궤적부터 공력가열 환경, 열방호시스템 두께 산정, 아크젯 시험과 비행시험까지의 해석 흐름을 나타낸 개념도." %}
+{% include research-figure.html topic="reentry" caption="시료귀환 캡슐의 단면 개념도. 이탈 충격파와 고온 충격층, 정체점 가열, 전방동체 삭마재와 후방동체 열방호재의 구성을 나타내며, 오른쪽 확대도는 삭마재 내부의 온도 분포와 두께 산정 기준인 접합면 온도 한계를 보여줍니다. 형상과 두께는 축척을 따르지 않습니다." alt="극초음속 유동과 이탈 충격파를 마주한 시료귀환 캡슐의 단면. 정체점, 전방동체 삭마재, 후방동체 열방호재, 구조체, 시료 용기를 구분하고, 확대도에 탄화층, 열분해층, 미반응층, 접합층, 구조체의 적층과 온도 분포를, 아래에 재진입 궤적부터 공력가열 환경, 열방호시스템 두께 산정, 아크젯 시험과 비행시험까지의 해석 흐름을 나타낸 개념도." %}
 
 {% include section.html %}
 
@@ -153,8 +153,6 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 - 비케플러 궤도 등 특수궤도와 미래 탐사 임무 개념설계
 - 태양돛 우주실증 임무 기획
 
-{% include research-figure.html topic="solar-sail" caption="태양광이 돛에 운동량을 전달해 추력을 만드는 원리. 오른쪽은 이상적인 완전 반사 돛의 단면으로, 돛의 방향에 따라 추력의 크기와 방향이 달라집니다." alt="펼쳐진 태양돛의 전체 형상과 이상적인 반사 돛의 단면. 입사광, 반사광, 돛 표면에 수직으로 작용하는 추력을 나타낸 개념도." %}
-
 #### 자세와 궤도 통합 제어 {#integrated-attitude-orbit-control}
 
 [유도 및 제어](#optimization)와 [자세 역학과 자세 제어](#attitude-dynamics-control)를 결합해 태양돛의 궤도와 자세 운동을 함께 해석하고 제어하는 방법을 연구합니다. 태양복사압에 의한 힘과 토크, 질량중심과 압력중심의 관계를 모델링하고, 구동기 한계, 관측 및 통신을 위한 지향 조건을 반영한 6자유도 시뮬레이션으로 임무 수행 가능성을 평가합니다. [AI와 기계학습](#ai-machine-learning)을 활용한 제어 명령 예측과 자율비행의 적용 가능성도 검토합니다.
@@ -163,38 +161,38 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 
 #### 태양돛 전개장치 개발 및 지상시험 {#solar-sail-ground-test}
 
-한국항공우주연구원(KARI)은 심우주 탐사에 활용할 태양돛 전개기술을 확보하기 위해 10 m × 10 m(100 m²) 규모의 지상 시험모델을 개발했습니다. 모터로 네 개의 지지대(붐)를 펼치면서 수납된 얇은 돛을 전개하는 구조로, 지상시험을 통해 붐과 돛의 전개 과정에서 발생하는 문제와 개선점을 확인했습니다. 아래 영상은 시험모델의 전개 과정을 상부와 측면에서 촬영한 것입니다.
+한국항공우주연구원은 심우주 탐사에 활용할 태양돛 전개기술을 확보하기 위해 10 m × 10 m(100 m²) 규모의 지상 시험모델을 개발했습니다. 모터로 네 개의 지지대(붐)를 펼치면서 수납된 얇은 돛을 전개하는 구조로, 지상시험을 통해 붐과 돛의 전개 과정에서 발생하는 문제와 개선점을 확인했습니다. 아래 영상은 시험모델의 전개 과정을 상부와 측면에서 촬영한 것입니다.
 
-관련 자료: [항우연 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228), [태양돛 전개 시험 및 교훈](https://doi.org/10.52912/jsta.2026.6.3.293)
+관련 자료: [한국항공우주연구원 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228), [태양돛 전개 시험 및 교훈](https://doi.org/10.52912/jsta.2026.6.3.293)
 
 <div class="research-video-grid">
-{% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="태양돛 전개시험, 상부 촬영 (영상 23초)" %}
-{% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="태양돛 전개시험, 측면 촬영 (영상 22초)" %}
+{% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="태양돛 전개시험, 상부 촬영 (23초)" %}
+{% include research-video.html id="sail-test-side" file="kari-solar-sail-deployment-side.mp4" poster="kari-solar-sail-deployment-side.jpg" title="태양돛 전개시험, 측면 촬영 (22초)" %}
 </div>
 
 #### 우주쓰레기 제거용 궤도이탈 장치 개발 및 지상시험 {#deorbiter-ground-test}
 
-한국항공우주연구원(KARI)은 저궤도 우주쓰레기의 포획과 제거 기술을 검증하기 위해 궤도이탈 장치(deorbiter)의 지상 시험모델을 개발했습니다. 견인부, 포획부와 전개부로 구성되며, 5 m × 5 m(25 m²)의 저항돛(drag sail)을 펼쳐 대기저항을 높이고 포획한 물체의 대기권 재진입을 유도하는 개념입니다. 아래 영상은 이 가운데 저항돛의 전개 기능을 확인하는 지상시험 장면입니다.
+한국항공우주연구원은 저궤도 우주쓰레기의 포획과 제거 기술을 검증하기 위해 궤도이탈 장치(deorbiter)의 지상 시험모델을 개발했습니다. 견인부, 포획부, 전개부로 구성되며, 5 m × 5 m(25 m²)의 저항돛(drag sail)을 펼쳐 대기저항을 높이고 포획한 물체의 대기권 재진입을 유도하는 개념입니다. 아래 영상은 이 가운데 저항돛의 전개 기능을 확인하는 지상시험 장면입니다.
 
-관련 자료: [항우연 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417), [궤도이탈 장치 개발과 시험 논문](https://doi.org/10.52912/jsta.2026.6.2.196)
+관련 자료: [한국항공우주연구원 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417), [궤도이탈 장치 개발과 시험 논문](https://doi.org/10.52912/jsta.2026.6.2.196)
 
 <div class="research-video-grid">
-{% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="저항돛 전개시험, 전체 모습 (영상 2.4초)" %}
-{% include research-video.html id="deorbiter-test-overhead" file="kari-deorbiter-drag-sail-overhead.mp4" poster="kari-deorbiter-drag-sail-overhead.jpg" title="저항돛 전개시험, 상부 촬영 (영상 12.9초)" %}
+{% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="저항돛 전개시험, 전체 모습 (2.4초)" %}
+{% include research-video.html id="deorbiter-test-overhead" file="kari-deorbiter-drag-sail-overhead.mp4" poster="kari-deorbiter-drag-sail-overhead.jpg" title="저항돛 전개시험, 상부 촬영 (12.9초)" %}
 </div>
 
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-satellite-dish" %}{% include research-title.html id="optical-communications" %} {#optical-communications}
 
-심우주 광통신은 레이저를 이용해 탐사선과 지구 사이에 데이터를 주고받는 기술입니다. 연구실은 궤적과 탐사선 자세, 지구와의 거리, 지상국의 대기와 기상 조건이 통신 성능에 미치는 영향을 연구합니다. 통신 가능 시간과 데이터 전송량을 평가하고, 질량, 전력과 열 제약을 고려한 시스템 요구조건과 운용 및 기술실증 방안을 연구합니다.
+심우주 광통신은 레이저를 이용해 탐사선과 지구 사이에 데이터를 주고받는 기술입니다. 연구실은 궤적과 탐사선 자세, 지구와의 거리, 지상국의 대기와 기상 조건이 통신 성능에 미치는 영향을 분석합니다. 통신 가능 시간과 데이터 전송량을 평가하고, 질량, 전력, 열 제약을 고려한 시스템 요구조건과 운용 및 기술실증 방안을 연구합니다.
 
-- 거리, 광학계, 전력과 손실을 고려한 링크 버짓과 데이터 전송 성능 분석
+- 거리, 광학계, 전력, 손실을 고려한 링크 버짓과 데이터 전송 성능 분석
 - 정밀 지향, 포착 및 추적(PAT) 요구조건과 탐사선 자세 안정성 분석
 - 대기와 기상 조건, 가시성을 고려한 광학 지상국 배치와 통신 가용성 분석
 - 전파(RF)와 광통신 병행 운용, 데이터 전송 일정 및 기술실증 시나리오 설계
 
-{% include research-figure.html topic="optical-communications" caption="탐사선에서 지상 망원경으로 보내는 레이저 링크의 개념도. 거리, 지향 오차, 대기 조건과 통신 가능 시간이 데이터 전송 성능에 영향을 미칩니다." alt="탐사선 레이저 터미널에서 대기를 거쳐 지상 망원경으로 이어지는 하향 링크와 거리, 빔 확산과 지향 손실, 전력과 광학계, 기상 조건과 통신 가용성, 통신 시간과 데이터 전송량의 관계를 나타낸 개념도." %}
+{% include research-figure.html topic="optical-communications" caption="탐사선에서 지상 망원경으로 보내는 레이저 링크의 개념도. 거리, 지향 오차, 대기 조건, 통신 가능 시간이 데이터 전송 성능에 영향을 미칩니다." alt="탐사선 레이저 터미널에서 대기를 거쳐 지상 망원경으로 이어지는 하향 링크와 거리, 빔 확산과 지향 손실, 전력과 광학계, 기상 조건과 통신 가용성, 통신 시간과 데이터 전송량의 관계를 나타낸 개념도." %}
 
 {% include section.html %}
 
@@ -207,6 +205,6 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 - 위성 운용개념 수립과 궤도상 기술 검증 시나리오 설계
 - 국가연구개발사업과 연계한 우주실증 임무 기획
 
-[자세 제어](#attitude-dynamics-control)와 자율제어 알고리즘은 수치 시뮬레이션에서 시작해 탑재 컴퓨터, 센서와 구동기를 연계한 지상시험으로 검증 범위를 넓히고, 과제 여건에 맞춰 궤도상 실증 가능성을 검토합니다.
+[자세 제어](#attitude-dynamics-control)와 자율제어 알고리즘은 수치 시뮬레이션에서 시작해 탑재 컴퓨터, 센서, 구동기를 연계한 지상시험으로 검증 범위를 넓히고, 과제 여건에 맞춰 궤도상 실증 가능성을 검토합니다.
 
-{% include research-figure.html topic="cubesat" caption="큐브샛 임무 개념을 시스템 요구조건으로 구체화하고, 설계, 제작과 지상시험을 거쳐 궤도상 운용에서 기술을 검증하는 개발 과정." alt="큐브샛 임무 개념, 시스템 설계와 제작, 지상시험, 궤도상 운용과 실증으로 이어지는 개발과 검증 과정의 개념도." %}
+{% include research-figure.html topic="cubesat" caption="큐브샛 임무 개념을 시스템 요구조건으로 구체화하고, 설계, 제작, 지상시험을 거쳐 궤도상 운용에서 기술을 검증하는 개발 과정." alt="큐브샛 임무 개념, 시스템 설계와 제작, 지상시험, 궤도상 운용과 실증으로 이어지는 개발과 검증 과정의 개념도." %}
