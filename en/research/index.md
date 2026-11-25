@@ -81,6 +81,14 @@ We design lunar and planetary exploration missions, including lunar landers and 
 
 {% include research-figure.html image="mars-transfer-porkchop-trajectory.jpg" width="2600" height="1167" caption="Example of 2035 Earth–Mars transfer design. (a) Porkchop plot of launch energy (C3) by departure date and time of flight, with the Naro Space Center launch envelope. (b) Transfer trajectory departing in May 2035 and entering the Martian atmosphere in December, with trajectory correction maneuvers (TCMs)." alt="(a) Contours of launch energy C3 against 2035 departure date and time of flight, marking the baseline solution, the minimum-C3 alternative, the Naro Space Center launch envelope, and solutions meeting the entry-speed condition. (b) Heliocentric view of the Earth and Mars orbits and the 200-day transfer from Earth departure on May 26, 2035 to Mars entry on December 12, with four trajectory correction maneuvers." credit="KARI, KASA Space Challenge Program Mars EDL key technology project" %}
 
+#### Earth–Moon cycler orbits {#cycler}
+
+A cycler is an orbit that travels back and forth between the Earth and the Moon, passing both bodies repeatedly. Building on [dynamical systems and multi-body astrodynamics](#dynamical-systems), we compute periodic cycler orbits in the circular restricted three-body problem and analyze their stability. We assess how perturbations such as lunar orbital eccentricity and solar gravity affect the repeated close passes, and study how to carry these orbits over to realistic ephemeris models.
+
+{% include research-figure.html image="earth-moon-cyclers.png" width="2400" height="885" caption="Three periodic cycler orbits in the Earth–Moon rotating frame. The large dot is the Earth and the small dot is the Moon; distances are in units of the Earth–Moon distance. In the circular restricted three-body problem these orbits repeat the same path without propulsion; the families were reported in earlier work and recomputed independently here. The numbers in parentheses label the orbit family, and T is the period in days." alt="Three cycler orbits in the x–y plane of the Earth–Moon rotating frame. The (1,1) orbit, with a period of 44.8 days, encloses the Earth and makes a small loop around the Moon; the (3,1) orbit, 64.3 days, and the (3,3) orbit, 78.9 days, circle the Earth several times in a star-like pattern before passing near the Moon." credit="SEARCH Lab" %}
+
+Related prior work: [Stable Ballistic Prograde Cyclers in the Three-Body Problem (Ross, Roberts-Tsoukkas)](https://arxiv.org/abs/2606.29189)
+
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}

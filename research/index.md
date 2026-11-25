@@ -81,6 +81,14 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 {% include research-figure.html image="mars-transfer-porkchop-trajectory.jpg" width="2600" height="1167" caption="2035년 지구–화성 전이궤도 설계 예. (a) 출발일과 비행시간에 따른 발사에너지(C3) 분포와 나로우주센터 발사 가능 범위를 나타낸 포크찹 플롯, (b) 2035년 5월 출발해 12월 화성 대기권에 진입하는 전이궤도와 궤적 보정 기동(TCM)." alt="(a) 2035년 출발일을 가로축, 비행시간을 세로축으로 한 발사에너지 C3 등고선 도표에 기준 해, 최소 C3 대안, 나로우주센터 발사 가능 범위, 진입 속도 조건을 만족하는 해를 표시한 그림. (b) 태양을 중심으로 지구와 화성 궤도, 2035년 5월 26일 지구 출발부터 12월 12일 화성 진입까지의 200일 전이궤도와 네 차례의 궤적 보정 기동 지점을 표시한 그림." credit="한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제" %}
 
+#### 지구–달 사이클러 궤도 {#cycler}
+
+사이클러는 지구와 달 사이를 주기적으로 오가며 두 천체를 반복해서 지나가는 궤도입니다. [동역학계 이론과 다체 궤도역학](#dynamical-systems)을 바탕으로 원형제한삼체문제에서 사이클러 주기궤도를 계산하고 안정성을 분석합니다. 달 궤도의 이심률과 태양 중력 같은 섭동이 반복 근접통과에 미치는 영향을 평가하고, 실제 천체력 모델에 적용하는 방법을 연구합니다.
+
+{% include research-figure.html image="earth-moon-cyclers.png" width="2400" height="885" caption="지구–달 회전좌표계에서 본 사이클러 주기궤도 세 가지. 큰 점은 지구, 작은 점은 달이며, 거리는 지구–달 거리를 1로 둔 값입니다. 원형제한삼체문제에서 추진 없이 같은 경로를 반복하는 궤도로, 선행연구에 보고된 궤도군을 독립적으로 다시 계산했습니다. 괄호 안은 궤도군 번호, T는 주기(일)입니다." alt="지구–달 회전좌표계의 x–y 평면에 그린 세 사이클러 궤도. 주기 44.8일의 (1,1) 궤도는 지구를 크게 감싸고 달 주위에서 작은 고리를 그리며, 주기 64.3일의 (3,1) 궤도와 주기 78.9일의 (3,3) 궤도는 지구 주위를 여러 번 돌며 별 모양을 그린 뒤 달 근처를 지납니다." credit="SEARCH Lab" %}
+
+관련 선행연구: [Stable Ballistic Prograde Cyclers in the Three-Body Problem (Ross, Roberts-Tsoukkas)](https://arxiv.org/abs/2606.29189)
+
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
