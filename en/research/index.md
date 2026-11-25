@@ -105,14 +105,9 @@ SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a M
 
 #### Thermal protection materials for Mars atmospheric entry: development and testing {#mars-tps}
 
-Compared with Earth re-entry, Mars entry involves lower entry speeds and heat fluxes, but heating lasts longer. For this environment, we develop lightweight, low-density ablative thermal protection materials that can be produced domestically. We develop two families together: PICA-type materials (carbon-fiber preform with phenolic resin) for the high-heat-flux forebody and SIRCA-type materials (ceramic-fiber preform with silicone resin) for complex shapes. DACC Carbon manufactures the preforms and prototypes, and the Korea Institute of Ceramic Engineering and Technology (KICET) designs the impregnation compositions and performs analysis and evaluation, so the entire material process is carried out in Korea.
+Compared with Earth re-entry, Mars entry involves lower entry speeds and heat fluxes, but heating lasts longer. For this environment, we develop lightweight, low-density ablative thermal protection materials that can be produced domestically.
 
-- Design of low-density ablative thermal protection materials for the Mars entry environment
-- Needle-punched carbon-fiber preforms and vacuum impregnation and curing processes
-- Microstructure analysis and evaluation of density and heat resistance
-- Verification of thermal protection performance through arc-jet testing and thermal response analysis
-
-On November 10, 2026, KARI, KICET, and DACC Carbon jointly tested thermal protection materials in the 300 kW-class arc-jet facility at Vitzro Nextech. Specimens were exposed to an air flow with a heat flux of 1,500 W/cm² for 60 seconds while two-color pyrometers and an infrared camera measured surface temperature and a DSLR camera recorded the flow.
+On November 10, 2026, KARI, the Korea Institute of Ceramic Engineering and Technology (KICET), and DACC Carbon jointly tested thermal protection materials in the 300 kW-class arc-jet facility at Vitzro Nextech.
 
 <div class="research-video-grid">
 {% include research-video.html id="mars-tps-arcjet-flow" file="mars-tps-arcjet-flow.mp4" poster="mars-tps-arcjet-flow.jpg" title="Arc-jet plasma flow heating a specimen (32 s)" %}
