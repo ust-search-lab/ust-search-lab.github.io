@@ -118,6 +118,19 @@ On November 10, 2026, KARI, the Korea Institute of Ceramic Engineering and Techn
 
 <p class="research-video-credit">Videos: joint arc-jet test by KARI, KICET, and DACC Carbon (Vitzro Nextech, November 10, 2026)</p>
 
+##### Parachute deceleration technology {#mars-parachute}
+
+We study technologies for decelerating a spacecraft by deploying a parachute at supersonic speed in the thin Martian atmosphere. Yonsei University performed fluid-structure interaction analyses that resolve the canopy's structural response together with the surrounding flow during parachute deployment.
+
+<div class="research-video-grid">
+{% include research-video.html id="mars-parachute-canopy-stress" file="mars-parachute-canopy-stress.mp4" poster="mars-parachute-canopy-stress.jpg" title="Canopy stress (16 s)" %}
+{% include research-video.html id="mars-parachute-flow-pressure" file="mars-parachute-flow-pressure.mp4" poster="mars-parachute-flow-pressure.jpg" title="Flow pressure (16 s)" %}
+{% include research-video.html id="mars-parachute-flow-density" file="mars-parachute-flow-density.mp4" poster="mars-parachute-flow-density.jpg" title="Flow density (16 s)" %}
+{% include research-video.html id="mars-parachute-flow-velocity-z" file="mars-parachute-flow-velocity-z.mp4" poster="mars-parachute-flow-velocity-z.jpg" title="Flow z-velocity (16 s)" %}
+</div>
+
+<p class="research-video-credit">Videos: Yonsei University, fluid-structure interaction analysis of a supersonic parachute</p>
+
 #### Earth re-entry and thermal protection systems {#reentry}
 
 We analyze aerodynamic heating and deceleration loads as spacecraft and sample return capsules enter Earth's atmosphere at high speed. We study how to design and verify heat shields and other thermal protection systems by considering re-entry trajectories and thermal environments together.
