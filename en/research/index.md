@@ -101,17 +101,7 @@ SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a M
 {% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="Concept of operations for a Korean Mars landing mission, from atmospheric entry to surface operations (3× speed, 63 s; Korean labels)" %}
 </div>
 
-<div class="research-video-grid">
-{% include research-video.html id="mars-edl-tps-arcjet-test" file="mars-edl-tps-arcjet-test.mp4" poster="mars-edl-tps-arcjet-test.jpg" title="Arc-jet test of thermal protection material (32 s)" %}
-{% include research-video.html id="mars-edl-entry-guidance" file="mars-edl-entry-guidance.mp4" poster="mars-edl-entry-guidance.jpg" title="Entry guidance and attitude control simulation (30 s)" %}
-{% include research-video.html id="mars-edl-terrain-relative-navigation" file="mars-edl-terrain-relative-navigation.mp4" poster="mars-edl-terrain-relative-navigation.jpg" title="Terrain relative navigation: matching descent images to a reference map (11 s)" %}
-</div>
-
-<p class="research-video-credit">Videos: KARI. The arc-jet test was conducted by KICET and DACC Carbon, and the entry guidance simulation by Yonsei University.</p>
-
-<div class="research-video-grid research-video-grid--single">
-{% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="Mars atmospheric entry concept visualization (7.8 seconds)" %}
-</div>
+<p class="research-video-credit">Video: KARI</p>
 
 #### Earth re-entry and thermal protection systems {#reentry}
 

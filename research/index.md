@@ -101,17 +101,7 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 {% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="한국형 화성 착륙 임무의 운용 개념, 대기진입부터 표면 임무까지 (3배속, 63초)" %}
 </div>
 
-<div class="research-video-grid">
-{% include research-video.html id="mars-edl-tps-arcjet-test" file="mars-edl-tps-arcjet-test.mp4" poster="mars-edl-tps-arcjet-test.jpg" title="열방호 소재 아크젯 시험 (32초)" %}
-{% include research-video.html id="mars-edl-entry-guidance" file="mars-edl-entry-guidance.mp4" poster="mars-edl-entry-guidance.jpg" title="진입 유도와 자세제어 시뮬레이션 (30초)" %}
-{% include research-video.html id="mars-edl-terrain-relative-navigation" file="mars-edl-terrain-relative-navigation.mp4" poster="mars-edl-terrain-relative-navigation.jpg" title="지형상대항법의 하강영상-참조지도 정합 (11초)" %}
-</div>
-
-<p class="research-video-credit">영상: 한국항공우주연구원. 아크젯 시험은 한국세라믹기술원과 (주)데크카본, 진입 유도 시뮬레이션은 연세대학교가 수행했습니다.</p>
-
-<div class="research-video-grid research-video-grid--single">
-{% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="화성 대기권 진입 개념 영상 (7.8초)" %}
-</div>
+<p class="research-video-credit">영상: 한국항공우주연구원</p>
 
 #### 지구 재진입과 열방호시스템 {#reentry}
 
