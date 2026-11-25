@@ -74,7 +74,16 @@ module Jekyll
         end
       end
 
-      records.sort_by { |record| [-record.fetch('year', 0).to_i, record['title'].to_s] }
+      # Newest first within each year; same-date entries (e.g. one conference
+      # session) follow their venue details, which carry the presentation number.
+      records.sort do |a, b|
+        newest = [b.fetch('year', 0).to_i, publication_sort_date(b)] <=> [a.fetch('year', 0).to_i, publication_sort_date(a)]
+        newest.nonzero? || ([a['details'].to_s, a['title'].to_s] <=> [b['details'].to_s, b['title'].to_s])
+      end
+    end
+
+    def publication_sort_date(record)
+      (record['date'] || record['registration_date'] || record['application_date']).to_s
     end
 
     def publications_for_researcher(records, researcher_id)
