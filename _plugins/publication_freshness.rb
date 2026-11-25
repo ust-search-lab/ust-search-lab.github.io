@@ -20,7 +20,7 @@ module Jekyll
       '_data/publication-automation.json'
     ).freeze
     VISIBLE_FIELDS = %w[category year status title link authors contributor_role subtype scope
-                        details details_en publisher date id doi accepted_date document_link pdf].freeze
+                        details details_en publisher date id doi accepted_date document_link].freeze
 
     def initialize(source)
       @source = source
