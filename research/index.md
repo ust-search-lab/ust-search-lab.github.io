@@ -120,7 +120,7 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 
 ##### 낙하산 감속 기술 연구 {#mars-parachute}
 
-화성의 희박한 대기에서 초음속으로 낙하산을 전개해 탐사선을 감속하는 기술을 연구합니다. 연세대학교는 낙하산 전개 과정에서 캐노피의 구조 응답과 주변 유동을 함께 해석하는 유체-구조 연성 해석을 수행했습니다.
+화성의 희박한 대기에서 초음속으로 낙하산을 전개해 탐사선을 감속하는 기술을 연구합니다. 연세대학교와 한국항공우주연구원은 낙하산 전개 과정에서 캐노피의 구조 응답과 주변 유동을 함께 해석하는 유체-구조 연성 해석을 수행했습니다.
 
 <div class="research-video-grid">
 {% include research-video.html id="mars-parachute-canopy-stress" file="mars-parachute-canopy-stress.mp4" poster="mars-parachute-canopy-stress.jpg" title="캐노피 응력 (16초)" %}
@@ -129,7 +129,7 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 {% include research-video.html id="mars-parachute-flow-velocity-z" file="mars-parachute-flow-velocity-z.mp4" poster="mars-parachute-flow-velocity-z.jpg" title="유동 z축 속도 (16초)" %}
 </div>
 
-<p class="research-video-credit">영상: 연세대학교, 초음속 낙하산 유체-구조 연성 해석</p>
+<p class="research-video-credit">영상: 연세대학교·한국항공우주연구원, 초음속 낙하산 유체-구조 연성 해석</p>
 
 #### 지구 재진입과 열방호시스템 {#reentry}
 

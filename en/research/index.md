@@ -120,7 +120,7 @@ On November 10, 2026, KARI, the Korea Institute of Ceramic Engineering and Techn
 
 ##### Parachute deceleration technology {#mars-parachute}
 
-We study technologies for decelerating a spacecraft by deploying a parachute at supersonic speed in the thin Martian atmosphere. Yonsei University performed fluid-structure interaction analyses that resolve the canopy's structural response together with the surrounding flow during parachute deployment.
+We study technologies for decelerating a spacecraft by deploying a parachute at supersonic speed in the thin Martian atmosphere. Yonsei University and KARI performed fluid-structure interaction analyses that resolve the canopy's structural response together with the surrounding flow during parachute deployment.
 
 <div class="research-video-grid">
 {% include research-video.html id="mars-parachute-canopy-stress" file="mars-parachute-canopy-stress.mp4" poster="mars-parachute-canopy-stress.jpg" title="Canopy stress (16 s)" %}
@@ -129,7 +129,7 @@ We study technologies for decelerating a spacecraft by deploying a parachute at 
 {% include research-video.html id="mars-parachute-flow-velocity-z" file="mars-parachute-flow-velocity-z.mp4" poster="mars-parachute-flow-velocity-z.jpg" title="Flow z-velocity (16 s)" %}
 </div>
 
-<p class="research-video-credit">Videos: Yonsei University, fluid-structure interaction analysis of a supersonic parachute</p>
+<p class="research-video-credit">Videos: Yonsei University and KARI, fluid-structure interaction analysis of a supersonic parachute</p>
 
 #### Earth re-entry and thermal protection systems {#reentry}
 
