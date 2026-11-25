@@ -89,29 +89,13 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지표면에 안전하게 착륙하기 위한 진입·하강·착륙(Entry, Descent, and Landing, EDL) 기술을 연구합니다. 대기 진입부터 감속과 착륙까지 단계별 핵심기술을 개발하고, 통합 시뮬레이션을 통해 전 과정의 성능을 검증하며 미래 화성 탐사를 위한 기술 기반을 마련하고 있습니다.
 
-- 화성 대기 모델을 반영한 진입 궤적 해석과 InSight 비행자료 기반 시뮬레이션 검증
-- 에어로셸 형상과 열공력 해석, 저밀도 삭마형 열방호재 개발과 아크젯 시험
-- 진입 유도와 자세제어, 초음속 낙하산 전개 판단과 유체-구조 연성 해석
-- 지형상대항법과 위험 회피, 동력 하강과 착지 안정성 해석
-- 진입부터 착지까지 연결한 통합 시뮬레이터(NARAE)와 몬테카를로 기반 착륙 분산 분석
+- 화성 대기 환경을 고려한 진입 궤적 해석과 시뮬레이션 검증
+- 대기 진입을 위한 탐사선 형상 설계와 열방호 기술 개발
+- 안정적인 하강을 위한 유도·제어와 낙하산 감속 기술 연구
+- 정밀하고 안전한 착륙을 위한 항법·위험 회피·착륙 제어 기술 연구
+- 진입부터 착륙까지 전 과정을 연계한 통합 시뮬레이션과 임무 성능 분석
 
 {% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="2058" height="1138" caption="한국형 화성 착륙 임무안의 EDL 시퀀스. 진입 경계점에서 대기권에 진입해 최대 가열과 최대 감속, 극초음속 유도 비행을 거친 뒤 낙하산을 전개합니다. 열방호막 분리와 자유낙하 탐침 방출, 착륙 다리 전개, 레이더와 지형상대항법을 거쳐 후방덮개를 분리하고 동력 하강과 위험 회피로 안전 지점에 착지하며, 표면에서는 라디오존데 풍선을 띄워 대기를 관측합니다." alt="01 진입 경계점부터 02 최대 가열, 03 최대 감속, 04 극초음속 유도 비행, 05 낙하산 전개, 06 열방호막 분리와 06A 자유낙하 탐침 10개 방출, 07 착륙 다리 전개, 08 레이더 포착과 지형상대항법, 09 후방덮개 분리와 동력 하강, 10 위험 회피, 11 수직 하강, 12 착지와 엔진 정지, 13 풍선 팽창, 14 풍선 방출, 15 라디오존데 관측으로 이어지는 15단계를 영문 라벨로 표시한 그림." credit="한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제" %}
-
-<div class="research-photo-row">
-  <figure>
-    <a href="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" aria-label="에어로셸 — 그림 크게 보기"><img src="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" alt="70도 구-원추형 에어로셸의 외형. 아래쪽 전방동체에 열방호재가 적용됩니다." loading="lazy" decoding="async"></a>
-    <figcaption>에어로셸</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" aria-label="낙하산 — 그림 크게 보기"><img src="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" alt="디스크-갭-밴드(DGB)형 초음속 낙하산의 캐노피와 서스펜션 라인." loading="lazy" decoding="async"></a>
-    <figcaption>낙하산</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" aria-label="착륙선 — 그림 크게 보기"><img src="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" alt="육각형 데크와 착륙 다리 세 개로 구성된 착륙선의 윗면, 아랫면과 측면도." loading="lazy" decoding="async"></a>
-    <figcaption>착륙선</figcaption>
-  </figure>
-  <p class="research-photo-row-caption">1단계에서 도출한 EDL 시스템 형상 설계안. 에어로셸은 70도 구-원추형(직경 2.65 m), 낙하산은 DGB형(공칭 직경 11.8 m), 착륙선은 육각형 데크와 착륙 다리 세 개로 구성됩니다. <span class="research-figure-credit">이미지: 한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제</span></p>
-</div>
 
 <div class="research-video-grid research-video-grid--single">
 {% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="한국형 화성 착륙 임무의 운용 개념, 대기진입부터 표면 임무까지 (3배속, 63초)" %}

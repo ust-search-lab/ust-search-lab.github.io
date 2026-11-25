@@ -89,29 +89,13 @@ We design lunar and planetary exploration missions, including lunar landers and 
 
 SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a Mars spacecraft to enter the atmosphere, slow down, and land safely on the surface. We develop key technologies for each phase, from atmospheric entry through deceleration and landing, verify end-to-end performance through integrated simulation, and build the technical foundation for future Mars exploration.
 
-- Entry trajectory analysis with a Mars atmosphere model and simulation validation against InSight flight data
-- Aeroshell shape and aerothermal analysis, low-density ablative thermal protection materials, and arc-jet testing
-- Entry guidance and attitude control, supersonic parachute deployment decisions, and fluid-structure interaction analysis
-- Terrain relative navigation and hazard avoidance, powered descent, and touchdown stability analysis
-- An integrated simulator (NARAE) linking entry to touchdown, and Monte Carlo landing dispersion analysis
+- Entry trajectory analysis and simulation validation that account for the Martian atmospheric environment
+- Spacecraft shape design and thermal protection technologies for atmospheric entry
+- Guidance, control, and parachute deceleration technologies for stable descent
+- Navigation, hazard avoidance, and landing control technologies for precise and safe landing
+- Integrated simulation linking every phase from entry to landing, and mission performance analysis
 
 {% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="2058" height="1138" caption="EDL sequence for a Korean Mars landing mission concept. From the entry interface point, the vehicle passes peak heating and peak deceleration and flies a hypersonic guided trajectory before deploying its parachute. After heat shield separation with free-fall probe release, landing leg deployment, and radar acquisition with terrain relative navigation, it separates the backshell, performs powered descent with hazard avoidance, and touches down at a safe site; on the surface, a radiosonde balloon collects atmospheric measurements." alt="A labeled 15-step sequence: 01 entry interface point, 02 peak heating, 03 peak deceleration, 04 hypersonic guided flight, 05 parachute deployment, 06 heat shield separation with 06A release of ten free-fall probes, 07 landing leg deployment, 08 radar acquisition and TRN, 09 backshell separation and powered descent, 10 hazard avoidance, 11 vertical descent, 12 touchdown and engine cutoff, 13 balloon inflation, 14 balloon release, and 15 radiosonde science." credit="KARI, KASA Space Challenge Program Mars EDL key technology project" %}
-
-<div class="research-photo-row">
-  <figure>
-    <a href="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" aria-label="Aeroshell — View full-size image"><img src="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" alt="Exterior of the 70-degree sphere-cone aeroshell, with thermal protection material on the forebody." loading="lazy" decoding="async"></a>
-    <figcaption>Aeroshell</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" aria-label="Parachute — View full-size image"><img src="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" alt="Canopy and suspension lines of the disk-gap-band (DGB) supersonic parachute." loading="lazy" decoding="async"></a>
-    <figcaption>Parachute</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" aria-label="Lander — View full-size image"><img src="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" alt="Top, bottom, and side views of the lander with a hexagonal deck and three landing legs." loading="lazy" decoding="async"></a>
-    <figcaption>Lander</figcaption>
-  </figure>
-  <p class="research-photo-row-caption">System configuration derived in Phase 1: a 70-degree sphere-cone aeroshell (2.65 m in diameter), a DGB parachute (11.8 m nominal diameter), and a lander with a hexagonal deck and three landing legs. <span class="research-figure-credit">Image: KARI, KASA Space Challenge Program Mars EDL key technology project</span></p>
-</div>
 
 <div class="research-video-grid research-video-grid--single">
 {% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="Concept of operations for a Korean Mars landing mission, from atmospheric entry to surface operations (3× speed, 63 s; Korean labels)" %}
