@@ -16,7 +16,7 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
   <a href="#methods">핵심 이론과 방법론</a>
   <a href="#earth-orbit">지구궤도 임무설계</a>
   <a href="#planetary">달과 행성 탐사</a>
-  <a href="#entry-systems">진입, 착륙과 열보호</a>
+  <a href="#entry-systems">진입, 하강, 착륙과 열방호</a>
   <a href="#solar-sail">태양돛</a>
   <a href="#optical-communications">심우주 광통신</a>
   <a href="#cubesat">큐브샛과 우주실증</a>
@@ -85,14 +85,50 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
 
-#### 행성 진입, 하강 및 착륙 {#edl}
+#### 화성 진입, 하강 및 착륙 {#edl}
 
-화성처럼 대기가 있는 행성에서 탐사선이 대기권에 진입한 뒤 감속하고 안전하게 착륙하는 과정을 연구합니다. 대기와 열공력 환경, 낙하산 전개 조건, 유도 및 제어 방식이 궤적과 착륙 위치의 오차에 미치는 영향을 분석합니다.
+SEARCH Lab은 화성 진입, 하강 및 착륙(EDL)을 중심으로 연구합니다. 박재익 박사가 연구책임자로 우주항공청 스페이스챌린지사업 「화성 탐사를 위한 화성대기 진입-감속-착륙(EDL) 핵심기술 개발」(2025–2028)을 수행하고 있습니다. 한국항공우주연구원이 주관하고 한국세라믹기술원, (주)데크카본, 연세대학교가 공동연구기관으로, 서울대학교와 KAIST가 위탁연구기관으로 참여합니다. 50 kg급 탑재체의 화성 착륙 임무를 가정해 대기진입, 감속과 착륙 요소기술을 개발하고, 통합 시뮬레이터로 진입부터 착지까지의 성능을 검증합니다.
 
-- 화성 대기권 진입경로와 진입 유도 해석
-- 낙하산 전개 조건 및 감속과 착륙 시나리오 설계
-- 대기와 열공력 모델을 반영한 3자유도와 6자유도 시뮬레이션
-- 착륙분산 분석과 행성 착륙 임무 성능 평가
+- 화성 대기 모델(MCD 6.1)을 반영한 진입 궤적 해석과 InSight 비행자료 기반 시뮬레이션 검증
+- 에어로셸 형상과 열공력 해석, 저밀도 삭마형 열방호재 개발과 아크젯 시험
+- 진입 유도와 자세제어, 초음속 낙하산 전개 판단과 유체-구조 연성 해석
+- 지형상대항법과 위험 회피, 동력 하강과 착지 안정성 해석
+- 진입부터 착지까지 연결한 통합 시뮬레이터(NARAE)와 몬테카를로 기반 착륙 분산 분석
+
+{% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="1600" height="900" caption="한국형 화성 착륙 임무안의 EDL 시퀀스. 에어로셸로 대기권에 진입한 뒤 초음속 낙하산 전개, 열방호막 분리, 착륙선 분리와 동력 하강을 거쳐 착지하고, 표면에서 라디오존데 관측을 수행합니다." alt="화성 대기권에 진입하며 가열되는 에어로셸, 낙하산 전개, 열방호막 분리, 착륙 레이더 작동, 착륙선 분리와 동력 하강, 착지, 라디오존데 풍선 상승으로 이어지는 단계별 그림." credit="한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제" %}
+
+<div class="research-photo-row">
+  <figure>
+    <a href="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" aria-label="에어로셸 — 그림 크게 보기"><img src="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" alt="70도 구-원추형 에어로셸의 외형. 아래쪽 전방동체에 열방호재가 적용됩니다." loading="lazy" decoding="async"></a>
+    <figcaption>에어로셸</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" aria-label="낙하산 — 그림 크게 보기"><img src="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" alt="디스크-갭-밴드(DGB)형 초음속 낙하산의 캐노피와 서스펜션 라인." loading="lazy" decoding="async"></a>
+    <figcaption>낙하산</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" aria-label="착륙선 — 그림 크게 보기"><img src="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" alt="육각형 데크와 착륙 다리 세 개로 구성된 착륙선의 윗면, 아랫면과 측면도." loading="lazy" decoding="async"></a>
+    <figcaption>착륙선</figcaption>
+  </figure>
+  <p class="research-photo-row-caption">1단계에서 도출한 EDL 시스템 형상 설계안. 에어로셸은 70도 구-원추형(직경 2.65 m), 낙하산은 DGB형(공칭 직경 11.8 m), 착륙선은 육각형 데크와 착륙 다리 세 개로 구성됩니다. <span class="research-figure-credit">이미지: 한국항공우주연구원, 우주항공청 스페이스챌린지사업 화성 EDL 핵심기술 개발 과제</span></p>
+</div>
+
+<div class="research-video-grid research-video-grid--single">
+{% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="한국형 화성 착륙 임무의 운용 개념, 대기진입부터 표면 임무까지 (3배속, 63초)" %}
+</div>
+
+<div class="research-video-grid">
+{% include research-video.html id="mars-edl-tps-arcjet-test" file="mars-edl-tps-arcjet-test.mp4" poster="mars-edl-tps-arcjet-test.jpg" title="열방호 소재 아크젯 시험 (32초)" %}
+{% include research-video.html id="mars-edl-entry-guidance" file="mars-edl-entry-guidance.mp4" poster="mars-edl-entry-guidance.jpg" title="진입 유도와 자세제어 시뮬레이션 (30초)" %}
+{% include research-video.html id="mars-edl-parachute-fsi" file="mars-edl-parachute-fsi.mp4" poster="mars-edl-parachute-fsi.jpg" title="초음속 낙하산 유체-구조 연성 해석 (16초)" %}
+{% include research-video.html id="mars-edl-terrain-relative-navigation" file="mars-edl-terrain-relative-navigation.mp4" poster="mars-edl-terrain-relative-navigation.jpg" title="지형상대항법의 하강영상-참조지도 정합 (11초)" %}
+{% include research-video.html id="mars-edl-powered-descent" file="mars-edl-powered-descent.mp4" poster="mars-edl-powered-descent.jpg" title="InSight 동력 하강 재현 시뮬레이션 (18초)" %}
+{% include research-video.html id="mars-edl-narae-simulator" file="mars-edl-narae-simulator.mp4" poster="mars-edl-narae-simulator.jpg" title="통합 시뮬레이터 NARAE 실행 화면 (56초)" %}
+</div>
+
+<p class="research-video-credit">영상: 한국항공우주연구원. 아크젯 시험은 한국세라믹기술원과 (주)데크카본, 진입 유도와 낙하산 해석은 연세대학교가 수행했습니다.</p>
+
+해외 사례로는 NASA의 Mars 2020 임무가 유도 진입, 지형상대항법과 스카이크레인을 이용해 착륙 정확도를 크게 높였습니다.
 
 {% include research-figure.html image="edl-mars2020-conops.jpg" width="1364" height="766" caption="Mars 2020 임무의 진입, 하강 및 착륙 운용 개념. 순항단 분리 후 대기권에 진입해 유도 진입, 낙하산 전개, 열차폐체 분리, 지형상대항법과 동력 하강을 거쳐 스카이크레인으로 로버를 내려놓습니다." alt="순항단 분리, 대기권 진입, 최대 가열과 최대 감속, 유도 진입, 낙하산 전개, 열차폐체 분리, 레이더 고정, 지형상대항법, 후방덮개와 낙하산 분리, 동력 하강, 로버 착지와 스카이크레인 이탈로 이어지는 Mars 2020 EDL 단계도." credit="NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)" source="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf" %}
 
@@ -116,16 +152,16 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 {% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="화성 대기권 진입 개념 영상 (7.8초)" %}
 </div>
 
-#### 지구 재진입과 열보호시스템 {#reentry}
+#### 지구 재진입과 열방호시스템 {#reentry}
 
-지구로 귀환하는 우주선과 시료귀환 캡슐이 고속으로 대기권에 진입할 때의 공력가열과 감속하중을 분석합니다. 재진입 궤적과 열환경을 함께 고려해 열차폐체 등 열보호시스템을 설계하고 검증하는 방법을 연구합니다.
+지구로 귀환하는 우주선과 시료귀환 캡슐이 고속으로 대기권에 진입할 때의 공력가열과 감속하중을 분석합니다. 재진입 궤적과 열환경을 함께 고려해 열차폐체 등 열방호시스템을 설계하고 검증하는 방법을 연구합니다.
 
 - 재진입 궤적과 진입 회랑 및 시료귀환 캡슐 회수 시나리오 설계
 - 공력가열과 감속하중 등 재진입 환경 예측
-- 열보호시스템 개념설계와 두께 산정, 삭마형 및 재사용형 열보호재의 열응답 해석
+- 열방호시스템 개념설계와 두께 산정, 삭마형 및 재사용형 열방호재의 열응답 해석
 - 아크제트 등 지상시험과 비행시험을 활용한 검증 방법 연구
 
-{% include research-figure.html topic="reentry" caption="시료귀환 캡슐의 단면 개념도. 이탈 충격파와 고온 충격층, 정체점 가열, 전방동체 삭마재와 후방동체 열보호재의 구성을 나타내며, 오른쪽 확대도는 삭마재 내부의 온도 분포와 두께 산정 기준인 접합면 온도 한계를 보여줍니다. 형상과 두께는 축척을 따르지 않습니다." alt="극초음속 유동과 이탈 충격파를 마주한 시료귀환 캡슐의 단면. 정체점, 전방동체 삭마재, 후방동체 열보호재, 구조체, 시료 용기를 구분하고, 확대도에 탄화층, 열분해층, 미반응층, 접합층과 구조체의 적층과 온도 분포를, 아래에 재진입 궤적부터 공력가열 환경, 열보호시스템 두께 산정, 아크제트 시험과 비행시험까지의 해석 흐름을 나타낸 개념도." %}
+{% include research-figure.html topic="reentry" caption="시료귀환 캡슐의 단면 개념도. 이탈 충격파와 고온 충격층, 정체점 가열, 전방동체 삭마재와 후방동체 열방호재의 구성을 나타내며, 오른쪽 확대도는 삭마재 내부의 온도 분포와 두께 산정 기준인 접합면 온도 한계를 보여줍니다. 형상과 두께는 축척을 따르지 않습니다." alt="극초음속 유동과 이탈 충격파를 마주한 시료귀환 캡슐의 단면. 정체점, 전방동체 삭마재, 후방동체 열방호재, 구조체, 시료 용기를 구분하고, 확대도에 탄화층, 열분해층, 미반응층, 접합층과 구조체의 적층과 온도 분포를, 아래에 재진입 궤적부터 공력가열 환경, 열방호시스템 두께 산정, 아크제트 시험과 비행시험까지의 해석 흐름을 나타낸 개념도." %}
 
 {% include section.html %}
 

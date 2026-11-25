@@ -101,11 +101,11 @@ applications:
       summary: We design lunar and planetary missions by assessing orbits, landing sites, observation opportunities, and communications geometry to develop operations scenarios.
   - id: entry-systems
     ko:
-      title: 대기권 진입, 착륙과 열보호
-      summary: 행성의 진입, 하강 및 착륙과 지구 재진입을 함께 다루며 궤적, 감속하중, 열환경과 열보호시스템을 연구합니다.
+      title: 대기권 진입, 하강, 착륙과 열방호
+      summary: 화성 진입, 하강 및 착륙(EDL)을 중심으로 지구 재진입까지 다루며 궤적, 감속하중, 열환경과 열방호시스템을 연구합니다.
     en:
-      title: Atmospheric entry, landing, and thermal protection
-      summary: We study planetary entry, descent, and landing alongside Earth re-entry, examining trajectories, deceleration loads, thermal environments, and thermal protection systems.
+      title: Atmospheric entry, descent, landing, and thermal protection
+      summary: We focus on Mars entry, descent, and landing (EDL) and also study Earth re-entry, examining trajectories, deceleration loads, thermal environments, and thermal protection systems.
   - id: solar-sail
     ko:
       title: 태양돛과 심우주 탐사

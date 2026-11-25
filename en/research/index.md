@@ -16,7 +16,7 @@ SEARCH Lab builds on astrodynamics and dynamical systems theory to design **spac
   <a href="#methods">Theories &amp; methods</a>
   <a href="#earth-orbit">Earth-orbit missions</a>
   <a href="#planetary">Lunar &amp; planetary missions</a>
-  <a href="#entry-systems">Entry, landing &amp; thermal protection</a>
+  <a href="#entry-systems">Entry, descent, landing &amp; thermal protection</a>
   <a href="#solar-sail">Solar sails</a>
   <a href="#optical-communications">Optical communications</a>
   <a href="#cubesat">CubeSats &amp; demonstration</a>
@@ -85,14 +85,50 @@ We design lunar and planetary exploration missions, including lunar landers and 
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
 
-#### Planetary entry, descent, and landing {#edl}
+#### Mars entry, descent, and landing {#edl}
 
-We study how spacecraft enter an atmosphere, slow down, and land safely on planets such as Mars. Our work examines how atmospheric and aerothermodynamic conditions, parachute deployment, and guidance and control affect the trajectory and landing accuracy.
+SEARCH Lab focuses on Mars entry, descent, and landing (EDL). Dr. Jae-ik Park leads the KASA Space Challenge Program project "Development of Key Technologies for Martian Atmosphere Entry-Deceleration-Landing for Mars Exploration" (2025–2028) as principal investigator. KARI leads the project with the Korea Institute of Ceramic Engineering and Technology (KICET), DACC Carbon, and Yonsei University as joint research institutions and Seoul National University and KAIST as commissioned research institutions. Assuming a mission that lands a 50 kg-class payload on Mars, we develop key technologies for atmospheric entry, deceleration, and landing and verify end-to-end performance from entry to touchdown with an integrated simulator.
 
-- Mars atmospheric entry trajectory and entry guidance analysis
-- Parachute deployment conditions and deceleration and landing scenarios
-- Three- and six-degree-of-freedom simulation with atmospheric and aerothermodynamic models
-- Landing dispersion analysis and planetary landing mission performance assessment
+- Entry trajectory analysis with the Mars Climate Database (MCD 6.1) and simulation validation against InSight flight data
+- Aeroshell shape and aerothermal analysis, low-density ablative thermal protection materials, and arc-jet testing
+- Entry guidance and attitude control, supersonic parachute deployment decisions, and fluid-structure interaction analysis
+- Terrain relative navigation and hazard avoidance, powered descent, and touchdown stability analysis
+- An integrated simulator (NARAE) linking entry to touchdown, and Monte Carlo landing dispersion analysis
+
+{% include research-figure.html image="mars-edl-korean-lander-sequence.jpg" width="1600" height="900" caption="EDL sequence for a Korean Mars landing mission concept. After atmospheric entry in the aeroshell, the vehicle deploys a supersonic parachute, separates the heat shield and the lander, performs powered descent, and touches down before radiosonde observations begin on the surface." alt="An illustrated sequence showing the heated aeroshell entering the Martian atmosphere, parachute deployment, heat shield separation, landing radar operation, lander separation and powered descent, touchdown, and radiosonde balloons rising from the surface." credit="KARI, KASA Space Challenge Program Mars EDL key technology project" %}
+
+<div class="research-photo-row">
+  <figure>
+    <a href="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" aria-label="Aeroshell — View full-size image"><img src="{{ '/images/research/mars-edl-aeroshell.jpg' | relative_url }}" alt="Exterior of the 70-degree sphere-cone aeroshell, with thermal protection material on the forebody." loading="lazy" decoding="async"></a>
+    <figcaption>Aeroshell</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" aria-label="Parachute — View full-size image"><img src="{{ '/images/research/mars-edl-parachute.jpg' | relative_url }}" alt="Canopy and suspension lines of the disk-gap-band (DGB) supersonic parachute." loading="lazy" decoding="async"></a>
+    <figcaption>Parachute</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" aria-label="Lander — View full-size image"><img src="{{ '/images/research/mars-edl-lander.jpg' | relative_url }}" alt="Top, bottom, and side views of the lander with a hexagonal deck and three landing legs." loading="lazy" decoding="async"></a>
+    <figcaption>Lander</figcaption>
+  </figure>
+  <p class="research-photo-row-caption">System configuration derived in Phase 1: a 70-degree sphere-cone aeroshell (2.65 m in diameter), a DGB parachute (11.8 m nominal diameter), and a lander with a hexagonal deck and three landing legs. <span class="research-figure-credit">Image: KARI, KASA Space Challenge Program Mars EDL key technology project</span></p>
+</div>
+
+<div class="research-video-grid research-video-grid--single">
+{% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="Concept of operations for a Korean Mars landing mission, from atmospheric entry to surface operations (3× speed, 63 s; Korean labels)" %}
+</div>
+
+<div class="research-video-grid">
+{% include research-video.html id="mars-edl-tps-arcjet-test" file="mars-edl-tps-arcjet-test.mp4" poster="mars-edl-tps-arcjet-test.jpg" title="Arc-jet test of thermal protection material (32 s)" %}
+{% include research-video.html id="mars-edl-entry-guidance" file="mars-edl-entry-guidance.mp4" poster="mars-edl-entry-guidance.jpg" title="Entry guidance and attitude control simulation (30 s)" %}
+{% include research-video.html id="mars-edl-parachute-fsi" file="mars-edl-parachute-fsi.mp4" poster="mars-edl-parachute-fsi.jpg" title="Fluid-structure interaction analysis of a supersonic parachute (16 s)" %}
+{% include research-video.html id="mars-edl-terrain-relative-navigation" file="mars-edl-terrain-relative-navigation.mp4" poster="mars-edl-terrain-relative-navigation.jpg" title="Terrain relative navigation: matching descent images to a reference map (11 s)" %}
+{% include research-video.html id="mars-edl-powered-descent" file="mars-edl-powered-descent.mp4" poster="mars-edl-powered-descent.jpg" title="Powered descent simulation reproducing InSight (18 s; Korean labels)" %}
+{% include research-video.html id="mars-edl-narae-simulator" file="mars-edl-narae-simulator.mp4" poster="mars-edl-narae-simulator.jpg" title="NARAE integrated simulator in operation (56 s; Korean labels)" %}
+</div>
+
+<p class="research-video-credit">Videos: KARI. The arc-jet test was conducted by KICET and DACC Carbon, and the entry guidance and parachute analyses by Yonsei University.</p>
+
+Among missions abroad, NASA's Mars 2020 greatly improved landing accuracy with guided entry, terrain relative navigation, and a sky crane.
 
 {% include research-figure.html image="edl-mars2020-conops.jpg" width="1364" height="766" caption="Concept of operations for Mars 2020 entry, descent, and landing. After cruise stage separation, the vehicle enters the atmosphere and proceeds through guided entry, parachute deployment, heat shield separation, terrain relative navigation, and powered descent before the sky crane lowers the rover." alt="Mars 2020 EDL sequence: cruise stage separation, atmospheric entry, peak heating and deceleration, guided entry, parachute deployment, heat shield separation, radar lock, terrain relative navigation, backshell and parachute separation, powered descent, rover deployment, and sky crane flyaway." credit="NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)" source="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf" %}
 

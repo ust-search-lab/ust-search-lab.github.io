@@ -24,7 +24,7 @@ SEARCH Lab (Space Exploration ARCHitecture Laboratory) studies space mission arc
 
 Our work draws on astrodynamics and dynamical systems theory, together with guidance and attitude control, numerical optimization, AI and machine learning, and systems analysis. We study designs that meet mission requirements by considering how orbital and maneuver plans affect propellant use, power, communications, observations, and operations.
 
-Our main research areas are Earth-orbit mission design; lunar and planetary mission design; atmospheric entry, landing, and thermal protection; solar sails and deep-space exploration; deep-space optical communications; and CubeSat development and in-space demonstration. See [Research]({{ '/en/research/' | relative_url }}) for the theoretical foundations and details of each area.
+Our main research areas are Earth-orbit mission design; lunar and planetary mission design; atmospheric entry, descent, landing, and thermal protection; solar sails and deep-space exploration; deep-space optical communications; and CubeSat development and in-space demonstration. See [Research]({{ '/en/research/' | relative_url }}) for the theoretical foundations and details of each area.
 
 </div>
 
