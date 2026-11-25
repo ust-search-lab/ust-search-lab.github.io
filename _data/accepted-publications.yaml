@@ -3,6 +3,19 @@
 # only; they do not independently verify acceptance of these manuscripts.
 # Do not use acceptance dates as publication dates or publication years.
 ---
+- id: accepted:mars-earth-optical-downlink-receiver-model-sensitivity
+  title: 'Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models'
+  authors:
+    - Jae-ik Park
+  category: journal
+  status: accepted
+  accepted_date: '2026-11-18'
+  details: Optical and Quantum Electronics
+  journal_source: https://link.springer.com/journal/11082
+  source: Owner-provided acceptance information, 2026-11-25
+  citation: 'Jae-ik Park. Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models. Optical and Quantum Electronics. Accepted 2026-11-18; awaiting publication.'
+  search: 박재익 OQE Optical and Quantum Electronics 화성 지구 광통신 M-PPM APD 게재 승인 출판 대기 accepted awaiting publication
+
 - id: accepted:mars-edl-integrated-simulation-systems-design
   title: An Integrated Simulation-Based Systems Design Procedure for Mars Entry, Descent, and Landing Technology Development
   title_aliases:

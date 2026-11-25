@@ -13,14 +13,3 @@
   source: Owner-provided manuscript and peer-review information, 2026-10-08
   citation: Jae-ik Park. Assessment of Attitude Assumptions in Three-Degree-of-Freedom InSight Mars EDL Simulation. Journal of Astronomy and Space Sciences. Peer review in progress.
   search: 박재익 JASS InSight 화성 EDL 3DOF 3-DOF 자세 가정 peer review under review 심사 중
-
-- id: under-review:mars-earth-optical-downlink-receiver-model-sensitivity
-  title: 'Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models'
-  authors:
-    - Jae-ik Park
-  category: journal
-  status: under_review
-  details: Optical and Quantum Electronics
-  source: Owner-provided manuscript and peer-review information, 2026-10-06
-  citation: 'Jae-ik Park. Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models. Optical and Quantum Electronics. Peer review in progress.'
-  search: 박재익 peer review under review 심사 중
