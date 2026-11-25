@@ -58,7 +58,9 @@
   search: 박재익 JSR AIAA 게재 승인 출판 대기 accepted awaiting publication
 
 - id: accepted:mars-edl-thermal-protection-technology-gap
-  title: 'Mars EDL Thermal Protection Systems: Technology Gap Analysis and Phased Verification Strategy for Korea'
+  title: Assessment of Korean Technology Gaps and a Stepwise Verification Strategy for Thermal Protection Systems in Mars Entry, Descent, and Landing
+  title_aliases:
+    - 'Mars EDL Thermal Protection Systems: Technology Gap Analysis and Phased Verification Strategy for Korea'
   authors:
     - Jae-ik Park
     - Seongwon Kim
@@ -68,7 +70,7 @@
   details: Journal of the Korean Society for Aeronautical and Space Sciences (JKSAS)
   journal_source: https://journal2.ksas.or.kr/
   source: Owner-provided acceptance information, 2026-10-03
-  citation: 'Jae-ik Park, Seongwon Kim. Mars EDL Thermal Protection Systems: Technology Gap Analysis and Phased Verification Strategy for Korea. Journal of the Korean Society for Aeronautical and Space Sciences. Accepted 2026-09-18; awaiting publication.'
+  citation: 'Jae-ik Park, Seongwon Kim. Assessment of Korean Technology Gaps and a Stepwise Verification Strategy for Thermal Protection Systems in Mars Entry, Descent, and Landing. Journal of the Korean Society for Aeronautical and Space Sciences. Accepted 2026-09-18; awaiting publication.'
   search: 박재익 JKSAS 한국항공우주학회지 게재 승인 출판 대기 accepted awaiting publication
 
 - id: accepted:orbital-data-center-altitude
