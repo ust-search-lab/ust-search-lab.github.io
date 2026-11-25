@@ -183,59 +183,6 @@
     max-width: 320px;
   }
 }
-.research-photo-row {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  max-width: 900px;
-  margin: -8px auto 28px;
-}
-.research-photo-row figure {
-  min-width: 0;
-  margin: 0;
-}
-.research-photo-row figure > a {
-  display: block;
-  border: 1px solid var(--light-gray);
-  border-radius: var(--rounded);
-  overflow: hidden;
-}
-.research-photo-row img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16/9;
-  object-fit: cover;
-  background: #0b0d12;
-}
-.research-photo-row figcaption {
-  margin-top: 6px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-align: center;
-}
-.research-photo-row .research-photo-row-caption {
-  grid-column: 1/-1;
-  margin: 4px 0 0;
-  font-size: 0.9rem;
-  line-height: 1.65;
-  text-align: left;
-}
-.research-photo-row .research-figure-credit {
-  display: block;
-  margin-top: 2px;
-  color: var(--dark-gray);
-  font-size: 0.85rem;
-}
-
-@media (max-width: 520px) {
-  .research-photo-row {
-    gap: 8px;
-  }
-  .research-photo-row figcaption {
-    font-size: 0.8rem;
-  }
-}
 .research-video-credit {
   max-width: 900px;
   margin: 12px auto 28px;
