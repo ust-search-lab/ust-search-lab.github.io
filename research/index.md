@@ -87,9 +87,9 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 
 #### 화성 진입, 하강 및 착륙 {#edl}
 
-SEARCH Lab은 화성 진입, 하강 및 착륙(EDL)을 중심으로 연구합니다. 박재익 박사가 연구책임자로 우주항공청 스페이스챌린지사업 「화성 탐사를 위한 화성대기 진입-감속-착륙(EDL) 핵심기술 개발」(2025–2028)을 수행하고 있습니다. 한국항공우주연구원이 주관하고 한국세라믹기술원, (주)데크카본, 연세대학교가 공동연구기관으로, 서울대학교와 KAIST가 위탁연구기관으로 참여합니다. 50 kg급 탑재체의 화성 착륙 임무를 가정해 대기진입, 감속과 착륙 요소기술을 개발하고, 통합 시뮬레이터로 진입부터 착지까지의 성능을 검증합니다.
+SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지표면에 안전하게 착륙하기 위한 진입·하강·착륙(Entry, Descent, and Landing, EDL) 기술을 연구합니다. 대기 진입부터 감속과 착륙까지 단계별 핵심기술을 개발하고, 통합 시뮬레이션을 통해 전 과정의 성능을 검증하며 미래 화성 탐사를 위한 기술 기반을 마련하고 있습니다.
 
-- 화성 대기 모델(MCD 6.1)을 반영한 진입 궤적 해석과 InSight 비행자료 기반 시뮬레이션 검증
+- 화성 대기 모델을 반영한 진입 궤적 해석과 InSight 비행자료 기반 시뮬레이션 검증
 - 에어로셸 형상과 열공력 해석, 저밀도 삭마형 열방호재 개발과 아크젯 시험
 - 진입 유도와 자세제어, 초음속 낙하산 전개 판단과 유체-구조 연성 해석
 - 지형상대항법과 위험 회피, 동력 하강과 착지 안정성 해석
@@ -120,33 +120,10 @@ SEARCH Lab은 화성 진입, 하강 및 착륙(EDL)을 중심으로 연구합니
 <div class="research-video-grid">
 {% include research-video.html id="mars-edl-tps-arcjet-test" file="mars-edl-tps-arcjet-test.mp4" poster="mars-edl-tps-arcjet-test.jpg" title="열방호 소재 아크젯 시험 (32초)" %}
 {% include research-video.html id="mars-edl-entry-guidance" file="mars-edl-entry-guidance.mp4" poster="mars-edl-entry-guidance.jpg" title="진입 유도와 자세제어 시뮬레이션 (30초)" %}
-{% include research-video.html id="mars-edl-parachute-fsi" file="mars-edl-parachute-fsi.mp4" poster="mars-edl-parachute-fsi.jpg" title="초음속 낙하산 유체-구조 연성 해석 (16초)" %}
 {% include research-video.html id="mars-edl-terrain-relative-navigation" file="mars-edl-terrain-relative-navigation.mp4" poster="mars-edl-terrain-relative-navigation.jpg" title="지형상대항법의 하강영상-참조지도 정합 (11초)" %}
-{% include research-video.html id="mars-edl-powered-descent" file="mars-edl-powered-descent.mp4" poster="mars-edl-powered-descent.jpg" title="InSight 동력 하강 재현 시뮬레이션 (18초)" %}
-{% include research-video.html id="mars-edl-narae-simulator" file="mars-edl-narae-simulator.mp4" poster="mars-edl-narae-simulator.jpg" title="통합 시뮬레이터 NARAE 실행 화면 (56초)" %}
 </div>
 
-<p class="research-video-credit">영상: 한국항공우주연구원. 아크젯 시험은 한국세라믹기술원과 (주)데크카본, 진입 유도와 낙하산 해석은 연세대학교가 수행했습니다.</p>
-
-해외 사례로는 NASA의 Mars 2020 임무가 유도 진입, 지형상대항법과 스카이크레인을 이용해 착륙 정확도를 크게 높였습니다.
-
-{% include research-figure.html image="edl-mars2020-conops.jpg" width="1364" height="766" caption="Mars 2020 임무의 진입, 하강 및 착륙 운용 개념. 순항단 분리 후 대기권에 진입해 유도 진입, 낙하산 전개, 열차폐체 분리, 지형상대항법과 동력 하강을 거쳐 스카이크레인으로 로버를 내려놓습니다." alt="순항단 분리, 대기권 진입, 최대 가열과 최대 감속, 유도 진입, 낙하산 전개, 열차폐체 분리, 레이더 고정, 지형상대항법, 후방덮개와 낙하산 분리, 동력 하강, 로버 착지와 스카이크레인 이탈로 이어지는 Mars 2020 EDL 단계도." credit="NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)" source="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf" %}
-
-<div class="research-photo-row">
-  <figure>
-    <a href="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" aria-label="진입 — 사진 크게 보기"><img src="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" alt="극초음속으로 화성 대기권에 진입하는 탐사선의 열차폐체 주위로 고온의 충격층이 형성된 모습." loading="lazy" decoding="async"></a>
-    <figcaption>진입</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" aria-label="하강 — 사진 크게 보기"><img src="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" alt="낙하산과 후방덮개에서 분리된 하강단이 역추진 엔진을 점화하며 감속하는 모습." loading="lazy" decoding="async"></a>
-    <figcaption>하강</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" aria-label="착륙 — 사진 크게 보기"><img src="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" alt="하강단이 공중에서 케이블로 퍼서비어런스 로버를 화성 표면에 내려놓는 스카이크레인 착륙 모습." loading="lazy" decoding="async"></a>
-    <figcaption>착륙</figcaption>
-  </figure>
-  <p class="research-photo-row-caption">진입, 하강과 착륙 단계의 대표 장면. 진입에서는 공력가열과 감속하중을, 하강에서는 낙하산과 역추진 감속을, 착륙에서는 접지 조건과 지표면 위험을 함께 고려합니다. <span class="research-figure-credit">이미지: <a href="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf">NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)</a></span></p>
-</div>
+<p class="research-video-credit">영상: 한국항공우주연구원. 아크젯 시험은 한국세라믹기술원과 (주)데크카본, 진입 유도 시뮬레이션은 연세대학교가 수행했습니다.</p>
 
 <div class="research-video-grid research-video-grid--single">
 {% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="화성 대기권 진입 개념 영상 (7.8초)" %}

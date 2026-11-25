@@ -87,9 +87,9 @@ We design lunar and planetary exploration missions, including lunar landers and 
 
 #### Mars entry, descent, and landing {#edl}
 
-SEARCH Lab focuses on Mars entry, descent, and landing (EDL). Dr. Jae-ik Park leads the KASA Space Challenge Program project "Development of Key Technologies for Martian Atmosphere Entry-Deceleration-Landing for Mars Exploration" (2025–2028) as principal investigator. KARI leads the project with the Korea Institute of Ceramic Engineering and Technology (KICET), DACC Carbon, and Yonsei University as joint research institutions and Seoul National University and KAIST as commissioned research institutions. Assuming a mission that lands a 50 kg-class payload on Mars, we develop key technologies for atmospheric entry, deceleration, and landing and verify end-to-end performance from entry to touchdown with an integrated simulator.
+SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a Mars spacecraft to enter the atmosphere, slow down, and land safely on the surface. We develop key technologies for each phase, from atmospheric entry through deceleration and landing, verify end-to-end performance through integrated simulation, and build the technical foundation for future Mars exploration.
 
-- Entry trajectory analysis with the Mars Climate Database (MCD 6.1) and simulation validation against InSight flight data
+- Entry trajectory analysis with a Mars atmosphere model and simulation validation against InSight flight data
 - Aeroshell shape and aerothermal analysis, low-density ablative thermal protection materials, and arc-jet testing
 - Entry guidance and attitude control, supersonic parachute deployment decisions, and fluid-structure interaction analysis
 - Terrain relative navigation and hazard avoidance, powered descent, and touchdown stability analysis
@@ -120,33 +120,10 @@ SEARCH Lab focuses on Mars entry, descent, and landing (EDL). Dr. Jae-ik Park le
 <div class="research-video-grid">
 {% include research-video.html id="mars-edl-tps-arcjet-test" file="mars-edl-tps-arcjet-test.mp4" poster="mars-edl-tps-arcjet-test.jpg" title="Arc-jet test of thermal protection material (32 s)" %}
 {% include research-video.html id="mars-edl-entry-guidance" file="mars-edl-entry-guidance.mp4" poster="mars-edl-entry-guidance.jpg" title="Entry guidance and attitude control simulation (30 s)" %}
-{% include research-video.html id="mars-edl-parachute-fsi" file="mars-edl-parachute-fsi.mp4" poster="mars-edl-parachute-fsi.jpg" title="Fluid-structure interaction analysis of a supersonic parachute (16 s)" %}
 {% include research-video.html id="mars-edl-terrain-relative-navigation" file="mars-edl-terrain-relative-navigation.mp4" poster="mars-edl-terrain-relative-navigation.jpg" title="Terrain relative navigation: matching descent images to a reference map (11 s)" %}
-{% include research-video.html id="mars-edl-powered-descent" file="mars-edl-powered-descent.mp4" poster="mars-edl-powered-descent.jpg" title="Powered descent simulation reproducing InSight (18 s; Korean labels)" %}
-{% include research-video.html id="mars-edl-narae-simulator" file="mars-edl-narae-simulator.mp4" poster="mars-edl-narae-simulator.jpg" title="NARAE integrated simulator in operation (56 s; Korean labels)" %}
 </div>
 
-<p class="research-video-credit">Videos: KARI. The arc-jet test was conducted by KICET and DACC Carbon, and the entry guidance and parachute analyses by Yonsei University.</p>
-
-Among missions abroad, NASA's Mars 2020 greatly improved landing accuracy with guided entry, terrain relative navigation, and a sky crane.
-
-{% include research-figure.html image="edl-mars2020-conops.jpg" width="1364" height="766" caption="Concept of operations for Mars 2020 entry, descent, and landing. After cruise stage separation, the vehicle enters the atmosphere and proceeds through guided entry, parachute deployment, heat shield separation, terrain relative navigation, and powered descent before the sky crane lowers the rover." alt="Mars 2020 EDL sequence: cruise stage separation, atmospheric entry, peak heating and deceleration, guided entry, parachute deployment, heat shield separation, radar lock, terrain relative navigation, backshell and parachute separation, powered descent, rover deployment, and sky crane flyaway." credit="NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)" source="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf" %}
-
-<div class="research-photo-row">
-  <figure>
-    <a href="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" aria-label="Entry — View full-size image"><img src="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" alt="A spacecraft entering the Martian atmosphere at hypersonic speed, with a hot shock layer around its heat shield." loading="lazy" decoding="async"></a>
-    <figcaption>Entry</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" aria-label="Descent — View full-size image"><img src="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" alt="The descent stage firing its retrorockets after separating from the parachute and backshell." loading="lazy" decoding="async"></a>
-    <figcaption>Descent</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" aria-label="Landing — View full-size image"><img src="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" alt="The sky crane lowering the Perseverance rover to the Martian surface on cables." loading="lazy" decoding="async"></a>
-    <figcaption>Landing</figcaption>
-  </figure>
-  <p class="research-photo-row-caption">Representative scenes from entry, descent, and landing. Entry involves aerothermal heating and deceleration loads, descent relies on parachutes and retropropulsion, and landing must account for touchdown conditions and surface hazards. <span class="research-figure-credit">Image: <a href="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf">NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)</a></span></p>
-</div>
+<p class="research-video-credit">Videos: KARI. The arc-jet test was conducted by KICET and DACC Carbon, and the entry guidance simulation by Yonsei University.</p>
 
 <div class="research-video-grid research-video-grid--single">
 {% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="Mars atmospheric entry concept visualization (7.8 seconds)" %}
