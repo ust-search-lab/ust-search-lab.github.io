@@ -100,8 +100,6 @@ SEARCH Lab은 이상적인 모델에서 안정한 사이클러가 실제 환경�
 
 {% include research-figure.html image="earth-moon-cyclers.png" width="2400" height="885" caption="지구–달 회전좌표계에서 본 사이클러 주기궤도 세 가지. 큰 점은 지구, 작은 점은 달이며, 거리는 지구–달 거리를 1로 둔 값입니다. 원형제한삼체문제에서 추진 없이 같은 경로를 반복하는 궤도로, 선행연구에 보고된 궤도군을 독립적으로 다시 계산했습니다. 괄호 안은 궤도군 번호, T는 주기(일)입니다." alt="지구–달 회전좌표계의 x–y 평면에 그린 세 사이클러 궤도. 주기 44.8일의 (1,1) 궤도는 지구를 크게 감싸고 달 주위에서 작은 고리를 그리며, 주기 64.3일의 (3,1) 궤도와 주기 78.9일의 (3,3) 궤도는 지구 주위를 여러 번 돌며 별 모양을 그린 뒤 달 근처를 지납니다." credit="SEARCH Lab" %}
 
-관련 선행연구: [Stable Ballistic Prograde Cyclers in the Three-Body Problem (Ross, Roberts-Tsoukkas)](https://arxiv.org/abs/2606.29189)
-
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}

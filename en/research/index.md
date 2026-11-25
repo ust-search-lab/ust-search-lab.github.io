@@ -100,8 +100,6 @@ SEARCH Lab is interested in whether cyclers that are stable in the idealized mod
 
 {% include research-figure.html image="earth-moon-cyclers.png" width="2400" height="885" caption="Three periodic cycler orbits in the Earth–Moon rotating frame. The large dot is the Earth and the small dot is the Moon; distances are in units of the Earth–Moon distance. In the circular restricted three-body problem these orbits repeat the same path without propulsion; the families were reported in earlier work and recomputed independently here. The numbers in parentheses label the orbit family, and T is the period in days." alt="Three cycler orbits in the x–y plane of the Earth–Moon rotating frame. The (1,1) orbit, with a period of 44.8 days, encloses the Earth and makes a small loop around the Moon; the (3,1) orbit, 64.3 days, and the (3,3) orbit, 78.9 days, circle the Earth several times in a star-like pattern before passing near the Moon." credit="SEARCH Lab" %}
 
-Related prior work: [Stable Ballistic Prograde Cyclers in the Three-Body Problem (Ross, Roberts-Tsoukkas)](https://arxiv.org/abs/2606.29189)
-
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
