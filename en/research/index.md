@@ -103,7 +103,23 @@ We study how spacecraft enter an atmosphere, slow down, and land safely on plane
 - Three- and six-degree-of-freedom simulation with atmospheric and aerothermodynamic models
 - Landing dispersion analysis and planetary landing mission performance assessment
 
-{% include research-figure.html topic="edl" caption="Representative stages of Mars entry, descent, and landing. Atmospheric entry, parachute deceleration, final descent, and touchdown are designed together; the specific approach varies by mission." alt="A sequence showing atmospheric entry at Mars, parachute deceleration, final descent, and touchdown on the surface." %}
+{% include research-figure.html image="edl-mars2020-conops.jpg" width="1364" height="766" caption="Concept of operations for Mars 2020 entry, descent, and landing. After cruise stage separation, the vehicle enters the atmosphere and proceeds through guided entry, parachute deployment, heat shield separation, terrain relative navigation, and powered descent before the sky crane lowers the rover." alt="Mars 2020 EDL sequence: cruise stage separation, atmospheric entry, peak heating and deceleration, guided entry, parachute deployment, heat shield separation, radar lock, terrain relative navigation, backshell and parachute separation, powered descent, rover deployment, and sky crane flyaway." credit="NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)" source="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf" %}
+
+<div class="research-photo-row">
+  <figure>
+    <a href="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" aria-label="Entry — View full-size image"><img src="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" alt="A spacecraft entering the Martian atmosphere at hypersonic speed, with a hot shock layer around its heat shield." loading="lazy" decoding="async"></a>
+    <figcaption>Entry</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" aria-label="Descent — View full-size image"><img src="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" alt="The descent stage firing its retrorockets after separating from the parachute and backshell." loading="lazy" decoding="async"></a>
+    <figcaption>Descent</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" aria-label="Landing — View full-size image"><img src="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" alt="The sky crane lowering the Perseverance rover to the Martian surface on cables." loading="lazy" decoding="async"></a>
+    <figcaption>Landing</figcaption>
+  </figure>
+  <p class="research-photo-row-caption">Representative scenes from entry, descent, and landing. Entry involves aerothermal heating and deceleration loads, descent relies on parachutes and retropropulsion, and landing must account for touchdown conditions and surface hazards. <span class="research-figure-credit">Image: <a href="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf">NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)</a></span></p>
+</div>
 
 <div class="research-video-grid research-video-grid--single">
 {% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="Mars atmospheric entry concept visualization (7.8 seconds)" %}

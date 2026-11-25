@@ -103,7 +103,23 @@ SEARCH Lab은 우주비행역학과 동역학계 이론을 바탕으로 지구�
 - 대기와 열공력 모델을 반영한 3자유도와 6자유도 시뮬레이션
 - 착륙분산 분석과 행성 착륙 임무 성능 평가
 
-{% include research-figure.html topic="edl" caption="화성 탐사선의 대표적인 진입, 하강 및 착륙 단계. 대기권 진입, 낙하산 감속, 최종 하강과 착륙을 이어 설계하며, 구체적인 방식은 임무에 따라 달라집니다." alt="화성 대기권 진입부터 낙하산을 이용한 감속, 최종 하강, 표면 착륙까지 이어지는 단계별 개념도." %}
+{% include research-figure.html image="edl-mars2020-conops.jpg" width="1364" height="766" caption="Mars 2020 임무의 진입, 하강 및 착륙 운용 개념. 순항단 분리 후 대기권에 진입해 유도 진입, 낙하산 전개, 열차폐체 분리, 지형상대항법과 동력 하강을 거쳐 스카이크레인으로 로버를 내려놓습니다." alt="순항단 분리, 대기권 진입, 최대 가열과 최대 감속, 유도 진입, 낙하산 전개, 열차폐체 분리, 레이더 고정, 지형상대항법, 후방덮개와 낙하산 분리, 동력 하강, 로버 착지와 스카이크레인 이탈로 이어지는 Mars 2020 EDL 단계도." credit="NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)" source="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf" %}
+
+<div class="research-photo-row">
+  <figure>
+    <a href="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" aria-label="진입 — 사진 크게 보기"><img src="{{ '/images/research/edl-phase-entry.jpg' | relative_url }}" alt="극초음속으로 화성 대기권에 진입하는 탐사선의 열차폐체 주위로 고온의 충격층이 형성된 모습." loading="lazy" decoding="async"></a>
+    <figcaption>진입</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" aria-label="하강 — 사진 크게 보기"><img src="{{ '/images/research/edl-phase-descent.jpg' | relative_url }}" alt="낙하산과 후방덮개에서 분리된 하강단이 역추진 엔진을 점화하며 감속하는 모습." loading="lazy" decoding="async"></a>
+    <figcaption>하강</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" aria-label="착륙 — 사진 크게 보기"><img src="{{ '/images/research/edl-phase-landing.jpg' | relative_url }}" alt="하강단이 공중에서 케이블로 퍼서비어런스 로버를 화성 표면에 내려놓는 스카이크레인 착륙 모습." loading="lazy" decoding="async"></a>
+    <figcaption>착륙</figcaption>
+  </figure>
+  <p class="research-photo-row-caption">진입, 하강과 착륙 단계의 대표 장면. 진입에서는 공력가열과 감속하중을, 하강에서는 낙하산과 역추진 감속을, 착륙에서는 접지 조건과 지표면 위험을 함께 고려합니다. <span class="research-figure-credit">이미지: <a href="https://www.nasa.gov/wp-content/uploads/2025/02/iparch12-wp-mars-edl.pdf">NASA/JPL-Caltech, NASA Moon to Mars Architecture Workshop (2025)</a></span></p>
+</div>
 
 <div class="research-video-grid research-video-grid--single">
 {% include research-video.html id="mars-atmospheric-entry" file="mars-atmospheric-entry.mp4" poster="mars-atmospheric-entry.jpg" title="화성 대기권 진입 개념 영상 (7.8초)" %}
