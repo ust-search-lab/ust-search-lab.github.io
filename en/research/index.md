@@ -89,7 +89,14 @@ We use dynamical structures of the three-body problem, such as Lagrange points, 
 
 ##### Earth–Moon cycler orbits {#cycler}
 
-A cycler is an orbit that travels back and forth between the Earth and the Moon, passing both bodies repeatedly. Building on [dynamical systems and multi-body astrodynamics](#dynamical-systems), we compute periodic cycler orbits in the circular restricted three-body problem and analyze their stability. We assess how perturbations such as lunar orbital eccentricity and solar gravity affect the repeated close passes, and study how to carry these orbits over to realistic ephemeris models.
+A cycler is an orbit that travels back and forth between the Earth and the Moon, passing both bodies repeatedly. In an idealized model it repeats the round trip without propulsion, which makes it a candidate orbit for regular Earth–Moon transport and repeated observation.
+
+SEARCH Lab is interested in whether cyclers that are stable in the idealized model can keep their repeated encounters in a realistic environment. Building on [dynamical systems and multi-body astrodynamics](#dynamical-systems), we study the following problems.
+
+- Computation and stability analysis of periodic cycler orbits in the circular restricted three-body problem
+- The effect of lunar orbital eccentricity and solar gravity on the persistence of repeated close passes
+- How well stability in the idealized model predicts whether repeated encounters can be maintained in a realistic environment
+- Design of orbits and correction maneuvers that maintain repeated encounters in realistic ephemeris models
 
 {% include research-figure.html image="earth-moon-cyclers.png" width="2400" height="885" caption="Three periodic cycler orbits in the Earth–Moon rotating frame. The large dot is the Earth and the small dot is the Moon; distances are in units of the Earth–Moon distance. In the circular restricted three-body problem these orbits repeat the same path without propulsion; the families were reported in earlier work and recomputed independently here. The numbers in parentheses label the orbit family, and T is the period in days." alt="Three cycler orbits in the x–y plane of the Earth–Moon rotating frame. The (1,1) orbit, with a period of 44.8 days, encloses the Earth and makes a small loop around the Moon; the (3,1) orbit, 64.3 days, and the (3,3) orbit, 78.9 days, circle the Earth several times in a star-like pattern before passing near the Moon." credit="SEARCH Lab" %}
 
