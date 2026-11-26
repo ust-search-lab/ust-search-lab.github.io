@@ -178,8 +178,9 @@ Solar sails generate thrust from solar radiation pressure as sunlight transfers 
 
 #### Deep-space exploration with solar sails {#solar-sail-deep-space}
 
-A solar sail can keep accelerating for a long time without propellant, which suits deep-space missions with long flight times. SEARCH Lab focuses on Mars exploration with solar sail spacecraft, from Earth departure to operations after Mars arrival.
+A solar sail can keep accelerating for a long time without propellant, which suits deep-space missions with long flight times. SEARCH Lab studies solar sail missions to several destinations, including Mars, asteroids, and solar polar orbits. For Mars, our work covers Earth departure through operations after arrival.
 
+- Solar sail mission concept design for destinations such as Mars, asteroids, and solar polar orbits
 - Optimization of solar sail transfer trajectories from Earth to Mars
 - Analysis of Mars arrival conditions for solar sail spacecraft under atmospheric entry constraints
 - Orbit maintenance and attitude stabilization after Mars orbit insertion
