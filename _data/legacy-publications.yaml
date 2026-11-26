@@ -20,8 +20,9 @@
     - "Dae-Kwan Kim"
   category: "journal"
   scope: "international"
+  indexing: "SCIE"
   year: 2021
-  details: "Aerospace 2021, 8(8), 222(SCI)"
+  details: "Aerospace 2021, 8(8), 222"
   citation: "Young-Joo Song, Young-Rok Kim, Jonghee Bae, Jae-ik Park, SeungBum Hong, Donghun Lee, Dae-Kwan Kim, “Overview of the Flight Dynamics Subsystem for Korea Pathfinder Lunar Orbiter Mission”, Aerospace 2021, 8(8), 222(SCI) (https://doi.org/10.3390/aerospace8080222)"
   id: "doi:10.3390/aerospace8080222"
   link: "https://doi.org/10.3390/aerospace8080222"
@@ -39,8 +40,9 @@
     - "Kyu-Hong Choi"
   category: "journal"
   scope: "international"
+  indexing: "SCIE"
   year: 2011
-  details: "Aerospace Science and Technology, Vol. 15, Issue 6, Sep. 2011 (SCI)"
+  details: "Aerospace Science and Technology, Vol. 15, Issue 6, Sep. 2011"
   citation: "Han-Earl Park, Jae-ik Park , Sang-Young Park, and Kyu-Hong Choi, \"Satellite Formation Reconfiguration and Station-Keeping using State-Dependent Riccati Equation Technique\", Aerospace Science and Technology, Vol. 15, Issue 6, Sep. 2011 (SCI)"
   source: "https://sites.google.com/view/dr-space/publications"
   search: "박재익 Jae-ik Park Park Jae-ik"
@@ -60,8 +62,9 @@
     - "Kyu-Hong Choi"
   category: "journal"
   scope: "international"
+  indexing: "SCIE"
   year: 2010
-  details: "Advances in Space Research, Vol. 46, Issue. 11, Dec. 2010 (SCI)"
+  details: "Advances in Space Research, Vol. 46, Issue. 11, Dec. 2010"
   citation: "Jae-ik Park, Han-Earl Park, Sang-Young Park, and Kyu-Hong Choi, \"Hardware-in-the-Loop Simulations of GPS-Based Navigation and Control for Satellite Formation Flying\", Advances in Space Research, Vol. 46, Issue. 11, Dec. 2010 (SCI)"
   source: "https://sites.google.com/view/dr-space/publications"
   search: "박재익 Jae-ik Park Park Jae-ik"

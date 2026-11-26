@@ -49,6 +49,7 @@
   category: journal
   status: published
   scope: international
+  indexing: SCIE
   year: 2026
   date: 2026-06
   publisher: Aerospace Science and Technology
@@ -74,6 +75,7 @@
   category: journal
   status: published
   scope: international
+  indexing: SCIE
   year: 2025
   date: '2025-01-27'
   publisher: Aerospace
@@ -98,6 +100,7 @@
   category: journal
   status: published
   scope: international
+  indexing: SCIE
   year: 2025
   date: '2025-01-09'
   publisher: International Journal of Aeronautical and Space Sciences
@@ -123,6 +126,7 @@
   category: journal
   status: published
   scope: international
+  indexing: SCIE
   year: 2024
   date: 2024-03
   publisher: Aerospace Science and Technology
@@ -145,6 +149,7 @@
   category: journal
   status: published
   scope: international
+  indexing: SCIE
   year: 2023
   date: 2023-05
   publisher: International Journal of Control, Automation and Systems

@@ -4,7 +4,7 @@
 {% if include.lang == "en" %}
   {% assign publication_entry_details = publication_entry.details_en | default: publication_entry.details %}
 {% endif %}
-<article class="citation publication-entry" data-search="{{ publication_entry.search | join: ' ' | escape }} {{ publication_entry.citation | escape }} {{ publication_entry.id | escape }} {{ publication_entry.category | escape }} {{ publication_entry.status | escape }} {% for publication_author in publication_entry_authors %}{{ publication_author.aliases | join: ' ' | escape }} {{ publication_author.orcid | escape }} {% endfor %}{% for researcher in site.data.publication-automation.researchers %}{% if publication_entry.researcher_ids contains researcher.id %} {{ researcher.names | join: ' ' | escape }}{% endif %}{% endfor %}">
+<article class="citation publication-entry" data-search="{{ publication_entry.search | join: ' ' | escape }} {{ publication_entry.citation | escape }} {{ publication_entry.id | escape }} {{ publication_entry.category | escape }} {{ publication_entry.status | escape }} {{ publication_entry.indexing | escape }} {% for publication_author in publication_entry_authors %}{{ publication_author.aliases | join: ' ' | escape }} {{ publication_author.orcid | escape }} {% endfor %}{% for researcher in site.data.publication-automation.researchers %}{% if publication_entry.researcher_ids contains researcher.id %} {{ researcher.names | join: ' ' | escape }}{% endif %}{% endfor %}">
   <div class="publication-entry-title">
     {% if publication_entry.link %}
       <a href="{{ publication_entry.link | escape }}">{{ publication_entry.title | escape }}</a>
@@ -36,6 +36,9 @@
           {% if publication_entry.scope == "international" %}국제{% else %}국내{% endif %}
         {% endif %}
       </span>
+    {% endif %}
+    {% if publication_entry.indexing %}
+      <span class="publication-scope">{{ publication_entry.indexing | escape }}</span>
     {% endif %}
     {% if publication_entry_details %}
       <span>{{ publication_entry_details | escape }}</span>

@@ -10,6 +10,8 @@
   category: journal
   status: accepted
   accepted_date: '2026-11-18'
+  scope: international
+  indexing: SCIE
   details: Optical and Quantum Electronics
   journal_source: https://link.springer.com/journal/11082
   source: Owner-provided acceptance information, 2026-11-25
@@ -25,6 +27,7 @@
   category: journal
   status: accepted
   accepted_date: '2026-10-19'
+  scope: domestic
   details: Journal of Aerospace System Engineering (JASE)
   source: Owner-provided acceptance information, 2026-10-19
   citation: Jae-ik Park. An Integrated Simulation-Based Systems Design Procedure for Mars Entry, Descent, and Landing Technology Development. Journal of Aerospace System Engineering. Accepted 2026-10-19; awaiting publication.
@@ -38,6 +41,7 @@
   category: journal
   status: accepted
   accepted_date: '2026-05-11'
+  scope: domestic
   details: The Journal of Korean Institute of Communications and Information Sciences (J-KICS)
   journal_source: https://journal.kics.or.kr/static/aim
   source: Owner-provided acceptance information, 2026-10-03
@@ -51,6 +55,8 @@
   category: journal
   status: accepted
   accepted_date: '2026-09-21'
+  scope: international
+  indexing: SCIE
   details: Journal of Spacecraft and Rockets (JSR)
   journal_source: https://arc.aiaa.org/journal/jsr
   source: Owner-provided acceptance information, 2026-10-03
@@ -67,6 +73,7 @@
   category: journal
   status: accepted
   accepted_date: '2026-09-18'
+  scope: domestic
   details: Journal of the Korean Society for Aeronautical and Space Sciences (JKSAS)
   journal_source: https://journal2.ksas.or.kr/
   source: Owner-provided acceptance information, 2026-10-03
@@ -82,6 +89,7 @@
   category: journal
   status: accepted
   accepted_date: '2026-09-28'
+  scope: domestic
   details: Journal of Astronomy and Space Sciences (JASS)
   journal_source: https://www.janss.kr/main/
   source: Owner-provided acceptance information, 2026-10-03
