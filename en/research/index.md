@@ -124,7 +124,7 @@ SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a M
 {% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="Concept of operations for a Korean Mars landing mission, from atmospheric entry to surface operations (3× speed, 63 s; Korean labels)" %}
 </div>
 
-<p class="research-video-credit">Video: SEARCH Lab</p>
+<p class="research-video-credit">Video: KARI (SEARCH Lab)</p>
 
 ##### Thermal protection materials for Mars atmospheric entry: development and testing {#mars-tps}
 

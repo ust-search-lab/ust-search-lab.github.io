@@ -124,7 +124,7 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 {% include research-video.html id="mars-edl-korean-lander-conops" file="mars-edl-korean-lander-conops.mp4" poster="mars-edl-korean-lander-conops.jpg" title="한국형 화성 착륙 임무의 운용 개념, 대기 진입부터 표면 임무까지 (3배속, 63초)" %}
 </div>
 
-<p class="research-video-credit">영상: SEARCH Lab</p>
+<p class="research-video-credit">영상: 한국항공우주연구원(SEARCH Lab)</p>
 
 ##### 화성 대기 진입을 위한 열방호 소재 개발 및 시험 {#mars-tps}
 
