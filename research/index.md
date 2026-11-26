@@ -187,19 +187,28 @@ SEARCH Lab은 화성, 소행성, 태양 극궤도 등 여러 목적지로 가는
 - 화성 궤도 진입 이후의 궤도 유지와 자세 안정화
 - 태양돛을 이용한 화성 궤도 장기 운용
 
-관련 논문: [Solar sail-based energy-efficient architecture for long-term Mars orbit operations (2026)](https://doi.org/10.1016/j.ast.2026.111779), [Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering Entry Interface Constraints (2026)](https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf)
+관련 논문:
+
+- Jungju Bae, Jaeyoung Kang, "[Solar sail-based energy-efficient architecture for long-term Mars orbit operations](https://doi.org/10.1016/j.ast.2026.111779)," *Aerospace Science and Technology* (2026).
+- Jung-Ju Bae 외, "[Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering Entry Interface Constraints](https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf)," *한국우주과학회 2026년 봄 학술대회* (2026).
 
 #### 자세와 궤도 통합 제어 {#integrated-attitude-orbit-control}
 
 [유도·제어](#optimization)와 [자세 역학과 자세 제어](#attitude-dynamics-control)를 결합해 태양돛의 궤도와 자세 운동을 함께 해석하고 제어하는 방법을 연구합니다. 태양복사압에 의한 힘과 토크, 질량중심과 압력중심의 관계를 모델링하고, 구동기 한계, 관측 및 통신을 위한 지향 조건을 반영한 6자유도 시뮬레이션으로 임무 수행 가능성을 평가합니다. [AI와 기계학습](#ai-machine-learning)을 활용한 제어 명령 예측과 자율비행의 적용 가능성도 검토합니다.
 
-관련 논문: [딥러닝 기반 태양돛 화성 전이궤도 최적 제어를 위한 간접법 해석 (2025)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
+관련 논문:
+
+- 박재익, "[딥러닝 기반 태양돛 화성 전이궤도 최적 제어를 위한 간접법 해석](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)," *한국항공우주학회 2025년도 추계학술대회* (2025).
 
 #### 태양돛 전개장치 개발 및 지상시험 {#solar-sail-ground-test}
 
 한국항공우주연구원은 심우주 탐사에 활용할 태양돛 전개기술을 확보하기 위해 10 m × 10 m(100 m²) 규모의 지상 시험모델을 개발했습니다. 모터로 네 개의 지지대(붐)를 펼치면서 수납된 얇은 돛을 전개하는 구조로, 지상시험을 통해 붐과 돛의 전개 과정에서 발생하는 문제와 개선점을 확인했습니다. 아래 영상은 시험모델의 전개 과정을 상부와 측면에서 촬영한 것입니다.
 
-관련 자료: [한국항공우주연구원 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228), [태양돛 전개 시험 및 교훈](https://doi.org/10.52912/jsta.2026.6.3.293)
+관련 논문:
+
+- 김민기 외, "[태양돛 전개 시험 및 교훈](https://doi.org/10.52912/jsta.2026.6.3.293)," *우주기술과 응용* (2026).
+
+관련 자료: [한국항공우주연구원 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228)
 
 <div class="research-video-grid">
 {% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="태양돛 전개시험, 상부 촬영 (23초)" %}
@@ -210,7 +219,11 @@ SEARCH Lab은 화성, 소행성, 태양 극궤도 등 여러 목적지로 가는
 
 한국항공우주연구원은 저궤도 우주쓰레기의 포획과 제거 기술을 검증하기 위해 궤도이탈 장치(deorbiter)의 지상 시험모델을 개발했습니다. 견인부, 포획부, 전개부로 구성되며, 5 m × 5 m(25 m²)의 저항돛(drag sail)을 펼쳐 대기저항을 높이고 포획한 물체의 대기권 재진입을 유도하는 개념입니다. 아래 영상은 이 가운데 저항돛의 전개 기능을 확인하는 지상시험 장면입니다.
 
-관련 자료: [한국항공우주연구원 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417), [궤도이탈 장치 개발과 시험 논문](https://doi.org/10.52912/jsta.2026.6.2.196)
+관련 논문:
+
+- 김민기, 장윤정, 이춘우, "[능동적 우주쓰레기 제거를 위한 궤도이탈 장치 개발 및 시험](https://doi.org/10.52912/jsta.2026.6.2.196)," *우주기술과 응용* (2026).
+
+관련 자료: [한국항공우주연구원 보도자료](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417)
 
 <div class="research-video-grid">
 {% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="저항돛 전개시험, 전체 모습 (2.4초)" %}
@@ -236,7 +249,9 @@ SEARCH Lab은 화성, 소행성, 태양 극궤도 등 여러 목적지로 가는
 
 {% include research-figure.html image="mars-optical-receiver-models.png" width="2000" height="1428" caption="펄스당 신호 광자 수에 따른 부호화 전 비트오류율. 실선은 APD 가우시안 수신기 모델, 점선은 이상적인 포아송 광자계수 모델이고 M은 PPM 차수입니다. 같은 오류율에 필요한 광자 수가 수신기 모델에 따라 달라집니다." alt="가로축은 펄스당 신호 광자 수, 세로축은 부호화 전 비트오류율인 로그 그래프. PPM 차수 16, 64, 256에 대해 APD 가우시안 모델의 실선 세 개와 이상적인 포아송 모델의 점선 세 개가 그려져 있으며, 점선이 실선보다 더 적은 광자 수에서 오류율이 떨어집니다." credit="박재익, Optical and Quantum Electronics 게재 승인 논문 (2026)" %}
 
-관련 논문: Jae-ik Park, "Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models," *Optical and Quantum Electronics*, 게재 승인 (2026). [Publications]({{ '/publications/' | relative_url }})
+관련 논문:
+
+- Jae-ik Park, "[Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models]({{ '/publications/' | relative_url }})," *Optical and Quantum Electronics*, 게재 승인 (2026).
 
 {% include section.html %}
 

@@ -187,19 +187,28 @@ SEARCH Lab studies solar sail missions to several destinations, including Mars, 
 - Orbit maintenance and attitude stabilization after Mars orbit insertion
 - Long-term Mars orbit operations using solar sails
 
-Related papers: [Solar sail-based energy-efficient architecture for long-term Mars orbit operations (2026)](https://doi.org/10.1016/j.ast.2026.111779), [Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering Entry Interface Constraints (2026)](https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf)
+Related publications:
+
+- Jungju Bae, Jaeyoung Kang, "[Solar sail-based energy-efficient architecture for long-term Mars orbit operations](https://doi.org/10.1016/j.ast.2026.111779)," *Aerospace Science and Technology* (2026).
+- Jung-Ju Bae et al., "[Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering Entry Interface Constraints](https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf)," *Korean Space Science Society 2026 Spring Conference* (2026).
 
 #### Integrated attitude and orbit control {#integrated-attitude-orbit-control}
 
 We combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.
 
-Related paper: [Indirect-method analysis for deep-learning-based optimal control of solar sail Mars transfer trajectories (2025, Korean)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
+Related publications:
+
+- Jae-ik Park, "[Indirect-method analysis for deep-learning-based optimal control of solar sail Mars transfer trajectories](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)," *Korean Society for Aeronautical and Space Sciences 2025 Fall Conference* (2025, in Korean).
 
 #### Solar sail deployment mechanism: development and ground tests {#solar-sail-ground-test}
 
 The Korea Aerospace Research Institute (KARI) developed a ground test model with a 10 m × 10 m (100 m²) sail to advance solar sail deployment technology for deep-space exploration. A motor extends four supporting booms to unfurl the stowed membrane. Ground tests identified deployment problems and opportunities for improvement. The videos show the test model deploying from overhead and side views.
 
-Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228), [Tests and Lessons Learned of Solar Sail Deployment](https://doi.org/10.52912/jsta.2026.6.3.293)
+Related publications:
+
+- Min Ki Kim et al., "[Tests and Lessons Learned of Solar Sail Deployment](https://doi.org/10.52912/jsta.2026.6.3.293)," *Journal of Space Technology and Applications* (2026, in Korean).
+
+Further reading: [KARI press release (in Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18228)
 
 <div class="research-video-grid">
 {% include research-video.html id="sail-test-overhead" file="kari-solar-sail-deployment-overhead.mp4" poster="kari-solar-sail-deployment-overhead.jpg" title="Solar sail deployment, overhead view (23 s)" %}
@@ -210,7 +219,11 @@ Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/articl
 
 KARI developed a ground test model of a deorbiter to investigate technologies for capturing and removing debris from low Earth orbit. It combines towing, capture, and deployment mechanisms. The concept uses a 5 m × 5 m (25 m²) drag sail to increase atmospheric drag and bring captured objects toward re-entry. The videos show ground tests of the drag-sail deployment function.
 
-Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417), [Deorbiter development and tests](https://doi.org/10.52912/jsta.2026.6.2.196)
+Related publications:
+
+- Min Ki Kim, Yoon Jeong Jang, Choon Woo Lee, "[Development and Tests of a Deorbiter for Active Space Debris Removal](https://doi.org/10.52912/jsta.2026.6.2.196)," *Journal of Space Technology and Applications* (2026, in Korean).
+
+Further reading: [KARI press release (in Korean)](https://www.kari.re.kr/kor/article/ATCL87374b48c/18417)
 
 <div class="research-video-grid">
 {% include research-video.html id="deorbiter-test-wide" file="kari-deorbiter-drag-sail-wide.mp4" poster="kari-deorbiter-drag-sail-wide.jpg" title="Drag-sail deployment, wide view (2.4 s)" %}
@@ -236,7 +249,9 @@ In a Mars–Earth optical downlink, very few photons arrive per pulse, so the st
 
 {% include research-figure.html image="mars-optical-receiver-models.png" width="2000" height="1428" caption="Uncoded bit-error rate versus signal photons per pulse. Solid lines are the APD Gaussian receiver model, dashed lines are the ideal Poisson photon-counting model, and M is the PPM order. The number of photons required for the same error rate depends on the receiver model." alt="A log-log plot of uncoded bit-error rate against signal photons per pulse. Three solid curves for the APD Gaussian model and three dashed curves for the ideal Poisson model are drawn for PPM orders 16, 64, and 256; the dashed curves fall at fewer photons than the solid ones." credit="Jae-ik Park, paper accepted in Optical and Quantum Electronics (2026)" %}
 
-Related paper: Jae-ik Park, "Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models," *Optical and Quantum Electronics*, accepted (2026). [Publications]({{ '/en/publications/' | relative_url }})
+Related publications:
+
+- Jae-ik Park, "[Decomposing Receiver-Model Sensitivity in M-PPM Mars–Earth Optical Downlinks: APD Gaussian and Ideal Poisson Models]({{ '/en/publications/' | relative_url }})," *Optical and Quantum Electronics*, accepted (2026).
 
 {% include section.html %}
 
