@@ -60,7 +60,7 @@ We develop orbits and concepts of operations to meet mission objectives. We pred
 
 For Earth observation, communications, and technology demonstration, we design satellite count, orbital altitude and inclination, orbital planes, and phasing. We compare coverage, revisit intervals, and contact opportunities alongside propellant use and operational effort to identify suitable configurations.
 
-For formation flying that requires precise relative positioning, we address [guidance and control](#guidance-control) using relative orbit dynamics and accounting for navigation errors.
+For formation flying that requires precise relative positioning, we address [guidance and control](#optimization) using relative orbit dynamics and accounting for navigation errors.
 
 {% include research-figure.html topic="earth-constellation" caption="Illustrative constellation with satellites distributed across three orbital planes. Colors distinguish the planes; satellite sizes and orbital altitudes are not to scale." alt="A schematic of satellites distributed across three circular orbits around Earth, with altitude, inclination, orbital planes, and satellite phasing identified as design variables." %}
 
@@ -72,7 +72,7 @@ We assess the feasibility of storing and processing data in space by integrating
 
 ### {% include icon.html icon="fa-solid fa-moon" %}{% include research-title.html id="planetary" %} {#planetary}
 
-We design lunar and planetary exploration missions, including lunar landers and Mars orbiters and landers.
+We design missions to explore the Moon, Mars, and other solar system bodies. Our work covers the whole mission, from Earth departure and the transfer trajectory to operations after arrival.
 
 - Conceptual design of lunar exploration and landing missions and Mars orbiter and lander missions
 - Orbit and landing site assessment against exploration objectives
@@ -95,11 +95,10 @@ We use dynamical structures of the three-body problem, such as Lagrange points, 
 
 A cycler is an orbit that travels back and forth between the Earth and the Moon, passing both bodies repeatedly. In an idealized model it repeats the round trip without propulsion, which makes it a candidate orbit for regular Earth–Moon transport and repeated observation.
 
-SEARCH Lab is interested in whether cyclers that are stable in the idealized model can keep their repeated encounters in a realistic environment. Building on [dynamical systems and multi-body astrodynamics](#dynamical-systems), we study the following problems.
+SEARCH Lab is interested in whether cyclers that are stable in the idealized model can keep their repeated encounters in a realistic environment. To answer this, we study the following problems.
 
 - Computation and stability analysis of periodic cycler orbits in the circular restricted three-body problem
 - The effect of lunar orbital eccentricity and solar gravity on the persistence of repeated close passes
-- How well stability in the idealized model predicts whether repeated encounters can be maintained in a realistic environment
 - Design of orbits and correction maneuvers that maintain repeated encounters in realistic ephemeris models
 
 {% include research-figure.html image="earth-moon-cyclers.png" width="2400" height="885" caption="Three periodic cycler orbits in the Earth–Moon rotating frame. The large dot is the Earth and the small dot is the Moon; distances are in units of the Earth–Moon distance. In the circular restricted three-body problem these orbits repeat the same path without propulsion; the families were reported in earlier work and recomputed independently here. The numbers in parentheses label the orbit family, and T is the period in days." alt="Three cycler orbits in the x–y plane of the Earth–Moon rotating frame. The (1,1) orbit, with a period of 44.8 days, encloses the Earth and makes a small loop around the Moon; the (3,1) orbit, 64.3 days, and the (3,3) orbit, 78.9 days, circle the Earth several times in a star-like pattern before passing near the Moon." credit="SEARCH Lab" %}
@@ -107,6 +106,8 @@ SEARCH Lab is interested in whether cyclers that are stable in the idealized mod
 {% include section.html %}
 
 ### {% include icon.html icon="fa-solid fa-parachute-box" %}{% include research-title.html id="entry-systems" %} {#entry-systems}
+
+Mars entry, descent, and landing is the area SEARCH Lab focuses on most. We also study Earth re-entry and thermal protection systems.
 
 #### Mars entry, descent, and landing {#edl}
 
@@ -128,9 +129,9 @@ SEARCH Lab studies entry, descent, and landing (EDL) technologies that allow a M
 
 ##### Thermal protection materials for Mars atmospheric entry: development and testing {#mars-tps}
 
-Compared with Earth re-entry, Mars entry involves lower entry speeds and heat fluxes, but heating lasts longer. For this environment, we develop lightweight, low-density ablative thermal protection materials that can be produced domestically.
+Compared with Earth re-entry, Mars entry involves lower entry speeds and heat fluxes, but heating lasts longer. For this environment, we develop low-density ablative thermal protection materials with domestic technology.
 
-On November 10, 2026, KARI, the Korea Institute of Ceramic Engineering and Technology (KICET), and DACC Carbon jointly tested thermal protection materials in the 300 kW-class arc-jet facility at Vitzro Nextech.
+On November 10, 2026, KARI, the Korea Institute of Ceramic Engineering and Technology (KICET), and DACC Carbon jointly tested thermal protection materials in the 300 kW-class arc-jet facility at Vitzro Nextech. The videos below were recorded during this test.
 
 <div class="research-video-grid">
 {% include research-video.html id="mars-tps-arcjet-flow" file="mars-tps-arcjet-flow.mp4" poster="mars-tps-arcjet-flow.jpg" title="Arc-jet plasma flow heating a specimen (32 s)" %}
@@ -143,7 +144,7 @@ On November 10, 2026, KARI, the Korea Institute of Ceramic Engineering and Techn
 
 ##### Parachute deceleration technology {#mars-parachute}
 
-We study technologies for decelerating a spacecraft by deploying a parachute at supersonic speed in the thin Martian atmosphere. Yonsei University and KARI performed fluid-structure interaction analyses that resolve the canopy's structural response together with the surrounding flow during parachute deployment.
+We study technologies for decelerating a spacecraft by deploying a parachute at supersonic speed in the thin Martian atmosphere. Yonsei University and KARI performed fluid-structure interaction analyses that resolve the canopy's structural response together with the surrounding flow during parachute deployment. The videos below show the results.
 
 <div class="research-video-grid">
 {% include research-video.html id="mars-parachute-canopy-stress" file="mars-parachute-canopy-stress.mp4" poster="mars-parachute-canopy-stress.jpg" title="Canopy stress (16 s)" %}
@@ -173,12 +174,12 @@ Solar sails generate thrust from solar radiation pressure as sunlight transfers 
 
 - Astrodynamics accounting for solar radiation pressure and sail attitude
 - Solar sail orbit raising and long-duration low-thrust trajectory design
-- Non-Keplerian and other special orbits and future exploration mission concepts
+- Design of non-Keplerian and other special orbits that solar sails make possible
 - Solar sail in-space demonstration mission planning
 
 #### Deep-space exploration with solar sails {#solar-sail-deep-space}
 
-A solar sail can keep accelerating for a long time without propellant, which suits deep-space missions with long flight times. SEARCH Lab studies solar sail missions to several destinations, including Mars, asteroids, and solar polar orbits. For Mars, our work covers Earth departure through operations after arrival.
+SEARCH Lab studies solar sail missions to several destinations, including Mars, asteroids, and solar polar orbits. A solar sail can keep accelerating for a long time without propellant, which suits missions with such long flight times. For Mars, our work covers Earth departure through operations after arrival.
 
 - Solar sail mission concept design for destinations such as Mars, asteroids, and solar polar orbits
 - Optimization of solar sail transfer trajectories from Earth to Mars
@@ -192,7 +193,7 @@ Related papers: [Solar sail-based energy-efficient architecture for long-term Ma
 
 We combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.
 
-Related prior work: [Indirect methods for deep-learning-based solar-sail optimal control (2025, Korean)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
+Related paper: [Indirect-method analysis for deep-learning-based optimal control of solar sail Mars transfer trajectories (2025, Korean)](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12589746)
 
 #### Solar sail deployment mechanism: development and ground tests {#solar-sail-ground-test}
 
@@ -220,7 +221,7 @@ Further reading: [KARI press release (Korean)](https://www.kari.re.kr/kor/articl
 
 ### {% include icon.html icon="fa-solid fa-satellite-dish" %}{% include research-title.html id="optical-communications" %} {#optical-communications}
 
-Deep-space optical communications uses lasers to exchange data between spacecraft and Earth. We study how trajectories, spacecraft attitude, distance from Earth, and ground station weather and atmospheric conditions affect link performance. We evaluate contact opportunities and data return, and develop system requirements, operations plans, and technology demonstration scenarios within mass, power, and thermal limits.
+Deep-space optical communications uses lasers to exchange data between spacecraft and Earth. SEARCH Lab studies how trajectories, spacecraft attitude, distance from Earth, and ground station weather and atmospheric conditions affect link performance. We evaluate contact opportunities and data return, and develop system requirements, operations plans, and technology demonstration scenarios within mass, power, and thermal limits.
 
 - Link budgets and data transmission performance under range, optics, power, and loss constraints
 - Pointing, acquisition, and tracking (PAT) requirements and spacecraft attitude stability
