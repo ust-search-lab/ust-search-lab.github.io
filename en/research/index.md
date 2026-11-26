@@ -79,6 +79,10 @@ We design lunar and planetary exploration missions, including lunar landers and 
 - Observation and communications geometry between spacecraft, surface targets, and Earth
 - Spacecraft operations scenarios based on observation and contact opportunities
 
+#### Interplanetary mission design {#interplanetary}
+
+We design transfer trajectories from the Earth to other planets such as Mars. We analyze launch energy by departure date and time of flight together with arrival conditions and launch-site constraints to identify launch opportunities and plan trajectory correction maneuvers.
+
 {% include research-figure.html image="mars-transfer-porkchop-trajectory.jpg" width="2600" height="1167" caption="Example of 2035 Earth–Mars transfer design. (a) Porkchop plot of launch energy (C3) by departure date and time of flight, with the Naro Space Center launch envelope. (b) Transfer trajectory departing in May 2035 and entering the Martian atmosphere in December, with trajectory correction maneuvers (TCMs)." alt="(a) Contours of launch energy C3 against 2035 departure date and time of flight, marking the baseline solution, the minimum-C3 alternative, the Naro Space Center launch envelope, and solutions meeting the entry-speed condition. (b) Heliocentric view of the Earth and Mars orbits and the 200-day transfer from Earth departure on May 26, 2035 to Mars entry on December 12, with four trajectory correction maneuvers." credit="KARI, KASA Space Challenge Program Mars EDL key technology project" %}
 
 #### Dynamical systems and multi-body astrodynamics {#multi-body-dynamics}
