@@ -176,6 +176,17 @@ Solar sails generate thrust from solar radiation pressure as sunlight transfers 
 - Non-Keplerian and other special orbits and future exploration mission concepts
 - Solar sail in-space demonstration mission planning
 
+#### Deep-space exploration with solar sails {#solar-sail-deep-space}
+
+A solar sail can keep accelerating for a long time without propellant, which suits deep-space missions with long flight times. SEARCH Lab focuses on Mars exploration with solar sail spacecraft, from Earth departure to operations after Mars arrival.
+
+- Optimization of solar sail transfer trajectories from Earth to Mars
+- Analysis of Mars arrival conditions for solar sail spacecraft under atmospheric entry constraints
+- Orbit maintenance and attitude stabilization after Mars orbit insertion
+- Long-term Mars orbit operations using solar sails
+
+Related papers: [Solar sail-based energy-efficient architecture for long-term Mars orbit operations (2026)](https://doi.org/10.1016/j.ast.2026.111779), [Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering Entry Interface Constraints (2026)](https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf)
+
 #### Integrated attitude and orbit control {#integrated-attitude-orbit-control}
 
 We combine [guidance and control](#optimization) with [attitude dynamics and control](#attitude-dynamics-control) to analyze and control coupled solar-sail orbit and attitude motion. We model solar radiation pressure forces and torques, including center-of-mass and center-of-pressure geometry, and assess mission feasibility through six-degree-of-freedom simulation with actuator limits and observation and communications pointing constraints. We also examine [AI and machine learning](#ai-machine-learning) for control command prediction and autonomous flight.

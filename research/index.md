@@ -176,6 +176,17 @@ SEARCH Lab은 화성 탐사선이 대기권에 진입해 속도를 줄이고 지
 - 비케플러 궤도 등 특수궤도와 미래 탐사 임무 개념설계
 - 태양돛 우주실증 임무 기획
 
+#### 태양돛을 활용한 심우주 탐사 {#solar-sail-deep-space}
+
+태양돛은 추진제를 쓰지 않고 오랫동안 가속할 수 있어 비행 기간이 긴 심우주 탐사에 유리합니다. SEARCH Lab은 태양돛 우주선의 화성 탐사를 중심으로 지구 출발부터 화성 도착 이후의 운용까지 연구합니다.
+
+- 지구에서 화성으로 가는 태양돛 전이궤도 최적화
+- 화성 대기 진입 조건을 고려한 태양돛 우주선의 도착 조건 분석
+- 화성 궤도 진입 이후의 궤도 유지와 자세 안정화
+- 태양돛을 이용한 화성 궤도 장기 운용
+
+관련 논문: [Solar sail-based energy-efficient architecture for long-term Mars orbit operations (2026)](https://doi.org/10.1016/j.ast.2026.111779), [Analysis of Mars Arrival Conditions for Solar Sail Spacecraft Considering Entry Interface Constraints (2026)](https://ksss.or.kr/society/tksss/media?key=tksss/bulletin/2026spring35_1.pdf)
+
 #### 자세와 궤도 통합 제어 {#integrated-attitude-orbit-control}
 
 [유도 및 제어](#optimization)와 [자세 역학과 자세 제어](#attitude-dynamics-control)를 결합해 태양돛의 궤도와 자세 운동을 함께 해석하고 제어하는 방법을 연구합니다. 태양복사압에 의한 힘과 토크, 질량중심과 압력중심의 관계를 모델링하고, 구동기 한계, 관측 및 통신을 위한 지향 조건을 반영한 6자유도 시뮬레이션으로 임무 수행 가능성을 평가합니다. [AI와 기계학습](#ai-machine-learning)을 활용한 제어 명령 예측과 자율비행의 적용 가능성도 검토합니다.
