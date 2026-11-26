@@ -1,6 +1,6 @@
 {
   "source": "Crossref",
-  "updated_at": "2026-11-26T07:34:23+09:00",
+  "updated_at": "2026-11-26T18:32:51+09:00",
   "lookback_days": 90,
   "partial": false,
   "missing_pins": [],
@@ -15,7 +15,7 @@
         "0731-5090"
       ],
       "url": "https://arc.aiaa.org/journal/jgcd",
-      "last_success_at": "2026-11-26T07:34:23+09:00",
+      "last_success_at": "2026-11-26T18:32:51+09:00",
       "status": "ok",
       "items": [
         {
@@ -253,7 +253,7 @@
         "0022-4650"
       ],
       "url": "https://arc.aiaa.org/journal/jsr",
-      "last_success_at": "2026-11-26T07:34:23+09:00",
+      "last_success_at": "2026-11-26T18:32:51+09:00",
       "status": "ok",
       "items": [
         {
@@ -498,9 +498,25 @@
         "0094-5765"
       ],
       "url": "https://www.sciencedirect.com/science/journal/00945765",
-      "last_success_at": "2026-11-26T07:34:23+09:00",
+      "last_success_at": "2026-11-26T18:32:51+09:00",
       "status": "ok",
       "items": [
+        {
+          "doi": "10.1016/j.actaastro.2026.11.036",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.11.036",
+          "title": "Cislunar Dispute Resolution: Fact-Finding and Access to Data Networks",
+          "authors": [
+            "Berna Akcali Gur"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "astrodynamics"
+          ]
+        },
         {
           "doi": "10.1016/j.actaastro.2026.11.028",
           "url": "https://doi.org/10.1016/j.actaastro.2026.11.028",
@@ -564,45 +580,6 @@
           "date_type": "published-print",
           "topics": [
             "planetary"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.11.020",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.11.020",
-          "title": "Event-triggered control for libration point orbit station-keeping based on floquet theory",
-          "authors": [
-            "Jiawei Li",
-            "Chongrui Du",
-            "Honghua Dai",
-            "Xiaokui Yue"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
-          ]
-        },
-        {
-          "doi": "10.1016/j.actaastro.2026.11.019",
-          "url": "https://doi.org/10.1016/j.actaastro.2026.11.019",
-          "title": "Deep reinforcement learning with massively parallel simulation for low-thrust multi-revolution rendezvous",
-          "authors": [
-            "Chenglong Wu",
-            "Yi Zhou",
-            "Bin Cheng",
-            "Nan Zhang",
-            "Hexi Baoyin"
-          ],
-          "journal_id": "acta-astronautica",
-          "journal": "Acta Astronautica",
-          "journal_short": "Acta Astronautica",
-          "date": "2026-11",
-          "date_type": "published-print",
-          "topics": [
-            "astrodynamics"
           ]
         },
         {
@@ -730,6 +707,23 @@
             "Lianbin He",
             "Yingchun Qi",
             "Meng Zou"
+          ],
+          "journal_id": "acta-astronautica",
+          "journal": "Acta Astronautica",
+          "journal_short": "Acta Astronautica",
+          "date": "2026-11",
+          "date_type": "published-print",
+          "topics": [
+            "planetary"
+          ]
+        },
+        {
+          "doi": "10.1016/j.actaastro.2026.07.001",
+          "url": "https://doi.org/10.1016/j.actaastro.2026.07.001",
+          "title": "Strength assessment of testing samples produced from lunar regolith simulant by selective laser melting",
+          "authors": [
+            "Artem Lysenko",
+            "Tatiana Tomilina"
           ],
           "journal_id": "acta-astronautica",
           "journal": "Acta Astronautica",
@@ -1142,6 +1136,22 @@
       ]
     },
     {
+      "doi": "10.1016/j.actaastro.2026.11.036",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.11.036",
+      "title": "Cislunar Dispute Resolution: Fact-Finding and Access to Data Networks",
+      "authors": [
+        "Berna Akcali Gur"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "astrodynamics"
+      ]
+    },
+    {
       "doi": "10.1016/j.actaastro.2026.11.028",
       "url": "https://doi.org/10.1016/j.actaastro.2026.11.028",
       "title": "A branch merge and bound optimization algorithm for interplanetary mission design",
@@ -1204,45 +1214,6 @@
       "date_type": "published-print",
       "topics": [
         "planetary"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.11.020",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.11.020",
-      "title": "Event-triggered control for libration point orbit station-keeping based on floquet theory",
-      "authors": [
-        "Jiawei Li",
-        "Chongrui Du",
-        "Honghua Dai",
-        "Xiaokui Yue"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
-      ]
-    },
-    {
-      "doi": "10.1016/j.actaastro.2026.11.019",
-      "url": "https://doi.org/10.1016/j.actaastro.2026.11.019",
-      "title": "Deep reinforcement learning with massively parallel simulation for low-thrust multi-revolution rendezvous",
-      "authors": [
-        "Chenglong Wu",
-        "Yi Zhou",
-        "Bin Cheng",
-        "Nan Zhang",
-        "Hexi Baoyin"
-      ],
-      "journal_id": "acta-astronautica",
-      "journal": "Acta Astronautica",
-      "journal_short": "Acta Astronautica",
-      "date": "2026-11",
-      "date_type": "published-print",
-      "topics": [
-        "astrodynamics"
       ]
     },
     {
@@ -1370,6 +1341,23 @@
         "Lianbin He",
         "Yingchun Qi",
         "Meng Zou"
+      ],
+      "journal_id": "acta-astronautica",
+      "journal": "Acta Astronautica",
+      "journal_short": "Acta Astronautica",
+      "date": "2026-11",
+      "date_type": "published-print",
+      "topics": [
+        "planetary"
+      ]
+    },
+    {
+      "doi": "10.1016/j.actaastro.2026.07.001",
+      "url": "https://doi.org/10.1016/j.actaastro.2026.07.001",
+      "title": "Strength assessment of testing samples produced from lunar regolith simulant by selective laser melting",
+      "authors": [
+        "Artem Lysenko",
+        "Tatiana Tomilina"
       ],
       "journal_id": "acta-astronautica",
       "journal": "Acta Astronautica",
