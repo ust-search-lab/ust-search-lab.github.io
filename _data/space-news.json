@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T07:46:37+09:00",
+  "updated_at": "2026-11-26T19:02:08+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-26T07:46:37+09:00",
-      "last_success_at": "2026-11-26T07:46:37+09:00",
+      "last_retrieved_at": "2026-11-26T19:02:08+09:00",
+      "last_success_at": "2026-11-26T19:02:08+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -117,9 +117,34 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-26T07:46:37+09:00",
-      "last_success_at": "2026-11-26T07:46:37+09:00",
+      "last_retrieved_at": "2026-11-26T19:02:08+09:00",
+      "last_success_at": "2026-11-26T19:02:08+09:00",
       "items": [
+        {
+          "title": "누리호 1·2·3단 모사체 이송 점검 완료",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790926",
+          "date": "2026-11-26",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "demonstration"
+          ]
+        },
+        {
+          "title": "우주물체 추락·충돌 재난 관리체계 강화를 위한 워크숍 개최",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790889",
+          "date": "2026-11-25",
+          "source_id": "kasa",
+          "source": "KASA",
+          "region": "domestic",
+          "language": "ko",
+          "topics": [
+            "mission",
+            "satellites"
+          ]
+        },
         {
           "title": "'지구 저궤도에서 심우주까지' 우주 광통신 워크숍 개최",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790478",
@@ -242,30 +267,6 @@
           "topics": [
             "demonstration"
           ]
-        },
-        {
-          "title": "국제 행성탐사 전문가와 미래 우주과학탐사 전략 논의",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787552",
-          "date": "2026-11-02",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "exploration"
-          ]
-        },
-        {
-          "title": "\"2032년 달 착륙선 어디에 내릴까\" 착륙 후보 지역 분석 결과 공개",
-          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787278",
-          "date": "2026-10-30",
-          "source_id": "kasa",
-          "source": "KASA",
-          "region": "domestic",
-          "language": "ko",
-          "topics": [
-            "exploration"
-          ]
         }
       ]
     },
@@ -275,8 +276,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-26T07:46:37+09:00",
-      "last_success_at": "2026-11-26T07:46:37+09:00",
+      "last_retrieved_at": "2026-11-26T19:02:08+09:00",
+      "last_success_at": "2026-11-26T19:02:08+09:00",
       "items": [
         {
           "title": "NASA Eyes Crop Candidates for Future Menus",
@@ -301,7 +302,8 @@
           "topics": [
             "exploration",
             "demonstration"
-          ]
+          ],
+          "stale": false
         },
         {
           "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
@@ -441,8 +443,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-26T07:46:37+09:00",
-      "last_success_at": "2026-11-26T07:46:37+09:00",
+      "last_retrieved_at": "2026-11-26T19:02:08+09:00",
+      "last_success_at": "2026-11-26T19:02:08+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -763,8 +765,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-26T07:46:37+09:00",
-      "last_success_at": "2026-11-26T07:46:37+09:00",
+      "last_retrieved_at": "2026-11-26T19:02:08+09:00",
+      "last_success_at": "2026-11-26T19:02:08+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -821,6 +823,31 @@
   ],
   "items": [
     {
+      "title": "누리호 1·2·3단 모사체 이송 점검 완료",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790926",
+      "date": "2026-11-26",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "demonstration"
+      ]
+    },
+    {
+      "title": "우주물체 추락·충돌 재난 관리체계 강화를 위한 워크숍 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790889",
+      "date": "2026-11-25",
+      "source_id": "kasa",
+      "source": "KASA",
+      "region": "domestic",
+      "language": "ko",
+      "topics": [
+        "mission",
+        "satellites"
+      ]
+    },
+    {
       "title": "NASA Eyes Crop Candidates for Future Menus",
       "url": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
       "date": "2026-11-25",
@@ -843,7 +870,8 @@
       "topics": [
         "exploration",
         "demonstration"
-      ]
+      ],
+      "stale": false
     },
     {
       "title": "'지구 저궤도에서 심우주까지' 우주 광통신 워크숍 개최",
@@ -1096,30 +1124,6 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
-    },
-    {
-      "title": "국제 행성탐사 전문가와 미래 우주과학탐사 전략 논의",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787552",
-      "date": "2026-11-02",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "exploration"
-      ]
-    },
-    {
-      "title": "\"2032년 달 착륙선 어디에 내릴까\" 착륙 후보 지역 분석 결과 공개",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787278",
-      "date": "2026-10-30",
-      "source_id": "kasa",
-      "source": "KASA",
-      "region": "domestic",
-      "language": "ko",
-      "topics": [
-        "exploration"
       ]
     },
     {
