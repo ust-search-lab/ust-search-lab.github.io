@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T19:08:04+09:00",
+  "updated_at": "2026-11-28T07:20:21+09:00",
   "lookback_days": 90,
   "partial": true,
   "sources": [
@@ -9,8 +9,8 @@
       "region": "domestic",
       "url": "https://www.kari.re.kr/kor/article/ATCL87374b48c",
       "status": "ok",
-      "last_retrieved_at": "2026-11-27T19:08:04+09:00",
-      "last_success_at": "2026-11-27T19:08:04+09:00",
+      "last_retrieved_at": "2026-11-28T07:20:21+09:00",
+      "last_success_at": "2026-11-28T07:20:21+09:00",
       "items": [
         {
           "title": "대학(원)생 아이디어를 우주로, 제7회 초소형위성 경연대회 최종 선정",
@@ -117,8 +117,8 @@
       "region": "domestic",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do?repCode=B00026",
       "status": "ok",
-      "last_retrieved_at": "2026-11-27T19:08:04+09:00",
-      "last_success_at": "2026-11-27T19:08:04+09:00",
+      "last_retrieved_at": "2026-11-28T07:20:21+09:00",
+      "last_success_at": "2026-11-28T07:20:21+09:00",
       "items": [
         {
           "title": "누리호 1·2·3단 모사체 이송 점검 완료",
@@ -276,9 +276,21 @@
       "region": "international",
       "url": "https://www.nasa.gov/rss-feeds/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-27T19:08:04+09:00",
-      "last_success_at": "2026-11-27T19:08:04+09:00",
+      "last_retrieved_at": "2026-11-28T07:20:21+09:00",
+      "last_success_at": "2026-11-28T07:20:21+09:00",
       "items": [
+        {
+          "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+          "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+          "date": "2026-11-27",
+          "source_id": "nasa",
+          "source": "NASA",
+          "region": "international",
+          "language": "en",
+          "topics": [
+            "exploration"
+          ]
+        },
         {
           "title": "NASA Eyes Crop Candidates for Future Menus",
           "url": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
@@ -422,18 +434,6 @@
             "demonstration"
           ],
           "stale": false
-        },
-        {
-          "title": "NASA Launches Nuclear Power Systems Student Contest",
-          "url": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
-          "date": "2026-11-17",
-          "source_id": "nasa",
-          "source": "NASA",
-          "region": "international",
-          "language": "en",
-          "topics": [
-            "exploration"
-          ]
         }
       ]
     },
@@ -443,8 +443,8 @@
       "region": "international",
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-27T19:08:04+09:00",
-      "last_success_at": "2026-11-27T19:08:04+09:00",
+      "last_retrieved_at": "2026-11-28T07:20:21+09:00",
+      "last_success_at": "2026-11-28T07:20:21+09:00",
       "items": [
         {
           "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
@@ -765,8 +765,8 @@
       "region": "international",
       "url": "https://global.jaxa.jp/press/",
       "status": "ok",
-      "last_retrieved_at": "2026-11-27T19:08:04+09:00",
-      "last_success_at": "2026-11-27T19:08:04+09:00",
+      "last_retrieved_at": "2026-11-28T07:20:21+09:00",
+      "last_success_at": "2026-11-28T07:20:21+09:00",
       "items": [
         {
           "title": "Completion of the Initial Critical Operations Phase of the Martian Moons eXploration (MMX) Spacecraft",
@@ -822,6 +822,18 @@
     }
   ],
   "items": [
+    {
+      "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+      "date": "2026-11-27",
+      "source_id": "nasa",
+      "source": "NASA",
+      "region": "international",
+      "language": "en",
+      "topics": [
+        "exploration"
+      ]
+    },
     {
       "title": "누리호 1·2·3단 모사체 이송 점검 완료",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790926",
@@ -1051,18 +1063,6 @@
       "language": "ko",
       "topics": [
         "demonstration"
-      ]
-    },
-    {
-      "title": "NASA Launches Nuclear Power Systems Student Contest",
-      "url": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
-      "date": "2026-11-17",
-      "source_id": "nasa",
-      "source": "NASA",
-      "region": "international",
-      "language": "en",
-      "topics": [
-        "exploration"
       ]
     },
     {
